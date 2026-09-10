@@ -112,7 +112,7 @@ export function Consent() {
           id="picmagic-adsense"
           crossOrigin="anonymous"
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads}`}
-          strategy="lazyOnload"
+          strategy="afterInteractive"
           onReady={() => {
             adScriptLoaded.current = true;
           }}

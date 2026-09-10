@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Route } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 test.skip(
@@ -10,6 +10,11 @@ test("advertising requires consent, loads once, and stops after revocation", asy
   page,
 }) => {
   let scriptRequests = 0;
+  const heldImages: Route[] = [];
+  // Consent must work while unrelated image requests delay window.load.
+  await page.route("**/previews/**", (route) => {
+    heldImages.push(route);
+  });
   await page.route("**/pagead/js/adsbygoogle.js*", async (route) => {
     scriptRequests++;
     await route.fulfill({
@@ -17,7 +22,7 @@ test("advertising requires consent, loads once, and stops after revocation", asy
       body: "window.__picmagicAdScriptLoaded = true;",
     });
   });
-  await page.goto("/");
+  await page.goto("/", { waitUntil: "domcontentloaded" });
   await expect(
     page.getByRole("complementary", { name: "Privacy preferences" }),
   ).toBeVisible();
@@ -29,6 +34,8 @@ test("advertising requires consent, loads once, and stops after revocation", asy
   expect(axe.violations).toEqual([]);
   await page.getByRole("button", { name: "Allow optional cookies" }).click();
   await expect.poll(() => scriptRequests).toBe(1);
+  await Promise.all(heldImages.map((route) => route.abort()));
+  await page.unroute("**/previews/**");
   await expect(page.locator(".consent")).toHaveCount(0);
   const placement = page
     .getByRole("complementary", { name: "Advertisement", exact: true })
