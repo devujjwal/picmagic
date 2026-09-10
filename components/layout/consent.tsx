@@ -2,6 +2,12 @@
 import Script from "next/script";
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
+import {
+  measurementId,
+  startAnalytics,
+  trackPageView,
+  setAnalyticsDisabled,
+} from "@/lib/analytics";
 import { adsenseClient, isAdvertisingPage } from "@/config/ads";
 import {
   advertisingConsentKey,
@@ -27,7 +33,7 @@ export function Consent() {
     analyticsSnapshot,
     serverSnapshot,
   );
-  const ga = process.env.NEXT_PUBLIC_GA_ID;
+  const ga = measurementId();
   const ads = process.env.NEXT_PUBLIC_ADS_ENABLED === "true" && adsenseClient;
   const hasAnalytics = Boolean(ga && /^G-[A-Z0-9]+$/.test(ga));
   const adPage = isAdvertisingPage(pathname);
@@ -48,6 +54,14 @@ export function Consent() {
     }
     previousChoices.current = { adChoice, analyticsChoice };
   }, [adChoice, analyticsChoice]);
+  useEffect(() => {
+    if (analyticsChoice === "yes" && hasAnalytics && !privatePage) {
+      startAnalytics();
+      trackPageView(pathname);
+    } else {
+      setAnalyticsDisabled(true);
+    }
+  }, [analyticsChoice, hasAnalytics, privatePage, pathname]);
   if (privatePage || (!ads && !hasAnalytics)) return null;
   const showAdChoice = Boolean(ads && adPage && adChoice === "unset");
   const showAnalyticsChoice = hasAnalytics && analyticsChoice === "unset";
@@ -64,7 +78,8 @@ export function Consent() {
       writeConsent(analyticsConsentKey, value);
     if (value !== "yes")
       window.gtag?.("consent", "update", {
-        analytics_storage: "denied",
+        analytics_storage:
+          readConsent(analyticsConsentKey) === "yes" ? "granted" : "denied",
         ad_storage: "denied",
         ad_user_data: "denied",
         ad_personalization: "denied",
@@ -75,9 +90,10 @@ export function Consent() {
       {(showAdChoice || showAnalyticsChoice) && (
         <aside className="consent" aria-label="Privacy preferences">
           <p>
-            May we use optional {description}? Advertising helps support
-            PicMagic. You can reject them and still use every photo idea and
-            creator. <a href="/privacy">Privacy policy</a>
+            May we use optional {description}? Advertising supports PicMagic;
+            analytics helps us understand which features are useful. You can
+            reject them and still use every photo idea and creator.{" "}
+            <a href="/privacy">Privacy policy</a>
           </p>
           <div>
             <button className="button small" onClick={() => choose("yes")}>
@@ -95,10 +111,7 @@ export function Consent() {
       {analyticsChoice === "yes" && hasAnalytics && (
         <>
           <Script
-            id="ga-init"
-            strategy="afterInteractive"
-          >{`window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});gtag('js',new Date());gtag('config',${JSON.stringify(ga)},{send_page_view:true});`}</Script>
-          <Script
+            id="picmagic-ga4"
             src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}
             strategy="afterInteractive"
             onReady={() => {

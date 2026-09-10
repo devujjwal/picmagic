@@ -22,10 +22,11 @@ export default function Privacy() {
       <h2>Saved looks and browsing history</h2>
       <p>
         Saved prompt IDs and up to 20 recently viewed IDs are stored in this
-        browser’s localStorage. A temporary list of visited page paths is stored
-        in sessionStorage for session-depth measurement. You can remove saves
-        individually or clear this site’s browser data to remove all local
-        records. These records are not synced to an account.
+        browser’s localStorage. After analytics consent, a temporary list of
+        visited public page paths is stored in sessionStorage for session-depth
+        measurement. You can remove saves individually or clear this site’s
+        browser data to remove all local records. These records are not synced
+        to an account.
       </p>
       <h2>Optional analytics and advertising</h2>
       <p>
@@ -37,12 +38,16 @@ export default function Privacy() {
         Rejecting optional cookies keeps the ad script disabled.
       </p>
       <p>
-        Google Analytics is currently disabled. If enabled later, it requires an
-        analytics consent choice. Analytics events describe actions such as
-        copying or saving an idea. We do not send prompt text, search terms,
-        uploaded photos or contact details in these events. You can reopen
-        cookie preferences to change your choice. Rejecting optional cookies
-        leaves the core application functional.
+        Google Analytics 4 is enabled only after you allow optional analytics
+        cookies. It measures public page views and actions such as copying or
+        saving an idea, using cookie identifiers and ordinary browser/device
+        information. Analytics permission is stored separately from advertising
+        permission. We disable Google signals and advertising personalization
+        for Analytics. We do not send prompt text, search terms, uploaded photos
+        or contact details in these events. Page URLs omit query strings and
+        fragments; external referrers are reduced to their origin. Admin pages
+        are excluded. You can reopen cookie preferences to change your choice.
+        Rejecting optional cookies leaves the core application functional.
       </p>
       <p>
         Google’s certified consent message provides additional advertising
