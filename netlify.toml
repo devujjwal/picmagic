@@ -1,5 +1,5 @@
 [build]
-command = "node scripts/check-launch.mjs && pnpm build"
+command = "pnpm build:deploy"
 publish = ".next"
 [build.environment]
 NODE_VERSION = "22"

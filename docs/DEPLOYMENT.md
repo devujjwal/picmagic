@@ -46,7 +46,7 @@ For authenticated browser tests, configure a local test administrator and run wi
 ## Netlify preview and launch
 
 1. Connect or securely log in to the owner’s Netlify account. Create a dedicated PicMagic project. Do not enable paid features or auto recharge.
-2. Keep `pnpm-workspace.yaml` in the checkout: its `supportedArchitectures` installs Linux x64 native dependencies even when building on macOS. A CLI deployment must include Sharp’s Linux binding and libvips in the server function; test a dynamic page, an upload and a share image on the hosted preview. Use `netlify.toml`: launch environment validation followed by `pnpm build`, `.next` output, Node 22, pnpm 10.30.3. Netlify’s supported Next.js adapter supplies SSR, ISR, Server Actions and image optimization. This app must not be deployed as a static export.
+2. Keep `pnpm-workspace.yaml` in the checkout: its `supportedArchitectures` installs Linux x64 native dependencies even when building on macOS. A CLI deployment must include Sharp’s Linux binding and libvips in the server function; test a dynamic page, an upload and a share image on the hosted preview. Use `netlify.toml`: `pnpm build:deploy` validates launch configuration, lint, types, tests and content before `pnpm build`; output is `.next`, with Node 22 and pnpm 10.30.3. Netlify’s supported Next.js adapter supplies SSR, ISR, Server Actions and image optimization. This app must not be deployed as a static export.
 3. Configure production environment values, initially with indexing disabled. Keep branch/deploy previews noindex and normally use a separate database for mutation testing. The initial empty-project launch audit may use uniquely named disposable records on the dedicated production database, followed by unpublishing and cleanup. Configure `ADMIN_ALLOWED_ORIGINS` with exact trusted preview/default-site HTTPS origins (comma-separated); the canonical `NEXT_PUBLIC_SITE_URL` is accepted automatically. Never allow wildcard origins.
 4. Run `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm check:content`, and `pnpm build`. Deploy a preview and run public smoke tests. Confirm no credentials appear in delivered JavaScript.
 5. Test authenticated draft creation, preview, publishing, editing, duplication, URL change and unpublishing. Confirm public pages, search and sitemap refresh after mutations.
@@ -55,6 +55,28 @@ For authenticated browser tests, configure a local test administrator and run wi
 8. Verify `https://picmagic.in`, HTTP-to-HTTPS, and `https://www.picmagic.in/path?query` redirect behavior. `www` must resolve to the apex path with the query preserved. All canonical and social URLs use the apex origin.
 9. Set indexing true only for the production context and redeploy. Verify crawlable HTML, canonical URLs, robots and sitemap on the real domain. Keep service-role keys out of runtime environments.
 10. Netlify Free sends default email and in-app warnings at 50%, 75% and 100% usage. Confirm the owner billing email, leave auto recharge disabled, and review any additional alert options available in the dashboard. Review deployment/runtime logs and failed requests after launch. Real field Core Web Vitals require traffic and are not inferred from Lighthouse.
+
+## Automatic deployment from GitHub
+
+- Repository: private `devujjwal/picmagic`, with `origin` set to `https://github.com/devujjwal/picmagic.git`.
+- Production branch: `main`, connected to the existing `picmagic-in` Netlify project and `https://picmagic.in`.
+- Connection: Netlify CLI repository integration, a repository-specific read-only deploy key, and an active GitHub push webhook with TLS verification. The webhook URL is private; do not copy it into source or documentation. Netlify does not need a GitHub personal token in its build environment.
+- Every push to `main` runs `pnpm build:deploy`: production configuration validation, ESLint, generated Next.js route types and TypeScript, Vitest, content validation, and the production build. Netlify publishes only after the complete build and framework adapter succeed. A failed build leaves the previous published release serving traffic.
+- Other branches do not publish to the production domain. This connection listens for pushes; automatic pull-request previews are not configured. Existing preview and branch contexts remain noindex.
+- Environment variables stay in Netlify. Private `.env` files, administrator credentials and the Supabase service-role key remain outside GitHub. Code deployment does not run database migrations or seed imports.
+- No GitHub Actions deployment workflow or deployment token secret is required. View build outcomes and logs in [Netlify Deploys](https://app.netlify.com/projects/picmagic-in/deploys).
+
+Normal release workflow:
+
+```sh
+git add <reviewed-files>
+git commit -m "Describe the change"
+git push origin main
+```
+
+Use the personal `devujjwal` GitHub account for this repository. Local commit identity is `Ujjwal Paul <devujjwal1989@gmail.com>`; the global email remains `ujjwal.paul@timesinternet.in`. This checkout's credential helper selects the existing `devujjwal` GitHub CLI login without changing the global active account or storing a token in Git configuration. On a new machine, authenticate that account and set the repository's local Git identity again.
+
+For a failed deployment, inspect Netlify's build log, correct the error and push another commit. For a regression after a successful deployment, restore a known-good deploy in Netlify, then revert the faulty code on `main` and push; otherwise a later push can reintroduce it. To pause automatic deployments deliberately, stop builds in Netlify's continuous deployment settings. Billing auto top-ups remain disabled; automatic deployment does not enable automatic purchases.
 
 ## Google Search Console
 

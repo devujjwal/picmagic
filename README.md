@@ -6,6 +6,8 @@ A mobile-first photo inspiration library, guided enhancement/photo/reel prompt c
 
 Live site: [picmagic.in](https://picmagic.in). Editorial login: [PicMagic Admin](https://picmagic.in/admin/login). See the [launch record](docs/LAUNCH.md) for verified hosting, DNS and Search Console outcomes.
 
+Source: [private GitHub repository](https://github.com/devujjwal/picmagic). Pushes to `main` trigger Netlify's validation, build and production deployment. See [automatic deployment](docs/DEPLOYMENT.md#automatic-deployment-from-github) for the workflow and recovery steps.
+
 ## Run locally
 
 Use Node 22 (`nvm use`) and the pinned pnpm version.
