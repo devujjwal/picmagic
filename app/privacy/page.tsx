@@ -29,12 +29,35 @@ export default function Privacy() {
       </p>
       <h2>Optional analytics and advertising</h2>
       <p>
-        When configured, optional Google Analytics and AdSense scripts load only
-        after consent. Analytics events describe actions such as copying or
-        saving an idea. We do not send prompt text, search terms, uploaded
-        photos or contact details in these events. You can reopen cookie
-        preferences to change your choice. Rejecting optional cookies leaves the
-        core application functional.
+        Advertising helps fund PicMagic. We use Google AdSense on selected
+        discovery and prompt pages when Google approves our site and supplies
+        ads. The ad script loads only after you allow optional advertising
+        cookies. Google and its advertising partners may use cookies or similar
+        identifiers to deliver, measure and, where permitted, personalize ads.
+        Rejecting optional cookies keeps the ad script disabled.
+      </p>
+      <p>
+        Google Analytics is currently disabled. If enabled later, it requires an
+        analytics consent choice. Analytics events describe actions such as
+        copying or saving an idea. We do not send prompt text, search terms,
+        uploaded photos or contact details in these events. You can reopen
+        cookie preferences to change your choice. Rejecting optional cookies
+        leaves the core application functional.
+      </p>
+      <p>
+        Google’s certified consent message provides additional advertising
+        choices where required, including for visitors in the EEA, UK and
+        Switzerland. Use its privacy settings link to revisit those choices, or
+        PicMagic’s Cookie preferences control to withdraw permission to load
+        advertising. See{" "}
+        <a href="https://policies.google.com/technologies/partner-sites">
+          how Google uses information from partner sites
+        </a>{" "}
+        and{" "}
+        <a href="https://myadcenter.google.com/">
+          Google’s ad personalization controls
+        </a>
+        .
       </p>
       <h2>Hosting and administration</h2>
       <p>
