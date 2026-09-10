@@ -101,9 +101,10 @@ export default async function Home() {
               aria-label={heroA.title}
             >
               <PreviewImage
-                src={heroA.preview_image_url}
+                src={heroA.thumbnail_url}
                 alt={heroA.image_alt}
                 priority
+                preoptimized
                 sizes="(max-width:550px) 160px, 250px"
               />
             </Link>
@@ -115,9 +116,10 @@ export default async function Home() {
               aria-label={heroB.title}
             >
               <PreviewImage
-                src={heroB.preview_image_url}
+                src={heroB.thumbnail_url}
                 alt={heroB.image_alt}
                 priority
+                preoptimized
                 sizes="(max-width:550px) 160px, 250px"
               />
             </Link>

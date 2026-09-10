@@ -6,11 +6,13 @@ export function PreviewImage({
   src,
   alt,
   priority = false,
+  preoptimized = false,
   sizes = "(max-width: 600px) 46vw, (max-width: 1000px) 30vw, 23vw",
 }: {
   src: string;
   alt: string;
   priority?: boolean;
+  preoptimized?: boolean;
   sizes?: string;
 }) {
   const [failed, setFailed] = useState(false);
@@ -25,6 +27,7 @@ export function PreviewImage({
       alt={alt}
       fill
       sizes={sizes}
+      unoptimized={preoptimized && src.startsWith("/previews/")}
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : undefined}
       onError={() => setFailed(true)}
