@@ -24,7 +24,7 @@ const serverSnapshot = () => "no" as const;
 
 // One integration controller. Google Privacy & Messaging owns advertising
 // consent; PicMagic's independent analytics choice never grants ad consent.
-export function Consent() {
+export function Consent({ nonce }: { nonce?: string }) {
   const pathname = usePathname();
   const choice = useSyncExternalStore(
     subscribeConsent,
@@ -69,6 +69,7 @@ export function Consent() {
     <>
       {choice === "yes" && ga && (
         <Script
+          nonce={nonce}
           id="picmagic-ga4"
           src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}
           strategy="afterInteractive"
@@ -76,6 +77,7 @@ export function Consent() {
       )}
       {loadAdvertising && adReady && (
         <Script
+          nonce={nonce}
           id="picmagic-adsense"
           crossOrigin="anonymous"
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}

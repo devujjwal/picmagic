@@ -2,7 +2,13 @@
 import { useCallback, useEffect, useState } from "react";
 import { NoticeProvider } from "@/features/saved/store";
 import { Consent } from "@/components/layout/consent";
-export function ClientShell({ children }: { children: React.ReactNode }) {
+export function ClientShell({
+  children,
+  nonce,
+}: {
+  children: React.ReactNode;
+  nonce?: string;
+}) {
   const [notice, setNotice] = useState("");
   const notify = useCallback((message: string) => setNotice(message), []);
   useEffect(() => {
@@ -21,7 +27,7 @@ export function ClientShell({ children }: { children: React.ReactNode }) {
       >
         {notice}
       </div>
-      <Consent />
+      <Consent nonce={nonce} />
     </NoticeProvider>
   );
 }

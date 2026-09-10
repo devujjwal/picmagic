@@ -39,3 +39,7 @@ A noindex seed-mode preview is for development only. Production needs the real S
 ## First render performance
 
 Hero/detail images and the first two paginated discovery images load eagerly with high fetch priority; the small local hero thumbnails are served directly from the CDN without another transformation; the remaining discovery feed stays lazy. Next.js’s documented experimental `inlineCss` option embeds the small Tailwind stylesheet in HTML to avoid a blocking network round trip on mobile. This trades independent stylesheet caching for faster first loads; styles can be duplicated in the initial RSC payload. Keep the committed dependency lockfile and repeat production browser/Lighthouse checks when upgrading Next.js.
+
+## Advertising CSP (10 September 2026)
+
+AdSense uses Google’s certified regional CMP and independently consented analytics. Current AdSense CSP guidance requires a strict nonce-based integration when CSP is used. Proxy provides a fresh nonce for each HTML response; Next.js and vendor scripts receive it. HTML is dynamically rendered and marked private/no-store rather than using full-page ISR. The one-hour tagged catalog cache and static/image CDN continue to operate. Public nonce generation never calls Supabase Auth; session refresh remains restricted to admin paths. See [advertising operations](ADSENSE.md) for regional serving behavior, migration and validation limits.

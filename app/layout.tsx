@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -12,15 +13,16 @@ export const metadata: Metadata = {
   robots: { index: site.indexing, follow: true },
   other: adsenseClient ? { "google-adsense-account": adsenseClient } : {},
 };
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const nonce = (await headers()).get("x-nonce") || undefined;
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body>
-        <ClientShell>
+        <ClientShell nonce={nonce}>
           <Header />
           <main id="main">{children}</main>
           <Footer />

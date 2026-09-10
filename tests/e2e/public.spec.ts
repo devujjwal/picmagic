@@ -1,5 +1,20 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+// Public journey tests must never generate real advertising impressions.
+test.beforeEach(async ({ page }) => {
+  await page.route("**/pagead/js/adsbygoogle.js*", (route) =>
+    route.fulfill({
+      contentType: "application/javascript",
+      body: "/* AdSense stub */",
+    }),
+  );
+  await page.route("**/gtag/js*", (route) =>
+    route.fulfill({
+      contentType: "application/javascript",
+      body: "/* GA4 stub */",
+    }),
+  );
+});
 test("home → category → detail → copy", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   await page.goto("/");
@@ -128,7 +143,8 @@ test("pagination progressively loads more and keeps canonical ownership", async 
   ).toHaveAttribute("href", "/ai-prompts?page=2");
   await page.getByRole("link", { name: "Load more looks" }).click();
   await expect(page.locator(".prompt-card")).toHaveCount(44);
-  await page.goto("/ai-prompts?page=2");
+  await page.goto("/ai-prompts?page=2", { waitUntil: "domcontentloaded" });
+  await expect(page.locator(".prompt-card")).toHaveCount(20);
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",
     "https://picmagic.in/ai-prompts?page=2",
