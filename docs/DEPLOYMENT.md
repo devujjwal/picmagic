@@ -12,6 +12,8 @@ Copy `.env.example` to `.env.local` for development. `CONTENT_SOURCE=seed` expli
 
 Production requires:
 
+- Node.js 22 (`nvm use` reads `.nvmrc`). Set Netlify `AWS_LAMBDA_JS_RUNTIME=nodejs22.x` through its environment-variable settings as well as the build version; a local CLI build otherwise inherits the invoking Node runtime.
+
 - `CONTENT_SOURCE=supabase`
 - `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` (the publishable/anon key is intentionally public; RLS enforces permissions)
 - `NEXT_PUBLIC_SITE_URL=https://picmagic.in` and `NEXT_PUBLIC_SITE_NAME=PicMagic`
@@ -45,7 +47,7 @@ For authenticated browser tests, configure a local test administrator and run wi
 
 1. Connect or securely log in to the owner’s Netlify account. Create a dedicated PicMagic project. Do not enable paid features or auto recharge.
 2. Keep `pnpm-workspace.yaml` in the checkout: its `supportedArchitectures` installs Linux x64 native dependencies even when building on macOS. A CLI deployment must include Sharp’s Linux binding and libvips in the server function; test a dynamic page, an upload and a share image on the hosted preview. Use `netlify.toml`: launch environment validation followed by `pnpm build`, `.next` output, Node 22, pnpm 10.30.3. Netlify’s supported Next.js adapter supplies SSR, ISR, Server Actions and image optimization. This app must not be deployed as a static export.
-3. Configure production environment values, initially with indexing disabled. Keep branch/deploy previews noindex and use a separate database for any mutation testing there.
+3. Configure production environment values, initially with indexing disabled. Keep branch/deploy previews noindex and normally use a separate database for mutation testing. The initial empty-project launch audit may use uniquely named disposable records on the dedicated production database, followed by unpublishing and cleanup. Configure `ADMIN_ALLOWED_ORIGINS` with exact trusted preview/default-site HTTPS origins (comma-separated); the canonical `NEXT_PUBLIC_SITE_URL` is accepted automatically. Never allow wildcard origins.
 4. Run `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm check:content`, and `pnpm build`. Deploy a preview and run public smoke tests. Confirm no credentials appear in delivered JavaScript.
 5. Test authenticated draft creation, preview, publishing, editing, duplication, URL change and unpublishing. Confirm public pages, search and sitemap refresh after mutations.
 6. Add `picmagic.in` as the primary custom domain and `www.picmagic.in` as its redirecting alias. Configure the DNS records Netlify supplies; do not guess or hardcode current provider IP addresses. Preserve existing MX, TXT and unrelated records.
@@ -90,4 +92,6 @@ The same Next.js app can deploy to Vercel using `pnpm build` and identical envir
 - [Google sitemap submission and processing](https://support.google.com/webmasters/answer/7451001?hl=en)
 - [Google URL Inspection](https://support.google.com/webmasters/answer/9012289?hl=en)
 
-For a CLI release, export committed files into a clean directory so private `.env` files are excluded. Link its `.netlify/state.json` to the dedicated site, install with the frozen lockfile, and run `netlify build --context deploy-preview` followed by `netlify deploy --no-build --alias preview`. The `--context` option belongs to the build step and cannot be combined with `--no-build`. Use the production context for the final release. New Netlify projects are private by default; configure this project’s visitor visibility explicitly before public smoke tests. Keep preview indexing disabled even when its visitor visibility is public.
+For a CLI release, export committed files into a clean directory so private `.env` files are excluded. Link its `.netlify/state.json` to the dedicated site, install with the frozen lockfile, and use `netlify deploy --context deploy-preview --alias preview`. This runs the complete Next.js adapter lifecycle, including static asset layout, image redirects and cache uploads. Do not split a Next.js CLI release into `netlify build` followed by `netlify deploy --no-build`: skipping deployment hooks can omit required adapter configuration. Use `netlify deploy --context production --prod` for the final release. New Netlify projects are private by default; configure this project’s visitor visibility explicitly before public smoke tests. Keep preview indexing disabled even when its visitor visibility is public.
+
+Pin the local CLI build runtime with `nvm use` (see `.nvmrc`, Node 22) and configure `AWS_LAMBDA_JS_RUNTIME=nodejs22.x` through Netlify’s UI/CLI/API. The latter does not take effect from `netlify.toml`. Verify the deployed function runtime after changing it.

@@ -1,11 +1,16 @@
 import { serverClient, hasSupabase } from "@/lib/supabase/server";
 import sharp from "sharp";
+import { isTrustedOrigin } from "@/lib/request-origin";
 export const runtime = "nodejs";
 export async function POST(request: Request) {
   if (!hasSupabase())
     return Response.json({ error: "Service unavailable" }, { status: 503 });
-  const origin = request.headers.get("origin");
-  if (!origin || origin !== new URL(request.url).origin)
+  if (
+    !isTrustedOrigin(request, [
+      process.env.NEXT_PUBLIC_SITE_URL,
+      process.env.ADMIN_ALLOWED_ORIGINS,
+    ])
+  )
     return Response.json({ error: "Invalid origin" }, { status: 403 });
   const db = await serverClient();
   const {
