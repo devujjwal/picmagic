@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-09-10T11:13:23.377Z",
+  "deployment": "6aa29046864db90009de565e",
+  "beforeConsentVendorRequests": 0,
+  "tagStatus": 200,
+  "csp": [],
+  "adElements": 1,
+  "scriptPresent": true,
+  "horizontalOverflow": false,
+  "googleCmpLoaded": false,
+  "vendorResponses": [
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      "status": 200
+    }
+  ],
+  "requestFailures": [],
+  "note": "One consented homepage tag load without scrolling to ad units or clicking ads. Regional message rendering and ad fill remain subject to Google review/propagation; this does not verify European CMP delivery."
+}

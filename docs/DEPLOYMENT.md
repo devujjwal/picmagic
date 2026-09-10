@@ -92,6 +92,8 @@ For a documentation-only commit that deliberately needs no deployment, Netlify s
 
 ## Ads and analytics activation
 
+PicMagic’s production AdSense configuration is now deployed and site review is pending. The current account, units, consent setup, remaining checks and disable switch are documented in [ADSENSE.md](ADSENSE.md). GA4 remains disabled.
+
 GA4 is centralized in `lib/analytics`. Configure only the actual property ID. Verify consent, reject/withdraw behavior, event names, SPA navigation and absence of personal data in the browser’s network panel.
 
 AdSense activation requires an approved publisher account and real slot identifiers, an appropriate `ads.txt` publisher entry if requested, and a consent setup that satisfies Google’s current requirements for the audience served. In regions where Google requires a certified CMP, configure that CMP before serving ads; the app’s basic preference panel is not a substitute for certification. Test the actual vendor scripts against CSP and Core Web Vitals before enabling `NEXT_PUBLIC_ADS_ENABLED`.

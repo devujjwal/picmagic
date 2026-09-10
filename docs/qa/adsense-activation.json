@@ -1,0 +1,50 @@
+{
+  "verified_at": "2026-09-10T11:14:05.026Z",
+  "origin": "https://picmagic.in",
+  "deployment": "6aa29046864db90009de565e",
+  "commit": "3f31b29d18429962f5c7a08c77011505303c8bfa",
+  "published_at": "2026-09-10T11:12:04.399Z",
+  "ownership": "Verified by Google",
+  "site_review": "Requested; Getting ready",
+  "ads_txt": {
+    "http_status": 200,
+    "expected_record": true,
+    "google_dashboard_status": "Not found; recrawl pending"
+  },
+  "publisher_metadata_in_html": true,
+  "units": {
+    "discovery": "2111918706",
+    "prompt_detail": "8048334764",
+    "reels": "5859592023"
+  },
+  "auto_ads": false,
+  "auto_optimize": false,
+  "google_cmp": {
+    "message": "European regulations message - picmagic.in",
+    "status": "Published",
+    "choices": ["Consent", "Do not consent", "Manage options"],
+    "privacy_url": "https://picmagic.in/privacy",
+    "regional_delivery_verified": false
+  },
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit_tests": 37,
+    "production_build": "passed",
+    "ads_browser_tests_passed": 6,
+    "ads_browser_projects": ["desktop Chromium", "mobile Chromium"],
+    "earlier_deployment_public_discovery_copy_checks": 2,
+    "earlier_deployment_sitemap_urls_verified": 65,
+    "live_vendor_script": "HTTP 200 after permission; zero requests before permission",
+    "consent_accessibility": "No WCAG A/AA violations detected in tested banner",
+    "mobile_visual_review_widths": [320, 375]
+  },
+  "ga4_enabled": false,
+  "automatic_purchases_enabled": false,
+  "remaining": [
+    "Google site approval",
+    "Google ads.txt recrawl",
+    "Verify ad fill and regional Google CMP delivery after approval/propagation",
+    "Repeat performance measurements with served ads; existing Lighthouse results predate advertising"
+  ]
+}

@@ -37,12 +37,12 @@ Unique canonical metadata, OpenGraph/X share images, WebSite/BreadcrumbList/Coll
 
 Ad placements: `home-feed-1`, `category-inline-1`, `prompt-detail-top`, `prompt-detail-inline`, `prompt-related-feed`, `reel-page-inline`, and optional `desktop-sidebar`. Slots reserve layout space and initialize lazily when configured and consented. Unconfigured production requests no ad scripts.
 
-Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category view, search, search-result click, related-prompt click, reel generation, photo-edit generation, WhatsApp share, and deduplicated session depth 3/5/10. Raw prompts, search strings and personal data are excluded. GA4 is disabled until configured. Validate the actual ad/analytics integrations and any required certified CMP before enabling them.
+Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category view, search, search-result click, related-prompt click, reel generation, photo-edit generation, WhatsApp share, and deduplicated session depth 3/5/10. Raw prompts, search strings and personal data are excluded. GA4 remains disabled. AdSense now has three responsive display units across four configured placements, separate advertising consent and a published Google CMP message. Site ownership is verified and review is pending; see [AdSense operations](ADSENSE.md).
 
 ## Validation evidence
 
 - ESLint and TypeScript: passed.
-- Vitest/Testing Library: 30 tests passed, including trusted-origin checks behind the hosting proxy.
+- Vitest/Testing Library: 37 tests passed, including advertising consent, viewport initialization, duplicate-request prevention and trusted-origin checks behind the hosting proxy.
 - Playwright: 30 public checks passed on the production HTTPS domain across desktop and mobile, plus six targeted checks after the final hero-image optimization.
 - Administrator browser tests passed create, upload, draft preview, publish, cache refresh, canonical rename/redirect, duplicate and unpublish against both local Supabase and the hosted production database. Disposable hosted records/assets were cleaned up.
 - Local Supabase: 11 RLS/Storage/redirect tests passed. Separate Auth API checks confirmed email login succeeds and public signup is rejected.
@@ -65,7 +65,7 @@ The run used a production build with launch indexing enabled for measurement. Th
 
 ## Final hosted mobile Lighthouse results
 
-Three runs per page on **https://picmagic.in**, production deployment `6aa2855b992a361b8d834268`, with normal mobile Lighthouse throttling. The table reports medians; the Performance range includes every run.
+These measurements precede AdSense activation and do not represent visits with filled ads; repeat them after Google approval. Three runs per page on **https://picmagic.in**, production deployment `6aa2855b992a361b8d834268`, with normal mobile Lighthouse throttling. The table reports medians; the Performance range includes every run.
 
 | Page     | Performance median | Performance range | Accessibility | Best Practices | SEO |
 | -------- | ------------------ | ----------------- | ------------- | -------------- | --- |
@@ -84,6 +84,6 @@ See [`.env.example`](../.env.example) and [deployment instructions](DEPLOYMENT.m
 
 ## Follow-up and remaining observations
 
-No external-access prerequisites remain. Google has accepted the sitemap and live tests passed, but the new pages were not yet indexed during the launch audit. Recheck Page Indexing and Google-selected canonicals after crawling; technical readiness does not guarantee indexing or ranking. Keep tracking Free-tier usage and future field Core Web Vitals. Ads and GA4 remain disabled until deliberately configured and validated.
+No external-access prerequisites remain. Google has accepted the sitemap and live tests passed, but the new pages were not yet indexed during the launch audit. Recheck Page Indexing and Google-selected canonicals after crawling; technical readiness does not guarantee indexing or ranking. Keep tracking Free-tier usage and future field Core Web Vitals. AdSense integration is enabled, with Google site approval and subsequent real ad-fill/regional-CMP checks still pending. GA4 remains disabled.
 
 Recommended next product improvements: use search evidence to expand useful collections; add curated before/after examples; consider optional account syncing for saved collections.

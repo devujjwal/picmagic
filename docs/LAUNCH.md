@@ -1,6 +1,6 @@
 # PicMagic launch record
 
-Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. Ads and GA4 are disabled. No external account-access prerequisites remain.
+Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. AdSense integration is enabled with consent-gated manual placements; Google site review is pending. GA4 remains disabled. No external account-access prerequisites remain.
 
 ## Production services
 
@@ -12,6 +12,10 @@ Launched on **10 September 2026** at **https://picmagic.in**. The custom domain 
 - Public operator: Ujjwal Paul. Contact: devujjwal1989@gmail.com.
 - Netlify automatic credit top-ups remain disabled. No payment method, paid add-on or automatic purchase was enabled. Default owner usage warnings are sent at 50%, 75% and 100%.
 - `VS-MJR Infotech` (`zbohtifndwvokmeewsne`) is paused as explicitly authorized to free a Supabase slot. `telecotrade` remains online.
+
+## AdSense activation
+
+Production deployment `6aa29046864db90009de565e` (commit `3f31b29`) was published automatically from GitHub on 10 September 2026 at 16:42:04 IST. Ownership was verified and review requested; Google currently reports **Getting ready**. Three manual display units and Google’s three-choice European regulations message are configured. Auto ads and Auto optimize are off. The live `ads.txt` is correct; Google’s dashboard has not yet recognized it. Integration enabled is not site approval or proof of served ads. See [ADSENSE.md](ADSENSE.md) and [activation evidence](qa/adsense-activation.json).
 
 ## DNS and HTTPS
 
@@ -37,15 +41,15 @@ Google has not yet indexed these new pages. Its selected canonical is only deter
 
 ## Validation and operating handoff
 
-The production build, lint, typecheck and 30 unit tests passed. Thirty production public browser checks passed across desktop/mobile, followed by six targeted checks after the final homepage image optimization. The full hosted publishing journey passed. Local Supabase passed 11 RLS/Storage/redirect checks and database-outage tests. Final SEO checks require descriptions and canonicals in the initial document head and verify 65 unique sitemap URLs, private/draft exclusion, collection-route isolation and branded share images.
+The production build, lint, typecheck and 37 unit tests passed after AdSense integration. Thirty production public browser checks passed across desktop/mobile, followed by six targeted checks after the final homepage image optimization. The full hosted publishing journey passed. Local Supabase passed 11 RLS/Storage/redirect checks and database-outage tests. Final SEO checks require descriptions and canonicals in the initial document head and verify 65 unique sitemap URLs, private/draft exclusion, collection-route isolation and branded share images.
 
-Final mobile Lighthouse measurements use three runs per representative page on the real HTTPS domain; medians and individual results are retained in `docs/qa/hosted-lighthouse-summary.json` and the linked reports. See [the implementation report](IMPLEMENTATION.md) for the scores, ranges, architecture, routes, schema and remaining product improvements. These are lab measurements; field Core Web Vitals require real traffic.
+The pre-advertising mobile Lighthouse measurements use three runs per representative page on the real HTTPS domain; medians and individual results are retained in `docs/qa/hosted-lighthouse-summary.json` and the linked reports. See [the implementation report](IMPLEMENTATION.md) for the scores, ranges, architecture, routes, schema and remaining product improvements. These are lab measurements; field Core Web Vitals require real traffic.
 
 The older Chromium headless-shell test runs intermittently stalled on static assets. Full Chromium passed targeted failures and the complete suite with normal HTTP/2 behavior; the committed Playwright configuration now uses full Chromium. No application checks or browser security settings were weakened to pass tests.
 
 ## Follow-up and rollback
 
 - Recheck Search Console's Sitemaps and Page Indexing reports around 13 and 17 September; investigate unexpected exclusions, fetch failures or canonical mismatches. Compare Google-selected canonicals after crawling. This is documented follow-up guidance, not a scheduled automation.
-- Review hosting/database usage and availability within the Free allowances. Enable ads or GA4 only after configuring actual account IDs, consent requirements and integration checks.
+- Review hosting/database usage and availability within the Free allowances. Check AdSense site review and ads.txt processing, then verify ad fill, regional Google CMP delivery and performance after approval. GA4 remains disabled. See [AdSense operations](ADSENSE.md).
 - Restore a previous known-good deployment through Netlify Deploys if necessary; `6aa283de4d2e840fb032d8c4` is the preceding working release. Do not reverse database migrations or overwrite editorial records during a code rollback.
 - Setup, secure first-admin provisioning, content/image replacement, deployment, rollback and optional Vercel guidance are in [DEPLOYMENT.md](DEPLOYMENT.md).
