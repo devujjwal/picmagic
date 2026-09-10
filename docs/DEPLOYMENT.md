@@ -96,7 +96,7 @@ For a documentation-only commit that deliberately needs no deployment, Netlify a
 
 ## Ads and analytics activation
 
-PicMagic’s production AdSense configuration is now deployed and site review is pending. The current account, units, consent setup, remaining checks and disable switch are documented in [ADSENSE.md](ADSENSE.md). GA4 remains disabled.
+PicMagic’s production AdSense configuration is now deployed and site review is pending. The current account, units, consent setup, remaining checks and disable switch are documented in [ADSENSE.md](ADSENSE.md). GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](GA4.md).
 
 GA4 is centralized in `lib/analytics`. Configure only the actual property ID. Verify consent, reject/withdraw behavior, event names, SPA navigation and absence of personal data in the browser’s network panel.
 

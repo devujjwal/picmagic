@@ -5,6 +5,9 @@ publish = ".next"
 [build.environment]
 NODE_VERSION = "22"
 PNPM_VERSION = "10.30.3"
+[context.production.environment]
+# Public GA4 web-stream identifier; visitor analytics still requires consent.
+NEXT_PUBLIC_GA_ID = "G-DY3MC34E0S"
 [context.deploy-preview.environment]
 NEXT_PUBLIC_INDEXING_ENABLED = "false"
 NEXT_PUBLIC_ADS_ENABLED = "false"

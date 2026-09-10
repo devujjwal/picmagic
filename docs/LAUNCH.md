@@ -1,6 +1,6 @@
 # PicMagic launch record
 
-Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. AdSense integration is enabled with CMP-controlled manual placements; Google site review is pending. GA4 remains disabled. No external account-access prerequisites remain.
+Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. AdSense integration is enabled with CMP-controlled manual placements; Google site review is pending. GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](GA4.md). No external account-access prerequisites remain.
 
 ## Production services
 
@@ -50,6 +50,6 @@ The older Chromium headless-shell test runs intermittently stalled on static ass
 ## Follow-up and rollback
 
 - Recheck Search Console's Sitemaps and Page Indexing reports around 13 and 17 September; investigate unexpected exclusions, fetch failures or canonical mismatches. Compare Google-selected canonicals after crawling. This is documented follow-up guidance, not a scheduled automation.
-- Review hosting/database usage and availability within the Free allowances. Check AdSense site review and ads.txt processing, then verify ad fill, regional Google CMP delivery and performance after approval. GA4 remains disabled. See [AdSense operations](ADSENSE.md).
+- Review hosting/database usage and availability within the Free allowances. Check AdSense site review and ads.txt processing, then verify ad fill, regional Google CMP delivery and performance after approval. GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](GA4.md). See [AdSense operations](ADSENSE.md).
 - Restore a previous known-good deployment through Netlify Deploys if necessary; `6aa283de4d2e840fb032d8c4` is the preceding working release. Do not reverse database migrations or overwrite editorial records during a code rollback.
 - Setup, secure first-admin provisioning, content/image replacement, deployment, rollback and optional Vercel guidance are in [DEPLOYMENT.md](DEPLOYMENT.md).

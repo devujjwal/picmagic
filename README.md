@@ -34,4 +34,4 @@ Browser tests use `http://localhost:3002` by default; override `E2E_BASE_URL` fo
 
 See [deployment and Search Console setup](docs/DEPLOYMENT.md), [architecture](docs/ARCHITECTURE.md), and [implementation/verification report](docs/IMPLEMENTATION.md).
 
-The production origin is `https://picmagic.in`. AdSense is configured with CMP-controlled manual placements; Google site review is pending. GA4 remains disabled. See [AdSense operations](docs/ADSENSE.md) for status and activation checks.
+The production origin is `https://picmagic.in`. AdSense is configured with CMP-controlled manual placements; Google site review is pending. GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](docs/GA4.md). See [AdSense operations](docs/ADSENSE.md) for status and activation checks.
