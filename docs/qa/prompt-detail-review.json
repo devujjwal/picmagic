@@ -1,0 +1,506 @@
+{
+  "reviewed_at": "2026-09-10T11:20:03.605219+00:00",
+  "method": "Visual comparison of all 50 local preview assets with their copied prompts; contact sheets plus enlarged review of defining cultural details. Original image-generation briefs and provenance retained unchanged. No new images were generated and external image-model outputs were not retested.",
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "type": "photo",
+      "preview": "/previews/golden-hour-draped-in-tradition.webp",
+      "reviewed_appearance": "Keep the dark hair centre-parted and gathered into a loose low braid, with a white jasmine garland following the braid and a few soft strands at the temples. Use a small bindi, delicate gold drop earrings and a restrained, closed-mouth smile.",
+      "reviewed_pose_expression": "Turn the body away from the camera and look back over one shoulder with relaxed brows and warm direct eye contact. Keep both arms resting naturally near the waist.",
+      "required_details": "Ivory saree, narrow woven gold border, matching short-sleeved blouse, visible jasmine braid and receding sandstone arches.",
+      "prompt_sha256": "cf37a8051a4c1bf0c6fef2635f70cfe993f15081bb44cfd8f5ba9f1f5cdf656f"
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "type": "photo",
+      "preview": "/previews/a-little-rain-a-lot-of-romance.webp",
+      "reviewed_appearance": "The man has softly tousled short black hair; the woman has loosely worn dark hair with wisps around her cheeks. Both wear genuine open smiles and look into each other’s eyes.",
+      "reviewed_pose_expression": "Stand close beneath one transparent umbrella. The man holds its single shaft at chest height; the woman leans slightly towards him and rests a hand lightly on his forearm.",
+      "required_details": "Charcoal coat, cream trench with dark buttons, one clear umbrella with visible ribs and rain droplets, wet pavement and amber shop reflections.",
+      "prompt_sha256": "6409193a80f929aef3808026b9008502e5e5429ca65250273e6313e48ae6c5c1"
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "type": "photo",
+      "preview": "/previews/your-next-chapter-in-focus.webp",
+      "reviewed_appearance": "Use evenly close-cropped hair, a neatly edged short salt-and-pepper beard and moustache, and a calm, approachable closed-mouth expression with soft eye catchlights.",
+      "reviewed_pose_expression": "Angle the shoulders slightly while keeping the face turned towards the lens and the chin level. The jacket lies naturally over the crew-neck shirt.",
+      "required_details": "Navy textured unstructured jacket, plain white crew neck, warm grey backdrop, individual beard hairs and natural facial lines.",
+      "prompt_sha256": "49ce6dee91d13a17db7f6dea55fe049761ba6eb094415093446aaa0f018ecd65"
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "type": "photo",
+      "preview": "/previews/somewhere-in-the-mediterranean.webp",
+      "reviewed_appearance": "Keep long copper-red curls loose around the shoulders, visible natural freckles and a cheerful smile; let a light breeze lift only a few strands.",
+      "reviewed_pose_expression": "Step down the stone staircase naturally, looking slightly beside the camera. Carry the woven bag at one side; let the rust dress move with the step.",
+      "required_details": "Rust spaghetti-strap linen sundress, woven straw market bag, flat sandals, whitewashed walls, vivid blue shutters and a glimpse of the sea.",
+      "prompt_sha256": "d263856de88de73a348b4930642b9b846fc75ee2aef55f85e75fef1119ef20c5"
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "type": "photo",
+      "preview": "/previews/the-birthday-astronaut.webp",
+      "reviewed_appearance": "Use short, softly tousled dark hair, lifted cheeks and a broad delighted smile with bright eyes. Keep the face uncovered and recognizably childlike.",
+      "reviewed_pose_expression": "Stand with feet comfortably apart, one hand at the hip and the other arm supporting the helmet against the body. Face the camera without a rigid military pose.",
+      "required_details": "Crinkled handmade silver suit and boots, black belt, one separate helmet with a dark visor, cardboard moon, suspended paper stars and navy backdrop; no readable insignia.",
+      "prompt_sha256": "56e9863f863c0f58f86cc10e1c9e382b11e2566901b1365aae815dc1d5818c79"
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "type": "photo",
+      "preview": "/previews/old-school-charm-new-memories.webp",
+      "reviewed_appearance": "Give the woman dark hair gathered back in a low bun and the man short, naturally greying hair and a neat moustache. Preserve smile lines as both laugh towards one another.",
+      "reviewed_pose_expression": "The woman rests a forearm on the parked car; the man leans casually beside her with ankles crossed and one hand resting at his pocket. Their attention stays on each other.",
+      "required_details": "Mustard patterned saree, cream open-collar shirt, brown trousers, maroon vintage car with chrome trim and a shaded tree-lined avenue.",
+      "prompt_sha256": "510fd958cfc1ed45d9baffaa49b5ada368ca18bb6c40c394241584f32fc16991"
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "type": "photo",
+      "preview": "/previews/city-lights-main-character-energy.webp",
+      "reviewed_appearance": "Use dense, tousled dark curls, a short moustache and light beard. Keep the lips relaxed and closed, eyes alert and thoughtful, looking away across the crossing.",
+      "reviewed_pose_expression": "Stand still with shoulders at a slight angle and hands loosely in trouser pockets. Turn the face towards the street rather than looking into the lens.",
+      "required_details": "Dark olive overshirt with rolled sleeves over a plain black top, sharp face and curls, blurred passing commuters, wet street and mixed teal/amber practical lights.",
+      "prompt_sha256": "2df2443fd0569cc2c272b51049e28b37d5ed98feac74295677e7f95d1a06f5cc"
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "type": "photo",
+      "preview": "/previews/the-red-saree-moment.webp",
+      "reviewed_appearance": "Keep a centre part and neat low bun, round dark-rimmed spectacles with clear lenses, a tiny bindi and small gold earrings. Use a gentle closed-mouth smile and direct, relaxed gaze.",
+      "reviewed_pose_expression": "Stand beside the railing with one hand resting flat on it and the other lightly gathering the saree at waist level. Keep the posture comfortably upright.",
+      "required_details": "White cotton saree with a broad red woven border, red blouse, modest bangles, cast-iron railing, terracotta columns and weathered green shutters. Do not hide the glasses or bindi with glare or hair.",
+      "prompt_sha256": "01b36a38c5cb0aa27daebcdb3ef278b9c00b77633ae34e735b95cda549d8a060"
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "type": "photo",
+      "preview": "/previews/barefoot-at-blue-hour.webp",
+      "reviewed_appearance": "The woman wears long dark braids; the man has short natural hair. Both have soft smiles and look towards each other rather than posing towards the camera.",
+      "reviewed_pose_expression": "Walk barefoot side by side through shallow foam, holding the nearest hands gently. Keep feet grounded in the wet sand with believable reflections and small splashes.",
+      "required_details": "Loose off-white dress and rolled-sleeve linen shirt with light trousers, two distinct people, visible bare feet, low waves and a broad peach-to-blue dusk sky.",
+      "prompt_sha256": "99772314f1267eb525ab2f363a988e0671e4353370c36780659698ac17df62a1"
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "type": "photo",
+      "preview": "/previews/quiet-confidence.webp",
+      "reviewed_appearance": "Use side-parted silver hair brushed back with natural volume, a clean-shaven face and a quiet, composed closed-mouth expression. Preserve mature facial lines.",
+      "reviewed_pose_expression": "Sit on the edge of the oak desk with the torso upright but relaxed, hands resting together on one knee and head turned slightly towards the camera.",
+      "required_details": "Textured charcoal suit, white shirt, burgundy knit tie, white pocket square and wristwatch; oak desk, tall architectural window and subdued city background.",
+      "prompt_sha256": "0fb0df67321d48cd3e0eb55346b4c01e6f707e11efb05f9af9a5e44d1db45514"
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "type": "photo",
+      "preview": "/previews/a-birthday-made-of-sunshine.webp",
+      "reviewed_appearance": "Keep short silver curls soft and slightly unruly. Capture an open, spontaneous laugh with smiling eyes and visible natural laugh lines.",
+      "reviewed_pose_expression": "Sit at the garden table with one elbow supported and a hand lightly touching the cheek; look upwards just beside the camera.",
+      "required_details": "Cobalt blue dress, delicate gold pendant necklace, small lemon cake topped with lemon slices, patterned tea cup and plate, scattered lemons and surrounding garden flowers.",
+      "prompt_sha256": "88b2af558911620439d14cd847574997a586523a85cda7ed62ff7b2b9248736f"
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "type": "photo",
+      "preview": "/previews/tiny-krishna-big-wonder.webp",
+      "reviewed_appearance": "Style the child’s dark hair into soft, voluminous tousled waves and loose curls around the ears, lifting the fringe away from the centre of the forehead. Add a clearly visible sacred forehead tilak: two slender white lines joined into a narrow U, with a fine reddish vertical line inside. Centre it between the eyebrows and the hairline. Use bright eyes looking at the camera, softly raised cheeks and a playful closed-mouth smile.",
+      "reviewed_pose_expression": "Tilt the head gently towards one shoulder while keeping the body relaxed and upright. Hold one small wooden flute diagonally across the chest with both hands, separated along its length and fingers naturally curved. The flute is held, not played.",
+      "required_details": "Exactly one upright peacock feather with its blue-green eye fully visible; yellow pleated dhoti, royal-blue sash with a gold woven border crossing one shoulder, gold-toned beaded necklace, small armlet, slim wrist bracelets and a decorated waist fastening. Keep the tilak, curls, smile, feather and both hands visible; do not replace the tilak with a round dot, crop the feather, add a large crown or recolour the child’s skin blue.",
+      "prompt_sha256": "43708e94024163638ed81fbcec464fc54c8e57cfca55752d9d865be45866af56"
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "type": "photo",
+      "preview": "/previews/a-family-evening-lit-by-diyas.webp",
+      "reviewed_appearance": "Show four distinct faces: a grey-haired grandfather with spectacles, a grandmother with silver hair gathered back and a small bindi, a mother with dark tied-back hair, jasmine, a small bindi and gold earrings and a girl with loose dark hair. Use small natural smiles and attentive downward gazes.",
+      "reviewed_pose_expression": "Seat the group close together on the veranda. The girl reaches towards a flower tray while an adult assists nearby; the others watch. Keep every face visible and fingers away from flame tips.",
+      "required_details": "Grandfather in cream with an indigo waistcoat, grandmother in indigo, mother in marigold yellow and girl in dark blue; separate brass diyas, a brass flower bowl and warm home details. Exactly four family members.",
+      "prompt_sha256": "d3f53db654c6effd300e69a8af74235c1cefe48f4166410dffc7e44ee7ce48a8"
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "type": "photo",
+      "preview": "/previews/the-desert-in-your-rear-view.webp",
+      "reviewed_appearance": "Use short dark curls, a neat short beard and a calm, thoughtful expression with lips closed. Let the gaze travel towards the distant dunes.",
+      "reviewed_pose_expression": "Stand beside the parked vehicle with relaxed shoulders and hands loosely at the trouser pockets; angle the torso towards the camera while turning the face slightly away.",
+      "required_details": "Sand-coloured linen shirt with rolled sleeves, light trousers, dusty four-wheel-drive at the frame edge, layered dunes and low sunset. Preserve small creases and dust rather than a pristine fashion finish.",
+      "prompt_sha256": "38ff2381ecf197e8b6011bbbc47fbbf5346373039d52bd8026fcaa6768239a7b"
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "type": "photo",
+      "preview": "/previews/a-modern-bridal-heirloom.webp",
+      "reviewed_appearance": "Arrange dark centre-parted hair into a low bun edged with clustered white jasmine. Include a small dark bindi and a separate gold forehead pendant on the centre part. Use softly defined eyes and a gentle closed-mouth smile looking towards the lens.",
+      "reviewed_pose_expression": "Sit slightly angled to the camera with shoulders relaxed and hands resting one over the other in the lap. Leave the forehead, earrings, necklace layers and both wrists unobstructed.",
+      "required_details": "Emerald silk saree and blouse with broad woven gold borders; gold jhumka earrings, fitted necklace, long pendant necklace, stacked bangles and an ornate waist belt. Keep each piece separate and physically attached; do not merge chains into the fabric.",
+      "prompt_sha256": "2b414a784d3e4d69649520aa82f56b76523f0de3b59eeee3aa686f2648ad3675"
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "type": "photo",
+      "preview": "/previews/the-forest-princess.webp",
+      "reviewed_appearance": "Keep the child’s natural coily hair loose and full, with a simple leafy crown nestled above it. Use an expression of quiet wonder, lips slightly parted and eyes following the sunbeam.",
+      "reviewed_pose_expression": "Reach one arm upwards with an open, relaxed palm while the other stays lower among the ferns. Keep feet on the woodland floor and the shoulder joint naturally aligned.",
+      "required_details": "Moss-green modest storybook dress with gathered fabric and short sleeves, real leaves in the crown, textured curls, layered ferns and a soft shaft of light. No adult makeup, glossy plastic costume or magical body distortion.",
+      "prompt_sha256": "8b81abc0267b35b1d98698abead078a1a4b9daa17f04a24af478ffeaa3c30bc4"
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "type": "photo_edit",
+      "preview": "/previews/a-headshot-that-feels-like-you.webp",
+      "reviewed_appearance": "Preserve the reference person’s actual hair length, part, waves, hairline, spectacles and expression. The preview shows short side-parted waves, rectangular dark frames and a mild closed-mouth smile; these are examples, not replacement identity features.",
+      "reviewed_pose_expression": "Use a relaxed head-and-shoulders composition with the eyes at lens height and shoulders slightly angled. Preserve the original expression unless a gentle professional smile is explicitly requested.",
+      "required_details": "Maintain clear eyes through the original spectacle lenses, natural skin lines and the original hair edges; use soft window light and a quiet light-grey background.",
+      "prompt_sha256": "6bcdf2d92305add6bc84223f84c682c65dcdcc158bb2380b0835686f2194fdd3"
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "type": "photo",
+      "preview": "/previews/sunday-all-together.webp",
+      "reviewed_appearance": "The mother has hair in a casual messy bun, the father short tousled hair and light facial hair, the toddler short soft hair, and the older child long loose hair. Give each person a different attentive smile or absorbed expression.",
+      "reviewed_pose_expression": "The mother supports the toddler securely at her hip beside a mixing bowl; the father tends the pan and the older child helps at the counter. Everyone looks towards the shared activity rather than the camera.",
+      "required_details": "Exactly two adults and two children; ordinary cream, dark green and muted pink knitwear, pancakes, mixing bowl, spatula and a lightly flour-dusted kitchen island. Keep the toddler away from the hot pan.",
+      "prompt_sha256": "541aa74d2d5f3d2ffd7e4b1ade178bc124d984ea72bd575b0851b2de7604aa0e"
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "type": "photo",
+      "preview": "/previews/paris-without-a-plan.webp",
+      "reviewed_appearance": "Keep a close-cropped natural haircut and a focused, quiet expression, with the eyes lowered towards the map. Preserve natural facial contrast in monochrome.",
+      "reviewed_pose_expression": "Stand outside the cafe with both hands supporting one folded paper map at chest height, elbows relaxed and feet comfortably offset.",
+      "required_details": "Tailored knee-length trench, dark cropped trousers and loafers, folded map, cafe chairs, textured wet pavement and soft urban depth. Map markings and shop lettering remain indistinct.",
+      "prompt_sha256": "9891f15583a4c9406a36050687724c915993fa317b9d2c874f9326424df70867"
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "type": "photo",
+      "preview": "/previews/the-art-of-standing-still.webp",
+      "reviewed_appearance": "Use a sleek dark hairstyle gathered into a low bun with an unobstructed hairline. Keep the expression serious and composed, chin slightly lifted and eyes directed beyond the camera.",
+      "reviewed_pose_expression": "Stand with weight shifted to one leg, one hand at the hip and the other arm resting naturally. Angle the elbows and shoulders deliberately to complement the wall’s curve.",
+      "required_details": "Sculptural cobalt-blue belted jacket and wide-leg trousers, simple tonal shoes, white curved wall and one coherent crisp shadow. Show the complete suit silhouette and avoid cropping the trouser hems.",
+      "prompt_sha256": "ca1946ee440c7b8f6a7d5d95e7679634d49479f1a4cfbf749bfd024fbcd92aa6"
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "type": "photo",
+      "preview": "/previews/coffee-rain-and-college-days.webp",
+      "reviewed_appearance": "Give the woman long loose dark waves and the man short tousled curls with light stubble. Capture shared laughter: she raises one hand near her smile while he turns towards her.",
+      "reviewed_pose_expression": "Sit close at the campus table, each holding one small chai glass comfortably. Keep their eyelines connected and the free hands separate from the glasses.",
+      "required_details": "Denim jacket, muted checked shirt, two chai glasses, notebook and pen, rain-speckled window and softly blurred campus outside. Keep only a faint wisp of steam.",
+      "prompt_sha256": "c6a4a959c0e9afc7350c9df001274de4307405a4c0b99e8d7a8d386887295a91"
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "type": "photo",
+      "preview": "/previews/built-on-quiet-discipline.webp",
+      "reviewed_appearance": "Use short textured dark hair, a neatly trimmed beard and moustache, a light believable sheen of sweat and a reflective, closed-mouth expression looking towards the side window.",
+      "reviewed_pose_expression": "Sit on a low gym bench with feet planted, knees apart and forearms resting loosely on the thighs. Keep the hands relaxed rather than clenched or enlarged.",
+      "required_details": "Plain charcoal training T-shirt, dark shorts, worn leather punching bag and gym equipment; retain an ordinary athletic physique and real fabric texture.",
+      "prompt_sha256": "6ade47aae6d68e5cecbb4754362a751fd4997ca32ea17348de152a90414dda0f"
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "type": "photo",
+      "preview": "/previews/your-product-beautifully-simple.webp",
+      "reviewed_appearance": "Show one small cylindrical amber glass bottle with rounded shoulders, a short neck, a ribbed black screw cap and a clean rectangular cream label without lettering. Preserve the amber transparency and visible glass base.",
+      "reviewed_pose_expression": "Place the bottle upright and centred on pale porous travertine, with a small olive sprig lying beside its base and a second stone block softly behind it.",
+      "required_details": "One bottle, one black cap attached correctly, blank cream label, travertine pores and restrained olive leaves. Show the cap and base completely; keep reflections narrow enough to see the bottle shape.",
+      "prompt_sha256": "8cb602b4e128f77b47a38aeaba2ce5855ec2871942cf340c08e8a1ea599981c1"
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "type": "photo",
+      "preview": "/previews/a-little-holi-happiness.webp",
+      "reviewed_appearance": "Gather the dark hair into a loose ponytail with natural face-framing wisps. Use an open, joyful smile with visible teeth and lively eyes looking towards the camera.",
+      "reviewed_pose_expression": "Turn the shoulders slightly while tilting the head gently towards the viewer. Keep the cheeks clearly visible rather than covering them with hands or flying powder.",
+      "required_details": "White cotton kurta, small silver earrings and a tiny bindi, distinct pink Holi powder on one cheek and yellow on the other, with light powder traces on the fabric. Preserve skin beneath the colour and keep powder out of the eyes.",
+      "prompt_sha256": "f814fcba38fba4a9120a2f5988ea4bd88d8a78940993918f9409e4c5b6caeda9"
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "type": "photo",
+      "preview": "/previews/the-gentlest-new-beginning.webp",
+      "reviewed_appearance": "Give the mother a loose dark bun with a few fallen strands and the father short curls and a neat beard. Both look down tenderly at the sleeping newborn with relaxed mouths and soft expressions.",
+      "reviewed_pose_expression": "The mother cradles the fully wrapped baby with the head and neck supported; the father stands close behind and rests a hand gently near her supporting arm. Keep three distinct faces visible.",
+      "required_details": "Neutral cream cotton clothing, one newborn securely wrapped in a pale lightly patterned blanket, natural window light and a quiet bedroom. No unsupported infant head or extra hands.",
+      "prompt_sha256": "629bd10b3a084100308f5b1151d380779a760f0063d5c0ec734e532fc7407cd0"
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "type": "photo",
+      "preview": "/previews/made-for-the-mountains.webp",
+      "reviewed_appearance": "Use practical loose shoulder-length dark hair for the woman and short dark hair with a trimmed beard for the man. Give both relaxed smiles; one looks towards the horizon while the other glances towards the camera.",
+      "reviewed_pose_expression": "Stand close together behind the marked overlook boundary with the nearest shoulders touching. Keep both people upright on level ground, away from the edge.",
+      "required_details": "Mustard jacket on the woman, navy jacket on the man, visible backpack straps, marked path and rope barrier, layered valley clouds and distant snow peaks. Keep the landscape dominant.",
+      "prompt_sha256": "db8f09296c730fc74b9ca9794cab6b4bab19b0d28cabc88335e589ced4e3d4b1"
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "type": "photo",
+      "preview": "/previews/a-frame-from-another-decade.webp",
+      "reviewed_appearance": "Keep shoulder-length dark waves loose with natural frizz, no polished salon finish. Use a relaxed, slightly aloof expression and a soft gaze towards the camera.",
+      "reviewed_pose_expression": "Lean one shoulder against the laundromat window with hands in jacket pockets and ankles loosely crossed. Keep the posture casual and asymmetrical.",
+      "required_details": "Burgundy varsity jacket with striped ribbing, plain white T-shirt, faded jeans and worn light trainers; laundromat machines, wet pavement, subtle flash fall-off and fine film grain.",
+      "prompt_sha256": "d8629509f3e3f03ec22c0621b722e359421cee262bdb56255145a3247432bd79"
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "type": "photo",
+      "preview": "/previews/soft-light-unmistakably-you.webp",
+      "reviewed_appearance": "Brush the long silver hair loosely back from the forehead and let it fall over one shoulder. Use steady direct eye contact and a slight closed-mouth smile; retain fine lines around eyes and mouth.",
+      "reviewed_pose_expression": "Angle the shoulders gently while keeping the face near frontal and chin level. Crop below the collarbones while leaving room above the hair.",
+      "required_details": "Black boat-neck top, warm pale-grey background, individual silver strands, natural neck and facial texture; no de-ageing or beauty-filter skin.",
+      "prompt_sha256": "ccc87a3adbbf7b2cbb361527714a4c32c09d1bb318840d21f8a1d133f86a4633"
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "type": "photo",
+      "preview": "/previews/an-intimate-jaipur-yes.webp",
+      "reviewed_appearance": "The woman has long dark waves falling over one shoulder; the man has short styled dark hair and a neatly trimmed beard. Both exchange gentle closed-mouth smiles.",
+      "reviewed_pose_expression": "Stand on opposite sides beneath the arch, turned slightly towards each other, with the nearest hands joined at a comfortable height. Keep the arms soft and both full silhouettes separate.",
+      "required_details": "Pastel rose embroidered lehenga with matching dupatta, ivory bandhgala and light trousers, subtle jewellery and pale shoes; symmetrical pink sandstone arch and a clear gap between the couple.",
+      "prompt_sha256": "b4f8eae83772749d60d307baacc9ef6bc173102d71925989553af0ce3d9de465"
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "type": "photo_edit",
+      "preview": "/previews/your-everyday-with-better-light.webp",
+      "reviewed_appearance": "Preserve the uploaded person’s hairstyle, facial hair, original expression and natural asymmetry exactly. The preview’s short dark curls and light beard are examples, not features to add.",
+      "reviewed_pose_expression": "Keep the original head angle, eye direction, pose and crop. Improve the light falling across the face without reshaping the nose, jaw, eyes or mouth.",
+      "required_details": "Retain the existing shirt, buttons, background, meaningful facial marks, jewellery and spectacles if present; improve exposure, white balance and shadow detail only.",
+      "prompt_sha256": "b61e43be51cd835952b5db79c1e2b259567f7737d9113d549feb700a9a6d9b7a"
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "type": "photo",
+      "preview": "/previews/a-tiny-superhero-off-duty.webp",
+      "reviewed_appearance": "Use short buoyant curls, a proud closed-mouth grin, slightly raised chin and lively eyes looking towards the camera. Keep the child’s natural age and proportions.",
+      "reviewed_pose_expression": "Stand with feet comfortably apart and both hands on hips, elbows bent naturally. Let the cape lift gently to one side while the body remains still.",
+      "required_details": "Homemade red cape tied over a plain blue T-shirt, jeans and red canvas trainers, cardboard skyline, paper clouds and sun. No branded chest emblem, exaggerated muscles or adult styling.",
+      "prompt_sha256": "8ef3a32ccdc477250cd229d3f8335490fdf13a0cd3a15bb974c50db89ffd2d13"
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "type": "photo",
+      "preview": "/previews/dressed-for-the-first-dance.webp",
+      "reviewed_appearance": "Give the bride a low, softly gathered hairstyle with a few loose strands and the groom short neat hair with restrained facial hair. Both smile softly while looking into each other’s eyes.",
+      "reviewed_pose_expression": "Hold a natural slow-dance position: one pair of hands joined at chest height, his other hand at her back and her free arm resting comfortably on his shoulder.",
+      "required_details": "Simple satin wedding dress, dark tuxedo, bow tie and small boutonniere, softly blurred guests and string-light bokeh; keep the joined hands readable in black and white.",
+      "prompt_sha256": "380916b409f724fdf02f898c77dd8c3890d29820ea5c4ab9730f46ef46b686e4"
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "type": "photo",
+      "preview": "/previews/the-perfect-birthday-picnic.webp",
+      "reviewed_appearance": "Use a neat chin-length bob with a soft fringe, a small contented closed-mouth smile and gentle direct eye contact. Keep the face childlike and free of adult makeup.",
+      "reviewed_pose_expression": "Sit cross-legged on the picnic blanket, with one elbow supported on a knee and one palm lightly supporting the cheek. Keep the other hand resting naturally in the lap.",
+      "required_details": "Yellow gingham dress with modest ruffled sleeves, small strawberry-topped cake, simple candles, pastel paper bunting and a woven picnic basket. Keep the cake below the face and candles separate from fingers.",
+      "prompt_sha256": "38126c4ca5d73b84a1a6ee99fd388ed48c878ba165a5210d7f26d1af9d27c338"
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "type": "photo",
+      "preview": "/previews/the-open-road-portrait.webp",
+      "reviewed_appearance": "Keep a neatly wrapped navy turban with visible fabric folds and a full natural beard and moustache. Use a thoughtful closed-mouth expression looking down the mountain road.",
+      "reviewed_pose_expression": "Stand beside the parked motorcycle with hands in jacket pockets and ankles loosely crossed. Keep the bike supported on its stand and the helmet resting securely on its seat.",
+      "required_details": "Navy turban, brown riding jacket, dark trousers and boots, classic motorcycle with round headlamp and one helmet on the seat. Do not replace the turban with a cap or crop its top.",
+      "prompt_sha256": "dddf05808ae2b61edc846675501e0a6344c377cb419d05e1f55c34cc373c5eb8"
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "type": "photo",
+      "preview": "/previews/a-winter-window-story.webp",
+      "reviewed_appearance": "Use a straight chin-length dark bob with a soft side part and a few natural flyaways. Keep the lips gently closed and the gaze thoughtful, directed out through the window.",
+      "reviewed_pose_expression": "Hold one ceramic mug close to the chest with both hands, shoulders relaxed and torso turned slightly towards the window.",
+      "required_details": "Chunky oatmeal knit sweater, pale ceramic mug, frost around the window edges, cool city view and warm interior lights. Keep mug handle, rim and fingers anatomically separate.",
+      "prompt_sha256": "1e277f7a765981b74e78f06afef37d63b5fe4131fa3fc5525215206b1398f83d"
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "type": "photo",
+      "preview": "/previews/the-christmas-kitchen.webp",
+      "reviewed_appearance": "The mother has natural dark curls gathered high, the father short wavy hair and a beard, and the children loose curls with one simple festive hair accessory. Use absorbed smiles and shared laughter.",
+      "reviewed_pose_expression": "Lean together around the table as one child pipes icing and the other arranges decorations, with the adults assisting. Keep everyone’s gaze on the biscuits and each hand attached to its own person.",
+      "required_details": "Exactly four family members, red and green knitwear, gingerbread shapes, icing bags, small topping bowls, light flour dust and an understated tree in the background.",
+      "prompt_sha256": "52efffedc3a03130e6331e706279575310154a7c45fdf7886645894b3533234e"
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "type": "photo",
+      "preview": "/previews/small-details-beautifully-made.webp",
+      "reviewed_appearance": "Show a single handmade rounded terracotta mug with a thick slightly uneven rim, one curved handle and a mottled cream-grey glaze fading into exposed reddish clay. Let the darker glazed interior remain visible.",
+      "reviewed_pose_expression": "Set the mug on a dark worn wooden workbench with its handle to the viewer’s right, seen from slightly above. Place crumpled natural linen to one side and blurred pottery tools behind.",
+      "required_details": "One attached handle, open rim, uneven glaze, clay dust and wood grain. Preserve the handmade asymmetry, stable base, tactile ceramic texture and believable contact shadow.",
+      "prompt_sha256": "6a9b8221943e746aa27103e67af07993f847634bd46df59de75b4a39724621ab"
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "type": "photo",
+      "preview": "/previews/meet-your-new-profile-picture.webp",
+      "reviewed_appearance": "Keep shoulder-length dark curls full and loosely shaped, small silver hoop earrings visible on both sides, and an open laugh with lifted cheeks and bright eyes.",
+      "reviewed_pose_expression": "Face the camera with shoulders comfortably angled and a slight spontaneous head tilt. Let the hair frame the face without covering the eyes.",
+      "required_details": "Plain coral T-shirt, saturated sky-blue studio background, two small silver hoops and distinct curls; preserve natural teeth and skin texture instead of a uniform synthetic grin.",
+      "prompt_sha256": "4579ec5f69947e4b5e9a9957ba8fdd51a936742b63c39a6b89e2927c3c833d9d"
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "type": "photo",
+      "preview": "/previews/a-night-at-the-cinema.webp",
+      "reviewed_appearance": "Use swept-back greying hair with natural uneven strands, light stubble and deep but natural facial lines. Keep the expression serious and reflective, lips closed and gaze directed past the camera.",
+      "reviewed_pose_expression": "Stand with the torso angled away and turn the head back towards the entrance light. Keep the face off-centre with the cinema glow visible behind one shoulder.",
+      "required_details": "Dark textured wool coat with a raised collar, old cinema canopy and warm bulbs, cool blue street shadows and fine film grain. Keep signage blurred rather than inventing readable titles.",
+      "prompt_sha256": "24a0126164bac6ab8aa0a605e789e38a61288d5ffe9fd67aed018179f8b4f9a3"
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "type": "photo",
+      "preview": "/previews/thirty-and-entirely-yourself.webp",
+      "reviewed_appearance": "Use short textured dark hair, a tidy light beard and moustache, and a warm understated smile. Keep the gaze towards the camera with a slight relaxed head tilt.",
+      "reviewed_pose_expression": "Sit on a simple dark chair, lean forward slightly and rest the hands loosely together between the knees. Keep both feet naturally grounded.",
+      "required_details": "Cream knit polo, dark trousers and loafers, one tiny chocolate cake with a single plain candle on a pale-blue cylindrical pedestal; no balloons, numerals or extra cakes.",
+      "prompt_sha256": "4e3c53b8035e45dadc8d5e690bae2ca5b974206cbf65b8a06195e76f79cec92e"
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "type": "photo",
+      "preview": "/previews/garba-under-the-lights.webp",
+      "reviewed_appearance": "Gather the dark hair into a textured pinned-up bun with loose tendrils. Include a small bindi, traditional earrings, a close-fitting necklace and stacked bangles. Use a joyful soft smile with eyes glancing down towards the moving skirt.",
+      "reviewed_pose_expression": "Capture one controlled turn with the shoulders angled and both hands lightly lifting the skirt edges, elbows softly bent. Keep the face sharp while only the hem carries slight motion blur.",
+      "required_details": "Turquoise chaniya choli, magenta dupatta and skirt borders, distinct mirror-work and embroidery, festive overhead strings of lights and distant dancers. Keep the bindi and jewellery visible and the skirt physically connected at the waist.",
+      "prompt_sha256": "2fb3880c4a1a2aaa7b0d0410fddf2d68b3c19c68340bb4816d69aafc93e2a39c"
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "type": "photo_edit",
+      "preview": "/previews/a-memory-worth-restoring.webp",
+      "reviewed_appearance": "Preserve the actual sitter’s grey hair arrangement, original facial expression, visible age, bindi and jewellery wherever present. The preview shows a neat bun, small bindi, modest earrings and a calm almost-smile; do not invent these when absent from the source.",
+      "reviewed_pose_expression": "Retain the original seated pose, hands, gaze and crop, including the chair or family-studio setting if present. Restore damaged areas conservatively around facial features.",
+      "required_details": "Original saree pattern and border, period blouse, natural grain and authentic faded tones; do not replace the face, modernize the clothing or add details unsupported by the source.",
+      "prompt_sha256": "6d9e10f0b5d184adf5af6580a4128a7baa73373ff339aceebf44ecacc5bc23a3"
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "type": "photo_edit",
+      "preview": "/previews/change-the-scene-keep-yourself.webp",
+      "reviewed_appearance": "Preserve the uploaded person’s original hair or twists, hairline, expression, eye direction and all facial detail. The example’s short twists and calm serious gaze describe the preview only.",
+      "reviewed_pose_expression": "Keep the subject’s exact pose and framing from the source. Replace the background behind the existing silhouette without redrawing the person.",
+      "required_details": "Original outfit, jewellery, meaningful marks and fine hair edges; a simple stone-grey studio wall with perspective and light direction matched to the source.",
+      "prompt_sha256": "f5ca6dca704db530063e52e9a80f967bf28685d4b248582a59f59fc749cde4db"
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "type": "photo_edit",
+      "preview": "/previews/an-outfit-with-a-new-perspective.webp",
+      "reviewed_appearance": "Preserve the uploaded person’s hair, parting, expression, skin tone and facial identity. Do not copy the preview model’s face or change the person’s age.",
+      "reviewed_pose_expression": "Keep the existing body pose, head angle, hands, background and crop. Fit the new clothes to the original body rather than reshaping the body to fit the clothes.",
+      "required_details": "Tailored terracotta blazer with notched lapels and matching straight wide-leg trousers over an ivory blouse; believable seams, waistband, cloth folds and hand openings. Retain existing jewellery and other accessories.",
+      "prompt_sha256": "160f7faeea329fbea7fe0c8a9d25236608201b23d3c05b14c835f2c0ed7b4ad4"
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "type": "reel",
+      "preview": "/previews/the-anniversary-slow-dance.webp",
+      "reviewed_appearance": "The woman has dark hair with silver strands gathered into a low bun, a small bindi, gold earrings and bangles; the man has short silver hair, spectacles and a neat moustache. Both exchange warm, restrained smiles.",
+      "reviewed_pose_expression": "Stand close in a gentle dance hold with one pair of hands joined at chest height and the other arms comfortably around shoulder and back. Use small swaying steps.",
+      "required_details": "Wine-red silk saree with a gold border, cream kurta and trousers, mature facial lines, veranda plants and warm string lights. Preserve glasses, bindi, bun and joined-hand positions between shots.",
+      "prompt_sha256": "4826a9b2ccdf6ae3d20dc11eb4e40e99ee5f67182f50b5dc61f86e084b8dad7c"
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "type": "reel",
+      "preview": "/previews/from-suitcase-to-seaside.webp",
+      "reviewed_appearance": "Keep long dark braids falling over one shoulder with a few moving naturally in the breeze. Use a relaxed closed-mouth smile and a gaze towards the sea.",
+      "reviewed_pose_expression": "Stand beside the balcony rail with one hand resting on it and the other relaxed near a trouser pocket. Shift weight gently without a dramatic turn.",
+      "required_details": "White linen shirt and wide-leg trousers, flat sandals, black balcony rail, small suitcase by the open door and blue sea. Keep braids and linen movement subtle and consistent.",
+      "prompt_sha256": "0118a8407a37e14f4fc1928f180630b92d3705f9718f175abae96286fe72f842"
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "type": "reel",
+      "preview": "/previews/a-birthday-in-three-little-moments.webp",
+      "reviewed_appearance": "Use long dark hair half gathered away from the face with gentle loose waves, a small pale flower hair clip and a shy happy smile. The child looks down at the ribbon and then lifts her eyes towards a parent.",
+      "reviewed_pose_expression": "Stand beside the cake while two parents help tie one ribbon at the waist. Keep the child’s hands relaxed and the adults’ hands distinct and clear of the candles.",
+      "required_details": "Comfortable peach sleeveless party dress with floral texture and a waist ribbon, one small pastel birthday cake with plain candles, window light and warm fairy lights; preserve the child’s natural age.",
+      "prompt_sha256": "bb84f7ce7c2487fed76ab5be75f627e73185f1ef8a40e7268f94d3c7137341fa"
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "type": "reel",
+      "preview": "/previews/the-fragrance-reveal.webp",
+      "reviewed_appearance": "Show one clear rectangular perfume bottle with thick bevelled glass, rounded vertical edges, pale amber liquid and a cylindrical polished gold cap attached to its neck. Use no label or lettering.",
+      "reviewed_pose_expression": "Stand the bottle upright on dark polished veined stone, with one curled citrus peel beside the base. Keep the camera at a low three-quarter hero angle and the whole cap visible.",
+      "required_details": "Fixed bottle silhouette, one gold cap, stable liquid level, a single citrus peel, narrow softbox highlights and warm transmitted light. Reflections must track the bottle rather than become a second object.",
+      "prompt_sha256": "cdc4b0368de18e2938cb0363469f08110496167a2660e9ad33b85101a86af639"
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "type": "reel",
+      "preview": "/previews/one-city-one-beautiful-evening.webp",
+      "reviewed_appearance": "Keep medium-length black hair with a soft centre part and loose swept strands, a clean-shaven face and a thoughtful closed-mouth expression. Look across the city rather than towards the lens.",
+      "reviewed_pose_expression": "Lean lightly against the wet bridge railing with forearms supported and hands relaxed. Turn the head only slightly while keeping the same profile and posture.",
+      "required_details": "Plain navy jacket, wet metal railings, softly blurred city lights and restrained magenta/amber water reflections. Preserve the hairstyle, jacket collar and hand placement through every shot.",
+      "prompt_sha256": "c0e8acec14b3898e27062f8584d15a93301b7c2472cf99953c2fd1e6dd7dd4f3"
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "type": "reel",
+      "preview": "/previews/a-wedding-morning-remembered.webp",
+      "reviewed_appearance": "The bride has centre-parted dark hair in a low bun beneath a sheer dupatta, a small bindi, centred forehead pendant, traditional earrings and a close-fitting necklace. Her mother has softly gathered dark hair, small jewellery and a warm smile. Both look towards the dupatta adjustment.",
+      "reviewed_pose_expression": "Seat the bride with hands resting together in her lap while her mother stands just behind and gently arranges the edge of the dupatta near the shoulder and hair.",
+      "required_details": "Pale-gold embroidered lehenga and sheer edged dupatta, separate forehead pendant, earrings, necklace, bangles and delicate mehndi on the resting hands; mother in a muted blush-gold saree, tall window and soft intimate light. Keep the forehead jewellery visible and fabric transparent over the hair.",
+      "prompt_sha256": "5d9b915339e10ca79ff23226edac88204c3efd4aefd80c32b042efe2d5bd9530"
+    }
+  ]
+}

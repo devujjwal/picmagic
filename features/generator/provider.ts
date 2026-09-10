@@ -163,6 +163,8 @@ export interface ImageGenerationProvider {
 }
 export const identityInstruction =
   "Preserve the facial identity, face shape, eye shape, nose, lips, hairstyle, skin tone and natural proportions of the person in the reference image. Preserve their age and realistic skin texture. Do not replace the face, excessively smooth skin, exaggerate body proportions or drift from their identity.";
+export const referenceDetailInstruction =
+  "Essential reference details: retain the original hair part, length and texture, facial hair, expression, gaze, spectacles, jewellery, headwear and visible cultural marks such as a bindi or tilak unless a requested direction explicitly changes that detail. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
 export function interpolate(
   template: string,
   variables: Record<string, string>,
@@ -227,7 +229,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
       : poses[v.variant % poses.length];
     return {
       text: interpolate(
-        "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{identity_preservation}}",
+        "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{identity_preservation}} {{reference_details}}",
         {
           style: v.style.toLowerCase(),
           subject,
@@ -251,12 +253,51 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
             v.identity && !product
               ? identityInstruction
               : "Do not add watermarks or unwanted text.",
+          reference_details: product
+            ? "Essential reference details: preserve the exact cap, handle, label, logo, geometry and material texture of the supplied product. Keep the complete object visible and never replace its branding with invented lettering."
+            : referenceDetailInstruction,
         },
       ),
     };
   }
   generatePhotoEditPrompt(input: GeneratorInput): GeneratedPrompt {
     const v = inputSchema.parse(input);
+    const scopedEdits = [
+      "Improve Lighting",
+      "Improve Image Quality",
+      "Change Background",
+      "Change Outfit",
+      "Hairstyle Ideas",
+      "Remove Unwanted Objects",
+      "Restore Old Photo",
+      "Wedding Enhancement",
+      "Travel Photo Enhancement",
+      "Product Background",
+    ];
+    // A local edit must not inherit a new pose, outfit and setting from the
+    // photoshoot template: those directions can erase the details being kept.
+    if (scopedEdits.includes(v.improvement)) {
+      const product = v.subject === "Product";
+      const identity = product
+        ? "Preserve the exact object, geometry, materials, existing label and branding."
+        : v.improvement === "Hairstyle Ideas"
+          ? identityInstruction.replace("hairstyle, ", "")
+          : identityInstruction;
+      const requested =
+        v.improvement === "Change Background" ||
+        v.improvement === "Product Background"
+          ? `New background: ${v.background}. Match it to the existing subject's light and perspective.`
+          : v.improvement === "Change Outfit"
+            ? `Requested outfit: ${v.outfit}. Fit the fabric to the original body and pose.`
+            : v.improvement === "Improve Lighting"
+              ? `Lighting direction: ${v.lighting}; preserve the subject's skin tone and the scene's original character.`
+              : v.improvement === "Restore Old Photo"
+                ? "Retain the source's monochrome or colour treatment; do not colourize unless requested."
+                : "";
+      return {
+        text: `Edit the supplied photo. ${editDirections[v.improvement]} ${requested} ${identity} ${product ? "Preserve all original product details, placement and supporting props outside the requested edit." : `${referenceDetailInstruction} Preserve the original expression, pose, outfit and background except for the specifically requested change.`} Output aspect ratio: ${v.aspect_ratio}; retain the original crop where possible${product ? "" : " and do not invent unseen body parts"}. No added text or watermarks.`,
+      };
+    }
     const base = this.generatePhotoPrompt({
       ...v,
       identity: v.subject !== "Product",
@@ -302,7 +343,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     return {
       concept,
       scenes,
-      text: `Create a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} Maintain continuity of identity, wardrobe, object geometry and light across every shot. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
+      text: `Create a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} ${v.subject === "Product" ? "Essential continuity: preserve the exact product shape, cap, label, material, liquid level and props across every shot; reflections should move consistently with the camera." : `Wardrobe: ${v.outfit}. ${referenceDetailInstruction} Essential continuity: keep the same people, age, hairstyle, facial marks, jewellery and wardrobe across every shot; expressions change only subtly with the action.`} Keep the final hold inside the selected duration. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
       caption: `${v.mood === "Funny" ? "A little unexpected joy." : "A moment worth keeping."} ${v.subject === "Product" ? "It’s all in the details." : "Make this story your own."}`,
       hashtags: ["#PicMagic", `#${v.subject}Reel`, "#CreativeVideo"],
       music:
@@ -331,7 +372,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
           .filter(
             (s, i) =>
               i < 5 ||
-              /aspect ratio|Preserve the facial|Scene|second|continuity/i.test(
+              /aspect ratio|preserv|retain|do not|never|unless|only|essential|appearance|expression|gaze|hair|bindi|tilak|jewellery|accessor|wardrobe|styling|outfit|framing|Scene|second|continuity/i.test(
                 s,
               ),
           )
