@@ -28,11 +28,16 @@ for (const path of [
 ]) {
   const response = await fetch(origin + path);
   const html = await response.text();
-  const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
-  const robots = html.match(/<meta name="robots" content="([^"]+)"/)?.[1];
+  const head = html.split("</head>")[0];
+  const canonical = head.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
+  const robots = head.match(/<meta name="robots" content="([^"]+)"/)?.[1];
+  const description = head.match(
+    /<meta name="description" content="([^"]+)"/,
+  )?.[1];
   if (
     !response.ok ||
     !canonical ||
+    !description ||
     new URL(canonical).href !== new URL(site + path).href ||
     robots?.includes("noindex")
   )
@@ -45,6 +50,7 @@ for (const path of [
     status: response.status,
     canonical,
     robots,
+    descriptionInHead: Boolean(description),
     structuredTypes: structured.map((x) => x["@type"]),
   });
 }

@@ -17,6 +17,10 @@ const csp = [
   "upgrade-insecure-requests",
 ].join("; ");
 const config: NextConfig = {
+  // Keep canonical and description tags in the initial head for every client.
+  htmlLimitedBots: /.*/,
+  // The small Tailwind stylesheet can arrive with HTML on slow mobile networks.
+  experimental: { inlineCss: true },
   images: {
     // Only the disposable local Supabase test instance may serve local images.
     // Hosted builds retain Next.js private-network protection.
