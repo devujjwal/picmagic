@@ -1,0 +1,34 @@
+{
+  "production_origin": "https://picmagic.in",
+  "source_commit": "4439a3dfea910e5fb0078fa592064f8bbdd9edee",
+  "netlify_deploy": "6aa2a96c25f62a000876c352",
+  "published_at": "2026-09-10T12:59:31.605Z",
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "production_build": "passed",
+    "unit_tests": 62,
+    "local_browser_checks": 52,
+    "local_browser_note": "Includes targeted reruns following CSP-test correction and pagination wait correction.",
+    "production_browser_checks": 9,
+    "production_browser_note": "Google stubbed for consent integration-boundary tests.",
+    "https_status": 200,
+    "fresh_response_nonces": true,
+    "html_cache_control": "private, no-store",
+    "real_google_tag_status": 200,
+    "real_google_fraud_resources_status": [200, 204],
+    "observed_csp_violations": 0,
+    "ga4_loaded": false
+  },
+  "google_account": {
+    "european_message": "active",
+    "us_message": "Published: PicMagic US privacy choices",
+    "limited_ads": "Allowed",
+    "site_review": "Getting ready"
+  },
+  "remaining_verification": {
+    "actual_cmp_api": "not delivered during live debug preview",
+    "ad_fill": "unfilled",
+    "next_step": "Recheck actual regional CMP accept/reject/revocation and eligible ad requests after Google site activation/message propagation; local fixtures do not establish real ad fill."
+  }
+}
