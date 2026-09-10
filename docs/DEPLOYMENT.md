@@ -44,7 +44,7 @@ For authenticated browser tests, configure a local test administrator and run wi
 ## Netlify preview and launch
 
 1. Connect or securely log in to the owner’s Netlify account. Create a dedicated PicMagic project. Do not enable paid features or auto recharge.
-2. Use `netlify.toml`: launch environment validation followed by `pnpm build`, `.next` output, Node 22, pnpm 10.30.3. Netlify’s supported Next.js adapter supplies SSR, ISR, Server Actions and image optimization. This app must not be deployed as a static export.
+2. Keep `pnpm-workspace.yaml` in the checkout: its `supportedArchitectures` installs Linux x64 native dependencies even when building on macOS. A CLI deployment must include Sharp’s Linux binding and libvips in the server function; test a dynamic page, an upload and a share image on the hosted preview. Use `netlify.toml`: launch environment validation followed by `pnpm build`, `.next` output, Node 22, pnpm 10.30.3. Netlify’s supported Next.js adapter supplies SSR, ISR, Server Actions and image optimization. This app must not be deployed as a static export.
 3. Configure production environment values, initially with indexing disabled. Keep branch/deploy previews noindex and use a separate database for any mutation testing there.
 4. Run `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm check:content`, and `pnpm build`. Deploy a preview and run public smoke tests. Confirm no credentials appear in delivered JavaScript.
 5. Test authenticated draft creation, preview, publishing, editing, duplication, URL change and unpublishing. Confirm public pages, search and sitemap refresh after mutations.
@@ -52,7 +52,7 @@ For authenticated browser tests, configure a local test administrator and run wi
 7. Resolve the previously observed NXDOMAIN state by checking domain status, registrar delegation and authoritative nameservers. Wait for actual DNS propagation and HTTPS certificate issuance before calling launch complete.
 8. Verify `https://picmagic.in`, HTTP-to-HTTPS, and `https://www.picmagic.in/path?query` redirect behavior. `www` must resolve to the apex path with the query preserved. All canonical and social URLs use the apex origin.
 9. Set indexing true only for the production context and redeploy. Verify crawlable HTML, canonical URLs, robots and sitemap on the real domain. Keep service-role keys out of runtime environments.
-10. Turn on available usage alerts. Review deployment/runtime logs and failed requests after launch. Real field Core Web Vitals require traffic and are not inferred from Lighthouse.
+10. Netlify Free sends default email and in-app warnings at 50%, 75% and 100% usage. Confirm the owner billing email, leave auto recharge disabled, and review any additional alert options available in the dashboard. Review deployment/runtime logs and failed requests after launch. Real field Core Web Vitals require traffic and are not inferred from Lighthouse.
 
 ## Google Search Console
 
@@ -89,3 +89,5 @@ The same Next.js app can deploy to Vercel using `pnpm build` and identical envir
 - [Google domain ownership verification](https://support.google.com/webmasters/answer/9008080?hl=en)
 - [Google sitemap submission and processing](https://support.google.com/webmasters/answer/7451001?hl=en)
 - [Google URL Inspection](https://support.google.com/webmasters/answer/9012289?hl=en)
+
+For a CLI release, export committed files into a clean directory so private `.env` files are excluded. Link its `.netlify/state.json` to the dedicated site, install with the frozen lockfile, and run `netlify build --context deploy-preview` followed by `netlify deploy --no-build --alias preview`. The `--context` option belongs to the build step and cannot be combined with `--no-build`. Use the production context for the final release. New Netlify projects are private by default; configure this project’s visitor visibility explicitly before public smoke tests. Keep preview indexing disabled even when its visitor visibility is public.

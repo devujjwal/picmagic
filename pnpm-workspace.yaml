@@ -1,0 +1,5 @@
+# Include Netlify's Linux runtime binaries when deploying from macOS.
+supportedArchitectures:
+  os: [current, linux]
+  cpu: [current, x64]
+  libc: [current, glibc]
