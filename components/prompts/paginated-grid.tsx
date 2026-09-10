@@ -19,7 +19,7 @@ export function PaginatedGrid({
   const visible = prompts.slice(start, end);
   return (
     <>
-      <PromptGrid prompts={visible} />
+      <PromptGrid prompts={visible} prioritizeFirst />
       <p className="sr-only" role="status">
         Showing {visible.length} looks on this page.
       </p>

@@ -25,7 +25,8 @@ export function PreviewImage({
       alt={alt}
       fill
       sizes={sizes}
-      priority={priority}
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : undefined}
       onError={() => setFailed(true)}
     />
   );
