@@ -1,6 +1,6 @@
 # PicMagic GA4 activation
 
-Activation configuration on 10 September 2026: the owner completed legal acceptance and created PicMagic’s account, property and web stream. Production is configured to use the real measurement ID below. The existing consent-based implementation is unchanged; release completion requires the live checks recorded after deployment.
+Live on 10 September 2026: the owner completed legal acceptance and created PicMagic’s account, property and web stream. Production is configured to use the real measurement ID below. The existing consent-based implementation is unchanged; the deployment and live checks are recorded below.
 
 ## Dedicated property
 
@@ -15,7 +15,16 @@ Activation configuration on 10 September 2026: the owner completed legal accepta
 
 `netlify.toml` owns `NEXT_PUBLIC_GA_ID` in the **production** context. Preview and branch contexts explicitly leave it blank. Do not add a duplicate inline tag or a second Google Tag Manager container. No Analytics 360 upgrade, paid campaign or purchase is required.
 
-## Release verification
+## Verified release
+
+- Application commit: `9ffb852a08a40436f59939efdba0812bb450e211`.
+- Netlify production deploy: `6aa2adb5aa15110008581ff9`, published September 10, 2026 at 13:17:42 UTC. One production deployment for activation.
+- Local validation: lint, TypeScript, 69 unit tests, four desktop/mobile analytics journeys and an isolated production build using the issued measurement ID passed.
+- Real Google collection verified at 13:19:56 UTC: `page_view` and `prompt_save` both received HTTP 204 from Google Analytics for `G-DY3MC34E0S`. Page location was `https://picmagic.in/`; the diagnostic query string was excluded.
+- No GA script or collection before consent or after initial rejection. After withdrawal, the reloaded page contained no GA script. Zero CSP violations. Ads were blocked in the verification browser to avoid test ad impressions.
+- Google's Realtime interface initially still showed zero users. HTTP 204 confirms successful collection transport, not finished report processing; the new-property report can lag. Recheck the linked dashboard without redeploying.
+
+## Release verification procedure
 
 Before release, run the existing local analytics browser journeys with a stubbed Google library and confirm the production build. After release, verify no GA requests before analytics consent, successful real Google collection after consent, sanitized page views and a feature event, and rejection/revocation. Inspect Realtime for receipt; the setup warning and standard reports can lag behind actual collection. Do not treat a stubbed test as proof of Google receipt.
 
