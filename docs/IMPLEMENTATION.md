@@ -39,10 +39,12 @@ Ad placements: `home-feed-1`, `category-inline-1`, `prompt-detail-top`, `prompt-
 
 Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category view, search, search-result click, related-prompt click, reel generation, photo-edit generation, WhatsApp share, and deduplicated session depth 3/5/10. Raw prompts, search strings and personal data are excluded. GA4 remains disabled. AdSense now has three responsive display units across four configured placements, separate advertising consent and a published Google CMP message. Site ownership is verified and review is pending; see [AdSense operations](ADSENSE.md).
 
+The complete preview-aligned prompt review, identity-versus-style guidance and publishing evidence are documented in [PROMPT-QUALITY.md](PROMPT-QUALITY.md). All 50 live detail pages match their revised prompt text and FAQs; ten targeted desktop/mobile checks passed after this update.
+
 ## Validation evidence
 
 - ESLint and TypeScript: passed.
-- Vitest/Testing Library: 37 tests passed, including advertising consent, viewport initialization, duplicate-request prevention and trusted-origin checks behind the hosting proxy.
+- Vitest/Testing Library: 47 tests passed, including advertising consent, viewport initialization, duplicate-request prevention and trusted-origin checks behind the hosting proxy.
 - Playwright: 30 public checks passed on the production HTTPS domain across desktop and mobile, plus six targeted checks after the final hero-image optimization.
 - Administrator browser tests passed create, upload, draft preview, publish, cache refresh, canonical rename/redirect, duplicate and unpublish against both local Supabase and the hosted production database. Disposable hosted records/assets were cleaned up.
 - Local Supabase: 11 RLS/Storage/redirect tests passed. Separate Auth API checks confirmed email login succeeds and public signup is rejected.

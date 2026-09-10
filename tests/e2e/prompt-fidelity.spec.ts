@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import prompts from "../../content/prompts.json";
+import prompts from "../../content/prompts.json" with { type: "json" };
 const krishna = prompts.find((p) => p.slug === "tiny-krishna-big-wonder")!;
 test("Krishna details and copy preserve the full reviewed prompt", async ({
   page,
@@ -21,9 +21,7 @@ test("Krishna details and copy preserve the full reviewed prompt", async ({
     ),
   ).toBe(true);
   await expect(
-    page.getByRole("heading", {
-      name: "What if the tool leaves out a detail?",
-    }),
+    page.getByText("What if the tool leaves out a detail?", { exact: true }),
   ).toBeVisible();
 });
 test("enhancement and shortening retain source appearance and scoped edit instructions", async ({
@@ -42,7 +40,9 @@ test("enhancement and shortening retain source appearance and scoped edit instru
   await expect(page.locator(".prompt-text")).toContainText(
     "original expression, pose, outfit and background",
   );
-  await page.getByRole("button", { name: "Shorten", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Shorten prompt", exact: true })
+    .click();
   await expect(page.locator(".prompt-text")).toContainText("bindi or tilak");
   await expect(page.locator(".prompt-text")).toContainText(
     "Do not invent a religious mark",

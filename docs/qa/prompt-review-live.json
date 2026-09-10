@@ -1,0 +1,439 @@
+{
+  "verified_at": "2026-09-10T11:27:11.497Z",
+  "origin": "https://picmagic.in",
+  "checked": 50,
+  "failed": 0,
+  "method": "Fresh HTTP fetch and inert HTML parsing of all 50 public canonical detail pages; no ad impressions or external image-model generation.",
+  "results": [
+    {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "cf37a8051a4c1bf0c6fef2635f70cfe993f15081bb44cfd8f5ba9f1f5cdf656f"
+    },
+    {
+      "path": "/ai-prompts/couple/a-little-rain-a-lot-of-romance",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "6409193a80f929aef3808026b9008502e5e5429ca65250273e6313e48ae6c5c1"
+    },
+    {
+      "path": "/ai-prompts/professional/your-next-chapter-in-focus",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "49ce6dee91d13a17db7f6dea55fe049761ba6eb094415093446aaa0f018ecd65"
+    },
+    {
+      "path": "/ai-prompts/travel/somewhere-in-the-mediterranean",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "d263856de88de73a348b4930642b9b846fc75ee2aef55f85e75fef1119ef20c5"
+    },
+    {
+      "path": "/ai-prompts/kids/the-birthday-astronaut",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "56e9863f863c0f58f86cc10e1c9e382b11e2566901b1365aae815dc1d5818c79"
+    },
+    {
+      "path": "/ai-prompts/couple/old-school-charm-new-memories",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "510fd958cfc1ed45d9baffaa49b5ada368ca18bb6c40c394241584f32fc16991"
+    },
+    {
+      "path": "/ai-prompts/men/city-lights-main-character-energy",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "2df2443fd0569cc2c272b51049e28b37d5ed98feac74295677e7f95d1a06f5cc"
+    },
+    {
+      "path": "/ai-prompts/women/the-red-saree-moment",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "01b36a38c5cb0aa27daebcdb3ef278b9c00b77633ae34e735b95cda549d8a060"
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "99772314f1267eb525ab2f363a988e0671e4353370c36780659698ac17df62a1"
+    },
+    {
+      "path": "/ai-prompts/men/quiet-confidence",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "0fb0df67321d48cd3e0eb55346b4c01e6f707e11efb05f9af9a5e44d1db45514"
+    },
+    {
+      "path": "/ai-prompts/birthday/a-birthday-made-of-sunshine",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "88b2af558911620439d14cd847574997a586523a85cda7ed62ff7b2b9248736f"
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "43708e94024163638ed81fbcec464fc54c8e57cfca55752d9d865be45866af56"
+    },
+    {
+      "path": "/ai-prompts/festival/a-family-evening-lit-by-diyas",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "d3f53db654c6effd300e69a8af74235c1cefe48f4166410dffc7e44ee7ce48a8"
+    },
+    {
+      "path": "/ai-prompts/travel/the-desert-in-your-rear-view",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "38ff2381ecf197e8b6011bbbc47fbbf5346373039d52bd8026fcaa6768239a7b"
+    },
+    {
+      "path": "/ai-prompts/wedding/a-modern-bridal-heirloom",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "2b414a784d3e4d69649520aa82f56b76523f0de3b59eeee3aa686f2648ad3675"
+    },
+    {
+      "path": "/ai-prompts/kids/the-forest-princess",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "8b81abc0267b35b1d98698abead078a1a4b9daa17f04a24af478ffeaa3c30bc4"
+    },
+    {
+      "path": "/ai-prompts/professional/a-headshot-that-feels-like-you",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "6bcdf2d92305add6bc84223f84c682c65dcdcc158bb2380b0835686f2194fdd3"
+    },
+    {
+      "path": "/ai-prompts/family/sunday-all-together",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "541aa74d2d5f3d2ffd7e4b1ade178bc124d984ea72bd575b0851b2de7604aa0e"
+    },
+    {
+      "path": "/ai-prompts/travel/paris-without-a-plan",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "9891f15583a4c9406a36050687724c915993fa317b9d2c874f9326424df70867"
+    },
+    {
+      "path": "/ai-prompts/fashion/the-art-of-standing-still",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "ca1946ee440c7b8f6a7d5d95e7679634d49479f1a4cfbf749bfd024fbcd92aa6"
+    },
+    {
+      "path": "/ai-prompts/couple/coffee-rain-and-college-days",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "c6a4a959c0e9afc7350c9df001274de4307405a4c0b99e8d7a8d386887295a91"
+    },
+    {
+      "path": "/ai-prompts/men/built-on-quiet-discipline",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "6ade47aae6d68e5cecbb4754362a751fd4997ca32ea17348de152a90414dda0f"
+    },
+    {
+      "path": "/ai-prompts/product-photography/your-product-beautifully-simple",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "8cb602b4e128f77b47a38aeaba2ce5855ec2871942cf340c08e8a1ea599981c1"
+    },
+    {
+      "path": "/ai-prompts/festival/a-little-holi-happiness",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "f814fcba38fba4a9120a2f5988ea4bd88d8a78940993918f9409e4c5b6caeda9"
+    },
+    {
+      "path": "/ai-prompts/family/the-gentlest-new-beginning",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "629bd10b3a084100308f5b1151d380779a760f0063d5c0ec734e532fc7407cd0"
+    },
+    {
+      "path": "/ai-prompts/travel/made-for-the-mountains",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "db8f09296c730fc74b9ca9794cab6b4bab19b0d28cabc88335e589ced4e3d4b1"
+    },
+    {
+      "path": "/ai-prompts/retro/a-frame-from-another-decade",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "d8629509f3e3f03ec22c0621b722e359421cee262bdb56255145a3247432bd79"
+    },
+    {
+      "path": "/ai-prompts/women/soft-light-unmistakably-you",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "ccc87a3adbbf7b2cbb361527714a4c32c09d1bb318840d21f8a1d133f86a4633"
+    },
+    {
+      "path": "/ai-prompts/wedding/an-intimate-jaipur-yes",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "b4f8eae83772749d60d307baacc9ef6bc173102d71925989553af0ce3d9de465"
+    },
+    {
+      "path": "/ai-prompts/professional/your-everyday-with-better-light",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "b61e43be51cd835952b5db79c1e2b259567f7737d9113d549feb700a9a6d9b7a"
+    },
+    {
+      "path": "/ai-prompts/kids/a-tiny-superhero-off-duty",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "8ef3a32ccdc477250cd229d3f8335490fdf13a0cd3a15bb974c50db89ffd2d13"
+    },
+    {
+      "path": "/ai-prompts/wedding/dressed-for-the-first-dance",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "380916b409f724fdf02f898c77dd8c3890d29820ea5c4ab9730f46ef46b686e4"
+    },
+    {
+      "path": "/ai-prompts/birthday/the-perfect-birthday-picnic",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "38126c4ca5d73b84a1a6ee99fd388ed48c878ba165a5210d7f26d1af9d27c338"
+    },
+    {
+      "path": "/ai-prompts/men/the-open-road-portrait",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "dddf05808ae2b61edc846675501e0a6344c377cb419d05e1f55c34cc373c5eb8"
+    },
+    {
+      "path": "/ai-prompts/women/a-winter-window-story",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "1e277f7a765981b74e78f06afef37d63b5fe4131fa3fc5525215206b1398f83d"
+    },
+    {
+      "path": "/ai-prompts/festival/the-christmas-kitchen",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "52efffedc3a03130e6331e706279575310154a7c45fdf7886645894b3533234e"
+    },
+    {
+      "path": "/ai-prompts/product-photography/small-details-beautifully-made",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "6a9b8221943e746aa27103e67af07993f847634bd46df59de75b4a39724621ab"
+    },
+    {
+      "path": "/ai-prompts/social-media/meet-your-new-profile-picture",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "4579ec5f69947e4b5e9a9957ba8fdd51a936742b63c39a6b89e2927c3c833d9d"
+    },
+    {
+      "path": "/ai-prompts/cinematic/a-night-at-the-cinema",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "24a0126164bac6ab8aa0a605e789e38a61288d5ffe9fd67aed018179f8b4f9a3"
+    },
+    {
+      "path": "/ai-prompts/birthday/thirty-and-entirely-yourself",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "4e3c53b8035e45dadc8d5e690bae2ca5b974206cbf65b8a06195e76f79cec92e"
+    },
+    {
+      "path": "/ai-prompts/festival/garba-under-the-lights",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "2fb3880c4a1a2aaa7b0d0410fddf2d68b3c19c68340bb4816d69aafc93e2a39c"
+    },
+    {
+      "path": "/ai-prompts/family/a-memory-worth-restoring",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "6d9e10f0b5d184adf5af6580a4128a7baa73373ff339aceebf44ecacc5bc23a3"
+    },
+    {
+      "path": "/ai-prompts/men/change-the-scene-keep-yourself",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "f5ca6dca704db530063e52e9a80f967bf28685d4b248582a59f59fc749cde4db"
+    },
+    {
+      "path": "/ai-prompts/women/an-outfit-with-a-new-perspective",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "160f7faeea329fbea7fe0c8a9d25236608201b23d3c05b14c835f2c0ed7b4ad4"
+    },
+    {
+      "path": "/reel-prompts/the-anniversary-slow-dance",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "4826a9b2ccdf6ae3d20dc11eb4e40e99ee5f67182f50b5dc61f86e084b8dad7c"
+    },
+    {
+      "path": "/reel-prompts/from-suitcase-to-seaside",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "0118a8407a37e14f4fc1928f180630b92d3705f9718f175abae96286fe72f842"
+    },
+    {
+      "path": "/reel-prompts/a-birthday-in-three-little-moments",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "bb84f7ce7c2487fed76ab5be75f627e73185f1ef8a40e7268f94d3c7137341fa"
+    },
+    {
+      "path": "/reel-prompts/the-fragrance-reveal",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "cdc4b0368de18e2938cb0363469f08110496167a2660e9ad33b85101a86af639"
+    },
+    {
+      "path": "/reel-prompts/one-city-one-beautiful-evening",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "c0e8acec14b3898e27062f8584d15a93301b7c2472cf99953c2fd1e6dd7dd4f3"
+    },
+    {
+      "path": "/reel-prompts/a-wedding-morning-remembered",
+      "status": 200,
+      "prompt_matches": true,
+      "canonical_matches": true,
+      "all_faq_questions_present": true,
+      "prompt_sha256": "5d9b915339e10ca79ff23226edac88204c3efd4aefd80c32b042efe2d5bd9530"
+    }
+  ],
+  "database": {
+    "published_records": 50,
+    "all_prompts_match": true,
+    "unexpected_other_field_changes": []
+  },
+  "deployment": {
+    "id": "6aa293aa3554a30008219f3a",
+    "commit": "4ade1736d391c56fd6017088badd5b2d6b6771d4",
+    "published_at": "2026-09-10T11:26:47.154Z"
+  },
+  "validation": {
+    "unit_tests_passed": 47,
+    "lint": "passed",
+    "typecheck": "passed",
+    "content_validation": "50 prompts, all images present",
+    "production_build": "passed",
+    "browser_checks_passed": 10,
+    "browser_projects": ["Desktop Chromium", "Mobile Chromium"],
+    "browser_journeys": [
+      "Krishna full prompt display and exact clipboard copy",
+      "Enhancement and shortening retain appearance details",
+      "Home to category to detail to copy",
+      "Photo creator",
+      "Reel creator"
+    ],
+    "protected_admin_save": "passed; owner signed out; catalog, pages, search and sitemap invalidated"
+  },
+  "limitations": [
+    "No new image/video generation was run against external models; visual-match improvement is not a measured benchmark."
+  ]
+}
