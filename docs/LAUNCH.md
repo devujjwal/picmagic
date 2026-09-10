@@ -5,7 +5,9 @@ Launched on **10 September 2026** at **https://picmagic.in**. The custom domain 
 ## Production services
 
 - Netlify Free: `picmagic-in`, site ID `2b145a4c-9cf9-4e4d-985c-ad52357569f0`, team `devujjwal`.
-- Current production deployment: `6aa2855b992a361b8d834268` (application commit `fc5cda0`). Node 22 build and function runtime; Next.js adapter 5.15.13.
+- Verified automatic production deployment: `6aa28bc33b1c180008583594` (commit `42f2bd0`), published 10 September 2026 at 16:22:44 IST after a real GitHub push. Node 22 build and function runtime; Next.js adapter 5.15.13.
+- Private source repository: [devujjwal/picmagic](https://github.com/devujjwal/picmagic). Pushes to `main` automatically validate, build and publish through the existing Netlify project. GitHub delivered the push webhook with HTTP 204; the deployment completed in 55 seconds. No manual deploy command was used for this verification.
+- The remote build passed lint, type checking, 30 unit tests, 50-prompt content validation and the production build. Eight desktop/mobile production smoke tests and the 65-URL sitemap/SEO audit passed afterward. Evidence: [continuous-deployment.json](qa/continuous-deployment.json); operating guidance: [automatic deployment](DEPLOYMENT.md#automatic-deployment-from-github).
 - Supabase Free: `PicMagic`, reference `lxecbrvzpmgjmsqiachc`, Mumbai (`ap-south-1`). Migration applied and 50 prompts imported.
 - Public operator: Ujjwal Paul. Contact: devujjwal1989@gmail.com.
 - Netlify automatic credit top-ups remain disabled. No payment method, paid add-on or automatic purchase was enabled. Default owner usage warnings are sent at 50%, 75% and 100%.

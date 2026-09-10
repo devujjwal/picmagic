@@ -7,6 +7,7 @@
       "status": 200,
       "canonical": "https://picmagic.in",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "WebSite"
       ]
@@ -16,6 +17,7 @@
       "status": 200,
       "canonical": "https://picmagic.in/ai-prompts/women",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "BreadcrumbList",
         "CollectionPage"
@@ -26,6 +28,7 @@
       "status": 200,
       "canonical": "https://picmagic.in/collections/romantic",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "BreadcrumbList",
         "CollectionPage"
@@ -36,6 +39,7 @@
       "status": 200,
       "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "BreadcrumbList",
         "FAQPage"
@@ -46,6 +50,7 @@
       "status": 200,
       "canonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "BreadcrumbList"
       ]
@@ -55,6 +60,7 @@
       "status": 200,
       "canonical": "https://picmagic.in/ai-prompts?page=2",
       "robots": "index, follow",
+      "descriptionInHead": true,
       "structuredTypes": [
         "BreadcrumbList",
         "CollectionPage"

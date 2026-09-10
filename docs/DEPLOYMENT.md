@@ -78,6 +78,8 @@ Use the personal `devujjwal` GitHub account for this repository. Local commit id
 
 For a failed deployment, inspect Netlify's build log, correct the error and push another commit. For a regression after a successful deployment, restore a known-good deploy in Netlify, then revert the faulty code on `main` and push; otherwise a later push can reintroduce it. To pause automatic deployments deliberately, stop builds in Netlify's continuous deployment settings. Billing auto top-ups remain disabled; automatic deployment does not enable automatic purchases.
 
+For a documentation-only commit that deliberately needs no deployment, Netlify supports `[skip netlify]` in the commit message. Do not use it for a code release. The next ordinary push resumes automatic deployment; see [Netlify's skip-deploy documentation](https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview/#skip-a-deploy).
+
 ## Google Search Console
 
 1. In the owner’s Google Search Console account, add a **Domain property** for `picmagic.in` (no scheme or path).

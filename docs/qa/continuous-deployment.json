@@ -1,0 +1,59 @@
+{
+  "verified_at": "2026-09-10T10:54:06.311Z",
+  "repository": "https://github.com/devujjwal/picmagic",
+  "visibility": "private",
+  "production_branch": "main",
+  "site_id": "2b145a4c-9cf9-4e4d-985c-ad52357569f0",
+  "netlify_deploy_id": "6aa28bc33b1c180008583594",
+  "commit": "42f2bd09f9484a2165f893c92fdf55024d26ef54",
+  "published_at": "2026-09-10T10:52:44.634Z",
+  "connection": "Netlify CLI: repository read-only deploy key and GitHub push webhook",
+  "deploy_key_id": 162866788,
+  "webhook_id": 677109588,
+  "webhook_push_status": 204,
+  "build_command": "pnpm build:deploy",
+  "stop_builds": false,
+  "allowed_branches": [
+    "main"
+  ],
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit_tests": 30,
+    "content": {
+      "prompts": 50,
+      "categories": 16,
+      "collections": 7,
+      "missing_images": 0
+    },
+    "production_build": "passed",
+    "public_browser_smoke_tests": 8,
+    "smoke_duration_seconds": 29.5,
+    "seo_sitemap_canonicals": 65,
+    "seo_prompt_canonicals": 50,
+    "seo_failures": 0
+  },
+  "http_checks": [
+    {
+      "url": "https://picmagic.in/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.picmagic.in/ai-prompts/women?page=2",
+      "status": 301,
+      "location": "https://picmagic.in/ai-prompts/women?page=2"
+    },
+    {
+      "url": "http://picmagic.in/create?style=natural",
+      "status": 301,
+      "location": "https://picmagic.in/create?style=natural"
+    }
+  ],
+  "notes": [
+    "Verification used a real git push; no manual deploy command triggered this release.",
+    "No private environment files or known private credential values were found in Git history before the initial push.",
+    "Ads, analytics and automatic purchases remain disabled.",
+    "Pull request previews and GitHub Actions deployments are not configured."
+  ]
+}
