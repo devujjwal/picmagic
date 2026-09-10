@@ -1,0 +1,5 @@
+{
+  "cachedCatalogSurvivesRestOutage": true,
+  "uncachedFailureShowsRetry": true,
+  "uncachedFailureDoesNotSubstituteSeeds": true
+}

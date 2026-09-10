@@ -1,0 +1,28 @@
+project_id = "picmagic"
+[api]
+enabled = true
+port = 54421
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+[db]
+port = 54422
+shadow_port = 54420
+major_version = 17
+[studio]
+enabled = true
+port = 54423
+[auth]
+enabled = true
+site_url = "http://localhost:3002"
+additional_redirect_urls = ["https://picmagic.in/admin/login"]
+jwt_expiry = 3600
+enable_signup = false
+[auth.email]
+# Keep email authentication enabled; auth.enable_signup=false blocks registration globally.
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+[storage]
+enabled = true
+file_size_limit = "10MiB"

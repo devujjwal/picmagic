@@ -1,0 +1,135 @@
+[
+  {
+    "id": "golden-hour",
+    "slug": "golden-hour",
+    "name": "Chasing the golden hour",
+    "description": "Warm light, gentle shadows and the feeling of an evening you wish would last. These ideas help you make the most of sunset-inspired portraits.",
+    "kind": "style",
+    "prompt_ids": [
+      "ac229bca-b98d-59ff-bda2-977203e8e083"
+    ],
+    "is_indexable": false,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/golden-hour-draped-in-tradition.webp"
+  },
+  {
+    "id": "romantic",
+    "slug": "romantic",
+    "name": "A little more romance",
+    "description": "From rainy city walks to quiet beach evenings, explore couple portraits built around connection. Choose a setting that feels like your own story.",
+    "kind": "style",
+    "prompt_ids": [
+      "f8599583-8854-5732-93f1-a0ac27860372",
+      "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "33849ccd-f6de-543d-985f-268cd59302ef",
+      "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "213e5a4d-5447-5729-95e0-4f41d810e877"
+    ],
+    "is_indexable": true,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/a-little-rain-a-lot-of-romance.webp"
+  },
+  {
+    "id": "saree",
+    "slug": "saree",
+    "name": "The saree edit",
+    "description": "Explore saree portraits that celebrate fabric, drape and personal style. Keep the details that make the look yours, from a favourite weave to meaningful jewellery.",
+    "kind": "style",
+    "prompt_ids": [
+      "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "b5661669-70e7-5288-9018-cc8712655143"
+    ],
+    "is_indexable": false,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/golden-hour-draped-in-tradition.webp"
+  },
+  {
+    "id": "cinematic",
+    "slug": "cinematic",
+    "name": "Make it cinematic",
+    "description": "Discover portraits with thoughtful light, atmosphere and composition. These prompts use believable visual direction to give an ordinary photo a film-like mood.",
+    "kind": "style",
+    "prompt_ids": [
+      "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "7ca2b906-78ec-54db-a323-28795468c015",
+      "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "0fcec4ba-cf32-545b-bc0d-914a5e0082df"
+    ],
+    "is_indexable": true,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/city-lights-main-character-energy.webp"
+  },
+  {
+    "id": "studio",
+    "slug": "studio",
+    "name": "The studio collection",
+    "description": "Simple backdrops and intentional lighting put your subject first. Explore portraits and product ideas with practical studio directions.",
+    "kind": "style",
+    "prompt_ids": [
+      "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7"
+    ],
+    "is_indexable": true,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/your-next-chapter-in-focus.webp"
+  },
+  {
+    "id": "professional",
+    "slug": "professional",
+    "name": "Your professional era",
+    "description": "Approachable headshots and confident portraits for the next chapter of your career. Choose natural light or a studio look and keep your appearance authentic.",
+    "kind": "style",
+    "prompt_ids": [
+      "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "84eb7852-fcb5-518e-8181-41730c7f6f82"
+    ],
+    "is_indexable": false,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/your-next-chapter-in-focus.webp"
+  },
+  {
+    "id": "diwali",
+    "slug": "diwali",
+    "name": "An evening of light",
+    "description": "Celebrate Diwali with warm home portraits, traditional outfits and the glow of diyas. Keep faces naturally lit and choose an environment that reflects your celebration.",
+    "kind": "seasonal",
+    "prompt_ids": [
+      "d4967caf-a598-58e3-bc71-a80371251b30"
+    ],
+    "is_indexable": false,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 10,
+    "featured_image": "/previews/a-family-evening-lit-by-diyas.webp"
+  }
+]

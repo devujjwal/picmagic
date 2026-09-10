@@ -1,0 +1,9 @@
+node_modules
+.next
+.netlify
+pnpm-lock.yaml
+public
+content
+playwright-report
+test-results
+coverage

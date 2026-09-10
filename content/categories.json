@@ -1,0 +1,130 @@
+[
+  {
+    "id": "men",
+    "slug": "men",
+    "name": "Men",
+    "description": "Discover thoughtful men photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Men | PicMagic"
+  },
+  {
+    "id": "women",
+    "slug": "women",
+    "name": "Women",
+    "description": "Discover thoughtful women photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Women | PicMagic"
+  },
+  {
+    "id": "couple",
+    "slug": "couple",
+    "name": "Couples",
+    "description": "Discover thoughtful couples photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Couples | PicMagic"
+  },
+  {
+    "id": "kids",
+    "slug": "kids",
+    "name": "Kids",
+    "description": "Discover thoughtful kids photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Kids | PicMagic"
+  },
+  {
+    "id": "family",
+    "slug": "family",
+    "name": "Family",
+    "description": "Discover thoughtful family photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Family | PicMagic"
+  },
+  {
+    "id": "wedding",
+    "slug": "wedding",
+    "name": "Wedding",
+    "description": "Discover thoughtful wedding photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Wedding | PicMagic"
+  },
+  {
+    "id": "birthday",
+    "slug": "birthday",
+    "name": "Birthday",
+    "description": "Discover thoughtful birthday photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Birthday | PicMagic"
+  },
+  {
+    "id": "travel",
+    "slug": "travel",
+    "name": "Travel",
+    "description": "Discover thoughtful travel photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Travel | PicMagic"
+  },
+  {
+    "id": "festival",
+    "slug": "festival",
+    "name": "Festival",
+    "description": "Discover thoughtful festival photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Festival | PicMagic"
+  },
+  {
+    "id": "professional",
+    "slug": "professional",
+    "name": "Professional",
+    "description": "Discover thoughtful professional photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Professional | PicMagic"
+  },
+  {
+    "id": "fashion",
+    "slug": "fashion",
+    "name": "Fashion",
+    "description": "Discover thoughtful fashion photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Fashion | PicMagic"
+  },
+  {
+    "id": "product-photography",
+    "slug": "product-photography",
+    "name": "Product photography",
+    "description": "Discover thoughtful product photography photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Product photography | PicMagic"
+  },
+  {
+    "id": "social-media",
+    "slug": "social-media",
+    "name": "Social media",
+    "description": "Discover thoughtful social media photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Social media | PicMagic"
+  },
+  {
+    "id": "retro",
+    "slug": "retro",
+    "name": "Retro",
+    "description": "Discover thoughtful retro photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Retro | PicMagic"
+  },
+  {
+    "id": "cinematic",
+    "slug": "cinematic",
+    "name": "Cinematic",
+    "description": "Discover thoughtful cinematic photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": false,
+    "seo_title": "AI Photo Prompts for Cinematic | PicMagic"
+  },
+  {
+    "id": "reels",
+    "slug": "reels",
+    "name": "Reels",
+    "description": "Discover thoughtful reels photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "is_indexable": true,
+    "seo_title": "AI Photo Prompts for Reels | PicMagic"
+  }
+]

@@ -1,0 +1,10 @@
+[build]
+command = "node scripts/check-launch.mjs && pnpm build"
+publish = ".next"
+[build.environment]
+NODE_VERSION = "22"
+PNPM_VERSION = "10.30.3"
+[context.deploy-preview.environment]
+NEXT_PUBLIC_INDEXING_ENABLED = "false"
+[context.branch-deploy.environment]
+NEXT_PUBLIC_INDEXING_ENABLED = "false"

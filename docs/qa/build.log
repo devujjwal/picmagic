@@ -1,0 +1,68 @@
+
+> picmagic@1.0.0 build /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> next build
+
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 33ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1868ms
+  Running TypeScript ...
+  Finished TypeScript in 7.3s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/91) ...
+  Generating static pages using 7 workers (22/91)
+  Generating static pages using 7 workers (45/91)
+  Generating static pages using 7 workers (68/91)
+✓ Generating static pages using 7 workers (91/91) in 1309ms
+  Finalizing page optimization ...
+
+Route (app)                                                Revalidate  Expire
+┌ ○ /                                                              1h      1y
+├ ○ /_not-found
+├ ○ /about
+├ ƒ /admin
+├ ƒ /admin/categories
+├ ƒ /admin/collections
+├ ƒ /admin/login
+├ ƒ /admin/preview/[id]
+├ ƒ /admin/prompts
+├ ƒ /admin/prompts/[id]
+├ ƒ /admin/prompts/new
+├ ƒ /admin/seasonal
+├ ƒ /ai-prompts
+├ ƒ /ai-prompts/[category]
+├   /ai-prompts/[category]/[slug]
+│ ├ ● /ai-prompts/women/golden-hour-draped-in-tradition            1h      1y
+│ ├ ● /ai-prompts/couple/a-little-rain-a-lot-of-romance            1h      1y
+│ ├ ● /ai-prompts/professional/your-next-chapter-in-focus          1h      1y
+│ └ ● [+41 more paths]
+├ ƒ /api/admin/upload
+├ ƒ /api/og/[id]
+├ ƒ /api/search
+├ ƒ /collections/[slug]
+├ ○ /contact
+├ ○ /create
+├ ○ /enhance-photo
+├ ○ /icon.svg
+├ ○ /opengraph-image
+├ ○ /privacy
+├ ○ /reel-prompts                                                  1h      1y
+├   /reel-prompts/[slug]
+│ ├ ● /reel-prompts/the-anniversary-slow-dance                     1h      1y
+│ ├ ● /reel-prompts/from-suitcase-to-seaside                       1h      1y
+│ ├ ● /reel-prompts/a-birthday-in-three-little-moments             1h      1y
+│ └ ● [+3 more paths]
+├ ○ /robots.txt
+├ ○ /saved                                                         1h      1y
+├ ƒ /search
+├ ○ /sitemap.xml
+└ ○ /terms
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand

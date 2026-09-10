@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.netlify/
+.env*
+!.env.example
+playwright-report/
+test-results/
+coverage/
+*.tsbuildinfo
+.DS_Store
+supabase/.temp/
+supabase/.branches/
+output/originals/

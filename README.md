@@ -1,0 +1,30 @@
+# PicMagic
+
+Turn your photos into something magical.
+
+A mobile-first photo inspiration library, guided enhancement/photo/reel prompt creators, and protected editorial studio. Public users need no account, photo upload or AI API key.
+
+## Run locally
+
+```sh
+pnpm install
+cp .env.example .env.local
+pnpm dev
+```
+
+The explicit `CONTENT_SOURCE=seed` setting runs the public catalog locally. Use the port printed by Next.js. Configure Supabase to use the real admin studio.
+
+```sh
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
+pnpm test:e2e
+pnpm check:content
+```
+
+Browser tests use `http://localhost:3002` by default; override `E2E_BASE_URL` for another server. Run against a disposable local backend for admin mutation tests.
+
+See [deployment and Search Console setup](docs/DEPLOYMENT.md), [architecture](docs/ARCHITECTURE.md), and [implementation/verification report](docs/IMPLEMENTATION.md).
+
+The production origin is `https://picmagic.in`. Ads and GA4 are disabled until configured. See the deployment guide before enabling production indexing or third-party scripts.
