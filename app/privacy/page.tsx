@@ -32,10 +32,25 @@ export default function Privacy() {
       <p>
         Advertising helps fund PicMagic. We use Google AdSense on selected
         discovery and prompt pages when Google approves our site and supplies
-        ads. The ad script loads only after you allow optional advertising
-        cookies. Google and its advertising partners may use cookies or similar
-        identifiers to deliver, measure and, where permitted, personalize ads.
-        Rejecting optional cookies keeps the ad script disabled.
+        ads. Google’s Privacy &amp; Messaging consent management platform
+        manages advertising choices and applicable regional consent signals,
+        including the IAB Transparency and Consent Framework for visitors in the
+        EEA, UK and Switzerland. The advertising tag loads to support that
+        process; loading it does not itself mean you have consented to
+        personalized ads.
+      </p>
+      <p>
+        Where permitted by your choices and applicable requirements, Google may
+        serve personalized ads. If you reject personalization, Google may
+        instead serve non-personalized or limited ads, or no ad.
+        Non-personalized ads can still use cookies for purposes such as
+        frequency capping and measurement and require consent where applicable.
+        Limited ads do not use personal data for personalization; normal
+        delivery can still process information such as your IP address. Google’s
+        programmatic limited ads may use fraud-prevention-only cookies and local
+        storage. Eligibility depends on Google’s consent signals, transparency
+        requirements and publisher settings. Rejecting consent never authorizes
+        personalized advertising.
       </p>
       <p>
         Google Analytics 4 is enabled only after you allow optional analytics
@@ -50,11 +65,14 @@ export default function Privacy() {
         Rejecting optional cookies leaves the core application functional.
       </p>
       <p>
-        Google’s certified consent message provides additional advertising
-        choices where required, including for visitors in the EEA, UK and
-        Switzerland. Use its privacy settings link to revisit those choices, or
-        PicMagic’s Cookie preferences control to withdraw permission to load
-        advertising. See{" "}
+        Use Cookie preferences in the footer to open Google’s applicable
+        advertising privacy choices and separately manage optional analytics.
+        Google’s own regional privacy or “Do not sell or share” links may also
+        appear. No advertising choice grants analytics permission. An earlier
+        rejection in PicMagic’s former advertising-cookie banner is retained: ad
+        requests stay paused until a new explicit Google CMP choice replaces it.
+        If Google’s controls cannot load, that earlier rejection stays in
+        effect. See{" "}
         <a href="https://policies.google.com/technologies/partner-sites">
           how Google uses information from partner sites
         </a>{" "}

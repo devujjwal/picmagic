@@ -11,10 +11,6 @@ export function readConsent(key: string): ConsentChoice {
   }
 }
 
-export function advertisingConsent() {
-  return readConsent(advertisingConsentKey) === "yes";
-}
-
 export function subscribeConsent(callback: () => void) {
   window.addEventListener("picmagic:consent", callback);
   window.addEventListener("storage", callback);
@@ -28,7 +24,7 @@ export function writeConsent(key: string, value: ConsentChoice) {
   try {
     localStorage.setItem(key, value);
   } catch {
-    // Unavailable storage means optional integrations remain disabled.
+    // Unavailable storage cannot grant optional analytics consent.
   }
   window.dispatchEvent(new Event("picmagic:consent"));
 }

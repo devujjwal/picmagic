@@ -1,6 +1,6 @@
 # PicMagic launch record
 
-Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. AdSense integration is enabled with consent-gated manual placements; Google site review is pending. GA4 remains disabled. No external account-access prerequisites remain.
+Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. AdSense integration is enabled with CMP-controlled manual placements; Google site review is pending. GA4 remains disabled. No external account-access prerequisites remain.
 
 ## Production services
 

@@ -9,6 +9,7 @@ import {
 vi.mock("@/config/ads", async (importOriginal) => ({
   ...(await importOriginal<typeof import("@/config/ads")>()),
   adsenseClient: "ca-pub-4114304022167819",
+  advertisingConfigured: () => process.env.NEXT_PUBLIC_ADS_ENABLED === "true",
 }));
 let enterViewport: () => void;
 beforeEach(() => {
@@ -37,7 +38,7 @@ afterEach(() => {
   vi.unstubAllEnvs();
   vi.unstubAllGlobals();
 });
-it("requires advertising consent, viewport visibility and a committed element before requesting once", () => {
+it("requires viewport visibility and a committed element, then delegates once to Google", () => {
   localStorage.setItem(analyticsConsentKey, "yes");
   const view = render(
     <StrictMode>
@@ -69,7 +70,8 @@ it("requires advertising consent, viewport visibility and a committed element be
     localStorage.setItem(advertisingConsentKey, "no");
     window.dispatchEvent(new Event("storage"));
   });
-  expect(view.container.querySelector("ins")).toBeNull();
+  expect(view.container.querySelector("ins")).not.toBeNull();
+  expect(window.adsbygoogle).toHaveLength(1);
 });
 it("ignores missing placement IDs and disabled integrations", () => {
   localStorage.setItem(advertisingConsentKey, "yes");

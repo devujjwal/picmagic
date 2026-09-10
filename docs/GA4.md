@@ -22,9 +22,9 @@ Complete account creation only after the owner confirms legal acceptance. Create
 
 ## Measurement behavior
 
-Consent is stored under `picmagic:analytics-consent`, separately from advertising permission. Blocked or unavailable storage prevents collection. Cookie preferences and cross-tab changes support withdrawal; the page reloads to stop previously loaded integrations.
+Analytics consent is stored under `picmagic:analytics-consent`. Advertising consent is controlled separately by Google’s CMP; see [AdSense operations](ADSENSE.md). Blocked or unavailable storage prevents collection. Cookie preferences and cross-tab changes support withdrawal; the page reloads to stop previously loaded integrations.
 
-The adapter sends one page view per public route transition and typed feature events. Query strings, URL fragments, search text, generated prompt text and arbitrary event properties are excluded. External referrers are reduced to their origin. Admin routes are excluded. Session-depth milestones are deduplicated using optional sessionStorage only after analytics consent. Google signals and advertising personalization are disabled in the tag configuration.
+The adapter sends one page view per public route transition and typed feature events. Query strings, URL fragments, search text, generated prompt text and arbitrary event properties are excluded. External referrers are reduced to their origin. Admin routes are excluded. Session-depth milestones are deduplicated using optional sessionStorage only after analytics consent. Google signals and advertising personalization are disabled in the Analytics tag configuration. The analytics adapter never changes advertising-storage or personalization consent; Google’s publisher CMP owns advertising signals.
 
 ## Validation and rollback
 

@@ -34,3 +34,9 @@ export function adsTxt(client: string | undefined) {
     ? `google.com, ${valid.slice(3)}, DIRECT, f08c47fec0942fa0\n`
     : "";
 }
+
+export function advertisingConfigured() {
+  return (
+    process.env.NEXT_PUBLIC_ADS_ENABLED === "true" && Boolean(adsenseClient)
+  );
+}

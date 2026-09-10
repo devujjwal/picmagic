@@ -37,7 +37,7 @@ Unique canonical metadata, OpenGraph/X share images, WebSite/BreadcrumbList/Coll
 
 Ad placements: `home-feed-1`, `category-inline-1`, `prompt-detail-top`, `prompt-detail-inline`, `prompt-related-feed`, `reel-page-inline`, and optional `desktop-sidebar`. Slots reserve layout space and initialize lazily when configured and consented. Unconfigured production requests no ad scripts.
 
-Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category view, search, search-result click, related-prompt click, reel generation, photo-edit generation, WhatsApp share, and deduplicated session depth 3/5/10. Raw prompts, search strings and personal data are excluded. GA4 remains disabled. AdSense now has three responsive display units across four configured placements, separate advertising consent and a published Google CMP message. Site ownership is verified and review is pending; see [AdSense operations](ADSENSE.md).
+Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category view, search, search-result click, related-prompt click, reel generation, photo-edit generation, WhatsApp share, and deduplicated session depth 3/5/10. Raw prompts, search strings and personal data are excluded. GA4 remains disabled. AdSense now has three responsive display units across four configured placements, Google CMP-controlled advertising and an independent analytics opt-in. Site ownership is verified and review is pending; see [AdSense operations](ADSENSE.md).
 
 The complete preview-aligned prompt review, identity-versus-style guidance and publishing evidence are documented in [PROMPT-QUALITY.md](PROMPT-QUALITY.md). All 50 live detail pages match their revised prompt text and FAQs; ten targeted desktop/mobile checks passed after this update.
 

@@ -6,7 +6,6 @@ import {
   validAdSenseClient,
 } from "@/config/ads";
 import {
-  advertisingConsent,
   advertisingConsentKey,
   analyticsConsentKey,
   readConsent,
@@ -67,20 +66,10 @@ describe("AdSense publisher verification", () => {
     vi.stubEnv("NEXT_PUBLIC_AD_SLOTS", '{"home-feed-1":"2111918706"}');
     expect(adSlotId("home-feed-1")).toBe("2111918706");
   });
-  it("does not reuse analytics consent as advertising permission", () => {
+  it("keeps legacy advertising choices separate from analytics", () => {
     localStorage.setItem(analyticsConsentKey, "yes");
-    expect(advertisingConsent()).toBe(false);
-    localStorage.setItem(advertisingConsentKey, "garbage");
     expect(readConsent(advertisingConsentKey)).toBe("unset");
-    localStorage.setItem(advertisingConsentKey, "yes");
-    expect(advertisingConsent()).toBe(true);
     localStorage.setItem(advertisingConsentKey, "no");
-    expect(advertisingConsent()).toBe(false);
-  });
-  it("does not authorize ads when browser storage is unavailable", () => {
-    vi.spyOn(Storage.prototype, "getItem").mockImplementation(() => {
-      throw new Error("blocked");
-    });
-    expect(advertisingConsent()).toBe(false);
+    expect(readConsent(analyticsConsentKey)).toBe("yes");
   });
 });

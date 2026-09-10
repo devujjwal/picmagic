@@ -1,7 +1,7 @@
 "use client";
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import { adSlotId, adsenseClient } from "@/config/ads";
-import { advertisingConsent, subscribeConsent } from "@/lib/privacy/consent";
+import { useEffect, useRef, useState } from "react";
+import { adSlotId, adsenseClient, advertisingConfigured } from "@/config/ads";
+import { prepareAdvertising } from "@/lib/privacy/advertising";
 export const placements = [
   "home-feed-1",
   "category-inline-1",
@@ -12,22 +12,15 @@ export const placements = [
   "desktop-sidebar",
 ] as const;
 export type AdPlacement = (typeof placements)[number];
-const serverConsent = () => false;
 
 export function AdSlot({ placement }: { placement: AdPlacement }) {
   const ref = useRef<HTMLElement>(null);
   const insRef = useRef<HTMLModElement>(null);
   const [visible, setVisible] = useState(false);
-  const consent = useSyncExternalStore(
-    subscribeConsent,
-    advertisingConsent,
-    serverConsent,
-  );
-  const enabled =
-    process.env.NEXT_PUBLIC_ADS_ENABLED === "true" && Boolean(adsenseClient);
+  const enabled = advertisingConfigured();
   const slot = adSlotId(placement);
   useEffect(() => {
-    if (!enabled || !slot || !consent || !ref.current) return;
+    if (!enabled || !slot || !ref.current) return;
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries.some((entry) => entry.isIntersecting)) {
@@ -39,31 +32,22 @@ export function AdSlot({ placement }: { placement: AdPlacement }) {
     );
     observer.observe(ref.current);
     return () => observer.disconnect();
-  }, [enabled, slot, consent]);
+  }, [enabled, slot]);
   useEffect(() => {
     const element = insRef.current;
-    if (!visible || !consent || !element || element.dataset.picmagicRequested)
-      return;
+    if (!visible || !element || element.dataset.picmagicRequested) return;
     // Request only after React commits the actual ins element. The DOM marker
     // survives Strict Mode effects and avoids duplicate requests on rerenders.
     element.dataset.picmagicRequested = "true";
     try {
-      window.adsbygoogle = window.adsbygoogle || [];
-      window.adsbygoogle.push({});
+      prepareAdvertising().push({});
     } catch {
       // Blocked ads never interrupt discovery or create a retry loop.
     }
-  }, [visible, consent, slot]);
-  if (!enabled || !slot)
-    return process.env.NODE_ENV === "development" ? (
-      <aside
-        className="ad-reserve development-ad"
-        aria-label="Reserved advertisement placement"
-      >
-        <span>Advertisement</span>
-      </aside>
-    ) : null;
-  if (!consent) return null;
+  }, [visible, slot]);
+  if (!slot) return null;
+  if (!enabled)
+    return <div className="ad-reserve ad-empty" aria-hidden="true" />;
   return (
     <aside className="ad-reserve" aria-label="Advertisement" ref={ref}>
       <span>Advertisement</span>
@@ -71,11 +55,10 @@ export function AdSlot({ placement }: { placement: AdPlacement }) {
         <ins
           ref={insRef}
           className="adsbygoogle"
-          style={{ display: "block" }}
+          style={{ display: "block", width: "100%", height: 250 }}
           data-ad-client={adsenseClient}
           data-ad-slot={slot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
+          data-full-width-responsive="false"
         />
       )}
     </aside>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PrivacyChoices } from "./privacy-choices";
 import { Sparkles, ArrowUpRight } from "lucide-react";
 export function Footer() {
   return (
@@ -39,6 +40,7 @@ export function Footer() {
         <div>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
+          <PrivacyChoices />
         </div>
       </div>
       <p className="fine-print">

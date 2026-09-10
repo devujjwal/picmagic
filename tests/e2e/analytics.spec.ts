@@ -7,6 +7,12 @@ test("analytics consent, sanitized SPA pageviews, events and revocation", async 
   page,
   context,
 }) => {
+  await page.route("**/pagead/js/adsbygoogle.js*", (route) =>
+    route.fulfill({
+      contentType: "application/javascript",
+      body: "/* AdSense stub */",
+    }),
+  );
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   let requests = 0;
   await page.route("**/gtag/js*", async (route) => {
@@ -22,7 +28,10 @@ test("analytics consent, sanitized SPA pageviews, events and revocation", async 
   await page.goto("/?email=do-not-send@example.com");
   expect(requests).toBe(0);
   await page
-    .getByRole("button", { name: "Allow optional cookies", exact: true })
+    .getByRole("button", { name: "Cookie preferences", exact: true })
+    .click();
+  await page
+    .getByRole("button", { name: "Allow analytics", exact: true })
     .click();
   await expect.poll(() => requests).toBe(1);
   await page
@@ -83,13 +92,19 @@ test("analytics consent, sanitized SPA pageviews, events and revocation", async 
     .getByRole("button", { name: "Cookie preferences", exact: true })
     .click();
   await page
-    .getByRole("button", { name: "Reject optional cookies", exact: true })
+    .getByRole("button", { name: "Reject analytics", exact: true })
     .click();
   await page.reload();
   expect(requests).toBe(1);
   await expect(page.locator("script#picmagic-ga4")).toHaveCount(0);
 });
 test("admin and unavailable storage never load GA4", async ({ page }) => {
+  await page.route("**/pagead/js/adsbygoogle.js*", (route) =>
+    route.fulfill({
+      contentType: "application/javascript",
+      body: "/* AdSense stub */",
+    }),
+  );
   let requests = 0;
   await page.route("**/gtag/js*", async (r) => {
     requests++;
