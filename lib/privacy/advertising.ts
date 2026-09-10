@@ -54,8 +54,9 @@ export function prepareAdvertising(): AdQueue {
     // The old banner rejected optional cookie storage, not just personalization.
     // NPA alone would not honor that rejection. Keep requests paused until a new
     // explicit CMP decision supersedes it; loading the CMP itself stays possible.
-    queue.pauseAdRequests = 1;
-    queue.requestNonPersonalizedAds = 1;
+    const activeQueue = (window.adsbygoogle ||= []) as AdQueue;
+    activeQueue.pauseAdRequests = 1;
+    activeQueue.requestNonPersonalizedAds = 1;
     queueGoogleConsent(() => {
       window.__tcfapi?.("addEventListener", 2, (data, success) => {
         if (
@@ -76,7 +77,9 @@ export function prepareAdvertising(): AdQueue {
         // Google reads the original TC string. A rejection may be eligible for
         // limited ads; it is never rewritten to a grant or to cookie-using NPA.
         // Keep this page's extra non-personalization restriction until reload.
-        queue.pauseAdRequests = 0;
+        const activeQueue = (window.adsbygoogle ||= []) as AdQueue;
+        activeQueue.requestNonPersonalizedAds = 1;
+        activeQueue.pauseAdRequests = 0;
       });
     });
   };
@@ -96,10 +99,14 @@ export function openAdvertisingChoices(onUnavailable: () => void) {
     if (!opened) onUnavailable();
   }, 5000);
   queueGoogleConsent(() => {
-    const show = window.googlefc?.showRevocationMessage;
-    if (!show) return;
-    opened = true;
-    window.clearTimeout(timer);
-    show();
+    if (!window.googlefc?.showRevocationMessage) return;
+    try {
+      window.googlefc.showRevocationMessage();
+      opened = true;
+      window.clearTimeout(timer);
+    } catch {
+      window.clearTimeout(timer);
+      onUnavailable();
+    }
   });
 }

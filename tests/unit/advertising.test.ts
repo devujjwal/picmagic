@@ -85,6 +85,8 @@ describe("Google CMP owns advertising decisions", () => {
       false,
     );
     expect(queue.pauseAdRequests).toBe(1);
+    const vendorQueue: AdQueue = [];
+    window.adsbygoogle = vendorQueue;
     listener!(
       {
         gdprApplies: true,
@@ -94,8 +96,8 @@ describe("Google CMP owns advertising decisions", () => {
       },
       true,
     );
-    expect(queue.pauseAdRequests).toBe(0);
-    expect(queue.requestNonPersonalizedAds).toBe(1);
+    expect(vendorQueue.pauseAdRequests).toBe(0);
+    expect(vendorQueue.requestNonPersonalizedAds).toBe(1);
     expect(localStorage.getItem(advertisingConsentKey)).toBeNull();
     expect(localStorage.getItem(analyticsConsentKey)).toBeNull();
   });
