@@ -1,0 +1,74 @@
+{
+  "sitemapCanonicalCount": 65,
+  "promptCanonicals": 50,
+  "checked": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://picmagic.in",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/romantic",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/romantic",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-anniversary-slow-dance",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/ai-prompts?page=2",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts?page=2",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    }
+  ],
+  "shareImageStatus": 200,
+  "failures": [],
+  "originTested": "https://picmagic.in",
+  "deploymentId": "6aa2855b992a361b8d834268"
+}

@@ -1,0 +1,74 @@
+{
+  "checkedDate": "2026-09-10",
+  "property": "sc-domain:picmagic.in",
+  "verification": "Domain ownership verified with Google-supplied DNS TXT",
+  "sitemap": {
+    "url": "https://picmagic.in/sitemap.xml",
+    "status": "Success",
+    "discoveredPages": 65,
+    "submitted": "2026-09-10",
+    "lastRead": "2026-09-10"
+  },
+  "liveInspections": [
+    {
+      "url": "https://picmagic.in/",
+      "testedAt": "2026-09-10 15:43:34 Asia/Kolkata",
+      "availability": "URL is available to Google",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://picmagic.in/",
+      "googleSelectedCanonical": "Only determined after indexing",
+      "renderedScreenshotReviewed": true,
+      "indexStatus": "Discovered \u2013 currently not indexed"
+    },
+    {
+      "url": "https://picmagic.in/ai-prompts/women",
+      "testedAt": "2026-09-10 15:47:43 Asia/Kolkata",
+      "availability": "URL is available to Google",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://picmagic.in/ai-prompts/women",
+      "googleSelectedCanonical": "Only determined after indexing",
+      "renderedScreenshotReviewed": true,
+      "indexStatus": "Discovered \u2013 currently not indexed"
+    },
+    {
+      "url": "https://picmagic.in/collections/romantic",
+      "testedAt": "2026-09-10 15:50:21 Asia/Kolkata",
+      "availability": "URL is available to Google",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://picmagic.in/collections/romantic",
+      "googleSelectedCanonical": "Only determined after indexing",
+      "renderedScreenshotReviewed": true,
+      "indexStatus": "Discovered \u2013 currently not indexed"
+    },
+    {
+      "url": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "testedAt": "2026-09-10 15:54:00 Asia/Kolkata",
+      "availability": "URL is available to Google",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "googleSelectedCanonical": "Only determined after indexing",
+      "renderedScreenshotReviewed": true,
+      "indexStatus": "URL is unknown to Google"
+    },
+    {
+      "url": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
+      "testedAt": "2026-09-10 15:57:45 Asia/Kolkata",
+      "availability": "URL is available to Google",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "declaredCanonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
+      "googleSelectedCanonical": "Only determined after indexing",
+      "renderedScreenshotReviewed": true,
+      "indexStatus": "Discovered \u2013 currently not indexed"
+    }
+  ]
+}

@@ -1,27 +1,49 @@
 # PicMagic launch record
 
-Last updated: 10 September 2026. Launch validation is in progress; this record is not a completion claim.
+Launched on **10 September 2026** at **https://picmagic.in**. The custom domain has working HTTPS, protected administration and production indexing enabled. Ads and GA4 are disabled. No external account-access prerequisites remain.
 
-## Dedicated services
+## Production services
 
-- Netlify Free project: `picmagic-in`, ID `2b145a4c-9cf9-4e4d-985c-ad52357569f0`, team `devujjwal`.
-- Supabase Free project: `PicMagic`, reference `lxecbrvzpmgjmsqiachc`, Mumbai (`ap-south-1`). Schema migrated and 50 prompts imported.
-- The user authorized pausing `VS-MJR Infotech` (`zbohtifndwvokmeewsne`) to free a Supabase slot. It is paused. `telecotrade` was left online.
-- Netlify auto top-up is false, no payment method was added, and the plan has a hard Free allowance. Default usage warnings go to the owner at 50%, 75% and 100% usage. Ads and GA4 are disabled.
+- Netlify Free: `picmagic-in`, site ID `2b145a4c-9cf9-4e4d-985c-ad52357569f0`, team `devujjwal`.
+- Current production deployment: `6aa2855b992a361b8d834268` (application commit `fc5cda0`). Node 22 build and function runtime; Next.js adapter 5.15.13.
+- Supabase Free: `PicMagic`, reference `lxecbrvzpmgjmsqiachc`, Mumbai (`ap-south-1`). Migration applied and 50 prompts imported.
 - Public operator: Ujjwal Paul. Contact: devujjwal1989@gmail.com.
+- Netlify automatic credit top-ups remain disabled. No payment method, paid add-on or automatic purchase was enabled. Default owner usage warnings are sent at 50%, 75% and 100%.
+- `VS-MJR Infotech` (`zbohtifndwvokmeewsne`) is paused as explicitly authorized to free a Supabase slot. `telecotrade` remains online.
 
-## Access
+## DNS and HTTPS
 
-Owner email/password login and admin membership were verified against the hosted Supabase project. Anonymous writes and public signup are rejected. Global signup is disabled, minimum password length is 12, secure password changes are enabled, and the storage limit is 10 MiB. RLS protects content and Storage writes.
+GoDaddy remains the DNS provider. Only the apex parking A record and `www` CNAME were replaced; Google's verification TXT was added. NS, SOA, `_domainconnect` and `_dmarc` records were preserved. Public DNS returns apex A `75.2.60.5` and `www` CNAME `picmagic-in.netlify.app`.
 
-The generated owner password is in `.env.admin.local` (mode 0600, ignored by Git) on the owner’s Mac. Database and provisioning credentials are in `.env.production.local` (mode 0600, ignored by Git). No service-role key or password was imported into Netlify. Keep these files private and rotate the administrator password through Supabase Auth when handing over credentials.
+Netlify issued its managed certificate for `picmagic.in` and `www.picmagic.in` on 10 September at 10:07:40 UTC; its current expiry is 9 December 2026. Renewal is managed by Netlify. Strict TLS checks return 200 for the apex. HTTP and `www` redirect with 301 to the HTTPS apex while preserving paths and query strings. The initial certificate delay resolved after Netlify provisioning; no certificate validation was bypassed. Independent HTTP-01 diagnostics passed for both hostnames.
 
-## DNS and Google
+## Administrator access
 
-GoDaddy remains the DNS provider. The apex parking record was replaced with Netlify’s documented A record `75.2.60.5`; `www` now points to `picmagic-in.netlify.app`. Existing NS, SOA, `_domainconnect` and `_dmarc` records were preserved. No domain renewal or paid add-on was purchased.
+Owner login, admin membership, uploads, private draft preview, publishing, cache refresh, canonical rename/redirect, duplication and unpublishing passed on the hosted application backed by the production Supabase project. Two disposable drafts and their two uploaded files were removed afterward; the public catalog and search contain exactly 50 records. A final check on the real apex domain also passed owner login, authenticated SVG-upload rejection and sign-out (`docs/qa/production-admin-access.json`). Anonymous writes and public signup are rejected. Auth signup is disabled globally and RLS restricts content and Storage writes to administrators.
 
-Google Search Console domain property `picmagic.in` was verified in `devujjwal1989@gmail.com` using Google’s supplied DNS TXT record. Keep that record in DNS. Sitemap submission and representative live URL inspections await the final indexable HTTPS release.
+The owner credentials are in `.env.admin.local` (mode 0600, Git-ignored) on the owner's Mac. Database/provisioning credentials are in `.env.production.local` (mode 0600, Git-ignored). Neither file was included in the clean deployment directory. No service-role key or password was imported into Netlify. Keep these files private; administrator password rotation is available through Supabase Auth.
 
-## Hosted validation
+## Google Search Console
 
-The initial preview surfaced a macOS-to-Linux native Sharp packaging error. `pnpm-workspace.yaml` now includes Linux x64 dependencies; the rebuilt function contains the Linux Sharp binding and libvips. The corrected preview is being validated. Local lab and database acceptance evidence remains in `docs/qa`.
+Domain property `picmagic.in` was verified in the owner's Google account using Google's supplied DNS TXT record. Keep that record in DNS.
+
+`https://picmagic.in/sitemap.xml` was submitted successfully. Google reported **Success**, **65 discovered pages**, and a last-read date of 10 September 2026.
+
+Live smartphone inspections passed for the homepage, `/ai-prompts/women`, `/collections/romantic`, the photo detail `/ai-prompts/women/golden-hour-draped-in-tradition`, and the reel detail `/reel-prompts/the-anniversary-slow-dance`. Every live test reported successful fetching, crawl allowed, indexing allowed and the expected user-declared canonical. Google's rendered screenshots were reviewed. Evidence is in `docs/qa/search-console.json`.
+
+Google has not yet indexed these new pages. Its selected canonical is only determined after indexing. These are successful technical checks, not a guarantee of indexing or ranking.
+
+## Validation and operating handoff
+
+The production build, lint, typecheck and 30 unit tests passed. Thirty production public browser checks passed across desktop/mobile, followed by six targeted checks after the final homepage image optimization. The full hosted publishing journey passed. Local Supabase passed 11 RLS/Storage/redirect checks and database-outage tests. Final SEO checks require descriptions and canonicals in the initial document head and verify 65 unique sitemap URLs, private/draft exclusion, collection-route isolation and branded share images.
+
+Final mobile Lighthouse measurements use three runs per representative page on the real HTTPS domain; medians and individual results are retained in `docs/qa/hosted-lighthouse-summary.json` and the linked reports. See [the implementation report](IMPLEMENTATION.md) for the scores, ranges, architecture, routes, schema and remaining product improvements. These are lab measurements; field Core Web Vitals require real traffic.
+
+The older Chromium headless-shell test runs intermittently stalled on static assets. Full Chromium passed targeted failures and the complete suite with normal HTTP/2 behavior; the committed Playwright configuration now uses full Chromium. No application checks or browser security settings were weakened to pass tests.
+
+## Follow-up and rollback
+
+- Recheck Search Console's Sitemaps and Page Indexing reports around 13 and 17 September; investigate unexpected exclusions, fetch failures or canonical mismatches. Compare Google-selected canonicals after crawling. This is documented follow-up guidance, not a scheduled automation.
+- Review hosting/database usage and availability within the Free allowances. Enable ads or GA4 only after configuring actual account IDs, consent requirements and integration checks.
+- Restore a previous known-good deployment through Netlify Deploys if necessary; `6aa283de4d2e840fb032d8c4` is the preceding working release. Do not reverse database migrations or overwrite editorial records during a code rollback.
+- Setup, secure first-admin provisioning, content/image replacement, deployment, rollback and optional Vercel guidance are in [DEPLOYMENT.md](DEPLOYMENT.md).

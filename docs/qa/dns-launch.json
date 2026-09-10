@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-09-10T09:33:48.765216+00:00",
+  "provider": "GoDaddy",
+  "records": {
+    "picmagic.in A": {
+      "status": 0,
+      "answers": [
+        {
+          "name": "picmagic.in.",
+          "type": 1,
+          "TTL": 600,
+          "data": "75.2.60.5"
+        }
+      ],
+      "source": "Response from 97.74.107.48."
+    },
+    "www.picmagic.in CNAME": {
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.picmagic.in.",
+          "type": 5,
+          "TTL": 3178,
+          "data": "picmagic-in.netlify.app."
+        }
+      ],
+      "source": null
+    },
+    "picmagic.in TXT": {
+      "status": 0,
+      "answers": [
+        {
+          "name": "picmagic.in.",
+          "type": 16,
+          "TTL": 3600,
+          "data": "google-site-verification=3t1nfJrSV-50Ml6r2Agk0roAOSatEK2hNsGIWJzZ8mE"
+        }
+      ],
+      "source": "Response from 173.201.75.48."
+    },
+    "picmagic.in NS": {
+      "status": 0,
+      "answers": [
+        {
+          "name": "picmagic.in.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns75.domaincontrol.com."
+        },
+        {
+          "name": "picmagic.in.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns76.domaincontrol.com."
+        }
+      ],
+      "source": "Response from 97.74.107.48."
+    },
+    "_dmarc.picmagic.in TXT": {
+      "status": 0,
+      "answers": [
+        {
+          "name": "_dmarc.picmagic.in.",
+          "type": 16,
+          "TTL": 3600,
+          "data": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+        }
+      ],
+      "source": "Response from 173.201.75.48."
+    }
+  }
+}

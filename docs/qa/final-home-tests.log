@@ -1,0 +1,19 @@
+
+Running 6 tests using 2 workers
+
+(node:68330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:68331) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/public.spec.ts:108:1 › homepage accessibility and no horizontal overflow (4.9s)
+  ✓  3 [chromium] › tests/e2e/public.spec.ts:176:1 › broken preview keeps title navigation available (2.1s)
+(node:68432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/public.spec.ts:3:1 › home → category → detail → copy (10.5s)
+(node:68450) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile] › tests/e2e/public.spec.ts:108:1 › homepage accessibility and no horizontal overflow (3.1s)
+  ✓  4 [mobile] › tests/e2e/public.spec.ts:3:1 › home → category → detail → copy (7.3s)
+  ✓  6 [mobile] › tests/e2e/public.spec.ts:176:1 › broken preview keeps title navigation available (2.5s)
+
+  6 passed (18.3s)

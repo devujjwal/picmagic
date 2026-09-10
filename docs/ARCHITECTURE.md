@@ -26,7 +26,7 @@ Supabase SSR cookies are refreshed only on admin paths. Each protected server pa
 
 ## SEO
 
-Metadata, canonicals and structured data share central helpers. Indexability requires published content and editorial opt-in; collections also require substantive copy and at least four published prompts. The sitemap excludes private and thin state. Admin/search/saved previews are noindex but are not hidden from crawlers using robots disallow alone. OpenGraph cards use the corresponding prompt image, title and branding.
+Metadata, canonicals and structured data share central helpers. Metadata streaming is disabled so descriptions and canonicals are in the initial document head for all clients. Indexability requires published content and editorial opt-in; collections also require substantive copy and at least four published prompts. The sitemap excludes private and thin state. Admin/search/saved previews are noindex but are not hidden from crawlers using robots disallow alone. OpenGraph cards use the corresponding prompt image, title and branding.
 
 ## Content and asset workflow
 
@@ -35,3 +35,7 @@ Metadata, canonicals and structured data share central helpers. Indexability req
 ## Operational constraints
 
 A noindex seed-mode preview is for development only. Production needs the real Supabase project, operator contact details, domain DNS/HTTPS, and successful launch checks. Free-tier usage limits are operational constraints, not performance guarantees. Neither Search Console indexing nor field Core Web Vitals can be guaranteed before real crawling and traffic.
+
+## First render performance
+
+Hero/detail images and the first two paginated discovery images load eagerly with high fetch priority; the small local hero thumbnails are served directly from the CDN without another transformation; the remaining discovery feed stays lazy. Next.js’s documented experimental `inlineCss` option embeds the small Tailwind stylesheet in HTML to avoid a blocking network round trip on mobile. This trades independent stylesheet caching for faster first loads; styles can be duplicated in the initial RSC payload. Keep the committed dependency lockfile and repeat production browser/Lighthouse checks when upgrading Next.js.

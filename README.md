@@ -4,7 +4,11 @@ Turn your photos into something magical.
 
 A mobile-first photo inspiration library, guided enhancement/photo/reel prompt creators, and protected editorial studio. Public users need no account, photo upload or AI API key.
 
+Live site: [picmagic.in](https://picmagic.in). Editorial login: [PicMagic Admin](https://picmagic.in/admin/login). See the [launch record](docs/LAUNCH.md) for verified hosting, DNS and Search Console outcomes.
+
 ## Run locally
+
+Use Node 22 (`nvm use`) and the pinned pnpm version.
 
 ```sh
 pnpm install
@@ -19,6 +23,7 @@ pnpm lint
 pnpm typecheck
 pnpm test
 pnpm build
+pnpm exec playwright install chromium
 pnpm test:e2e
 pnpm check:content
 ```

@@ -2,7 +2,7 @@
 
 ## Delivery status
 
-The production application is implemented and locally verified. **The public launch is not complete:** dedicated hosted Netlify/Supabase projects, public operator contact details, DNS/HTTPS activation and Search Console verification still require account access. The browser sign-in pages were opened for the owner; no credentials were requested in chat. No paid services, purchases, advertising or analytics were enabled.
+PicMagic is live at **https://picmagic.in** on dedicated Netlify and Supabase Free projects. The 50-prompt library, 50 original AI previews, protected publishing, HTTPS, DNS redirects, production indexing and Google Search Console technical verification are complete. The sitemap was processed successfully with 65 URLs. See [the launch record](LAUNCH.md). No paid services, automatic purchases, advertising or analytics were enabled.
 
 ## Implementation and architecture
 
@@ -42,26 +42,48 @@ Typed events: prompt view/copy/share/save/unsave/generate/regenerate, category v
 ## Validation evidence
 
 - ESLint and TypeScript: passed.
-- Vitest/Testing Library: 27 tests passed.
-- Playwright: 30 public checks passed across desktop and mobile.
-- Authenticated production-server browser test backed by local Supabase: passed create, upload, draft preview, publish, public cache refresh, canonical rename/redirect, duplicate and unpublish.
+- Vitest/Testing Library: 30 tests passed, including trusted-origin checks behind the hosting proxy.
+- Playwright: 30 public checks passed on the production HTTPS domain across desktop and mobile, plus six targeted checks after the final hero-image optimization.
+- Administrator browser tests passed create, upload, draft preview, publish, cache refresh, canonical rename/redirect, duplicate and unpublish against both local Supabase and the hosted production database. Disposable hosted records/assets were cleaned up.
 - Local Supabase: 11 RLS/Storage/redirect tests passed. Separate Auth API checks confirmed email login succeeds and public signup is rejected.
 - Resilience: cached published data remained available with the local REST service paused. An uncached unavailable database showed retry UI and no seed records. The service was restored after the test.
 - Browser checks cover blocked localStorage, failed clipboard, broken images, saved state, minimal cards, namespace isolation, pagination, accessible home/detail pages and generator navigation.
 - SEO checks verified 50 unique prompt canonicals, sitemap exclusion, representative rendered structured data and a working branded PNG share card.
 
-Raw local lab reports and responsive/SEO/outage evidence are in `docs/qa/`. These results are **local production-build measurements**, not measurements of the deployed domain. Run the same checks after hosting activation. Field Core Web Vitals require real traffic and have not been measured.
+Local and hosted reports are named separately in `docs/qa/`. Hosted SEO checks verify metadata in the initial head, not just somewhere in streamed HTML. Google’s live smartphone checks confirmed successful rendering, indexability and canonical declarations for all five representative route types. Field Core Web Vitals require real traffic and have not been measured.
+
+## Pre-launch local mobile Lighthouse baseline
+
+| Page     | Performance | Accessibility | Best Practices | SEO |
+| -------- | ----------- | ------------- | -------------- | --- |
+| Home     | 97          | 100           | 100            | 100 |
+| Category | 97          | 100           | 100            | 100 |
+| Detail   | 100         | 100           | 100            | 100 |
+| Creator  | 100         | 100           | 100            | 100 |
+
+The run used a production build with launch indexing enabled for measurement. These are lab scores, not field Core Web Vitals.
+
+## Final hosted mobile Lighthouse results
+
+Three runs per page on **https://picmagic.in**, production deployment `6aa2855b992a361b8d834268`, with normal mobile Lighthouse throttling. The table reports medians; the Performance range includes every run.
+
+| Page     | Performance median | Performance range | Accessibility | Best Practices | SEO |
+| -------- | ------------------ | ----------------- | ------------- | -------------- | --- |
+| Home     | 93                 | 85–96             | 100           | 100            | 100 |
+| Category | 96                 | 95–96             | 100           | 100            | 100 |
+| Detail   | 94                 | 87–98             | 100           | 100            | 100 |
+| Creator  | 100                | 99–100            | 100           | 100            | 100 |
+
+All page medians meet the requested targets. Individual home and detail runs fell below 90, as the ranges show; these lab medians are not a guarantee for every connection or visit. Raw runs and the summary are retained in `docs/qa/hosted-lighthouse-*.json`. Field Core Web Vitals remain unavailable until there is sufficient real traffic.
+
+The final changes prioritize visible images, serve the small preoptimized hero thumbnails directly, inline the compact stylesheet and put metadata in the initial document head. The documented Next.js `inlineCss` option is experimental; production build, browser and lab checks passed with the committed dependency lockfile. Retest when upgrading Next.js.
 
 ## Environment and operations
 
 See [`.env.example`](../.env.example) and [deployment instructions](DEPLOYMENT.md) for hosted environment settings, private provisioning, image/content replacement, Google Search Console, rollback and optional Vercel deployment. Local seed mode is explicitly selected. The Netlify production build guard rejects missing hosted database or public operator configuration.
 
-## Remaining launch work
+## Follow-up and remaining observations
 
-1. Complete secure Netlify and Supabase sign-in; create dedicated PicMagic Free projects and verify usage alerts with no auto purchases.
-2. Confirm the public operator name and contact email; provision the hosted administrator with a password chosen privately by the owner.
-3. Apply the migration, import content, configure Storage/Auth and deploy a noindex preview. Repeat publishing and cache tests on Netlify.
-4. Update only the necessary DNS records supplied by Netlify; verify HTTPS, apex and `www` redirects with paths/queries preserved. On September 10, DNS resolved to GoDaddy nameservers and A records; the earlier NXDOMAIN condition was no longer present. The domain was not serving this application.
-5. Enable production indexing after preview review. Complete Google's actual domain-verification TXT record, sitemap submission and representative URL inspections in Search Console. Document eventual indexing separately from technical verification.
+No external-access prerequisites remain. Google has accepted the sitemap and live tests passed, but the new pages were not yet indexed during the launch audit. Recheck Page Indexing and Google-selected canonicals after crawling; technical readiness does not guarantee indexing or ranking. Keep tracking Free-tier usage and future field Core Web Vitals. Ads and GA4 remain disabled until deliberately configured and validated.
 
-Next product improvements: use search evidence to expand useful collections; add curated before/after examples; consider optional account syncing for saved collections.
+Recommended next product improvements: use search evidence to expand useful collections; add curated before/after examples; consider optional account syncing for saved collections.

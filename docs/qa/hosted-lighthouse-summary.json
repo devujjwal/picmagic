@@ -1,0 +1,159 @@
+{
+  "origin": "https://picmagic.in",
+  "measuredAt": "2026-09-10T10:27:33.953Z",
+  "runs": 3,
+  "pages": {
+    "home": {
+      "path": "/",
+      "median": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/hosted-lighthouse-home-1.json",
+          "scores": {
+            "performance": 96,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-home-2.json",
+          "scores": {
+            "performance": 85,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-home-3.json",
+          "scores": {
+            "performance": 93,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        }
+      ]
+    },
+    "category": {
+      "path": "/ai-prompts/women",
+      "median": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/hosted-lighthouse-category-1.json",
+          "scores": {
+            "performance": 95,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-category-2.json",
+          "scores": {
+            "performance": 96,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-category-3.json",
+          "scores": {
+            "performance": 96,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        }
+      ]
+    },
+    "detail": {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "median": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/hosted-lighthouse-detail-1.json",
+          "scores": {
+            "performance": 87,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-detail-2.json",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-detail-3.json",
+          "scores": {
+            "performance": 94,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        }
+      ]
+    },
+    "creator": {
+      "path": "/create",
+      "median": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/hosted-lighthouse-creator-1.json",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-creator-2.json",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        },
+        {
+          "file": "docs/qa/hosted-lighthouse-creator-3.json",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          }
+        }
+      ]
+    }
+  }
+}
