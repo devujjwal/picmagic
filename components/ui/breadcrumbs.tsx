@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { ChevronRight } from "lucide-react";
 import { breadcrumbs } from "@/lib/seo/metadata";
 import { StructuredData } from "./structured-data";

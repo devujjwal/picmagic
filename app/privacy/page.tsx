@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 export const metadata = makeMetadata(
   "Privacy | PicMagic",

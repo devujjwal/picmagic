@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { track } from "@/lib/analytics";
 export function TrackedLink({
   source,

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { CategoryView } from "@/components/ui/view-event";
 import { notFound } from "next/navigation";
 import type { Prompt, Category, Collection } from "@/types/content";

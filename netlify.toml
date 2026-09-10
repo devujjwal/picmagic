@@ -1,4 +1,5 @@
 [build]
+ignore = "node ./scripts/ignore-build.mjs"
 command = "pnpm build:deploy"
 publish = ".next"
 [build.environment]

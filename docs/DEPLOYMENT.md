@@ -61,10 +61,12 @@ For authenticated browser tests, configure a local test administrator and run wi
 - Repository: private `devujjwal/picmagic`, with `origin` set to `https://github.com/devujjwal/picmagic.git`.
 - Production branch: `main`, connected to the existing `picmagic-in` Netlify project and `https://picmagic.in`.
 - Connection: Netlify CLI repository integration, a repository-specific read-only deploy key, and an active GitHub push webhook with TLS verification. The webhook URL is private; do not copy it into source or documentation. Netlify does not need a GitHub personal token in its build environment.
-- Every push to `main` runs `pnpm build:deploy`: production configuration validation, ESLint, generated Next.js route types and TypeScript, Vitest, content validation, and the production build. Netlify publishes only after the complete build and framework adapter succeed. A failed build leaves the previous published release serving traffic.
+- Application and validation changes pushed to `main` run `pnpm build:deploy`: production configuration validation, ESLint, generated Next.js route types and TypeScript, Vitest, content validation, and the production build. Netlify publishes only after the complete build and framework adapter succeed. A failed build leaves the previous published release serving traffic.
 - Other branches do not publish to the production domain. This connection listens for pushes; automatic pull-request previews are not configured. Existing preview and branch contexts remain noindex.
 - Environment variables stay in Netlify. Private `.env` files, administrator credentials and the Supabase service-role key remain outside GitHub. Code deployment does not run database migrations or seed imports.
 - No GitHub Actions deployment workflow or deployment token secret is required. View build outcomes and logs in [Netlify Deploys](https://app.netlify.com/projects/picmagic-in/deploys).
+
+Batch a complete change on a working branch, validate locally, then make one release push to `main`. Each successful production deployment consumes 15 Free-plan credits; preview deployments have no deployment charge, but their traffic and compute still consume credits. See [FREE-HOSTING.md](FREE-HOSTING.md) for the verified budget and release policy.
 
 Normal release workflow:
 
@@ -78,7 +80,9 @@ Use the personal `devujjwal` GitHub account for this repository. Local commit id
 
 For a failed deployment, inspect Netlify's build log, correct the error and push another commit. For a regression after a successful deployment, restore a known-good deploy in Netlify, then revert the faulty code on `main` and push; otherwise a later push can reintroduce it. To pause automatic deployments deliberately, stop builds in Netlify's continuous deployment settings. Billing auto top-ups remain disabled; automatic deployment does not enable automatic purchases.
 
-For a documentation-only commit that deliberately needs no deployment, Netlify supports `[skip netlify]` in the commit message. Do not use it for a code release. The next ordinary push resumes automatic deployment; see [Netlify's skip-deploy documentation](https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview/#skip-a-deploy).
+`scripts/ignore-build.mjs` automatically skips pushes whose entire diff from the last build contains only root README/AGENTS prose or Markdown under `docs/`. Application, configuration, tests, JSON fixtures, code deletions/renames and unknown files still build. Missing comparison history and same-commit rebuilds continue, so environment-only retries remain possible. Netlify build hooks bypass ignore commands.
+
+For a documentation-only commit that deliberately needs no deployment, Netlify also supports `[skip netlify]` in the commit message. Do not use it for a code release. The next ordinary push resumes automatic deployment; see [Netlify's skip-deploy documentation](https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview/#skip-a-deploy).
 
 ## Google Search Console
 

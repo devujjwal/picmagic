@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { PrivacyChoices } from "./privacy-choices";
 import { Sparkles, ArrowUpRight } from "lucide-react";
 export function Footer() {

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { Sparkles, ArrowUpRight } from "lucide-react";
 import { promptPath, type Prompt, type Catalog } from "@/types/content";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";

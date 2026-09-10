@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Link from "@/components/ui/site-link";
 import { Bookmark, ArrowRight } from "lucide-react";
 import { useSaved, useRecent } from "@/features/saved/store";
 import { PromptGrid } from "./prompt-grid";
