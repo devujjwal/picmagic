@@ -1,0 +1,228 @@
+[
+  {
+    "id": "a-little-rain-a-lot-of-romance",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate a 4:5 original photograph of a fictional Indian couple with distinct natural faces under a transparent umbrella on a rainy East Asian city street. Charcoal overcoat over black knitwear and beige trench coat, warm affectionate eye contact and small smiles. The coat wearer holds the umbrella, the other rests one hand on their arm. Wet pavement reflects warm shop lights against blue dusk. Natural skin and separate fingers, no text or watermark.",
+    "target": "public/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp"
+  },
+  {
+    "id": "your-next-chapter-in-focus",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Fictional Indian man about 45, naturally receding short hair and trimmed salt-and-pepper beard, medium-brown complexion, navy unstructured jacket over white crew-neck. Warm-grey studio, relaxed shoulders, approachable closed-mouth smile and direct eye contact, 85mm f/4 large soft light, head-and-shoulders 4:5. No text, watermark, plastic skin or collage.",
+    "target": "public/previews/your-next-chapter-in-focus-20260910.webp"
+  },
+  {
+    "id": "somewhere-in-the-mediterranean",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original 4:5 travel editorial photograph. A fictional Indian woman with medium-brown skin and distinct natural face, wearing a rust-orange linen dress and carrying a woven straw bag, strolling through a whitewashed Mediterranean lane with blue shutters and a glimpse of the sea. Bright natural afternoon light, relaxed expression, full body and bare sandal-wearing feet visible. Natural skin, hands and anatomy, no text or collage.",
+    "target": "public/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp"
+  },
+  {
+    "id": "barefoot-at-blue-hour",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Fictional Indian/South Asian couple, early thirties, distinct natural faces and ordinary proportions, individual medium-brown complexions, shoulder-length waves and short textured hair. Off-white linen dress, shirt and rolled trousers; nearest hands held naturally, full bare feet visible on wet sand; lavender-blue dusk, soft ambient light, 50mm f/4 full-body 4:5. No text, watermark or collage.",
+    "target": "public/previews/barefoot-at-blue-hour-20260910.webp"
+  },
+  {
+    "id": "quiet-confidence",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original PicMagic photograph: QUIET CONFIDENCE. A fictional Indian/South Asian man about 55 with deep medium-brown complexion, short naturally greying hair, original-looking facial lines, a small neat moustache and an ordinary sturdy build. Wearing a textured charcoal suit, white shirt, burgundy knit tie, white pocket square and simple wristwatch. Seated at the edge of a modern oak desk, torso upright but relaxed, hands naturally together on one knee, face slightly towards camera, composed closed-mouth expression. Tall architectural window behind with subdued city view. Large soft directional window light, restrained luxury editorial, 85mm f/4, seated three-quarter portrait 4:5 1200x1500. Full head and both hands visible. New distinct face unlike prior professional portrait. Realistic texture, no age erasure, no artificial skin, text, watermark or collage. Create the image.",
+    "target": "public/previews/quiet-confidence-6e748aa44b.webp"
+  },
+  {
+    "id": "the-forest-princess",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Adjust the woodland portrait to precisely match its established creative concept: the same fictional Indian girl, moss-green storybook dress and simple leaf crown in a fern-filled woodland, reaching one hand gently towards a shaft of morning sunlight. Her other arm stays relaxed. Lips slightly parted in quiet wonder, eyes following the sunbeam rather than looking at camera. Soft shafts of morning light, earthy greens, 50mm f/2.8 child-eye-level three-quarter portrait, 4:5. Keep the child age-appropriate, no adult makeup, no wings, realistic fingers and gentle arm anatomy, crown fully visible. Produce one complete standalone photograph.",
+    "target": "public/previews/the-forest-princess-c4adfd8801.webp"
+  },
+  {
+    "id": "sunday-all-together",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original 4:5 portrait photograph for PicMagic: a fictional Indian family of four, two parents in their thirties, a toddler and a school-aged child, making pancakes together at a modest sunny kitchen island. Distinct natural faces and varied warm brown complexions, everyday cotton knitwear, believable ordinary bodies. Mother with dark loose bun mixing batter, father with short hair and moustache gently helping the toddler stir a cool bowl, school-aged child arranging cooked pancakes on a plate. Keep children away from a hot stove. Candid absorbed smiles, natural separate hands, no duplicate people or fingers. Bright soft window light, honest lived-in textures, 35mm f/5.6 documentary wide composition within a 4:5 frame, include all four heads and hands. Original faces unlike earlier portraits, no glossed skin, no text or watermark.",
+    "target": "public/previews/sunday-all-together-eb050156b7.webp"
+  },
+  {
+    "id": "the-gentlest-new-beginning",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original documentary family photograph, 4:5 portrait. Two fictional Indian parents about 36 gently cradle their fully wrapped newborn beside a bedroom window. Mother: deep-brown complexion, broad round face, small wire-frame spectacles, short naturally curly dark hair, cream cotton blouse. Father: medium-brown complexion, broad natural nose, close-cropped hair, clean-shaven, cream cotton kurta, ordinary stocky build. Distinct believable faces, not glamour models. Mother supports the infant along her forearm with the head and neck secure; father stands close with one hand gently near the supporting forearm. The newborn is fully swaddled in plain cream cotton, face and nose unobscured. Both parents gaze down tenderly at the baby, three distinct faces visible. Soft morning window light, calm lived-in bedroom, neutral cotton textures, 50mm f/4 intimate upper-body group. Natural skin, secure realistic supporting hands, no adult smoothing, no floating baby, no text or watermark.",
+    "target": "public/previews/the-gentlest-new-beginning-8116d94c2b.webp"
+  },
+  {
+    "id": "the-perfect-birthday-picnic",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original PicMagic photograph, 4:5 portrait. A fictional nine-year-old Indian girl with a warm deep-brown complexion, distinct round child face, short softly curled dark hair and age-appropriate natural proportions, wearing a yellow gingham cotton dress. She sits comfortably with legs folded on a picnic blanket beside a small strawberry birthday cake on a stable low board, simple pastel paper bunting in the park behind. Hands relaxed together on her lap, contented small closed-mouth smile and gentle direct eye contact. Keep the whole cake, both hands and her head visible. Soft late-afternoon light, gentle pastel colours, 50mm f/4 child-eye-level environmental portrait. Natural skin texture, no adult makeup, no text or watermark, no repeated face from earlier woodland child.",
+    "target": "public/previews/the-perfect-birthday-picnic-5520ce16c7.webp"
+  },
+  {
+    "id": "change-the-scene-keep-yourself",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "prompt": "Generate one original photorealistic 4:5 portrait for PicMagic. A fictional Indian man in his late twenties with deep-brown skin, a long angular face, short tightly curled dark hair, light stubble and an ordinary slim build, wearing a plain black everyday overshirt over a dark crew-neck. Calm serious closed-mouth expression and direct eye contact, hands relaxed outside the medium portrait crop. Clean stone-grey studio wall, soft side window light consistent across face, clothing and background. 85mm f/4 half-body editorial portrait, full head and realistic hair edges. Natural pores, uneven human texture, no skin lightening, no artificial muscularity, no branded clothing, no text or watermark. This is a fictional India-first example for a background replacement idea.",
+    "target": "public/previews/change-the-scene-keep-yourself-5908088f14.webp"
+  },
+  {
+    "id": "the-anniversary-slow-dance",
+    "type": "video",
+    "status": "integrated",
+    "duration": 5,
+    "dimensions": [
+      576,
+      720
+    ],
+    "format": "H.264 MP4, no audio, faststart",
+    "prompt": "Animate this approved PicMagic anniversary portrait for 5 seconds. Keep exactly these same two older Indian people, their recognizable faces, age, hair, glasses, bindi, wine-red saree, cream kurta and joined hands unchanged. In a steady medium two-shot on the veranda at dusk, they make one very gentle side-to-side sway, exchange a warm small smile, and return close to their original pose for a loop-friendly finish. Hands stay joined in the same grip, arms remain naturally attached, jewellery and clothing remain fixed. Warm string lights and blue dusk stay consistent. Minimal camera motion; genuine small body and fabric movement, not a zoom-only still. No speaking, music, added text, face morphing, extra fingers, disappearing glasses or flicker.",
+    "target": "public/videos/the-anniversary-slow-dance.mp4",
+    "provider": "Kling AI",
+    "poster": "public/previews/the-anniversary-slow-dance.webp"
+  },
+  {
+    "id": "from-suitcase-to-seaside",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "prompt": "Create one original 9:16 vertical photographic reel poster for PicMagic, single standalone image. A fictional Indian woman about 32 with deep-brown complexion, distinct natural face, shoulder-length loosely wavy black hair and ordinary proportions, wearing an opaque white linen shirt and relaxed white linen trousers. She stands beside an open coastal hotel balcony door, one hand lightly on the door frame and the other relaxed, looking towards the sea with a peaceful small closed-mouth smile. A small tan suitcase stands next to the open door. Keep her full body, both hands, suitcase and a strip of sparkling blue sea visible. Bright breezy morning daylight, clean blues and whites, 35mm f/4 environmental photography. No luxurious stereotype, realistic skin and natural fabric, new face unlike previous images, no lettering or watermark. Leave enough room above her head and below her feet.",
+    "target": "public/previews/from-suitcase-to-seaside-df07aabf03.webp"
+  },
+  {
+    "id": "from-suitcase-to-seaside",
+    "type": "video",
+    "status": "external_generation_required",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "H.264 MP4, no audio, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 motion preview from the approved from-suitcase-to-seaside poster. Use 0–2 seconds for the established scene, 2–6 seconds for this specific small action: Use a wide gentle push-in from the open doorway, showing the suitcase, balcony and woman looking out to sea. Settle during 6–8 seconds into a gentle loop-compatible hold. Keep the same identities, hairstyle, wardrobe, props and product labels. Natural motion only, no morphing or zoom-only still animation. No audio or text overlay.",
+    "target": "public/videos/from-suitcase-to-seaside.mp4"
+  },
+  {
+    "id": "a-birthday-in-three-little-moments",
+    "type": "video",
+    "status": "external_generation_required",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "H.264 MP4, no audio, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 motion preview from the approved a-birthday-in-three-little-moments poster. Use 0–2 seconds for the established scene, 2–6 seconds for this specific small action: Establish the child beside the cake as the parents bring the two ends of the same waist ribbon together. Settle during 6–8 seconds into a gentle loop-compatible hold. Keep the same identities, hairstyle, wardrobe, props and product labels. Natural motion only, no morphing or zoom-only still animation. No audio or text overlay.",
+    "target": "public/videos/a-birthday-in-three-little-moments.mp4"
+  },
+  {
+    "id": "the-fragrance-reveal",
+    "type": "video",
+    "status": "integrated",
+    "duration": 5,
+    "dimensions": [
+      576,
+      720
+    ],
+    "format": "H.264 MP4, no audio, faststart",
+    "prompt": "A five-second luxury product film from this exact reference. The same single perfume bottle remains stationary on the black marble, with its gold cap, clear rectangular glass geometry, amber liquid level and orange peel unchanged. A soft warm highlight travels slowly across the cap and glass from left to right, while the camera makes a very small smooth lateral slide and settles. The reflection moves consistently with the camera. Keep the whole bottle visible throughout. No bottle rotation, no changing cap shape, no added lettering, no new objects, no liquid splash, no flicker or morphing. Silent, restrained and loop-friendly.",
+    "target": "public/videos/the-fragrance-reveal.mp4",
+    "provider": "Kling AI",
+    "poster": "public/previews/the-fragrance-reveal.webp"
+  },
+  {
+    "id": "one-city-one-beautiful-evening",
+    "type": "replacement_image",
+    "status": "integrated",
+    "workflow": "ChatGPT UI only; never Codex image generation",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "prompt": "Generate one original 9:16 vertical cinematic photographic poster for PicMagic. A fictional Indian man about 38 with a broad square face, medium-brown skin, a prominent natural nose, closely cropped dark hair with subtle grey at the temples, clean-shaven face and average build. Navy casual jacket, no visible logos. Medium profile framing on a rainy Tokyo pedestrian bridge at twilight, he looks thoughtfully across the city rather than at the camera, both hands resting naturally on the wet metal railing. Cool twilight with restrained amber and magenta city bokeh reflected in the railings, 50mm f/2, softly separated background, realistic rain dampness and skin texture. Tokyo is a setting and cinematography style; the fictional subject is distinctly Indian. No text, watermark or collage, complete head and hands visible.",
+    "target": "public/previews/one-city-one-beautiful-evening-0bc8de6bdb.webp"
+  },
+  {
+    "id": "one-city-one-beautiful-evening",
+    "type": "video",
+    "status": "external_generation_required",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "H.264 MP4, no audio, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 motion preview from the approved one-city-one-beautiful-evening poster. Use 0–2 seconds for the established scene, 2–6 seconds for this specific small action: Make a slow push-in towards the person leaning on the rain-dark bridge railing, keeping their profile clear against the city. Settle during 6–8 seconds into a gentle loop-compatible hold. Keep the same identities, hairstyle, wardrobe, props and product labels. Natural motion only, no morphing or zoom-only still animation. No audio or text overlay.",
+    "target": "public/videos/one-city-one-beautiful-evening.mp4"
+  },
+  {
+    "id": "a-wedding-morning-remembered",
+    "type": "video",
+    "status": "external_generation_required",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "H.264 MP4, no audio, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 motion preview from the approved a-wedding-morning-remembered poster. Use 0–2 seconds for the established scene, 2–6 seconds for this specific small action: Establish the seated bride and the reference parent beside the window as the parent lifts the existing dupatta edge gently. Settle during 6–8 seconds into a gentle loop-compatible hold. Keep the same identities, hairstyle, wardrobe, props and product labels. Natural motion only, no morphing or zoom-only still animation. No audio or text overlay.",
+    "target": "public/videos/a-wedding-morning-remembered.mp4"
+  }
+]

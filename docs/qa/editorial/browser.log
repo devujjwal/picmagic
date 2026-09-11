@@ -1,0 +1,21 @@
+
+Running 8 tests using 2 workers
+
+(node:82380) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82381) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/editorial.spec.ts:10:1 › homepage cards use only approved distinctive creative concepts (2.4s)
+  ✓  3 [chromium] › tests/e2e/editorial.spec.ts:33:1 › catalogue separates useful utility and keeps rewritten missing-asset concepts private (1.2s)
+  ✓  4 [chromium] › tests/e2e/editorial.spec.ts:52:1 › new conceptual metadata is not shown as a public score (817ms)
+(node:82641) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/admin.spec.ts:3:1 › admin creates, uploads, previews, publishes, duplicates, redirects and unpublishes (14.9s)
+(node:82696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  6 [mobile] › tests/e2e/editorial.spec.ts:10:1 › homepage cards use only approved distinctive creative concepts (1.2s)
+  ✓  7 [mobile] › tests/e2e/editorial.spec.ts:33:1 › catalogue separates useful utility and keeps rewritten missing-asset concepts private (693ms)
+  ✓  8 [mobile] › tests/e2e/editorial.spec.ts:52:1 › new conceptual metadata is not shown as a public score (705ms)
+  ✓  5 [mobile] › tests/e2e/admin.spec.ts:3:1 › admin creates, uploads, previews, publishes, duplicates, redirects and unpublishes (16.0s)
+
+  8 passed (23.4s)

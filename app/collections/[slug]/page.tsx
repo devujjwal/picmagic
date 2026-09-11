@@ -22,8 +22,8 @@ export async function generateMetadata({ params, searchParams }: Props) {
     c.prompt_ids.includes(p.id),
   ).length;
   return metadata(
-    `${c.name}${n > 1 ? ` — Page ${n}` : ""} | PicMagic`,
-    c.description,
+    `${c.seo_title || c.name}${n > 1 ? ` — Page ${n}` : ""} | PicMagic`,
+    c.seo_description || c.description,
     `/collections/${slug}${n > 1 ? `?page=${n}` : ""}`,
     c.is_indexable && count >= 4 && c.description.length >= 100,
   );
@@ -39,6 +39,7 @@ export default async function Collection({ params, searchParams }: Props) {
   }
   return (
     <CatalogPage
+      availablePrompts={catalog.prompts}
       {...catalog}
       prompts={catalog.prompts.filter((p) => c.prompt_ids.includes(p.id))}
       title={c.name}

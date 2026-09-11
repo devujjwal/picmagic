@@ -1,0 +1,27 @@
+{
+  "scope": "Local navigation/UI changes; no production deployment",
+  "homepage": "Removed Find your kind of beautiful link wall",
+  "discovery": "At most four relevant active collections with four unique published approved-preview members; hide when none qualify; separate photo and reel suggestions",
+  "previous_404s_confirmed": [
+    "/collections/romantic",
+    "/collections/golden-hour"
+  ],
+  "reason": "Inactive collections intentionally do not resolve publicly; no longer promoted",
+  "validation": {
+    "lint": "pass",
+    "typecheck": "pass",
+    "unit_tests": 117,
+    "browser_tests": 8,
+    "production_build": "pass",
+    "axe_new_section": "no violations",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440
+    ],
+    "recommended_targets": "all tested destinations HTTP 200 with at least four prompt cards"
+  }
+}

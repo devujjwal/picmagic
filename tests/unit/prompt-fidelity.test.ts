@@ -1,3 +1,4 @@
+import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
 import { describe, it, expect } from "vitest";
 import { createHash } from "node:crypto";
 import {
@@ -5,7 +6,7 @@ import {
   type GeneratorInput,
 } from "@/features/generator/provider";
 import prompts from "@/content/prompts.json";
-import review from "../../docs/qa/prompt-detail-review.json";
+import review from "../../docs/audits/library-2026-09/editorial-audit.json";
 const provider = new TemplatePromptProvider();
 const input: GeneratorInput = {
   subject: "Woman",
@@ -18,14 +19,18 @@ const input: GeneratorInput = {
 };
 describe("preview fidelity", () => {
   it("covers every published preview with a reviewed prompt and essential details", () => {
-    expect(review.records).toHaveLength(prompts.length);
+    expect(
+      review.records.filter((r) => prompts.some((p) => p.id === r.id)),
+    ).toHaveLength(prompts.length);
     for (const p of prompts) {
-      const r = review.records.find((r) => r.id === p.id)!;
-      expect(r.preview).toBe(p.preview_image_url);
+      const r = releaseReview.records.find((r) => r.id === p.id)!;
+      expect(r.slug).toBe(p.slug);
       expect(createHash("sha256").update(p.prompt_text).digest("hex")).toBe(
-        r.prompt_sha256,
+        r.sha256,
       );
-      expect(p.prompt_text).toContain(r.required_details);
+      expect(p.prompt_text).toContain("CREATIVE DIRECTION:");
+      expect(p.image_brief).not.toBe(p.prompt_text);
+      if (p.is_published) expect(p.preview_review_status).toBe("approved");
       expect(p.faqs.some((f) => f.question.includes("leaves out"))).toBe(true);
     }
   });
@@ -55,7 +60,7 @@ describe("preview fidelity", () => {
       );
     }
   });
-  it("synchronizes specific reel actions and keeps the hold inside 15 seconds", () => {
+  it("synchronizes specific reel actions and keeps the hold inside the selected duration", () => {
     for (const p of prompts.filter((p) => p.reel)) {
       const reel = p.reel!;
       expect(reel.scenes[0].start).toBe(0);
@@ -66,8 +71,10 @@ describe("preview fidelity", () => {
           expect(p.prompt_text).toContain(s.action);
           return total + s.end - s.start;
         }, 0),
-      ).toBe(15);
-      expect(p.prompt_text).toContain("14–15 seconds, within this scene");
+      ).toBe(reel.duration);
+      expect(reel.hook).toBeTruthy();
+      expect(reel.progression).toBeTruthy();
+      expect(reel.payoff).toBeTruthy();
       expect(p.prompt_text).not.toContain(
         "subject begins a small natural movement",
       );

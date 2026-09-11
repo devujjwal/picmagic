@@ -17,7 +17,26 @@ const before: Prompt[] = JSON.parse(
 const after: Prompt[] = JSON.parse(
   readFileSync("content/prompts.json", "utf8"),
 ).map((p: unknown) => promptSchema.parse(p));
+if (
+  after.some((p) => !p.is_published || p.preview_review_status !== "approved")
+)
+  throw new Error(
+    "Complete local content and preview review before a production revision.",
+  );
 const fields = [
+  "title",
+  "style",
+  "lighting",
+  "seo_title",
+  "seo_description",
+  "distinctiveness_score",
+  "content_intent",
+  "why_ai",
+  "editorial_review_version",
+  "preview_review_status",
+  "is_featured",
+  "is_trending",
+  "trending_rank",
   "prompt_text",
   "description",
   "faqs",
@@ -25,9 +44,19 @@ const fields = [
   "framing",
   "camera",
   "image_alt",
+  "preview_image_url",
+  "thumbnail_url",
+  "image_width",
+  "image_height",
+  "image_brief",
+  "persona_policy",
+  "persona_version",
+  "preview_video",
+  "subject",
+  "tags",
 ] as const;
 const same = (a: unknown, b: unknown) =>
-  JSON.stringify(a) === JSON.stringify(b);
+  JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const email = process.env.PICMAGIC_ADMIN_EMAIL;

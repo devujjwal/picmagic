@@ -1,0 +1,27 @@
+{
+  "reviewed": 163,
+  "original_reviewed": 50,
+  "expanded_reviewed": 113,
+  "collections_reviewed": 38,
+  "enhancement_controls_reviewed_separately": 16,
+  "retained": 34,
+  "rewritten": 127,
+  "merged": 2,
+  "removed_without_merge": 0,
+  "retained_library": 161,
+  "scores": {
+    "1": 0,
+    "2": 0,
+    "3": 34,
+    "4": 72,
+    "5": 55
+  },
+  "image_jobs_needing_generation": 69,
+  "replacement_jobs": 63,
+  "new_missing_jobs": 6,
+  "existing_output_reused_this_pass": 1,
+  "selected_video_jobs": 8,
+  "locally_published": 43,
+  "locally_held_for_media": 118,
+  "production_changed": false
+}

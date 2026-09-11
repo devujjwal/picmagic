@@ -1,15 +1,33 @@
+import { FriendsTripCreator } from "@/features/generator/friends-trip-creator";
+import { CollectionDiscovery } from "@/components/prompts/collection-discovery";
+import { notFound } from "next/navigation";
 import { getCatalog } from "@/lib/content";
 import { Wizard } from "@/features/generator/wizard";
-import { PromptGrid } from "@/components/prompts/prompt-grid";
+import { PaginatedGrid } from "@/components/prompts/paginated-grid";
 import { AdSlot } from "@/components/ads/ad-slot";
+import { StructuredData } from "@/components/ui/structured-data";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
-export const metadata = makeMetadata(
-  "AI Reel Ideas and Video Prompts | PicMagic",
-  "Discover reel concepts and create scene-by-scene video prompts, captions and music mood suggestions.",
-  "/reel-prompts",
-);
-export default async function Reels() {
-  const { prompts } = await getCatalog();
+import { pageNumber } from "@/lib/prompts/discovery";
+import { promptPath } from "@/types/content";
+import { site } from "@/config/site";
+type Props = { searchParams: Promise<{ page?: string }> };
+export async function generateMetadata({ searchParams }: Props) {
+  const page = pageNumber((await searchParams).page);
+  return makeMetadata(
+    `AI Reel Ideas and Video Prompts${page > 1 ? ` — Page ${page}` : ""} | PicMagic`,
+    "Discover reel concepts and create scene-by-scene video prompts, captions and music mood suggestions.",
+    `/reel-prompts${page > 1 ? `?page=${page}` : ""}`,
+  );
+}
+export default async function Reels({ searchParams }: Props) {
+  const { prompts, collections } = await getCatalog();
+  const reels = prompts.filter(
+    (p) => p.prompt_type === "reel" || p.prompt_type === "video",
+  );
+  const page = pageNumber((await searchParams).page),
+    pages = Math.max(1, Math.ceil(reels.length / 24));
+  if (page > pages) notFound();
+  const shown = reels.slice((page - 1) * 24, page * 24);
   return (
     <div className="container">
       <header className="page-heading section">
@@ -22,12 +40,22 @@ export default async function Reels() {
           Create a reel prompt
         </a>
       </header>
-      <PromptGrid
-        prompts={prompts.filter(
-          (p) => p.prompt_type === "reel" || p.prompt_type === "video",
-        )}
+      <p className="result-count">
+        {reels.length} reel concepts{page > 1 ? ` · Page ${page}` : ""}
+      </p>
+      <PaginatedGrid
+        key={`reels-${page}`}
+        prompts={reels}
+        page={page}
+        path="/reel-prompts"
       />
       <AdSlot placement="reel-page-inline" />
+      <CollectionDiscovery
+        collections={collections}
+        prompts={prompts}
+        medium="reel"
+        path="/reel-prompts"
+      />
       <section id="reel-creator" className="section">
         <div className="page-heading">
           <h2 className="font-serif text-4xl">Your story starts here.</h2>
@@ -35,6 +63,24 @@ export default async function Reels() {
         </div>
         <Wizard mode="reel" />
       </section>
+      <FriendsTripCreator />
+      <StructuredData
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "AI Reel Ideas and Video Prompts",
+          url: site.url + `/reel-prompts${page > 1 ? `?page=${page}` : ""}`,
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: shown.map((p, i) => ({
+              "@type": "ListItem",
+              position: (page - 1) * 24 + i + 1,
+              name: p.title,
+              url: site.url + promptPath(p),
+            })),
+          },
+        }}
+      />
     </div>
   );
 }

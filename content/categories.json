@@ -126,5 +126,13 @@
     "description": "Discover thoughtful reels photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
     "is_indexable": true,
     "seo_title": "AI Photo Prompts for Reels | PicMagic"
+  },
+  {
+    "id": "pets",
+    "slug": "pets",
+    "name": "Pets",
+    "description": "Portrait ideas for the animals in your life, preserving their own markings and character with natural poses and gentle handling.",
+    "is_indexable": false,
+    "seo_title": "Pet Photo Prompts and Portrait Ideas"
   }
 ]

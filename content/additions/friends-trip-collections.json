@@ -1,0 +1,20 @@
+[
+  {
+    "id": "friends-travel-reels",
+    "slug": "friends-travel-reels",
+    "name": "Friends Travel Reels",
+    "description": "Make a travel story with the people who matter: a place-setting opening, natural shared moments and a memorable location reveal. These reference-first friends-trip concepts preserve each person's identity while adapting the setting, wardrobe and camera movement. Start with Ladakh, then use the reusable creator for another destination and group size.",
+    "kind": "subcategory",
+    "prompt_ids": [
+      "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19"
+    ],
+    "is_indexable": false,
+    "active": false,
+    "start_date": null,
+    "end_date": null,
+    "priority": 25,
+    "featured_image": "",
+    "seo_title": "Friends Travel Reel Concepts and Prompts",
+    "seo_description": "Create cinematic travel-memory reels with your own friends. Explore the Ladakh concept and adapt the friend count, place, mood and duration."
+  }
+]

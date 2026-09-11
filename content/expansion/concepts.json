@@ -1,0 +1,645 @@
+[
+  {
+    "slug": "pre-wedding",
+    "title": "Before the wedding, your own story",
+    "subject": "Couple",
+    "category": "couple",
+    "description": "Explore Royal Jaipur After-Hours, Monsoon Love Story, Desert Moonlight Promises and The Heritage Railway Letter. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Royal Jaipur After-Hours",
+        "The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage. The identity reference determines the people; the example provides the styling and setting.",
+        "Amber lamps against deep indigo outside the arches; 50mm full-body symmetrical composition, both faces readable.",
+        "Start with two moving shadows crossing the lamp-lit floor. → Lift to the couple taking two slow steps and exchanging a glance. → Reveal the long symmetrical illuminated corridor around them."
+      ],
+      [
+        "Monsoon Love Story",
+        "The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded. The identity reference determines the people; the example provides the styling and setting.",
+        "Backlit rain and warm shop reflections; 50mm three-quarter two-shot with umbrella completely inside crop.",
+        "Start on two reflected figures rippling in a puddle. → Tilt up through backlit rain to the couple beneath one umbrella. → Hold their connected glance as the street lights stretch behind them."
+      ],
+      [
+        "Desert Moonlight Promises",
+        "The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes. The identity reference determines the people; the example provides the styling and setting.",
+        "Cool moonlit environment with restrained lantern fill; 35mm full-body two-shot and broad night sky.",
+        "Begin with wind drawing a thin line across sand beside the lantern. → Reveal the couple's joined hands and moonlit faces. → Widen to the huge layered dunes and night sky."
+      ],
+      [
+        "The Heritage Railway Letter",
+        "The couple in 1970s-inspired travel clothes exchanges one folded letter beside a stationary heritage railway carriage on a platform. Warm station lamps glow through drifting steam; a leather suitcase rests clear of the platform edge. Hair and clothing may take period styling without changing either person's face, age or ethnicity. The identity reference determines the people; the example provides the styling and setting.",
+        "Amber station lamps and soft steam diffusion; 50mm waist-up with carriage windows receding behind.",
+        "Start on the single folded letter passing between hands. → Follow the recipient's smile as steam moves behind them. → Reveal the heritage carriage and warm platform lamps like a film's final frame."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "eba54b03-680c-5638-aa10-25ce82ff7108",
+      "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+      "eb41333c-e39f-5ce3-a1b5-e1500f8b6146"
+    ]
+  },
+  {
+    "slug": "maternity",
+    "title": "Waiting for your little one",
+    "subject": "Woman",
+    "category": "women",
+    "description": "Explore Moonlit Motherhood, Monsoon Maternity at the Heritage Window, Generations Waiting Together and Motherhood in a Field of Paper Petals. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Moonlit Motherhood",
+        "The expectant mother sits on a broad stable studio platform; softly supported fabric sweeps behind her into a crescent shape, never wrapping tightly around the body. A dark blue backdrop and a few out-of-focus paper stars suggest moonlight rather than outer space. Preserve actual pregnancy stage and comfortable posture; face, both hands and bump unobscured. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft silver-blue side light with warm skin fill; 50mm seated full silhouette, entire fabric crescent visible.",
+        "Begin on the silver-lit edge of the fabric crescent. → Move inward to the mother's resting hands and face. → Reveal the complete crescent framing her supported seated silhouette."
+      ],
+      [
+        "Monsoon Maternity at the Heritage Window",
+        "The expectant mother sits comfortably beside a rain-covered heritage window in a softly draped saree. One hand rests gently on the actual bump; the other rests on the seat. Water traces the old glass, with a courtyard tree visible beyond; expression is quiet anticipation. Preserve pregnancy stage, actual shape and age; no exaggerated arching or floating fabric. The identity reference determines the people; the example provides the styling and setting.",
+        "Cool reflected rain light and warm room shadows; 50mm seated three-quarter portrait with bump and face readable.",
+        "Start on a raindrop tracing the old window glass. → Focus moves to the mother's hand resting on the bump. → Reveal her calm face and the rain-softened courtyard together."
+      ],
+      [
+        "Generations Waiting Together",
+        "The expectant parent sits in a warm family room with their partner beside them, hands meeting gently above the bump. Three empty wooden frames at different depths cast nested shadows on the wall, suggesting generations without inventing ancestors' faces. Use supplied family portraits only if explicitly provided and labelled. The identity reference determines the people; the example provides the styling and setting.",
+        "Late afternoon window light and crisp frame shadows; 50mm seated two-shot with shadow frames visible beside faces.",
+        "Start on three nested frame shadows. → Shift to the two hands meeting gently over the bump. → Reveal both parents within the warm room and the generational shadow motif."
+      ],
+      [
+        "Motherhood in a Field of Paper Petals",
+        "The expectant mother sits upright on a comfortable hidden-backed stool within an installation of oversized ivory paper petals. The petals form a soft opening around her without touching face or belly; a simple fitted knit dress follows her real silhouette. Keep the installation recognizably handmade with folded paper edges. The identity reference determines the people; the example provides the styling and setting.",
+        "Diffuse cream studio light and delicate petal shadows; 50mm seated three-quarter composition.",
+        "Begin on a paper petal's folded edge. → Pass between two stationary petals to the seated mother. → Reveal the whole flower-like installation opening around her."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "972f7890-d4eb-5f89-ac59-27e4dc591474",
+      "7c129763-1405-5579-a8cc-ccf338d69a57",
+      "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2",
+      "16584e1f-38d5-550f-a118-f753b61eaf66"
+    ]
+  },
+  {
+    "slug": "bikes",
+    "title": "Motorcycle portraits with character",
+    "subject": "Man",
+    "category": "men",
+    "description": "Explore Himalayan Last Rider, Midnight Fuel Stop, Monsoon Rider Under the Flyover and The Salt Road to Nowhere. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Himalayan Last Rider",
+        "The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged. The identity reference determines the people; the example provides the styling and setting.",
+        "Blue mountain twilight with a warm headlamp cone; 35mm full-body environmental frame, rider large enough to recognize, horizon low.",
+        "Close on snowflakes crossing the headlamp beam. → Reveal the rider beside the stationary motorcycle. → Pull wide enough to expose the immense empty pass and mountain layers."
+      ],
+      [
+        "Midnight Fuel Stop",
+        "The rider rests beside their stationary supplied motorcycle at an isolated small petrol station after midnight. Fluorescent canopy lights illuminate light mist, a closed kiosk and an unreadable old route board; helmet rests securely on the seat. No refuelling, smoking or ignition near pumps; face visible and actual bike details unchanged. The identity reference determines the people; the example provides the styling and setting.",
+        "Green-white fluorescent canopy and dark blue mist; 35mm full-body environmental portrait.",
+        "Start on a flickering reflection of the canopy light in the bike mirror. → Reveal the rider pausing beside the stationary bike. → Widen to the solitary lit station surrounded by dark mist."
+      ],
+      [
+        "Monsoon Rider Under the Flyover",
+        "The rider and their motorcycle wait safely under a broad flyover while torrential rain forms a curtain just beyond shelter. Headlamp light cuts across the falling water; wet concrete reflects the wheel and boots. The rider gently adjusts a jacket cuff, with helmet secured on the seat and face uncovered. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm headlamp against cool rain daylight; 50mm three-quarter frame with whole front wheel and face.",
+        "Begin on rain striking the edge of shelter in the headlamp beam. → Reveal the dry rider adjusting one cuff beside the bike. → Show the sharp boundary between sheltered motorcycle and torrential rain."
+      ],
+      [
+        "The Salt Road to Nowhere",
+        "The rider stands beside their parked motorcycle on a firm pale salt-flat road, holding a small folded map against the fuel tank. Road markings converge into a shimmering distant horizon; one low cloud casts a huge moving shadow across the otherwise empty landscape. Keep wheel contact, mirror design and scale believable. The identity reference determines the people; the example provides the styling and setting.",
+        "Hard late-afternoon sun with a vast cloud shadow; 35mm environmental full-body frame.",
+        "Start on the folded map edge against the tank. → Reveal the rider looking from the map towards the road. → Pull back to the road vanishing into the salt horizon."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "5ba878c1-b65c-5192-afe5-9e684461852c",
+      "e3bcd989-c63b-5a67-a91a-ef49901f7991",
+      "53329fb2-d974-5ee1-a385-e060e094efca"
+    ]
+  },
+  {
+    "slug": "cars",
+    "title": "Cars, light and the open road",
+    "subject": "Product",
+    "category": "product-photography",
+    "description": "Explore Desert Road Hero, Retro Bombay, Through the Windscreen, Neon Monsoon Drive and The Mountain Tunnel Arrival. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Desert Road Hero",
+        "The owner leans lightly against their supplied stationary car on a vast desert highway turnout. A distant storm spreads across the horizon while the foreground remains dry; the car's exact bodywork, wheels, paint and plate are preserved from reference. The owner's actual physique and face remain unchanged, one hand resting naturally on the bonnet.",
+        "Low warm sun under a dark storm shelf; 35mm full car and full person, enormous horizon.",
+        "Start on the storm reflected across the bonnet. → Reveal the owner standing beside the unchanged car. → Widen to the empty highway beneath the enormous distant storm."
+      ],
+      [
+        "Retro Bombay, Through the Windscreen",
+        "The driver sits in their supplied parked car at a curb on a late-1980s-inspired Bombay street. Period shop shutters, an old taxi silhouette and monsoon reflections appear outside; wardrobe and grooming take period cues while identity and the supplied car remain exact, even if its modern design contrasts with the era. Hands rest loosely on the wheel, gaze through the side window.",
+        "Warm tungsten street lamps and restrained 35mm film grain; view through dry windscreen with face free of glare.",
+        "Begin on a warm street reflection across the windscreen. → Focus moves through the glass to the driver's face. → Reveal the surrounding period-inspired Bombay street beyond the unchanged car."
+      ],
+      [
+        "Neon Monsoon Drive",
+        "The owner stands beside their parked car on a rain-soaked city side street at night. Cyan and red shop-light reflections flow across the exact supplied paint and body panels; a little headlight haze separates the person from the dark street. Keep the face naturally lit, no neon recolouring of skin, and no traffic stunt.",
+        "Two restrained neon colours with soft neutral face fill; 50mm three-quarter car and person.",
+        "Start on a neon line reflected along the door panel. → Follow it to the owner's relaxed hand and face. → Reveal the whole car in the wet street's two-colour reflections."
+      ],
+      [
+        "The Mountain Tunnel Arrival",
+        "The owner has parked their supplied car safely in a turnout beyond a stone mountain tunnel. A shaft of pale daylight outlines the tunnel mouth, wet rock and low valley cloud; the open passenger door frames the owner's face as they look towards the valley. Preserve the vehicle and keep all movement clear of the road.",
+        "Soft mountain daylight with a dark tunnel frame; 35mm full car, door and valley depth.",
+        "Begin in the dark tunnel framing a sliver of light. → Move towards the parked car and the owner beside the open door. → Reveal the valley cloud through the tunnel mouth."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "7db5e93f-1991-53c0-ad33-5e90629e80eb",
+      "21051ce7-7d65-567b-a23e-a81e72f23552",
+      "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7",
+      "bd90da35-9209-559d-a68a-bd57dc5e17e8"
+    ]
+  },
+  {
+    "slug": "gym-fitness",
+    "title": "Training, without the body filters",
+    "subject": "Man",
+    "category": "men",
+    "description": "Explore Split-Second Athlete, After the Last Rep, Shadow Athlete at Dawn and The Empty Stadium, One More Try. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Split-Second Athlete",
+        "The athlete performs a modest vertical training jump on a padded gym floor, with a small cloud of chalk behind the hands frozen at its peak. Preserve their real physique and plausible jump height; knees soft, both feet visible, no impossible twisting or airborne equipment. Expression is focused effort. The identity reference determines the people; the example provides the styling and setting.",
+        "One directional backlight catching chalk and neutral face fill; 85mm full-body frame, space above hands and below feet.",
+        "Start on chalk lifting from the hands. → Show one small controlled jump at its peak. → End on the athlete landing softly as chalk falls behind."
+      ],
+      [
+        "After the Last Rep",
+        "The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation. The identity reference determines the people; the example provides the styling and setting.",
+        "One overhead pool of light, dark unused equipment beyond; 50mm seated three-quarter portrait, subtle natural sweat.",
+        "A loose strip of training tape hangs motionless beside a hand. → The athlete takes a natural recovery breath and slowly raises their gaze. → The wider empty gym reveals that they are the last person there."
+      ],
+      [
+        "Shadow Athlete at Dawn",
+        "The athlete holds a comfortable standing warm-up stretch on a rooftop training mat; a low sun throws a long clean sporting silhouette across the wall beside them. The shadow follows the real pose and anatomy, but its large scale makes the person seem quietly monumental. Keep actual mobility and body shape, no extreme flexibility. The identity reference determines the people; the example provides the styling and setting.",
+        "Low dawn sun with soft reflected fill; 35mm full body and entire elongated shadow.",
+        "Start on the large athletic shadow. → Track back to the person completing a small comfortable stretch. → Hold both the real person and monumental shadow together."
+      ],
+      [
+        "The Empty Stadium, One More Try",
+        "The athlete stands on a running track inside an empty stadium before sunrise, holding a rolled training towel. Thousands of empty seats form repeating bands behind them; a single pool of tunnel light catches their face. Preserve actual body shape and sports ability; this is a quiet preparation moment, not an invented performance record. The identity reference determines the people; the example provides the styling and setting.",
+        "Blue pre-dawn with one warm tunnel light; 50mm full-body and curved seat bands.",
+        "Begin on a towel end in the athlete's hand. → Reveal the person taking one steady breath. → Show the sweeping empty stadium around the lone athlete."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b",
+      "7ca2b906-78ec-54db-a323-28795468c015",
+      "3499de28-f65f-5680-a7b6-6d94e95b8e6e",
+      "8291ec7b-78fa-5512-a037-6f1e642f4d58"
+    ]
+  },
+  {
+    "slug": "office-corporate",
+    "title": "Work portraits that feel human",
+    "subject": "Woman",
+    "category": "women",
+    "description": "Explore Founder After Hours, Newsroom, Before the Opening Bell, The Idea Becomes a Skyline and Your next chapter, in focus. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Founder After Hours",
+        "The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm desk lamp against cool city reflections; 50mm seated three-quarter portrait through glass.",
+        "Start on the cooling cup beside the closed notebook. → Focus shifts to the founder pausing thoughtfully. → Reveal the empty office and city lights layered in the glass."
+      ],
+      [
+        "Newsroom, Before the Opening Bell",
+        "The supplied professional team stands around a desk in a busy financial newsroom; their faces remain sharp while distant staff become restrained motion blur. Screens display abstract chart shapes without readable financial claims, brands or fabricated news. One team member points to a blank planning sheet while others listen naturally. The identity reference determines the people; the example provides the styling and setting.",
+        "Cool newsroom practicals with neutral face fill; 35mm group frame preserving exact team count.",
+        "Start on one still planning sheet while blurred movement passes behind. → Reveal the team sharing a quick focused glance. → Widen to the fast-moving newsroom surrounding the sharp group."
+      ],
+      [
+        "The Idea Becomes a Skyline",
+        "The professional stands beside a large glass wall with abstract sketches of a bridge, while a tabletop paper bridge model casts a matching shadow across the wall. Their hand hovers beside the model without touching fragile pieces; a quiet half-smile suggests the idea coming together. No invented company branding or readable metrics. The identity reference determines the people; the example provides the styling and setting.",
+        "Late sun producing a clear model shadow and soft face fill; 50mm waist-up with model, shadow and face separated.",
+        "Begin on the paper bridge's small arch. → Follow its shadow towards the glass wall. → Reveal the professional framed by the large bridge-like shadow."
+      ],
+      [
+        "Your next chapter, in focus",
+        "Your next chapter, in focus: The person in a navy unstructured jacket over a white crew-neck shirt, relaxed shoulders and direct eye contact against a warm grey studio background. Reference photos determine identity; adapt the styling to make the idea your own.",
+        "large softbox at 45 degrees and gentle fill; head-and-shoulders portrait",
+        "Begin on a soft out-of-focus jacket shoulder. → Bring the supplied face into clear focus with a natural small smile. → Hold a stable, profile-ready head-and-shoulders view."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+      "3e86b4ed-5ed5-5d42-a343-4096fa10a298",
+      "76c24975-e8bf-5ffc-abe5-aff47832f26e",
+      "f8fc2d1d-7a65-59f3-a508-956c48b4b283"
+    ]
+  },
+  {
+    "slug": "dating-profile",
+    "title": "A profile with a real personality",
+    "subject": "Man",
+    "category": "men",
+    "description": "Explore Coffee and a real smile, The bookshop detour, Sunday park conversation and Something good in the kitchen. These practical prompts focus on accurate presentation and useful deliverables rather than spectacle. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Coffee and a real smile",
+        "Coffee and a real smile. Reference adult in their own casual outfit at a cafe window, holding one ceramic cup below the face. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "soft open window light; 85mm chest-up portrait",
+        "Begin on the stationary cup beside the person. → They look up with a small spontaneous smile. → Hold the relaxed face rather than a staged glamour pose."
+      ],
+      [
+        "The bookshop detour",
+        "The bookshop detour. Reference adult in a light casual shirt holding a closed book near a shelf, no readable cover branding. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "warm practical light with window fill; 50mm three-quarter",
+        "Begin on the single closed book already in the person’s hands. → They glance towards the shelf, then towards camera. → Hold a subtle amused smile with the same book visible."
+      ],
+      [
+        "Sunday park conversation",
+        "Sunday park conversation. Reference adult in comfortable casual clothing standing on a level garden path, hands relaxed. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "late afternoon shade; 70mm full-body environmental",
+        "Start on soft leaves moving behind the seated person. → The person responds to an imagined friendly greeting with a small smile. → Hold an approachable readable face against the park depth."
+      ],
+      [
+        "Something good in the kitchen",
+        "Something good in the kitchen. Reference adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "bright diffused daylight; 35mm documentary",
+        "Begin on a spoon resting inside the mixing bowl. → The person makes one gentle stir, then looks up. → Hold their natural smile with the same bowl and spoon; no knives."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "551794fd-8e65-5250-a89d-bdae263578d9"
+    ]
+  },
+  {
+    "slug": "travel",
+    "title": "Travel stories worth keeping",
+    "subject": "Woman",
+    "category": "women",
+    "description": "Explore Meghalaya Cloud Walk, Goa After the Monsoon, The Lighthouse Keeper's Morning and The Train Through the Tea Clouds. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Meghalaya Cloud Walk",
+        "The traveller walks on a broad safe ridge path with a low stone parapet in Meghalaya, clouds rolling below eye level. A rain jacket moves lightly in the breeze; layered green hills rise above the white cloud sea, and the person looks ahead with quiet wonder. Keep feet on the path and do not stage cliff-edge balancing. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft cloud-filtered daylight with a pale horizon; 35mm full-body environmental frame, face still readable.",
+        "Begin on one boot stepping along the broad ridge path. → Lift to the traveller and the green hill line. → Reveal the enormous cloud sea lying below their eye level."
+      ],
+      [
+        "Goa After the Monsoon",
+        "The traveller walks slowly along an empty Portuguese-style Goan lane just after heavy rain. Ochre and blue facades, an azulejo-style doorway and fallen bougainvillea petals reflected in puddles identify the setting; a folded umbrella hangs loosely from one hand. A candid glance towards the doorway replaces a tourist pose. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft post-rain morning light; 50mm full-body with colourful facades receding and face readable.",
+        "Start on bougainvillea petals reflected in a puddle. → Tilt to the traveller taking one unhurried step. → Reveal the colourful empty lane opening behind them."
+      ],
+      [
+        "The Lighthouse Keeper's Morning",
+        "The traveller stands inside a sheltered lighthouse gallery, holding a warm cup on the broad stone sill. Curved glass and an old brass lens frame a rough blue sea far below; gulls remain small and distant. Keep the person safely inside and the face separated from lens reflections. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft coastal dawn with brass reflections; 50mm three-quarter portrait with curved gallery geometry.",
+        "Start on a small sea reflection in the brass lens. → Focus shifts to the traveller beside the sill. → Reveal the curved gallery and open sea beyond."
+      ],
+      [
+        "The Train Through the Tea Clouds",
+        "The traveller sits beside an openable heritage train window with a closed journal on their lap as tea-covered hills and low cloud pass outside. A curve of the same train is visible in the distance, establishing a slow hill-railway journey. Hands stay inside, face turned softly towards the view. The identity reference determines the people; the example provides the styling and setting.",
+        "Overcast hill daylight and warm carriage wood; 50mm seated portrait with window view legible.",
+        "Start on the closed journal resting on the lap. → Move to the traveller noticing the view. → Reveal the train curving through tea slopes and low cloud outside."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1",
+      "58922396-8c86-5793-a71d-ebf3f4af5941",
+      "0750ce45-43dc-509e-a588-c7ea05fe40a3",
+      "c55b1cd7-7e95-5184-ae40-c253d2aed42a"
+    ]
+  },
+  {
+    "slug": "instagram-profile-picture",
+    "title": "Your face, clearly in the frame",
+    "subject": "Woman",
+    "category": "women",
+    "description": "Explore Monochrome Rain, Face in Focus, Floral Shadows, a Clear Face, Soft light, unmistakably you and Meet your new profile picture. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Monochrome Rain, Face in Focus",
+        "Create a black-and-white close-up of the person just inside a sheltered doorway, with rain streaks visible behind one shoulder and tiny droplets on the outer jacket collar. Their eyes remain dry, expression calm, face evenly readable; retain pores, age and distinguishing marks. Centre both eyes and mouth inside a circular profile crop. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft doorway light and deep rainy background; 85mm head-and-shoulders, central face within the inner 65 percent of frame.",
+        "Start on a rain streak beside the doorway. → Shift focus to the unchanged face. → Hold the clear face against the moving rain for a circular-crop ending."
+      ],
+      [
+        "Floral Shadows, a Clear Face",
+        "The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm window key and controlled foliage shadow; 85mm close-up, all facial features inside central circular safe area.",
+        "Start on a leaf shadow crossing the shoulder. → Reveal the evenly lit face between the shadows. → Hold the centered face as one background leaf shadow shifts gently."
+      ],
+      [
+        "Soft light, unmistakably you",
+        "Soft light, unmistakably you: The person wearing a black boat-neck top against a pale warm-grey studio backdrop, steady direct gaze and their actual age retained. Reference photos determine identity; adapt the styling to make the idea your own.",
+        "large frontal diffused light with subtle shadow modelling; tightly framed timeless portrait",
+        "Begin on the soft boundary between background light and shadow. → Bring the age-honest face into focus without smoothing skin. → Hold the natural expression and clear facial detail."
+      ],
+      [
+        "Meet your new profile picture",
+        "Meet your new profile picture: The person wearing a coral T-shirt against a saturated sky-blue backdrop, candid laughing expression. Reference photos determine identity; adapt the styling to make the idea your own.",
+        "clean soft studio light with lively colour contrast; centred head-and-shoulders portrait",
+        "Start with the face centered but softly out of focus. → Resolve both eyes and a natural laugh without changing expression anatomy. → Hold the clear circular-crop-safe profile composition."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "ee8f4408-6a01-5204-aa54-17775dbf3274",
+      "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "131a9e1b-46f9-54e5-b370-591355cd25ff"
+    ]
+  },
+  {
+    "slug": "indian-festivals",
+    "title": "Celebrations in familiar light",
+    "subject": "Woman",
+    "category": "women",
+    "description": "Explore Tiny Krishna, big wonder, Diwali, a Thousand Points of Light, Holi, the Colour Before It Falls and Navratri, Still at the Centre. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Tiny Krishna, big wonder",
+        "Tiny Krishna, big wonder: The child in a Krishna-inspired portrait wearing a comfortable yellow dhoti and blue sash, a single peacock feather in the hair, holding a small wooden flute in a courtyard with marigold garlands. Reference photos determine identity; adapt the styling to make the idea your own.",
+        "soft morning light with warm reflected fill; child-eye-level three-quarter portrait from above the feather to just below the knees, with room for the full flute",
+        "Begin on the small wooden flute held in both natural hands. → Tilt up to the smiling child, visible white U-shaped tilak with red centre and softly styled curls. → Reveal the peacock feather, yellow dhoti, blue gold-edged sash and marigold courtyard around the same child."
+      ],
+      [
+        "Diwali, a Thousand Points of Light",
+        "The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm diya practicals with soft face fill, deep evening blue; 35mm group portrait, all faces on a readable plane.",
+        "One foreground diya comes into focus. → Focus shifts to the family beyond the clear walkway. → Widen to reveal successive layers of courtyard lights surrounding them."
+      ],
+      [
+        "Holi, the Colour Before It Falls",
+        "The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour. The identity reference determines the people; the example provides the styling and setting.",
+        "Backlit morning particles with soft frontal fill; 85mm waist-up, ample space around hair and both colour plumes.",
+        "Begin on a thin ribbon of powder suspended beside the shoulder. → Reveal the smiling face as the two colour clouds spread behind it. → Hold the complete pink-and-yellow arc around the unchanged person."
+      ],
+      [
+        "Navratri, Still at the Centre",
+        "The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm courtyard string lights, short face exposure layered with longer background motion; 50mm full-body with breathing room around skirt.",
+        "Start on a short arc of skirt fabric and mirrorwork. → Reveal the face remaining sharp through one gentle turn. → Hold the person at the centre of the circular light trails."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "d4967caf-a598-58e3-bc71-a80371251b30",
+      "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "1a4bea1f-edc4-518b-9f13-2bc4f5dad291"
+    ]
+  },
+  {
+    "slug": "babies",
+    "title": "Small moments, safely supported",
+    "subject": "Family",
+    "category": "family",
+    "description": "Explore First Birthday Cloud World, The Nursery Moon Mission, The Family's Little Storybook Reader and The gentlest new beginning. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "First Birthday Cloud World",
+        "The baby sits only if developmentally able, otherwise reclines safely, on a broad padded floor mat dressed as a soft cloud. Oversized paper clouds and a distant pastel balloon moon form a studio backdrop; no floating baby, dangling strings or loose small objects within reach. Preserve the baby's real age and expression; caregiver kneels visibly beside them and provides any support needed. The identity reference determines the people; the example provides the styling and setting.",
+        "Large soft studio source; 50mm low eye-level frame with whole supported body and cloud setting.",
+        "Start on the edge of a large paper cloud prop. → Reveal the baby safely supported on the padded mat. → Widen to the cloud world and distant balloon moon."
+      ],
+      [
+        "The Nursery Moon Mission",
+        "The infant reclines securely in the supplied caregiver’s arms on a padded nursery floor mat, wearing ordinary cotton sleepwear with a soft star patch. The wall behind becomes a handmade lunar diorama with large foam moon rocks and a paper Earth. The caregiver looks towards the baby with a gentle smile. Preserve actual infant development and body support; no helmet, floating pose or loose props within reach. The identity reference determines the people; the example provides the styling and setting.",
+        "Cool diorama glow balanced by warm bedside light; 35mm seated child and bedroom-lunar threshold.",
+        "Start on the soft star patch on the infant’s cotton sleeve. → Reveal the caregiver smiling at the safely supported infant. → Show the nursery wall becoming a lunar diorama behind the supported pair."
+      ],
+      [
+        "The Family's Little Storybook Reader",
+        "The supplied family sits on a rug around the baby safely supported in an adult's lap. An oversized open storybook stands on a stable low easel behind them, its illustrated trees extending into soft paper scenery around the rug. Preserve all people and their ages; the baby is never propped upright alone or placed on the book. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm reading-lamp glow with soft room fill; 35mm group portrait, every face readable and book scenery behind.",
+        "Begin on one oversized illustrated leaf at the book's edge. → Reveal the baby safely cradled and the family looking towards them. → Widen to the storybook trees extending into the room."
+      ],
+      [
+        "The gentlest new beginning",
+        "The gentlest new beginning: The reference caregiver or caregivers gently holding their fully wrapped newborn by a bedroom window, neutral cotton clothing and a serene lived-in setting. Reference photos determine identity; adapt the styling to make the idea your own.",
+        "soft morning window light with muted natural tones; intimate upper-body group portrait",
+        "Start on the caregiver hand visibly supporting the infant. → Reveal the baby breathing naturally in the same secure hold. → Hold both caregiver and infant faces in the warm room."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "97517e1d-15bb-5257-a202-1cafe3e00154",
+      "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "a1132738-4bbc-5cd3-84d3-3e64ef9abcce"
+    ]
+  },
+  {
+    "slug": "pets",
+    "title": "Their personality, in every frame",
+    "subject": "Pet",
+    "category": "pets",
+    "description": "Explore The Maharaja of the Window Seat, Tiny Pet, Giant Space Mission, You and Your Pet, the Adventure Poster and The Dog's Birthday Aftermath. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "The Maharaja of the Window Seat",
+        "The supplied cat rests naturally on a broad velvet window cushion beneath a small decorative canopy, framed like a royal miniature painting translated into a photograph. A lightweight embroidered cloth lies beside the cat rather than restricting its body; no forced crown, upright human posture or altered breed. Without a pet reference, use a fictional short-haired tabby.",
+        "Warm carved-window light and jewel-toned textiles; 85mm cat-eye-level portrait showing paws and tail naturally.",
+        "Start on a tassel moving gently above the cushion. → Reveal the cat's alert face and natural resting paws. → Show the whole miniature canopy framing its ordinary regal posture."
+      ],
+      [
+        "Tiny Pet, Giant Space Mission",
+        "The supplied pet rests on its familiar blanket inside an open cardboard spacecraft set; a large round window behind shows a handmade painted moon. A toy control panel has abstract shapes, no small detachable parts. Keep natural animal posture, fur markings and breed; no helmet or human hands on the animal. Without reference use a fictional small mixed-breed dog.",
+        "Soft blue set light with warm face fill; 50mm pet-eye-level, blanket and round window visible.",
+        "Start on the round cardboard window's moon view. → Move to the pet resting on its familiar blanket. → Reveal the entire handmade spacecraft around the ordinary resting pet."
+      ],
+      [
+        "You and Your Pet, the Adventure Poster",
+        "The supplied owner and pet sit together on broad safe stone steps beneath a giant illustrated forest arch built as a physical film set. The owner wears a weatherproof jacket and looks towards an imaginary trail; the pet rests naturally beside them. Preserve both identities and coat markings. Leave clean negative space above for optional later typography, but generate no title or logo. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm shaft of forest-like light and cool green set shadows; 35mm owner-and-pet full seated composition.",
+        "Begin on the owner's boot beside the pet's paw. → Reveal them looking towards the same direction. → Widen to the giant forest arch framing the pair like a poster, without generated text."
+      ],
+      [
+        "The Dog's Birthday Aftermath",
+        "The supplied dog sits naturally in a garden beside a toppled empty paper party hat and a few large torn wrapping-paper sheets. A small dog-safe treat sits in a plain bowl; no candles, chocolate, confetti or ingestible ribbons. The playful mess tells the story while the dog remains anatomically normal. Without reference use a fictional Indian mixed-breed dog.",
+        "Soft garden morning light; 50mm dog-eye-level with face, paws and the controlled paper mess visible.",
+        "Begin on the overturned empty party hat. → Reveal the dog's curious face beside the bowl. → Widen to the harmless wrapping-paper aftermath around the dog."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "7ca4fc36-c0ef-56db-a132-2f1aba89c035",
+      "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c",
+      "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "7de25f1d-f954-5703-a53d-ca79d3caa66e"
+    ]
+  },
+  {
+    "slug": "product-shoots",
+    "title": "Product photos built around the details",
+    "subject": "Product",
+    "category": "product-photography",
+    "description": "Explore Perfume, the Water Sculpture, Handbag in the Architecture of Shadows, Your product, beautifully simple and Small details. Beautifully made.. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Perfume, the Water Sculpture",
+        "The supplied perfume bottle stands upright on a clear stable acrylic plinth while one sculptural arc of water curves behind it. Keep the label dry, front readable and every bottle, cap, logo and packaging detail exact; the water must not pass through the bottle or redesign the glass. This is a constructed high-speed advertising set, not a claim of waterproofness.",
+        "Crisp backlight through water and soft front label fill; 85mm product hero with complete bottle and arc.",
+        "Start on the thin illuminated edge of the water arc. → Reveal the unchanged bottle in front of it. → Hold the full water sculpture framing the dry readable label."
+      ],
+      [
+        "Handbag in the Architecture of Shadows",
+        "The supplied handbag rests on a broad sandstone pedestal among three curved architectural panels. Their sharply defined shadows form an arch around the bag without covering its closure, handles or logo. Preserve exact leather texture, stitching, colour and silhouette; no invented accessories. The environment supplies scale through a realistic pedestal edge.",
+        "Hard angled studio sun and gentle texture fill; 70mm full product with handles, base and shadow geometry clear.",
+        "Start on the curved shadow meeting the pedestal. → Slide to the bag's stitching and closure. → Reveal the complete bag framed by the sculpted panels and shadows."
+      ],
+      [
+        "Your product, beautifully simple",
+        "Your product, beautifully simple. A product, minimal, studio presentation with large diffused studio source, soft shadow falling to the right. Keep the supplied product's design, colour, materials and branding intact; the preview object is an example.",
+        "large diffused studio source, soft shadow falling to the right; eye-level to slightly raised three-quarter product view with the complete bottle and generous negative space",
+        "Start on the supplied label edge in crisp focus. → Move a few centimetres to reveal the unchanged cap and bottle shape. → Hold the entire faithful bottle with readable label."
+      ],
+      [
+        "Small details. Beautifully made.",
+        "Small details. Beautifully made.. A product, artisan, macro presentation with raking side window light revealing tactile surfaces. Keep the supplied product's design, colour, materials and branding intact; the preview object is an example.",
+        "raking side window light revealing tactile surfaces; three-quarter close product view",
+        "Begin on the real ceramic surface texture. → Move to the handle and rim without morphing their shapes. → Reveal the complete cup in its linen setting."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "14335dd1-2c1a-5331-ae55-ff5f4753abb7",
+      "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "de1a1c99-7fff-5ecc-8b35-c55e87217c0c"
+    ]
+  },
+  {
+    "slug": "womens-fashion-ecommerce",
+    "title": "Women's fashion, faithfully presented",
+    "subject": "Woman",
+    "category": "women",
+    "commercial": true,
+    "description": "Explore The Palace Saree, Every Border Visible, The Kurta in the Jali Light, Resort Dress, the Wind Between Arches and Jewellery on Sculpted Sandstone. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "The Palace Saree, Every Border Visible",
+        "The reference model wears the supplied saree in a heritage corridor, its pallu draped across a broad stone balustrade so the complete border and repeated pattern remain readable. One hand gathers a small natural fold; jewellery stays minimal and does not hide the garment. Preserve the model separately from exact saree colour, weave, motifs and blouse supplied. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft side light revealing fabric texture; 50mm full-body with the pallu and both feet inside frame.",
+        "Start on the exact supplied border pattern across the balustrade. → Follow the fabric to the model's natural drape. → Reveal the full garment and heritage corridor together."
+      ],
+      [
+        "The Kurta in the Jali Light",
+        "The model wears the supplied kurta beside a heritage jali screen whose geometric light falls on the wall, leaving the garment front evenly illuminated. A small side turn shows the actual seam and slit without changing fit. Preserve exact fabric, buttons, embroidery, length and supplied accessories; never infer unseen back details. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft neutral garment fill with jali shadows kept in background; 70mm full-body front-three-quarter view.",
+        "Start on a jali shadow on the wall. → Move to the exact kurta seam as the model makes a small side turn. → Hold the complete front-three-quarter garment view against the patterned light."
+      ],
+      [
+        "Resort Dress, the Wind Between Arches",
+        "The model in the supplied dress stands in a white seaside resort arcade; a gentle breeze lifts only the loose hem within the fabric's real weight and cut. One hand rests on a low rail; posture stays natural. Preserve print placement, colour, straps, neckline and silhouette, with no added slit or changed length. The identity reference determines the people; the example provides the styling and setting.",
+        "Soft coastal daylight reflected by white arches; 70mm full-body with whole hem and feet visible.",
+        "Start on the hem moving lightly in the breeze. → Reveal the model and the exact dress silhouette. → Show the receding white arcade and sea opening beyond."
+      ],
+      [
+        "Jewellery on Sculpted Sandstone",
+        "Arrange the supplied jewellery on a sculpted sandstone form whose broad curve supports the piece naturally. Use only supplied stones, metal colours, settings and clasps visible in reference; do not invent the reverse. A narrow pool of light reveals facets without fake sparkle stars or melted chains. The identity reference determines the people; the example provides the styling and setting.",
+        "Small directional highlight with soft shadow fill; 100mm macro three-quarter product frame with entire hero piece visible.",
+        "Start on one real setting and adjacent stone. → Track along the unchanged chain or band. → Reveal the full piece resting naturally on the sandstone curve."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "da21f9c2-6c33-529e-ac20-e080b97a8e7c",
+      "84889762-89de-5f19-a2c1-613c11d95865",
+      "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "c14716dc-ff1e-5147-ace0-c4b9f6816114"
+    ]
+  },
+  {
+    "slug": "mens-fashion-ecommerce",
+    "title": "Men's fashion, from fit to finish",
+    "subject": "Man",
+    "category": "men",
+    "commercial": true,
+    "description": "Explore Kurta at the Lantern Courtyard, Footwear, the City in One Step, The everyday shirt catalogue and A jacket from every angle. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "Kurta at the Lantern Courtyard",
+        "The model wears the supplied festive kurta in a heritage courtyard with lanterns receding behind, while the garment front stays neutrally lit and unobstructed. A relaxed half-turn shows sleeve and hem; no added embroidery, changed collar or invented stole. Preserve the model's actual identity separately from product details. The identity reference determines the people; the example provides the styling and setting.",
+        "Warm background lanterns and neutral fabric key; 70mm full-body with exact hem and footwear visible.",
+        "Start on the supplied cuff detail. → Reveal the model completing a small half-turn. → Hold the full kurta against the deep lantern courtyard."
+      ],
+      [
+        "Footwear, the City in One Step",
+        "The supplied shoes are worn by the reference model on a dry raised studio pavement slab, with blurred city light panels behind. Freeze one small natural forward step, both shoes visible with realistic foot shape; retain exact sole, stitching, laces, branding and wear. Show no impossible flex or invented cushioning claims. The identity reference determines the people; the example provides the styling and setting.",
+        "Directional side light and soft sole fill; 85mm low product-focused view, ankle to ground, face need not be in crop.",
+        "Start on the shoe sole contacting the slab. → Follow one small natural step without changing shoe shape. → Hold both exact shoes against the blurred city-light background."
+      ],
+      [
+        "The everyday shirt catalogue",
+        "The everyday shirt catalogue. Reference model wearing the exact supplied shirt tucked or untucked as supplied, neutral studio and relaxed arms. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "even softbox light; 70mm front three-quarter",
+        "Begin on the supplied shirt cuff and buttons. → Rise to the unchanged front pattern and fit. → Hold a complete front catalogue view with hem visible."
+      ],
+      [
+        "A jacket from every angle",
+        "A jacket from every angle. Reference model wearing the supplied casual jacket over a plain tee, no invented patches or hardware. A distinct composition with practical lighting, framing and reference-preservation guidance.",
+        "broad studio light; full-body 70mm",
+        "Begin on the supplied jacket closure. → The model makes a small quarter-turn to show only reference-supported side detail. → Hold the complete garment; use a separately supplied back view only when provided."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+      "b8af0397-db3c-5810-a871-dce8b18f428a",
+      "729aa85a-7654-5745-a860-d558f0d1f7b1",
+      "65a7ee09-8679-557e-a99a-8602e85c03fd"
+    ]
+  },
+  {
+    "slug": "ecommerce-product-showcase",
+    "title": "Small products, complete stories — reel ideas",
+    "subject": "Product",
+    "category": "product-photography",
+    "reelOnly": true,
+    "description": "Explore The honest quarter rotation, Fabric, up close, Front, back, the real product and From detail to daily use. These practical prompts focus on accurate presentation and useful deliverables rather than spectacle. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+    "concepts": [
+      [
+        "The honest quarter rotation",
+        "The honest quarter rotation. Supplied boxed product on a neutral platform, reference views provided for each visible side. An eight-second visual story with timed movement and a quiet closing hold.",
+        "even studio softbox; 90mm complete object",
+        "Start on one supplied distinguishing product detail. → Rotate the product at most a quarter turn, showing only reference-supported surfaces. → Hold the complete product with exact proportions and readable branding."
+      ],
+      [
+        "Fabric, up close",
+        "Fabric, up close. Supplied folded garment on a pale tabletop showing actual weave, seam and label without a model. An eight-second visual story with timed movement and a quiet closing hold.",
+        "raking diffused light; 100mm macro",
+        "Begin on the real seam and adjacent fabric texture. → Move along the supplied pattern at a consistent scale. → Reveal the larger reference-backed fabric panel so the detail has context."
+      ],
+      [
+        "Front, back, the real product",
+        "Front, back, the real product. Supplied handbag on a neutral support, original front and back product references available. An eight-second visual story with timed movement and a quiet closing hold.",
+        "broad soft light; 85mm product frame",
+        "Begin with the complete supplied front view. → Cut to the separately supplied side or back view; if absent remain on the known front. → Return to the same front hero view, unchanged colour and dimensions."
+      ],
+      [
+        "From detail to daily use",
+        "From detail to daily use. Supplied reusable bottle upright beside its actual cap on a kitchen counter, cap included only if detachable in reference. An eight-second visual story with timed movement and a quiet closing hold.",
+        "bright window light; 70mm lifestyle hero",
+        "Begin on the supplied product’s defining functional detail. → Show its plausible use at realistic hand or tabletop scale without changing the product. → Hold the full product in that use context, with no invented performance claims."
+      ]
+    ],
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "canonical_prompt_ids": [
+      "32113f5f-6e89-5cd6-a0f9-5736eaeaacff",
+      "e6603e1a-a123-5f0f-a415-bdc578ebd54f",
+      "bab694e7-714e-5829-a612-fe4ee2593891",
+      "e9119c64-40ef-55a3-a738-af1c8b21dbf0"
+    ]
+  }
+]

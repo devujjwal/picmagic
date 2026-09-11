@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "cinematic-ladakh-friends-trip",
+    "template": {
+      "key": "cinematic-friends-trip-v1",
+      "variables": {
+        "friends_count": 4,
+        "place_name": "LADAKH",
+        "duration": 12,
+        "mood": "Nostalgic"
+      }
+    },
+    "status": "deferred-by-owner",
+    "people_count": 4,
+    "place_name": "LADAKH",
+    "source_reference": "output/originals/friends-trip-87146888100f.jpeg",
+    "source_sha256": "87146888100fe9c7ab9b94ffaa8363aa112a41c5b179292cc6ee98c3d0269777",
+    "source_role": "Authoritative identity source, square original. Do not crop out friends or claim this location is Ladakh.",
+    "identity_map_left_to_right": [
+      "Friend 1: blue polo",
+      "Friend 2: pale pink polo and glasses",
+      "Friend 3: white graphic T-shirt",
+      "Friend 4: maroon long-sleeve top"
+    ],
+    "poster_target": "public/previews/cinematic-ladakh-friends-trip-poster.webp",
+    "poster_status": "awaiting identity-reviewed 9:16 reference edit",
+    "source_poster_reference_image": null,
+    "provider_used": null,
+    "provider_order": [
+      "Kling",
+      "Runway only if existing access allows generation without upgrade"
+    ],
+    "account_observations": {
+      "kling": "25 existing credits; selected 720p 10s image-to-video costs 40; 5s option does not meet requested 6\u20138s target; no generation submitted",
+      "runway": "Personal Free workspace, 464 balance; prior Gen-4 Turbo attempt required upgrade. Owner forbids paid features or upgrade."
+    },
+    "exact_generation_prompt": "Use the uploaded reference photos of exactly 4 friends as the authoritative identity source for every shot. Create a 7.5-second, 9:16 vertical image-to-video travel-memory reel at LADAKH.\n\nREFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Stop and ask for reference photos of every friend. Do not invent substitute people. This identity-specific concept requires references.\n\nMaintain exactly 4 distinct friends independently: no merged or swapped faces, duplicate people, missing friends, extra people or homogenized appearances. The reference people's actual ethnicity and skin tones remain authoritative. Pose, expression, clothing and hairstyle may adapt naturally for continuity; never replace identity.\n\nCREATIVE DIRECTION:\n\nSetting: believable arid Himalayan ranges, rocky high-altitude terrain, a safe mountain-road shoulder and an open viewpoint under rich but natural blue skies; no invented famous landmarks. Mood: Nostalgic. Warm, unhurried glances and small shared smiles; a remembered journey rather than a posed advertisement.\n\n0\u20131.5s: HOOK: A wide establishing frame at LADAKH opens on exactly 4 friends grouped at a safe viewpoint. A gentle forward move reveals their independently recognizable faces; keep the group large enough to read, with space above for the landscape. Clean continuity cut; no morphing transition.\n\n1.5\u20133s: PROGRESSION: Cut to the same 4 friends walking casually along a safe path or road shoulder closed to traffic. Smooth side tracking follows conversation and small smiles. Vary stride and gestures; no synchronized marching. Keep every friend visible without overlaps hiding faces. Clean continuity cut; no morphing transition.\n\n3\u20134.5s: CANDID MEMORY: Cut closer to all 4 friends sharing a laugh or a natural arm-around-shoulder gesture. Some look at one another rather than the lens. Subtle handheld movement, moderate depth of field keeping all faces readable; do not isolate or drop a friend. Clean continuity cut; no morphing transition.\n\n4.5\u20136.5s: HERO REVEAL: A slow pull-back reveals the same 4 friends against the enormous landscape. Wind moves clothing and hair gently and plausibly. Keep all faces identifiable; stop before people become tiny dots. No extreme orbit or camera acceleration. Clean continuity cut; no morphing transition.\n\n6.5\u20137.5s: PAYOFF: Hold a wide group frame containing all 4 friends. Fade in only the final location title LADAKH, centred within the middle 70% of frame width and clear of faces and Instagram UI. Hold for most of this final beat, then gently fade text out. No other text, logos or watermark. Brief title fade over a steady moving frame; end on a composition compatible with the opening.\n\nShoot as live travel-film footage with actual human movement, not a pan or zoom over a still photograph. Use realistic natural daylight, subtle filmic contrast, natural skin texture, physically believable wind and consistent wardrobe between shots. Avoid extreme slow motion, facial identity drift, warped hands or extra limbs, flickering clothes, background morphing, excessive HDR and oversaturated scenery. Use the uploaded group image as the primary image-to-video reference; use additional per-person reference crops only from those same supplied people. If the provider cannot retain the entire group across cuts, create separate reference-conditioned shots and edit them together rather than inventing replacements.\n\nFor reliable lettering, render the video without generated text and add the exact final title in the video editor. Deliver muted H.264 MP4, inline playback, with a clean poster and a gentle return to the opening composition. Review every shot for identity, count, anatomy and location before accepting; identity preservation is not guaranteed by third-party tools.\n\nFinal cinematic title:\n\nLADAKH",
+    "full_concept_prompt": "Use the uploaded reference photos of exactly 4 friends as the authoritative identity source for every shot. Create a 12-second, 9:16 vertical image-to-video travel-memory reel at LADAKH.\n\nREFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Stop and ask for reference photos of every friend. Do not invent substitute people. This identity-specific concept requires references.\n\nMaintain exactly 4 distinct friends independently: no merged or swapped faces, duplicate people, missing friends, extra people or homogenized appearances. The reference people's actual ethnicity and skin tones remain authoritative. Pose, expression, clothing and hairstyle may adapt naturally for continuity; never replace identity.\n\nCREATIVE DIRECTION:\n\nSetting: believable arid Himalayan ranges, rocky high-altitude terrain, a safe mountain-road shoulder and an open viewpoint under rich but natural blue skies; no invented famous landmarks. Mood: Nostalgic. Warm, unhurried glances and small shared smiles; a remembered journey rather than a posed advertisement.\n\n0\u20132.4s: HOOK: A wide establishing frame at LADAKH opens on exactly 4 friends grouped at a safe viewpoint. A gentle forward move reveals their independently recognizable faces; keep the group large enough to read, with space above for the landscape. Clean continuity cut; no morphing transition.\n\n2.4\u20134.8s: PROGRESSION: Cut to the same 4 friends walking casually along a safe path or road shoulder closed to traffic. Smooth side tracking follows conversation and small smiles. Vary stride and gestures; no synchronized marching. Keep every friend visible without overlaps hiding faces. Clean continuity cut; no morphing transition.\n\n4.8\u20137.2s: CANDID MEMORY: Cut closer to all 4 friends sharing a laugh or a natural arm-around-shoulder gesture. Some look at one another rather than the lens. Subtle handheld movement, moderate depth of field keeping all faces readable; do not isolate or drop a friend. Clean continuity cut; no morphing transition.\n\n7.2\u201310.2s: HERO REVEAL: A slow pull-back reveals the same 4 friends against the enormous landscape. Wind moves clothing and hair gently and plausibly. Keep all faces identifiable; stop before people become tiny dots. No extreme orbit or camera acceleration. Clean continuity cut; no morphing transition.\n\n10.2\u201312s: PAYOFF: Hold a wide group frame containing all 4 friends. Fade in only the final location title LADAKH, centred within the middle 70% of frame width and clear of faces and Instagram UI. Hold for most of this final beat, then gently fade text out. No other text, logos or watermark. Brief title fade over a steady moving frame; end on a composition compatible with the opening.\n\nShoot as live travel-film footage with actual human movement, not a pan or zoom over a still photograph. Use realistic natural daylight, subtle filmic contrast, natural skin texture, physically believable wind and consistent wardrobe between shots. Avoid extreme slow motion, facial identity drift, warped hands or extra limbs, flickering clothes, background morphing, excessive HDR and oversaturated scenery. Use the uploaded group image as the primary image-to-video reference; use additional per-person reference crops only from those same supplied people. If the provider cannot retain the entire group across cuts, create separate reference-conditioned shots and edit them together rather than inventing replacements.\n\nFor reliable lettering, render the video without generated text and add the exact final title in the video editor. Deliver muted H.264 MP4, inline playback, with a clean poster and a gentle return to the opening composition. Review every shot for identity, count, anatomy and location before accepting; identity preservation is not guaranteed by third-party tools.\n\nFinal cinematic title:\n\nLADAKH",
+    "preview_scenes": [
+      {
+        "start": 0,
+        "end": 1.5,
+        "action": "HOOK: A wide establishing frame at LADAKH opens on exactly 4 friends grouped at a safe viewpoint. A gentle forward move reveals their independently recognizable faces; keep the group large enough to read, with space above for the landscape.",
+        "transition": "Clean continuity cut; no morphing transition."
+      },
+      {
+        "start": 1.5,
+        "end": 3,
+        "action": "PROGRESSION: Cut to the same 4 friends walking casually along a safe path or road shoulder closed to traffic. Smooth side tracking follows conversation and small smiles. Vary stride and gestures; no synchronized marching. Keep every friend visible without overlaps hiding faces.",
+        "transition": "Clean continuity cut; no morphing transition."
+      },
+      {
+        "start": 3,
+        "end": 4.5,
+        "action": "CANDID MEMORY: Cut closer to all 4 friends sharing a laugh or a natural arm-around-shoulder gesture. Some look at one another rather than the lens. Subtle handheld movement, moderate depth of field keeping all faces readable; do not isolate or drop a friend.",
+        "transition": "Clean continuity cut; no morphing transition."
+      },
+      {
+        "start": 4.5,
+        "end": 6.5,
+        "action": "HERO REVEAL: A slow pull-back reveals the same 4 friends against the enormous landscape. Wind moves clothing and hair gently and plausibly. Keep all faces identifiable; stop before people become tiny dots. No extreme orbit or camera acceleration.",
+        "transition": "Clean continuity cut; no morphing transition."
+      },
+      {
+        "start": 6.5,
+        "end": 7.5,
+        "action": "PAYOFF: Hold a wide group frame containing all 4 friends. Fade in only the final location title LADAKH, centred within the middle 70% of frame width and clear of faces and Instagram UI. Hold for most of this final beat, then gently fade text out. No other text, logos or watermark.",
+        "transition": "Brief title fade over a steady moving frame; end on a composition compatible with the opening."
+      }
+    ],
+    "target_duration": 7.5,
+    "full_duration": 12,
+    "width": 720,
+    "height": 1280,
+    "format": "H.264 MP4, yuv420p, no audio, faststart",
+    "maximum_bytes": 4000000,
+    "output": "public/videos/cinematic-ladakh-friends-trip.mp4",
+    "processing": "Use a provider-supported duration sufficient to retain these actions, then edit to 7.5 seconds. Do not slow a five-second single shot or animate a still to fake the requested multi-shot reel. Burn in LADAKH over the final 6.5\u20137.5s frame, within safe margins, fading in and out. Prefer clean continuity cuts to morphing.",
+    "review": {
+      "status": "not generated; visual checks pending",
+      "required": [
+        "exactly four distinct friends in every shot",
+        "four independent recognizable identities compared to source",
+        "no duplicate or extra people",
+        "natural walking and anatomy",
+        "believable Ladakh scenery",
+        "consistent clothing and hair",
+        "readable final LADAKH title away from faces",
+        "9:16, 6\u20138s, muted inline playback",
+        "poster, lazy loading and mobile delivery"
+      ]
+    },
+    "owner_instruction": "Stop Kling/Runway attempts. Codex has no video-generation tool in this environment. Keep the exact brief queued; no purchases, no substitute still animation."
+  }
+]

@@ -1,9 +1,13 @@
 import "server-only";
+import { orderForDiscovery } from "@/lib/prompts/editorial";
 import { unstable_cache } from "next/cache";
 import { createClient } from "@supabase/supabase-js";
-import prompts from "@/content/prompts.json";
+import {
+  allPrompts as prompts,
+  allCollections as collections,
+} from "@/content/catalog";
 import categories from "@/content/categories.json";
-import collections from "@/content/collections.json";
+
 import {
   promptSchema,
   categorySchema,
@@ -17,11 +21,13 @@ export interface ContentRepository {
 export class SeedRepository implements ContentRepository {
   async getCatalog() {
     return {
-      prompts: prompts
-        .map((p) => promptSchema.parse(p))
-        .filter((p) => p.is_published),
+      prompts: orderForDiscovery(
+        prompts.map((p) => promptSchema.parse(p)).filter((p) => p.is_published),
+      ),
       categories: categories.map((c) => categorySchema.parse(c)),
-      collections: collections.map((c) => collectionSchema.parse(c)),
+      collections: collections
+        .map((c) => collectionSchema.parse(c))
+        .filter((c) => c.active),
     };
   }
   async resolveRedirect() {
@@ -63,7 +69,7 @@ export class SupabaseRepository implements ContentRepository {
       );
     }
     return {
-      prompts: p.data.map((x) => promptSchema.parse(x)),
+      prompts: orderForDiscovery(p.data.map((x) => promptSchema.parse(x))),
       categories: c.data.map((x) => categorySchema.parse(x)),
       collections: s.data.map((x) =>
         collectionSchema.parse({
@@ -93,7 +99,7 @@ export function repository(): ContentRepository {
 export const getCatalog = unstable_cache(
   () => repository().getCatalog(),
   [
-    "catalog-v1",
+    "catalog-v3-editorial",
     process.env.CONTENT_SOURCE || "supabase",
     process.env.NEXT_PUBLIC_SUPABASE_URL || "local",
   ],

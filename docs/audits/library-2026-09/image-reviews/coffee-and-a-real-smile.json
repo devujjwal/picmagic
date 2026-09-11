@@ -1,0 +1,13 @@
+{
+  "slug": "coffee-and-a-real-smile",
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-e06aa169-b1f4-4aac-8fd3-df4761cc0cbd.png",
+  "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in their own casual outfit at a cafe window, holding one ceramic cup below the face.  Lighting and framing: soft open window light; 85mm chest-up portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+  "provider": "codex-built-in",
+  "fallbackReason": "ChatGPT repeatedly displayed Too many requests; owner explicitly authorized Codex fallback.",
+  "alt": "A man holds a ceramic coffee cup beneath his face beside a cafe window.",
+  "review": "Full-resolution generated output reviewed: One foreground adult in casual clothing, cup below face, believable two-hand grip, natural skin texture and gentle expression. Blurred cafe patrons remain incidental background, not identity subjects.",
+  "approved": true,
+  "relatedSlugs": [
+    "coffee-and-a-real-smile-reel"
+  ]
+}

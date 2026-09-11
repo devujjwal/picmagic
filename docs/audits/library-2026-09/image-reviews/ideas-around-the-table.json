@@ -1,0 +1,13 @@
+{
+  "slug": "ideas-around-the-table",
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-13b69fee-df95-423a-9fa8-13bc410b5487.png",
+  "prompt": "Create one original photorealistic editorial photograph for PicMagic, portrait 4:5, 1200 by 1500 or larger. Exactly four fictional Indian/South Asian adult colleagues, two women and two men, varied natural brown complexions, ages roughly 28, 36, 45 and 55, distinct faces and hairstyles. They wear varied smart casual clothing and sit around a meeting table discussing plain abstract diagrams on paper. One person gestures gently to the diagram; the other three listen with natural engaged expressions. Bright diffused office daylight, 35mm wide group composition, all four faces visible and separated, plausible hands, enough room around the group to crop for a portrait discovery card. Honest skin texture and ordinary body proportions, believable unbranded office furniture. No extra people, collage, readable lettering, logos or watermark. This fictional preview persona must not be confused with the user’s reference identity.",
+  "provider": "codex-built-in",
+  "fallbackReason": "ChatGPT repeatedly displayed Too many requests; owner explicitly authorized Codex fallback.",
+  "alt": "Four colleagues discuss plain diagrams around an office meeting table.",
+  "review": "Full-resolution generated output reviewed: Four distinct adults, two women and two men with varied ages; natural seated positions and hand gesture, clear faces, abstract diagrams, bright office daylight. All essential subjects and table context present.",
+  "approved": true,
+  "relatedSlugs": [
+    "ideas-around-the-table-reel"
+  ]
+}

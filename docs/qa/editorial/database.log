@@ -1,0 +1,4 @@
+BEGIN
+NOTICE:  PASS: valid publication plus five editorial rejection assertions
+DO
+ROLLBACK

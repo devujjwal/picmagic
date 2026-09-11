@@ -72,7 +72,7 @@ describe("public actions", () => {
     await user.click(screen.getByRole("button", { name: "Generate prompt" }));
     expect(screen.getByText("Here’s your magic prompt.")).toBeVisible();
     expect(
-      screen.getByText(/Create a natural photograph of the man/),
+      screen.getByText(/Create a natural photograph of the person or group/),
     ).toBeVisible();
   });
   it("does not throw when storage is blocked", () => {

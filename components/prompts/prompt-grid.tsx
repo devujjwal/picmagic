@@ -1,11 +1,11 @@
-import type { Prompt } from "@/types/content";
+import type { PromptCardData } from "@/lib/prompts/card-data";
 import { PromptCard } from "./prompt-card";
 export function PromptGrid({
   prompts,
   source,
   prioritizeFirst = false,
 }: {
-  prompts: Prompt[];
+  prompts: PromptCardData[];
   source?: "related" | "search";
   prioritizeFirst?: boolean;
 }) {

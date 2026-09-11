@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./fixtures";
 test.skip(
   process.env.E2E_GA_ENABLED !== "true",
   "Requires a build configured with a GA4 measurement ID",

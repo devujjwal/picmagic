@@ -8,6 +8,8 @@ import {
   categorySchema,
   collectionSchema,
 } from "@/types/content";
+import { editorialIssues } from "@/lib/prompts/editorial";
+import { personaIssues } from "@/lib/prompts/persona";
 export type ActionState = { error?: string; success?: string; id?: string };
 function message(error: unknown) {
   console.error(
@@ -87,6 +89,17 @@ export async function savePrompt(
           .slice(0, 4)
           .join(" · "),
       };
+    if (parsed.data.is_published) {
+      const issues = [
+        ...personaIssues(parsed.data),
+        ...editorialIssues(parsed.data),
+      ];
+      if (parsed.data.preview_review_status !== "approved")
+        issues.push(
+          "Review the preview against the current concept before publishing.",
+        );
+      if (issues.length) return { error: issues.join(" · ") };
+    }
     const { error } = await db.from("prompts").upsert(parsed.data);
     if (error) return { error: message(error) };
     invalidate();
@@ -110,6 +123,7 @@ export async function duplicatePrompt(form: FormData) {
     id: newId,
     slug: `${data.slug.slice(0, 100)}-copy-${newId.slice(0, 8)}`,
     title: `${data.title.slice(0, 145)} (copy)`,
+    editorial_review_version: null,
     is_published: false,
     is_indexable: false,
     is_featured: false,

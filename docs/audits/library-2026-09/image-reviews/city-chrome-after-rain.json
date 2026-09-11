@@ -1,0 +1,15 @@
+{
+  "slug": "city-chrome-after-rain",
+  "source": "/Users/Ujjwal.Paul/Downloads/ChatGPT Image Sep 10, 2026, 09_01_40 PM.png",
+  "conversation": "https://chatgpt.com/c/6aa2c9e3-9d48-83e8-ae0c-a28a95fa99a4",
+  "prompt": "Generate one original 4:5 cinematic motorcycle portrait of a fictional Indian man in his early thirties with medium-brown skin, a narrow oval face, short naturally wavy dark hair, light stubble and an ordinary build. Stand beside one parked dark green road motorcycle under a covered urban forecourt just after rain. Dark textile riding jacket, jeans and practical black boots; helmet resting securely on the stationary bike seat. Relaxed serious expression, both feet planted, one hand gently resting on the handlebar without riding. Blue-hour ambient light with soft warm reflections on damp pavement, low 50mm three-quarter environmental framing. Full head and boots, two coherent wheels, visible handlebars and stable bike stand. Restrained realistic colour and skin texture, no futuristic neon fantasy, speed blur, invented branding, extra limbs, text, collage or watermark.",
+  "editPrompts": [
+    "Edit only the small logo/lettering on the helmet: remove it so the helmet is plain black. Keep the man, face, skin tone, hairstyle, riding jacket, hands, motorcycle geometry, green paint, reflections, lighting and framing identical. No letters, words, logo or watermark anywhere. Return one 4:5 photograph."
+  ],
+  "alt": "Rider in a dark jacket stands beside a parked green motorcycle on a rain-wet city forecourt at blue hour.",
+  "review": "Full-resolution corrected-export review: helmet lettering removed, same rider and vehicle retained, full boots and head visible, stable stand and two coherent wheels. Natural hand on handlebar, plausible body proportions, restrained wet pavement reflections and blue-hour light.",
+  "approved": true,
+  "relatedSlugs": [
+    "city-chrome-after-rain-reel"
+  ]
+}

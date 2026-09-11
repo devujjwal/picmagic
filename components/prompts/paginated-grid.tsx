@@ -1,9 +1,13 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import type { Prompt } from "@/types/content";
 import { PromptGrid } from "./prompt-grid";
 
-/** The ordinary next-page link remains usable without JavaScript. */
+const subscribe = () => () => {};
+const supportsAutoLoad = () => typeof IntersectionObserver !== "undefined";
+const serverSnapshot = () => false;
+
+/** Scroll enhancement over crawlable, server-rendered 24-item pages. */
 export function PaginatedGrid({
   prompts,
   page,
@@ -14,31 +18,77 @@ export function PaginatedGrid({
   path: string;
 }) {
   const [batches, setBatches] = useState(1);
+  const sentinel = useRef<HTMLDivElement>(null);
+  const autoLoad = useSyncExternalStore(
+    subscribe,
+    supportsAutoLoad,
+    serverSnapshot,
+  );
   const start = (page - 1) * 24;
   const end = start + batches * 24;
   const visible = prompts.slice(start, end);
+  const hasMore = end < prompts.length;
+  useEffect(() => {
+    if (!autoLoad || !hasMore || !sentinel.current) return;
+    let consumed = false;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting || consumed) return;
+        consumed = true;
+        observer.disconnect();
+        setBatches(batches + 1);
+      },
+      { rootMargin: "400px 0px" },
+    );
+    observer.observe(sentinel.current);
+    return () => {
+      consumed = true;
+      observer.disconnect();
+    };
+  }, [autoLoad, hasMore, batches]);
   return (
     <>
-      <PromptGrid prompts={visible} prioritizeFirst />
+      {visible.some((p) => p.content_intent !== "utility") && (
+        <PromptGrid
+          prompts={visible.filter((p) => p.content_intent !== "utility")}
+          prioritizeFirst
+        />
+      )}
+      {visible.some((p) => p.content_intent === "utility") && (
+        <section className="section" aria-label="Practical utility prompts">
+          <div className="section-head">
+            <div>
+              <h2>Practical tools for a specific job</h2>
+              <p>
+                Profile photos, faithful catalogue views and careful photo
+                edits.
+              </p>
+            </div>
+          </div>
+          <PromptGrid
+            prompts={visible.filter((p) => p.content_intent === "utility")}
+            prioritizeFirst={
+              !visible.some((p) => p.content_intent !== "utility")
+            }
+          />
+        </section>
+      )}
       <p className="sr-only" role="status">
         Showing {visible.length} looks on this page.
       </p>
-      {end < prompts.length && (
-        <div className="pagination">
+      {hasMore && (
+        <div
+          ref={sentinel}
+          data-load-more-sentinel
+          className={autoLoad ? "relative h-px" : "pagination"}
+        >
           <a
-            className="button secondary"
+            className={
+              autoLoad
+                ? "sr-only focus:not-sr-only focus:relative button secondary"
+                : "button secondary"
+            }
             href={`${path}?page=${page + batches}`}
-            onClick={(event) => {
-              if (
-                event.metaKey ||
-                event.ctrlKey ||
-                event.shiftKey ||
-                event.altKey
-              )
-                return;
-              event.preventDefault();
-              setBatches((value) => value + 1);
-            }}
           >
             Load more looks
           </a>

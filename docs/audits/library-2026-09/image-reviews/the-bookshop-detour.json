@@ -1,0 +1,13 @@
+{
+  "slug": "the-bookshop-detour",
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-d7dbb295-1e0e-4075-be21-49075b75f754.png",
+  "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in a light casual shirt holding a closed book near a shelf, no readable cover branding.  Lighting and framing: warm practical light with window fill; 50mm three-quarter. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+  "provider": "codex-built-in",
+  "fallbackReason": "ChatGPT repeatedly displayed Too many requests; owner explicitly authorized Codex fallback.",
+  "alt": "A grey-haired man in a pale shirt holds a closed blue book beside wooden shelves.",
+  "review": "Full-resolution generated output reviewed: Mature subject and age lines, one closed unbranded book already in hands, coherent fingers, warm practical/window fill; accurate bookshop starting scene.",
+  "approved": true,
+  "relatedSlugs": [
+    "the-bookshop-detour-reel"
+  ]
+}

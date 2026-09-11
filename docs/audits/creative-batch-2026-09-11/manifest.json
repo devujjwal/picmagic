@@ -1,0 +1,996 @@
+[
+  {
+    "id": "P01",
+    "rank": 1,
+    "title": "The River Remembers",
+    "detail_url": "/ai-prompts/travel/the-river-remembers",
+    "mechanism": "photo-illustration",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-river-remembers-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P01"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa3782a-5f8c-83e9-bc68-1459bcce9bf0",
+    "downloaded_source": "sources/p01-river.png",
+    "qa": "Curved ink shoreline connects the journal to the river. Face, resting hands and stone remain photographic; background incidental people are not identity subjects. Main subject is readable at card size.",
+    "image_prompt": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
+    "proposal": {
+      "id": "P01",
+      "title": "The River Remembers",
+      "slug": "the-river-remembers",
+      "transformation_type": "photo-illustration",
+      "destinations": [
+        "/collections/travel",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.",
+      "references": "One clear adult portrait; optional owned river/location photograph. No requirement to upload handwriting or private journal pages.",
+      "preserve": "One recognizable face and actual proportions; keep the photographic face outside the painted region.",
+      "transform": "Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.",
+      "preview_brief": "One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+      "originality": "Continuous river-led transition and a single face, unlike the references' stacked repeated-scene pages; no copied captions.",
+      "risks": "Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook.",
+      "reuse": "Could develop the generic island or Paris travel memory, but the new river narrative warrants its own detail record; no existing image proves the effect.",
+      "reel_potential": "A restrained ink-edge reveal could work after a still succeeds; not selected for initial motion production.",
+      "evidence": [
+        "AP01",
+        "CG03",
+        "YM07"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 1,
+      "detail_url_proposal": "/ai-prompts/travel/the-river-remembers",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/the-river-remembers-creative-v2.webp",
+      "benefit": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+      "supporting_evidence": [
+        "research.json#AP01",
+        "research.json#CG03",
+        "research.json#YM07",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "2a76965dd74122148ee7452630ad0d35404e44a888856ffdd03f9f88481291a6",
+    "optimized_path": "assets/the-river-remembers-creative-v2.webp",
+    "thumbnail_path": "assets/the-river-remembers-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 190802,
+    "thumbnail_bytes": 58760,
+    "image_alt": "Woman beside a river at sunset, with an indigo ink shoreline flowing from her open journal into the real water",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P17",
+    "rank": 2,
+    "title": "The Bottle Inside a Moment of Water",
+    "detail_url": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+    "mechanism": "impossible-product-set",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P17"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [
+      "sources/p17-bottle-fixture.png"
+    ],
+    "chat_url": "https://chatgpt.com/c/6aa3788d-f250-83ee-9711-e71a9c364f15",
+    "downloaded_source": "sources/p17-water.png",
+    "qa": "Compared to saved bottle fixture: cap, label geometry, visible liquid level and bottle form remain visually consistent. Water stays behind the dry label; one bottle, no water through glass. Label deliberately blank: this does not validate exact seller lettering.",
+    "image_prompt": "Create the final PicMagic campaign The Bottle Inside a Moment of Water using this exact fictional bottle image as the authoritative product reference. Keep the bottle dry, upright and unchanged on its clear plinth: same glass shape, shoulders, bronze cylindrical cap, cream blank label, liquid level and front-three-quarter camera view. Build ONE clean transparent water arc rising BEHIND and around the bottle like a transient architectural arch. A small amount of suspended spray can extend outward, but nothing crosses the front label or intersects the glass. Water does not emerge from the bottle. Charcoal-blue background, neutral fill on the label and precise edge lights on the water. Single product, no duplicate bottle reflection, no text or logo, no implied waterproofness claim. Widen the existing framing enough to contain the whole water arch and bottle with breathing room. 4:5 vertical, target 1200 × 1500 pixels. Only the surrounding set and background change. Generate the final image, retaining the supplied fixture's product identity.",
+    "proposal": {
+      "id": "P17",
+      "title": "The Bottle Inside a Moment of Water",
+      "slug": "perfume-the-water-sculpture",
+      "transformation_type": "impossible-product-set",
+      "destinations": [
+        "/collections/product-shoots",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "Retain the existing dry, upright perfume bottle on a clear plinth. One precise water arc rises behind it like a transient architectural arch. The front label stays unobscured; water never penetrates or redesigns the product.",
+      "references": "Actual bottle front and relevant side views; approved label/packshot. Use compositing when exact lettering cannot be maintained.",
+      "preserve": "Geometry, cap, colour, material, label and supplied liquid level; never silently replace the seller's product.",
+      "transform": "Water environment, background and controlled light only; no waterproofness claim.",
+      "preview_brief": "No human subject. First establish an original fictional squat clear-glass bottle with a plain bronze cap and a simple unlettered cream label as a product fixture; clear water, charcoal-blue background and neutral label fill.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+      "originality": "Existing PicMagic single water-arch concept, not the source's blue floral jar or snack storyboard sequence.",
+      "risks": "Glass/water intersection and label drift; bottle fixture must remain unchanged, and reflections must not imply duplicate bottles.",
+      "reuse": "Reuse prompt ID/canonical and product contract; fragrance-reveal image is a different bottle/set and is not the finished campaign.",
+      "reel_potential": "R03: lit water edge → dry label reveal → full arc; actual fluid dynamics must pass video QA.",
+      "evidence": [
+        "AP06",
+        "YM06"
+      ],
+      "existing_prompt_slug": "perfume-the-water-sculpture",
+      "first_batch_rank": 2,
+      "detail_url_proposal": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+      "benefit": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+      "supporting_evidence": [
+        "research.json#AP06",
+        "research.json#YM06",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "d281d80611c35969b8eff1a99e82742bca152ca6ab32fb378b6af31638fd6868",
+    "optimized_path": "assets/perfume-the-water-sculpture-creative-v2.webp",
+    "thumbnail_path": "assets/perfume-the-water-sculpture-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 144664,
+    "thumbnail_bytes": 44250,
+    "image_alt": "A single dry perfume bottle with bronze cap and blank cream label, framed by a clear water arc on an acrylic plinth",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create an original fictional product reference photograph for PicMagic: exactly one squat rectangular clear-glass perfume bottle, softly rounded square shoulders, a plain cylindrical bronze cap, a simple unlettered cream rectangular front label and a visible pale amber liquid level at approximately two-thirds of the bottle. No brand or text. Stand upright on a plain clear acrylic plinth. Straight-on front-three-quarter view, bottle large and completely visible, neutral studio fill, charcoal-blue background, physically coherent reflections that never create a second bottle. 4:5 vertical high resolution. This is the stable fixture for a later water-arc campaign, so keep it simple, precise and sharply detailed. No water yet, no human, no duplicated packaging, no logos or watermark. Generate the image itself.",
+      "Create the final PicMagic campaign The Bottle Inside a Moment of Water using this exact fictional bottle image as the authoritative product reference. Keep the bottle dry, upright and unchanged on its clear plinth: same glass shape, shoulders, bronze cylindrical cap, cream blank label, liquid level and front-three-quarter camera view. Build ONE clean transparent water arc rising BEHIND and around the bottle like a transient architectural arch. A small amount of suspended spray can extend outward, but nothing crosses the front label or intersects the glass. Water does not emerge from the bottle. Charcoal-blue background, neutral fill on the label and precise edge lights on the water. Single product, no duplicate bottle reflection, no text or logo, no implied waterproofness claim. Widen the existing framing enough to contain the whole water arch and bottle with breathing room. 4:5 vertical, target 1200 × 1500 pixels. Only the surrounding set and background change. Generate the final image, retaining the supplied fixture's product identity."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P04",
+    "rank": 3,
+    "title": "Our Courtyard, Small Enough to Hold",
+    "detail_url": "/ai-prompts/family/our-courtyard-small-enough-to-hold",
+    "mechanism": "miniature-memory",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P04"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa3792c-357c-83e8-b10a-656223d4c653",
+    "downloaded_source": "sources/p04-family.png",
+    "qa": "Exactly three distinct people with adult/child age contrast. Shelf and cutaway walls establish miniature scale; faces and limbs examined at full resolution. Chess arrangement is decorative, not an exact game position. Use a wide card: family faces are small in dense mobile grids.",
+    "image_prompt": "Create an original finished PicMagic artwork, Our Courtyard, Small Enough to Hold. A handcrafted shallow courtyard model sits on a wide wooden shelf. Exactly THREE distinct fictional Indian family members gather around a tiny chessboard near the front edge, large enough for readable faces: an older woman around 68 with grey braid, deep-brown complexion and visible age lines; a man around 36 with short hair and medium-brown complexion; a child around 9 with wavy hair and light-brown complexion. Everyday cotton clothes, natural different expressions, ordinary anatomies. Rear balconies recede in painted card and carved wood; visible glue seams, paper edges, a cutaway wall and the thick shelf establish this as a handmade miniature memory rather than a normal house photograph. Warm plaster, teal balcony, terracotta tiles. Uniform miniature scale, believable hands and chess pieces; faces carefully rendered with facial features rather than blank dolls. Shallow set, foreground family relatively large, coherent warm side-light and soft model shadows. 4:5 vertical, target 1200 × 1500 pixels. No extra people or portraits in the background, no text, logos, doll-like smooth skin or watermark. The entire shelf/model should fit within the frame. Generate the image itself.",
+    "proposal": {
+      "id": "P04",
+      "title": "Our Courtyard, Small Enough to Hold",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "transformation_type": "miniature-memory",
+      "destinations": [
+        "/ai-prompts/family",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "A handcrafted shallow courtyard model sits on a wide wooden shelf. Three family members gather around a tiny chessboard near its front edge, large enough for readable faces. Rear balconies recede in painted card and carved wood; visible glue seams and scale make it a handmade memory rather than a normal house photograph.",
+      "references": "All family members independently labelled; optional owned home photo. Adapt composition to actual family count, not the fictional sample's three.",
+      "preserve": "Each person's age, recognizable landmarks and relative body proportions; distinguish identity count from miniature scale.",
+      "transform": "Uniform scale and surrounding building material; faces remain carefully rendered rather than blank figurines.",
+      "preview_brief": "Three fictional Indian family members: older woman around 68 with grey braid and deep-brown complexion, adult around 36 with short hair and medium complexion, child around 9 with wavy hair and light-brown complexion. Everyday cotton clothes; warm plaster, teal balcony and terracotta tile.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+      "originality": "A front-edge chess gathering in a shallow courtyard differs from the source street truck diorama and enamel mountain badge.",
+      "risks": "Small faces and model-like skin reduce recognizability; use a shallow set and only the supplied count. If fidelity fails, frame as a scene keepsake rather than a verified identity result.",
+      "reuse": "Existing family photos provide no automatic public reference permission; use a new fictional identity fixture. Reuse no final image.",
+      "reel_potential": "A small move past a wooden column can reveal the family and model edge; R02 candidate.",
+      "evidence": [
+        "AP02",
+        "CG01"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 3,
+      "detail_url_proposal": "/ai-prompts/family/our-courtyard-small-enough-to-hold",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+      "benefit": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+      "supporting_evidence": [
+        "research.json#AP02",
+        "research.json#CG01",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "9fa1c1c7d5eb7c96f1c0db3b620e7960fa9eb09c3b2286a2e0b391097258f75c",
+    "optimized_path": "assets/our-courtyard-small-enough-to-hold-creative-v2.webp",
+    "thumbnail_path": "assets/our-courtyard-small-enough-to-hold-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 185042,
+    "thumbnail_bytes": 53690,
+    "image_alt": "Three family members playing chess in a miniature courtyard model on a wooden shelf",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "wide",
+    "submitted_prompts": [
+      "Create an original finished PicMagic artwork, Our Courtyard, Small Enough to Hold. A handcrafted shallow courtyard model sits on a wide wooden shelf. Exactly THREE distinct fictional Indian family members gather around a tiny chessboard near the front edge, large enough for readable faces: an older woman around 68 with grey braid, deep-brown complexion and visible age lines; a man around 36 with short hair and medium-brown complexion; a child around 9 with wavy hair and light-brown complexion. Everyday cotton clothes, natural different expressions, ordinary anatomies. Rear balconies recede in painted card and carved wood; visible glue seams, paper edges, a cutaway wall and the thick shelf establish this as a handmade miniature memory rather than a normal house photograph. Warm plaster, teal balcony, terracotta tiles. Uniform miniature scale, believable hands and chess pieces; faces carefully rendered with facial features rather than blank dolls. Shallow set, foreground family relatively large, coherent warm side-light and soft model shadows. 4:5 vertical, target 1200 × 1500 pixels. No extra people or portraits in the background, no text, logos, doll-like smooth skin or watermark. The entire shelf/model should fit within the frame. Generate the image itself."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P06",
+    "rank": 4,
+    "title": "The Letter Before the Train Leaves",
+    "detail_url": "/ai-prompts/couple/the-heritage-railway-letter",
+    "mechanism": "era-story",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-heritage-railway-letter-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P06"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa3798b-3190-83e9-815c-382f4b47b105",
+    "downloaded_source": "sources/p06-railway.png",
+    "qa": "Two distinct faces and natural eye contact, one letter between separate hands, stationary carriage, warm lamps and clear faces. Bags are worn rather than a separate suitcase; final copy must follow the reviewed image.",
+    "image_prompt": "Create one original finished photographic artwork for PicMagic: The Letter Before the Train Leaves. Exactly two fictional Indian adults, a woman about 45 with deep-brown skin and loose short curls and a man about 49 with medium-brown complexion and a greying moustache; distinct faces and ordinary builds. They exchange one folded cream letter beside a STATIONARY 1970s-inspired heritage railway carriage. Muted maroon and cream travel clothes. Compose a close emotional three-quarter view: their separate hands support opposite ends of the same small letter; the recipient looks at the giver with a warm relieved smile, the giver looks back. Amber platform lamps and cool drifting steam create depth; steam hides the far end of the empty platform, never faces or hands. No readable lettering on the carriage or paper, no actors, borrowed film composition, logos or watermark. Period is wardrobe and set styling only. Believable hand anatomy and body posture, unretouched natural skin, subtle photographic grain. 4:5 vertical target 1200 × 1500. Faces should remain readable at a mobile-card size. Generate the image itself.",
+    "proposal": {
+      "id": "P06",
+      "title": "The Letter Before the Train Leaves",
+      "slug": "the-heritage-railway-letter",
+      "transformation_type": "era-story",
+      "destinations": [
+        "/collections/pre-wedding",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "Develop the existing original concept: two adults exchange one folded letter beside a stationary 1970s-inspired carriage. A sliver of warm station light separates their hands; steam hides the far end of the platform, not their faces. The recipient's smile provides the emotional answer.",
+      "references": "Two separately identifiable adults or one clear couple reference. Preserve their actual ages; period is wardrobe/set styling only.",
+      "preserve": "Both identities, complexion, face shape and proportions; any meaningful reference marks.",
+      "transform": "Period travel clothes, hair arrangement, carriage and steam lighting without copying a film or actor.",
+      "preview_brief": "Two fictional Indian adults around 45 and 49 with distinct faces and ordinary builds; one with deep-brown skin and loose short curls, one with medium complexion and a greying moustache. Muted maroon and cream travel clothes, amber lamps and cool steam.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Creates an emotionally specific period film set with controlled steam, carriage access and lighting.",
+      "originality": "This is a retained PicMagic original, not a copied rainy-platform poster. Letter hand-off and face reaction differ from back-facing waiting figures and printed layout.",
+      "risks": "Hand transfer and tiny letter can confuse; still keyframe should show letter already supported between two separate hands.",
+      "reuse": "Reuse local prompt ID and canonical; old terrace-letter asset lacks carriage/steam and cannot serve as finished preview.",
+      "reel_potential": "R01: letter edge → hand-off/reaction → warm carriage reveal.",
+      "evidence": [
+        "YM05",
+        "YM03"
+      ],
+      "existing_prompt_slug": "the-heritage-railway-letter",
+      "first_batch_rank": 4,
+      "detail_url_proposal": "/ai-prompts/couple/the-heritage-railway-letter",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/the-heritage-railway-letter-creative-v2.webp",
+      "benefit": "Creates an emotionally specific period film set with controlled steam, carriage access and lighting.",
+      "supporting_evidence": [
+        "research.json#YM05",
+        "research.json#YM03",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "864c65337736ac02a7a220a1d25aeb3402e04e0afc1d5311247eb55d45802c4d",
+    "optimized_path": "assets/the-heritage-railway-letter-creative-v2.webp",
+    "thumbnail_path": "assets/the-heritage-railway-letter-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 181696,
+    "thumbnail_bytes": 50386,
+    "image_alt": "Two adults exchange a folded letter beside a heritage railway carriage under warm station lamps",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create one original finished photographic artwork for PicMagic: The Letter Before the Train Leaves. Exactly two fictional Indian adults, a woman about 45 with deep-brown skin and loose short curls and a man about 49 with medium-brown complexion and a greying moustache; distinct faces and ordinary builds. They exchange one folded cream letter beside a STATIONARY 1970s-inspired heritage railway carriage. Muted maroon and cream travel clothes. Compose a close emotional three-quarter view: their separate hands support opposite ends of the same small letter; the recipient looks at the giver with a warm relieved smile, the giver looks back. Amber platform lamps and cool drifting steam create depth; steam hides the far end of the empty platform, never faces or hands. No readable lettering on the carriage or paper, no actors, borrowed film composition, logos or watermark. Period is wardrobe and set styling only. Believable hand anatomy and body posture, unretouched natural skin, subtle photographic grain. 4:5 vertical target 1200 × 1500. Faces should remain readable at a mobile-card size. Generate the image itself."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P03",
+    "rank": 5,
+    "title": "A Mountain Journey Within",
+    "detail_url": "/ai-prompts/travel/a-mountain-journey-within",
+    "mechanism": "controlled-double-exposure",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/a-mountain-journey-within-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P03"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa378bb-94d4-83ee-997f-0bedc670f7a8",
+    "downloaded_source": "sources/p03-mountain.png",
+    "qa": "One clear face; scenery starts below face in shoulders/jacket. No road over eyes or hollow face. One unoccupied tent, no second protagonist.",
+    "image_prompt": "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork.",
+    "proposal": {
+      "id": "P03",
+      "title": "A Mountain Journey Within",
+      "slug": "a-mountain-journey-within",
+      "transformation_type": "controlled-double-exposure",
+      "destinations": [
+        "/collections/travel",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette.",
+      "references": "One clear head-and-shoulders portrait; optional owned landscape. One identity and one depiction.",
+      "preserve": "Eyes, nose, mouth, face geometry and hairline in a photographic neutral-lit zone.",
+      "transform": "Jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it.",
+      "preview_brief": "One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+      "originality": "The user's candidate direction is developed into a shoulder-only journey; the inspected sources do not establish a double-exposure example, so this is not claimed as a research finding.",
+      "risks": "Road crossing the eyes, hollow-looking face or unwanted extra person; keep the face zone explicit.",
+      "reuse": "Existing mountain scenes can inform setting but are not authorized landscape source plates for a real reference composite.",
+      "reel_potential": "Gentle environment motion possible later; keep face stable rather than animating an empty silhouette.",
+      "evidence": [
+        "CG02",
+        "AP03"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 5,
+      "detail_url_proposal": "/ai-prompts/travel/a-mountain-journey-within",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/a-mountain-journey-within-creative-v2.webp",
+      "benefit": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+      "supporting_evidence": [
+        "research.json#CG02",
+        "research.json#AP03",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "8d2774b6f4dd1ea6801aaddb3bd7039fcd99c7528e8fd5914e38c117efcabb76",
+    "optimized_path": "assets/a-mountain-journey-within-creative-v2.webp",
+    "thumbnail_path": "assets/a-mountain-journey-within-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 196898,
+    "thumbnail_bytes": 49350,
+    "image_alt": "Mature man with a clear photographic face above a Himalayan road and mountain landscape blended into his jacket",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P08",
+    "rank": 6,
+    "title": "The Tailor's Mountain Range",
+    "detail_url": "/ai-prompts/fashion/the-tailors-mountain-range",
+    "mechanism": "surreal-scale",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-tailors-mountain-range-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P08"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa37a02-6a28-83ee-8382-471b858831f2",
+    "downloaded_source": "sources/p08-tailor.png",
+    "qa": "One person at uniform miniature scale. Cloth weave, spool and winding seam establish the effect. Hands and proportions examined. Wide card recommended so the face is not reduced to a dot; this is personal art, not a sellable garment depiction.",
+    "image_prompt": "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself.",
+    "proposal": {
+      "id": "P08",
+      "title": "The Tailor's Mountain Range",
+      "slug": "the-tailors-mountain-range",
+      "transformation_type": "surreal-scale",
+      "destinations": [
+        "/collections/womens-fashion-ecommerce",
+        "/collections/mens-fashion-ecommerce",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing.",
+      "references": "One adult portrait; optional owned textile texture used as material inspiration, not proof of the completed garment.",
+      "preserve": "Person identity, age and relative anatomy, uniformly reduced in scale.",
+      "transform": "Cloth and sewing props into a large landscape, practical workwear and stance.",
+      "preview_brief": "Fictional Indian man around 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build; rust cotton work shirt amid enormous indigo fabric folds and a pale wooden spool.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+      "originality": "Textile terrain, a seam trail and one human differ from the lemon campaign's six interacting scenes and miniature street model.",
+      "risks": "Do not let the person become a tiny anonymous dot. Do not claim a transformed textile scene represents exact garment construction.",
+      "reuse": "No suitable final image; share only the product/person separation principles, not catalogue fidelity promises.",
+      "reel_potential": "Low move beside a seam opens the fabric pass; complex scale continuity means later only.",
+      "evidence": [
+        "CG05",
+        "CG02",
+        "AP02"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 6,
+      "detail_url_proposal": "/ai-prompts/fashion/the-tailors-mountain-range",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/the-tailors-mountain-range-creative-v2.webp",
+      "benefit": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+      "supporting_evidence": [
+        "research.json#CG05",
+        "research.json#CG02",
+        "research.json#AP02",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "4f278347e2bba741a4ec63ab8b3384b0e51aae25b2c9d4229c91641d71b24044",
+    "optimized_path": "assets/the-tailors-mountain-range-creative-v2.webp",
+    "thumbnail_path": "assets/the-tailors-mountain-range-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 174084,
+    "thumbnail_bytes": 52704,
+    "image_alt": "Miniature tailor with spectacles beside an enormous spool and mountain-like indigo fabric folds",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "wide",
+    "submitted_prompts": [
+      "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P02",
+    "rank": 7,
+    "title": "One Day, Four Possible Worlds",
+    "detail_url": "/ai-prompts/social-media/one-day-four-possible-worlds",
+    "mechanism": "multi-scene-identity",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "3:4",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "output_candidate": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P02"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [
+      "sources/p02-identity-fixture.png",
+      "sources/p02-observer-trial.png"
+    ],
+    "chat_url": "https://chatgpt.com/c/6aa377ff-08e4-83ee-8d63-d24dd06d53b7",
+    "downloaded_source": "sources/p02-four-worlds.png",
+    "qa": "Four intentional depictions, one fictional identity. Compared to both saved fixture and observer trial: face shape, curls, beard and proportions remain recognizable. All panels remain inside 3:4 framing. No claim of guaranteed user-reference fidelity.",
+    "image_prompt": "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself.",
+    "proposal": {
+      "id": "P02",
+      "title": "One Day, Four Possible Worlds",
+      "slug": "one-day-four-possible-worlds",
+      "transformation_type": "multi-scene-identity",
+      "destinations": [
+        "/collections/creative-transformations",
+        "/collections/instagram-profile-picture"
+      ],
+      "visual_narrative": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not.",
+      "references": "A clear frontal and optional three-quarter portrait of one adult. One identity, four intentional depictions. Choose pursuits rather than claim real accomplishments.",
+      "preserve": "Same recognizable face, age, hairline and physique in all four depictions.",
+      "transform": "Environment, practical wardrobe and expression per pursuit; changes do not imply different ethnic identities.",
+      "preview_brief": "A fictional Indian man about 35 with medium-brown skin, naturally curly medium-length hair and an ordinary stocky build. Ochre pottery dominant panel, midnight observatory and muted mountain inserts; avoid four identical smiles.",
+      "ratio": "3:4",
+      "score": 5,
+      "why_ai": "Offers four coherent imagined lives from one reference without organising four shoots.",
+      "originality": "Asymmetric narrative windows and chosen pursuits, not a source character costume, numbered pose sheet or nine warehouse angles.",
+      "risks": "High identity drift and tiny faces; trial one panel first, then assemble controlled panels. Do not crop this layout to 4:5.",
+      "reuse": "Reuse persona policy concepts; no final asset available.",
+      "reel_potential": "Possible later scene sequence with independent reference-conditioned shots; not a morphing transition.",
+      "evidence": [
+        "CG04",
+        "YM02",
+        "YM08"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 7,
+      "detail_url_proposal": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1600
+      ],
+      "expected_output_path": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+      "benefit": "Offers four coherent imagined lives from one reference without organising four shoots.",
+      "supporting_evidence": [
+        "research.json#CG04",
+        "research.json#YM02",
+        "research.json#YM08",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "fixture_qa": "One fictional adult, face/hairline clear, ordinary proportions, ochre shirt, workshop; reviewed in ChatGPT full-screen. Reference trial pending.",
+    "production_activated": false,
+    "source_dimensions": [
+      1086,
+      1448
+    ],
+    "source_sha256": "14dc445045bdc697995f923894b3d4cf9876ff9fdca5cb7377622600eef3f343",
+    "optimized_path": "assets/one-day-four-possible-worlds-creative-v2.webp",
+    "thumbnail_path": "assets/one-day-four-possible-worlds-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      1080,
+      1440
+    ],
+    "bytes": 219818,
+    "thumbnail_bytes": 74808,
+    "image_alt": "The same fictional man in four curved panels: a main portrait, stargazing, making pottery and mountain travel",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "wide",
+    "submitted_prompts": [
+      "Create one original photographic identity reference image for a fictional PicMagic preview subject. One fictional Indian man, about 35 years old, with medium-brown skin, naturally curly medium-length black hair, a gently rounded face, short neat beard, and an ordinary stocky build. A relaxed, slightly thoughtful expression, looking almost directly into the camera. Waist-up in an unbranded ochre cotton work shirt, hands relaxed outside the crop, against a softly blurred pottery workshop with no other people. Natural window light, realistic skin pores and proportions, clearly visible hairline and facial landmarks. 4:5 portrait composition, high resolution. This is a neutral identity fixture for later controlled scenes: not a celebrity, not an existing real person, no text, watermark, illustration or glamorised physique. Generate the image itself.",
+      "Use the fictional man in the image immediately above as the authoritative identity reference. Create one controlled scene for PicMagic's approved One Day, Four Possible Worlds composition. Show the exact same man as an amateur night-sky observer beside a modest telescope, waist-up, turning toward the camera with a thoughtful expression. Preserve his facial structure, curly hairline, beard, medium-brown complexion, age and ordinary stocky build. Only change his ochre work shirt to a practical navy jacket and change the surroundings to an open hill under a dark blue starry sky. Keep neutral soft face illumination so identity is easy to compare; stars stay behind his head, never inside his face. Exactly one person in this trial, no silhouette or extra observer. Realistic photography, quiet natural expression, no heroic physique, labels or text. 4:5 high-resolution portrait. Generate the image itself; use the previous generated image as the reference, do not invent a new model.",
+      "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P13",
+    "rank": 8,
+    "title": "Portrait Cut from Monsoon Paper",
+    "detail_url": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+    "mechanism": "physical-material-portrait",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P13"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [
+      "sources/p13-portrait-fixture.png"
+    ],
+    "chat_url": "https://chatgpt.com/c/6aa37a47-d728-83ee-9e40-803641e1f63f",
+    "downloaded_source": "sources/p13-paper.png",
+    "qa": "Compared to the saved fictional portrait: eye spacing, face shape, smile asymmetry and age cues remain recognizable. Paper edge thickness and fibres are visible; palette is declared material translation rather than literal skin preservation.",
+    "image_prompt": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
+    "proposal": {
+      "id": "P13",
+      "title": "Portrait Cut from Monsoon Paper",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "transformation_type": "physical-material-portrait",
+      "destinations": [
+        "/collections/creative-transformations",
+        "/collections/instagram-profile-picture"
+      ],
+      "visual_narrative": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter.",
+      "references": "One clear frontal portrait with visible facial landmarks; no identity claim from a generic paper silhouette.",
+      "preserve": "Facial geometry, age cues, hairline and distinguishing features as translated material forms.",
+      "transform": "Skin and hair appearance into a declared paper palette; preserve relative complexion values without claiming literal skin material or ethnicity change.",
+      "preview_brief": "Fictional Indian woman about 67, deep-brown complexion, silver hair in a loose knot and natural facial lines; warm umber, indigo and cream papers with irregular fibre edges and subtle relief shadows.",
+      "ratio": "4:5",
+      "score": 5,
+      "why_ai": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+      "originality": "The face itself is dimensional paper, rather than a photographic person placed inside the source's pastel paper landscape.",
+      "risks": "Simplification can remove age or identity; first test a single face with limited relief before adding environment.",
+      "reuse": "No suitable final asset. New material-aware identity rules are necessary.",
+      "reel_potential": "A light sweep can reveal relief; that would be an art preview, not human live-action video.",
+      "evidence": [
+        "CG06",
+        "AP03"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 8,
+      "detail_url_proposal": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+      "benefit": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+      "supporting_evidence": [
+        "research.json#CG06",
+        "research.json#AP03",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "cf7ca1e45c0f050553e32e14929c9b35b8dac4d71f5ba7e3f318bcffb0f6c4d2",
+    "optimized_path": "assets/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "thumbnail_path": "assets/portrait-cut-from-monsoon-paper-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 294882,
+    "thumbnail_bytes": 70630,
+    "image_alt": "Layered paper-relief portrait of an older woman, with grey paper hair and indigo cloud shapes behind her",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create one original fictional identity reference photograph for the approved PicMagic concept Portrait Cut from Monsoon Paper. One fictional Indian woman about 67, deep-brown complexion, silver hair loosely tied in a knot, naturally lined face, broad soft cheeks, distinctive gentle asymmetry around the smiling mouth and ordinary proportions. Close almost-frontal head-and-shoulders portrait, eyes looking toward camera, hairline and both sides of face visible. Plain muted indigo cotton blouse, neutral warm-grey background, even soft window illumination without deep shadows. No glamour retouching or age reduction. Natural photographic skin, clear facial landmarks. 4:5 portrait high resolution. This is a stable original fixture for a later paper-relief translation; do not add paper effects yet. No text, watermark, extra people or celebrity likeness. Generate the image itself.",
+      "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "P05",
+    "rank": 9,
+    "title": "The Last Train, Printed in Two Inks",
+    "detail_url": "/ai-prompts/retro/last-train-two-ink-portrait",
+    "mechanism": "limited-ink-print",
+    "score": 4,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P05"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [],
+    "chat_url": "https://chatgpt.com/c/6aa37a76-4ccc-83ee-be3d-7b703f6ea6e2",
+    "downloaded_source": "sources/p05-print.png",
+    "qa": "Two-ink treatment, halftone and visible age cues. Window shadow crosses shoulder rather than eyes. A small decorative bindi appears in this fictional preview; it is not a mandatory user identity feature. This is artwork, not a literal complexion change.",
+    "image_prompt": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
+    "proposal": {
+      "id": "P05",
+      "title": "The Last Train, Printed in Two Inks",
+      "slug": "last-train-two-ink-portrait",
+      "transformation_type": "limited-ink-print",
+      "destinations": [
+        "/collections/instagram-profile-picture",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering.",
+      "references": "One clear portrait; expression and period collar are optional styling choices.",
+      "preserve": "Recognizable facial geometry, apparent age, hairline and distinguishing marks through tonal relationships.",
+      "transform": "Entire image into a declared two-ink artwork; ink colour does not claim literal skin colour or altered ethnicity.",
+      "preview_brief": "Fictional Indian woman around 52, medium-brown complexion, silver-streaked short curls and a broad natural face; saffron/plum print on off-white stock, one diagonal window shadow, plain period blouse.",
+      "ratio": "4:5",
+      "score": 4,
+      "why_ai": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+      "originality": "Train-window light, two chosen inks and close facial hierarchy replace the source cafe composition and blue/orange palette.",
+      "risks": "Halftone can erase marks or smooth age; sample at card size and full resolution. Never append a conflicting photorealistic-skin clause.",
+      "reuse": "Existing photo persona contract requires an art-aware extension; no suitable final asset.",
+      "reel_potential": "Ink registration reveal is motion graphics rather than live footage; label accordingly if ever used.",
+      "evidence": [
+        "AP03"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 9,
+      "detail_url_proposal": "/ai-prompts/retro/last-train-two-ink-portrait",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1500
+      ],
+      "expected_output_path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+      "benefit": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+      "supporting_evidence": [
+        "research.json#AP03",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "source_sha256": "8c39cb5beb7196155c568369b423661612f594d5a336b5b10d20fce92d1f1e42",
+    "optimized_path": "assets/last-train-two-ink-portrait-creative-v2.webp",
+    "thumbnail_path": "assets/last-train-two-ink-portrait-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 536406,
+    "thumbnail_bytes": 111592,
+    "image_alt": "Plum-and-saffron halftone portrait of a mature woman beside a railway window",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "standard",
+    "submitted_prompts": [
+      "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "E01",
+    "rank": 10,
+    "title": "Tiny Krishna, big wonder",
+    "detail_url": "/ai-prompts/kids/tiny-krishna-big-wonder",
+    "mechanism": "cultural-styling",
+    "score": 5,
+    "action": "retain-existing-recommended",
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "existing_path": "/previews/tiny-krishna-big-wonder.webp",
+    "generation_approved": false,
+    "evidence": [
+      "asset-review.json#78",
+      "prompt-audit.json#e47fef4c-2fbc-5a52-82f1-2767a0881a08"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "retained-reviewed",
+    "provider": "existing asset",
+    "source_reference": null,
+    "chat_url": null,
+    "downloaded_source": null,
+    "qa": "Retained from the Phase A full-resolution review; no regeneration or semantic asset modification. See original shortlist evidence.",
+    "production_activated": false,
+    "optimized_path": "assets/tiny-krishna-big-wonder.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 112604,
+    "source_sha256": "6d073fae76c1b3a086d3d3562728dde435635cea146e82c1f83400432f7e8f88",
+    "image_alt": "Tiny Krishna, big wonder",
+    "display_hint": "standard"
+  },
+  {
+    "id": "P12",
+    "rank": 11,
+    "title": "One Saree, Three Campaign Worlds",
+    "detail_url": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+    "mechanism": "garment-consistent-campaign",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "3:4",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "output_candidate": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+    "generation_approved": true,
+    "evidence": [
+      "proposals.json#P12"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "generated-reviewed-staged",
+    "provider": "ChatGPT browser workflow",
+    "source_reference": [
+      "sources/p12-saree-fixture.png"
+    ],
+    "chat_url": "https://chatgpt.com/c/6aa37954-5a48-83ee-b573-b09c6fb81943",
+    "downloaded_source": "sources/p12-saree-worlds.png",
+    "qa": "Exactly three depictions of one model in the same front-three-quarter view. Indigo weave, copper border, blouse and front drape visually consistent with the saved fixture; no back view invented. Full garment visible. Visual inspection is not pixel-exact seller certification: real logos/labels should use source compositing if generation alters them.",
+    "image_prompt": "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment.",
+    "proposal": {
+      "id": "P12",
+      "title": "One Saree, Three Campaign Worlds",
+      "slug": "one-saree-three-campaign-worlds",
+      "transformation_type": "garment-consistent-campaign",
+      "destinations": [
+        "/collections/womens-fashion-ecommerce",
+        "/collections/creative-transformations"
+      ],
+      "visual_narrative": "One dominant front-three-quarter model view and two supporting frames present the same saree in a basalt courtyard, a rain-lit glass pavilion and an ivory sculptural studio. Keep pose nearly constant so garment differences are detectable; environments create the campaign range. No invented rear view.",
+      "references": "Product front, border, blouse and weave references; one model identity if specified. Product references outrank generated aesthetic changes.",
+      "preserve": "Exact weave, colours, border, motifs, drape-compatible silhouette and all supplied construction; one model identity across three depictions.",
+      "transform": "Environment and lighting outside a neutrally lit garment zone. Hairstyle can be styled once and then kept consistent across panels.",
+      "preview_brief": "Fictional Indian model around 38, medium-brown complexion, naturally broad hips and short wavy hair; create one fictional indigo saree fixture with a simple copper border, then reuse that exact approved fixture in all three panels.",
+      "ratio": "3:4",
+      "score": 5,
+      "why_ai": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+      "originality": "Known-angle consistency across three distinct sets, not source nine-angle warehouse coverage or six lemon actions.",
+      "risks": "High product drift. Generate an approved product/model fixture first, then controlled panels; reject altered border/colour. Text-only examples do not prove seller fidelity.",
+      "reuse": "Existing palace-saree prompt provides fidelity language, but its pending image is not reusable product evidence.",
+      "reel_potential": "Later clean reference-conditioned cuts between locations; no garment-morph transition.",
+      "evidence": [
+        "YM08",
+        "CG05"
+      ],
+      "existing_prompt_slug": null,
+      "first_batch_rank": 11,
+      "detail_url_proposal": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+      "generation_status": "not-approved; no submissions",
+      "target_dimensions": [
+        1200,
+        1600
+      ],
+      "expected_output_path": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+      "benefit": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+      "supporting_evidence": [
+        "research.json#YM08",
+        "research.json#CG05",
+        "prompt-audit.json",
+        "generator-review.md"
+      ]
+    },
+    "production_activated": false,
+    "source_dimensions": [
+      1086,
+      1448
+    ],
+    "source_sha256": "43adf1ebf5f10ffc1b8d8ca12e438386bbdb0eaf9041c8d7a8122a3e61b4a3d4",
+    "optimized_path": "assets/one-saree-three-campaign-worlds-creative-v2.webp",
+    "thumbnail_path": "assets/one-saree-three-campaign-worlds-creative-v2-thumb.webp",
+    "actual_dimensions": [
+      1080,
+      1440
+    ],
+    "bytes": 208544,
+    "thumbnail_bytes": 71514,
+    "image_alt": "The same woman and indigo saree with copper border in a basalt courtyard, rain-lit pavilion and pale sculptural studio",
+    "reviewed_at": "2026-09-11",
+    "display_hint": "wide",
+    "submitted_prompts": [
+      "Create one original fictional model-and-garment reference photograph for PicMagic's One Saree, Three Campaign Worlds. One fictional Indian woman about 38, medium-brown complexion, naturally broad hips and ordinary proportions, short wavy black hair. She wears ONE original simple indigo handwoven saree with a narrow solid copper border, no motifs, no lettering, a matching plain short-sleeve indigo blouse. Front-three-quarter full-length view, relaxed natural stance, hands resting without covering the copper border. Pallu over one shoulder, fully visible at front, no invented unusual drapes. Neutral soft daylight on the fabric so weave and exact indigo/copper colours are clear. Plain pale-grey seamless background. Include head to bare feet with generous margins, 3:4 vertical, target 1200 × 1600. Make a realistic repeatable reference fixture, with a clearly visible face and hairline, no beauty-filter skin, no exaggerated physique, no jewellery other than small plain studs, no text or logo. Generate the image itself.",
+      "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment."
+    ],
+    "preview_provenance": "ChatGPT web image workflow, fictional subject/product explicitly requested; account displayed Pro. Provider model version not independently established. This is not Codex/Astra generation."
+  },
+  {
+    "id": "E02",
+    "rank": 12,
+    "title": "A little rain. A lot of romance.",
+    "detail_url": "/ai-prompts/couple/a-little-rain-a-lot-of-romance",
+    "mechanism": "rain-romance-story",
+    "score": 4,
+    "action": "retain-existing-recommended",
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "existing_path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+    "generation_approved": false,
+    "evidence": [
+      "asset-review.json#7",
+      "prompt-audit.json#f8599583-8854-5732-93f1-a0ac27860372"
+    ],
+    "approval": "User replied yes, please proceed to the delivered 12-selection shortlist on 2026-09-11.",
+    "status": "retained-reviewed",
+    "provider": "existing asset",
+    "source_reference": null,
+    "chat_url": null,
+    "downloaded_source": null,
+    "qa": "Retained from the Phase A full-resolution review; no regeneration or semantic asset modification. See original shortlist evidence.",
+    "production_activated": false,
+    "optimized_path": "assets/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+    "actual_dimensions": [
+      960,
+      1200
+    ],
+    "bytes": 143898,
+    "source_sha256": "8748c65509c300278489d37451021faa14a76c009d19a55384eb64e843f79daf",
+    "image_alt": "A little rain. A lot of romance.",
+    "display_hint": "standard"
+  }
+]

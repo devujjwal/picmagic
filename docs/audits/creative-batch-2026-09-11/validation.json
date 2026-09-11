@@ -1,0 +1,385 @@
+{
+  "scope": "Approved twelve-preview media batch only; not application/release acceptance",
+  "checks": [
+    {
+      "check": "Exactly the approved twelve selections; no reserve concepts generated",
+      "passed": true
+    },
+    {
+      "check": "Ten generated final outputs, two retained assets",
+      "passed": true
+    },
+    {
+      "check": "All copyable prompt records present exactly once",
+      "passed": true
+    },
+    {
+      "check": "Unique proposed canonical paths",
+      "passed": true
+    },
+    {
+      "check": "P01 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P01 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P01 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P01 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P01 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P01 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P01 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P01 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P17 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P17 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P17 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P17 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P17 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P17 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P17 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P04 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P04 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P04 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P04 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P04 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P04 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P04 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P04 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P06 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P06 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P06 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P06 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P06 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P06 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P06 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P06 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P03 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P03 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P03 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P03 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P03 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P03 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P03 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P03 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P08 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P08 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P08 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P08 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P08 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P08 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P08 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P08 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P02 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P02 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P02 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P02 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P02 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P02 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P02 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P02 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P13 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P13 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P13 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P13 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P13 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P13 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P13 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P13 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "P05 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P05 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P05 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P05 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P05 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P05 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P05 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P05 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "E01 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "E01 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "E01 retained original unchanged",
+      "passed": true
+    },
+    {
+      "check": "P12 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "P12 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "P12 saved original verified",
+      "passed": true
+    },
+    {
+      "check": "P12 exact prompt and references captured",
+      "passed": true
+    },
+    {
+      "check": "P12 no upscaling",
+      "passed": true
+    },
+    {
+      "check": "P12 thumbnail exists and stays under 120 KiB",
+      "passed": true
+    },
+    {
+      "check": "P12 preview and user instructions stored separately",
+      "passed": true
+    },
+    {
+      "check": "P12 reference authority and India-first no-reference mode",
+      "passed": true
+    },
+    {
+      "check": "E02 optimized WebP dimensions/aspect",
+      "passed": true
+    },
+    {
+      "check": "E02 QA and alt text recorded",
+      "passed": true
+    },
+    {
+      "check": "E02 retained original unchanged",
+      "passed": true
+    },
+    {
+      "check": "Fifteen submitted briefs = ten final outputs plus four fixtures and one trial",
+      "passed": true
+    },
+    {
+      "check": "No production activation claimed",
+      "passed": true
+    },
+    {
+      "check": "Eight new slugs do not collide",
+      "passed": true
+    },
+    {
+      "check": "Two replacements preserve existing canonical owners",
+      "passed": true
+    },
+    {
+      "check": "Correct retained copy not rewritten",
+      "passed": true
+    }
+  ],
+  "passed": 94,
+  "failed": [],
+  "application_tests": "Not run in this media-only batch. Prior application checks remain historical.",
+  "production_deployment": "None"
+}

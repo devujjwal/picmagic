@@ -1,0 +1,13 @@
+{
+  "slug": "a-confident-presentation",
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-44de77be-4ee9-4618-bb7c-4210da737c07.png",
+  "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person beside a clean presentation board with abstract non-readable graphics, holding one marker at waist height.  Lighting and framing: soft office light; full-body 50mm. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+  "provider": "codex-built-in",
+  "fallbackReason": "ChatGPT repeatedly displayed Too many requests; owner explicitly authorized Codex fallback.",
+  "alt": "A woman in a green printed kurta stands beside an office whiteboard with abstract charts.",
+  "review": "Full-resolution generated output reviewed: One woman, complete standing figure and shoes; marker held at waist, coherent hands, unlabelled abstract diagrams and soft office light. Appropriate neutral expression and natural body proportions.",
+  "approved": true,
+  "relatedSlugs": [
+    "a-confident-presentation-reel"
+  ]
+}

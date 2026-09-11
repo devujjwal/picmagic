@@ -1,0 +1,56 @@
+{
+  "measured_at": "2026-09-11T04:25:31.295Z",
+  "mode": "Local production build, mobile Lighthouse simulation, Google requests blocked; lab measurements, not field Core Web Vitals",
+  "results": [
+    {
+      "name": "home",
+      "path": "/",
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "name": "category",
+      "path": "/ai-prompts/women",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "name": "collection",
+      "path": "/collections/creative-transformations",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "name": "detail",
+      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    {
+      "name": "creator",
+      "path": "/create",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  ]
+}

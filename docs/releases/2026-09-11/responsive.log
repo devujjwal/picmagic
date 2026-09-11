@@ -1,0 +1,51 @@
+[
+  { width: 320, path: '/', overflow: false },
+  { width: 320, path: '/ai-prompts', overflow: false },
+  {
+    width: 320,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 320, path: '/create', overflow: false },
+  { width: 375, path: '/', overflow: false },
+  { width: 375, path: '/ai-prompts', overflow: false },
+  {
+    width: 375,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 375, path: '/create', overflow: false },
+  { width: 430, path: '/', overflow: false },
+  { width: 430, path: '/ai-prompts', overflow: false },
+  {
+    width: 430,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 430, path: '/create', overflow: false },
+  { width: 768, path: '/', overflow: false },
+  { width: 768, path: '/ai-prompts', overflow: false },
+  {
+    width: 768,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 768, path: '/create', overflow: false },
+  { width: 1024, path: '/', overflow: false },
+  { width: 1024, path: '/ai-prompts', overflow: false },
+  {
+    width: 1024,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 1024, path: '/create', overflow: false },
+  { width: 1440, path: '/', overflow: false },
+  { width: 1440, path: '/ai-prompts', overflow: false },
+  {
+    width: 1440,
+    path: '/ai-prompts/women/golden-hour-draped-in-tradition',
+    overflow: false
+  },
+  { width: 1440, path: '/create', overflow: false },
+  { width: 1440, zoom: '200%', overflow: false }
+]

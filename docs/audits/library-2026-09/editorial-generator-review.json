@@ -1,0 +1,147 @@
+{
+  "enhancement_controls": [
+    {
+      "name": "Professional Portrait",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "An identity-faithful portrait for a work context when a user lacks a studio session.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "LinkedIn Headshot",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "A specific head-and-shoulders crop, quiet background and readable eyes for a profile image.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Improve Lighting",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Repair exposure and white balance without changing the person or scene.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Improve Image Quality",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Reduce compression and noise while refusing invented facial detail.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Change Background",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Replace only the environment and match edges, perspective and shadows.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Change Outfit",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Preview a specified wardrobe change on the actual person and natural body.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Hairstyle Ideas",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Explore grooming changes while protecting hairline and facial identity.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Studio Portrait",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Create a controlled lighting/background treatment, distinct from a headshot crop.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Remove Unwanted Objects",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Remove specified distractions conservatively without deleting ambiguous belongings.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Restore Old Photo",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Repair physical damage without inventing family history, faces or missing identity.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Couple Makeover",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Preview styling changes on both supplied people without changing either identity.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Birthday Photoshoot",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "A low-complexity requested birthday setup; useful as an editing control, not featured discovery.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Wedding Enhancement",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Correct light and colour while keeping real ceremony, jewellery and clothing details.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Travel Photo Enhancement",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Improve an actual travel image without replacing its authentic landmarks.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Product Background",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Produce reusable seller backgrounds without redesigning the product.",
+      "discovery_eligible": false
+    },
+    {
+      "name": "Product Photoshoot",
+      "classification": "A",
+      "content_intent": "utility",
+      "distinctiveness_score": 3,
+      "why_ai": "Deliver a clean exact-product presentation for sellers without studio equipment.",
+      "discovery_eligible": false
+    }
+  ],
+  "photo_builder": {
+    "classification": "A",
+    "content_intent": "utility",
+    "reason": "A user-directed assembly tool. Style, lighting and framing options do not confer editorial approval; generated outputs are not published library concepts."
+  },
+  "reel_builder": {
+    "classification": "B",
+    "action": "Reworked generic subtle-movement sequences into subject-specific hook, action and payoff for all supported durations.",
+    "content_intent": "utility",
+    "discovery_eligible": false
+  },
+  "improve_prompt_controls": {
+    "classification": "A",
+    "reason": "Cinematic/realistic/shorten controls refine existing text. They do not increase distinctiveness_score or automatically approve a concept."
+  }
+}

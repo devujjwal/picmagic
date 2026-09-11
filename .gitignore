@@ -11,3 +11,7 @@ coverage/
 supabase/.temp/
 supabase/.branches/
 output/originals/
+
+.next-release/
+
+.release-private/

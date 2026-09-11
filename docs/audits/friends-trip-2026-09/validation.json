@@ -1,0 +1,63 @@
+{
+  "scope": "Local friends-trip addition to the larger editorial overhaul; not a production release",
+  "concept": {
+    "slug": "cinematic-ladakh-friends-trip",
+    "people_count": 4,
+    "place_name": "LADAKH",
+    "full_duration_seconds": 12,
+    "requested_preview_duration_seconds": 7.5,
+    "video_generated": false,
+    "poster_generated": false,
+    "source_reference_dimensions": [
+      640,
+      640
+    ]
+  },
+  "local_migration": "202609100005_friends_trip_template.sql",
+  "source_webp_bytes": 64352,
+  "source_thumb_bytes": 32834,
+  "manual_review": "Inspected mobile creator and desktop private reference preview screenshots. All four original friends retained; no tight portrait crop or replacement identities. Generated-video identity, Ladakh scenery, typography and motion remain unverified because no video was created.",
+  "release": "No commit, push, production deployment, production migration, purchase or generation-credit spend in this addition.",
+  "current_library": {
+    "retained_prompts": 162,
+    "collections": 39,
+    "published_locally": 43,
+    "drafts": 119,
+    "additional_media_jobs": {
+      "friends_poster": 1,
+      "friends_video_deferred": 1
+    }
+  },
+  "video_status": "Owner explicitly stopped Kling/Runway attempts. Codex offers still-image generation here, not the requested video generation. Exact video brief retained, with no fake motion substitute.",
+  "checks": {
+    "lint": "pass",
+    "typecheck": "pass",
+    "unit_tests": 111,
+    "unit_files": 16,
+    "browser_tests": 22,
+    "production_build": "pass",
+    "sql_assertions": 5,
+    "release_gate": "blocked: 324 pending content checks"
+  },
+  "lighthouse": {
+    "url": "http://localhost:4314/reel-prompts",
+    "scores": {
+      "performance": 99,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcp_ms": 2213.7093,
+    "cls": 0,
+    "tbt_ms": 22,
+    "scope": "single local mobile lab run; Google endpoints blocked; QA deliberately noindex; not field Core Web Vitals"
+  },
+  "responsive_widths": [
+    320,
+    375,
+    430,
+    768,
+    1024,
+    1440
+  ]
+}

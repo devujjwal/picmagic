@@ -1,0 +1,84 @@
+BEGIN
+CREATE EXTENSION
+ plan  
+-------
+ 1..11
+(1 row)
+
+INSERT 0 2
+INSERT 0 1
+INSERT 0 1
+INSERT 0 2
+SET
+                      is                      
+----------------------------------------------
+ ok 1 - Anonymous sees only published content
+(1 row)
+
+                is                
+----------------------------------
+ ok 2 - Anonymous is not an admin
+(1 row)
+
+                throws_ok                 
+------------------------------------------
+ ok 3 - Anonymous cannot write categories
+(1 row)
+
+RESET
+SET
+              set_config              
+--------------------------------------
+ 22222222-2222-4222-8222-222222222222
+(1 row)
+
+                 is                  
+-------------------------------------
+ ok 4 - Regular user is not an admin
+(1 row)
+
+                   is                   
+----------------------------------------
+ ok 5 - Regular user cannot read drafts
+(1 row)
+
+                  throws_ok                  
+---------------------------------------------
+ ok 6 - Regular user cannot write categories
+(1 row)
+
+                 throws_ok                  
+--------------------------------------------
+ ok 7 - Regular user cannot upload previews
+(1 row)
+
+              set_config              
+--------------------------------------
+ 11111111-1111-4111-8111-111111111111
+(1 row)
+
+                       is                       
+------------------------------------------------
+ ok 8 - Provisioned administrator is authorized
+(1 row)
+
+                  is                  
+--------------------------------------
+ ok 9 - Administrator can read drafts
+(1 row)
+
+                     lives_ok                      
+---------------------------------------------------
+ ok 10 - Administrator can change a canonical path
+(1 row)
+
+                    is                    
+------------------------------------------
+ ok 11 - Canonical move persists redirect
+(1 row)
+
+ finish 
+--------
+(0 rows)
+
+ROLLBACK

@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "royal-jaipur-after-hours-reel",
+    "title": "Royal Jaipur After-Hours — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/an-intimate-jaipur-yes-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage.\n\nLighting and composition: Amber lamps against deep indigo outside the arches; 50mm full-body symmetrical composition, both faces readable. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start with two moving shadows crossing the lamp-lit floor.\n2–6 seconds: PROGRESSION: Lift to the couple taking two slow steps and exchanging a glance.\n6–8 seconds: PAYOFF: Reveal the long symmetrical illuminated corridor around them.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Start with two moving shadows crossing the lamp-lit floor.",
+    "progression": "Lift to the couple taking two slow steps and exchanging a glance.",
+    "payoff": "Reveal the long symmetrical illuminated corridor around them.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "himalayan-last-rider-reel",
+    "title": "Himalayan Last Rider — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/the-open-road-portrait-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nPRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged.\n\nLighting and composition: Blue mountain twilight with a warm headlamp cone; 35mm full-body environmental frame, rider large enough to recognize, horizon low. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Close on snowflakes crossing the headlamp beam.\n2–6 seconds: PROGRESSION: Reveal the rider beside the stationary motorcycle.\n6–8 seconds: PAYOFF: Pull wide enough to expose the immense empty pass and mountain layers.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Close on snowflakes crossing the headlamp beam.",
+    "progression": "Reveal the rider beside the stationary motorcycle.",
+    "payoff": "Pull wide enough to expose the immense empty pass and mountain layers.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "moonlit-motherhood-reel",
+    "title": "Moonlit Motherhood — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/the-garden-waiting-room-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The expectant mother sits on a broad stable studio platform; softly supported fabric sweeps behind her into a crescent shape, never wrapping tightly around the body. A dark blue backdrop and a few out-of-focus paper stars suggest moonlight rather than outer space. Preserve actual pregnancy stage and comfortable posture; face, both hands and bump unobscured.\n\nLighting and composition: Soft silver-blue side light with warm skin fill; 50mm seated full silhouette, entire fabric crescent visible. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the silver-lit edge of the fabric crescent.\n2–6 seconds: PROGRESSION: Move inward to the mother's resting hands and face.\n6–8 seconds: PAYOFF: Reveal the complete crescent framing her supported seated silhouette.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Begin on the silver-lit edge of the fabric crescent.",
+    "progression": "Move inward to the mother's resting hands and face.",
+    "payoff": "Reveal the complete crescent framing her supported seated silhouette.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "neon-monsoon-drive-reel",
+    "title": "Neon Monsoon Drive — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/rain-on-the-paint-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The owner stands beside their parked car on a rain-soaked city side street at night. Cyan and red shop-light reflections flow across the exact supplied paint and body panels; a little headlight haze separates the person from the dark street. Keep the face naturally lit, no neon recolouring of skin, and no traffic stunt.\n\nLighting and composition: Two restrained neon colours with soft neutral face fill; 50mm three-quarter car and person. Compose for 9:16.\n\nKeep physically plausible anatomy or product geometry, realistic material texture, stable supports and believable shadows. No watermark, invented text, duplicate objects or distorted details.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start on a neon line reflected along the door panel.\n2–6 seconds: PROGRESSION: Follow it to the owner's relaxed hand and face.\n6–8 seconds: PAYOFF: Reveal the whole car in the wet street's two-colour reflections.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Start on a neon line reflected along the door panel.",
+    "progression": "Follow it to the owner's relaxed hand and face.",
+    "payoff": "Reveal the whole car in the wet street's two-colour reflections.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "holi-the-colour-before-it-falls-reel",
+    "title": "Holi, the Colour Before It Falls — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/a-little-holi-happiness-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour.\n\nLighting and composition: Backlit morning particles with soft frontal fill; 85mm waist-up, ample space around hair and both colour plumes. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on a thin ribbon of powder suspended beside the shoulder.\n2–6 seconds: PROGRESSION: Reveal the smiling face as the two colour clouds spread behind it.\n6–8 seconds: PAYOFF: Hold the complete pink-and-yellow arc around the unchanged person.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Begin on a thin ribbon of powder suspended beside the shoulder.",
+    "progression": "Reveal the smiling face as the two colour clouds spread behind it.",
+    "payoff": "Hold the complete pink-and-yellow arc around the unchanged person.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "the-palace-saree-every-border-visible-reel",
+    "title": "The Palace Saree, Every Border Visible — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/the-saree-drape-catalogue-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nPRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The reference model wears the supplied saree in a heritage corridor, its pallu draped across a broad stone balustrade so the complete border and repeated pattern remain readable. One hand gathers a small natural fold; jewellery stays minimal and does not hide the garment. Preserve the model separately from exact saree colour, weave, motifs and blouse supplied.\n\nLighting and composition: Soft side light revealing fabric texture; 50mm full-body with the pallu and both feet inside frame. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start on the exact supplied border pattern across the balustrade.\n2–6 seconds: PROGRESSION: Follow the fabric to the model's natural drape.\n6–8 seconds: PAYOFF: Reveal the full garment and heritage corridor together.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Start on the exact supplied border pattern across the balustrade.",
+    "progression": "Follow the fabric to the model's natural drape.",
+    "payoff": "Reveal the full garment and heritage corridor together.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "perfume-the-water-sculpture-reel",
+    "title": "Perfume, the Water Sculpture — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/packaging-with-purpose-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The supplied perfume bottle stands upright on a clear stable acrylic plinth while one sculptural arc of water curves behind it. Keep the label dry, front readable and every bottle, cap, logo and packaging detail exact; the water must not pass through the bottle or redesign the glass. This is a constructed high-speed advertising set, not a claim of waterproofness.\n\nLighting and composition: Crisp backlight through water and soft front label fill; 85mm product hero with complete bottle and arc. Compose for 9:16.\n\nKeep physically plausible anatomy or product geometry, realistic material texture, stable supports and believable shadows. No watermark, invented text, duplicate objects or distorted details.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start on the thin illuminated edge of the water arc.\n2–6 seconds: PROGRESSION: Reveal the unchanged bottle in front of it.\n6–8 seconds: PAYOFF: Hold the full water sculpture framing the dry readable label.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Start on the thin illuminated edge of the water arc.",
+    "progression": "Reveal the unchanged bottle in front of it.",
+    "payoff": "Hold the full water sculpture framing the dry readable label.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  },
+  {
+    "slug": "meghalaya-cloud-walk-reel",
+    "title": "Meghalaya Cloud Walk — reel",
+    "editorial_status": "approved",
+    "status": "wait-for-approved-poster",
+    "provider_preference": [
+      "Kling existing credits only",
+      "Runway only if available without payment"
+    ],
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "source_poster": "public/previews/clouds-below-the-path-editorial-v1.webp",
+    "poster_ready": false,
+    "exact_generation_prompt": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The traveller walks on a broad safe ridge path with a low stone parapet in Meghalaya, clouds rolling below eye level. A rain jacket moves lightly in the breeze; layered green hills rise above the white cloud sea, and the person looks ahead with quiet wonder. Keep feet on the path and do not stage cliff-edge balancing.\n\nLighting and composition: Soft cloud-filtered daylight with a pale horizon; 35mm full-body environmental frame, face still readable. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on one boot stepping along the broad ridge path.\n2–6 seconds: PROGRESSION: Lift to the traveller and the green hill line.\n6–8 seconds: PAYOFF: Reveal the enormous cloud sea lying below their eye level.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "hook": "Begin on one boot stepping along the broad ridge path.",
+    "progression": "Lift to the traveller and the green hill line.",
+    "payoff": "Reveal the enormous cloud sea lying below their eye level.",
+    "web_output": "Muted H.264 MP4, playsinline, poster fallback, lazy viewport loading; review anatomy, identity and motion before approval.",
+    "poster_preparation": "Review a 9:16 crop or expanded keyframe before video generation if the source poster is 4:5; keep all important faces, garments and props visible. Do not claim a 9:16 asset exists until integrated."
+  }
+]

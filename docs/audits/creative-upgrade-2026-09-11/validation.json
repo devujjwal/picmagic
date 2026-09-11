@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-11",
+  "scope": "Research/planning validation only; no application test or generation claim",
+  "passed": true,
+  "checks": [
+    {
+      "check": "162 source records, exactly one audit per unique ID",
+      "passed": true
+    },
+    {
+      "check": "All 50 production IDs reconciled to audit",
+      "passed": true
+    },
+    {
+      "check": "Classification and score totals reconcile",
+      "passed": true
+    },
+    {
+      "check": "Every merge target exists and is not a merge source",
+      "passed": true
+    },
+    {
+      "check": "All 39 collections reviewed exactly once",
+      "passed": true
+    },
+    {
+      "check": "Collection memberships and proposed leads resolve",
+      "passed": true
+    },
+    {
+      "check": "20 proposal IDs and slugs unique",
+      "passed": true
+    },
+    {
+      "check": "New proposal slugs avoid current library; intentional reuse explicitly declared",
+      "passed": true
+    },
+    {
+      "check": "New creative-transformations collection slug has no collision",
+      "passed": true
+    },
+    {
+      "check": "Every proposal contains required substantive fields",
+      "passed": true
+    },
+    {
+      "check": "12 ranked previews, 10 new outputs, 2 reuses, all 4\u20135",
+      "passed": true
+    },
+    {
+      "check": "At least six first-batch mechanisms",
+      "passed": true
+    },
+    {
+      "check": "Retained shortlist assets exist and were full-resolution inspected",
+      "passed": true
+    },
+    {
+      "check": "All proposals and records link evidence",
+      "passed": true
+    },
+    {
+      "check": "18 complete source pairs with access limits explicit",
+      "passed": true
+    },
+    {
+      "check": "86 actual asset files accounted for",
+      "passed": true
+    },
+    {
+      "check": "Input content hashes unchanged since Phase A inventory",
+      "passed": true
+    },
+    {
+      "check": "No generation approval implied by shortlist",
+      "passed": true
+    },
+    {
+      "check": "No new changed-path status outside this review directory",
+      "passed": true
+    },
+    {
+      "check": "Durable required documents exist",
+      "passed": true
+    }
+  ],
+  "totals": {
+    "concepts": 162,
+    "collections": 39,
+    "proposals": 20,
+    "shortlist": 12,
+    "classifications": {
+      "KEEP": 80,
+      "UTILITY": 40,
+      "REWORK": 35,
+      "MERGE": 3,
+      "DEFEATURE": 4
+    },
+    "score_distribution": {
+      "1": 0,
+      "2": 8,
+      "3": 54,
+      "4": 80,
+      "5": 20
+    }
+  }
+}

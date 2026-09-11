@@ -1,0 +1,13 @@
+{
+  "slug": "sunday-park-conversation",
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-bfa40aba-adcb-42f3-87ac-89240cdcc431.png",
+  "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in comfortable casual clothing standing on a level garden path, hands relaxed.  Lighting and framing: late afternoon shade; 70mm full-body environmental. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+  "provider": "codex-built-in",
+  "fallbackReason": "ChatGPT repeatedly displayed Too many requests; owner explicitly authorized Codex fallback.",
+  "alt": "A man in casual clothes stands on a shaded garden path with a water bottle at his side.",
+  "review": "Full-resolution generated output reviewed: One adult with relaxed full-body pose and complete shoes, plausible hands, level shaded garden path and natural late-day light. Incidental bottle is compatible with an ordinary park walk; no compulsory product detail added to user prompt.",
+  "approved": true,
+  "relatedSlugs": [
+    "sunday-park-conversation-reel"
+  ]
+}

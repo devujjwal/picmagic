@@ -1,0 +1,87 @@
+{
+  "origin": "http://localhost:4311",
+  "measuredAt": "2026-09-10T15:10:08.172Z",
+  "runs": 1,
+  "pages": {
+    "home": {
+      "path": "/",
+      "median": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/library-audit-home.json",
+          "scores": {
+            "performance": 91,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          }
+        }
+      ]
+    },
+    "category": {
+      "path": "/ai-prompts/women",
+      "median": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/library-audit-category.json",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          }
+        }
+      ]
+    },
+    "detail": {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "median": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/library-audit-detail.json",
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 69
+          }
+        }
+      ]
+    },
+    "creator": {
+      "path": "/create",
+      "median": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "measurements": [
+        {
+          "file": "docs/qa/library-audit-creator.json",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 66
+          }
+        }
+      ]
+    }
+  }
+}

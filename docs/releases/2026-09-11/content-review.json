@@ -1,0 +1,1535 @@
+{
+  "date": "2026-09-11",
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "sha256": "7938fa0a357e8d5abdc525cc741a6fc7a1763cdce5c89c65cbedc105e6fe4b5d",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "sha256": "b44330e53fddfc9360b9826b43381ee883ba72e2a08769ede96a25279bdee8e3",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "sha256": "90684699ee0a7b252b08104e9746c90467cfb7a6705e840cd1b10a085ee4c4e3",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "sha256": "04078cec8ac47c5b4cd6e50b78b9f16350461dfe4f844e7bf8519b6e59185dae",
+      "published": true,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "sha256": "b357780ea63294c3286570670bc70ec9909b8b31ad7664d8ef7cd6a525893324",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "sha256": "61d1dbcb6e556d56685eb083cc7220ee6bf0c5a01889e0541a11f6421c126d61",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "sha256": "69b7bf099492539c8d3520f4539a14321343aa6f54dd6289889bbb004ee21143",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "sha256": "70d9f923e00f2293fc813ef8f1ece5ac67104e1fed1271f9849e0d182422d19c",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "sha256": "b96076efec37384d113d8ceca3357acfd776fb458d6e8a77757f68a9cec2ab01",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "sha256": "8f3f77b047fcf56effd2d642467da9dc9a004ab12af1f10c663ae38a59a2fc83",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "sha256": "34ff0315e848f86b8239e503c0bb369e49a6c8c2cca86db6677ab805209afa79",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "sha256": "1977eebf893211d0f0f249b7d0e4e4ab9fc8d90aa495361cf5af89c699291936",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "sha256": "9d5a09e5be5081a4f42946c57f2bbcbbbdb8e62869d8d4d951734fe2ea98ac80",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "sha256": "f154d4d3cad40a31947eb3caeb02d031f31b835e3d3c9cc8289490024ededf18",
+      "published": true,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "sha256": "5e7fab81127440bf8eb1b4b05e31b94324a1c9851125e2e222a943f8f5dac6c8",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "sha256": "f4685bfba6561c6a360d4d0cbefc96afc19e3c372178f098a7d2096159af5d4c",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "sha256": "c4bca1fa54a56544aca613da501f0a77f0a27006916f909dd243988fcc749bfd",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "sha256": "f2f27316212aea3ef8c27e814dd31e2b0dd41545bd131e9ddd4328896d15d139",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "sha256": "17b65097711d6bc4c7a39237518a29c3ca378c111d6d7cc3f96937e2097bd2d8",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "sha256": "cf26dcb99d500ab3c493bd429deba98924cb73c88da137186afd3b8cfe453a69",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "sha256": "3a37715eaf5c99eb762b437c2022c7fcb2173ba754e8a2ee5681cafc21419ef8",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "sha256": "5172b553942c6a5acf1e69c3d74466cc681818aa1bcde07186fbc2990a03c651",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "sha256": "effef3e1d869b939f5092c9f820d5953a97a6536b7ac843177ddff655e6b7d73",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "sha256": "af8ed69ab0ee5a65bdadbc83ab7b54a76b056a8adf68bfefe46d20bcce36a610",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "sha256": "9386cabf2a7770476849edf9a5409213e67b60acf07d3825b7750ea3f2dae07e",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "sha256": "77f683a183c040815477055d720e928a28d9090cdeee0cc18de7a8b48d3962ad",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "sha256": "d520daa8db987567c98adcc33541703edaa3ac6968f21e61183f158e24cb3073",
+      "published": true,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "sha256": "40bac3294b7b18c51d377afd41bfc8936c2ca71835289a7f69ced7ffc2ff8af9",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "sha256": "20f4d43c7cee856b3d9bb5d79649c750c340a3aaae2cdf5e01aebce7d9553609",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "sha256": "e4f5f1d6032e043a305e37acdafdab5949d3d4852d49d1b3cc12e37ad82cba9a",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "sha256": "e8902dd306dfdaa7cdb00518e35cd98823cf5a07fa1c05a65b803c7d064450d9",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "sha256": "99e5c85ef3ca4491b8f21f9884c36df17b1431202f31cd3c2245bec22a6b0e09",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "sha256": "4f52e736723f52463af5935d2dce07a27d4f467ca49e7178d05c3390f98c5556",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "sha256": "e4dd4cb939d35e5cbb8acd02578f848823455db4a0d6b5d4ff0ff666407a5bc2",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "sha256": "e119868baf8481196d4b6123fd74fb154d62a5f7bc894b8c91cde88f91beae27",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "sha256": "71d570237bebec42e2ceb29d7a1fd47c9752ac5dcb26f4897a7102432536620f",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "sha256": "b172adfdbd2aa77a4213d9b0a754cdc5413ea962b5431e735776abbc0b4205b2",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "sha256": "fac1e977f04d13d1fce989c24c5f065d1e1065a9996237b99e99317daee1783f",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "sha256": "c17257acd0c674da6c7c758102f6f0527b7c2183350421776e590480d926fa91",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "sha256": "aede5097602cac1cda3f54c10262acc01b0aefefa6b2879529f861bc6eff2c97",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "sha256": "2ce5d76d262c5ed19ee39e44b388d2a55992c32e3e951eccb5bc368fe7c48781",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "sha256": "cf685c10990ff03da6bbb36310253eb1249726fdf5058140ca759754eff8171a",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "sha256": "593d72c3d9d3f6812451fb1d98c362f522627cf6309a49056c20da7d154ec6ca",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "sha256": "aac3c2386468a1d4dc67b4d8782f6c2aa08cec07006d9940fc0d8a0f647b6762",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "sha256": "37962c0430f6215d841e05f60e5a3b7cbc47d61f34911731fdade8671590a4d1",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "sha256": "203e154ea9e4d8fbd4f703951f3811d29f79f1ee25f7d84b7170f3b8bf0dd588",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "sha256": "001cb061e99f0dd92b4d27869910e129be475754e5f9c2143109d97986b23ee5",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "sha256": "9d1a7af0e716707eceb054c20a52e85f6b3dd968eac29bd48d2c35de48e71ee3",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "sha256": "9bfa624bd176b536712393cbe603f8e2d3b760c2f958cafbd1f623d6da776ed5",
+      "published": true,
+      "classification": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "sha256": "9c1d1040e2f76753f99dd5fa2fb840475130fabe7da4c82eb0faee3a7c4579d5",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "53a8fbbe-9cdc-53ef-aab6-0d96a5dac0cb",
+      "slug": "royal-jaipur-after-hours-reel",
+      "sha256": "c171b55d7a6c92b9393d889b2a1bcbdd629e2e8c1718c327ba7ec3c4a89985be",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+      "slug": "monsoon-love-story",
+      "sha256": "1c1143d7803c5aa66e77bdba218d895aa4bbf13579ebee2a381ce3ac3be5d55f",
+      "published": false,
+      "classification": "MERGE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e1465867-b80d-53d1-a68e-8685799d6c8e",
+      "slug": "monsoon-love-story-reel",
+      "sha256": "425516013fc789d6a86ce6d455eb122a8895b919ff773982b19ccc4ad1a8fb07",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+      "slug": "desert-moonlight-promises",
+      "sha256": "23d097d683a54704d51a848573b9ba86cbd1c5120a5a98f1fd27fc7eb97f99ca",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b78c83d5-c7af-598a-a511-34a11e58ad1c",
+      "slug": "desert-moonlight-promises-reel",
+      "sha256": "cf9f4b664efc0a96971b9fbacf088ea1154331ae7d9946cad6b744d0827a1d7f",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "slug": "the-heritage-railway-letter",
+      "sha256": "5511bf58bd93fe73f0db8f48f4757c7219df1bab9970e6184d2f5947b9f2533a",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "be215413-4b98-5fab-af22-236b833ce9b6",
+      "slug": "the-heritage-railway-letter-reel",
+      "sha256": "bd43aaad4786587259f477f467c01a169bc92019ea0064ae6bb61e602b2a1f90",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7c129763-1405-5579-a8cc-ccf338d69a57",
+      "slug": "monsoon-maternity-at-the-heritage-window",
+      "sha256": "faff8037e27daa036f035193ebcda0179940e13bb9f0260acdfe1a738db95432",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e5bf667e-62ba-51f4-a7d5-b33b686e4cb7",
+      "slug": "monsoon-maternity-at-the-heritage-window-reel",
+      "sha256": "5b7578bf72cb1e515d6cd7ed2396d69f29b766b50706c27a0bedac259cded2bc",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "972f7890-d4eb-5f89-ac59-27e4dc591474",
+      "slug": "moonlit-motherhood",
+      "sha256": "65edc2733c51c905c05be2c5b17a39b6c6bc28dc8269d61ec9f5ea69dfab588c",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2f27fb36-901d-5c51-a623-c817ff00d509",
+      "slug": "moonlit-motherhood-reel",
+      "sha256": "9993302d3a40b0b18c3e8fd43972ab777a8f0bfdb731a2d142df078f767f10a1",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2",
+      "slug": "generations-waiting-together",
+      "sha256": "c051a72b1ad109419dc99a6d89ad1d1416c470373eb243fdcc96d12c27fc0cbf",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "12608a71-2c35-55a3-a6dd-b6a789b705b9",
+      "slug": "generations-waiting-together-reel",
+      "sha256": "abd17783d7426df905dad8c9a4571e4f47ae43a6b72fd548103727a6200b7f19",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "16584e1f-38d5-550f-a118-f753b61eaf66",
+      "slug": "motherhood-in-a-field-of-paper-petals",
+      "sha256": "9da91370ce9aa5d15a44c050d59d8a6f1545983ec58e55797c77db6816090249",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "289a1028-ba7d-5c7e-a773-a9888c042026",
+      "slug": "motherhood-in-a-field-of-paper-petals-reel",
+      "sha256": "8644cf2666ccce32dfc252031ac0149462e4d2b3bce35d641f45ec22dcf87639",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "15a6fb30-1561-5e74-a2ae-0eadb4592e51",
+      "slug": "himalayan-last-rider-reel",
+      "sha256": "7a2454fe185519d44cf817bf7ac19e4adb423b78884d8cee61be225784fed3fb",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+      "slug": "midnight-fuel-stop",
+      "sha256": "7b1955e8b4e22562c69239d728e5b9e0ad06d2143ed3c0ee1437f878b12eb7a5",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "8d982cdd-f81d-5f85-a91e-043a4c5b3ec0",
+      "slug": "midnight-fuel-stop-reel",
+      "sha256": "d3ad12b68534ffda58b8f849665960c6c25e107f793311561288ed725116fbee",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e3bcd989-c63b-5a67-a91a-ef49901f7991",
+      "slug": "monsoon-rider-under-the-flyover",
+      "sha256": "c7013a60023cc423055954571db825515b23ba642bff451c59f123f73b481c66",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "85d57403-7f43-5bea-aafc-d092b14d53f9",
+      "slug": "monsoon-rider-under-the-flyover-reel",
+      "sha256": "e5924249a2de6798fad66589225214ec529e29967b87bd9d14c21a435c710088",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "53329fb2-d974-5ee1-a385-e060e094efca",
+      "slug": "the-salt-road-to-nowhere",
+      "sha256": "8bc7213e77735b716018a337807961d556478bdbdf2be894911dd622c0ea1a0b",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3a94dac6-4e97-517b-ab81-3f893ca85ad2",
+      "slug": "the-salt-road-to-nowhere-reel",
+      "sha256": "e90644d668f91a917f46e2f9e52d38ca3d04fbed3a9b4164fb41cc22e3d3666a",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7db5e93f-1991-53c0-ad33-5e90629e80eb",
+      "slug": "desert-road-hero",
+      "sha256": "a55664e4b3d15fcb004b9bbc0613dc3791311fc988127850d77facddeb49ffd8",
+      "published": false,
+      "classification": "MERGE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a8cbf8fb-56ae-50a0-a861-f5625d7e4557",
+      "slug": "desert-road-hero-reel",
+      "sha256": "68a819f4e93487c40dffcdc48c3cf8323265c6e74d3d7c393e5b4352390ece09",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "21051ce7-7d65-567b-a23e-a81e72f23552",
+      "slug": "retro-bombay-through-the-windscreen",
+      "sha256": "7f5e7340bcfaed4f35788302cec159d3306b2d0c275113f6bb4de1a84a2b5c3b",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "c797ff85-40ba-5bdd-add0-4b8a53adc3a7",
+      "slug": "retro-bombay-through-the-windscreen-reel",
+      "sha256": "63fd7c8b27b3628cd95cb40bf337cc846679dc4daa8e7235452869a6a8a4f37d",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7",
+      "slug": "neon-monsoon-drive",
+      "sha256": "d0717f1afa30e1ae386a8f8c4240c26669c48e232dc6f92e26050596e8a8e5ee",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e3cbe555-2a42-5ed8-a183-7d51f6e65636",
+      "slug": "neon-monsoon-drive-reel",
+      "sha256": "792226b07c0e5b8fae955e677fdfff2a3976103a0edb7fc055480b785185d65f",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "bd90da35-9209-559d-a68a-bd57dc5e17e8",
+      "slug": "the-mountain-tunnel-arrival",
+      "sha256": "e808f4f97c94e0d540a563afb5f4a1699fed681c437414572e5aac9d07f9f0ce",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "709eddd4-9065-5f61-af35-79a11b575a33",
+      "slug": "the-mountain-tunnel-arrival-reel",
+      "sha256": "3faecc8a732b068c8f50991bfff67a989c3e6f02ff203307eafbc403f381c549",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9e91eee9-2c40-53cd-a46a-444e33d0a04e",
+      "slug": "after-the-last-rep-reel",
+      "sha256": "bc4d04d4bb79451f4f316c03aba9dd3bcad978a00e8c63ea983964d408ced977",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b",
+      "slug": "split-second-athlete",
+      "sha256": "6ffe2377df50e7da693bff79f0edb37b36a188570965770e8d50d0eb9f3f1249",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3cf8adec-4cda-58de-a449-58dc1e7d6936",
+      "slug": "split-second-athlete-reel",
+      "sha256": "d68ca70d3c8672fceabfe3645cb2ad8d042c36d981c4103d350032bdd59207bb",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3499de28-f65f-5680-a7b6-6d94e95b8e6e",
+      "slug": "shadow-athlete-at-dawn",
+      "sha256": "8610b3a51878d5d2ad5b6b3b5eee8b6b82ef19e8ee6b8835940f178513749351",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "5595b27d-e80a-52c6-a8fa-3a80738f9bfb",
+      "slug": "shadow-athlete-at-dawn-reel",
+      "sha256": "14857ea6e9165bd0439d2457a892b2e22cef8b941ffad4a36565797f2455ca30",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "8291ec7b-78fa-5512-a037-6f1e642f4d58",
+      "slug": "the-empty-stadium-one-more-try",
+      "sha256": "f3cafbe9111fab2f9cd3e6d110daca74b32b78b34094d5ae3730afc539027911",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2e3bfa74-dc47-5e7a-aede-e965a9058598",
+      "slug": "the-empty-stadium-one-more-try-reel",
+      "sha256": "daed0ac2ef1c5903aa54b1a342e2ccb4eb7fb8c9d1fb77d6c3a0d378d33ea9dc",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+      "slug": "your-next-introduction-reel",
+      "sha256": "0c3ec2d63a1c1118317a5f3b0e7fb63c338b44ec4b0f2ce126cc9153e75b9f7b",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+      "slug": "founder-after-hours",
+      "sha256": "c6f0805a41b4e6b0ebd5950cee1b2d9666aa0ed6cd50876fcff50ec0ebcd1a8a",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2f732577-3896-51b7-a714-25ca56275daf",
+      "slug": "founder-after-hours-reel",
+      "sha256": "f61f5fa14f0f860bdb351c5d1bc26f2be8781accfc4ed6a6260c4ef1ebf24de8",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3e86b4ed-5ed5-5d42-a343-4096fa10a298",
+      "slug": "newsroom-before-the-opening-bell",
+      "sha256": "b0b590c95a19da6360e43aaa4efa5043db5254ae87b65fb735027c101b32c2c0",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3a7c1a68-a218-57c8-ae6d-e50515cb3c3e",
+      "slug": "newsroom-before-the-opening-bell-reel",
+      "sha256": "977997949335c31d29c63425ff34a9f3a7007b212492d051a104f89f1574acfc",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "76c24975-e8bf-5ffc-abe5-aff47832f26e",
+      "slug": "the-idea-becomes-a-skyline",
+      "sha256": "38daf96840f606dac50c8ca26376802d70dc48724b508e95027c966ed87964a2",
+      "published": false,
+      "classification": "MERGE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "94ea26a4-6d06-5388-afce-d6ae389e38d9",
+      "slug": "the-idea-becomes-a-skyline-reel",
+      "sha256": "c7ea6848b12ac2b45b67cd926c543e7ff8a52f04b45bbd0ff05736907dd48af2",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "slug": "coffee-and-a-real-smile",
+      "sha256": "79a0f3585816af3eece3d448f72f12210c7f4818460460443ccc6623e428b48b",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
+      "slug": "coffee-and-a-real-smile-reel",
+      "sha256": "dca71f49ca60c5fc6a40c292d0f1e32161adf144e9637d75157ae78ef627e3cc",
+      "published": true,
+      "classification": "DEFEATURE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "slug": "the-bookshop-detour",
+      "sha256": "fbef31b4cab8eba8ef595fb08c9c3d24379e10f8329263a040206a7d7a24aa63",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
+      "slug": "the-bookshop-detour-reel",
+      "sha256": "6c1531eaff18948520824484f3c04ac21ded0530fac6a66a9703fbeda49fe0ad",
+      "published": true,
+      "classification": "DEFEATURE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "slug": "sunday-park-conversation",
+      "sha256": "c8810f7647bcce5b17bf5ecb785e38c8dbb5564938866010fbe68380904a77e3",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
+      "slug": "sunday-park-conversation-reel",
+      "sha256": "a5c4b5db1e96869ab2e1f46abd69d493b5527e97368a9809511835ad3aca31e4",
+      "published": true,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "551794fd-8e65-5250-a89d-bdae263578d9",
+      "slug": "something-good-in-the-kitchen",
+      "sha256": "edb0743cd193506b4b7db7b0bd908f637ea4b116b3282d48590f645dbe50004e",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
+      "slug": "something-good-in-the-kitchen-reel",
+      "sha256": "5acac8ceb073cffe76392828b07cd9dcd7d85faf58832306c9b87a4eca622999",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "58922396-8c86-5793-a71d-ebf3f4af5941",
+      "slug": "goa-after-the-monsoon",
+      "sha256": "1a5c530ac793e524a7d58c5394718faafbcbaf775f69e3b9487c34578398a342",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9521a0cb-83f3-5388-aa9e-7d0673110055",
+      "slug": "goa-after-the-monsoon-reel",
+      "sha256": "2489363f489a28474c5a0d272e7a4244371c9107fa02ca93a58c4a40168a78eb",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1",
+      "slug": "meghalaya-cloud-walk",
+      "sha256": "ac0e2933dee09b6f705bcf21866bcf221571947757a1a921c3fce97e0e65784d",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "20a5014c-8ca2-5c1a-a83c-823a802865da",
+      "slug": "meghalaya-cloud-walk-reel",
+      "sha256": "e63f619830bc5e05cd9b299f62d2f848eefa8c9537bc071918f7698b69cebaf0",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0750ce45-43dc-509e-a588-c7ea05fe40a3",
+      "slug": "the-lighthouse-keeper-s-morning",
+      "sha256": "447c4eb0a11aba5636b3a093a62d546f92acc3ea5f8ed6470282d87e08221e25",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2bf7000d-d496-5ae2-a43f-493a7c4dd5e6",
+      "slug": "the-lighthouse-keeper-s-morning-reel",
+      "sha256": "b2d287816896fe64aafe6bd3ffd0f045dda4268d955a97642d5bd5b3c09a1806",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "c55b1cd7-7e95-5184-ae40-c253d2aed42a",
+      "slug": "the-train-through-the-tea-clouds",
+      "sha256": "61c3555b282e4406793b0aa7ed175d50b15f43190d53cfa0f58fa82e54057a0e",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9b619fb5-aebf-5817-a057-b9bbce277555",
+      "slug": "the-train-through-the-tea-clouds-reel",
+      "sha256": "dc1e5e2b39ea76069160b267a06b90d0471e2b7e1d68b9bed5b2fd9fb26b6f50",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "8a5b10f4-bb35-58f7-aa91-94ea71537999",
+      "slug": "coral-against-the-sky-reel",
+      "sha256": "0f00f96c7c9d4b3a94967c7335109c9f0edb266df6fde0d0d63733f07426ca91",
+      "published": true,
+      "classification": "DEFEATURE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "20d0d883-d1c6-58c8-a3e9-cd57edbce120",
+      "slug": "soft-light-unmistakably-you-reel",
+      "sha256": "7e324960575f727ff90a17e91004fd1cdab6f270310dad32ef3e11020f76860a",
+      "published": true,
+      "classification": "DEFEATURE",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+      "slug": "monochrome-rain-face-in-focus",
+      "sha256": "528f9a6a74e409d3a7cc055446a0f0fad34f12bb989f96a7f26c8febd9952316",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "faabea55-1920-561a-acb6-9111e6450e46",
+      "slug": "monochrome-rain-face-in-focus-reel",
+      "sha256": "71990d7196325f0f8bcfb2249618a7d0a23c902e171f5a108dbc66f2a8790045",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "slug": "floral-shadows-a-clear-face",
+      "sha256": "8de1eb8dd039746a52f9e59f347a47d20cc9e42351cdeac8af1ce41589ac873a",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "cbeb0c3b-afd6-5cbd-a6dd-fc92e544e7b2",
+      "slug": "floral-shadows-a-clear-face-reel",
+      "sha256": "6abff9b2356f71aac0b4a3418f16eb834d5684c9c576093c7f2475ca5be9ae0f",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "29e48c7e-bbbe-55e5-a148-ac4613862701",
+      "slug": "diwali-a-thousand-points-of-light-reel",
+      "sha256": "65271882ed432042ebcc419d846fae137f233c46dba6482c83e5903e10fd263a",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "37ed3b86-b00c-5ce7-ab8e-9ecbf75099a5",
+      "slug": "holi-the-colour-before-it-falls-reel",
+      "sha256": "39ebb2695293d5056cd79aa0052a66753293dd65114b8a14c432f3af7860eb65",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "223f0df3-310f-5bf3-a007-8fe47e1dc58e",
+      "slug": "navratri-still-at-the-centre-reel",
+      "sha256": "e522a0808d305a68d6603b49e8faa3606594fcb7c754255e84b8b879874bced8",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b93fce53-9a68-58c9-a9a8-67304efd446e",
+      "slug": "the-little-flute-keeper-reel",
+      "sha256": "1136c85c68d5eda51a96e19a578a938b301b9335b82a717547c9606a847a2808",
+      "published": true,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "6a5fe725-3f2e-5776-a25a-119267e2a7c1",
+      "slug": "the-gentlest-new-beginning-reel",
+      "sha256": "5313b26decf19f0e5ccdcba125c9c675d58f4737f55110d92cec2085c390c4dd",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "slug": "first-birthday-cloud-world",
+      "sha256": "397f28674898a237024a7634e67800fcbbe623a1df53c9d55eeb71e5355311df",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b2cd54cb-7cb8-5cb2-a3e6-4f3924cbdc44",
+      "slug": "first-birthday-cloud-world-reel",
+      "sha256": "5bbfa860e8807e80c688dd35eca956618824c52b0aa90bdf981b9ec4b8d27fee",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "97517e1d-15bb-5257-a202-1cafe3e00154",
+      "slug": "the-nursery-moon-mission",
+      "sha256": "de5ede3cf470bf37a42de9a58000ec8d38a9a6a4993ccbdd4b7579c6616dd486",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b6df8769-1adf-5e29-a712-45dd99b2b59f",
+      "slug": "the-nursery-moon-mission-reel",
+      "sha256": "4a04459cd394832d929659546a3b36b9ef5a2b0a1438f171fbfb6f11c367847f",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "slug": "the-family-s-little-storybook-reader",
+      "sha256": "68430dfa318d105c1ffd565c27b03f21363149a73fa290022cb7352cbacc5ad5",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "cfe7a269-b35b-5dcb-a1bb-a4b5b0b232e2",
+      "slug": "the-family-s-little-storybook-reader-reel",
+      "sha256": "5e382d0e195ca86089431529dbc6e9674ce8a8189dc49bd14b3c1278219c4cfc",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7ca4fc36-c0ef-56db-a132-2f1aba89c035",
+      "slug": "the-maharaja-of-the-window-seat",
+      "sha256": "4fe49a5345eec5ffdd43fdf52b22e2dd4dbfaff08973a98d53923aef10c54a73",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0eda1e7b-28e8-5574-a1f1-8a89711dd4cb",
+      "slug": "the-maharaja-of-the-window-seat-reel",
+      "sha256": "6eec57ac2f4634b16a287e7e80a811e95569d42d5b727f4f0fa99bdf568edf15",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "7de25f1d-f954-5703-a53d-ca79d3caa66e",
+      "slug": "the-dog-s-birthday-aftermath",
+      "sha256": "3963bedadd062dd52ebaf68a4068189cfa39b5dbfcf45e1594d80c78c057bca0",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f9d47ef7-f637-52b6-aec8-f39a9f91c783",
+      "slug": "the-dog-s-birthday-aftermath-reel",
+      "sha256": "ed94253f6b147c118843a59bd4ecc7484d6f6edb615195b91024ab6ac62c47b2",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c",
+      "slug": "tiny-pet-giant-space-mission",
+      "sha256": "efe085868d8cdf6b776c9663c72d9eca9d6bb8447aa2181b45bd96c0df9b63f8",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a6c71e83-d96c-58e3-a20c-4fd6ab017304",
+      "slug": "tiny-pet-giant-space-mission-reel",
+      "sha256": "3b33eed2ba25af2d260009fecd9864ba8e8c5496a254d9db73fedc074d142dc0",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "sha256": "8174585815e9685d0ff8067f25995459042b24269f5fef9d2c6020397f83b56c",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "932b44ee-ce8c-5c8f-a418-33727b3661ab",
+      "slug": "you-and-your-pet-the-adventure-poster-reel",
+      "sha256": "3d1832f91cc7df23b5d2d2b12a3883d48f1a4c4df4a3b64f7ede6ea3bb2780d0",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e9b71c26-b433-55c7-af42-111b17ed2942",
+      "slug": "skincare-on-stone-reel",
+      "sha256": "3e9915968ebd0ffb10ba1e949e03cdb45a0216ad5c7e34242dd5328231d051ff",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "146fdfab-b615-54b0-a5e0-10f8ac83b381",
+      "slug": "ceramic-and-linen-reel",
+      "sha256": "da91b9d2ce95f9791916110d5fba58e9f4145bbd21230e85b69b38516b344dc4",
+      "published": true,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "slug": "perfume-the-water-sculpture",
+      "sha256": "d5c50e2382d2c434cec45e6ea879d7c378888411a4725d1542286c137a1cc77b",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "9bc1fa0f-375a-5a4e-a6d7-7ab50dc718e3",
+      "slug": "perfume-the-water-sculpture-reel",
+      "sha256": "f27f479e1b8f7271d41b408c6e52e04f6a82a7f6b0ebdcec3ee95f9f82f1ab50",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "14335dd1-2c1a-5331-ae55-ff5f4753abb7",
+      "slug": "handbag-in-the-architecture-of-shadows",
+      "sha256": "81e2bc35f26f2c9e34f904b69f9aaecf5449c1794a20219028dfa7992307af44",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "13aeecc7-5cfe-5d07-ae6f-96b72ca60d0e",
+      "slug": "handbag-in-the-architecture-of-shadows-reel",
+      "sha256": "2985d63c27ee462609bfa80ed4afe4c0cf0d282bc090f2447a5b8b2f0628bb53",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "da21f9c2-6c33-529e-ac20-e080b97a8e7c",
+      "slug": "the-palace-saree-every-border-visible",
+      "sha256": "e1f88d475419d4886864705721dc9e63b9d7623ce122d6c9463531f77b3d53f8",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "a3a450c5-f4e2-574e-aacf-563e25b24be8",
+      "slug": "the-palace-saree-every-border-visible-reel",
+      "sha256": "b0233655e2dedd2edd58445ea4f87a7960d2e31f038f1dad0d8ec6f1196b91c1",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "84889762-89de-5f19-a2c1-613c11d95865",
+      "slug": "the-kurta-in-the-jali-light",
+      "sha256": "1586913925e968b1d5c08bee8a7bd573a1cae62652f760bc49b696e0335076be",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b52cf64f-dc78-578f-a5b7-cf1216b34865",
+      "slug": "the-kurta-in-the-jali-light-reel",
+      "sha256": "a48dbf6a2bdfa0523beea14078c1eae00a070270d6c006ac36f82bfc9ad1c74a",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "slug": "resort-dress-the-wind-between-arches",
+      "sha256": "cac015e80f8d25afa4e41007902f4a6e28e39d859fc14fcd7e745b9dabba6bc2",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "2ca4fd0e-9f4c-507e-ab5d-8d8cea49ef20",
+      "slug": "resort-dress-the-wind-between-arches-reel",
+      "sha256": "8c8868a20b7eedcaf977e7d2348f397b751b054c6d01df63afc60b6c9fa410cf",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "c14716dc-ff1e-5147-ace0-c4b9f6816114",
+      "slug": "jewellery-on-sculpted-sandstone",
+      "sha256": "ddc028406c9591b6eef24171949e421c75d8e21b61d0dcbacda04dafcc61e696",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "54550bbd-76ac-598d-a53a-fdde9fb37f72",
+      "slug": "jewellery-on-sculpted-sandstone-reel",
+      "sha256": "c4918c7877e02b01ff2c25b068fa6e5df6ec8fbd50039721d013cfefc9e5bd83",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "729aa85a-7654-5745-a860-d558f0d1f7b1",
+      "slug": "the-everyday-shirt-catalogue",
+      "sha256": "43a952b06fbca3937361dbfbc3ad76d6251ef376e1103f850fbed558dee04283",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e9e9c3ba-42cd-59cc-aeb8-b56723cb2afc",
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "sha256": "66582e34ce74dfda1bfb583e24d9cdc8059330a3d3de3ab11ed1e15abba6a4c6",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+      "slug": "kurta-at-the-lantern-courtyard",
+      "sha256": "4ace7472ec5b8de200dc3c718793ca5960724bb4a5db629566bc36375d326119",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e2d0dc08-ac8b-5609-a125-0bc013306263",
+      "slug": "kurta-at-the-lantern-courtyard-reel",
+      "sha256": "0614f703fd59cd58c246969bcd652d7d02e48060a88fbc8dddbd42b3729ee180",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "65a7ee09-8679-557e-a99a-8602e85c03fd",
+      "slug": "a-jacket-from-every-angle",
+      "sha256": "504c844e09ad23d00ea6ac94f0957394a4f8ad55bc90772a59cfe5c64d12b1c1",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "489103a5-ba55-5fb9-ac87-0d8b0141304f",
+      "slug": "a-jacket-from-every-angle-reel",
+      "sha256": "9259c4b4e1cbeb34e75279b0b1e8c176e6f76ad05ebed2fb30348646621ab6e5",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "b8af0397-db3c-5810-a871-dce8b18f428a",
+      "slug": "footwear-the-city-in-one-step",
+      "sha256": "c013566c870cea6489ea2a68175400120d30680de221efe0f0723343bee9ceba",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "de9408c5-6149-5ae0-a034-cf2b3e4df8e6",
+      "slug": "footwear-the-city-in-one-step-reel",
+      "sha256": "c4ce86363fa7fdf58c7bd129915a136f54c57d9860434f6a85a0ea2c9a95133d",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "32113f5f-6e89-5cd6-a0f9-5736eaeaacff",
+      "slug": "the-honest-quarter-rotation-reel",
+      "sha256": "c712f20403db8aa01c51a4f6170716f3b7ca9c71be8d764b06af941aa14b908e",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e6603e1a-a123-5f0f-a415-bdc578ebd54f",
+      "slug": "fabric-up-close-reel",
+      "sha256": "f5edef98294230ca31c3715a4954821e8872a4896300178f0950297d5436305e",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "bab694e7-714e-5829-a612-fe4ee2593891",
+      "slug": "front-back-the-real-product-reel",
+      "sha256": "01a92e859dca5c4089d36ded4ee852f67ab2eb9e861c2c9128f38e1535cc799f",
+      "published": false,
+      "classification": "UTILITY",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "e9119c64-40ef-55a3-a738-af1c8b21dbf0",
+      "slug": "from-detail-to-daily-use-reel",
+      "sha256": "d9059fd8264e36c284144b365eaf6dca75e2a07fec67929067139ce0a16b3902",
+      "published": false,
+      "classification": "REWORK",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19",
+      "slug": "cinematic-ladakh-friends-trip",
+      "sha256": "4e124b4d324bf4c46ed6e63cc5b858c95ffd0c984b48d690843805d9ef17d4a4",
+      "published": false,
+      "classification": "KEEP",
+      "evidence": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "slug": "the-river-remembers",
+      "sha256": "df820a7fea81bec805aa6b9f567b8ad73c53cbaae012d93221a004e51578a7bf",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "sha256": "83fa6f6d596adf7fa9aaaedd9caff6116cd606ba5913e24ffd5ca11ed9940624",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "slug": "a-mountain-journey-within",
+      "sha256": "9dec435cb41d71409e46538ad24eeda5595c9ddf463b6ee83c9be56fad80398c",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "slug": "the-tailors-mountain-range",
+      "sha256": "5a0f02df85f81d4f062575e773665ace8aebdbaed8ee5e35862301a39dd07d4c",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "slug": "one-day-four-possible-worlds",
+      "sha256": "f91ed67b0f34a79534f7e155dc391b827a883d4463b526cde7ef8979c7fb2b28",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "sha256": "63fb61008f5887e84acbc9d4be37de7ccb31c8bc3d012b8d7b513223774ac1c3",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "slug": "last-train-two-ink-portrait",
+      "sha256": "0be5f026655139aad7e14cac97da50ef3cfe6af72970eef881422ffab3ef713e",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    },
+    {
+      "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "slug": "one-saree-three-campaign-worlds",
+      "sha256": "b306aa11bcbc281c3a293b811a84620b15460cc3ca139e97ebf50a7732274ec0",
+      "published": true,
+      "classification": "APPROVED CREATIVE BATCH",
+      "evidence": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "release_notes": "Reference contract corrections G01\u2013G09 applied where relevant. Missing media remains draft. No new video generation."
+    }
+  ]
+}

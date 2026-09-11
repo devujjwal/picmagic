@@ -24,9 +24,9 @@
     "prompt_ids": [
       "f8599583-8854-5732-93f1-a0ac27860372",
       "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
       "33849ccd-f6de-543d-985f-268cd59302ef",
       "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
-      "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
       "213e5a4d-5447-5729-95e0-4f41d810e877"
     ],
     "is_indexable": true,
@@ -34,7 +34,7 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/a-little-rain-a-lot-of-romance.webp"
+    "featured_image": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp"
   },
   {
     "id": "saree",
@@ -81,15 +81,15 @@
     "description": "Simple backdrops and intentional lighting put your subject first. Explore portraits and product ideas with practical studio directions.",
     "kind": "style",
     "prompt_ids": [
-      "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
       "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
       "22ffe650-d663-515a-80a6-105f75e0df6b",
       "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
       "99cbd0cd-7fee-525e-8d48-82f022889895",
       "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
-      "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
       "131a9e1b-46f9-54e5-b370-591355cd25ff",
-      "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
       "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7"
     ],
     "is_indexable": true,
@@ -97,7 +97,7 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/your-next-chapter-in-focus.webp"
+    "featured_image": "/previews/the-birthday-astronaut.webp"
   },
   {
     "id": "professional",
@@ -114,7 +114,7 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/your-next-chapter-in-focus.webp"
+    "featured_image": "/previews/your-next-chapter-in-focus-20260910.webp"
   },
   {
     "id": "diwali",

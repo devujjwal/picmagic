@@ -1,0 +1,16 @@
+{
+  "reviewed": 1,
+  "records": [
+    {
+      "id": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19",
+      "slug": "cinematic-ladakh-friends-trip",
+      "decision": "new-approved",
+      "classification": "A",
+      "distinctiveness_score": 5,
+      "why_ai": "Turns an ordinary group reference into a coordinated Himalayan travel-film sequence with moving camera coverage and consistent friend identities, without hiring a destination film crew.",
+      "reviewed_sha256": "4e124b4d324bf4c46ed6e63cc5b858c95ffd0c984b48d690843805d9ef17d4a4"
+    }
+  ],
+  "baseline": "Prior 163-record audit unchanged; this is a separately requested addition. Current retained library: 162 prompts, 39 collections.",
+  "collection_indexability": "Noindex: one draft member. Never add irrelevant members just to reach the four-prompt threshold."
+}

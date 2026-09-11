@@ -3,12 +3,12 @@ import Link from "@/components/ui/site-link";
 import { Bookmark, ArrowRight } from "lucide-react";
 import { useSaved, useRecent } from "@/features/saved/store";
 import { PromptGrid } from "./prompt-grid";
-import type { Prompt } from "@/types/content";
+import type { PromptCardData } from "@/lib/prompts/card-data";
 export function LocalDiscovery({
   prompts,
   mode,
 }: {
-  prompts: Prompt[];
+  prompts: PromptCardData[];
   mode: "saved" | "recent";
 }) {
   const { ids } = useSaved();

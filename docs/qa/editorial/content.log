@@ -1,0 +1,6 @@
+
+> picmagic@1.0.0 check:content /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> tsx scripts/check-content.ts
+
+118 drafts excluded from public discovery; draft assets are NOT counted as ready.
+Validated 161 prompts, 17 categories, 38 collections; 0 missing image files.

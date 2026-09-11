@@ -1,0 +1,919 @@
+{
+  "baseline": "baseline.json",
+  "scope": "All 50 published records at snapshot time, including text, scene output, metadata and visible preview contact sheets",
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "cf37a8051a4c1bf0c6fef2635f70cfe993f15081bb44cfd8f5ba9f1f5cdf656f",
+      "reviewed_sha256": "0ab9fe044f179dc01228a1adf95904c3d408383cfb28c8f8c4339f7ba5b1ce00",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Resolved remaining role/fallback ambiguity without prescribing the reference people\u2019s gender or family composition."
+      ],
+      "baseline_sha256": "6409193a80f929aef3808026b9008502e5e5429ca65250273e6313e48ae6c5c1",
+      "reviewed_sha256": "b44330e53fddfc9360b9826b43381ee883ba72e2a08769ede96a25279bdee8e3",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "49ce6dee91d13a17db7f6dea55fe049761ba6eb094415093446aaa0f018ecd65",
+      "reviewed_sha256": "451bb4ada89e4e35b68b31169dde98da65395d71540b56ad98db2f4128237dcf",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "d263856de88de73a348b4930642b9b846fc75ee2aef55f85e75fef1119ef20c5",
+      "reviewed_sha256": "89a984b7c7fc7224cccab240bd0bc8d273b7ca3b56d3e2602a07a4aa44a83550",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "56e9863f863c0f58f86cc10e1c9e382b11e2566901b1365aae815dc1d5818c79",
+      "reviewed_sha256": "b802eb1ee372c23a07c7546b88a9b3cb6fef6dbe68204df0806c807eb920538f",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Resolved remaining role/fallback ambiguity without prescribing the reference people\u2019s gender or family composition."
+      ],
+      "baseline_sha256": "510fd958cfc1ed45d9baffaa49b5ada368ca18bb6c40c394241584f32fc16991",
+      "reviewed_sha256": "46d5987c33b322e9da6ef5f0dc0de0e72e78ff17adfacd9cf885aba55e8b0425",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "2df2443fd0569cc2c272b51049e28b37d5ed98feac74295677e7f95d1a06f5cc",
+      "reviewed_sha256": "7bf1748caab385b0e54b036b0833753c634ef5978e74640172490eee2c3acbbd",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "01b36a38c5cb0aa27daebcdb3ef278b9c00b77633ae34e735b95cda549d8a060",
+      "reviewed_sha256": "b1109e2af5b2fbe981ce21fb31977280daaaaf54cdd2ba08d4da82ef3e6f4621",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "99772314f1267eb525ab2f363a988e0671e4353370c36780659698ac17df62a1",
+      "reviewed_sha256": "1f7b8585a793a0b8f829cab0f4fb37174bd376e01adff918585661f65d551e3e",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "0fb0df67321d48cd3e0eb55346b4c01e6f707e11efb05f9af9a5e44d1db45514",
+      "reviewed_sha256": "4db22ffda3c2902a8d9ffa9bc0e2cb703602c220e85f231887d481e5dcaa7708",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "88b2af558911620439d14cd847574997a586523a85cda7ed62ff7b2b9248736f",
+      "reviewed_sha256": "1684b1168e3b7f1aef7234e3108afd329daf78d31ea6b3fceb0e60cf53f37bef",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue",
+        "Pose/expression issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Kept essential Krishna curls, expression, U-shaped tilak, feather and safe flute pose; explicitly allowed hairstyle transformation without replacing the child."
+      ],
+      "baseline_sha256": "43708e94024163638ed81fbcec464fc54c8e57cfca55752d9d865be45866af56",
+      "reviewed_sha256": "1977eebf893211d0f0f249b7d0e4e4ab9fc8d90aa495361cf5af89c699291936",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Made group composition reference-controlled instead of forcing the preview family count, ages and roles."
+      ],
+      "baseline_sha256": "d3f53db654c6effd300e69a8af74235c1cefe48f4166410dffc7e44ee7ce48a8",
+      "reviewed_sha256": "e912a69c760d573b45b66f54378d7fb264e61c63a7fcb1d4c67c2b4ff8bca395",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "38ff2381ecf197e8b6011bbbc47fbbf5346373039d52bd8026fcaa6768239a7b",
+      "reviewed_sha256": "b7c50c756824fd78acd4a60477e48283864baa02e59b38c0a63654c7cc5d6e62",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "2b414a784d3e4d69649520aa82f56b76523f0de3b59eeee3aa686f2648ad3675",
+      "reviewed_sha256": "80c33abbfe15734f0faf5289db7790f0d7862243c39f89a1049099cf6d29f24a",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "8b81abc0267b35b1d98698abead078a1a4b9daa17f04a24af478ffeaa3c30bc4",
+      "reviewed_sha256": "fc824df85faa1a744c167a94e64755e91bbfad03b93dba60bafd76b65c58d9e6",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "type": "photo_edit",
+      "classification": [
+        "Minor optimization required"
+      ],
+      "substantial": false,
+      "reason": [
+        "Kept the already-correct scoped-edit body; added the required explicit reference and no-reference persona modes."
+      ],
+      "baseline_sha256": "6bcdf2d92305add6bc84223f84c682c65dcdcc158bb2380b0835686f2194fdd3",
+      "reviewed_sha256": "2a52b8a4b4a662896cee00155a00e99c6fe36c5e9896493fbc8cbf543e659b34",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately",
+      "creative_body_retained": true
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Made group composition reference-controlled instead of forcing the preview family count, ages and roles."
+      ],
+      "baseline_sha256": "541aa74d2d5f3d2ffd7e4b1ade178bc124d984ea72bd575b0851b2de7604aa0e",
+      "reviewed_sha256": "2f0bb4662cf84d45733d6521af843538040dd43c6ef90759cbcb97f5cbc8d645",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "9891f15583a4c9406a36050687724c915993fa317b9d2c874f9326424df70867",
+      "reviewed_sha256": "888408f6284a7b2dc66d07a3d9f313f342f1c0a2e51a9151d150efa4cbd4ca84",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "ca1946ee440c7b8f6a7d5d95e7679634d49479f1a4cfbf749bfd024fbcd92aa6",
+      "reviewed_sha256": "f476569a2f903c649544395b0b10de1abdd42d08291b5d5227a9e89df4160d2a",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "c6a4a959c0e9afc7350c9df001274de4307405a4c0b99e8d7a8d386887295a91",
+      "reviewed_sha256": "0f9fb9fdbe0e2662d50bc2f217dd850886c57c2070cdf2324413a5bbcc6e4c25",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Removed physique enhancement and retained the supplied body proportions."
+      ],
+      "baseline_sha256": "6ade47aae6d68e5cecbb4754362a751fd4997ca32ea17348de152a90414dda0f",
+      "reviewed_sha256": "cd4685be52b8ddddfd0766bbfe74f3bf67aa0d6ba2849510f2c5760ab1d9b7d5",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "type": "photo",
+      "classification": [
+        "Image-generation ambiguity",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Separated the no-reference example object from mandatory reference product fidelity; removed blank-label, shape and colour instructions that would redesign a supplied product."
+      ],
+      "baseline_sha256": "8cb602b4e128f77b47a38aeaba2ce5855ec2871942cf340c08e8a1ea599981c1",
+      "reviewed_sha256": "effef3e1d869b939f5092c9f820d5953a97a6536b7ac843177ddff655e6b7d73",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "f814fcba38fba4a9120a2f5988ea4bd88d8a78940993918f9409e4c5b6caeda9",
+      "reviewed_sha256": "6b1bb1d437117cdeb7b2fd8bb5c420f94f2d38501d99ec910df51d6e913383e8",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Caregiver roles and count now follow supplied references; the two-caregiver composition is only the no-reference default."
+      ],
+      "baseline_sha256": "629bd10b3a084100308f5b1151d380779a760f0063d5c0ec734e532fc7407cd0",
+      "reviewed_sha256": "098af9d8b10ace4705dd237a51697c38044d45f54dbf83da649781e90db21407",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "db8f09296c730fc74b9ca9794cab6b4bab19b0d28cabc88335e589ced4e3d4b1",
+      "reviewed_sha256": "829aca55706b3f67237f0d5b15973a5b751389471ef023e8cafe16e069cb5a30",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "d8629509f3e3f03ec22c0621b722e359421cee262bdb56255145a3247432bd79",
+      "reviewed_sha256": "4d6aea1a8624425aa0969fc0840fa75f89faf86a77b69ffe2c610e379e198dca",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "ccc87a3adbbf7b2cbb361527714a4c32c09d1bb318840d21f8a1d133f86a4633",
+      "reviewed_sha256": "38e45ac8a1ed981f0dcc7c2ec049e2b7eb63f4aac730bed643e896f3557bf958",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "b4f8eae83772749d60d307baacc9ef6bc173102d71925989553af0ce3d9de465",
+      "reviewed_sha256": "82ac3fb5bb9519520b559470cc71fa9aa8479f6353c0727595a33ffe05acb429",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "type": "photo_edit",
+      "classification": [
+        "Minor optimization required"
+      ],
+      "substantial": false,
+      "reason": [
+        "Kept the already-correct scoped-edit body; added the required explicit reference and no-reference persona modes."
+      ],
+      "baseline_sha256": "b61e43be51cd835952b5db79c1e2b259567f7737d9113d549feb700a9a6d9b7a",
+      "reviewed_sha256": "fbc603976d96b83982e652d0688ae2dec7fe70591a9e89ce00090f4995daa5a8",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately",
+      "creative_body_retained": true
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "8ef3a32ccdc477250cd229d3f8335490fdf13a0cd3a15bb974c50db89ffd2d13",
+      "reviewed_sha256": "9929e280e84168b2e99147179bef70142bc8f9ae27b8a858ce8f6aec2e8d5821",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Resolved remaining role/fallback ambiguity without prescribing the reference people\u2019s gender or family composition."
+      ],
+      "baseline_sha256": "380916b409f724fdf02f898c77dd8c3890d29820ea5c4ab9730f46ef46b686e4",
+      "reviewed_sha256": "5d6bcfbfbc160324694a57106dbc5c950814a487e2abd41f3e224cc404a07dc4",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "38126c4ca5d73b84a1a6ee99fd388ed48c878ba165a5210d7f26d1af9d27c338",
+      "reviewed_sha256": "292d5ea5c87e85952e2d08bad1880b72d91aa60f03bc733ed46097eefa6862e3",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "dddf05808ae2b61edc846675501e0a6344c377cb419d05e1f55c34cc373c5eb8",
+      "reviewed_sha256": "c0762380c6bcc20d7a0878ec176ab6724e97a43bbf87db5d784f25f830bce2bb",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "1e277f7a765981b74e78f06afef37d63b5fe4131fa3fc5525215206b1398f83d",
+      "reviewed_sha256": "d5dad5607ffc369ff713154720d109396f60db96d1445ec9f35d1bd709aa1eb7",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition.",
+        "Made group composition reference-controlled instead of forcing the preview family count, ages and roles."
+      ],
+      "baseline_sha256": "52efffedc3a03130e6331e706279575310154a7c45fdf7886645894b3533234e",
+      "reviewed_sha256": "92954d960699efed33995a4b038f3638ab58f9e31420ccbd51d157294c16f950",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "type": "photo",
+      "classification": [
+        "Image-generation ambiguity",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Separated the no-reference example object from mandatory reference product fidelity; removed blank-label, shape and colour instructions that would redesign a supplied product."
+      ],
+      "baseline_sha256": "6a9b8221943e746aa27103e67af07993f847634bd46df59de75b4a39724621ab",
+      "reviewed_sha256": "b172adfdbd2aa77a4213d9b0a754cdc5413ea962b5431e735776abbc0b4205b2",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "4579ec5f69947e4b5e9a9957ba8fdd51a936742b63c39a6b89e2927c3c833d9d",
+      "reviewed_sha256": "49c127f2bf60c93566d66301bfd87a74eb24e09c7c52b5cacb0e556505eae172",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "24a0126164bac6ab8aa0a605e789e38a61288d5ffe9fd67aed018179f8b4f9a3",
+      "reviewed_sha256": "675bfbc77e0adf910390fd3f67eef2fe58cc8c2157947bdcf2c7ecd3e5299989",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "4e3c53b8035e45dadc8d5e690bae2ca5b974206cbf65b8a06195e76f79cec92e",
+      "reviewed_sha256": "e6eee163bfa6e0f4a46a9a950191e47a651c14404495ccef4669fe0edc522295",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "type": "photo",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "2fb3880c4a1a2aaa7b0d0410fddf2d68b3c19c68340bb4816d69aafc93e2a39c",
+      "reviewed_sha256": "86d49baf82e93c7d5efbbd0a3240d94eab3c31e24dbf4b906ebae5f8fb86f7dc",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "type": "photo_edit",
+      "classification": [
+        "Minor optimization required"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed assumptions that every restored source has grey hair and a saree; preserved conservative restoration instructions.",
+        "Resolved remaining role/fallback ambiguity without prescribing the reference people\u2019s gender or family composition."
+      ],
+      "baseline_sha256": "6d9e10f0b5d184adf5af6580a4128a7baa73373ff339aceebf44ecacc5bc23a3",
+      "reviewed_sha256": "5e125f33a39b50c7e5c4b3b82b93401d8591c4c603e03e4c217bec390ac37703",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "type": "photo_edit",
+      "classification": [
+        "Minor optimization required"
+      ],
+      "substantial": false,
+      "reason": [
+        "Kept the already-correct scoped-edit body; added the required explicit reference and no-reference persona modes."
+      ],
+      "baseline_sha256": "f5ca6dca704db530063e52e9a80f967bf28685d4b248582a59f59fc749cde4db",
+      "reviewed_sha256": "d13a412e40ec990cfeca64f88d81bca980f3107ea793f6bed2783fbbb96f4b60",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately",
+      "creative_body_retained": true
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "type": "photo_edit",
+      "classification": [
+        "Minor optimization required"
+      ],
+      "substantial": false,
+      "reason": [
+        "Kept the already-correct scoped-edit body; added the required explicit reference and no-reference persona modes."
+      ],
+      "baseline_sha256": "160f7faeea329fbea7fe0c8a9d25236608201b23d3c05b14c835f2c0ed7b4ad4",
+      "reviewed_sha256": "e6a221ed64fb8d164b54358531a9016f1f807cda10a931067cc861295620c93f",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately",
+      "creative_body_retained": true
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "type": "reel",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "4826a9b2ccdf6ae3d20dc11eb4e40e99ee5f67182f50b5dc61f86e084b8dad7c",
+      "reviewed_sha256": "bf18689bf6fbe2a628d694ce57e09da7fbb000ff19292c33cb0ebe5e67617e28",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "type": "reel",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "0118a8407a37e14f4fc1928f180630b92d3705f9718f175abae96286fe72f842",
+      "reviewed_sha256": "156476a1742fa741c4323c13ef6a9743d1048abdb61bef0a2e8c81d3f480032e",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "type": "reel",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "bb84f7ce7c2487fed76ab5be75f627e73185f1ef8a40e7268f94d3c7137341fa",
+      "reviewed_sha256": "5df813e766c2167c4bbfc1b2d65475e10f08dd55922a46238447a4c28e44763f",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "type": "reel",
+      "classification": [
+        "Image-generation ambiguity",
+        "Requires substantial rewrite"
+      ],
+      "substantial": true,
+      "reason": [
+        "Separated the no-reference example object from mandatory reference product fidelity; removed blank-label, shape and colour instructions that would redesign a supplied product."
+      ],
+      "baseline_sha256": "cdc4b0368de18e2938cb0363469f08110496167a2660e9ad33b85101a86af639",
+      "reviewed_sha256": "9d1a7af0e716707eceb054c20a52e85f6b3dd968eac29bd48d2c35de48e71ee3",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "type": "reel",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue",
+        "Gender/age issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "c0e8acec14b3898e27062f8584d15a93301b7c2472cf99953c2fd1e6dd7dd4f3",
+      "reviewed_sha256": "4da818007b251e9ce03875b49d558aee2fa63a2d60aca347b7bbe97cded64495",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "type": "reel",
+      "classification": [
+        "Identity-preservation issue",
+        "Hair adaptation issue",
+        "Demographic/ethnicity issue",
+        "Body/skin-tone issue"
+      ],
+      "substantial": false,
+      "reason": [
+        "Removed preview-person demographic and grooming instructions that conflicted with the reference; retained the scene, lighting and composition."
+      ],
+      "baseline_sha256": "5d9b915339e10ca79ff23226edac88204c3efd4aefd80c32b042efe2d5bd9530",
+      "reviewed_sha256": "b921bd08a0b465ddd4a5df62895d775db98c053497b91627e637f51717826a57",
+      "preview_review": "contact-sheet reviewed; individual replacement review tracked separately"
+    }
+  ]
+}

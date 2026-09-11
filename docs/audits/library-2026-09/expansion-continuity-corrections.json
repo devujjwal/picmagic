@@ -1,0 +1,350 @@
+{
+  "scope": "Manual review of new concept scene and movement instructions, with the following corrections applied. This is not a visual asset acceptance record.",
+  "corrections": [
+    "Notebook and held-book movements start from the established poster state",
+    "Maternity couple keeps already-positioned hands instead of adding another hand",
+    "Detail crops do not demand a face, all clasps or hands outside the composition",
+    "Nonhuman subjects have no human posing or facial-texture instructions",
+    "Owner/pet fallback specifies one person and one dog",
+    "Motorcycle reference fidelity is separate from rider identity",
+    "Duplicate tags removed"
+  ],
+  "records": [
+    {
+      "slug": "promises-in-the-courtyard-reel",
+      "reviewed_sha256": "5afa14d047343a4bed317fc4cd6761f6ace79df9c7a7b324754c55ed15b07fdb"
+    },
+    {
+      "slug": "two-cups-before-forever-reel",
+      "reviewed_sha256": "6e1a4a673e13ba92e666e3ea250ed29bc4d36602a287cc24b122b22e9a388d2d"
+    },
+    {
+      "slug": "riverside-vows-at-sunrise-reel",
+      "reviewed_sha256": "d49a36eedb8700b8cad5ee05c0d144e43c9a435ee7f976c04c0fa77fec8ae7a8"
+    },
+    {
+      "slug": "letters-on-the-terrace-reel",
+      "reviewed_sha256": "3beeb646b82ccc911e41299e985c2f388416d21093150357c8f65e83eebacfd7"
+    },
+    {
+      "slug": "a-quiet-window-a-new-chapter-reel",
+      "reviewed_sha256": "d042a9b8049b9df6600b968e82382fff413cd5870cc3e86f85f150d631024809"
+    },
+    {
+      "slug": "the-garden-waiting-room-reel",
+      "reviewed_sha256": "ea224f78624ab764aec975b8b4a2e4ef717e68df647c651189a456508075babb"
+    },
+    {
+      "slug": "two-hands-one-new-beginning",
+      "reviewed_sha256": "6555f7af026ef5eaa416d6ec969cc1060435875e65d1f743b897fe231b916acb"
+    },
+    {
+      "slug": "two-hands-one-new-beginning-reel",
+      "reviewed_sha256": "41aba7eddaacb53c34a712453661f7352bc2240fb34031e2a2425dd33a8e8061"
+    },
+    {
+      "slug": "shape-of-anticipation-reel",
+      "reviewed_sha256": "897cd0acc55237014b0e40456d149ab71511e7652502ddb49c23be811504e639"
+    },
+    {
+      "slug": "the-roadside-pause-reel",
+      "reviewed_sha256": "b10fc9bd84745168fb99b1ef4e24ab7b5239e94f661d8f5037baa96d8d409571"
+    },
+    {
+      "slug": "garage-hours",
+      "reviewed_sha256": "b1e34007fbc876b72168b7f660141e9baac4752d3cbf637a9f79e7ec8d287684"
+    },
+    {
+      "slug": "garage-hours-reel",
+      "reviewed_sha256": "0f823b62d13a6a22f9a1361f387aa682ef1ec885fa09022c4d57aa83394dcedf"
+    },
+    {
+      "slug": "city-chrome-after-rain",
+      "reviewed_sha256": "4e934ac6d3210df01e9832a2a2c2159beb80ab59093d819e8df131ecc152078f"
+    },
+    {
+      "slug": "city-chrome-after-rain-reel",
+      "reviewed_sha256": "d934ca6a76eedec61bbb46ffe7ed6d363902700c10ae07c383137a620b10cb52"
+    },
+    {
+      "slug": "the-weekend-map-stop",
+      "reviewed_sha256": "ca7fabd310b28de817f30e6826da0e25df0ed7c1edd90ebbe492aecd2d24cfb5"
+    },
+    {
+      "slug": "the-weekend-map-stop-reel",
+      "reviewed_sha256": "5b01ed22520f33d6b773aedd1e97e7b78d1e95dfa73ba74d6bfead1d82477257"
+    },
+    {
+      "slug": "first-light-on-the-bonnet",
+      "reviewed_sha256": "e3ba2952cb94e7cabed1c9688c51aa9fc11e8626f3c040237b7318abc0d87a96"
+    },
+    {
+      "slug": "first-light-on-the-bonnet-reel",
+      "reviewed_sha256": "fcd5dd67b4894e01a1eca6ab3ead7ef95b2c3096ff0f0b1f382b90f2a3ce68ad"
+    },
+    {
+      "slug": "inside-the-drive",
+      "reviewed_sha256": "e931c2027f831405f80f1adeb3d0f5ba283cdf6ec16e3225da805705bc37d703"
+    },
+    {
+      "slug": "inside-the-drive-reel",
+      "reviewed_sha256": "6c87078ff4a1a96669b969e5d6739d45a566bacecfea8ba1f0c4cd60aa1d4c92"
+    },
+    {
+      "slug": "rain-on-the-paint",
+      "reviewed_sha256": "f07ba5db344c5dc349d6790d0af7a96bdfb94e51b24ec78746cb4e8c76358cd6"
+    },
+    {
+      "slug": "rain-on-the-paint-reel",
+      "reviewed_sha256": "b8743f73817e9aabd87c4ddbd8ab9f570d1610be7ff3b68edadcae18215448ef"
+    },
+    {
+      "slug": "weekend-estate",
+      "reviewed_sha256": "6b867b56f7081f27fc9b34b936467e4d96f77e515faf2f93f58974482ad67fe6"
+    },
+    {
+      "slug": "weekend-estate-reel",
+      "reviewed_sha256": "ce9c545876b9ef7f8f188d306e0139fd960a3f7d73ff9e7ceefada814796a227"
+    },
+    {
+      "slug": "between-the-sets-reel",
+      "reviewed_sha256": "cd55723b8226510534f8ad30565c90e464ff924eae4ce4fa696a4c0d74890262"
+    },
+    {
+      "slug": "laces-before-the-run-reel",
+      "reviewed_sha256": "eafa354467fea7566b06c083f83888d4784e221cf4cd896dfb5f5956ebc16bc1"
+    },
+    {
+      "slug": "a-steady-stretch-reel",
+      "reviewed_sha256": "1579f485b9c68323b0b1f837c9e630e85dea8d7753521b26e76d1bb47c2c522b"
+    },
+    {
+      "slug": "ready-at-the-rack-reel",
+      "reviewed_sha256": "c66671df4cb995d0b4d3729a2b07133ae7ca3e6a7a66d20bfa51fd0973e77250"
+    },
+    {
+      "slug": "your-next-introduction-reel",
+      "reviewed_sha256": "745bf10fb7818736d116ca74f3b9f62b9e8d025e099fdbcdade6e86d60fc5135"
+    },
+    {
+      "slug": "founder-at-the-desk",
+      "reviewed_sha256": "94833a11c1b902ad750b79d164238638db4b0ff1766da15adc31dc839214cea9"
+    },
+    {
+      "slug": "founder-at-the-desk-reel",
+      "reviewed_sha256": "93566044f4cbe1e0b55e4304401151a82217d9c6e20a67241444303180449400"
+    },
+    {
+      "slug": "ideas-around-the-table-reel",
+      "reviewed_sha256": "bcfb0122cb62eef52145967e30214b01e9321babff223a72fed070efc65e8955"
+    },
+    {
+      "slug": "a-confident-presentation-reel",
+      "reviewed_sha256": "23550be9becb98d436640b1bd366e34fbee288cfe7a903c3b3ca23f3ff420b11"
+    },
+    {
+      "slug": "coffee-and-a-real-smile-reel",
+      "reviewed_sha256": "ddf31316341f6cef44015950386e8ddde2adb1b4d0585963f14b9df633712f4f"
+    },
+    {
+      "slug": "the-bookshop-detour",
+      "reviewed_sha256": "b87b3134f3f962e59eeb9336ead9cd44320a9d429cc6ceff1a8563a7c19ced83"
+    },
+    {
+      "slug": "the-bookshop-detour-reel",
+      "reviewed_sha256": "b39a0ab72ecab88a64868f7ec58cf9ef41d66296d916306037647f71618838c1"
+    },
+    {
+      "slug": "sunday-park-conversation-reel",
+      "reviewed_sha256": "1922cb9c8a59a2c8c9325e84059cdf73d12b197c0260f7f1b27eb370c43e6a92"
+    },
+    {
+      "slug": "something-good-in-the-kitchen-reel",
+      "reviewed_sha256": "c5417d6250f61e0274d3df09e8b40716872a5d45867fe03b00bf619eb7188aeb"
+    },
+    {
+      "slug": "morning-in-the-old-city-reel",
+      "reviewed_sha256": "a6e1a52b489a53396ebeabe6eb9c3ca1c5b2f4ad57ca0dea10fe2af64612e7c0"
+    },
+    {
+      "slug": "clouds-below-the-path-reel",
+      "reviewed_sha256": "6a278853eeea2db892686271f579b59be8e79427669097ed7ae759967d1f2747"
+    },
+    {
+      "slug": "a-balcony-above-the-sea-reel",
+      "reviewed_sha256": "be2a0cf1b43a4368de08159f7d39c592b5ca9e52826d935ff0e641e19b5081eb"
+    },
+    {
+      "slug": "the-train-window-journal-reel",
+      "reviewed_sha256": "7e0d61098991a63c2ca6cb273a3e0fbd5bdab35bed23b505657cd4b4093c6721"
+    },
+    {
+      "slug": "coral-against-the-sky-reel",
+      "reviewed_sha256": "e0fb45081b5e72246d6e0b4b08966c68ec4b5020ebd371b00bc01bb8475f4768"
+    },
+    {
+      "slug": "under-the-neem-shade-reel",
+      "reviewed_sha256": "4bb210d0b4236c257087f6e51cac11f542c946730f4e14dfa09640854cb3085a"
+    },
+    {
+      "slug": "a-monochrome-hello-reel",
+      "reviewed_sha256": "e293d2caf45a775e62f5b5ba35e3457366cf8d64d3afef5ab3e2de09bad834f6"
+    },
+    {
+      "slug": "a-small-festive-detail-reel",
+      "reviewed_sha256": "81dc7b2ba37a78bf5836dd312e607cd7fc9b6a692833f51ad07a91399386bdc8"
+    },
+    {
+      "slug": "diyas-on-the-veranda-reel",
+      "reviewed_sha256": "056d30177a891ecf54ec76cc146389e70e828f32e31da4cfa69ade44d83ea7d9"
+    },
+    {
+      "slug": "colour-on-the-cheeks-reel",
+      "reviewed_sha256": "f9b080ea094ec284c81bd0b0ad7c2bbc51e5d0b94378614bd89ae9bc1c8c3297"
+    },
+    {
+      "slug": "one-gentle-garba-turn-reel",
+      "reviewed_sha256": "c0d7bb0622dc0f6e748142a2f6fe01103fce9e444a4ce38d0be6b72c03f27676"
+    },
+    {
+      "slug": "the-little-flute-keeper-reel",
+      "reviewed_sha256": "8b074ede8da010dfb8ec011465dc7a10de4ed65d8e0b54fba36544cdd83551ef"
+    },
+    {
+      "slug": "safe-in-your-arms-reel",
+      "reviewed_sha256": "fefe9c38a187889354571db95e797b0011ce20809104646769f42cc6ca3bfdc9"
+    },
+    {
+      "slug": "the-floor-blanket-smile-reel",
+      "reviewed_sha256": "dfdfb583c0bedbe47762aa23210fd7029da926ee5c55b94e030fd5f0f5dd9d03"
+    },
+    {
+      "slug": "nursery-afternoon-reel",
+      "reviewed_sha256": "f71651e61d96ca374e28d0297e836a93ed0f92bc148e2b0a5c606085dae7a773"
+    },
+    {
+      "slug": "our-smallest-family-member-reel",
+      "reviewed_sha256": "029e9075de01c56713738c13cd788b6cd57aeb7364c12793e72aacbbd1e4aa49"
+    },
+    {
+      "slug": "the-window-watcher",
+      "reviewed_sha256": "9c8a3854bf0141ed52edd0c64af1aee8e6dbec4cf67c34322af12207311d7a2e"
+    },
+    {
+      "slug": "the-window-watcher-reel",
+      "reviewed_sha256": "88e1a4ea0fcfcb319e9e09848b301ebc54db4a9b0af2799e262b5a0b5feb7dc3"
+    },
+    {
+      "slug": "a-good-day-in-the-garden",
+      "reviewed_sha256": "8efd92bbb7e21087fa4678b74e46841dbf952890209b2ab3ab0a221dcb235723"
+    },
+    {
+      "slug": "a-good-day-in-the-garden-reel",
+      "reviewed_sha256": "df219e0488c858dce940f4d95b00da77f134585de4093bf318efaba7a70ed75a"
+    },
+    {
+      "slug": "favourite-blanket",
+      "reviewed_sha256": "a6f3d69a7ddfd2c8cec13124d91463b28e480edc536495cf8ac30bcd4483711b"
+    },
+    {
+      "slug": "favourite-blanket-reel",
+      "reviewed_sha256": "687f7f7077207a7242c6698b81f934e7444810dc6aee2b431d03b28317a65206"
+    },
+    {
+      "slug": "together-on-the-doorstep",
+      "reviewed_sha256": "886afe9c17507461bf7fab8e55b7f00ac415269c235f8936fab64b5358b227d1"
+    },
+    {
+      "slug": "together-on-the-doorstep-reel",
+      "reviewed_sha256": "9e44607c6879465e75f90214f9dc21aefb7c21cabd0cf2ceac55e792327eb224"
+    },
+    {
+      "slug": "skincare-on-stone-reel",
+      "reviewed_sha256": "68ea88e91a1c8661ea8c5e030aa3ea639b204c3f7458068cd0c69f0d73fafa3f"
+    },
+    {
+      "slug": "ceramic-and-linen-reel",
+      "reviewed_sha256": "841dbe402adb18fa05769577961bb470d5f771936e032a89edd20e312ea6cb0d"
+    },
+    {
+      "slug": "packaging-with-purpose",
+      "reviewed_sha256": "82fb24ffc0639f5efcd6667d485c992c686c36eafc3fffef1abf2e5d5c0b7660"
+    },
+    {
+      "slug": "packaging-with-purpose-reel",
+      "reviewed_sha256": "ec2a5c43ddc214e9d73fb6b3891f11d340a6ce685714bb241555527c584dfa8c"
+    },
+    {
+      "slug": "a-useful-everyday-scale",
+      "reviewed_sha256": "de002f5520da568ca16ffe29cd02e737d1a986b4ac476d62517cbc114c663c16"
+    },
+    {
+      "slug": "a-useful-everyday-scale-reel",
+      "reviewed_sha256": "6554f5327e9948ff93b9aa686f6e43391e413a365f7b1c30330f88f3fa624ef0"
+    },
+    {
+      "slug": "the-saree-drape-catalogue",
+      "reviewed_sha256": "37af913e07c2bd3db0aeb8a9dd39028507c13cdca38e3944f594a9507b3c3df2"
+    },
+    {
+      "slug": "the-saree-drape-catalogue-reel",
+      "reviewed_sha256": "4b2ccec1e9d25802990f23426bed4be69a0174157469ad75cba2a1f419d7ab4c"
+    },
+    {
+      "slug": "kurta-seam-to-silhouette-reel",
+      "reviewed_sha256": "58624d5e5ae4aaa345c60c6b0e67444e2f32f3709a0d18904a783e19148f7f68"
+    },
+    {
+      "slug": "a-dress-that-moves-naturally-reel",
+      "reviewed_sha256": "2c91c8a981363d6c62e07b01e4f18cd488f77a984efbc37d28535f1a4d55d996"
+    },
+    {
+      "slug": "jewellery-honestly-close",
+      "reviewed_sha256": "f07892c5410cab2ce83cfabfec0a39b39b6cd289878d60307e104f37944beda7"
+    },
+    {
+      "slug": "jewellery-honestly-close-reel",
+      "reviewed_sha256": "a136d3e03fdc01d07f76791873c2adeaecc387b8f48ecd6b6cb4283ccb9a71e9"
+    },
+    {
+      "slug": "the-everyday-shirt-catalogue",
+      "reviewed_sha256": "ef4a664a97439544b4b5adc749d9b4f82f793570efa3dda12b6a08336608e31c"
+    },
+    {
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "reviewed_sha256": "45c5a8de14241b3ee09d20ce91fa82d4986c5d9e46d1e4821724c1e68088f07d"
+    },
+    {
+      "slug": "the-festive-kurta-edit-reel",
+      "reviewed_sha256": "bfdc29d74014a8b6ff4d7bc00a28ee7c0ded52fb41c2f842dc1c43b3867dad62"
+    },
+    {
+      "slug": "a-jacket-from-every-angle-reel",
+      "reviewed_sha256": "58a6caa0b3176e0fb1ba1a7e96657301ad43691b8ed85f8b643ec08a2f02ff8e"
+    },
+    {
+      "slug": "footwear-on-the-move",
+      "reviewed_sha256": "72db5fb00c41a99001942f31f2e70cd56146a63030932388bdd9fb1df51ad3ed"
+    },
+    {
+      "slug": "footwear-on-the-move-reel",
+      "reviewed_sha256": "b1b9190b6706b033b25f8e69d7eb0a76b2512099a6cba3f58c5b2a62383f6e1f"
+    },
+    {
+      "slug": "the-honest-quarter-rotation-reel",
+      "reviewed_sha256": "7002d0da5f48afe0f28564a215ff9fc8fcf1cb24669cf420e4b50a9884a68d5e"
+    },
+    {
+      "slug": "fabric-up-close-reel",
+      "reviewed_sha256": "50e03286539087b01e6ac3747b37ddf6e4e87d2ac68d3f4178378de2eb5d6534"
+    },
+    {
+      "slug": "front-back-the-real-product-reel",
+      "reviewed_sha256": "16876e3f8e6685294a18d88bdcef29584811670c5e1c4785a495ffd43536b901"
+    },
+    {
+      "slug": "from-detail-to-daily-use-reel",
+      "reviewed_sha256": "1804ad39da664bcf028eddb23bf2ac989314b6ccfe22ce42fb6907e34cb9159a"
+    }
+  ]
+}

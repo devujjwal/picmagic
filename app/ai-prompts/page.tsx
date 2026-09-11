@@ -22,6 +22,7 @@ export default async function Explore({
   const c = await getCatalog();
   return (
     <CatalogPage
+      availablePrompts={c.prompts}
       {...c}
       prompts={c.prompts.filter(
         (p) => p.prompt_type !== "reel" && p.prompt_type !== "video",

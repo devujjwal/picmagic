@@ -1,0 +1,31 @@
+[
+  {
+    "id": "creative-transformations",
+    "slug": "creative-transformations",
+    "name": "Creative transformations",
+    "description": "Turn a familiar portrait, family photograph or product into a scene worth imagining. Explore rivers that flow from journals, miniature family courtyards, paper portraits, repeated identities and sculpted water campaigns. Each concept keeps reference identity separate from the styling shown here. Choose a look, copy its prompt and use your references in your chosen image tool. These are AI-generated examples, not guarantees of identical results.",
+    "kind": "style",
+    "prompt_ids": [
+      "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "6251657f-6842-59e3-9066-82529471c802",
+      "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "19adfe33-076f-561a-9140-ca9d6593192b",
+      "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "f8599583-8854-5732-93f1-a0ac27860372"
+    ],
+    "is_indexable": true,
+    "active": true,
+    "start_date": null,
+    "end_date": null,
+    "priority": 100,
+    "featured_image": "/previews/the-river-remembers-creative-v2.webp",
+    "seo_title": "Creative AI Photo Transformations | PicMagic",
+    "seo_description": "Original photo, family, art, fashion and product transformations. Copy reference-first prompts for miniature worlds, paper portraits and creative campaign sets."
+  }
+]

@@ -10,7 +10,15 @@ export function isTrustedOrigin(
     for (const value of (entry || "").split(",")) {
       try {
         const url = new URL(value.trim());
-        if (url.protocol === "https:" && !url.username && !url.password)
+        if (
+          (url.protocol === "https:" ||
+            (process.env.NEXT_PUBLIC_SUPABASE_URL ===
+              "http://127.0.0.1:54421" &&
+              url.protocol === "http:" &&
+              ["localhost", "127.0.0.1"].includes(url.hostname))) &&
+          !url.username &&
+          !url.password
+        )
           allowed.push(url.origin);
       } catch {
         // Unconfigured or malformed origins never grant access.

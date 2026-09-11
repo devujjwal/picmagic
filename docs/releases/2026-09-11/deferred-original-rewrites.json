@@ -1,0 +1,1796 @@
+[
+  {
+    "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+    "slug": "golden-hour-draped-in-tradition",
+    "title": "The Palace of Nine Suns",
+    "description": "The person in an ivory silk saree with a narrow gold border pauses inside a sandstone corridor; nine successive arches catch low sunlight, repeating golden doorways behind them. Jasmine is pinned into their own hair, the face turned back towards camera; one hand lightly gathers the pallu without hiding the woven border. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in an ivory silk saree with a narrow gold border pauses inside a sandstone corridor; nine successive arches catch low sunlight, repeating golden doorways behind them. Jasmine is pinned into their own hair, the face turned back towards camera; one hand lightly gathers the pallu without hiding the woven border.\n\nLighting and composition: Low amber side light and cool stone shadows; 50mm three-quarter portrait with the face large enough to recognize and nested arches behind. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "The Palace of Nine Suns",
+      "Visual story"
+    ],
+    "occasion": "Everyday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/golden-hour-draped-in-tradition-editorial-v1.webp",
+    "thumbnail_url": "/previews/golden-hour-draped-in-tradition-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Palace of Nine Suns: The person in an ivory silk saree with a narrow gold border pauses inside a sandstone corridor; nine successive arches catch low sunlight, repeating golden doorways behind them. Jasmine is pinned into their own hair, the face turned back towards camera; one hand lightly gathers the pallu without hiding the woven border.",
+    "lighting": "Low amber side light and cool stone shadows",
+    "framing": "50mm three-quarter portrait with the face large enough to recognize and nested arches behind.",
+    "camera": "50mm three-quarter portrait with the face large enough to recognize and nested arches behind.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Saree",
+      "Traditional",
+      "the",
+      "palace",
+      "of",
+      "nine",
+      "suns"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 1,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Palace of Nine Suns AI Photo Prompt",
+    "seo_description": "Builds an otherwise privately controlled palace shoot timed to a precise alignment of nine sunlit arches. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Builds an otherwise privately controlled palace shoot timed to a precise alignment of nine sunlit arches."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in an ivory silk saree with a narrow gold border pauses inside a sandstone corridor; nine successive arches catch low sunlight, repeating golden doorways behind them. Jasmine is pinned into their own hair, the face turned back towards camera; one hand lightly gathers the pallu without hiding the woven border."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Palace of Nine Suns. Scene: The person in an ivory silk saree with a narrow gold border pauses inside a sandstone corridor; nine successive arches catch low sunlight, repeating golden doorways behind them. Jasmine is pinned into their own hair, the face turned back towards camera; one hand lightly gathers the pallu without hiding the woven border. Lighting and framing: Low amber side light and cool stone shadows; 50mm three-quarter portrait with the face large enough to recognize and nested arches behind.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Builds an otherwise privately controlled palace shoot timed to a precise alignment of nine sunlit arches.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "b5661669-70e7-5288-9018-cc8712655143",
+    "slug": "the-red-saree-moment",
+    "title": "Dhunuchi Evening in Kolkata",
+    "description": "The person in a white cotton saree with red border stands at the edge of a Durga Puja pandal, holding a terracotta dhunuchi securely at waist height. Incense curls through warm lamps behind the shoulders; the visible face has a joyful, composed expression. Keep embers contained and smoke away from eyes; show authentic temporary pandal fabric and distant celebrants without inventing ritual marks. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a white cotton saree with red border stands at the edge of a Durga Puja pandal, holding a terracotta dhunuchi securely at waist height. Incense curls through warm lamps behind the shoulders; the visible face has a joyful, composed expression. Keep embers contained and smoke away from eyes; show authentic temporary pandal fabric and distant celebrants without inventing ritual marks.\n\nLighting and composition: Warm practical lamps through smoke, dark red background; 50mm waist-up with both hands and vessel visible. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Dhunuchi Evening in Kolkata",
+      "Visual story"
+    ],
+    "occasion": "Durga Puja",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-red-saree-moment-editorial-v1.webp",
+    "thumbnail_url": "/previews/the-red-saree-moment-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Dhunuchi Evening in Kolkata: The person in a white cotton saree with red border stands at the edge of a Durga Puja pandal, holding a terracotta dhunuchi securely at waist height. Incense curls through warm lamps behind the shoulders; the visible face has a joyful, composed expression. Keep embers contained and smoke away from eyes; show authentic temporary pandal fabric and distant celebrants without inventing ritual marks.",
+    "lighting": "Warm practical lamps through smoke, dark red background",
+    "framing": "50mm waist-up with both hands and vessel visible.",
+    "camera": "50mm waist-up with both hands and vessel visible.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Saree",
+      "Festive",
+      "dhunuchi",
+      "evening",
+      "in",
+      "kolkata"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 3,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Dhunuchi Evening in Kolkata AI Photo Prompt",
+    "seo_description": "Recreates a difficult low-light festival moment with controlled smoke, readable facial detail and authentic cultural context. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Recreates a difficult low-light festival moment with controlled smoke, readable facial detail and authentic cultural context."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a white cotton saree with red border stands at the edge of a Durga Puja pandal, holding a terracotta dhunuchi securely at waist height. Incense curls through warm lamps behind the shoulders; the visible face has a joyful, composed expression. Keep embers contained and smoke away from eyes; show authentic temporary pandal fabric and distant celebrants without inventing ritual marks."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Dhunuchi Evening in Kolkata. Scene: The person in a white cotton saree with red border stands at the edge of a Durga Puja pandal, holding a terracotta dhunuchi securely at waist height. Incense curls through warm lamps behind the shoulders; the visible face has a joyful, composed expression. Keep embers contained and smoke away from eyes; show authentic temporary pandal fabric and distant celebrants without inventing ritual marks. Lighting and framing: Warm practical lamps through smoke, dark red background; 50mm waist-up with both hands and vessel visible.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Recreates a difficult low-light festival moment with controlled smoke, readable facial detail and authentic cultural context.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+    "slug": "barefoot-at-blue-hour",
+    "title": "The Shore That Lights Up for Two",
+    "description": "The reference couple walks ankle-close to the waterline on a quiet beach at blue hour. A thin, believable ribbon of blue bioluminescence traces only the breaking wave and their recent wet footprints; the rest of the sea remains dark. They exchange a small delighted glance, wearing off-white linen with rolled hems; keep both identities distinct and both pairs of feet visible. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The reference couple walks ankle-close to the waterline on a quiet beach at blue hour. A thin, believable ribbon of blue bioluminescence traces only the breaking wave and their recent wet footprints; the rest of the sea remains dark. They exchange a small delighted glance, wearing off-white linen with rolled hems; keep both identities distinct, their individual skin tones unchanged and visible bare feet for both people.\n\nLighting and composition: Last violet sky light with a restrained blue edge in wet sand, not glowing skin; 35mm full-body two-shot with a low horizon. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "couple",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "The Shore That Lights Up for Two",
+      "Visual story"
+    ],
+    "occasion": "Honeymoon",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/barefoot-at-blue-hour-editorial-v1.webp",
+    "thumbnail_url": "/previews/barefoot-at-blue-hour-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Shore That Lights Up for Two: The reference couple walks ankle-close to the waterline on a quiet beach at blue hour. A thin, believable ribbon of blue bioluminescence traces only the breaking wave and their recent wet footprints; the rest of the sea remains dark. They exchange a small delighted glance, wearing off-white linen with rolled hems; keep both identities distinct and both pairs of feet visible.",
+    "lighting": "Last violet sky light with a restrained blue edge in wet sand, not glowing skin",
+    "framing": "35mm full-body two-shot with a low horizon.",
+    "camera": "35mm full-body two-shot with a low horizon.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Beach",
+      "Romantic",
+      "the",
+      "shore",
+      "that",
+      "lights",
+      "up",
+      "for",
+      "two"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 4,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Shore That Lights Up for Two AI Photo Prompt",
+    "seo_description": "Creates a rare bioluminescent shoreline encounter timed to dusk without replacing the supplied couple's identities. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a rare bioluminescent shoreline encounter timed to dusk without replacing the supplied couple's identities."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The reference couple walks ankle-close to the waterline on a quiet beach at blue hour. A thin, believable ribbon of blue bioluminescence traces only the breaking wave and their recent wet footprints; the rest of the sea remains dark. They exchange a small delighted glance, wearing off-white linen with rolled hems; keep both identities distinct and both pairs of feet visible."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult couple with distinct faces. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Shore That Lights Up for Two. Scene: The reference couple walks ankle-close to the waterline on a quiet beach at blue hour. A thin, believable ribbon of blue bioluminescence traces only the breaking wave and their recent wet footprints; the rest of the sea remains dark. They exchange a small delighted glance, wearing off-white linen with rolled hems; keep both identities distinct and both pairs of feet visible. Lighting and framing: Last violet sky light with a restrained blue edge in wet sand, not glowing skin; 35mm full-body two-shot with a low horizon.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a rare bioluminescent shoreline encounter timed to dusk without replacing the supplied couple's identities.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+    "slug": "quiet-confidence",
+    "title": "Architect of Ideas",
+    "description": "The person in their own well-fitting charcoal suit stands between a glass wall of architectural sketches and a real miniature building model. Reflections layer the city skyline with the drawn structure; their hand rests beside the model and their expression suggests a decision just made. Keep sketch marks abstract rather than generated business claims or readable invented text. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in their own well-fitting charcoal suit stands between a glass wall of architectural sketches and a real miniature building model. Reflections layer the city skyline with the drawn structure; their hand rests beside the model and their expression suggests a decision just made. Keep sketch marks abstract rather than generated business claims or readable invented text.\n\nLighting and composition: Cool city dusk balanced by one warm desk lamp; 50mm waist-up through the glass, face clear between drawn lines. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "Architect of Ideas",
+      "Visual story"
+    ],
+    "occasion": "Career",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/quiet-confidence-editorial-v1.webp",
+    "thumbnail_url": "/previews/quiet-confidence-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Architect of Ideas: The person in their own well-fitting charcoal suit stands between a glass wall of architectural sketches and a real miniature building model. Reflections layer the city skyline with the drawn structure; their hand rests beside the model and their expression suggests a decision just made. Keep sketch marks abstract rather than generated business claims or readable invented text.",
+    "lighting": "Cool city dusk balanced by one warm desk lamp",
+    "framing": "50mm waist-up through the glass, face clear between drawn lines.",
+    "camera": "50mm waist-up through the glass, face clear between drawn lines.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Business",
+      "Luxury",
+      "architect",
+      "of",
+      "ideas"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 60,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Architect of Ideas AI Photo Prompt",
+    "seo_description": "Creates a layered architectural portrait requiring a designed set, controlled reflections and a scale model. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a layered architectural portrait requiring a designed set, controlled reflections and a scale model."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in their own well-fitting charcoal suit stands between a glass wall of architectural sketches and a real miniature building model. Reflections layer the city skyline with the drawn structure; their hand rests beside the model and their expression suggests a decision just made. Keep sketch marks abstract rather than generated business claims or readable invented text."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Architect of Ideas. Scene: The person in their own well-fitting charcoal suit stands between a glass wall of architectural sketches and a real miniature building model. Reflections layer the city skyline with the drawn structure; their hand rests beside the model and their expression suggests a decision just made. Keep sketch marks abstract rather than generated business claims or readable invented text. Lighting and framing: Cool city dusk balanced by one warm desk lamp; 50mm waist-up through the glass, face clear between drawn lines.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a layered architectural portrait requiring a designed set, controlled reflections and a scale model.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+    "slug": "a-birthday-made-of-sunshine",
+    "title": "A Birthday at the End of the Orchard",
+    "description": "The person in a cobalt celebration outfit sits at the near end of an extraordinarily long linen-covered birthday table running between mature lemon trees. One small lemon cake is in front of them; hanging branches make a natural canopy, with empty chairs suggesting loved ones about to arrive. A relaxed smile and hand resting beside the cake keep the scene personal. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a cobalt celebration outfit sits at the near end of an extraordinarily long linen-covered birthday table running between mature lemon trees. One small lemon cake is in front of them; hanging branches make a natural canopy, with empty chairs suggesting loved ones about to arrive. A relaxed smile and hand resting beside the cake keep the scene personal.\n\nLighting and composition: Late sun filtered through leaves; 35mm portrait leading lines, cake and face sharp, table receding far into the orchard. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "birthday",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "A Birthday at the End of the Orchard",
+      "Visual story"
+    ],
+    "occasion": "Birthday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-birthday-made-of-sunshine-editorial-v1.webp",
+    "thumbnail_url": "/previews/a-birthday-made-of-sunshine-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "A Birthday at the End of the Orchard: The person in a cobalt celebration outfit sits at the near end of an extraordinarily long linen-covered birthday table running between mature lemon trees. One small lemon cake is in front of them; hanging branches make a natural canopy, with empty chairs suggesting loved ones about to arrive. A relaxed smile and hand resting beside the cake keep the scene personal.",
+    "lighting": "Late sun filtered through leaves",
+    "framing": "35mm portrait leading lines, cake and face sharp, table receding far into the orchard.",
+    "camera": "35mm portrait leading lines, cake and face sharp, table receding far into the orchard.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Birthday",
+      "Garden",
+      "a",
+      "birthday",
+      "at",
+      "the",
+      "end",
+      "of",
+      "orchard"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 61,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "A Birthday at the End of the Orchard AI Photo Prompt",
+    "seo_description": "Makes an elaborate orchard banquet shoot accessible without renting a grove or styling a long event table. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Makes an elaborate orchard banquet shoot accessible without renting a grove or styling a long event table."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a cobalt celebration outfit sits at the near end of an extraordinarily long linen-covered birthday table running between mature lemon trees. One small lemon cake is in front of them; hanging branches make a natural canopy, with empty chairs suggesting loved ones about to arrive. A relaxed smile and hand resting beside the cake keep the scene personal."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for A Birthday at the End of the Orchard. Scene: The person in a cobalt celebration outfit sits at the near end of an extraordinarily long linen-covered birthday table running between mature lemon trees. One small lemon cake is in front of them; hanging branches make a natural canopy, with empty chairs suggesting loved ones about to arrive. A relaxed smile and hand resting beside the cake keep the scene personal. Lighting and framing: Late sun filtered through leaves; 35mm portrait leading lines, cake and face sharp, table receding far into the orchard.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Makes an elaborate orchard banquet shoot accessible without renting a grove or styling a long event table.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+    "slug": "a-family-evening-lit-by-diyas",
+    "title": "Diwali, a Thousand Points of Light",
+    "description": "The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian family. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps.\n\nLighting and composition: Warm diya practicals with soft face fill, deep evening blue; 35mm group portrait, all faces on a readable plane. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Family",
+    "style": [
+      "Diwali",
+      "Visual story"
+    ],
+    "occasion": "Diwali",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-family-evening-lit-by-diyas-editorial-v1.webp",
+    "thumbnail_url": "/previews/a-family-evening-lit-by-diyas-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Diwali, a Thousand Points of Light: The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps.",
+    "lighting": "Warm diya practicals with soft face fill, deep evening blue",
+    "framing": "35mm group portrait, all faces on a readable plane.",
+    "camera": "35mm group portrait, all faces on a readable plane.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Diwali",
+      "Traditional",
+      "diwali",
+      "a",
+      "thousand",
+      "points",
+      "of",
+      "light"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 6,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Diwali, a Thousand Points of Light AI Photo Prompt",
+    "seo_description": "Creates a large controlled festival light installation while preserving the exact family and avoiding the hazards of a real crowded flame setup. Reference-first",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a large controlled festival light installation while preserving the exact family and avoiding the hazards of a real crowded flame setup."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian family with the exact count and ages described in the scene. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Diwali, a Thousand Points of Light. Scene: The supplied family gathers on a broad veranda while layers of small diyas recede across the foreground, steps and far courtyard, creating extraordinary depth. Adults hold the youngest child safely; hands stay clear of flames. Festive clothes may adapt, but preserve every person's age, skin tone and identity. Keep a clear unlit walkway and readable faces, not a wall of identical copied lamps. Lighting and framing: Warm diya practicals with soft face fill, deep evening blue; 35mm group portrait, all faces on a readable plane.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a large controlled festival light installation while preserving the exact family and avoiding the hazards of a real crowded flame setup.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+    "slug": "sunday-all-together",
+    "title": "Breakfast at the Edge of a Storybook",
+    "description": "The reference family prepares pancakes at an ordinary kitchen table, but the open double doors reveal a life-size storybook landscape of mustard fields and a windmill beneath a soft morning sky. The interior and doorway remain physically coherent; one adult serves a pancake, children stay safely seated. Flour on an apron and a slightly uneven pancake keep the moment human. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian family. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The reference family prepares pancakes at an ordinary kitchen table, but the open double doors reveal a life-size storybook landscape of mustard fields and a windmill beneath a soft morning sky. The interior and doorway remain physically coherent; one adult serves a pancake, children stay safely seated. Flour on an apron and a slightly uneven pancake keep the moment human.\n\nLighting and composition: Soft daylight through the open doors; 35mm family two-plane composition, hands and breakfast readable. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "family",
+    "prompt_type": "photo",
+    "subject": "Family",
+    "style": [
+      "Breakfast at the Edge of a Storybook",
+      "Visual story"
+    ],
+    "occasion": "Weekend",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/sunday-all-together-editorial-v1.webp",
+    "thumbnail_url": "/previews/sunday-all-together-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Breakfast at the Edge of a Storybook: The reference family prepares pancakes at an ordinary kitchen table, but the open double doors reveal a life-size storybook landscape of mustard fields and a windmill beneath a soft morning sky. The interior and doorway remain physically coherent; one adult serves a pancake, children stay safely seated. Flour on an apron and a slightly uneven pancake keep the moment human.",
+    "lighting": "Soft daylight through the open doors",
+    "framing": "35mm family two-plane composition, hands and breakfast readable.",
+    "camera": "35mm family two-plane composition, hands and breakfast readable.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Lifestyle",
+      "Natural",
+      "breakfast",
+      "at",
+      "the",
+      "edge",
+      "of",
+      "a",
+      "storybook"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 64,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Breakfast at the Edge of a Storybook AI Photo Prompt",
+    "seo_description": "Turns a familiar family ritual into a believable storybook threshold without changing the people. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Turns a familiar family ritual into a believable storybook threshold without changing the people."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The reference family prepares pancakes at an ordinary kitchen table, but the open double doors reveal a life-size storybook landscape of mustard fields and a windmill beneath a soft morning sky. The interior and doorway remain physically coherent; one adult serves a pancake, children stay safely seated. Flour on an apron and a slightly uneven pancake keep the moment human."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian family with the exact count and ages described in the scene. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Breakfast at the Edge of a Storybook. Scene: The reference family prepares pancakes at an ordinary kitchen table, but the open double doors reveal a life-size storybook landscape of mustard fields and a windmill beneath a soft morning sky. The interior and doorway remain physically coherent; one adult serves a pancake, children stay safely seated. Flour on an apron and a slightly uneven pancake keep the moment human. Lighting and framing: Soft daylight through the open doors; 35mm family two-plane composition, hands and breakfast readable.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Turns a familiar family ritual into a believable storybook threshold without changing the people.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+    "slug": "paris-without-a-plan",
+    "title": "The Last Bookstall on the Seine",
+    "description": "The person in a weathered trench coat shelters beside an open green bookseller's box along the Seine just after rain. An unreadable folded map is tucked into their pocket; one hand holds a closed old book. Bridge lamps reflect in puddles and a distant Eiffel Tower silhouette establishes Paris without dominating the face. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a weathered trench coat shelters beside an open green bookseller's box along the Seine just after rain. An unreadable folded map is tucked into their pocket; one hand holds a closed old book. Bridge lamps reflect in puddles and a distant Eiffel Tower silhouette establishes Paris without dominating the face.\n\nLighting and composition: Blue-hour sky and warm bookseller lamp; 50mm environmental portrait with foreground book spines blurred. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "travel",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "The Last Bookstall on the Seine",
+      "Visual story"
+    ],
+    "occasion": "Holiday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/paris-without-a-plan-editorial-v1.webp",
+    "thumbnail_url": "/previews/paris-without-a-plan-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Last Bookstall on the Seine: The person in a weathered trench coat shelters beside an open green bookseller's box along the Seine just after rain. An unreadable folded map is tucked into their pocket; one hand holds a closed old book. Bridge lamps reflect in puddles and a distant Eiffel Tower silhouette establishes Paris without dominating the face.",
+    "lighting": "Blue-hour sky and warm bookseller lamp",
+    "framing": "50mm environmental portrait with foreground book spines blurred.",
+    "camera": "50mm environmental portrait with foreground book spines blurred.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Travel",
+      "Fashion",
+      "the",
+      "last",
+      "bookstall",
+      "on",
+      "seine"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 65,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Last Bookstall on the Seine AI Photo Prompt",
+    "seo_description": "Combines a scarce after-hours Paris bookseller setting, wet reflections and landmark alignment into one personal travel story. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Combines a scarce after-hours Paris bookseller setting, wet reflections and landmark alignment into one personal travel story."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a weathered trench coat shelters beside an open green bookseller's box along the Seine just after rain. An unreadable folded map is tucked into their pocket; one hand holds a closed old book. Bridge lamps reflect in puddles and a distant Eiffel Tower silhouette establishes Paris without dominating the face."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Last Bookstall on the Seine. Scene: The person in a weathered trench coat shelters beside an open green bookseller's box along the Seine just after rain. An unreadable folded map is tucked into their pocket; one hand holds a closed old book. Bridge lamps reflect in puddles and a distant Eiffel Tower silhouette establishes Paris without dominating the face. Lighting and framing: Blue-hour sky and warm bookseller lamp; 50mm environmental portrait with foreground book spines blurred.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Combines a scarce after-hours Paris bookseller setting, wet reflections and landmark alignment into one personal travel story.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+    "slug": "coffee-rain-and-college-days",
+    "title": "The Last Chai Before Graduation",
+    "description": "The supplied couple sits beside a college canteen window with two steel chai tumblers and one closed notebook. Outside, heavy monsoon rain turns an empty campus courtyard into silver streaks; a graduation gown is folded over a spare chair. They share the bittersweet smile of a last afternoon, without changing their actual age or facial features. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The supplied couple sits beside a college canteen window with two steel chai tumblers and one closed notebook. Outside, heavy monsoon rain turns an empty campus courtyard into silver streaks; a graduation gown is folded over a spare chair. They share the bittersweet smile of a last afternoon, without changing their actual age or facial features.\n\nLighting and composition: Grey rain light through the window and warm canteen practicals; 50mm seated two-shot with tumblers and folded gown visible. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "couple",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "The Last Chai Before Graduation",
+      "Visual story"
+    ],
+    "occasion": "Date night",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/coffee-rain-and-college-days-editorial-v1.webp",
+    "thumbnail_url": "/previews/coffee-rain-and-college-days-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Last Chai Before Graduation: The supplied couple sits beside a college canteen window with two steel chai tumblers and one closed notebook. Outside, heavy monsoon rain turns an empty campus courtyard into silver streaks; a graduation gown is folded over a spare chair. They share the bittersweet smile of a last afternoon, without changing their actual age or facial features.",
+    "lighting": "Grey rain light through the window and warm canteen practicals",
+    "framing": "50mm seated two-shot with tumblers and folded gown visible.",
+    "camera": "50mm seated two-shot with tumblers and folded gown visible.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "College",
+      "Rain",
+      "the",
+      "last",
+      "chai",
+      "before",
+      "graduation"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 67,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Last Chai Before Graduation AI Photo Prompt",
+    "seo_description": "Stages a specific memory-like milestone with controlled monsoon weather and emotional props, rather than a generic cafe pose. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Stages a specific memory-like milestone with controlled monsoon weather and emotional props, rather than a generic cafe pose."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The supplied couple sits beside a college canteen window with two steel chai tumblers and one closed notebook. Outside, heavy monsoon rain turns an empty campus courtyard into silver streaks; a graduation gown is folded over a spare chair. They share the bittersweet smile of a last afternoon, without changing their actual age or facial features."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult couple with distinct faces. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Last Chai Before Graduation. Scene: The supplied couple sits beside a college canteen window with two steel chai tumblers and one closed notebook. Outside, heavy monsoon rain turns an empty campus courtyard into silver streaks; a graduation gown is folded over a spare chair. They share the bittersweet smile of a last afternoon, without changing their actual age or facial features. Lighting and framing: Grey rain light through the window and warm canteen practicals; 50mm seated two-shot with tumblers and folded gown visible.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Stages a specific memory-like milestone with controlled monsoon weather and emotional props, rather than a generic cafe pose.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "7ca2b906-78ec-54db-a323-28795468c015",
+    "slug": "built-on-quiet-discipline",
+    "title": "After the Last Rep",
+    "description": "The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation.\n\nLighting and composition: One overhead pool of light, dark unused equipment beyond; 50mm seated three-quarter portrait, subtle natural sweat. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "After the Last Rep",
+      "Visual story"
+    ],
+    "occasion": "Fitness",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/built-on-quiet-discipline-editorial-v1.webp",
+    "thumbnail_url": "/previews/built-on-quiet-discipline-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "After the Last Rep: The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation.",
+    "lighting": "One overhead pool of light, dark unused equipment beyond",
+    "framing": "50mm seated three-quarter portrait, subtle natural sweat.",
+    "camera": "50mm seated three-quarter portrait, subtle natural sweat.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Fitness",
+      "Gym",
+      "after",
+      "the",
+      "last",
+      "rep"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 68,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "After the Last Rep AI Photo Prompt",
+    "seo_description": "Builds an emotionally specific sports campaign about effort and recovery, without inventing muscles or requiring a closed gym production. Reference-first prompt",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Builds an emotionally specific sports campaign about effort and recovery, without inventing muscles or requiring a closed gym production."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for After the Last Rep. Scene: The athlete sits on a low bench in an almost empty boxing gym after closing, elbows resting comfortably on knees, unwrapped training tape beside them. They look down with natural fatigue rather than perform for camera. Preserve actual physique, body fat, scars and muscle definition; do not manufacture a body transformation. Lighting and framing: One overhead pool of light, dark unused equipment beyond; 50mm seated three-quarter portrait, subtle natural sweat.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Builds an emotionally specific sports campaign about effort and recovery, without inventing muscles or requiring a closed gym production.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+    "slug": "a-little-holi-happiness",
+    "title": "Holi, the Colour Before It Falls",
+    "description": "The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour.\n\nLighting and composition: Backlit morning particles with soft frontal fill; 85mm waist-up, ample space around hair and both colour plumes. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Holi",
+      "Visual story"
+    ],
+    "occasion": "Holi",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-little-holi-happiness-editorial-v1.webp",
+    "thumbnail_url": "/previews/a-little-holi-happiness-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Holi, the Colour Before It Falls: The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour.",
+    "lighting": "Backlit morning particles with soft frontal fill",
+    "framing": "85mm waist-up, ample space around hair and both colour plumes.",
+    "camera": "85mm waist-up, ample space around hair and both colour plumes.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Holi",
+      "Colour",
+      "holi",
+      "the",
+      "colour",
+      "before",
+      "it",
+      "falls"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 8,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Holi, the Colour Before It Falls AI Photo Prompt",
+    "seo_description": "Creates a split-second powder sculpture with controlled air, light and facial visibility that is difficult to capture safely with a phone. Reference-first promp",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a split-second powder sculpture with controlled air, light and facial visibility that is difficult to capture safely with a phone."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Holi, the Colour Before It Falls. Scene: The person in a plain white kurta laughs with eyes open and unobstructed as two separate clouds of pink and yellow powder hang behind and to either side of them. Keep powder away from mouth and eyes, skin tone recognizable beneath small cheek smudges, and the face sharper than the particle cloud. An ordinary courtyard becomes a fleeting sculpture of colour. Lighting and framing: Backlit morning particles with soft frontal fill; 85mm waist-up, ample space around hair and both colour plumes.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a split-second powder sculpture with controlled air, light and facial visibility that is difficult to capture safely with a phone.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+    "slug": "an-intimate-jaipur-yes",
+    "title": "Royal Jaipur After-Hours",
+    "description": "The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage.\n\nLighting and composition: Amber lamps against deep indigo outside the arches; 50mm full-body symmetrical composition, both faces readable. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "wedding",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "Royal Jaipur After-Hours",
+      "Visual story"
+    ],
+    "occasion": "Pre-wedding",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/an-intimate-jaipur-yes-editorial-v1.webp",
+    "thumbnail_url": "/previews/an-intimate-jaipur-yes-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Royal Jaipur After-Hours: The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage.",
+    "lighting": "Amber lamps against deep indigo outside the arches",
+    "framing": "50mm full-body symmetrical composition, both faces readable.",
+    "camera": "50mm full-body symmetrical composition, both faces readable.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Pre-wedding",
+      "Traditional",
+      "royal",
+      "jaipur",
+      "after",
+      "hours"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 9,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Royal Jaipur After-Hours AI Photo Prompt",
+    "seo_description": "Creates an exclusive after-hours palace shoot with coordinated lamps, wardrobe motion and empty architectural space. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates an exclusive after-hours palace shoot with coordinated lamps, wardrobe motion and empty architectural space."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult couple with distinct faces. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Royal Jaipur After-Hours. Scene: The supplied couple walks alone through an illuminated Jaipur sandstone palace corridor after sunset. A rose lehenga and ivory bandhgala may be adapted to their preferred roles, with flowing fabric trailing clear of their feet; they share a candid sideways glance. Repeated warm wall lamps reflect softly on the worn stone floor, with no crowd or wedding signage. Lighting and framing: Amber lamps against deep indigo outside the arches; 50mm full-body symmetrical composition, both faces readable.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates an exclusive after-hours palace shoot with coordinated lamps, wardrobe motion and empty architectural space.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+    "slug": "the-perfect-birthday-picnic",
+    "title": "The Giant Teddy Brought the Cake",
+    "description": "The child sits on a gingham picnic blanket beside a friendly teddy bear twice their seated height, with a tiny cake safely on a low stable stand between them. The oversized plush toy has visible seams and stuffing, not a living animal's face. Small paper clouds hang in a soft blue studio woodland set; the child looks delighted towards the bear. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian child. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The child sits on a gingham picnic blanket beside a friendly teddy bear twice their seated height, with a tiny cake safely on a low stable stand between them. The oversized plush toy has visible seams and stuffing, not a living animal's face. Small paper clouds hang in a soft blue studio woodland set; the child looks delighted towards the bear.\n\nLighting and composition: Soft morning-like studio light; 50mm wide enough for child, whole toy and cake, natural child proportions. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "birthday",
+    "prompt_type": "photo",
+    "subject": "Kid",
+    "style": [
+      "The Giant Teddy Brought the Cake",
+      "Visual story"
+    ],
+    "occasion": "Birthday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-perfect-birthday-picnic-editorial-v1.webp",
+    "thumbnail_url": "/previews/the-perfect-birthday-picnic-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Giant Teddy Brought the Cake: The child sits on a gingham picnic blanket beside a friendly teddy bear twice their seated height, with a tiny cake safely on a low stable stand between them. The oversized plush toy has visible seams and stuffing, not a living animal's face. Small paper clouds hang in a soft blue studio woodland set; the child looks delighted towards the bear.",
+    "lighting": "Soft morning-like studio light",
+    "framing": "50mm wide enough for child, whole toy and cake, natural child proportions.",
+    "camera": "50mm wide enough for child, whole toy and cake, natural child proportions.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Birthday",
+      "Outdoor",
+      "the",
+      "giant",
+      "teddy",
+      "brought",
+      "cake"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 11,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Giant Teddy Brought the Cake AI Photo Prompt",
+    "seo_description": "Builds a life-size storybook birthday set while keeping the child's recognizable identity and realistic anatomy. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Builds a life-size storybook birthday set while keeping the child's recognizable identity and realistic anatomy."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The child sits on a gingham picnic blanket beside a friendly teddy bear twice their seated height, with a tiny cake safely on a low stable stand between them. The oversized plush toy has visible seams and stuffing, not a living animal's face. Small paper clouds hang in a soft blue studio woodland set; the child looks delighted towards the bear."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian child of the age appropriate to this concept. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Giant Teddy Brought the Cake. Scene: The child sits on a gingham picnic blanket beside a friendly teddy bear twice their seated height, with a tiny cake safely on a low stable stand between them. The oversized plush toy has visible seams and stuffing, not a living animal's face. Small paper clouds hang in a soft blue studio woodland set; the child looks delighted towards the bear. Lighting and framing: Soft morning-like studio light; 50mm wide enough for child, whole toy and cake, natural child proportions.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Builds a life-size storybook birthday set while keeping the child's recognizable identity and realistic anatomy.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+    "slug": "the-open-road-portrait",
+    "title": "Himalayan Last Rider",
+    "description": "The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nPRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged.\n\nLighting and composition: Blue mountain twilight with a warm headlamp cone; 35mm full-body environmental frame, rider large enough to recognize, horizon low. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "Himalayan Last Rider",
+      "Creative campaign"
+    ],
+    "occasion": "Weekend",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-open-road-portrait-editorial-v1.webp",
+    "thumbnail_url": "/previews/the-open-road-portrait-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Himalayan Last Rider: The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged.",
+    "lighting": "Blue mountain twilight with a warm headlamp cone",
+    "framing": "35mm full-body environmental frame, rider large enough to recognize, horizon low.",
+    "camera": "35mm full-body environmental frame, rider large enough to recognize, horizon low.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Bike",
+      "Travel",
+      "himalayan",
+      "last",
+      "rider"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 12,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Himalayan Last Rider AI Photo Prompt",
+    "seo_description": "Creates a difficult remote adventure-film moment combining mountain scale, controlled fog, snow and safe stationary staging. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a difficult remote adventure-film moment combining mountain scale, controlled fog, snow and safe stationary staging."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Himalayan Last Rider. Scene: The rider stands beside their supplied motorcycle at a remote Ladakh pass at blue hour as the first sparse snowflakes arrive. The headlamp cuts through a low bank of mountain fog, jacket hem lifting slightly in the wind; enormous layered peaks occupy the distance. The motorcycle is stationary on firm level ground, helmet in one resting hand, actual bike design and rider identity unchanged. Lighting and framing: Blue mountain twilight with a warm headlamp cone; 35mm full-body environmental frame, rider large enough to recognize, horizon low.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person-and-product",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a difficult remote adventure-film moment combining mountain scale, controlled fog, snow and safe stationary staging.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+    "slug": "a-winter-window-story",
+    "title": "Kashmir, the First Snowfall",
+    "description": "The person in an oatmeal knit sweater sits inside a carved wooden Kashmir guesthouse window with a warm cup resting on its broad ledge. They turn towards the first falling snow outside; carved eaves, distant chinar branches and a pale mountain ridge establish the place. Keep the hand relaxed beside the cup and a small spontaneous smile. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in an oatmeal knit sweater sits inside a carved wooden Kashmir guesthouse window with a warm cup resting on its broad ledge. They turn towards the first falling snow outside; carved eaves, distant chinar branches and a pale mountain ridge establish the place. Keep the hand relaxed beside the cup and a small spontaneous smile.\n\nLighting and composition: Cool snow daylight and warm interior reflection; 50mm three-quarter portrait through the open part of the window. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Kashmir",
+      "Visual story"
+    ],
+    "occasion": "Winter",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-winter-window-story-editorial-v1.webp",
+    "thumbnail_url": "/previews/a-winter-window-story-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Kashmir, the First Snowfall: The person in an oatmeal knit sweater sits inside a carved wooden Kashmir guesthouse window with a warm cup resting on its broad ledge. They turn towards the first falling snow outside; carved eaves, distant chinar branches and a pale mountain ridge establish the place. Keep the hand relaxed beside the cup and a small spontaneous smile.",
+    "lighting": "Cool snow daylight and warm interior reflection",
+    "framing": "50mm three-quarter portrait through the open part of the window.",
+    "camera": "50mm three-quarter portrait through the open part of the window.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Korean",
+      "Winter",
+      "kashmir",
+      "the",
+      "first",
+      "snowfall"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 72,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Kashmir, the First Snowfall AI Photo Prompt",
+    "seo_description": "Creates a location-specific first-snow memory with controlled flakes and warm-cool light while keeping the traveller recognizable. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a location-specific first-snow memory with controlled flakes and warm-cool light while keeping the traveller recognizable."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in an oatmeal knit sweater sits inside a carved wooden Kashmir guesthouse window with a warm cup resting on its broad ledge. They turn towards the first falling snow outside; carved eaves, distant chinar branches and a pale mountain ridge establish the place. Keep the hand relaxed beside the cup and a small spontaneous smile."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Kashmir, the First Snowfall. Scene: The person in an oatmeal knit sweater sits inside a carved wooden Kashmir guesthouse window with a warm cup resting on its broad ledge. They turn towards the first falling snow outside; carved eaves, distant chinar branches and a pale mountain ridge establish the place. Keep the hand relaxed beside the cup and a small spontaneous smile. Lighting and framing: Cool snow daylight and warm interior reflection; 50mm three-quarter portrait through the open part of the window.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a location-specific first-snow memory with controlled flakes and warm-cool light while keeping the traveller recognizable.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+    "slug": "the-christmas-kitchen",
+    "title": "The Gingerbread Village Comes Home",
+    "description": "The family decorates a gingerbread village that fills the entire kitchen island, with tiny warm lights inside biscuit houses and a winding icing street. One adult steadies a piping bag with a child, the remaining family members gather naturally behind. Keep actual family count and ages; the village is edible model scale, not a room of giant food. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian family. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The family decorates a gingerbread village that fills the entire kitchen island, with tiny warm lights inside biscuit houses and a winding icing street. One adult steadies a piping bag with a child, the remaining family members gather naturally behind. Keep actual family count and ages; the village is edible model scale, not a room of giant food.\n\nLighting and composition: Warm practical lights balanced with soft window fill; 35mm group composition with biscuit village foreground and faces above it. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Family",
+    "style": [
+      "The Gingerbread Village Comes Home",
+      "Visual story"
+    ],
+    "occasion": "Christmas",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-christmas-kitchen-editorial-v1.webp",
+    "thumbnail_url": "/previews/the-christmas-kitchen-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Gingerbread Village Comes Home: The family decorates a gingerbread village that fills the entire kitchen island, with tiny warm lights inside biscuit houses and a winding icing street. One adult steadies a piping bag with a child, the remaining family members gather naturally behind. Keep actual family count and ages; the village is edible model scale, not a room of giant food.",
+    "lighting": "Warm practical lights balanced with soft window fill",
+    "framing": "35mm group composition with biscuit village foreground and faces above it.",
+    "camera": "35mm group composition with biscuit village foreground and faces above it.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Christmas",
+      "Home",
+      "the",
+      "gingerbread",
+      "village",
+      "comes",
+      "home"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 73,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Gingerbread Village Comes Home AI Photo Prompt",
+    "seo_description": "Provides a detailed miniature holiday set and a shared family action that would require extensive food styling and model-making. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Provides a detailed miniature holiday set and a shared family action that would require extensive food styling and model-making."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The family decorates a gingerbread village that fills the entire kitchen island, with tiny warm lights inside biscuit houses and a winding icing street. One adult steadies a piping bag with a child, the remaining family members gather naturally behind. Keep actual family count and ages; the village is edible model scale, not a room of giant food."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian family with the exact count and ages described in the scene. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Gingerbread Village Comes Home. Scene: The family decorates a gingerbread village that fills the entire kitchen island, with tiny warm lights inside biscuit houses and a winding icing street. One adult steadies a piping bag with a child, the remaining family members gather naturally behind. Keep actual family count and ages; the village is edible model scale, not a room of giant food. Lighting and framing: Warm practical lights balanced with soft window fill; 35mm group composition with biscuit village foreground and faces above it.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Provides a detailed miniature holiday set and a shared family action that would require extensive food styling and model-making.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+    "slug": "a-night-at-the-cinema",
+    "title": "The Last Frame in the Empty Cinema",
+    "description": "The person in a dark coat stands at the end of an empty old cinema aisle; one projector beam passes above the shoulder, revealing dust in the air. Red velvet seats recede towards a blank screen. They look back as though the story has followed them out of the film; keep the face outside the brightest beam. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a dark coat stands at the end of an empty old cinema aisle; one projector beam passes above the shoulder, revealing dust in the air. Red velvet seats recede towards a blank screen. They look back as though the story has followed them out of the film; keep the face outside the brightest beam.\n\nLighting and composition: Single projector shaft plus dim aisle lights; 50mm three-quarter portrait with rows of seats forming converging lines. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "cinematic",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "The Last Frame in the Empty Cinema",
+      "Visual story"
+    ],
+    "occasion": "Everyday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-night-at-the-cinema-editorial-v1.webp",
+    "thumbnail_url": "/previews/a-night-at-the-cinema-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "The Last Frame in the Empty Cinema: The person in a dark coat stands at the end of an empty old cinema aisle; one projector beam passes above the shoulder, revealing dust in the air. Red velvet seats recede towards a blank screen. They look back as though the story has followed them out of the film; keep the face outside the brightest beam.",
+    "lighting": "Single projector shaft plus dim aisle lights",
+    "framing": "50mm three-quarter portrait with rows of seats forming converging lines.",
+    "camera": "50mm three-quarter portrait with rows of seats forming converging lines.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Cinematic",
+      "Moody",
+      "the",
+      "last",
+      "frame",
+      "in",
+      "empty",
+      "cinema"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 74,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Last Frame in the Empty Cinema AI Photo Prompt",
+    "seo_description": "Builds a controlled empty-theatre portrait with a visible projector shaft and narrative perspective. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Builds a controlled empty-theatre portrait with a visible projector shaft and narrative perspective."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a dark coat stands at the end of an empty old cinema aisle; one projector beam passes above the shoulder, revealing dust in the air. Red velvet seats recede towards a blank screen. They look back as though the story has followed them out of the film; keep the face outside the brightest beam."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Last Frame in the Empty Cinema. Scene: The person in a dark coat stands at the end of an empty old cinema aisle; one projector beam passes above the shoulder, revealing dust in the air. Red velvet seats recede towards a blank screen. They look back as though the story has followed them out of the film; keep the face outside the brightest beam. Lighting and framing: Single projector shaft plus dim aisle lights; 50mm three-quarter portrait with rows of seats forming converging lines.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Builds a controlled empty-theatre portrait with a visible projector shaft and narrative perspective.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+    "slug": "thirty-and-entirely-yourself",
+    "title": "A Birthday Between Then and Next",
+    "description": "The person sits at a simple blue pedestal with a small birthday cake while translucent hanging frames surround them at different depths. The frames hold abstract childhood-sized objects and future travel silhouettes, never invented photographs of real relatives or readable predictions. Their natural, thoughtful smile remains the focal point. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person sits at a simple blue pedestal with a small birthday cake while translucent hanging frames surround them at different depths. The frames hold abstract childhood-sized objects and future travel silhouettes, never invented photographs of real relatives or readable predictions. Their natural, thoughtful smile remains the focal point.\n\nLighting and composition: Soft studio key with subtle blue reflections; 50mm waist-up, frames kept away from face, cake visible. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "birthday",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "A Birthday Between Then and Next",
+      "Visual story"
+    ],
+    "occasion": "Birthday",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/thirty-and-entirely-yourself-editorial-v1.webp",
+    "thumbnail_url": "/previews/thirty-and-entirely-yourself-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "A Birthday Between Then and Next: The person sits at a simple blue pedestal with a small birthday cake while translucent hanging frames surround them at different depths. The frames hold abstract childhood-sized objects and future travel silhouettes, never invented photographs of real relatives or readable predictions. Their natural, thoughtful smile remains the focal point.",
+    "lighting": "Soft studio key with subtle blue reflections",
+    "framing": "50mm waist-up, frames kept away from face, cake visible.",
+    "camera": "50mm waist-up, frames kept away from face, cake visible.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Birthday",
+      "Studio",
+      "a",
+      "birthday",
+      "between",
+      "then",
+      "and",
+      "next"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 75,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "A Birthday Between Then and Next AI Photo Prompt",
+    "seo_description": "Creates a personal time-capsule set that represents past and future without fabricating documentary memories. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a personal time-capsule set that represents past and future without fabricating documentary memories."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person sits at a simple blue pedestal with a small birthday cake while translucent hanging frames surround them at different depths. The frames hold abstract childhood-sized objects and future travel silhouettes, never invented photographs of real relatives or readable predictions. Their natural, thoughtful smile remains the focal point."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for A Birthday Between Then and Next. Scene: The person sits at a simple blue pedestal with a small birthday cake while translucent hanging frames surround them at different depths. The frames hold abstract childhood-sized objects and future travel silhouettes, never invented photographs of real relatives or readable predictions. Their natural, thoughtful smile remains the focal point. Lighting and framing: Soft studio key with subtle blue reflections; 50mm waist-up, frames kept away from face, cake visible.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a personal time-capsule set that represents past and future without fabricating documentary memories.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+    "slug": "garba-under-the-lights",
+    "title": "Navratri, Still at the Centre",
+    "description": "The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear.\n\nLighting and composition: Warm courtyard string lights, short face exposure layered with longer background motion; 50mm full-body with breathing room around skirt. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Navratri",
+      "Visual story"
+    ],
+    "occasion": "Navratri",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/garba-under-the-lights-editorial-v1.webp",
+    "thumbnail_url": "/previews/garba-under-the-lights-editorial-v1-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Navratri, Still at the Centre: The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear.",
+    "lighting": "Warm courtyard string lights, short face exposure layered with longer background motion",
+    "framing": "50mm full-body with breathing room around skirt.",
+    "camera": "50mm full-body with breathing room around skirt.",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Navratri",
+      "Traditional",
+      "navratri",
+      "still",
+      "at",
+      "the",
+      "centre"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 13,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Navratri, Still at the Centre AI Photo Prompt",
+    "seo_description": "Combines a readable identity portrait with controlled long-exposure festival motion that normally requires a staged camera technique. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Combines a readable identity portrait with controlled long-exposure festival motion that normally requires a staged camera technique."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Navratri, Still at the Centre. Scene: The person in a turquoise and magenta chaniya choli completes a small comfortable garba turn; face and hands are sharp while the skirt edge and distant dancers form restrained circular light trails. Bangles and mirrorwork remain distinct. Do not twist joints or replace actual body proportions; keep the forehead and eyes clear. Lighting and framing: Warm courtyard string lights, short face exposure layered with longer background motion; 50mm full-body with breathing room around skirt.. Aspect ratio 4:5. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Combines a readable identity portrait with controlled long-exposure festival motion that normally requires a staged camera technique.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+    "slug": "the-anniversary-slow-dance",
+    "title": "The Album Becomes the Anniversary — reel",
+    "description": "The supplied couple slow-dances on a lamp-lit veranda beside a closed wedding album resting on a small table. A framed photograph is shown only if the user supplies the actual image; otherwise use an empty frame rather than fabricated younger identities. Keep both people their present age, with comfortable swaying steps and natural affection. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The supplied couple slow-dances on a lamp-lit veranda beside a closed wedding album resting on a small table. A framed photograph is shown only if the user supplies the actual image; otherwise use an empty frame rather than fabricated younger identities. Keep both people their present age, with comfortable swaying steps and natural affection.\n\nLighting and composition: Warm veranda lamps with blue evening beyond; 50mm waist-up two-shot, album and both faces readable. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the closed album and an empty frame, or the actual labelled wedding photograph if supplied.\n2–6 seconds: PROGRESSION: Move to the present-day couple taking one gentle swaying step together.\n6–8 seconds: PAYOFF: Hold their shared smile with the album in the foreground, connecting memory and the present.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "category_id": "reels",
+    "prompt_type": "reel",
+    "subject": "Couple",
+    "style": [
+      "The Album Becomes the Anniversary",
+      "Visual story"
+    ],
+    "occasion": "Anniversary",
+    "aspect_ratio": "9:16",
+    "preview_image_url": "/previews/the-anniversary-slow-dance-editorial-v1.webp",
+    "thumbnail_url": "/previews/the-anniversary-slow-dance-editorial-v1-thumb.webp",
+    "image_width": 720,
+    "image_height": 1280,
+    "image_alt": "The Album Becomes the Anniversary: The supplied couple slow-dances on a lamp-lit veranda beside a closed wedding album resting on a small table. A framed photograph is shown only if the user supplies the actual image; otherwise use an empty frame rather than fabricated younger identities. Keep both people their present age, with comfortable swaying steps and natural affection.",
+    "lighting": "Warm veranda lamps with blue evening beyond",
+    "framing": "50mm waist-up two-shot, album and both faces readable.",
+    "camera": "50mm waist-up two-shot, album and both faces readable.",
+    "suggested_tools": [
+      "Veo",
+      "Kling",
+      "Runway",
+      "Sora"
+    ],
+    "tags": [
+      "Romantic",
+      "Cinematic",
+      "the",
+      "album",
+      "becomes",
+      "anniversary"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 76,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Album Becomes the Anniversary — reel AI Reel Prompt",
+    "seo_description": "Creates an anniversary story linking a real supplied memory to the same couple in the present without inventing younger faces. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates an anniversary story linking a real supplied memory to the same couple in the present without inventing younger faces."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The supplied couple slow-dances on a lamp-lit veranda beside a closed wedding album resting on a small table. A framed photograph is shown only if the user supplies the actual image; otherwise use an empty frame rather than fabricated younger identities. Keep both people their present age, with comfortable swaying steps and natural affection."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": {
+      "scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "action": "Begin on the closed album and an empty frame, or the actual labelled wedding photograph if supplied.",
+          "transition": "Establish hook"
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "action": "Move to the present-day couple taking one gentle swaying step together.",
+          "transition": "Continuous progression or specified reference-backed cut"
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "action": "Hold their shared smile with the album in the foreground, connecting memory and the present.",
+          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+        }
+      ],
+      "caption": "The Album Becomes the Anniversary. Your story, your identity.",
+      "concept": "The Album Becomes the Anniversary",
+      "duration": 8,
+      "hashtags": [
+        "#PicMagic",
+        "#AIReelIdeas",
+        "#CreativeVideo"
+      ],
+      "music_mood": "Gentle instrumental with a gradual lift; choose music you have permission to use.",
+      "hook": "Begin on the closed album and an empty frame, or the actual labelled wedding photograph if supplied.",
+      "progression": "Move to the present-day couple taking one gentle swaying step together.",
+      "payoff": "Hold their shared smile with the album in the foreground, connecting memory and the present."
+    },
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult couple with distinct faces. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The Album Becomes the Anniversary. Scene: The supplied couple slow-dances on a lamp-lit veranda beside a closed wedding album resting on a small table. A framed photograph is shown only if the user supplies the actual image; otherwise use an empty frame rather than fabricated younger identities. Keep both people their present age, with comfortable swaying steps and natural affection. Lighting and framing: Warm veranda lamps with blue evening beyond; 50mm waist-up two-shot, album and both faces readable.. Aspect ratio 9:16. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "preview_video": null,
+    "distinctiveness_score": 4,
+    "why_ai": "Creates an anniversary story linking a real supplied memory to the same couple in the present without inventing younger faces.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+    "slug": "from-suitcase-to-seaside",
+    "title": "Kerala, Before the Backwaters Wake — reel",
+    "description": "The traveller in comfortable linen sits on the covered deck of a traditional Kerala boat at misty sunrise, a small closed suitcase beside the bench. Coconut palms and a low houseboat silhouette emerge from reflected fog; the traveller looks outward with quiet anticipation. Remain seated away from the water's edge. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The traveller in comfortable linen sits on the covered deck of a traditional Kerala boat at misty sunrise, a small closed suitcase beside the bench. Coconut palms and a low houseboat silhouette emerge from reflected fog; the traveller looks outward with quiet anticipation. Remain seated away from the water's edge.\n\nLighting and composition: Pale dawn mist with a narrow warm sun reflection; 35mm seated environmental frame, face unobscured by boat posts. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start on the closed suitcase clasp beside the seated traveller.\n2–6 seconds: PROGRESSION: Rise to their face as they notice the water outside.\n6–8 seconds: PAYOFF: Reveal the mist parting around palms and a distant houseboat.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "category_id": "reels",
+    "prompt_type": "reel",
+    "subject": "Woman",
+    "style": [
+      "Kerala",
+      "Visual story"
+    ],
+    "occasion": "Holiday",
+    "aspect_ratio": "9:16",
+    "preview_image_url": "/previews/from-suitcase-to-seaside-editorial-v1.webp",
+    "thumbnail_url": "/previews/from-suitcase-to-seaside-editorial-v1-thumb.webp",
+    "image_width": 720,
+    "image_height": 1280,
+    "image_alt": "Kerala, Before the Backwaters Wake: The traveller in comfortable linen sits on the covered deck of a traditional Kerala boat at misty sunrise, a small closed suitcase beside the bench. Coconut palms and a low houseboat silhouette emerge from reflected fog; the traveller looks outward with quiet anticipation. Remain seated away from the water's edge.",
+    "lighting": "Pale dawn mist with a narrow warm sun reflection",
+    "framing": "35mm seated environmental frame, face unobscured by boat posts.",
+    "camera": "35mm seated environmental frame, face unobscured by boat posts.",
+    "suggested_tools": [
+      "Veo",
+      "Kling",
+      "Runway",
+      "Sora"
+    ],
+    "tags": [
+      "Travel",
+      "Transformation",
+      "kerala",
+      "before",
+      "the",
+      "backwaters",
+      "wake"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 14,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Kerala, Before the Backwaters Wake — reel AI Reel Prompt",
+    "seo_description": "Creates a rare backwater dawn arrival with coordinated fog, boat setting and readable human scale. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates a rare backwater dawn arrival with coordinated fog, boat setting and readable human scale."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The traveller in comfortable linen sits on the covered deck of a traditional Kerala boat at misty sunrise, a small closed suitcase beside the bench. Coconut palms and a low houseboat silhouette emerge from reflected fog; the traveller looks outward with quiet anticipation. Remain seated away from the water's edge."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": {
+      "scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "action": "Start on the closed suitcase clasp beside the seated traveller.",
+          "transition": "Establish hook"
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "action": "Rise to their face as they notice the water outside.",
+          "transition": "Continuous progression or specified reference-backed cut"
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "action": "Reveal the mist parting around palms and a distant houseboat.",
+          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+        }
+      ],
+      "caption": "Kerala, Before the Backwaters Wake. Your story, your identity.",
+      "concept": "Kerala, Before the Backwaters Wake",
+      "duration": 8,
+      "hashtags": [
+        "#PicMagic",
+        "#AIReelIdeas",
+        "#CreativeVideo"
+      ],
+      "music_mood": "Gentle instrumental with a gradual lift; choose music you have permission to use.",
+      "hook": "Start on the closed suitcase clasp beside the seated traveller.",
+      "progression": "Rise to their face as they notice the water outside.",
+      "payoff": "Reveal the mist parting around palms and a distant houseboat."
+    },
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult woman. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for Kerala, Before the Backwaters Wake. Scene: The traveller in comfortable linen sits on the covered deck of a traditional Kerala boat at misty sunrise, a small closed suitcase beside the bench. Coconut palms and a low houseboat silhouette emerge from reflected fog; the traveller looks outward with quiet anticipation. Remain seated away from the water's edge. Lighting and framing: Pale dawn mist with a narrow warm sun reflection; 35mm seated environmental frame, face unobscured by boat posts.. Aspect ratio 9:16. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a rare backwater dawn arrival with coordinated fog, boat setting and readable human scale.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  },
+  {
+    "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+    "slug": "one-city-one-beautiful-evening",
+    "title": "The City Pauses for You — reel",
+    "description": "The person stands on a Tokyo pedestrian bridge in a navy coat while commuters beyond the railing become elongated motion trails. Their face and a single raindrop on the railing remain sharp; distant railway lights form parallel lines. Keep the subject safely inside the bridge, no frozen airborne vehicles or cloned crowds. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an eight-second reel. The person stands on a Tokyo pedestrian bridge in a navy coat while commuters beyond the railing become elongated motion trails. Their face and a single raindrop on the railing remain sharp; distant railway lights form parallel lines. Keep the subject safely inside the bridge, no frozen airborne vehicles or cloned crowds.\n\nLighting and composition: Wet blue-hour reflections and warm train lights; 50mm waist-up sharp subject with layered horizontal motion behind. Compose for 9:16.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the sharp raindrop while blurred lights pass behind.\n2–6 seconds: PROGRESSION: Focus shifts to the still person looking towards camera.\n6–8 seconds: PAYOFF: Reveal the train and commuter trails moving around the one calm subject.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.",
+    "category_id": "reels",
+    "prompt_type": "reel",
+    "subject": "Man",
+    "style": [
+      "The City Pauses for You",
+      "Visual story"
+    ],
+    "occasion": "Everyday",
+    "aspect_ratio": "9:16",
+    "preview_image_url": "/previews/one-city-one-beautiful-evening-editorial-v1.webp",
+    "thumbnail_url": "/previews/one-city-one-beautiful-evening-editorial-v1-thumb.webp",
+    "image_width": 720,
+    "image_height": 1280,
+    "image_alt": "The City Pauses for You: The person stands on a Tokyo pedestrian bridge in a navy coat while commuters beyond the railing become elongated motion trails. Their face and a single raindrop on the railing remain sharp; distant railway lights form parallel lines. Keep the subject safely inside the bridge, no frozen airborne vehicles or cloned crowds.",
+    "lighting": "Wet blue-hour reflections and warm train lights",
+    "framing": "50mm waist-up sharp subject with layered horizontal motion behind.",
+    "camera": "50mm waist-up sharp subject with layered horizontal motion behind.",
+    "suggested_tools": [
+      "Veo",
+      "Kling",
+      "Runway",
+      "Sora"
+    ],
+    "tags": [
+      "Cinematic",
+      "Urban",
+      "the",
+      "city",
+      "pauses",
+      "for",
+      "you"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 15,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The City Pauses for You — reel AI Reel Prompt",
+    "seo_description": "Creates an identity-led time-freeze city sequence using multiple exposure speeds and a precisely timed train passage. Reference-first prompting.",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-10T18:00:00.000Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "question": "What makes this concept worth creating with AI?",
+        "answer": "Creates an identity-led time-freeze city sequence using multiple exposure speeds and a precisely timed train passage."
+      },
+      {
+        "question": "Which visual details should I check?",
+        "answer": "The person stands on a Tokyo pedestrian bridge in a navy coat while commuters beyond the railing become elongated motion trails. Their face and a single raindrop on the railing remain sharp; distant railway lights form parallel lines. Keep the subject safely inside the bridge, no frozen airborne vehicles or cloned crowds."
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": {
+      "scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "action": "Begin on the sharp raindrop while blurred lights pass behind.",
+          "transition": "Establish hook"
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "action": "Focus shifts to the still person looking towards camera.",
+          "transition": "Continuous progression or specified reference-backed cut"
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "action": "Reveal the train and commuter trails moving around the one calm subject.",
+          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+        }
+      ],
+      "caption": "The City Pauses for You. Your story, your identity.",
+      "concept": "The City Pauses for You",
+      "duration": 8,
+      "hashtags": [
+        "#PicMagic",
+        "#AIReelIdeas",
+        "#CreativeVideo"
+      ],
+      "music_mood": "Gentle instrumental with a gradual lift; choose music you have permission to use.",
+      "hook": "Begin on the sharp raindrop while blurred lights pass behind.",
+      "progression": "Focus shifts to the still person looking towards camera.",
+      "payoff": "Reveal the train and commuter trails moving around the one calm subject."
+    },
+    "image_brief": "HOUSE PREVIEW PERSONA ONLY: Use an Indian/South Asian adult man. Vary believable complexion, age-appropriate features, hair and body proportions across the library. Do not reuse another preview model. Create one original standalone photograph for The City Pauses for You. Scene: The person stands on a Tokyo pedestrian bridge in a navy coat while commuters beyond the railing become elongated motion trails. Their face and a single raindrop on the railing remain sharp; distant railway lights form parallel lines. Keep the subject safely inside the bridge, no frozen airborne vehicles or cloned crowds. Lighting and framing: Wet blue-hour reflections and warm train lights; 50mm waist-up sharp subject with layered horizontal motion behind.. Aspect ratio 9:16. This is the keyframe for the full concept, not a collage or storyboard. Natural texture, accurate anatomy, no watermark or generated text. Keep major props, faces and concept details inside the frame.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates an identity-led time-freeze city sequence using multiple exposure speeds and a precisely timed train passage.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_video": null,
+    "preview_review_status": "replacement-required"
+  }
+]

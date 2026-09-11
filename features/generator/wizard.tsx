@@ -269,11 +269,7 @@ export function Wizard({ mode = "photo" }: { mode?: Mode }) {
             <button className="chip" onClick={() => improve("shorten")}>
               Shorten prompt
             </button>
-            {input.subject !== "Product" && (
-              <button className="chip" onClick={() => improve("identity")}>
-                Add identity preservation
-              </button>
-            )}
+
           </div>
           {result.scenes && (
             <>
@@ -346,16 +342,7 @@ export function Wizard({ mode = "photo" }: { mode?: Mode }) {
               ))}
             </div>
             {step === steps.length - 1 && input.subject !== "Product" && (
-              <label className="checkbox-field">
-                <input
-                  type="checkbox"
-                  checked={Boolean(input.identity)}
-                  onChange={(e) =>
-                    setInput({ ...input, identity: e.target.checked })
-                  }
-                />
-                Ask the tool to preserve my identity
-              </label>
+              <p className="notice">Your reference photo determines identity. Without a reference, the prompt uses an Indian/South Asian example. Styling can change while recognizable features remain yours.</p>
             )}
             <div className="wizard-buttons">
               <button

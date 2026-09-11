@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cinematic-ladakh-friends-trip",
+    "type": "image",
+    "editorial_status": "approved",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "status": "queued-reference-edit",
+    "prompt": "Use the supplied four-friends photograph as the authoritative identity reference, not as a suggestion. Exactly four distinct friends must remain: preserve each face, facial structure, age, hairline, distinguishing features, actual skin tone, ethnicity and natural body proportions independently. Do not invent Indian/South Asian replacement models. Create one 9:16 portrait-oriented keyframe, 1080×1920, showing all four together with readable faces and complete natural limbs at a safe broad Ladakh viewpoint. Recompose the environment around the whole group; never obtain the vertical frame by cropping out the outer friends. Preserve their left-to-right identity order and familiar wardrobe where possible, adapting only natural posture, small smiles and plausible wind. Believable arid Himalayan ranges, high-altitude rocky ground, natural blue sky and daylight. Use a medium-wide group framing with landscape above and below; face detail takes priority over enormous empty scenery. No other people, merged faces, swapped faces, duplicates, body reshaping, smoothing, invented landmarks, typography, logos or watermark. This is a new Ladakh concept image, not a claim about where the original photo was taken. Compare all four faces to the source before approving.",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "aspect_ratio": "9:16",
+    "target": "public/previews/cinematic-ladakh-friends-trip-poster.webp",
+    "used_by": [
+      "cinematic-ladakh-friends-trip"
+    ],
+    "workflow": "ChatGPT reference-image editing first; Codex fallback only when ChatGPT limits are exhausted under the owner's existing instruction. No paid API.",
+    "source_reference": "output/originals/friends-trip-87146888100f.jpeg",
+    "source_sha256": "87146888100fe9c7ab9b94ffaa8363aa112a41c5b179292cc6ee98c3d0269777",
+    "reviewed_prompt_hashes": {
+      "cinematic-ladakh-friends-trip": "4e124b4d324bf4c46ed6e63cc5b858c95ffd0c984b48d690843805d9ef17d4a4"
+    },
+    "score": 5
+  }
+]

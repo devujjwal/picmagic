@@ -1,0 +1,22 @@
+{
+  "slug": "something-good-in-the-kitchen",
+  "relatedSlugs": [
+    "something-good-in-the-kitchen-reel"
+  ],
+  "source": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-0aab6139-e5f7-40dd-9341-0293c0708a21.png",
+  "provider": "codex-built-in",
+  "fallbackReason": "Owner authorized Codex fallback after ChatGPT displayed Too many requests. This image/edit was already submitted before the editorial generation pause; no new generation request made.",
+  "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables.  Lighting and framing: bright diffused daylight; 35mm documentary. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+  "editPrompts": [
+    "Change only the kitchen activity: remove the knife and chopping gesture. Put a ceramic mixing bowl on the counter in front of the same man; his right hand holds a wooden spoon resting inside the bowl, his left hand lightly steadies the bowl. Keep cut vegetables nearby. Preserve exactly the same man, face, curls, apron, outfit, warm smile, kitchen, light, 4:5 framing and natural anatomy. No knives anywhere. This is the still starting frame before a gentle stirring motion."
+  ],
+  "alt": "A man in a green shirt and linen apron gently stirring vegetables in a ceramic bowl beside a bright kitchen window.",
+  "review": "Reviewed full-resolution existing completed output during editorial pass. The safe bowl-and-spoon activity, warm candid expression, shirt/apron, single adult and bright kitchen match retained dating-profile utility; no knife, duplicated hands or implausible anatomy visible. House preview persona follows the original Indian/South Asian brief. This is utility, not featured creative inspiration.",
+  "approved": true,
+  "aspect_ratio": "4:5",
+  "editorialReviewVersion": "why-ai-2026-09-v1",
+  "reviewedPromptHashes": {
+    "something-good-in-the-kitchen": "aadfeb068c6a9d3f976fc90a5dfd4dfdd1f6c2c0a0f27b10f688021c3d1a04c4",
+    "something-good-in-the-kitchen-reel": "ed7e1dbb8ec308705e87b050cddccf23ec56739889b15ee79b3d3adcf243b9e1"
+  }
+}

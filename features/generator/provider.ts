@@ -1,4 +1,9 @@
 import { z } from "zod";
+import {
+  personaPreamble,
+  referencePersona,
+  productPersona,
+} from "@/lib/prompts/persona";
 // Avoid runtime code generation so validation works under the production CSP.
 z.config({ jitless: true });
 export const subjects = [
@@ -91,6 +96,7 @@ export const inputSchema = z
     framing: z.enum(framings),
     aspect_ratio: z.enum(ratios),
     identity: z.boolean().default(false),
+    recrop: z.boolean().default(false),
     age_group: z
       .enum(["Keep original age", "Child", "Adult", "Older adult"])
       .default("Keep original age"),
@@ -161,8 +167,7 @@ export interface ImageGenerationProvider {
     referenceImage?: Blob;
   }): Promise<{ url: string }>;
 }
-export const identityInstruction =
-  "Preserve the facial identity, face shape, eye shape, nose, lips, hairstyle, skin tone and natural proportions of the person in the reference image. Preserve their age and realistic skin texture. Do not replace the face, excessively smooth skin, exaggerate body proportions or drift from their identity.";
+export const identityInstruction = referencePersona;
 export const referenceDetailInstruction =
   "Essential reference details: retain the original hair part, length and texture, facial hair, expression, gaze, spectacles, jewellery, headwear and visible cultural marks such as a bindi or tilak unless a requested direction explicitly changes that detail. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
 export function interpolate(
@@ -223,41 +228,46 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     const product = v.subject === "Product";
     const subject = product
       ? "the product in the reference, preserving its geometry, materials and existing label text"
-      : `the ${v.subject.toLowerCase()} in the reference photo, preserving the original age and natural proportions`;
+      : `the person or group from the reference when supplied, otherwise the fictional ${v.subject.toLowerCase()} specified above. Preserve the original age and natural proportions. If the reference does not match the requested ${v.subject.toLowerCase()} concept or omits intended group members, ask for suitable complete references instead of changing age or inventing people`;
     const pose = product
       ? "a clean three-quarter product presentation with stable geometry"
       : poses[v.variant % poses.length];
     return {
-      text: interpolate(
-        "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{identity_preservation}} {{reference_details}}",
-        {
-          style: v.style.toLowerCase(),
-          subject,
-          background: v.background.toLowerCase(),
-          lighting: v.lighting.toLowerCase(),
-          pose,
-          outfit: product
-            ? "restrained supporting props that do not obscure the product"
-            : v.outfit.toLowerCase(),
-          framing: v.framing.toLowerCase(),
-          camera: product
-            ? "90mm macro lens, f/8, controlled reflections"
-            : v.framing === "Wide"
-              ? "35mm lens, f/5.6, environment in context"
-              : "85mm lens, f/4, subject clearly in focus",
-          texture: product
-            ? "Retain fine material texture, legible original labels and realistic reflections."
-            : "Retain skin texture and believable hands. Avoid beauty filters and exaggerated proportions.",
-          aspect_ratio: v.aspect_ratio,
-          identity_preservation:
-            v.identity && !product
+      text:
+        personaPreamble(
+          product ? "product" : "person",
+          v.subject === "Kid" ? "child" : v.subject,
+        ) +
+        "\n\n" +
+        interpolate(
+          "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{identity_preservation}} {{reference_details}}",
+          {
+            style: v.style.toLowerCase(),
+            subject,
+            background: v.background.toLowerCase(),
+            lighting: v.lighting.toLowerCase(),
+            pose,
+            outfit: product
+              ? "restrained supporting props that do not obscure the product"
+              : v.outfit.toLowerCase(),
+            framing: v.framing.toLowerCase(),
+            camera: product
+              ? "90mm macro lens, f/8, controlled reflections"
+              : v.framing === "Wide"
+                ? "35mm lens, f/5.6, environment in context"
+                : "85mm lens, f/4, subject clearly in focus",
+            texture: product
+              ? "Retain fine material texture, legible original labels and realistic reflections."
+              : "Retain skin texture and believable hands. Avoid beauty filters and exaggerated proportions.",
+            aspect_ratio: v.aspect_ratio,
+            identity_preservation: !product
               ? identityInstruction
               : "Do not add watermarks or unwanted text.",
-          reference_details: product
-            ? "Essential reference details: preserve the exact cap, handle, label, logo, geometry and material texture of the supplied product. Keep the complete object visible and never replace its branding with invented lettering."
-            : referenceDetailInstruction,
-        },
-      ),
+            reference_details: product
+              ? "Essential reference details: preserve the exact cap, handle, label, logo, geometry and material texture of the supplied product. Keep the complete object visible and never replace its branding with invented lettering."
+              : referenceDetailInstruction,
+          },
+        ),
     };
   }
   generatePhotoEditPrompt(input: GeneratorInput): GeneratedPrompt {
@@ -295,7 +305,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
                 ? "Retain the source's monochrome or colour treatment; do not colourize unless requested."
                 : "";
       return {
-        text: `Edit the supplied photo. ${editDirections[v.improvement]} ${requested} ${identity} ${product ? "Preserve all original product details, placement and supporting props outside the requested edit." : `${referenceDetailInstruction} Preserve the original expression, pose, outfit and background except for the specifically requested change.`} Output aspect ratio: ${v.aspect_ratio}; retain the original crop where possible${product ? "" : " and do not invent unseen body parts"}. No added text or watermarks.`,
+        text: `${personaPreamble(product ? "product" : "person", v.subject, true)}\n\nEdit the supplied photo. ${editDirections[v.improvement]} ${requested} ${identity} ${product ? "Preserve all original product details, placement and supporting props outside the requested edit." : `${referenceDetailInstruction} Preserve the original expression, pose, outfit and background except for the specifically requested change.`} ${v.recrop ? `Recrop to ${v.aspect_ratio} only as explicitly requested` : "Preserve the source aspect ratio and original crop; do not recrop merely to match the preview"}${product ? "" : " and do not invent unseen body parts"}. No added text or watermarks.`,
       };
     }
     const base = this.generatePhotoPrompt({
@@ -314,36 +324,74 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
   }
   generateReelPrompt(input: GeneratorInput): GeneratedPrompt {
     const v = inputSchema.parse(input);
-    const count = v.duration === 5 ? 2 : 3;
-    const scenes: Array<Scene> = Array.from({ length: count }, (_, i) => ({
-      start: Math.round((i * v.duration) / count),
-      end: Math.round(((i + 1) * v.duration) / count),
-      action:
-        v.subject === "Product"
+    // Guided results are user-directed utility, not automatically approved library concepts.
+    // Every duration still includes a specific reveal, action and resolution.
+    const story =
+      v.subject === "Product"
+        ? [
+            "HOOK: Begin close on one supplied distinguishing material or functional detail.",
+            "PROGRESSION: Reveal the same product at realistic tabletop scale, showing only reference-supported surfaces.",
+            "PAYOFF: Hold the complete unchanged product with readable original label and enough context to understand its size.",
+          ]
+        : v.subject === "Couple"
           ? [
-              "Reveal the product with a gentle change of reflected light.",
-              "Show a close detail of the material or packaging.",
-              "Return to the hero composition and hold the last frame.",
-            ][i]
-          : [
-              `${v.subject} begins a subtle natural gesture in the setting.`,
-              `${v.subject} continues the same action; preserve facial identity and clothing.`,
-              `${v.subject} settles into a relaxed final pose; hold the final frame.`,
-            ][(i + v.variant) % 3],
+              "HOOK: Begin on one folded, unmarked note between the couple’s nearest hands.",
+              "PROGRESSION: One person passes the note; the other receives it with a natural small smile.",
+              "PAYOFF: Reveal both unchanged people sharing a connected glance, with the note still in the recipient’s hand.",
+            ]
+          : v.subject === "Family"
+            ? [
+                "HOOK: Start on a closed family album held securely by an adult.",
+                "PROGRESSION: The family gathers closer and exchanges a warm glance; do not invent photographs inside the album.",
+                "PAYOFF: Reveal every supplied family member together with the album still closed, preserving exact identities and count.",
+              ]
+            : v.subject === "Kid"
+              ? [
+                  "HOOK: Start on a large paper pinwheel held safely by the child with an adult nearby if needed.",
+                  "PROGRESSION: A gentle breeze turns the pinwheel and the child responds with a small delighted smile.",
+                  "PAYOFF: Reveal the same recognizable child and the selected setting; keep posture supported and natural.",
+                ]
+              : [
+                  "HOOK: Start on a small folded, unmarked map held in the person’s relaxed hand.",
+                  "PROGRESSION: The person looks up from the map towards something beyond camera with quiet anticipation.",
+                  "PAYOFF: Reveal the unchanged person within the selected environment, making the destination the answer to their glance.",
+                ];
+    const boundaries = [
+      0,
+      Math.max(1, Math.round(v.duration * 0.25)),
+      Math.round(v.duration * 0.75),
+      v.duration,
+    ];
+    const scenes: Array<Scene> = story.map((action, i) => ({
+      start: boundaries[i],
+      end: boundaries[i + 1],
+      action,
       camera: [
-        "Slow establishing push-in",
-        "Restrained lateral detail move",
-        "Steady medium framing",
+        "Close detail establishing the question",
+        "Follow the specified action without morphing",
+        "Wider reveal and stable final hold",
       ][i],
       environment: v.background,
       lighting: v.lighting,
-      transition: i === count - 1 ? "Hold and end" : "Match cut on movement",
+      transition:
+        i === 2
+          ? "Hold and end within the selected duration"
+          : "Continuous movement or reference-consistent match cut",
     }));
-    const concept = `A ${v.mood.toLowerCase()} ${v.subject.toLowerCase()} story in ${v.background.toLowerCase()}`;
+    const concept =
+      v.subject === "Product"
+        ? "From a defining detail to the complete product"
+        : v.subject === "Couple"
+          ? "One note, a shared moment"
+          : v.subject === "Family"
+            ? "The people behind the family album"
+            : v.subject === "Kid"
+              ? "A little breeze, a little wonder"
+              : "The destination behind the glance";
     return {
       concept,
       scenes,
-      text: `Create a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} ${v.subject === "Product" ? "Essential continuity: preserve the exact product shape, cap, label, material, liquid level and props across every shot; reflections should move consistently with the camera." : `Wardrobe: ${v.outfit}. ${referenceDetailInstruction} Essential continuity: keep the same people, age, hairstyle, facial marks, jewellery and wardrobe across every shot; expressions change only subtly with the action.`} Keep the final hold inside the selected duration. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
+      text: `${personaPreamble(v.subject === "Product" ? "product" : "person", v.subject)}\n\nCreate a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} ${v.subject === "Product" ? `${productPersona} Essential continuity: preserve the exact product shape, cap, label, material, liquid level and props across every shot; reflections should move consistently with the camera.` : `Wardrobe: ${v.outfit}. ${referenceDetailInstruction} Essential continuity: keep the same people, age, hairstyle, facial marks, jewellery and wardrobe across every shot; expressions change only subtly with the action.`} Keep the final hold inside the selected duration. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
       caption: `${v.mood === "Funny" ? "A little unexpected joy." : "A moment worth keeping."} ${v.subject === "Product" ? "It’s all in the details." : "Make this story your own."}`,
       hashtags: ["#PicMagic", `#${v.subject}Reel`, "#CreativeVideo"],
       music:
@@ -363,23 +411,20 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
       identity: identityInstruction,
     };
     if (kind === "shorten") {
-      const sentences = result.text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [
-        result.text,
-      ];
-      return {
-        ...result,
-        text: sentences
-          .filter(
-            (s, i) =>
-              i < 5 ||
-              /aspect ratio|preserv|retain|do not|never|unless|only|essential|appearance|expression|gaze|hair|bindi|tilak|jewellery|accessor|wardrobe|styling|outfit|framing|Scene|second|continuity/i.test(
-                s,
-              ),
-          )
-          .join(" ")
-          .replace(/\s+/g, " ")
-          .trim(),
-      };
+      return { ...result, text: result.text.replace(/\s+/g, " ").trim() };
+    }
+    if (kind === "identity") {
+      // Existing person, product or artistic contracts already govern identity.
+      const instruction =
+        /PRODUCT REFERENCE:/.test(result.text) &&
+        !/REFERENCE PRESENT:/.test(result.text)
+          ? productPersona
+          : /relative complexion|artistic pigment/.test(result.text)
+            ? "Retain the reference facial geometry and age cues in the declared artistic palette; do not replace the identity."
+            : identityInstruction;
+      return result.text.includes(instruction)
+        ? result
+        : { ...result, text: `${result.text} ${instruction}` };
     }
     return result.text.includes(additions[kind])
       ? result

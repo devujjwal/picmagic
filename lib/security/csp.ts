@@ -8,6 +8,7 @@ export function contentSecurityPolicy(nonce: string, advertising: boolean) {
     `script-src 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline'${advertising || development ? " 'unsafe-eval'" : ""} https:`,
     "style-src 'self' 'unsafe-inline' https:",
     "img-src 'self' data: blob: https:",
+    "media-src 'self'",
     "font-src 'self' data: https:",
     advertising
       ? "connect-src 'self' https:"

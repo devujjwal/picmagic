@@ -1,0 +1,62 @@
+{
+  "stage": "editorial pass before bulk generation",
+  "production_changed": false,
+  "lint": "passed",
+  "typecheck": "passed",
+  "unit_tests": {
+    "passed": 95,
+    "failed": 0,
+    "files": 14
+  },
+  "editorial_and_admin_e2e": {
+    "passed": 8,
+    "failed": 0,
+    "projects": [
+      "Chromium desktop",
+      "iPhone 13 mobile"
+    ],
+    "google_vendor_requests": "stubbed; no live test ad/analytics requests"
+  },
+  "content_validation": {
+    "passed": true,
+    "records": 161,
+    "collections": 38,
+    "published_local": 43,
+    "held_for_media": 118,
+    "missing_files_on_published_records": 0
+  },
+  "local_database": {
+    "migration_applied": "202609100004_editorial_quality.sql",
+    "target": "disposable picmagic-release-qa only",
+    "assertions_passed": 6,
+    "mutation_test_transaction": "rolled back"
+  },
+  "production_build": "passed locally with noindex QA configuration",
+  "responsive_widths": [
+    320,
+    375,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "responsive_horizontal_overflow": false,
+  "manual_review": [
+    "desktop homepage screenshot",
+    "mobile utility category screenshot",
+    "existing kitchen source accepted for retained utility",
+    "existing mountain source rejected for changed full-body cloud-walk concept"
+  ],
+  "release_gate": {
+    "status": "blocked as intended",
+    "unresolved_checks": 322,
+    "reason": "Unapproved/missing replacement imagery, 118 held records and incomplete collection media; no deployment attempted."
+  },
+  "deferred": [
+    "bulk approved-media production",
+    "final asset-complete Lighthouse and accessibility run",
+    "final full release E2E suite",
+    "single production deployment and live verification"
+  ],
+  "evidence_directory": "docs/qa/editorial"
+}

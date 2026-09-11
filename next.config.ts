@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const config: NextConfig = {
+  distDir: process.env.PICMAGIC_DIST_DIR || ".next",
   // Keep canonical and description tags in the initial head for every client.
   htmlLimitedBots: /.*/,
   // The small Tailwind stylesheet can arrive with HTML on slow mobile networks.

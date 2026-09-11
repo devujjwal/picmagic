@@ -1,0 +1,618 @@
+[
+  {
+    "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+    "slug": "the-river-remembers",
+    "title": "The River Remembers",
+    "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult traveller. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a travel-memory artwork: the traveller rests an open blank journal on a ghat step. A single curved indigo ink shoreline flows out of the page and becomes the real river behind them. Keep the face, hand and nearest stone photographic; ink never crosses the face or makes the person dissolve. Copper sunset light, cream paper and practical indigo cotton clothing. Frame the journal transition prominently enough to read at small size, with a clear three-quarter portrait and unblocked face. Incidental distant people, if present, are not substitute identity subjects. Do not reproduce private handwriting or add lettering.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "travel",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Photo Illustration",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-river-remembers-creative-v2.webp",
+    "thumbnail_url": "/previews/the-river-remembers-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Woman beside a river at sunset, with an indigo ink shoreline flowing from her open journal into the real water",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "photo-illustration",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 1,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "The River Remembers | PicMagic",
+    "seo_description": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "One clear adult portrait; optional owned river/location photograph. No requirement to upload handwriting or private journal pages."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance. One recognizable face and actual proportions; keep the photographic face outside the painted region."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "photo-illustration",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+    "slug": "our-courtyard-small-enough-to-hold",
+    "title": "Our Courtyard, Small Enough to Hold",
+    "description": "A handcrafted shallow courtyard model sits on a wide wooden shelf. Three family members gather around a tiny chessboard near its front edge, large enough for readable faces. Rear balconies recede in painted card and carved wood; visible glue seams and scale make it a handmade memory rather than a normal house photograph. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian three family members with a believable mix of ages. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a shallow handcrafted courtyard model displayed on a substantial wooden shelf. Gather all intended family members around a small chessboard near the front, with each face large enough to read. Preserve the supplied group's actual count, identities and relative ages; the preview's three people do not override a different supplied family. If references are incomplete or conflicting, ask who belongs in the scene. Uniformly reduce the group to miniature scale without changing relative anatomy. Teal balconies, warm plaster, terracotta tiles, visible cutaway walls, carved wood and paper edges establish a handmade memory. Faces remain individually rendered, not blank doll faces. Keep the complete shelf and model in frame. Distant buildings must contain no added family members or portrait faces.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "family",
+    "prompt_type": "photo",
+    "subject": "Family",
+    "style": [
+      "Miniature Memory",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+    "thumbnail_url": "/previews/our-courtyard-small-enough-to-hold-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Three family members playing chess in a miniature courtyard model on a wooden shelf",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "miniature-memory",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 3,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Our Courtyard, Small Enough to Hold | PicMagic",
+    "seo_description": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "All family members independently labelled; optional owned home photo. Adapt composition to actual family count, not the fictional sample's three."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Uniform scale and surrounding building material; faces remain carefully rendered rather than blank figurines. Each person's age, recognizable landmarks and relative body proportions; distinguish identity count from miniature scale."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create an original finished PicMagic artwork, Our Courtyard, Small Enough to Hold. A handcrafted shallow courtyard model sits on a wide wooden shelf. Exactly THREE distinct fictional Indian family members gather around a tiny chessboard near the front edge, large enough for readable faces: an older woman around 68 with grey braid, deep-brown complexion and visible age lines; a man around 36 with short hair and medium-brown complexion; a child around 9 with wavy hair and light-brown complexion. Everyday cotton clothes, natural different expressions, ordinary anatomies. Rear balconies recede in painted card and carved wood; visible glue seams, paper edges, a cutaway wall and the thick shelf establish this as a handmade miniature memory rather than a normal house photograph. Warm plaster, teal balcony, terracotta tiles. Uniform miniature scale, believable hands and chess pieces; faces carefully rendered with facial features rather than blank dolls. Shallow set, foreground family relatively large, coherent warm side-light and soft model shadows. 4:5 vertical, target 1200 × 1500 pixels. No extra people or portraits in the background, no text, logos, doll-like smooth skin or watermark. The entire shelf/model should fit within the frame. Generate the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "miniature-memory",
+    "display_hint": "wide",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": null,
+      "depiction_count": 1,
+      "reference_age": "preserve",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+    "slug": "a-mountain-journey-within",
+    "title": "A Mountain Journey Within",
+    "description": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult traveller. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a controlled double-exposure portrait. Keep the single almost-frontal face fully photographic and naturally illuminated from eyes to mouth. Inside the jacket and outer shoulder silhouette, build slate Himalayan mountain layers, a warm winding road and one tiny unoccupied roadside tent. A pale sky separates facial edges from scenery. The road never crosses eyes or mouth; the face must not appear hollow or dissolving. Exactly one depiction of the reference person, no extra human silhouettes. This is a visual travel metaphor, not evidence of an actual expedition.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "travel",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Controlled Double Exposure",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/a-mountain-journey-within-creative-v2.webp",
+    "thumbnail_url": "/previews/a-mountain-journey-within-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Mature man with a clear photographic face above a Himalayan road and mountain landscape blended into his jacket",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "controlled-double-exposure",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 5,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "A Mountain Journey Within | PicMagic",
+    "seo_description": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "One clear head-and-shoulders portrait; optional owned landscape. One identity and one depiction."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Eyes, nose, mouth, face geometry and hairline in a photographic neutral-lit zone."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "controlled-double-exposure",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "6251657f-6842-59e3-9066-82529471c802",
+    "slug": "the-tailors-mountain-range",
+    "title": "The Tailor's Mountain Range",
+    "description": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult designer. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a surreal-scale artwork of the reference person as a miniature designer among enormous mountain-like folds of indigo woven cloth. One oversized pale wooden spool anchors scale; a stitched seam winds like a trail toward a fabric pass. The person stands close in the foreground, large enough for a readable face, with practical rust workwear and a small sewing bag. Scale the whole body uniformly without changing physique or relative anatomy. Coherent contact shadows, visible cloth fibres and woodgrain, soft side light and distant depth falloff. No extra people or tiny anonymous protagonist. This personal artwork does not claim an exact manufactured garment design.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "fashion",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Surreal Scale",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-tailors-mountain-range-creative-v2.webp",
+    "thumbnail_url": "/previews/the-tailors-mountain-range-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Miniature tailor with spectacles beside an enormous spool and mountain-like indigo fabric folds",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "surreal-scale",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 6,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "The Tailor's Mountain Range | PicMagic",
+    "seo_description": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "One adult portrait; optional owned textile texture used as material inspiration, not proof of the completed garment."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Cloth and sewing props into a large landscape, practical workwear and stance. Person identity, age and relative anatomy, uniformly reduced in scale."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "surreal-scale",
+    "display_hint": "wide",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+    "slug": "one-day-four-possible-worlds",
+    "title": "One Day, Four Possible Worlds",
+    "description": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult shown in four intentional depictions. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate One Day, Four Possible Worlds as a 3:4 asymmetric composition. Use ONE reference identity in FOUR intentional depictions, not four different people. A dominant portrait in an ochre work shirt fills the left two-thirds. Three unequal curved windows at right show that same person as a night-sky observer beside a telescope, a focused pottery maker shaping one bowl, and a mountain traveller on a winding road. Faces stay readable in every window, with the same age, hairline, face geometry and physique. Clothing and expression may vary naturally; preserve the supplied complexion under neutral face light. No blended bodies or fifth depiction. These are imagined pursuits, not claims of real qualifications. If the reference contains several people, ask which one is intended. Create a stable reference-conditioned scene first; compare identity before assembling the full composition. Keep every panel inside the crop.\n\nOUTPUT: 3:4 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Multi Scene Identity",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "3:4",
+    "preview_image_url": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+    "thumbnail_url": "/previews/one-day-four-possible-worlds-creative-v2-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1440,
+    "image_alt": "The same fictional man in four curved panels: a main portrait, stargazing, making pottery and mountain travel",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "multi-scene-identity",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 7,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "One Day, Four Possible Worlds | PicMagic",
+    "seo_description": "Offers four coherent imagined lives from one reference without organising four shoots.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "A clear frontal and optional three-quarter portrait of one adult. One identity, four intentional depictions. Choose pursuits rather than claim real accomplishments."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Environment, practical wardrobe and expression per pursuit; changes do not imply different ethnic identities. Same recognizable face, age, hairline and physique in all four depictions."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Offers four coherent imagined lives from one reference without organising four shoots.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "multi-scene-identity",
+    "display_hint": "wide",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 4,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+    "slug": "portrait-cut-from-monsoon-paper",
+    "title": "Portrait Cut from Monsoon Paper",
+    "description": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person is authoritative for identity. Preserve recognizable facial geometry, eye spacing, distinguishing features, age cues, ethnicity, natural proportions and hairline. Translate their relative complexion values into the explicitly declared paper or ink palette; artistic pigment is not literal photographic skin colour or a change of ethnicity. Keep facial landmarks and marks legible in the new medium. The PicMagic example supplies the art treatment and composition only; never substitute its model's face.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nTranslate the reference portrait into a close layered paper-relief artwork. Create cheek and nose planes through torn, cut, folded and stacked paper, with real edge thickness, visible fibres and shallow cast shadows, not a flat texture filter. Use warm umber, indigo, cream and grey paper tones; preserve the reference's relative complexion values and distinguishing age cues in the material translation. Curve monsoon-cloud forms behind the head, never across the eyes. Keep the original gentle expression and recognizable mouth asymmetry, eye spacing and hairline. No unrelated collage faces, stereotyped facial simplification or age reduction. Soft gallery side light reveals the physical relief.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Physical Material Portrait",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "thumbnail_url": "/previews/portrait-cut-from-monsoon-paper-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Layered paper-relief portrait of an older woman, with grey paper hair and indigo cloud shapes behind her",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "physical-material-portrait",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 8,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Portrait Cut from Monsoon Paper | PicMagic",
+    "seo_description": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "One clear frontal portrait with visible facial landmarks; no identity claim from a generic paper silhouette."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Skin and hair appearance into a declared paper palette; preserve relative complexion values without claiming literal skin material or ethnicity change. Facial geometry, age cues, hairline and distinguishing features as translated material forms."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "physical-material-portrait",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "artistic-palette",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+    "slug": "last-train-two-ink-portrait",
+    "title": "The Last Train, Printed in Two Inks",
+    "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person is authoritative for identity. Preserve recognizable facial geometry, eye spacing, distinguishing features, age cues, ethnicity, natural proportions and hairline. Translate their relative complexion values into the explicitly declared paper or ink palette; artistic pigment is not literal photographic skin colour or a change of ethnicity. Keep facial landmarks and marks legible in the new medium. The PicMagic example supplies the art treatment and composition only; never substitute its model's face.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a close portrait as a declared two-ink print: plum and saffron on off-white paper stock. One diagonal carriage-window shadow crosses the shoulder, never the eyes. Show coarse halftone and paper fibres, with a slight background registration offset while eye contours and age cues remain crisp. Adapt a plain period collar and a thoughtful outward glance; do not copy an actor or film poster. Decorative marks in the sample are optional styling, not required identity features. Keep actual reference marks recognizable in the print. No titles, invented lettering or photographic-skin instructions that conflict with the ink medium.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "retro",
+    "prompt_type": "photo",
+    "subject": "Person",
+    "style": [
+      "Limited Ink Print",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "thumbnail_url": "/previews/last-train-two-ink-portrait-creative-v2-thumb.webp",
+    "image_width": 960,
+    "image_height": 1200,
+    "image_alt": "Plum-and-saffron halftone portrait of a mature woman beside a railway window",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "limited-ink-print",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 9,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "The Last Train, Printed in Two Inks | PicMagic",
+    "seo_description": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "One clear portrait; expression and period collar are optional styling choices."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Entire image into a declared two-ink artwork; ink colour does not claim literal skin colour or altered ethnicity. Recognizable facial geometry, apparent age, hairline and distinguishing marks through tonal relationships."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "limited-ink-print",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "artistic-palette",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+    "slug": "one-saree-three-campaign-worlds",
+    "title": "One Saree, Three Campaign Worlds",
+    "description": "One dominant front-three-quarter model view and two supporting frames present the same saree in a basalt courtyard, a rain-lit glass pavilion and an ivory sculptural studio. Keep pose nearly constant so garment differences are detectable; environments create the campaign range. No invented rear view. Use your own reference for identity; the example supplies the creative treatment.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult model shown in three intentional depictions. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. For a fictional garment example, use a simple indigo saree with a narrow copper border and matching blouse; supplied product references always override that example.\n\nPRODUCT REFERENCE: Product fidelity takes priority. Preserve the supplied product's exact geometry, material, colour, design, pattern, weave, stitching, silhouette, label, logo and accessories actually supplied. Use only views supported by the references. Do not invent unseen construction, hide important details or redesign the item to resemble the PicMagic example. Keep model identity separate from product identity. If generated lettering or fine construction changes, use the original product layer in a composite rather than claim exact reproduction.\n\nCREATIVE DIRECTION:\n\nCreate One Saree, Three Campaign Worlds: ONE model identity intentionally shown THREE times, wearing the SAME supplied saree and blouse. Establish a stable model-and-garment fixture first and compare it before creating the panels. One dominant front-three-quarter full-length view fills the left two-thirds in a basalt courtyard. Two supporting front-three-quarter views at right show a rain-lit glass pavilion and an ivory sculptural studio. Maintain nearly the same pose and drape so garment differences can be spotted. Neutral light on the garment preserves its actual colour and weave; atmosphere changes the surrounding set. Preserve every supplied border, motif, blouse, stitch and accessory. Do not invent a back view or unseen construction. Include head to feet in all panels and do not crop the hem. If only product references are supplied, choose one fictional model once and keep that model consistent. If multiple model identities are supplied, ask which one should appear in the three depictions. No added brand names or captions.\n\nOUTPUT: 3:4 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "category_id": "fashion",
+    "prompt_type": "photo",
+    "subject": "Fashion model and garment",
+    "style": [
+      "Garment Consistent Campaign",
+      "Creative transformation"
+    ],
+    "occasion": "Creative portrait",
+    "aspect_ratio": "3:4",
+    "preview_image_url": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+    "thumbnail_url": "/previews/one-saree-three-campaign-worlds-creative-v2-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1440,
+    "image_alt": "The same woman and indigo saree with copper border in a basalt courtyard, rain-lit pavilion and pale sculptural studio",
+    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+    "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
+    "camera": "Use the declared photographic or craft medium; no unsupported camera or resolution claims.",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "garment-consistent-campaign",
+      "creative transformations",
+      "couple"
+    ],
+    "is_featured": true,
+    "is_trending": true,
+    "trending_rank": 11,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "One Saree, Three Campaign Worlds | PicMagic",
+    "seo_description": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+    "created_at": "2026-09-11T06:00:00Z",
+    "updated_at": "2026-09-11T06:00:00Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "question": "What references should I use?",
+        "answer": "Product front, border, blouse and weave references; one model identity if specified. Product references outrank generated aesthetic changes."
+      },
+      {
+        "question": "Will the result match this preview exactly?",
+        "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift."
+      },
+      {
+        "question": "What can change while keeping the reference recognizable?",
+        "answer": "Environment and lighting outside a neutrally lit garment zone. Hairstyle can be styled once and then kept consistent across panels. Exact weave, colours, border, motifs, drape-compatible silhouette and all supplied construction; one model identity across three depictions."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment.",
+    "persona_policy": "person-and-product",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "garment-consistent-campaign",
+    "display_hint": "wide",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 3,
+      "reference_age": "adult-required",
+      "product_views": "reference-supported"
+    }
+  }
+]

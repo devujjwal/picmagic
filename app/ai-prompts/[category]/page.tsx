@@ -33,6 +33,7 @@ export default async function Category({ params, searchParams }: Props) {
   if (!c) notFound();
   return (
     <CatalogPage
+      availablePrompts={catalog.prompts}
       {...catalog}
       prompts={catalog.prompts.filter((p) => p.category_id === c.id)}
       title={`${c.name} photo ideas`}

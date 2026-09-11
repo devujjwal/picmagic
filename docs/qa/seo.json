@@ -1,6 +1,11 @@
 {
-  "sitemapCanonicalCount": 65,
-  "promptCanonicals": 50,
+  "origin": "http://localhost:4313",
+  "measuredAt": "2026-09-11T04:18:11.540Z",
+  "indexingExpected": true,
+  "sitemapCanonicalCount": 94,
+  "libraryRecords": 170,
+  "published": 75,
+  "readyCollections": 7,
   "checked": [
     {
       "path": "/",
@@ -35,9 +40,42 @@
       ]
     },
     {
-      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "path": "/collections/creative-transformations",
       "status": 200,
-      "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "canonical": "https://picmagic.in/collections/creative-transformations",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
       "robots": "index, follow",
       "descriptionInHead": true,
       "structuredTypes": [
@@ -52,13 +90,36 @@
       "robots": "index, follow",
       "descriptionInHead": true,
       "structuredTypes": [
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ]
     },
     {
       "path": "/ai-prompts?page=2",
       "status": 200,
       "canonical": "https://picmagic.in/ai-prompts?page=2",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/dating-profile",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/dating-profile",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/dating-profile-reels",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/dating-profile-reels",
       "robots": "index, follow",
       "descriptionInHead": true,
       "structuredTypes": [

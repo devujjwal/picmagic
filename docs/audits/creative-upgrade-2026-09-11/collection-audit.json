@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "golden-hour",
+    "slug": "golden-hour",
+    "title": "Chasing the golden hour",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 1,
+    "recommendation": "Only one member and generic style label; keep inactive/noindex, not a broken promoted chip. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "golden-hour-draped-in-tradition",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "romantic",
+    "slug": "romantic",
+    "title": "A little more romance",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 6,
+    "recommendation": "Broad overlap with pre-wedding; keep canonical if live, do not promote an inactive link. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "barefoot-at-blue-hour",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "a-little-rain-a-lot-of-romance",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "old-school-charm-new-memories",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "coffee-rain-and-college-days",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "saree",
+    "slug": "saree",
+    "title": "The saree edit",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 2,
+    "recommendation": "Useful broad style entry; avoid duplicating fashion catalogue intent. Lead with strongest story after assets align. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "golden-hour-draped-in-tradition",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-red-saree-moment",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "cinematic",
+    "slug": "cinematic",
+    "title": "Make it cinematic",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 6,
+    "recommendation": "Adjective-only taxonomy is too broad. Prefer creative-transformations editorial curation; preserve existing path. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "city-lights-main-character-energy",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "built-on-quiet-discipline",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "a-night-at-the-cinema",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "one-city-one-beautiful-evening",
+        "score": 4,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "studio",
+    "slug": "studio",
+    "title": "The studio collection",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 10,
+    "recommendation": "Keep utility discovery for controlled portrait work; not a homepage creative section. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-birthday-astronaut",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "a-tiny-superhero-off-duty",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "thirty-and-entirely-yourself",
+        "score": 3,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "your-next-chapter-in-focus",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "professional",
+    "slug": "professional",
+    "title": "Your professional era",
+    "production_active": true,
+    "local_active": true,
+    "local_is_indexable": false,
+    "member_count": 2,
+    "recommendation": "Preserve practical headshots and avoid duplicate corporate promises. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "your-next-chapter-in-focus",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "a-headshot-that-feels-like-you",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "diwali",
+    "slug": "diwali",
+    "title": "An evening of light",
+    "production_active": true,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 1,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "a-family-evening-lit-by-diyas",
+        "score": 5,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "pre-wedding",
+    "slug": "pre-wedding",
+    "title": "Before the wedding, your own story",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Umbrella photo merge leaves three direct photo members; add relevant retained canonical membership only if substantively useful. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-heritage-railway-letter",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "an-intimate-jaipur-yes",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "desert-moonlight-promises",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "pre-wedding-reels",
+    "slug": "pre-wedding-reels",
+    "title": "Before the wedding, your own story — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Umbrella photo merge leaves three direct photo members; add relevant retained canonical membership only if substantively useful. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-heritage-railway-letter-reel",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "royal-jaipur-after-hours-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "monsoon-love-story-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "desert-moonlight-promises-reel",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "maternity",
+    "slug": "maternity",
+    "title": "Waiting for your little one",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "monsoon-maternity-at-the-heritage-window",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "moonlit-motherhood",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "motherhood-in-a-field-of-paper-petals",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "generations-waiting-together",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "maternity-reels",
+    "slug": "maternity-reels",
+    "title": "Waiting for your little one — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "monsoon-maternity-at-the-heritage-window-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "moonlit-motherhood-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "motherhood-in-a-field-of-paper-petals-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "generations-waiting-together-reel",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "bikes",
+    "slug": "bikes",
+    "title": "Motorcycle portraits with character",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-open-road-portrait",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "midnight-fuel-stop",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "monsoon-rider-under-the-flyover",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-salt-road-to-nowhere",
+        "score": 4,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "bikes-reels",
+    "slug": "bikes-reels",
+    "title": "Motorcycle portraits with character — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "himalayan-last-rider-reel",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "midnight-fuel-stop-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "monsoon-rider-under-the-flyover-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-salt-road-to-nowhere-reel",
+        "score": 4,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "cars",
+    "slug": "cars",
+    "title": "Cars, light and the open road",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Repair all human/car persona policies first; proposed desert photo merge reduces distinct membership to three. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "retro-bombay-through-the-windscreen",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-mountain-tunnel-arrival",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "neon-monsoon-drive",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "cars-reels",
+    "slug": "cars-reels",
+    "title": "Cars, light and the open road — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Repair all human/car persona policies first; proposed desert photo merge reduces distinct membership to three. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "desert-road-hero-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "retro-bombay-through-the-windscreen-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-mountain-tunnel-arrival-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "neon-monsoon-drive-reel",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "gym-fitness",
+    "slug": "gym-fitness",
+    "title": "Training, without the body filters",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "built-on-quiet-discipline",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "split-second-athlete",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "shadow-athlete-at-dawn",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-empty-stadium-one-more-try",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "gym-fitness-reels",
+    "slug": "gym-fitness-reels",
+    "title": "Training, without the body filters — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "after-the-last-rep-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "split-second-athlete-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "shadow-athlete-at-dawn-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-empty-stadium-one-more-try-reel",
+        "score": 3,
+        "classification": "REWORK"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "office-corporate",
+    "slug": "office-corporate",
+    "title": "Work portraits that feel human",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Glass-model merge reduces direct photo membership; add Architect of Ideas through membership, not a duplicate URL. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "founder-after-hours",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "newsroom-before-the-opening-bell",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "your-next-chapter-in-focus",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "office-corporate-reels",
+    "slug": "office-corporate-reels",
+    "title": "Work portraits that feel human — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Glass-model merge reduces direct photo membership; add Architect of Ideas through membership, not a duplicate URL. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "founder-after-hours-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "newsroom-before-the-opening-bell-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-idea-becomes-a-skyline-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "your-next-introduction-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "dating-profile",
+    "slug": "dating-profile",
+    "title": "A profile with a real personality",
+    "production_active": false,
+    "local_active": true,
+    "local_is_indexable": true,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Keep believable profile utility; do not invent a fantasy lifestyle or force novelty. Defeature weak motion variants. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "coffee-and-a-real-smile",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "the-bookshop-detour",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "sunday-park-conversation",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "something-good-in-the-kitchen",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "dating-profile-reels",
+    "slug": "dating-profile-reels",
+    "title": "A profile with a real personality — reel ideas",
+    "production_active": false,
+    "local_active": true,
+    "local_is_indexable": true,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Keep believable profile utility; do not invent a fantasy lifestyle or force novelty. Defeature weak motion variants. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "sunday-park-conversation-reel",
+        "score": 2,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "something-good-in-the-kitchen-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "travel",
+    "slug": "travel",
+    "title": "Travel stories worth keeping",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "meghalaya-cloud-walk",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "goa-after-the-monsoon",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-lighthouse-keeper-s-morning",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-train-through-the-tea-clouds",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "travel-reels",
+    "slug": "travel-reels",
+    "title": "Travel stories worth keeping — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "meghalaya-cloud-walk-reel",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "goa-after-the-monsoon-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-lighthouse-keeper-s-morning-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-train-through-the-tea-clouds-reel",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "instagram-profile-picture",
+    "slug": "instagram-profile-picture",
+    "title": "Your face, clearly in the frame",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "soft-light-unmistakably-you",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "meet-your-new-profile-picture",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "monochrome-rain-face-in-focus",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "floral-shadows-a-clear-face",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "instagram-profile-picture-reels",
+    "slug": "instagram-profile-picture-reels",
+    "title": "Your face, clearly in the frame — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "monochrome-rain-face-in-focus-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "floral-shadows-a-clear-face-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "indian-festivals",
+    "slug": "indian-festivals",
+    "title": "Celebrations in familiar light",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Use specific festival context; preserve Krishna and verify scheduling before seasonal activation. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "tiny-krishna-big-wonder",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "a-family-evening-lit-by-diyas",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "a-little-holi-happiness",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "garba-under-the-lights",
+        "score": 5,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "indian-festivals-reels",
+    "slug": "indian-festivals-reels",
+    "title": "Celebrations in familiar light — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Use specific festival context; preserve Krishna and verify scheduling before seasonal activation. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "diwali-a-thousand-points-of-light-reel",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "holi-the-colour-before-it-falls-reel",
+        "score": 5,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "navratri-still-at-the-centre-reel",
+        "score": 5,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-little-flute-keeper-reel",
+        "score": 5,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "babies",
+    "slug": "babies",
+    "title": "Small moments, safely supported",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Require a suitable-age child reference and the actual caregiver whenever shown. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "first-birthday-cloud-world",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-nursery-moon-mission",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-family-s-little-storybook-reader",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-gentlest-new-beginning",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "babies-reels",
+    "slug": "babies-reels",
+    "title": "Small moments, safely supported — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Require a suitable-age child reference and the actual caregiver whenever shown. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "first-birthday-cloud-world-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-nursery-moon-mission-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-family-s-little-storybook-reader-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-gentlest-new-beginning-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "pets",
+    "slug": "pets",
+    "title": "Their personality, in every frame",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-maharaja-of-the-window-seat",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-dog-s-birthday-aftermath",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "tiny-pet-giant-space-mission",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "you-and-your-pet-the-adventure-poster",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "pets-reels",
+    "slug": "pets-reels",
+    "title": "Their personality, in every frame — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-maharaja-of-the-window-seat-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-dog-s-birthday-aftermath-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "tiny-pet-giant-space-mission-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "you-and-your-pet-the-adventure-poster-reel",
+        "score": 4,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "product-shoots",
+    "slug": "product-shoots",
+    "title": "Product photos built around the details",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "perfume-the-water-sculpture",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "handbag-in-the-architecture-of-shadows",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "your-product-beautifully-simple",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "small-details-beautifully-made",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "product-shoots-reels",
+    "slug": "product-shoots-reels",
+    "title": "Product photos built around the details — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "perfume-the-water-sculpture-reel",
+        "score": 5,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "handbag-in-the-architecture-of-shadows-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "skincare-on-stone-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "ceramic-and-linen-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "womens-fashion-ecommerce",
+    "slug": "womens-fashion-ecommerce",
+    "title": "Women's fashion, faithfully presented",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-palace-saree-every-border-visible",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "jewellery-on-sculpted-sandstone",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "resort-dress-the-wind-between-arches",
+        "score": 3,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-kurta-in-the-jali-light",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "womens-fashion-ecommerce-reels",
+    "slug": "womens-fashion-ecommerce-reels",
+    "title": "Women's fashion, faithfully presented — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "the-palace-saree-every-border-visible-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "jewellery-on-sculpted-sandstone-reel",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "resort-dress-the-wind-between-arches-reel",
+        "score": 3,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-kurta-in-the-jali-light-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "mens-fashion-ecommerce",
+    "slug": "mens-fashion-ecommerce",
+    "title": "Men's fashion, from fit to finish",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "kurta-at-the-lantern-courtyard",
+        "score": 4,
+        "classification": "KEEP"
+      },
+      {
+        "slug": "the-everyday-shirt-catalogue",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "a-jacket-from-every-angle",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "footwear-the-city-in-one-step",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "mens-fashion-ecommerce-reels",
+    "slug": "mens-fashion-ecommerce-reels",
+    "title": "Men's fashion, from fit to finish — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "kurta-at-the-lantern-courtyard-reel",
+        "score": 4,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "footwear-the-city-in-one-step-reel",
+        "score": 3,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-everyday-shirt-catalogue-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "a-jacket-from-every-angle-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "ecommerce-product-showcase-reels",
+    "slug": "ecommerce-product-showcase-reels",
+    "title": "Small products, complete stories — reel ideas",
+    "production_active": false,
+    "local_active": false,
+    "local_is_indexable": false,
+    "member_count": 4,
+    "recommendation": "Lead with the ranked concepts below; replace boilerplate collection prose with specific choices, reference requirements and outcomes. Separate creative campaign cards from accurate catalogue utility; require supported product views. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "from-detail-to-daily-use-reel",
+        "score": 3,
+        "classification": "REWORK"
+      },
+      {
+        "slug": "the-honest-quarter-rotation-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "fabric-up-close-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      },
+      {
+        "slug": "front-back-the-real-product-reel",
+        "score": 3,
+        "classification": "UTILITY"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  },
+  {
+    "id": "friends-travel-reels",
+    "slug": "friends-travel-reels",
+    "title": "Friends Travel Reels",
+    "production_active": false,
+    "local_active": true,
+    "local_is_indexable": false,
+    "member_count": 1,
+    "recommendation": "One draft and source-only poster: remain noindex and absent from public promotion. Video deferred. Do not activate/index until at least four relevant published, aligned-media prompts and substantive unique copy are present.",
+    "top_concepts": [
+      {
+        "slug": "cinematic-ladakh-friends-trip",
+        "score": 5,
+        "classification": "KEEP"
+      }
+    ],
+    "evidence": [
+      "prompt-audit.json",
+      "research.json",
+      "homepage-and-architecture.md"
+    ]
+  }
+]

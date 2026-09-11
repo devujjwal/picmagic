@@ -126,6 +126,22 @@ export function CollectionForm({
             </p>
           </>
         )}
+        <label className="field wide">
+          SEO title
+          <input
+            value={c.seo_title || ""}
+            maxLength={160}
+            onChange={(e) => setC({ ...c, seo_title: e.target.value })}
+          />
+        </label>
+        <label className="field wide">
+          SEO description
+          <textarea
+            value={c.seo_description || ""}
+            maxLength={500}
+            onChange={(e) => setC({ ...c, seo_description: e.target.value })}
+          />
+        </label>
         <label className="checkbox-field">
           <input
             type="checkbox"

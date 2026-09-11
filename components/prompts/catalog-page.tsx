@@ -1,3 +1,5 @@
+import { CollectionDiscovery } from "./collection-discovery";
+import { orderForDiscovery } from "@/lib/prompts/editorial";
 import Link from "@/components/ui/site-link";
 import { CategoryView } from "@/components/ui/view-event";
 import { notFound } from "next/navigation";
@@ -16,6 +18,8 @@ export function CatalogPage({
   categories,
   collections,
   page = 1,
+  availablePrompts = prompts,
+  medium,
 }: {
   title: string;
   description: string;
@@ -24,7 +28,13 @@ export function CatalogPage({
   categories: Category[];
   collections: Collection[];
   page?: number;
+  availablePrompts?: Prompt[];
+  medium?: "photo" | "reel";
 }) {
+  prompts = orderForDiscovery(prompts);
+  const reelsOnly =
+    prompts.length > 0 &&
+    prompts.every((p) => p.prompt_type === "reel" || p.prompt_type === "video");
   const pages = Math.max(1, Math.ceil(prompts.length / 24));
   if (page > pages) notFound();
   const shown = prompts.slice((page - 1) * 24, page * 24);
@@ -34,7 +44,10 @@ export function CatalogPage({
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
-          { name: "Photo ideas", path: "/ai-prompts" },
+          {
+            name: reelsOnly ? "Reels" : "Photo ideas",
+            path: reelsOnly ? "/reel-prompts" : "/ai-prompts",
+          },
           ...(path !== "/ai-prompts" ? [{ name: title, path }] : []),
         ]}
       />
@@ -43,14 +56,17 @@ export function CatalogPage({
         <h1>{title}</h1>
         <p>{description}</p>
       </header>
-      <nav className="filter-bar" aria-label="Explore categories">
+      <nav
+        className="filter-bar"
+        aria-label={reelsOnly ? "Explore reels" : "Explore categories"}
+      >
         <Link
           className={`chip ${path === "/ai-prompts" ? "active" : ""}`}
-          href="/ai-prompts"
+          href={reelsOnly ? "/reel-prompts" : "/ai-prompts"}
         >
-          All looks
+          {reelsOnly ? "All reel ideas" : "All looks"}
         </Link>
-        {categories
+        {(reelsOnly ? [] : categories)
           .filter((c) => c.slug !== "reels")
           .map((c) => (
             <Link
@@ -86,39 +102,13 @@ export function CatalogPage({
         </div>
       )}
       <AdSlot placement="category-inline-1" />
-      {pages > 1 && (
-        <nav aria-label="Pagination" className="pagination">
-          {Array.from({ length: pages }, (_, i) => i + 1).map((n) =>
-            n === page ? (
-              <span key={n} aria-current="page">
-                {n}
-              </span>
-            ) : (
-              <Link
-                key={n}
-                href={n === 1 ? path : `${path}?page=${n}`}
-                aria-label={`Page ${n}`}
-              >
-                {n}
-              </Link>
-            ),
-          )}
-        </nav>
-      )}
-      <section className="section">
-        <div className="section-head">
-          <h2>A few more directions to explore</h2>
-        </div>
-        <div className="collection-links">
-          {collections
-            .filter((c) => c.active)
-            .map((c) => (
-              <Link key={c.id} className="chip" href={`/collections/${c.slug}`}>
-                {c.name}
-              </Link>
-            ))}
-        </div>
-      </section>
+      <CollectionDiscovery
+        collections={collections}
+        prompts={availablePrompts}
+        contextPrompts={prompts}
+        medium={medium || (reelsOnly ? "reel" : "photo")}
+        path={path}
+      />
       <StructuredData
         data={{
           "@context": "https://schema.org",

@@ -1,0 +1,1966 @@
+[
+  {
+    "id": "promises-in-the-courtyard",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. an Indian couple in their late twenties wearing a pastel rose lehenga and ivory bandhgala, standing apart but holding hands within a pink sandstone archway in Jaipur. Lighting: soft dawn illumination with restrained pastel colour. Camera/composition: 50mm lens, f/5.6, full-body symmetrical architectural portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/an-intimate-jaipur-yes.webp",
+    "reel_poster_target": "public/previews/an-intimate-jaipur-yes.webp",
+    "source_slug": "an-intimate-jaipur-yes",
+    "source_conversation": null
+  },
+  {
+    "id": "promises-in-the-courtyard-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved an-intimate-jaipur-yes poster. 2–6s: Show the entire arch, move gently towards the joined hands, return to both faces exchanging a smile. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/an-intimate-jaipur-yes.webp",
+    "target": "public/videos/promises-in-the-courtyard-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "two-cups-before-forever",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 documentary-style pre-wedding photograph. Two fictional Indian adults in their early thirties, distinct believable faces: woman with a round face, deep brown skin, loosely tied curly hair and small silver earrings; man with medium brown skin, angular face, short wavy hair and a light beard. Comfortable sage and oatmeal linen shirts, seated at a tiny cafe table with exactly two ceramic coffee cups and one open blank notebook. Lean slightly towards each other, looking down at the notebook with a quiet shared smile. Their hands rest naturally near the notebook, no extra hands or distorted fingers. Overcast light from a side window, 35mm seated two-shot showing both complete heads, shoulders, hands and tabletop. Modest Indian neighbourhood cafe, subdued green wall and blurred shelves, candid lived-in warmth, visible real skin texture. No exaggerated romantic pose, fashion-model smoothing, legible text, logos, collage or watermark.",
+    "target": "public/previews/two-cups-before-forever-a320f80942.webp",
+    "reel_poster_target": "public/previews/two-cups-before-forever-a320f80942.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c80a-7234-83e8-a30c-1a4f5c779ee5"
+  },
+  {
+    "id": "two-cups-before-forever-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved two-cups-before-forever still as first frame. One partner slides the notebook to the other, both glance down, then share a quiet smile; keep both cups stationary. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/two-cups-before-forever-a320f80942.webp",
+    "target": "public/videos/two-cups-before-forever-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "riverside-vows-at-sunrise",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 full-body pre-wedding photograph of two fictional Indian adults around thirty on a broad level stone riverside promenade at sunrise. One partner wears a muted rose cotton kurta with ivory trousers; the other an opaque flowing ivory dress and flat shoes. Distinct natural South Asian faces, woman with medium brown skin and long straight dark hair loose behind her shoulders, man with deep brown skin, a short neat moustache and close-cropped hair; ordinary body proportions. Walk shoulder to shoulder, both mid-step naturally, relaxed affectionate expressions, looking towards the river together. Both complete heads, hands and feet visible with generous space around them. Cool early sky and gentle warm rim light, quiet river with distant trees, 70mm environmental portrait with restrained colour and realistic fabric movement. No ornate wedding stage, no fantasy glow, no added people, duplicated legs, text, logos, collage or watermark.",
+    "target": "public/previews/riverside-vows-at-sunrise-f13c5cb53e.webp",
+    "reel_poster_target": "public/previews/riverside-vows-at-sunrise-f13c5cb53e.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c8ad-eddc-83e9-ba69-408e9d2d81d4"
+  },
+  {
+    "id": "riverside-vows-at-sunrise-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved riverside-vows-at-sunrise still as first frame. Take two small steps together, fabric moves with the steps, settle looking over the river. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/riverside-vows-at-sunrise-f13c5cb53e.webp",
+    "target": "public/videos/riverside-vows-at-sunrise-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "letters-on-the-terrace",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 intimate pre-wedding photograph of two fictional Indian/South Asian adults in their forties, distinct natural faces and ordinary proportions. One has warm brown skin, shoulder-length straight hair with a few silver strands and wears a comfortable teal silk kurta; the other has light-brown skin, a receding hairline, salt-and-pepper stubble and a muted ochre cotton kurta. On a modest home terrace, exchange exactly one small folded unmarked cream letter, held between the giver’s and receiver’s nearest hands. Gentle connected eyelines and quiet affectionate expressions. Late-afternoon side light, 85mm waist-up two-shot, both full heads and the complete letter and hands inside the frame. Potted plants, plain parapet and soft city rooflines behind. Natural mature skin, visible fine lines, relaxed joints, plausible fingers. No text, logos, collage, fantasy lighting, skin smoothing or watermark.",
+    "target": "public/previews/letters-on-the-terrace-499f9b18b1.webp",
+    "reel_poster_target": "public/previews/letters-on-the-terrace-499f9b18b1.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c96f-6610-83e8-9dba-ab9de39d0049"
+  },
+  {
+    "id": "letters-on-the-terrace-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved letters-on-the-terrace still as first frame. One hand passes the single letter, the receiving hand closes gently around it, hold on their connected eyelines. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/letters-on-the-terrace-499f9b18b1.webp",
+    "target": "public/videos/letters-on-the-terrace-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "a-quiet-window-a-new-chapter",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: expectant person in a soft sage cotton dress beside a sheer-curtained window, one hand resting gently above the bump.  Lighting and framing: diffused morning light; 85mm three-quarter portrait. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-quiet-window-a-new-chapter-09bd472bfc.webp",
+    "reel_poster_target": "public/previews/a-quiet-window-a-new-chapter-09bd472bfc.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2b6cb-6648-83e9-b6e7-5cd3b70ed41d"
+  },
+  {
+    "id": "a-quiet-window-a-new-chapter-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-quiet-window-a-new-chapter still as first frame. The subject takes a natural breath, gently lowers their gaze towards their hand, curtain moves slightly. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-quiet-window-a-new-chapter-09bd472bfc.webp",
+    "target": "public/videos/a-quiet-window-a-new-chapter-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "the-garden-waiting-room",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: expectant person seated comfortably on a stable garden bench in a cream kurta, feet supported and shoulders relaxed.  Lighting and framing: open shade; 50mm seated environmental portrait. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-garden-waiting-room-021914fcba.webp",
+    "reel_poster_target": "public/previews/the-garden-waiting-room-021914fcba.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2b6cb-6648-83e9-b6e7-5cd3b70ed41d"
+  },
+  {
+    "id": "the-garden-waiting-room-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-garden-waiting-room still as first frame. A gentle camera move reveals flowering plants, the subject softly smiles, hold with hands relaxed in lap. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-garden-waiting-room-021914fcba.webp",
+    "target": "public/videos/the-garden-waiting-room-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "two-hands-one-new-beginning",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 studio maternity photograph. Fictional Indian expectant couple in their late thirties, woman with a long oval face, medium-brown complexion, straight dark hair in a low ponytail, small natural freckles and ordinary proportions; partner with a broad face, deep-brown complexion, short receding hair, clean-shaven and a stocky ordinary build. Comfortable neutral cotton clothes, opaque sand-coloured dress for the expectant person and pale grey casual shirt for the partner. Stand side by side, one hand each resting gently together near the natural pregnancy bump. They exchange a quiet affectionate glance, without forcing smiles. Soft warm studio light, unobtrusive cream background, 70mm medium two-shot, full heads and hands visible. Natural varied skin textures, correct separate arms and fingers, no exaggerated bump, no body reshaping, no text, no collage, no watermark.",
+    "target": "public/previews/two-hands-one-new-beginning-e03d0b8e34.webp",
+    "reel_poster_target": "public/previews/two-hands-one-new-beginning-e03d0b8e34.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c2c9-2224-83ee-9047-7c154b767c10"
+  },
+  {
+    "id": "two-hands-one-new-beginning-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved two-hands-one-new-beginning still as first frame. With their hands already resting lightly together near the bump, the partners exchange a soft glance and settle without changing body shape or adding hands. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/two-hands-one-new-beginning-e03d0b8e34.webp",
+    "target": "public/videos/two-hands-one-new-beginning-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "shape-of-anticipation",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 editorial maternity photograph. One fictional South Asian expectant woman in her early thirties with medium-brown skin, short naturally wavy dark hair, an ordinary natural pregnant body and a distinct expressive profile. Comfortable opaque dark charcoal dress. Stand side-on near a large window, one hand loosely resting below the natural bump, the other relaxed at her side, chin gently raised toward the light. Bright diffused window backlight reveals the silhouette while retaining believable facial detail. 85mm photographic profile, head to mid-calf composition with both hands inside the frame. Quiet monochromatic room, realistic skin and fabric texture, no reshaping, no exaggerated bump, no uncomfortable pose, correct anatomy, no collage, text or watermark.",
+    "target": "public/previews/shape-of-anticipation-9a1d81fd52.webp",
+    "reel_poster_target": "public/previews/shape-of-anticipation-9a1d81fd52.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c550-49d4-83ee-8c1d-96d4a52b9a01"
+  },
+  {
+    "id": "shape-of-anticipation-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved shape-of-anticipation still as first frame. Slow lateral camera movement reveals the natural profile, the subject raises their eyes slightly, hold steady. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Retain the expectant person's actual pregnancy stage and body shape. Do not enlarge the bump or reshape the waist. Use comfortable supported positions. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/shape-of-anticipation-9a1d81fd52.webp",
+    "target": "public/videos/shape-of-anticipation-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "the-roadside-pause",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a Sikh man in his forties with a navy turban and full beard wearing a brown riding jacket, standing beside a parked classic motorcycle on a quiet mountain road, helmet resting on the seat. Lighting: overcast mountain daylight with honest muted colour. Camera/composition: 50mm lens, f/5.6, full-body environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/the-open-road-portrait.webp",
+    "reel_poster_target": "public/previews/the-open-road-portrait.webp",
+    "source_slug": "the-open-road-portrait",
+    "source_conversation": null
+  },
+  {
+    "id": "the-roadside-pause-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved the-open-road-portrait poster. 2–6s: Start at the round headlamp, slide to the stationary rider, finish on the mountain road; no engine movement. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/the-open-road-portrait.webp",
+    "target": "public/videos/the-roadside-pause-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "garage-hours",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 documentary photograph. A fictional South Asian man in his early fifties with light-brown skin, naturally greying short hair, salt-and-pepper moustache, visible smile lines and an ordinary build, wearing a faded denim overshirt. Stand beside a stable parked graphite-grey classic motorcycle in a tidy modest workshop, one hand holding a clean cotton cloth near the fuel tank as if pausing during polishing, the other resting naturally at his side. No riding action. Side window light rakes across textured skin, denim, metal and the tank. 35mm environmental portrait showing the complete head, hands, fuel tank and recognizable motorcycle structure. Workshop tools are orderly and subordinate, no branded signage or invented lettering. Natural anatomy, mechanically coherent wheels and handlebars, no extra parts, no artificial HDR, no collage or watermark.",
+    "target": "public/previews/garage-hours-99ba83e77d.webp",
+    "reel_poster_target": "public/previews/garage-hours-99ba83e77d.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c94e-a54c-83ee-8a7e-9d6894c717ab"
+  },
+  {
+    "id": "garage-hours-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved garage-hours still as first frame. The cloth makes one small wipe along the tank, camera follows the hand, reveal the unchanged bike silhouette. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/garage-hours-99ba83e77d.webp",
+    "target": "public/videos/garage-hours-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "city-chrome-after-rain",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 cinematic motorcycle portrait of a fictional Indian man in his early thirties with medium-brown skin, a narrow oval face, short naturally wavy dark hair, light stubble and an ordinary build. Stand beside one parked dark green road motorcycle under a covered urban forecourt just after rain. Dark textile riding jacket, jeans and practical black boots; helmet resting securely on the stationary bike seat. Relaxed serious expression, both feet planted, one hand gently resting on the handlebar without riding. Blue-hour ambient light with soft warm reflections on damp pavement, low 50mm three-quarter environmental framing. Full head and boots, two coherent wheels, visible handlebars and stable bike stand. Restrained realistic colour and skin texture, no futuristic neon fantasy, speed blur, invented branding, extra limbs, text, collage or watermark.",
+    "target": "public/previews/city-chrome-after-rain-7fef510e21.webp",
+    "reel_poster_target": "public/previews/city-chrome-after-rain-7fef510e21.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2c9e3-9d48-83e8-ae0c-a28a95fa99a4"
+  },
+  {
+    "id": "city-chrome-after-rain-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved city-chrome-after-rain still as first frame. One highlight moves along the chrome as the camera slides gently; rider looks towards the street while bike stays still. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/city-chrome-after-rain-7fef510e21.webp",
+    "target": "public/videos/city-chrome-after-rain-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "the-weekend-map-stop",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 documentary travel photograph. Two fictional Indian motorcycle riders in their forties, one woman with medium-brown skin, a long narrow face and a practical dark braid, and one man with deep-brown skin, a broad face, short greying hair and rectangular glasses. Distinct ordinary bodies, weathered natural skin, olive and rust riding jackets, comfortable trousers and boots. Stand on opposite sides of a wooden picnic table unfolding exactly one small paper road map together. Two parked road motorcycles stand safely behind them away from traffic; two helmets rest on their respective seats. Warm morning light, wooded roadside rest stop, 35mm wide environmental frame with both complete heads and hands, map and both bikes recognizable. Relaxed focused expressions, plausible hands and motorcycles. Map may have thin route lines but no readable words, logos, invented brand marks, extra people, collage or watermark.",
+    "target": "public/previews/the-weekend-map-stop-e525e7ce8a.webp",
+    "reel_poster_target": "public/previews/the-weekend-map-stop-e525e7ce8a.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2ca58-f368-83ee-86bc-bc351e6a6803"
+  },
+  {
+    "id": "the-weekend-map-stop-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-weekend-map-stop still as first frame. One rider opens the map, the other points once to an unlabelled area, both glance towards the distant hills. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-weekend-map-stop-e525e7ce8a.webp",
+    "target": "public/videos/the-weekend-map-stop-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "first-light-on-the-bonnet",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 professional automotive photograph with no people. A fictional unbranded graphite-grey compact hatchback with coherent five-spoke wheels parked on a clean empty concrete forecourt. Low three-quarter camera position shows the front and near side, complete car and wheels inside frame with deliberate breathing room. Soft sunrise reflections along the bonnet and windscreen, quiet warm sky and restrained neutral surroundings. 35mm automotive hero shot, realistic metallic paint, glass, tyre rubber and contact shadows. Mechanically plausible panels, doors, mirrors, wheelbase and lights; no altered wheel count, stretched body, surreal reflections, speed blur, readable number plate, logos, text, collage or watermark.",
+    "target": "public/previews/first-light-on-the-bonnet-13dfc4acbf.webp",
+    "reel_poster_target": "public/previews/first-light-on-the-bonnet-13dfc4acbf.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2ca5a-72f4-83ee-89cd-fc2fc6ff8114"
+  },
+  {
+    "id": "first-light-on-the-bonnet-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved first-light-on-the-bonnet still as first frame. A restrained lateral camera move carries a soft highlight across the bonnet, ending with the entire stationary car visible. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/first-light-on-the-bonnet-13dfc4acbf.webp",
+    "target": "public/videos/first-light-on-the-bonnet-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "inside-the-drive",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original 4:5 automotive interior photograph, no people. The empty front cabin of a fictional charcoal-grey compact right-hand-drive car: simple analog dashboard, steering wheel on the right, believable matching black fabric front seats, gear lever and centre console. View diagonally through the open left passenger door, so the dashboard, steering wheel, upholstery and door opening are clearly readable as coherent physical forms. Diffused daylight, 24mm interior composition without stretched edges or impossible geometry. A realistic everyday Indian-market compact car rather than a luxury supercar, carefully finished honest materials, no logos or readable brand text, no duplicate steering wheels, mismatched pedals, invented screens, collage or watermark.",
+    "target": "public/previews/inside-the-drive-88dd38d5b1.webp",
+    "reel_poster_target": "public/previews/inside-the-drive-88dd38d5b1.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2cba9-b298-83e8-8f37-e7197679b578"
+  },
+  {
+    "id": "inside-the-drive-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved inside-the-drive still as first frame. Slow camera push towards the original stitching and controls, then hold on the dashboard; no invented screens or text. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/inside-the-drive-88dd38d5b1.webp",
+    "target": "public/videos/inside-the-drive-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "rain-on-the-paint",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use a fictional deep-red sedan bonnet and silver multi-spoke front wheel. Scene: close detail of the car’s bonnet and front wheel, real water beads and unchanged paint finish. Lighting and framing: large softbox reflection; 85mm detail frame. Keep the vehicle parked and stable. Photographic realism, natural material texture, believable shadows and coherent wheel and panel geometry. Deliberate close composition, complete near wheel with glossy red bonnet above it, not a full-car wide shot. No brand badges, readable number plate, collage, text overlay or watermark.",
+    "target": "public/previews/rain-on-the-paint-e004a44b93.webp",
+    "reel_poster_target": "public/previews/rain-on-the-paint-e004a44b93.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2cd58-e694-83e8-9581-d9080104dc70"
+  },
+  {
+    "id": "rain-on-the-paint-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved rain-on-the-paint still as first frame. Water beads remain stationary while a narrow reflection moves with a short camera slide; hold on the wheel and paint. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/rain-on-the-paint-e004a44b93.webp",
+    "target": "public/videos/rain-on-the-paint-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "weekend-estate",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use a fictional dark-green station wagon with silver trim and no brand badges. Scene: parked car beside a low stone wall and countryside trees, complete side profile on level ground. Lighting and framing: bright overcast light; 70mm side-on editorial. Keep the vehicle parked and stable. Photographic realism, natural material texture, believable shadows, coherent matching wheels, doors and windows. Complete vehicle within the portrait frame, with generous negative space above and below; calm countryside background, no dramatic sunset or sportscar styling. No collage, text overlay, readable plate, watermark or external brand assets.",
+    "target": "public/previews/weekend-estate-a8a4a47f79.webp",
+    "reel_poster_target": "public/previews/weekend-estate-a8a4a47f79.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2cd5b-1664-83ee-8f01-f023f6890a79"
+  },
+  {
+    "id": "weekend-estate-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved weekend-estate still as first frame. Camera moves gently from the front wheel to the full side profile, a few distant leaves move, car remains stationary. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the vehicle parked and stable. Preserve the supplied make/model geometry, wheels, paint, badges and trim; no riding or driving action. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/weekend-estate-a8a4a47f79.webp",
+    "target": "public/videos/weekend-estate-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "between-the-sets",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. an athletic South Asian man in his thirties with brown skin wearing a plain charcoal training shirt, seated between sets in a real boxing gym with worn leather equipment, natural physique and relaxed hands. Lighting: single broad side window and deep neutral shadows. Camera/composition: 50mm lens, f/2.8, seated three-quarter sports portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/built-on-quiet-discipline.webp",
+    "reel_poster_target": "public/previews/built-on-quiet-discipline.webp",
+    "source_slug": "built-on-quiet-discipline",
+    "source_conversation": null
+  },
+  {
+    "id": "between-the-sets-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved built-on-quiet-discipline poster. 2–6s: The person takes one calm recovery breath, briefly looks towards the window, returns to a relaxed hold. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/built-on-quiet-discipline.webp",
+    "target": "public/videos/between-the-sets-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "laces-before-the-run",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. A fictional South Asian adult man with deep-brown skin, shoulder-length loose curls and ordinary proportions. Scene: seated on a low park bench in comfortable unbranded running clothes, hands preparing to tie one shoe. Early morning open shade; 50mm hands-and-body detail. Both hands, shoelaces and the shoe should remain fully visible, relaxed believable fingers. A candid documentary fitness moment, no exaggerated muscles, no bodybuilding pose. Natural skin texture, believable shadows and material texture. No collage, readable text, watermark or brand assets. This is PicMagic’s fictional preview persona only, separate from the user’s copyable prompt.",
+    "target": "public/previews/laces-before-the-run-1a7f0aa6b5.webp",
+    "reel_poster_target": "public/previews/laces-before-the-run-1a7f0aa6b5.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2d1b7-492c-83e8-928e-5344de90e2ce"
+  },
+  {
+    "id": "laces-before-the-run-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved laces-before-the-run still as first frame. Hands tighten one already-threaded shoelace, the foot stays grounded, camera settles on the prepared runner. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/laces-before-the-run-1a7f0aa6b5.webp",
+    "target": "public/videos/laces-before-the-run-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "a-steady-stretch",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. A fictional Indian woman aged about 35 with warm-brown skin, straight dark hair in a practical low ponytail, realistic ordinary proportions. Scene: comfortable opaque plum activewear, a gentle standing cross-body shoulder stretch beside a pale gym wall. One arm extends comfortably across the upper chest, the opposite hand supports that upper arm, shoulders relaxed; anatomically coherent hands and elbows. Even natural window light; full-body 70mm composition, shoes entirely visible, restrained editorial colors. Natural pores and material texture, believable shadows, no slimming, exaggerated muscles or plastic skin. No collage, readable text, watermark or external brand assets. This creates PicMagic’s fictional preview persona only, separate from the user’s copyable prompt.",
+    "target": "public/previews/a-steady-stretch-300e183e95.webp",
+    "reel_poster_target": "public/previews/a-steady-stretch-300e183e95.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2d1f0-c89c-83e8-9aad-c0305f0b4482"
+  },
+  {
+    "id": "a-steady-stretch-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-steady-stretch still as first frame. A small controlled shoulder stretch releases back to neutral, with no joint hyperextension or physique changes. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-steady-stretch-300e183e95.webp",
+    "target": "public/videos/a-steady-stretch-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "ready-at-the-rack",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. A fictional South Asian man around 60 with light-brown skin, naturally greying short hair, visible age lines and ordinary proportions, neither muscular nor slimmed. Scene: standing upright beside a rack of light dumbbells, one hand resting on the rack, no active lifting. Soft overhead light and natural window fill; 50mm environmental portrait. Muted teal polo shirt, comfortable charcoal track pants, calm focused expression. Natural body positioning, skin and material texture, coherent hands, believable shadows. No collage, readable text, watermark or external brand assets. This is a fictional PicMagic preview persona, separate from the user-facing prompt.",
+    "target": "public/previews/ready-at-the-rack-6390f2c36f.webp",
+    "reel_poster_target": "public/previews/ready-at-the-rack-6390f2c36f.webp",
+    "source_conversation": "https://chatgpt.com/c/6aa2d398-a3d8-83e8-a474-67f002e3b1a0"
+  },
+  {
+    "id": "ready-at-the-rack-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved ready-at-the-rack still as first frame. Camera tracks from the dumbbell rack to the person's focused face, then the person gives a small nod. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/ready-at-the-rack-6390f2c36f.webp",
+    "target": "public/videos/ready-at-the-rack-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "your-next-introduction",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Fictional Indian man about 45, naturally receding short hair and trimmed salt-and-pepper beard, medium-brown complexion, navy unstructured jacket over white crew-neck. Warm-grey studio, relaxed shoulders, approachable closed-mouth smile and direct eye contact, 85mm f/4 large soft light, head-and-shoulders 4:5. No text, watermark, plastic skin or collage.",
+    "target": "public/previews/your-next-chapter-in-focus-20260910.webp",
+    "reel_poster_target": "public/previews/your-next-chapter-in-focus-20260910.webp",
+    "source_slug": "your-next-chapter-in-focus",
+    "source_conversation": "https://chatgpt.com/c/6aa2b2f4-05b8-83e8-8a09-d18dddfd47c3"
+  },
+  {
+    "id": "your-next-introduction-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved your-next-chapter-in-focus poster. 2–6s: The person turns their gaze gently to the lens and gives a small approachable smile, with no exaggerated head turn. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/your-next-chapter-in-focus-20260910.webp",
+    "target": "public/videos/your-next-introduction-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "founder-at-the-desk",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person in smart casual clothes seated at an uncluttered wooden desk with a closed notebook and laptop angled away.  Lighting and framing: soft side window light; 50mm waist-up. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/founder-at-the-desk.webp",
+    "reel_poster_target": "public/previews/founder-at-the-desk-reel.webp"
+  },
+  {
+    "id": "founder-at-the-desk-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved founder-at-the-desk still as first frame. The person rests one hand on the already-closed notebook and looks up towards the camera; hands and desk objects remain consistent. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/founder-at-the-desk-reel.webp",
+    "target": "public/videos/founder-at-the-desk-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "ideas-around-the-table",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original photorealistic editorial photograph for PicMagic, portrait 4:5, 1200 by 1500 or larger. Exactly four fictional Indian/South Asian adult colleagues, two women and two men, varied natural brown complexions, ages roughly 28, 36, 45 and 55, distinct faces and hairstyles. They wear varied smart casual clothing and sit around a meeting table discussing plain abstract diagrams on paper. One person gestures gently to the diagram; the other three listen with natural engaged expressions. Bright diffused office daylight, 35mm wide group composition, all four faces visible and separated, plausible hands, enough room around the group to crop for a portrait discovery card. Honest skin texture and ordinary body proportions, believable unbranded office furniture. No extra people, collage, readable lettering, logos or watermark. This fictional preview persona must not be confused with the user’s reference identity.",
+    "target": "public/previews/ideas-around-the-table-401ea9d754.webp",
+    "reel_poster_target": "public/previews/ideas-around-the-table-401ea9d754.webp",
+    "source_conversation": null
+  },
+  {
+    "id": "ideas-around-the-table-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved ideas-around-the-table still as first frame. One team member gestures towards a blank diagram, another nods, camera holds the complete reference group without adding colleagues. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/ideas-around-the-table-401ea9d754.webp",
+    "target": "public/videos/ideas-around-the-table-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "a-confident-presentation",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person beside a clean presentation board with abstract non-readable graphics, holding one marker at waist height.  Lighting and framing: soft office light; full-body 50mm. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+    "target": "public/previews/a-confident-presentation-ceeef90390.webp",
+    "reel_poster_target": "public/previews/a-confident-presentation-ceeef90390.webp",
+    "source_conversation": null
+  },
+  {
+    "id": "a-confident-presentation-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-confident-presentation still as first frame. The presenter makes one small open-hand gesture towards the board, returns their hand to neutral, maintains a composed smile. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-confident-presentation-ceeef90390.webp",
+    "target": "public/videos/a-confident-presentation-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "coffee-and-a-real-smile",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in their own casual outfit at a cafe window, holding one ceramic cup below the face.  Lighting and framing: soft open window light; 85mm chest-up portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+    "target": "public/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+    "reel_poster_target": "public/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+    "source_conversation": null
+  },
+  {
+    "id": "coffee-and-a-real-smile-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved coffee-and-a-real-smile still as first frame. The person lowers the cup slightly and smiles towards someone just beside the camera, then holds naturally. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+    "target": "public/videos/coffee-and-a-real-smile-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "the-bookshop-detour",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in a light casual shirt holding a closed book near a shelf, no readable cover branding.  Lighting and framing: warm practical light with window fill; 50mm three-quarter. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+    "target": "public/previews/the-bookshop-detour-89d4eb4255.webp",
+    "reel_poster_target": "public/previews/the-bookshop-detour-89d4eb4255.webp",
+    "source_conversation": null
+  },
+  {
+    "id": "the-bookshop-detour-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-bookshop-detour still as first frame. The person looks down at the single closed book already in their hands, then glances towards the camera with a small smile; no additional book is taken. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-bookshop-detour-89d4eb4255.webp",
+    "target": "public/videos/the-bookshop-detour-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "sunday-park-conversation",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "integrated",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in comfortable casual clothing standing on a level garden path, hands relaxed.  Lighting and framing: late afternoon shade; 70mm full-body environmental. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
+    "target": "public/previews/sunday-park-conversation-95dcfa3974.webp",
+    "reel_poster_target": "public/previews/sunday-park-conversation-95dcfa3974.webp",
+    "source_conversation": null
+  },
+  {
+    "id": "sunday-park-conversation-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved sunday-park-conversation still as first frame. Take one unhurried step and pause with an open expression, background foliage moves gently. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/sunday-park-conversation-95dcfa3974.webp",
+    "target": "public/videos/sunday-park-conversation-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "something-good-in-the-kitchen",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables.  Lighting and framing: bright diffused daylight; 35mm documentary. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/something-good-in-the-kitchen.webp",
+    "reel_poster_target": "public/previews/something-good-in-the-kitchen-reel.webp"
+  },
+  {
+    "id": "something-good-in-the-kitchen-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved something-good-in-the-kitchen still as first frame. The person gently stirs a bowl and looks up with a relaxed smile; no knives in motion or changing ingredients. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/something-good-in-the-kitchen-reel.webp",
+    "target": "public/videos/something-good-in-the-kitchen-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "morning-in-the-old-city",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: traveller in breathable linen clothes with a small day bag in a sandstone old-city lane.  Lighting and framing: warm early sunlight; 35mm full-body architectural. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/morning-in-the-old-city.webp",
+    "reel_poster_target": "public/previews/morning-in-the-old-city-reel.webp"
+  },
+  {
+    "id": "morning-in-the-old-city-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved morning-in-the-old-city still as first frame. The traveller walks two steps along the lane, pauses near an arch and looks upwards; keep the bag on the same shoulder. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/morning-in-the-old-city-reel.webp",
+    "target": "public/videos/morning-in-the-old-city-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "clouds-below-the-path",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: traveller in a practical trekking jacket behind a safe overlook barrier above layered mountains.  Lighting and framing: cool sunrise; 28mm environmental wide. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/clouds-below-the-path.webp",
+    "reel_poster_target": "public/previews/clouds-below-the-path-reel.webp"
+  },
+  {
+    "id": "clouds-below-the-path-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved clouds-below-the-path still as first frame. Camera gently reveals the valley, traveller rests one hand on the barrier and looks into the distance. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/clouds-below-the-path-reel.webp",
+    "target": "public/videos/clouds-below-the-path-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-balcony-above-the-sea",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: traveller in an ivory linen co-ord on a coastal balcony with a small suitcase beside the open door.  Lighting and framing: soft morning coastal light; 50mm full-body. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-balcony-above-the-sea.webp",
+    "reel_poster_target": "public/previews/a-balcony-above-the-sea-reel.webp"
+  },
+  {
+    "id": "a-balcony-above-the-sea-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-balcony-above-the-sea still as first frame. Curtain and linen move gently in the breeze, traveller turns their gaze along the coast, railing and suitcase stay fixed. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-balcony-above-the-sea-reel.webp",
+    "target": "public/videos/a-balcony-above-the-sea-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-train-window-journal",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: traveller seated safely inside a train with an open notebook, looking through the closed window.  Lighting and framing: soft lateral daylight; 50mm seated medium portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-train-window-journal.webp",
+    "reel_poster_target": "public/previews/the-train-window-journal-reel.webp"
+  },
+  {
+    "id": "the-train-window-journal-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-train-window-journal still as first frame. The traveller closes the notebook slowly, looks out as scenery passes subtly outside, camera remains inside the carriage. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-train-window-journal-reel.webp",
+    "target": "public/videos/the-train-window-journal-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "coral-against-the-sky",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a young Indian woman with brown skin, curly shoulder-length hair and small silver hoops wearing a coral T-shirt against a saturated sky-blue backdrop, candid laughing expression. Lighting: clean soft studio light with lively colour contrast. Camera/composition: 85mm lens, f/5.6, centred head-and-shoulders portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/meet-your-new-profile-picture.webp",
+    "reel_poster_target": "public/previews/meet-your-new-profile-picture.webp",
+    "source_slug": "meet-your-new-profile-picture",
+    "source_conversation": null
+  },
+  {
+    "id": "coral-against-the-sky-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved meet-your-new-profile-picture poster. 2–6s: A natural smile grows into a brief gentle laugh, then settles; keep eyes visible and face centred for a profile crop. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/meet-your-new-profile-picture.webp",
+    "target": "public/videos/coral-against-the-sky-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "under-the-neem-shade",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person in a plain light shirt with soft leafy bokeh far behind, direct relaxed eye contact.  Lighting and framing: even open shade; 100mm headshot. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/under-the-neem-shade.webp",
+    "reel_poster_target": "public/previews/under-the-neem-shade-reel.webp"
+  },
+  {
+    "id": "under-the-neem-shade-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved under-the-neem-shade still as first frame. A small breeze moves a few hair strands while the person gives a calm smile, no changing face shape. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/under-the-neem-shade-reel.webp",
+    "target": "public/videos/under-the-neem-shade-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-monochrome-hello",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person in a black crew-neck against warm-grey studio background, slight shoulder angle.  Lighting and framing: large diffused key; 85mm monochrome close portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-monochrome-hello.webp",
+    "reel_poster_target": "public/previews/a-monochrome-hello-reel.webp"
+  },
+  {
+    "id": "a-monochrome-hello-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-monochrome-hello still as first frame. The gaze moves gently from beside the camera to the lens, then holds with a quiet closed-mouth smile. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-monochrome-hello-reel.webp",
+    "target": "public/videos/a-monochrome-hello-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-small-festive-detail",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: person in a simple cream kurta with one understated accessory, no added religious mark unless requested.  Lighting and framing: warm soft window light; 85mm head-and-shoulders. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-small-festive-detail.webp",
+    "reel_poster_target": "public/previews/a-small-festive-detail-reel.webp"
+  },
+  {
+    "id": "a-small-festive-detail-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-small-festive-detail still as first frame. The subject straightens the collar once and looks towards the lens, holding a relaxed expression. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-small-festive-detail-reel.webp",
+    "target": "public/videos/a-small-festive-detail-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "diyas-on-the-veranda",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. an Indian family of four including grandparents in their seventies, a mother and a ten-year-old girl, in indigo, cream and marigold festive clothing, seated around brass diyas on a home veranda. Lighting: warm diya practicals supported by soft warm fill so every face remains clear. Camera/composition: 35mm lens, f/5.6, intimate group portrait with all faces in focus. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/a-family-evening-lit-by-diyas.webp",
+    "reel_poster_target": "public/previews/a-family-evening-lit-by-diyas.webp",
+    "source_slug": "a-family-evening-lit-by-diyas",
+    "source_conversation": null
+  },
+  {
+    "id": "diyas-on-the-veranda-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved a-family-evening-lit-by-diyas poster. 2–6s: An adult places a flower beside the lamps, the family exchanges small smiles, flames move gently without hand contact. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/a-family-evening-lit-by-diyas.webp",
+    "target": "public/videos/diyas-on-the-veranda-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "colour-on-the-cheeks",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a joyful Indian woman in her twenties with brown skin and a loose ponytail wearing a simple white cotton kurta with small pink and yellow Holi colour marks on her cheeks, outdoors against a softly blurred courtyard. Lighting: bright open shade with believable saturated powder colours. Camera/composition: 85mm lens, f/2.8, expressive close-up. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/a-little-holi-happiness.webp",
+    "reel_poster_target": "public/previews/a-little-holi-happiness.webp",
+    "source_slug": "a-little-holi-happiness",
+    "source_conversation": null
+  },
+  {
+    "id": "colour-on-the-cheeks-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved a-little-holi-happiness poster. 2–6s: The person turns slightly towards the camera with a joyful smile; no airborne powder or changing underlying complexion. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/a-little-holi-happiness.webp",
+    "target": "public/videos/colour-on-the-cheeks-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "one-gentle-garba-turn",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a Gujarati woman in her twenties with warm brown skin wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba courtyard. Lighting: warm festive overhead lights and gentle motion blur at the skirt hem. Camera/composition: 50mm lens, f/2.8, full-body dance portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/garba-under-the-lights.webp",
+    "reel_poster_target": "public/previews/garba-under-the-lights.webp",
+    "source_slug": "garba-under-the-lights",
+    "source_conversation": null
+  },
+  {
+    "id": "one-gentle-garba-turn-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved garba-under-the-lights poster. 2–6s: One slow controlled quarter-turn moves the skirt hem, dancer settles facing near the starting position, jewellery stays attached. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/garba-under-the-lights.webp",
+    "target": "public/videos/one-gentle-garba-turn-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "the-little-flute-keeper",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a four-year-old Indian boy with brown skin in a comfortable yellow dhoti and blue sash, a single peacock feather in his hair, holding a small wooden flute in a courtyard with marigold garlands. Lighting: soft morning light with warm reflected fill. Camera/composition: 85mm lens, f/4, eye-level half-body portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/tiny-krishna-big-wonder.webp",
+    "reel_poster_target": "public/previews/tiny-krishna-big-wonder.webp",
+    "source_slug": "tiny-krishna-big-wonder",
+    "source_conversation": null
+  },
+  {
+    "id": "the-little-flute-keeper-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved tiny-krishna-big-wonder poster. 2–6s: The child gives a small playful smile and gentle head tilt while holding the flute steady; tilak and feather remain clearly visible. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/tiny-krishna-big-wonder.webp",
+    "target": "public/videos/the-little-flute-keeper-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "safe-in-your-arms",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Exactly two people: one fictional Indian caregiver in their mid-thirties with a distinct natural face and one securely supported fully wrapped newborn, varied natural brown complexions. Scene: caregiver cradling a fully wrapped newborn with head and neck supported by a forearm.  Lighting and framing: soft bedroom window light; 85mm intimate two-person portrait. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/safe-in-your-arms.webp",
+    "reel_poster_target": "public/previews/safe-in-your-arms-reel.webp"
+  },
+  {
+    "id": "safe-in-your-arms-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved safe-in-your-arms still as first frame. The caregiver makes one tiny comforting sway while the infant remains supported and still; camera holds on both faces. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/safe-in-your-arms-reel.webp",
+    "target": "public/videos/safe-in-your-arms-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-floor-blanket-smile",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. One fictional South Asian infant around six months old, natural brown complexion, sparse dark baby hair and ordinary infant proportions; only a supervising caregiver’s hand at the frame edge, not an additional visible face. Scene: baby lying on their back on a simple firm floor blanket, caregiver hand resting nearby, no loose props.  Lighting and framing: diffused daylight; overhead 50mm. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-floor-blanket-smile.webp",
+    "reel_poster_target": "public/previews/the-floor-blanket-smile-reel.webp"
+  },
+  {
+    "id": "the-floor-blanket-smile-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-floor-blanket-smile still as first frame. Baby makes a small natural hand movement and shifts gaze; remain on the back with no artificial sitting or rolling. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-floor-blanket-smile-reel.webp",
+    "target": "public/videos/the-floor-blanket-smile-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "nursery-afternoon",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Exactly two people: a fictional South Asian caregiver in their early forties with a distinct ordinary face and one young infant supported securely against the caregiver’s chest, natural varied brown complexions. Scene: caregiver seated in a stable chair holding the baby securely upright against their chest, both fully clothed.  Lighting and framing: gentle side window light; 70mm seated portrait. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/nursery-afternoon.webp",
+    "reel_poster_target": "public/previews/nursery-afternoon-reel.webp"
+  },
+  {
+    "id": "nursery-afternoon-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved nursery-afternoon still as first frame. Caregiver looks down with a soft smile and adjusts a supporting hand slightly, keeping the baby's head supported. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/nursery-afternoon-reel.webp",
+    "target": "public/videos/nursery-afternoon-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "our-smallest-family-member",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Exactly four fictional Indian family members: two caregivers in their thirties, a six-year-old sibling and one securely cradled newborn. Distinct faces, individual natural brown complexions, comfortable everyday cotton clothes. Scene: family gathered at a sofa while one adult securely cradles the baby, comfortable cotton clothing.  Lighting and framing: broad window light; 35mm documentary family frame. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/our-smallest-family-member.webp",
+    "reel_poster_target": "public/previews/our-smallest-family-member-reel.webp"
+  },
+  {
+    "id": "our-smallest-family-member-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved our-smallest-family-member still as first frame. Family members exchange glances towards the baby, the holding adult stays steady, all people remain individually recognizable. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Keep the baby's original developmental stage, with the head and neck securely supported. No unsupported posing, unstable surfaces, loose objects around the face or invented teeth. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/our-smallest-family-member-reel.webp",
+    "target": "public/videos/our-smallest-family-member-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-window-watcher",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Use a fictional pet matching the scene: an Indian domestic mixed-breed cat or an Indian Indie dog as appropriate, natural markings and anatomy. Scene: cat resting naturally on a broad low window ledge, paws supported and tail relaxed.  Lighting and framing: soft side daylight; 85mm pet-eye-level. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-window-watcher.webp",
+    "reel_poster_target": "public/previews/the-window-watcher-reel.webp"
+  },
+  {
+    "id": "the-window-watcher-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-window-watcher still as first frame. The cat slowly turns its ears then glances towards the window, tail tip moves once, no extra paws. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-window-watcher-reel.webp",
+    "target": "public/videos/the-window-watcher-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-good-day-in-the-garden",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Use a fictional pet matching the scene: an Indian domestic mixed-breed cat or an Indian Indie dog as appropriate, natural markings and anatomy. Scene: dog sitting comfortably on grass in a shaded enclosed garden, original collar retained.  Lighting and framing: open shade; 70mm pet-eye-level. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-good-day-in-the-garden.webp",
+    "reel_poster_target": "public/previews/a-good-day-in-the-garden-reel.webp"
+  },
+  {
+    "id": "a-good-day-in-the-garden-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-good-day-in-the-garden still as first frame. The dog makes a small natural head tilt and gently moves its tail, camera stays low and steady. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-good-day-in-the-garden-reel.webp",
+    "target": "public/videos/a-good-day-in-the-garden-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "favourite-blanket",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Use a fictional pet matching the scene: an Indian domestic mixed-breed cat or an Indian Indie dog as appropriate, natural markings and anatomy. Scene: pet lying comfortably on its familiar blanket at floor level, no costume.  Lighting and framing: diffused home window light; 50mm close pet portrait. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/favourite-blanket.webp",
+    "reel_poster_target": "public/previews/favourite-blanket-reel.webp"
+  },
+  {
+    "id": "favourite-blanket-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved favourite-blanket still as first frame. The animal breathes naturally, blinks once and rests its head; preserve original fur markings throughout. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Preserve fur markings and natural limb and paw anatomy. No stressful handling, invented accessories or unnatural poses. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/favourite-blanket-reel.webp",
+    "target": "public/videos/favourite-blanket-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "together-on-the-doorstep",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. Exactly one fictional Indian adult, about 45, with medium-brown skin and short natural greying hair, seated beside one tan-and-white Indian Indie dog. No other people or animals. Scene: adult seated beside their dog at a shaded doorstep, one hand gently resting near its shoulder.  Lighting and framing: soft morning shade; 50mm two-subject portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/together-on-the-doorstep.webp",
+    "reel_poster_target": "public/previews/together-on-the-doorstep-reel.webp"
+  },
+  {
+    "id": "together-on-the-doorstep-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved together-on-the-doorstep still as first frame. Owner gives one gentle stroke along the dog's shoulder, dog looks towards the owner, both remain relaxed. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/together-on-the-doorstep-reel.webp",
+    "target": "public/videos/together-on-the-doorstep-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "skincare-on-stone",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. an unbranded amber glass skincare bottle with a blank cream label standing on pale travertine beside a single olive leaf, realistic glass thickness and clean controlled reflections. Lighting: large diffused studio source, soft shadow falling to the right. Camera/composition: 90mm macro lens, f/8, product centred with generous negative space. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/your-product-beautifully-simple.webp",
+    "reel_poster_target": "public/previews/your-product-beautifully-simple.webp",
+    "source_slug": "your-product-beautifully-simple",
+    "source_conversation": null
+  },
+  {
+    "id": "skincare-on-stone-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved your-product-beautifully-simple poster. 2–6s: A soft reflected highlight passes across the bottle as camera moves slightly sideways, existing label remains stable and readable. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/your-product-beautifully-simple.webp",
+    "target": "public/videos/skincare-on-stone-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "ceramic-and-linen",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "reuse-reviewed-existing",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Create one original editorial photograph, portrait 4:5 composition. a handmade terracotta ceramic cup on a dark wooden workbench with fine clay dust and a linen cloth, showing uneven glaze and the maker’s texture, no branding. Lighting: raking side window light revealing tactile surfaces. Camera/composition: 100mm macro lens, f/8, three-quarter close product view. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+    "target": "public/previews/small-details-beautifully-made.webp",
+    "reel_poster_target": "public/previews/small-details-beautifully-made.webp",
+    "source_slug": "small-details-beautifully-made",
+    "source_conversation": null
+  },
+  {
+    "id": "ceramic-and-linen-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an eight-second video from the approved small-details-beautifully-made poster. 2–6s: Camera slides a short distance across the original glaze texture, ending with the complete cup and its contact shadow. 6–8s: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Preserve all people, clothing, accessories and product geometry exactly. No added text, morphing or audio.",
+    "poster": "public/previews/small-details-beautifully-made.webp",
+    "target": "public/videos/ceramic-and-linen-reel.mp4",
+    "poster_ready": true
+  },
+  {
+    "id": "packaging-with-purpose",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one sage-green soap bar beside a matching simple cardboard sleeve without lettering. Scene: product beside its actual packaging on a neutral seamless surface, unopened and correctly scaled.  Lighting and framing: even studio light; 70mm front three-quarter. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/packaging-with-purpose.webp",
+    "reel_poster_target": "public/previews/packaging-with-purpose-reel.webp"
+  },
+  {
+    "id": "packaging-with-purpose-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved packaging-with-purpose still as first frame. Slow push-in reveals the original pack and product together, then hold without animating or changing printed lettering. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/packaging-with-purpose-reel.webp",
+    "target": "public/videos/packaging-with-purpose-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-useful-everyday-scale",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one tan leather handbag with two short handles, brass hardware and an adjustable strap. Scene: handbag on a simple chair with original handles and straps arranged naturally, no additional accessories.  Lighting and framing: bright window light; 50mm catalogue composition. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-useful-everyday-scale.webp",
+    "reel_poster_target": "public/previews/a-useful-everyday-scale-reel.webp"
+  },
+  {
+    "id": "a-useful-everyday-scale-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-useful-everyday-scale still as first frame. Camera moves from the strap attachment to the whole bag, preserving stitching, hardware and silhouette. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-useful-everyday-scale-reel.webp",
+    "target": "public/videos/a-useful-everyday-scale-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-saree-drape-catalogue",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: model wearing the exact saree with its original border, pallu and blouse, neutral warm studio. The exact advertised item is an ivory cotton-silk saree with a narrow forest-green woven border, matching green blouse, no additional jewellery. Lighting and framing: large soft light; full-body 70mm front three-quarter. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-saree-drape-catalogue.webp",
+    "reel_poster_target": "public/previews/the-saree-drape-catalogue-reel.webp"
+  },
+  {
+    "id": "the-saree-drape-catalogue-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-saree-drape-catalogue still as first frame. Model makes a small quarter-turn to reveal the pallu and border, holds fabric gently without hiding the weave, returns to the starting angle. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-saree-drape-catalogue-reel.webp",
+    "target": "public/videos/the-saree-drape-catalogue-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "kurta-seam-to-silhouette",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: model in the kurta with original neckline, sleeve length, print and side slits clearly shown. The exact advertised item is a rust cotton kurta with small cream block-printed flowers, three-quarter sleeves, a round notched neckline and side slits. Lighting and framing: even studio daylight; full-body 70mm. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/kurta-seam-to-silhouette.webp",
+    "reel_poster_target": "public/previews/kurta-seam-to-silhouette-reel.webp"
+  },
+  {
+    "id": "kurta-seam-to-silhouette-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved kurta-seam-to-silhouette still as first frame. Model stands front-on, turns slowly to a side view, then returns front-on; fabric print and garment length remain unchanged. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/kurta-seam-to-silhouette-reel.webp",
+    "target": "public/videos/kurta-seam-to-silhouette-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-dress-that-moves-naturally",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: model wearing the dress and only the actual accessories, simple pale studio backdrop. The exact advertised item is an opaque sage linen midi dress with short sleeves, fabric waist tie and subtle side pockets. Lighting and framing: soft side key and fill; 70mm full-body fashion. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-dress-that-moves-naturally.webp",
+    "reel_poster_target": "public/previews/a-dress-that-moves-naturally-reel.webp"
+  },
+  {
+    "id": "a-dress-that-moves-naturally-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-dress-that-moves-naturally still as first frame. One small forward step shows the actual fabric drape, then model settles; do not lengthen skirt, alter waist or invent fabric transparency. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-dress-that-moves-naturally-reel.webp",
+    "target": "public/videos/a-dress-that-moves-naturally-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "jewellery-honestly-close",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match woman presentation to the concept, with no stereotyped uniform face. Scene: jewellery worn by the model with a close crop appropriate to the supplied piece, showing its visible stones and original metal tone without inventing hidden clasps or surfaces. The exact advertised item is a small pair of gold-toned leaf earrings with one clear stone in each leaf. Lighting and framing: controlled large softbox; 100mm close detail. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, the complete advertised item in frame, with only the relevant body area visible. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/jewellery-honestly-close.webp",
+    "reel_poster_target": "public/previews/jewellery-honestly-close-reel.webp"
+  },
+  {
+    "id": "jewellery-honestly-close-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved jewellery-honestly-close still as first frame. A tiny head or wrist adjustment catches light on the jewellery, then hold with no stone multiplication or changing metal colour. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/jewellery-honestly-close-reel.webp",
+    "target": "public/videos/jewellery-honestly-close-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-everyday-shirt-catalogue",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: model wearing the exact shirt tucked or untucked as supplied, neutral studio and relaxed arms. The exact advertised item is a sky-blue cotton shirt with thin navy vertical stripes, white buttons and long sleeves. Lighting and framing: even softbox light; 70mm front three-quarter. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-everyday-shirt-catalogue.webp",
+    "reel_poster_target": "public/previews/the-everyday-shirt-catalogue-reel.webp"
+  },
+  {
+    "id": "the-everyday-shirt-catalogue-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-everyday-shirt-catalogue still as first frame. Model makes a slow quarter-turn revealing sleeve, side seam and front placket, returns to front; every button and stripe remains fixed. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-everyday-shirt-catalogue-reel.webp",
+    "target": "public/videos/the-everyday-shirt-catalogue-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-festive-kurta-edit",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: model in the men's kurta and trousers with original collar, embroidery and hem length. The exact advertised item is a cream cotton men's kurta with restrained tonal collar embroidery, straight hem and matching trousers. Lighting and framing: soft warm studio light; full-body 70mm. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-festive-kurta-edit.webp",
+    "reel_poster_target": "public/previews/the-festive-kurta-edit-reel.webp"
+  },
+  {
+    "id": "the-festive-kurta-edit-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-festive-kurta-edit still as first frame. Model adjusts one cuff gently, takes one small step and settles; embroidery and garment colour remain stable. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-festive-kurta-edit-reel.webp",
+    "target": "public/videos/the-festive-kurta-edit-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "a-jacket-from-every-angle",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: model wearing the casual jacket over a plain tee, no invented patches or hardware. The exact advertised item is a dark-olive cotton jacket with two plain front pockets, brass zipper and an unadorned back panel. Lighting and framing: broad studio light; full-body 70mm. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/a-jacket-from-every-angle.webp",
+    "reel_poster_target": "public/previews/a-jacket-from-every-angle-reel.webp"
+  },
+  {
+    "id": "a-jacket-from-every-angle-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved a-jacket-from-every-angle still as first frame. A slow half-turn shows the back panel followed by a return to the original front view, preserving the exact jacket silhouette. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/a-jacket-from-every-angle-reel.webp",
+    "target": "public/videos/a-jacket-from-every-angle-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "footwear-on-the-move",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: pair of shoes worn by the model, original sole, laces, stitching and material visible, neutral trousers. The exact advertised item is a pair of tan leather lace-up shoes with brown soles, five pairs of eyelets and visible tonal stitching. Lighting and framing: soft low side light; 85mm below-knee detail. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. Photographic realism, natural pores and material texture, believable shadows, the complete advertised item in frame, with only the relevant body area visible. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/footwear-on-the-move.webp",
+    "reel_poster_target": "public/previews/footwear-on-the-move-reel.webp"
+  },
+  {
+    "id": "footwear-on-the-move-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved footwear-on-the-move still as first frame. One foot takes a small heel-to-toe step then returns alongside the other, showing natural sole flex without redesigning the shoe. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Product design takes priority over dramatic styling. Preserve colour, print scale, fabric opacity, seams, garment length, closures, logos and every supplied accessory. Match clothes to the original body rather than reshaping the model. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/footwear-on-the-move-reel.webp",
+    "target": "public/videos/footwear-on-the-move-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "the-honest-quarter-rotation",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one matte cream cylindrical skincare carton with a muted green band and no lettering. Scene: boxed product on a neutral platform, views provided for each visible side.  Lighting and framing: even studio softbox; 90mm complete object. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/the-honest-quarter-rotation.webp",
+    "reel_poster_target": "public/previews/the-honest-quarter-rotation-reel.webp"
+  },
+  {
+    "id": "the-honest-quarter-rotation-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved the-honest-quarter-rotation still as first frame. Rotate slowly only through the supplied front and side views, return to the start for a loop; no unsupported back design. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/the-honest-quarter-rotation-reel.webp",
+    "target": "public/videos/the-honest-quarter-rotation-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "fabric-up-close",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one folded indigo cotton shirt with fine white woven stripes and visible blue stitching. Scene: folded garment on a pale tabletop showing actual weave, seam and label without a model.  Lighting and framing: raking diffused light; 100mm macro. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/fabric-up-close.webp",
+    "reel_poster_target": "public/previews/fabric-up-close-reel.webp"
+  },
+  {
+    "id": "fabric-up-close-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved fabric-up-close still as first frame. Camera slides across the weave to the seam and holds; pattern scale, thread colour and label stay exact. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/fabric-up-close-reel.webp",
+    "target": "public/videos/fabric-up-close-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "front-back-the-real-product",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one chestnut leather shoulder bag with a single front flap, plain back panel and brass strap anchors. Scene: handbag on a neutral support, original front and back product references available.  Lighting and framing: broad soft light; 85mm product frame. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/front-back-the-real-product.webp",
+    "reel_poster_target": "public/previews/front-back-the-real-product-reel.webp"
+  },
+  {
+    "id": "front-back-the-real-product-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved front-back-the-real-product still as first frame. Cut from the complete front to the supplied back view, show the original strap anchors, return to front with no invented pockets. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/front-back-the-real-product-reel.webp",
+    "target": "public/videos/front-back-the-real-product-reel.mp4",
+    "poster_ready": false
+  },
+  {
+    "id": "from-detail-to-daily-use",
+    "type": "image",
+    "workflow": "ChatGPT preferred; Codex built-in fallback authorized by owner on 2026-09-10 after ChatGPT request limits",
+    "status": "awaiting_generation",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "aspect_ratio": "4:5",
+    "prompt": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. No people. Use one blue stainless-steel reusable bottle with a detachable screw cap, no branding. Scene: reusable bottle upright beside its actual cap on a kitchen counter, cap included only if detachable in reference.  Lighting and framing: bright window light; 70mm lifestyle hero. Retain the supplied object’s proportions, surface finish, construction and branding. Supporting props must not hide or redesign the product. Photographic realism, natural material texture, believable shadows and complete essential props in frame. Use a distinct composition and lighting appropriate to this concept. No collage, text overlay, watermark or external brand assets. This brief creates PicMagic's fictional preview persona only; it is separate from the user's copyable prompt.",
+    "target": "public/previews/from-detail-to-daily-use.webp",
+    "reel_poster_target": "public/previews/from-detail-to-daily-use-reel.webp"
+  },
+  {
+    "id": "from-detail-to-daily-use-reel",
+    "type": "video",
+    "status": "external_generation_required",
+    "workflow": "Real image-to-video generation; no pan/zoom still substituted",
+    "duration": 8,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "format": "MP4 H.264, no audio, yuv420p, faststart, target under 1.5 MB",
+    "prompt": "Create an 8-second 9:16 video from the approved from-detail-to-daily-use still as first frame. Start close on original material, slowly pull back to reveal full bottle and cap in context, finish still with legible original branding. Use 0–2s to establish, 2–6s for the specified action, 6–8s to settle into the initial composition for a gentle loop. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. No audio, added words, face changes, product drift, extra limbs, flicker or artificial zoom-only motion. Preserve approved preview identity and all major details.",
+    "poster": "public/previews/from-detail-to-daily-use-reel.webp",
+    "target": "public/videos/from-detail-to-daily-use-reel.mp4",
+    "poster_ready": false
+  }
+]

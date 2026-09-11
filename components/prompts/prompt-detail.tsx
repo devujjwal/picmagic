@@ -1,8 +1,10 @@
+import { discoverCollections } from "@/lib/prompts/collections";
+import { FriendsTripCreator } from "@/features/generator/friends-trip-creator";
 import Link from "@/components/ui/site-link";
 import { Sparkles, ArrowUpRight } from "lucide-react";
 import { promptPath, type Prompt, type Catalog } from "@/types/content";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
-import { PreviewImage } from "./preview-image";
+import { PreviewMedia } from "./preview-media";
 import { DetailActions } from "@/components/share/detail-actions";
 import { PromptGrid } from "./prompt-grid";
 import { relatedPrompts } from "@/lib/prompts/discovery";
@@ -20,9 +22,12 @@ export function PromptDetail({
   const category = catalog.categories.find((c) => c.id === p.category_id);
   const isReel = p.prompt_type === "reel" || p.prompt_type === "video";
   const parent = isReel ? "/reel-prompts" : `/ai-prompts/${p.category_id}`;
-  const collections = catalog.collections.filter(
-    (c) => c.active && c.prompt_ids.includes(p.id),
-  );
+  const collections = discoverCollections({
+    collections: catalog.collections,
+    prompts: catalog.prompts,
+    medium: isReel ? "reel" : "photo",
+    contextIds: [p.id],
+  }).map((pick) => pick.collection);
   return (
     <div className="container">
       <Breadcrumbs
@@ -40,16 +45,21 @@ export function PromptDetail({
       <AdSlot placement="prompt-detail-top" />
       <div className="detail-grid">
         <div>
-          <div className="detail-visual">
-            <PreviewImage
-              src={p.preview_image_url}
-              alt={p.image_alt}
-              priority
-              sizes="(max-width:550px) 100vw, 48vw"
-            />
+          <div
+            className="detail-visual"
+            style={{ aspectRatio: `${p.image_width} / ${p.image_height}` }}
+          >
+            <PreviewMedia prompt={p} priority detail />
           </div>
           <p className="detail-visual-note">
-            AI-generated inspiration. Your results may look different.
+            {p.poster_role === "source-reference"
+              ? `Original reference photograph of ${p.people_count ?? "the supplied"} friends. A ${p.place_name || "travel"} concept poster and video are awaiting generation and review. `
+              : isReel && !p.preview_video
+                ? "Still concept image, not a video preview. "
+                : p.preview_video
+                  ? `${Math.round(p.preview_video.duration)}-second AI-generated preview excerpt. `
+                  : "AI-generated inspiration. "}
+            Your results may look different.
           </p>
         </div>
         <div className="detail-copy">
@@ -113,6 +123,9 @@ export function PromptDetail({
           </div>
         </div>
       </div>
+      {p.reel_template && (
+        <FriendsTripCreator initial={p.reel_template.variables} />
+      )}
       {p.reel && (
         <section className="section">
           <div className="section-head">

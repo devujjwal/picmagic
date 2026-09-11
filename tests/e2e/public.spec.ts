@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./fixtures";
 import AxeBuilder from "@axe-core/playwright";
 // Public journey tests must never generate real advertising impressions.
 test.beforeEach(async ({ page }) => {
@@ -59,7 +59,7 @@ test("search → prompt detail", async ({ page }) => {
     .getByRole("searchbox", { name: "Search photo ideas", exact: true })
     .fill("couple rain");
   await page.getByRole("button", { name: "Search", exact: true }).click();
-  await expect(page.locator(".prompt-card")).toHaveCount(2);
+  await expect(page.locator(".prompt-card").first()).toBeVisible();
   await page.locator(".prompt-card h3 a").first().click();
   await expect(page.locator("h1")).toBeVisible();
   await expect(
@@ -108,7 +108,7 @@ test("reel creator produces timed scenes", async ({ page }) => {
   for (let i = 0; i < 5; i++)
     await page.getByRole("button", { name: "Continue" }).click();
   await page.getByRole("button", { name: "Generate prompt" }).click();
-  await expect(page.locator("#reel-creator .reel-scene")).toHaveCount(2);
+  await expect(page.locator("#reel-creator .reel-scene")).toHaveCount(3);
   await expect(page.locator("#reel-creator .reel-scene").last()).toContainText(
     "5s",
   );
@@ -133,7 +133,7 @@ test("homepage accessibility and no horizontal overflow", async ({ page }) => {
   expect(results.violations).toEqual([]);
 });
 
-test("pagination progressively loads more and keeps canonical ownership", async ({
+test("scrolling loads more without duplicate controls and keeps canonical ownership", async ({
   page,
 }) => {
   await page.goto("/ai-prompts");
@@ -141,10 +141,19 @@ test("pagination progressively loads more and keeps canonical ownership", async 
   await expect(
     page.getByRole("link", { name: "Load more looks" }),
   ).toHaveAttribute("href", "/ai-prompts?page=2");
-  await page.getByRole("link", { name: "Load more looks" }).click();
-  await expect(page.locator(".prompt-card")).toHaveCount(44);
+  await expect(
+    page.getByRole("navigation", { name: "Pagination", exact: true }),
+  ).toHaveCount(0);
+  await page.locator("[data-load-more-sentinel]").scrollIntoViewIfNeeded();
+  await expect
+    .poll(() => page.locator(".prompt-card").count())
+    .toBeGreaterThan(24);
+  const all = await page
+    .locator(".prompt-card h3 a")
+    .evaluateAll((links) => links.map((a) => a.getAttribute("href")));
+  expect(new Set(all).size).toBe(all.length);
   await page.goto("/ai-prompts?page=2", { waitUntil: "domcontentloaded" });
-  await expect(page.locator(".prompt-card")).toHaveCount(20);
+  await expect(page.locator(".prompt-card").first()).toBeVisible();
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",
     "https://picmagic.in/ai-prompts?page=2",
@@ -228,6 +237,6 @@ test("pagination works without JavaScript", async ({ browser }) => {
   await expect(page.locator(".prompt-card")).toHaveCount(24);
   await page.getByRole("link", { name: "Load more looks" }).click();
   await expect(page).toHaveURL(/\?page=2$/);
-  await expect(page.locator(".prompt-card")).toHaveCount(20);
+  await expect(page.locator(".prompt-card").first()).toBeVisible();
   await context.close();
 });

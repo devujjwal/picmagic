@@ -1,7 +1,10 @@
 import { createClient } from "@supabase/supabase-js";
-import prompts from "../content/prompts.json";
+import {
+  allPrompts as prompts,
+  allCollections as collections,
+} from "../content/catalog";
 import categories from "../content/categories.json";
-import collections from "../content/collections.json";
+
 import {
   promptSchema,
   categorySchema,

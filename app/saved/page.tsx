@@ -1,3 +1,4 @@
+import { toPromptCard } from "@/lib/prompts/card-data";
 import { getCatalog } from "@/lib/content";
 import { LocalDiscovery } from "@/components/prompts/local-discovery";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
@@ -16,7 +17,7 @@ export default async function Saved() {
         <h1>Looks you love.</h1>
         <p>Saved in this browser. Ready whenever inspiration strikes.</p>
       </header>
-      <LocalDiscovery prompts={prompts} mode="saved" />
+      <LocalDiscovery prompts={prompts.map(toPromptCard)} mode="saved" />
     </div>
   );
 }

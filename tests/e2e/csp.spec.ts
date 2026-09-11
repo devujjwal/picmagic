@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./fixtures";
 test("HTML uses fresh matching nonces and blocks an unapproved inline script", async ({
   page,
   request,
@@ -42,8 +42,17 @@ test("HTML uses fresh matching nonces and blocks an unapproved inline script", a
           .__untrustedExecuted,
     ),
   ).toBeUndefined();
-  await page
-    .getByRole("button", { name: "Cookie preferences", exact: true })
-    .click();
-  await expect(page.getByRole("dialog")).toBeVisible();
+  const save = page.getByRole("button", {
+    name: "Save The Bottle Inside a Moment of Water",
+    exact: true,
+  });
+  await save.first().click();
+  await expect(
+    page
+      .getByRole("button", {
+        name: "Unsave The Bottle Inside a Moment of Water",
+        exact: true,
+      })
+      .first(),
+  ).toBeVisible();
 });

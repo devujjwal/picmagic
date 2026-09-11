@@ -1,0 +1,35 @@
+
+Running 22 tests using 2 workers
+
+(node:1699) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1698) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/e2e/editorial.spec.ts:10:1 › homepage cards use only approved distinctive creative concepts (1.8s)
+  ✓   3 [chromium] › tests/e2e/editorial.spec.ts:33:1 › catalogue separates useful utility and keeps rewritten missing-asset concepts private (1.5s)
+  ✓   4 [chromium] › tests/e2e/editorial.spec.ts:52:1 › new conceptual metadata is not shown as a public score (729ms)
+  ✓   5 [chromium] › tests/e2e/friends-trip.spec.ts:5:1 › friends trip creator adapts people and destination without loading a video (1.2s)
+  ✓   6 [chromium] › tests/e2e/friends-trip.spec.ts:52:1 › friends collection remains noindex and source-reference draft is unavailable publicly (692ms)
+  ✓   7 [chromium] › tests/e2e/friends-trip.spec.ts:75:1 › admin reviews all four friends and template metadata without publishing incomplete media (1.9s)
+  ✓   8 [chromium] › tests/e2e/reel-preview.spec.ts:18:1 › real preview has no server video source, plays on demand and pauses (2.0s)
+  ✓   9 [chromium] › tests/e2e/reel-preview.spec.ts:47:1 › failed video retains the poster without a broken player (601ms)
+  ✓  10 [chromium] › tests/e2e/reel-preview.spec.ts:61:1 › discovery with reduced motion downloads no preview videos (586ms)
+  ✓  11 [chromium] › tests/e2e/reel-preview.spec.ts:76:1 › reel pagination is crawlable and owns distinct canonical URLs (701ms)
+(node:2044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/admin.spec.ts:3:1 › admin creates, uploads, previews, publishes, duplicates, redirects and unpublishes (16.4s)
+(node:2074) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [mobile] › tests/e2e/editorial.spec.ts:10:1 › homepage cards use only approved distinctive creative concepts (804ms)
+  ✓  14 [mobile] › tests/e2e/editorial.spec.ts:33:1 › catalogue separates useful utility and keeps rewritten missing-asset concepts private (616ms)
+  ✓  15 [mobile] › tests/e2e/editorial.spec.ts:52:1 › new conceptual metadata is not shown as a public score (517ms)
+  ✓  16 [mobile] › tests/e2e/friends-trip.spec.ts:5:1 › friends trip creator adapts people and destination without loading a video (3.4s)
+  ✓  17 [mobile] › tests/e2e/friends-trip.spec.ts:52:1 › friends collection remains noindex and source-reference draft is unavailable publicly (665ms)
+  ✓  18 [mobile] › tests/e2e/friends-trip.spec.ts:75:1 › admin reviews all four friends and template metadata without publishing incomplete media (2.1s)
+  ✓  19 [mobile] › tests/e2e/reel-preview.spec.ts:18:1 › real preview has no server video source, plays on demand and pauses (1.6s)
+  ✓  20 [mobile] › tests/e2e/reel-preview.spec.ts:47:1 › failed video retains the poster without a broken player (408ms)
+  ✓  21 [mobile] › tests/e2e/reel-preview.spec.ts:61:1 › discovery with reduced motion downloads no preview videos (408ms)
+  ✓  22 [mobile] › tests/e2e/reel-preview.spec.ts:76:1 › reel pagination is crawlable and owns distinct canonical URLs (467ms)
+  ✓  12 [mobile] › tests/e2e/admin.spec.ts:3:1 › admin creates, uploads, previews, publishes, duplicates, redirects and unpublishes (18.2s)
+
+  22 passed (32.9s)

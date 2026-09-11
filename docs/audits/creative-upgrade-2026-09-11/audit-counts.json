@@ -1,0 +1,31 @@
+{
+  "total_unique_concepts": 162,
+  "production_published": 50,
+  "local_published": 43,
+  "local_drafts": 119,
+  "classifications": {
+    "KEEP": 80,
+    "UTILITY": 40,
+    "REWORK": 35,
+    "MERGE": 3,
+    "DEFEATURE": 4
+  },
+  "scores": {
+    "2": 8,
+    "3": 54,
+    "4": 80,
+    "5": 20
+  },
+  "collections": 39,
+  "actual_full_size_assets_reviewed": 86,
+  "human_focused_files": 79,
+  "representation_all_existing_files": {
+    "Indian/South-Asian-explicit-brief": 53,
+    "brief-without-explicit-Indian-default": 13,
+    "unknown": 13,
+    "not-human-focused": 7
+  },
+  "local_unique_preview_paths": 102,
+  "local_missing_unique_preview_paths": 69,
+  "notes": "Recommendations only; zero application/content mutations, merges, unpublishes or generated assets applied."
+}

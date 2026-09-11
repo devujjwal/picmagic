@@ -1,0 +1,853 @@
+[
+  {
+    "id": "P01",
+    "title": "The River Remembers",
+    "slug": "the-river-remembers",
+    "transformation_type": "photo-illustration",
+    "destinations": [
+      "/collections/travel",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.",
+    "references": "One clear adult portrait; optional owned river/location photograph. No requirement to upload handwriting or private journal pages.",
+    "preserve": "One recognizable face and actual proportions; keep the photographic face outside the painted region.",
+    "transform": "Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.",
+    "preview_brief": "One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+    "originality": "Continuous river-led transition and a single face, unlike the references' stacked repeated-scene pages; no copied captions.",
+    "risks": "Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook.",
+    "reuse": "Could develop the generic island or Paris travel memory, but the new river narrative warrants its own detail record; no existing image proves the effect.",
+    "reel_potential": "A restrained ink-edge reveal could work after a still succeeds; not selected for initial motion production.",
+    "evidence": [
+      "AP01",
+      "CG03",
+      "YM07"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 1,
+    "detail_url_proposal": "/ai-prompts/travel/the-river-remembers",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-river-remembers-creative-v2.webp",
+    "benefit": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+    "supporting_evidence": [
+      "research.json#AP01",
+      "research.json#CG03",
+      "research.json#YM07",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P02",
+    "title": "One Day, Four Possible Worlds",
+    "slug": "one-day-four-possible-worlds",
+    "transformation_type": "multi-scene-identity",
+    "destinations": [
+      "/collections/creative-transformations",
+      "/collections/instagram-profile-picture"
+    ],
+    "visual_narrative": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not.",
+    "references": "A clear frontal and optional three-quarter portrait of one adult. One identity, four intentional depictions. Choose pursuits rather than claim real accomplishments.",
+    "preserve": "Same recognizable face, age, hairline and physique in all four depictions.",
+    "transform": "Environment, practical wardrobe and expression per pursuit; changes do not imply different ethnic identities.",
+    "preview_brief": "A fictional Indian man about 35 with medium-brown skin, naturally curly medium-length hair and an ordinary stocky build. Ochre pottery dominant panel, midnight observatory and muted mountain inserts; avoid four identical smiles.",
+    "ratio": "3:4",
+    "score": 5,
+    "why_ai": "Offers four coherent imagined lives from one reference without organising four shoots.",
+    "originality": "Asymmetric narrative windows and chosen pursuits, not a source character costume, numbered pose sheet or nine warehouse angles.",
+    "risks": "High identity drift and tiny faces; trial one panel first, then assemble controlled panels. Do not crop this layout to 4:5.",
+    "reuse": "Reuse persona policy concepts; no final asset available.",
+    "reel_potential": "Possible later scene sequence with independent reference-conditioned shots; not a morphing transition.",
+    "evidence": [
+      "CG04",
+      "YM02",
+      "YM08"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 7,
+    "detail_url_proposal": "/ai-prompts/social-media/one-day-four-possible-worlds",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1600
+    ],
+    "expected_output_path": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+    "benefit": "Offers four coherent imagined lives from one reference without organising four shoots.",
+    "supporting_evidence": [
+      "research.json#CG04",
+      "research.json#YM02",
+      "research.json#YM08",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P03",
+    "title": "A Mountain Journey Within",
+    "slug": "a-mountain-journey-within",
+    "transformation_type": "controlled-double-exposure",
+    "destinations": [
+      "/collections/travel",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette.",
+    "references": "One clear head-and-shoulders portrait; optional owned landscape. One identity and one depiction.",
+    "preserve": "Eyes, nose, mouth, face geometry and hairline in a photographic neutral-lit zone.",
+    "transform": "Jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it.",
+    "preview_brief": "One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+    "originality": "The user's candidate direction is developed into a shoulder-only journey; the inspected sources do not establish a double-exposure example, so this is not claimed as a research finding.",
+    "risks": "Road crossing the eyes, hollow-looking face or unwanted extra person; keep the face zone explicit.",
+    "reuse": "Existing mountain scenes can inform setting but are not authorized landscape source plates for a real reference composite.",
+    "reel_potential": "Gentle environment motion possible later; keep face stable rather than animating an empty silhouette.",
+    "evidence": [
+      "CG02",
+      "AP03"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 5,
+    "detail_url_proposal": "/ai-prompts/travel/a-mountain-journey-within",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/a-mountain-journey-within-creative-v2.webp",
+    "benefit": "Creates a controlled portrait-landscape composite that would require specialist masking and art direction.",
+    "supporting_evidence": [
+      "research.json#CG02",
+      "research.json#AP03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P04",
+    "title": "Our Courtyard, Small Enough to Hold",
+    "slug": "our-courtyard-small-enough-to-hold",
+    "transformation_type": "miniature-memory",
+    "destinations": [
+      "/ai-prompts/family",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "A handcrafted shallow courtyard model sits on a wide wooden shelf. Three family members gather around a tiny chessboard near its front edge, large enough for readable faces. Rear balconies recede in painted card and carved wood; visible glue seams and scale make it a handmade memory rather than a normal house photograph.",
+    "references": "All family members independently labelled; optional owned home photo. Adapt composition to actual family count, not the fictional sample's three.",
+    "preserve": "Each person's age, recognizable landmarks and relative body proportions; distinguish identity count from miniature scale.",
+    "transform": "Uniform scale and surrounding building material; faces remain carefully rendered rather than blank figurines.",
+    "preview_brief": "Three fictional Indian family members: older woman around 68 with grey braid and deep-brown complexion, adult around 36 with short hair and medium complexion, child around 9 with wavy hair and light-brown complexion. Everyday cotton clothes; warm plaster, teal balcony and terracotta tile.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+    "originality": "A front-edge chess gathering in a shallow courtyard differs from the source street truck diorama and enamel mountain badge.",
+    "risks": "Small faces and model-like skin reduce recognizability; use a shallow set and only the supplied count. If fidelity fails, frame as a scene keepsake rather than a verified identity result.",
+    "reuse": "Existing family photos provide no automatic public reference permission; use a new fictional identity fixture. Reuse no final image.",
+    "reel_potential": "A small move past a wooden column can reveal the family and model edge; R02 candidate.",
+    "evidence": [
+      "AP02",
+      "CG01"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 3,
+    "detail_url_proposal": "/ai-prompts/family/our-courtyard-small-enough-to-hold",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+    "benefit": "Makes a family/home memory into a photographed bespoke architectural keepsake without commissioning a modelmaker.",
+    "supporting_evidence": [
+      "research.json#AP02",
+      "research.json#CG01",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P05",
+    "title": "The Last Train, Printed in Two Inks",
+    "slug": "last-train-two-ink-portrait",
+    "transformation_type": "limited-ink-print",
+    "destinations": [
+      "/collections/instagram-profile-picture",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering.",
+    "references": "One clear portrait; expression and period collar are optional styling choices.",
+    "preserve": "Recognizable facial geometry, apparent age, hairline and distinguishing marks through tonal relationships.",
+    "transform": "Entire image into a declared two-ink artwork; ink colour does not claim literal skin colour or altered ethnicity.",
+    "preview_brief": "Fictional Indian woman around 52, medium-brown complexion, silver-streaked short curls and a broad natural face; saffron/plum print on off-white stock, one diagonal window shadow, plain period blouse.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+    "originality": "Train-window light, two chosen inks and close facial hierarchy replace the source cafe composition and blue/orange palette.",
+    "risks": "Halftone can erase marks or smooth age; sample at card size and full resolution. Never append a conflicting photorealistic-skin clause.",
+    "reuse": "Existing photo persona contract requires an art-aware extension; no suitable final asset.",
+    "reel_potential": "Ink registration reveal is motion graphics rather than live footage; label accordingly if ever used.",
+    "evidence": [
+      "AP03"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 9,
+    "detail_url_proposal": "/ai-prompts/retro/last-train-two-ink-portrait",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "benefit": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+    "supporting_evidence": [
+      "research.json#AP03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P06",
+    "title": "The Letter Before the Train Leaves",
+    "slug": "the-heritage-railway-letter",
+    "transformation_type": "era-story",
+    "destinations": [
+      "/collections/pre-wedding",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "Develop the existing original concept: two adults exchange one folded letter beside a stationary 1970s-inspired carriage. A sliver of warm station light separates their hands; steam hides the far end of the platform, not their faces. The recipient's smile provides the emotional answer.",
+    "references": "Two separately identifiable adults or one clear couple reference. Preserve their actual ages; period is wardrobe/set styling only.",
+    "preserve": "Both identities, complexion, face shape and proportions; any meaningful reference marks.",
+    "transform": "Period travel clothes, hair arrangement, carriage and steam lighting without copying a film or actor.",
+    "preview_brief": "Two fictional Indian adults around 45 and 49 with distinct faces and ordinary builds; one with deep-brown skin and loose short curls, one with medium complexion and a greying moustache. Muted maroon and cream travel clothes, amber lamps and cool steam.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Creates an emotionally specific period film set with controlled steam, carriage access and lighting.",
+    "originality": "This is a retained PicMagic original, not a copied rainy-platform poster. Letter hand-off and face reaction differ from back-facing waiting figures and printed layout.",
+    "risks": "Hand transfer and tiny letter can confuse; still keyframe should show letter already supported between two separate hands.",
+    "reuse": "Reuse local prompt ID and canonical; old terrace-letter asset lacks carriage/steam and cannot serve as finished preview.",
+    "reel_potential": "R01: letter edge → hand-off/reaction → warm carriage reveal.",
+    "evidence": [
+      "YM05",
+      "YM03"
+    ],
+    "existing_prompt_slug": "the-heritage-railway-letter",
+    "first_batch_rank": 4,
+    "detail_url_proposal": "/ai-prompts/couple/the-heritage-railway-letter",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-heritage-railway-letter-creative-v2.webp",
+    "benefit": "Creates an emotionally specific period film set with controlled steam, carriage access and lighting.",
+    "supporting_evidence": [
+      "research.json#YM05",
+      "research.json#YM03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P07",
+    "title": "The Taxi Kept One Light On",
+    "slug": "the-taxi-kept-one-light-on",
+    "transformation_type": "fictional-film-moment",
+    "destinations": [
+      "/collections/cars",
+      "/collections/travel",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "A traveller pauses beneath a rain-dark station awning as the parked taxi's open rear door casts a warm rectangle onto wet pavement. One packed bag and an unoccupied back seat suggest the beginning of an unexpected journey. One face and one decision, not a generic luxury-car pose.",
+    "references": "One adult; optional car reference kept separate. Do not invent a recognizable driver or fabricate a real trip claim.",
+    "preserve": "Person identity and supplied vehicle geometry/paint; known surfaces only.",
+    "transform": "Weather, lighting, coat and waiting pose, plus a fictional station setting.",
+    "preview_brief": "Fictional Indian adult around 31 with deep complexion, close natural curls and ordinary proportions; olive raincoat, ochre bag and an unbranded dark taxi, warm door light in blue rain.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Builds a narrative rain set with precise lighting and vehicle continuity that is expensive to stage.",
+    "originality": "The emotional question is a departure decision; no royal-car pose or source platform layout.",
+    "risks": "Extra driver, door geometry and confusing wet reflections; high vehicle-reference burden.",
+    "reuse": "Could become a future creative variant of neon-monsoon-drive; do not create both unchanged versions.",
+    "reel_potential": "Door light → traveller's pause → bag placed safely inside; defer until vehicle geometry is reliable.",
+    "evidence": [
+      "YM05"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/cinematic/the-taxi-kept-one-light-on",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-taxi-kept-one-light-on-creative-v2.webp",
+    "benefit": "Builds a narrative rain set with precise lighting and vehicle continuity that is expensive to stage.",
+    "supporting_evidence": [
+      "research.json#YM05",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P08",
+    "title": "The Tailor's Mountain Range",
+    "slug": "the-tailors-mountain-range",
+    "transformation_type": "surreal-scale",
+    "destinations": [
+      "/collections/womens-fashion-ecommerce",
+      "/collections/mens-fashion-ecommerce",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing.",
+    "references": "One adult portrait; optional owned textile texture used as material inspiration, not proof of the completed garment.",
+    "preserve": "Person identity, age and relative anatomy, uniformly reduced in scale.",
+    "transform": "Cloth and sewing props into a large landscape, practical workwear and stance.",
+    "preview_brief": "Fictional Indian man around 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build; rust cotton work shirt amid enormous indigo fabric folds and a pale wooden spool.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+    "originality": "Textile terrain, a seam trail and one human differ from the lemon campaign's six interacting scenes and miniature street model.",
+    "risks": "Do not let the person become a tiny anonymous dot. Do not claim a transformed textile scene represents exact garment construction.",
+    "reuse": "No suitable final image; share only the product/person separation principles, not catalogue fidelity promises.",
+    "reel_potential": "Low move beside a seam opens the fabric pass; complex scale continuity means later only.",
+    "evidence": [
+      "CG05",
+      "CG02",
+      "AP02"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 6,
+    "detail_url_proposal": "/ai-prompts/fashion/the-tailors-mountain-range",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-tailors-mountain-range-creative-v2.webp",
+    "benefit": "Makes a person's craft into an impossible full-scale world without miniature fabrication or giant props.",
+    "supporting_evidence": [
+      "research.json#CG05",
+      "research.json#CG02",
+      "research.json#AP02",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P09",
+    "title": "Our First Home, Inside a Keepsake Box",
+    "slug": "our-first-home-keepsake-box",
+    "transformation_type": "memory-object",
+    "destinations": [
+      "/collections/pre-wedding",
+      "/ai-prompts/family",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "An open, unbranded wooden keepsake box contains a shallow room with two readable people seated on its threshold. One miniature house key rests outside at real scale. The lid holds a softly painted window view rather than another face or text.",
+    "references": "Two adults and optionally their owned room photograph. Do not imply a historical home if the location is imagined.",
+    "preserve": "Two distinct faces and actual ages; household details only when supplied.",
+    "transform": "Scene scale and box materials; clothing and warm domestic light.",
+    "preview_brief": "Fictional Indian couple around 60 with distinct medium/deep complexions, greying hair and ordinary proportions; casual kurta and cotton blouse, honey wood and muted green interior.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Turns a shared home memory into a bespoke three-dimensional keepsake.",
+    "originality": "Open-box threshold and real-scale key differ from a faceless enamel landscape badge or familiar snow globe.",
+    "risks": "Two small faces inside an object are difficult; reserve until P04 demonstrates readable miniature people.",
+    "reuse": "The older-couple image may inform broad warmth, but no licensed reference transfer or exact result is assumed.",
+    "reel_potential": "Box-edge reveal possible later; no automatic lid animation obscuring people.",
+    "evidence": [
+      "CG01",
+      "AP02"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/couple/our-first-home-keepsake-box",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/our-first-home-keepsake-box-creative-v2.webp",
+    "benefit": "Turns a shared home memory into a bespoke three-dimensional keepsake.",
+    "supporting_evidence": [
+      "research.json#CG01",
+      "research.json#AP02",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P10",
+    "title": "Four Reactions to One Good Surprise",
+    "slug": "four-reactions-one-good-surprise",
+    "transformation_type": "expression-sequence",
+    "destinations": [
+      "/collections/instagram-profile-picture",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "One dominant laughing portrait and three smaller interrupted-edge frames show curiosity, realization and delight. The source of the surprise remains outside the frame. One person, four depictions, no numbered grid or hairstyle catalogue.",
+    "references": "One adult portrait plus optional natural-expression references.",
+    "preserve": "One identity, actual age and facial structure across all expressions; realistic teeth and wrinkles.",
+    "transform": "Expression and slight head angle only; same wardrobe and neutral lighting.",
+    "preview_brief": "Fictional Indian woman around 29, deep-brown skin, short natural coils, visible freckles and ordinary face shape; mustard shirt on soft charcoal background.",
+    "ratio": "3:4",
+    "score": 4,
+    "why_ai": "Produces a coherent editorial personality sequence without repeated shooting and layout work.",
+    "originality": "An emotional arc and dominant-frame composition replace the source's pose and hairstyle grids.",
+    "risks": "Expression edits can change face shape; overlaps P02's multi-depiction challenge, so reserve rather than generate both initially.",
+    "reuse": "No finished asset; reuse identity mapping design from P02.",
+    "reel_potential": "Possible later cut sequence, not a face-morph demo.",
+    "evidence": [
+      "CG04",
+      "YM02"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/social-media/four-reactions-one-good-surprise",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1600
+    ],
+    "expected_output_path": "/previews/four-reactions-one-good-surprise-creative-v2.webp",
+    "benefit": "Produces a coherent editorial personality sequence without repeated shooting and layout work.",
+    "supporting_evidence": [
+      "research.json#CG04",
+      "research.json#YM02",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P11",
+    "title": "The Mirror Kept Another Decade",
+    "slug": "the-mirror-kept-another-decade",
+    "transformation_type": "era-reflection",
+    "destinations": [
+      "/collections/creative-transformations",
+      "/ai-prompts/men",
+      "/ai-prompts/women"
+    ],
+    "visual_narrative": "A present-day adult sits beside a dressing mirror. The reflection shows the same person at the same age in an original 1970s studio wardrobe; one matching raised hand joins the realities. The reflection has independent period light but obeys mirror geometry.",
+    "references": "One adult with frontal and three-quarter views. One identity, two deliberate depictions.",
+    "preserve": "Same age, recognizable face and hand anatomy in both views.",
+    "transform": "Clothes, grooming and set dressing in reflection only, not facial structure or ethnicity.",
+    "preview_brief": "Fictional Indian man about 62 with brown complexion, receding grey hair and a salt-and-pepper beard; current cotton shirt versus rust period jacket, amber mirror light.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Creates a physically impossible encounter with an era-styled self while retaining age.",
+    "originality": "One mirrored gesture and age-constant wardrobe contrast, without copying an actor, movie poster or historical person.",
+    "risks": "Mirror chirality and duplicated hand errors are high; reserve until single-identity repeated depictions work.",
+    "reuse": "Reuse period styling lessons from old-school-charm-new-memories; no suitable final mirror image.",
+    "reel_potential": "Deferred: mirror continuity harder than a static composition.",
+    "evidence": [
+      "YM08",
+      "YM03"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/retro/the-mirror-kept-another-decade",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-mirror-kept-another-decade-creative-v2.webp",
+    "benefit": "Creates a physically impossible encounter with an era-styled self while retaining age.",
+    "supporting_evidence": [
+      "research.json#YM08",
+      "research.json#YM03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P12",
+    "title": "One Saree, Three Campaign Worlds",
+    "slug": "one-saree-three-campaign-worlds",
+    "transformation_type": "garment-consistent-campaign",
+    "destinations": [
+      "/collections/womens-fashion-ecommerce",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "One dominant front-three-quarter model view and two supporting frames present the same saree in a basalt courtyard, a rain-lit glass pavilion and an ivory sculptural studio. Keep pose nearly constant so garment differences are detectable; environments create the campaign range. No invented rear view.",
+    "references": "Product front, border, blouse and weave references; one model identity if specified. Product references outrank generated aesthetic changes.",
+    "preserve": "Exact weave, colours, border, motifs, drape-compatible silhouette and all supplied construction; one model identity across three depictions.",
+    "transform": "Environment and lighting outside a neutrally lit garment zone. Hairstyle can be styled once and then kept consistent across panels.",
+    "preview_brief": "Fictional Indian model around 38, medium-brown complexion, naturally broad hips and short wavy hair; create one fictional indigo saree fixture with a simple copper border, then reuse that exact approved fixture in all three panels.",
+    "ratio": "3:4",
+    "score": 5,
+    "why_ai": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+    "originality": "Known-angle consistency across three distinct sets, not source nine-angle warehouse coverage or six lemon actions.",
+    "risks": "High product drift. Generate an approved product/model fixture first, then controlled panels; reject altered border/colour. Text-only examples do not prove seller fidelity.",
+    "reuse": "Existing palace-saree prompt provides fidelity language, but its pending image is not reusable product evidence.",
+    "reel_potential": "Later clean reference-conditioned cuts between locations; no garment-morph transition.",
+    "evidence": [
+      "YM08",
+      "CG05"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 11,
+    "detail_url_proposal": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1600
+    ],
+    "expected_output_path": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+    "benefit": "Explores three costly campaign locations while keeping a seller's product accountable to supplied evidence.",
+    "supporting_evidence": [
+      "research.json#YM08",
+      "research.json#CG05",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P13",
+    "title": "Portrait Cut from Monsoon Paper",
+    "slug": "portrait-cut-from-monsoon-paper",
+    "transformation_type": "physical-material-portrait",
+    "destinations": [
+      "/collections/creative-transformations",
+      "/collections/instagram-profile-picture"
+    ],
+    "visual_narrative": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter.",
+    "references": "One clear frontal portrait with visible facial landmarks; no identity claim from a generic paper silhouette.",
+    "preserve": "Facial geometry, age cues, hairline and distinguishing features as translated material forms.",
+    "transform": "Skin and hair appearance into a declared paper palette; preserve relative complexion values without claiming literal skin material or ethnicity change.",
+    "preview_brief": "Fictional Indian woman about 67, deep-brown complexion, silver hair in a loose knot and natural facial lines; warm umber, indigo and cream papers with irregular fibre edges and subtle relief shadows.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+    "originality": "The face itself is dimensional paper, rather than a photographic person placed inside the source's pastel paper landscape.",
+    "risks": "Simplification can remove age or identity; first test a single face with limited relief before adding environment.",
+    "reuse": "No suitable final asset. New material-aware identity rules are necessary.",
+    "reel_potential": "A light sweep can reveal relief; that would be an art preview, not human live-action video.",
+    "evidence": [
+      "CG06",
+      "AP03"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": 8,
+    "detail_url_proposal": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "benefit": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+    "supporting_evidence": [
+      "research.json#CG06",
+      "research.json#AP03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P14",
+    "title": "Diwali, the Courtyard Became a Constellation",
+    "slug": "a-family-evening-lit-by-diyas",
+    "transformation_type": "festival-light-world",
+    "destinations": [
+      "/collections/indian-festivals",
+      "/ai-prompts/family",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "Retain the existing thousand-diya direction: a family on a broad clear veranda is framed by successive warm light layers that read like a constellation on the ground. Practical flames stay separate and below hands; faces form the foreground anchor.",
+    "references": "All actual family members; no mandatory grandparents or child if absent.",
+    "preserve": "Each identity, age, complexion and group count. Religious marks only if supplied or explicitly requested by the specific concept.",
+    "transform": "Festive clothing, evening courtyard and designed light depth.",
+    "preview_brief": "Four fictional Indian relatives spanning child, adult and older ages, varied medium/deep complexions and everyday natural builds; cream, indigo and marigold clothes, safe unlit walkway, no identical copied faces or lamps.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Builds a large controlled festival-light installation around a recognizable family.",
+    "originality": "Existing PicMagic light-depth concept retained; source lessons concern hierarchy, not a copied composition.",
+    "risks": "Many repeated flames and group faces challenge coherence. Reserve because family miniature already covers complex group production in batch one.",
+    "reuse": "Reuse existing canonical and revised prompt; old four-person lamp image lacks the scale and should not claim to show this treatment.",
+    "reel_potential": "Existing diya-to-family-to-courtyard reveal is a future candidate, not a new duplicate reel.",
+    "evidence": [
+      "CG02",
+      "YM03"
+    ],
+    "existing_prompt_slug": "a-family-evening-lit-by-diyas",
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/festival/a-family-evening-lit-by-diyas",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/a-family-evening-lit-by-diyas-creative-v2.webp",
+    "benefit": "Builds a large controlled festival-light installation around a recognizable family.",
+    "supporting_evidence": [
+      "research.json#CG02",
+      "research.json#YM03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P15",
+    "title": "The Hands That Made This Home",
+    "slug": "the-hands-that-made-this-home",
+    "transformation_type": "generational-composition",
+    "destinations": [
+      "/ai-prompts/family",
+      "/collections/maternity",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "Supplied adult generations sit at different depths beside the same worktable, each with a personally supplied meaningful object. A handwoven cloth connects foreground and background. Faces are equally respected; no ghost portraits, invented ancestors or young/old morphs.",
+    "references": "Explicit reference for every person and any meaningful object. A family relationship is user-provided, not inferred from faces.",
+    "preserve": "Each actual age, distinct identity and proportions; same person must not be artificially aged into another relative.",
+    "transform": "Room, seating, clothing and warm light around the supplied people.",
+    "preview_brief": "Three fictional Indian adults around 30, 55 and 78 with distinct faces, varied brown complexions and grey/wavy/straight hair; plain wooden room, indigo cloth, clay bowl and a simple wooden tool, with no implied real ancestry.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Brings separately photographed relatives into one thoughtful composition without changing their ages.",
+    "originality": "A shared worktable and meaningful objects replace empty-frame symbolism or spectral ancestor montage.",
+    "risks": "Requires complete references and clear permission for the intended use; do not manufacture missing relatives. Reserve pending owned identity fixtures.",
+    "reuse": "Could replace ambiguous generations-waiting-together only with an explicit scope/name decision; no destructive change now.",
+    "reel_potential": "Gentle sequential face reveal later; not a morph through generations.",
+    "evidence": [
+      "YM05",
+      "AP05"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/family/the-hands-that-made-this-home",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-hands-that-made-this-home-creative-v2.webp",
+    "benefit": "Brings separately photographed relatives into one thoughtful composition without changing their ages.",
+    "supporting_evidence": [
+      "research.json#YM05",
+      "research.json#AP05",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P16",
+    "title": "Two Explorers, One Doorway",
+    "slug": "two-explorers-one-doorway",
+    "transformation_type": "owner-pet-parallel",
+    "destinations": [
+      "/collections/pets",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "Owner and pet sit at two scales of the same oversized forest doorway: the person's boot and pet's paw echo in the foreground, their faces look toward one shared pool of light. The doorway is a crafted set, not a dangerous real cliff.",
+    "references": "One owner and their actual pet, with coat/marking references. Separate person and animal identity maps.",
+    "preserve": "Owner identity and pet species, markings, eyes, proportions and natural posture.",
+    "transform": "Environment, owner's practical clothes and composition; no human anatomy on the pet.",
+    "preview_brief": "Fictional Indian woman around 46 with medium-brown complexion, short salt-and-pepper hair and ordinary build, with a fictional black-and-tan Indian mixed-breed dog; weathered teal doorway and warm woodland light.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Creates an affectionate joint adventure campaign from separate owner and pet photos.",
+    "originality": "Connected gaze and doorway/limb echoes differ from the rainy platform's back-facing figures and royal pet painting.",
+    "risks": "Owner-pet identity drift and forced expressions; natural resting posture first. Existing adventure-poster concept overlaps, so develop it there instead of duplicating publication.",
+    "reuse": "Prefer a future variant under you-and-your-pet-the-adventure-poster; no new public slug until overlap is resolved.",
+    "reel_potential": "Boot/paw → shared gaze → crafted doorway reveal; a later candidate after one approved still.",
+    "evidence": [
+      "YM05",
+      "AP04"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/cinematic/two-explorers-one-doorway",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/two-explorers-one-doorway-creative-v2.webp",
+    "benefit": "Creates an affectionate joint adventure campaign from separate owner and pet photos.",
+    "supporting_evidence": [
+      "research.json#YM05",
+      "research.json#AP04",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P17",
+    "title": "The Bottle Inside a Moment of Water",
+    "slug": "perfume-the-water-sculpture",
+    "transformation_type": "impossible-product-set",
+    "destinations": [
+      "/collections/product-shoots",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "Retain the existing dry, upright perfume bottle on a clear plinth. One precise water arc rises behind it like a transient architectural arch. The front label stays unobscured; water never penetrates or redesigns the product.",
+    "references": "Actual bottle front and relevant side views; approved label/packshot. Use compositing when exact lettering cannot be maintained.",
+    "preserve": "Geometry, cap, colour, material, label and supplied liquid level; never silently replace the seller's product.",
+    "transform": "Water environment, background and controlled light only; no waterproofness claim.",
+    "preview_brief": "No human subject. First establish an original fictional squat clear-glass bottle with a plain bronze cap and a simple unlettered cream label as a product fixture; clear water, charcoal-blue background and neutral label fill.",
+    "ratio": "4:5",
+    "score": 5,
+    "why_ai": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+    "originality": "Existing PicMagic single water-arch concept, not the source's blue floral jar or snack storyboard sequence.",
+    "risks": "Glass/water intersection and label drift; bottle fixture must remain unchanged, and reflections must not imply duplicate bottles.",
+    "reuse": "Reuse prompt ID/canonical and product contract; fragrance-reveal image is a different bottle/set and is not the finished campaign.",
+    "reel_potential": "R03: lit water edge → dry label reveal → full arc; actual fluid dynamics must pass video QA.",
+    "evidence": [
+      "AP06",
+      "YM06"
+    ],
+    "existing_prompt_slug": "perfume-the-water-sculpture",
+    "first_batch_rank": 2,
+    "detail_url_proposal": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+    "benefit": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+    "supporting_evidence": [
+      "research.json#AP06",
+      "research.json#YM06",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P18",
+    "title": "The Storybook Left Its Pages Open",
+    "slug": "the-storybook-left-its-pages-open",
+    "transformation_type": "storybook-threshold",
+    "destinations": [
+      "/collections/babies",
+      "/ai-prompts/kids",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "One child and supplied caregiver read beside a low easel. Paper trees extend from a giant open book into the real room, stopping before their faces and bodies. A single illustrated bird becomes a folded-paper bird on the lamp, not a living creature mid-morph.",
+    "references": "Age-appropriate child and actual caregiver when shown; do not turn an adult reference into a child.",
+    "preserve": "Both recognizable identities, age and natural support; same count, no invented parent.",
+    "transform": "Scenery and storybook medium; normal clothes and safe seated posture remain.",
+    "preview_brief": "Fictional Indian child around 6 with medium-brown skin and short wavy hair, and an older caregiver around 64 with deeper complexion and grey braid; cream rug, rust book cover and indigo paper trees.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Makes a reading memory spill into a room-scale handmade story set.",
+    "originality": "Continuous depth from easel to lamp, no stacked photo/sketch page or copied franchise scenery.",
+    "risks": "Substantially overlaps existing family storybook reader; reserve as that concept's next art direction, not another thin record.",
+    "reuse": "Use the-family-s-little-storybook-reader rather than activate a duplicate. No aligned image available.",
+    "reel_potential": "Later parallax reveal, keeping set pieces already present rather than morphing the room.",
+    "evidence": [
+      "CG06",
+      "AP01"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/kids/the-storybook-left-its-pages-open",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-storybook-left-its-pages-open-creative-v2.webp",
+    "benefit": "Makes a reading memory spill into a room-scale handmade story set.",
+    "supporting_evidence": [
+      "research.json#CG06",
+      "research.json#AP01",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P19",
+    "title": "The Rain Stops at the Easel",
+    "slug": "the-rain-stops-at-the-easel",
+    "transformation_type": "two-realities-boundary",
+    "destinations": [
+      "/collections/creative-transformations",
+      "/collections/travel"
+    ],
+    "visual_narrative": "An adult stands beside a large canvas in a sheltered courtyard. Beyond one irregular painted edge the courtyard is rainy; inside the canvas's perspective-aligned opening the same architecture is sunlit. The person stays entirely in the photographic foreground, touching neither impossible weather boundary nor paint.",
+    "references": "One adult and optionally an owned courtyard image. One person, one depiction; scenery can repeat deliberately.",
+    "preserve": "Photographic face and actual body; scene geometry corresponds across the two weather states.",
+    "transform": "Weather and medium across one canvas boundary, not the person.",
+    "preview_brief": "Fictional Indian adult around 40 with light-brown skin, shoulder-length natural waves and ordinary proportions; charcoal kurta, old stone courtyard, warm canvas opening against cool rain.",
+    "ratio": "4:5",
+    "score": 4,
+    "why_ai": "Creates a coherent impossible weather/medium transition in one personal scene.",
+    "originality": "Weather boundary aligned to an easel's perspective, no source half-page comparison.",
+    "risks": "Potentially redundant with P01 and multiple perspective planes; keep as a reserve mechanism extension, not batch filler.",
+    "reuse": "No completed asset; no additional collection needed.",
+    "reel_potential": "Deferred until the still's perspective is convincing; no automatic environment morphing.",
+    "evidence": [
+      "AP01",
+      "CG03"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/cinematic/the-rain-stops-at-the-easel",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1500
+    ],
+    "expected_output_path": "/previews/the-rain-stops-at-the-easel-creative-v2.webp",
+    "benefit": "Creates a coherent impossible weather/medium transition in one personal scene.",
+    "supporting_evidence": [
+      "research.json#AP01",
+      "research.json#CG03",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  },
+  {
+    "id": "P20",
+    "title": "Three Frames Before the Goodbye",
+    "slug": "three-frames-before-the-goodbye",
+    "transformation_type": "narrative-contact-sheet",
+    "destinations": [
+      "/collections/pre-wedding",
+      "/collections/creative-transformations"
+    ],
+    "visual_narrative": "One large frame shows a couple pausing at an open doorway; two smaller inset moments show a letter already held and a final exchanged smile. Identical wardrobe and the same doorway connect all scenes. Use generous negative space, no film sprocket border or generated captions.",
+    "references": "Two clear adult identities; three intentional depictions of each, one setting and wardrobe contract.",
+    "preserve": "Both people independently across all frames; same apparent ages and proportions.",
+    "transform": "Framing and expression through a small fictional emotional sequence.",
+    "preview_brief": "Fictional Indian couple around 32 and 36 with different facial shapes, medium/deep complexions and short/long natural hair; simple cream and bottle-green travel clothes, weathered ochre doorway.",
+    "ratio": "3:4",
+    "score": 4,
+    "why_ai": "Creates a coherent fictional memory sequence and editorial layout without three staged shoots.",
+    "originality": "One dominant doorway scene and two emotional details, not a branded snack storyboard or uniform multi-angle grid.",
+    "risks": "Competes with P06's letter narrative and P02's multi-frame identity challenge; reserve until those tests succeed.",
+    "reuse": "Develop as a later format variant of the heritage-railway-letter rather than duplicate the emotional premise in public discovery.",
+    "reel_potential": "Could become sequential reference-conditioned clips, but the sheet itself is not video.",
+    "evidence": [
+      "YM06",
+      "YM08",
+      "YM05"
+    ],
+    "existing_prompt_slug": null,
+    "first_batch_rank": null,
+    "detail_url_proposal": "/ai-prompts/couple/three-frames-before-the-goodbye",
+    "generation_status": "not-approved; no submissions",
+    "target_dimensions": [
+      1200,
+      1600
+    ],
+    "expected_output_path": "/previews/three-frames-before-the-goodbye-creative-v2.webp",
+    "benefit": "Creates a coherent fictional memory sequence and editorial layout without three staged shoots.",
+    "supporting_evidence": [
+      "research.json#YM06",
+      "research.json#YM08",
+      "research.json#YM05",
+      "prompt-audit.json",
+      "generator-review.md"
+    ]
+  }
+]

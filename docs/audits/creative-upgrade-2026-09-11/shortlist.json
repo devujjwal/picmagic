@@ -1,0 +1,232 @@
+[
+  {
+    "id": "P01",
+    "rank": 1,
+    "title": "The River Remembers",
+    "detail_url": "/ai-prompts/travel/the-river-remembers",
+    "mechanism": "photo-illustration",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-river-remembers-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P01"
+    ]
+  },
+  {
+    "id": "P17",
+    "rank": 2,
+    "title": "The Bottle Inside a Moment of Water",
+    "detail_url": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+    "mechanism": "impossible-product-set",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P17"
+    ]
+  },
+  {
+    "id": "P04",
+    "rank": 3,
+    "title": "Our Courtyard, Small Enough to Hold",
+    "detail_url": "/ai-prompts/family/our-courtyard-small-enough-to-hold",
+    "mechanism": "miniature-memory",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P04"
+    ]
+  },
+  {
+    "id": "P06",
+    "rank": 4,
+    "title": "The Letter Before the Train Leaves",
+    "detail_url": "/ai-prompts/couple/the-heritage-railway-letter",
+    "mechanism": "era-story",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-heritage-railway-letter-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P06"
+    ]
+  },
+  {
+    "id": "P03",
+    "rank": 5,
+    "title": "A Mountain Journey Within",
+    "detail_url": "/ai-prompts/travel/a-mountain-journey-within",
+    "mechanism": "controlled-double-exposure",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/a-mountain-journey-within-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P03"
+    ]
+  },
+  {
+    "id": "P08",
+    "rank": 6,
+    "title": "The Tailor's Mountain Range",
+    "detail_url": "/ai-prompts/fashion/the-tailors-mountain-range",
+    "mechanism": "surreal-scale",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/the-tailors-mountain-range-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P08"
+    ]
+  },
+  {
+    "id": "P02",
+    "rank": 7,
+    "title": "One Day, Four Possible Worlds",
+    "detail_url": "/ai-prompts/social-media/one-day-four-possible-worlds",
+    "mechanism": "multi-scene-identity",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "3:4",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "output_candidate": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P02"
+    ]
+  },
+  {
+    "id": "P13",
+    "rank": 8,
+    "title": "Portrait Cut from Monsoon Paper",
+    "detail_url": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+    "mechanism": "physical-material-portrait",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P13"
+    ]
+  },
+  {
+    "id": "P05",
+    "rank": 9,
+    "title": "The Last Train, Printed in Two Inks",
+    "detail_url": "/ai-prompts/retro/last-train-two-ink-portrait",
+    "mechanism": "limited-ink-print",
+    "score": 4,
+    "action": "new-output-required",
+    "ratio": "4:5",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "output_candidate": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P05"
+    ]
+  },
+  {
+    "id": "E01",
+    "rank": 10,
+    "title": "Tiny Krishna, big wonder",
+    "detail_url": "/ai-prompts/kids/tiny-krishna-big-wonder",
+    "mechanism": "cultural-styling",
+    "score": 5,
+    "action": "retain-existing-recommended",
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "existing_path": "/previews/tiny-krishna-big-wonder.webp",
+    "generation_approved": false,
+    "evidence": [
+      "asset-review.json#78",
+      "prompt-audit.json#e47fef4c-2fbc-5a52-82f1-2767a0881a08"
+    ]
+  },
+  {
+    "id": "P12",
+    "rank": 11,
+    "title": "One Saree, Three Campaign Worlds",
+    "detail_url": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+    "mechanism": "garment-consistent-campaign",
+    "score": 5,
+    "action": "new-output-required",
+    "ratio": "3:4",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "output_candidate": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+    "generation_approved": false,
+    "evidence": [
+      "proposals.json#P12"
+    ]
+  },
+  {
+    "id": "E02",
+    "rank": 12,
+    "title": "A little rain. A lot of romance.",
+    "detail_url": "/ai-prompts/couple/a-little-rain-a-lot-of-romance",
+    "mechanism": "rain-romance-story",
+    "score": 4,
+    "action": "retain-existing-recommended",
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "existing_path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+    "generation_approved": false,
+    "evidence": [
+      "asset-review.json#7",
+      "prompt-audit.json#f8599583-8854-5732-93f1-a0ac27860372"
+    ]
+  }
+]

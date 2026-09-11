@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./fixtures";
 import prompts from "../../content/prompts.json" with { type: "json" };
 const krishna = prompts.find((p) => p.slug === "tiny-krishna-big-wonder")!;
 test("Krishna details and copy preserve the full reviewed prompt", async ({

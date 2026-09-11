@@ -9,14 +9,15 @@
     "start": "next start --hostname 0.0.0.0",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
-    "build:deploy": "node scripts/check-launch.mjs && pnpm lint && pnpm typecheck && pnpm test && pnpm check:content && pnpm build",
+    "build:deploy": "node scripts/check-launch.mjs && pnpm lint && pnpm typecheck && pnpm test && pnpm check:content && pnpm check:release-content && pnpm build",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
     "check:content": "tsx scripts/check-content.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check:launch": "node scripts/check-launch.mjs --production"
+    "check:launch": "node scripts/check-launch.mjs --production",
+    "check:release-content": "tsx scripts/check-release-content.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
