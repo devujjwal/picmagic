@@ -1,0 +1,268 @@
+{
+  "checked_at": "2026-09-15T06:54:11.706Z",
+  "base": "https://picmagic-in.netlify.app",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "PicMagic. AI Photo Ideas, Editing Prompts &amp; Reel Prompts",
+      "canonical": "https://picmagic.in"
+    },
+    {
+      "path": "/ai-prompts",
+      "status": 200,
+      "title": "AI Photo Ideas | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts"
+    },
+    {
+      "path": "/ai-prompts/men",
+      "status": 200,
+      "title": "AI Photo Prompts for Men | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/men"
+    },
+    {
+      "path": "/ai-prompts/women",
+      "status": 200,
+      "title": "AI Photo Prompts for Women | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/women"
+    },
+    {
+      "path": "/ai-prompts/couple",
+      "status": 200,
+      "title": "AI Photo Prompts for Couples | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/couple"
+    },
+    {
+      "path": "/ai-prompts/kids",
+      "status": 200,
+      "title": "AI Photo Prompts for Kids | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/kids"
+    },
+    {
+      "path": "/ai-prompts/family",
+      "status": 200,
+      "title": "AI Photo Prompts for Family | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/family"
+    },
+    {
+      "path": "/ai-prompts/wedding",
+      "status": 200,
+      "title": "AI Photo Prompts for Wedding | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/wedding"
+    },
+    {
+      "path": "/collections/creative-transformations",
+      "status": 200,
+      "title": "Creative AI Photo Transformations | PicMagic | PicMagic",
+      "canonical": "https://picmagic.in/collections/creative-transformations"
+    },
+    {
+      "path": "/collections/instagram-profile-picture",
+      "status": 200,
+      "title": "instagram profile picture Photo Ideas | PicMagic",
+      "canonical": "https://picmagic.in/collections/instagram-profile-picture"
+    },
+    {
+      "path": "/enhance-photo",
+      "status": 200,
+      "title": "Enhance Your Photo with AI Editing Prompts | PicMagic",
+      "canonical": "https://picmagic.in/enhance-photo"
+    },
+    {
+      "path": "/create",
+      "status": 200,
+      "title": "Create Your Own AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/create"
+    },
+    {
+      "path": "/reel-prompts",
+      "status": 200,
+      "title": "AI Reel Ideas and Video Prompts | PicMagic",
+      "canonical": "https://picmagic.in/reel-prompts"
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "title": "Find Your Next Photo Idea | PicMagic",
+      "canonical": "https://picmagic.in/search"
+    },
+    {
+      "path": "/saved",
+      "status": 200,
+      "title": "Your Saved Looks | PicMagic",
+      "canonical": "https://picmagic.in/saved"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "title": "Barefoot at blue hour AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour"
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "title": "Tiny Krishna, big wonder AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder"
+    },
+    {
+      "path": "/ai-prompts/social-media/borrowed-moon-closing-time",
+      "status": 200,
+      "title": "Borrowed Moon, Closing Time — AI Post Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/borrowed-moon-closing-time",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "status": 200,
+      "title": "A Fold Around You — Profile Picture Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/a-fold-around-you-profile",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/small-burst-of-motion-profile",
+      "status": 200,
+      "title": "A Small Burst of Motion — Profile Picture Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/small-burst-of-motion-profile",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/between-two-gravities",
+      "status": 200,
+      "title": "Between Two Gravities — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/between-two-gravities",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/the-listening-room-has-tides",
+      "status": 200,
+      "title": "The Listening Room Has Tides — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/the-listening-room-has-tides",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/chai-between-the-floors",
+      "status": 200,
+      "title": "Chai Between the Floors — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/chai-between-the-floors",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/one-step-outside-the-frame",
+      "status": 200,
+      "title": "One Step Outside the Frame — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-step-outside-the-frame",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/women/ink-took-my-coffee",
+      "status": 200,
+      "title": "Ink Took My Coffee — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/women/ink-took-my-coffee",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/kids/the-kite-in-my-notebook",
+      "status": 200,
+      "title": "The Kite in My Notebook — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/kids/the-kite-in-my-notebook",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/men/clouds-on-laundry-day",
+      "status": 200,
+      "title": "Clouds on Laundry Day — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/men/clouds-on-laundry-day",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/men/the-projectionist-is-me",
+      "status": 200,
+      "title": "The Projectionist Is Me — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/men/the-projectionist-is-me",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/women/the-lift-stops-at-the-ocean",
+      "status": 200,
+      "title": "The Lift Stops at the Ocean — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/women/the-lift-stops-at-the-ocean",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/men/double-exposure-fashion-men",
+      "status": 200,
+      "title": "Double-Exposure Fashion — Men Portrait Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/men/double-exposure-fashion-men",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/women/double-exposure-fashion-women",
+      "status": 200,
+      "title": "Double-Exposure Fashion — Women Portrait Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/women/double-exposure-fashion-women",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/men/katana-in-the-square-of-light",
+      "status": 200,
+      "title": "Katana Streetwear Portrait Prompt for Men | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/men/katana-in-the-square-of-light",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/ai-prompts/social-media/standing-on-my-playlist",
+      "status": 200,
+      "title": "Standing on My Playlist — AI Photo Prompt | PicMagic",
+      "canonical": "https://picmagic.in/ai-prompts/social-media/standing-on-my-playlist",
+      "contains_expected_title": true,
+      "canonical_correct": true,
+      "open_graph": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "all_new_urls_present": true,
+      "new_count": 16
+    },
+    {
+      "path": "/api/search",
+      "status": 200,
+      "count": 91,
+      "all_new_prompts_present": true
+    }
+  ]
+}

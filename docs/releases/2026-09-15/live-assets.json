@@ -1,0 +1,230 @@
+{
+  "checked_at": "2026-09-15T06:52:08.164Z",
+  "base": "https://picmagic-in.netlify.app",
+  "results": [
+    {
+      "asset": "/previews/borrowed-moon-closing-time-social-v1.webp",
+      "status": 200,
+      "bytes": 162378,
+      "sha256": "bf7cec83555b4190014f60db87fcac49e8bfc456f94be0febf028969dc1071bb",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/borrowed-moon-closing-time-social-v1-thumb.webp",
+      "status": 200,
+      "bytes": 38408,
+      "sha256": "8f01e6e98aeb1122e270ecf751241f841eb1a4ef04b38cf5e6e04cf9dbaf4008",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/a-fold-around-you-profile-social-v1.webp",
+      "status": 200,
+      "bytes": 93440,
+      "sha256": "2e8577a352d4bd061350526cdfa5f88f7ca522d2f5dfdcbb148f4d2bde7a39b3",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/a-fold-around-you-profile-social-v1-thumb.webp",
+      "status": 200,
+      "bytes": 14218,
+      "sha256": "028ad45e8fc20b105a25ef515279ba0075ffcc09d213d089429549f305b226eb",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/small-burst-of-motion-profile-social-v1.webp",
+      "status": 200,
+      "bytes": 104352,
+      "sha256": "b07c7f2445f64921c0e3073ff8d503b36f8e25ac1845174e97712ccd9477891c",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/small-burst-of-motion-profile-social-v1-thumb.webp",
+      "status": 200,
+      "bytes": 18366,
+      "sha256": "d69e086a7a354a1e310b9c17533db13f53c55e16d4a77239bfdb33e1af8da910",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/between-two-gravities-genz.webp",
+      "status": 200,
+      "bytes": 184634,
+      "sha256": "1918e3e42e37c5835664bac7305fcc6dabdc31f28ce38dcbaff9fc6c1ea18d60",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/between-two-gravities-genz-thumb.webp",
+      "status": 200,
+      "bytes": 42896,
+      "sha256": "55003700aae8df1ee766c34fd736e4cfbcc5acc9510750316b77e973039ef523",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-listening-room-has-tides-genz.webp",
+      "status": 200,
+      "bytes": 192724,
+      "sha256": "b138ebca8ada421dd2e0652a6ec1d1002c16191f6dfcbd58f32726fb8028e586",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-listening-room-has-tides-genz-thumb.webp",
+      "status": 200,
+      "bytes": 44742,
+      "sha256": "782d753d2460ce687c41699c8bbcb80546e36ca935df72f867b163f3061f00c4",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/chai-between-the-floors-genz.webp",
+      "status": 200,
+      "bytes": 165776,
+      "sha256": "959f4fe015787a521b9f4e7515549bf74825c9dbd46839c704e6acd228efb7f7",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/chai-between-the-floors-genz-thumb.webp",
+      "status": 200,
+      "bytes": 48854,
+      "sha256": "eb27def49e3f489f86a93a3b44e06f58a53e635d83d26fb92f8f7230e44ffda2",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/one-step-outside-the-frame-genz.webp",
+      "status": 200,
+      "bytes": 79772,
+      "sha256": "91bc5a67ef597fe912655385544594caf00e8eab3768223c88a8f3c51d5f4e3c",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/one-step-outside-the-frame-genz-thumb.webp",
+      "status": 200,
+      "bytes": 19936,
+      "sha256": "9ff6239a97827856ed0d26b55f6cec18d59bf102e47a987901a7a331cc015231",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/ink-took-my-coffee-impact.webp",
+      "status": 200,
+      "bytes": 126916,
+      "sha256": "88e53695d2ab0b847095e94b67e8bfcc3071c2efe5a46024eb0faa308cc8edbe",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/ink-took-my-coffee-impact-thumb.webp",
+      "status": 200,
+      "bytes": 30344,
+      "sha256": "9f44cf965821d693593433d949c8a8252c19f4c94294467d760d8763032617e8",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-kite-in-my-notebook-impact.webp",
+      "status": 200,
+      "bytes": 115900,
+      "sha256": "2abe48fc6bb781e72bee074fd494a57d2dce41fb5cb9a1e04cebdf3968dbfd6a",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-kite-in-my-notebook-impact-thumb.webp",
+      "status": 200,
+      "bytes": 32392,
+      "sha256": "e6392dd1be0f2a94b43da794969b15db87bc5741d3ec7c0d5687d9203070fb4f",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/clouds-on-laundry-day-impact.webp",
+      "status": 200,
+      "bytes": 132522,
+      "sha256": "30960a7cd6e0030857931ee8b885ad8fcdbaff0a93af58f30481d40a4e72aefb",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/clouds-on-laundry-day-impact-thumb.webp",
+      "status": 200,
+      "bytes": 30810,
+      "sha256": "527db4e289505a38dc95624ca88bff3cc978b4ceadfffa2bf7eddceac7d78f19",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-projectionist-is-me-impact.webp",
+      "status": 200,
+      "bytes": 117392,
+      "sha256": "e662ef2eec0dc6c33a0ba455b6e018d4a7887df4f4f1385e08d9957737b2d24d",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-projectionist-is-me-impact-thumb.webp",
+      "status": 200,
+      "bytes": 23680,
+      "sha256": "5de1e39726967e4e3e70eeb2a5afd6119af506e4b6a6fc2875ba4074b298db9a",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-lift-stops-at-the-ocean-impact.webp",
+      "status": 200,
+      "bytes": 144066,
+      "sha256": "27fc81cf89e54b7df69f0834cd4129ff7ce33c30cf4febe38e5198722075c8c1",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/the-lift-stops-at-the-ocean-impact-thumb.webp",
+      "status": 200,
+      "bytes": 34330,
+      "sha256": "c11b3e602e29c5eebfd30e84d1f9fb8a4321c478a4514161712ede6c73051483",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/double-exposure-fashion-men.webp",
+      "status": 200,
+      "bytes": 111218,
+      "sha256": "104aa2bb6e285c7befa7e6ba1cade8262505b5a5da3c9ac93f2587b0e70801c8",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/double-exposure-fashion-men-thumb.webp",
+      "status": 200,
+      "bytes": 21542,
+      "sha256": "4377343d0b384a7edf1d564dbbf94da4e724995f03a7346285c36f4c1aad98d6",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/double-exposure-fashion-women.webp",
+      "status": 200,
+      "bytes": 114956,
+      "sha256": "abecdce3df858288aefc04b5aa4ff4a8feac0dca66f838bf762235849f35e9bd",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/double-exposure-fashion-women-thumb.webp",
+      "status": 200,
+      "bytes": 20588,
+      "sha256": "b83e03af119b12358efa72c95a8f07c256078a7f0502563caaa78326f0991ac9",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/katana-in-the-square-of-light.webp",
+      "status": 200,
+      "bytes": 113774,
+      "sha256": "cababeaf8385c783e526edffe19d6bd1de23c9cbbd6237c7286038d7043549c8",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/katana-in-the-square-of-light-thumb.webp",
+      "status": 200,
+      "bytes": 24754,
+      "sha256": "dbe8893c4e666b9fbb9fe2eae7685e7f97e9ff22f156a3246b76d4ab20f494d8",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/standing-on-my-playlist.webp",
+      "status": 200,
+      "bytes": 80368,
+      "sha256": "9cab3c9f6d29247486992a1ad399363018d7c001bb9b9c3a0f6cedc171b13b52",
+      "matches_local": true
+    },
+    {
+      "asset": "/previews/standing-on-my-playlist-thumb.webp",
+      "status": 200,
+      "bytes": 19268,
+      "sha256": "251fdd298aa2f040de56eb2ccf9eb9147e56061bee65b1654163b496153eefe7",
+      "matches_local": true
+    }
+  ]
+}

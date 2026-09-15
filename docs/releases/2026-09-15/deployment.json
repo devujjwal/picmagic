@@ -1,0 +1,11 @@
+{
+  "id": "6aa8ea86fe41b30008dad05a",
+  "state": "ready",
+  "commit_ref": "941970750eaa0d7d77130fe11642c714f71769d8",
+  "published_at": "2026-09-15T06:51:09.517Z",
+  "deploy_ssl_url": "https://main--picmagic-in.netlify.app",
+  "build_id": "6aa8ea86fe41b30008dad058",
+  "error_message": null,
+  "branch": "main",
+  "context": "production"
+}
