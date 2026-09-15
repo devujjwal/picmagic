@@ -29,3 +29,7 @@ The owner subsequently authorized Codex-only image generation for the three reta
 ## Gen Z discovery round — 15 September 2026
 
 This separate round retains the active release hold. Research and current-library duplicate checks precede a 5–8 concept shortlist; generate only that shortlist through accessible ChatGPT image generation. The prior three-asset Codex-only exception does not extend to this round. No Codex/Astra fallback, paid API, purchase or video work. Integrate only visually accepted assets locally; no automatic homepage edits or production activation.
+
+## Reference-inspired expansion — 15 September 2026
+
+The six user-supplied WhatsApp images are research references only: never copy them to public assets, publish them, reuse their faces or reproduce visible branding/UI. The local reference comparison sheet lives under gitignored `.release-private/reference-impact-2026-09-15/`. This round uses ChatGPT browser image generation only and retains the release hold. Accepted records are unpublished local drafts using the existing seed preview guard. No new homepage ordering or automatic release is authorized. See `docs/audits/reference-impact-2026-09-15/` for selection, provenance, prompt and QA records.

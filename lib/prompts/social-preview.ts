@@ -1,3 +1,5 @@
+import referenceImpactPrompts from "@/content/additions/reference-impact-prompts.json";
+import referenceImpactMemberships from "@/content/additions/reference-impact-memberships.json";
 import socialPrompts from "@/content/additions/social-prompts.json";
 import genZPrompts from "@/content/additions/gen-z-prompts.json";
 import genZMemberships from "@/content/additions/gen-z-memberships.json";
@@ -15,10 +17,27 @@ export function socialPreviewEnabled(
   );
 }
 export const socialPreviewIds = new Set(
-  [...socialPrompts, ...genZPrompts].map((p) => p.id),
+  [...socialPrompts, ...genZPrompts, ...referenceImpactPrompts].map(
+    (p) => p.id,
+  ),
 );
 export const socialPreviewMemberships: Record<string, string[]> =
-  genZMemberships;
+  Object.fromEntries(
+    [
+      ...new Set([
+        ...Object.keys(genZMemberships),
+        ...Object.keys(referenceImpactMemberships),
+      ]),
+    ].map((slug) => [
+      slug,
+      [
+        ...(genZMemberships[slug as keyof typeof genZMemberships] || []),
+        ...(referenceImpactMemberships[
+          slug as keyof typeof referenceImpactMemberships
+        ] || []),
+      ],
+    ]),
+  );
 export const socialProfileIds = socialPrompts
   .filter((p) => p.aspect_ratio === "1:1")
   .map((p) => p.id);

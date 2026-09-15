@@ -1,0 +1,40 @@
+{
+  "reviewed_at": "2026-09-15",
+  "records": [
+    {
+      "id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+      "slug": "ink-took-my-coffee",
+      "sha256": "63afc0511b1d13f9c44ea35085cd6a475a5c2ec474228f1e9210d96b2a89213d",
+      "decision": "accepted-local-draft",
+      "reason": "Accepted first attempt: flat ink bird visibly hooks real cup handle; coffee trail and displaced saucer establish consequence. Face, natural texture and ordinary hand anatomy are clear. Composition is materially different from supplied shirt-pulling references."
+    },
+    {
+      "id": "6d913443-6ce7-588d-8c5e-6b1cbc5e81c0",
+      "slug": "the-kite-in-my-notebook",
+      "sha256": "1810c303c38f222203ed9e2ea7667e963d525623cdc914377fb06d2658b360c6",
+      "decision": "accepted-local-draft",
+      "reason": "Accepted after one focused correction: transparent kite interior now reveals window, clearly separating ink line from paper craft. Ribbon connects page and kite, child seated securely, face and hands readable. No supplied child identity was used."
+    },
+    {
+      "id": "e7ab80d0-1790-56f7-b72e-fe556e3514b0",
+      "slug": "clouds-on-laundry-day",
+      "sha256": "39ca7c109828dc18cd629eebf0f2ee3fc2aa00da2e8acbb37a76edcdec504027",
+      "decision": "accepted-local-draft",
+      "reason": "Accepted first attempt: cloud has mist edges and distinct falling droplets, clothespin and basin make the impossible chore legible. Face and pinching hand are natural. Not a cotton pillow or painted moon prop."
+    },
+    {
+      "id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+      "slug": "the-projectionist-is-me",
+      "sha256": "ccca2671bd72fbf60b7191838c76f5006212cd20281fa585502088776575177b",
+      "decision": "accepted-local-draft",
+      "reason": "Accepted after removing incidental framed artwork: exactly one physical man plus his recognizable projected self. Projection has plaster texture, rectangular light boundary and visible wall corner; glasses and facial geometry align. Reference-transfer performance with a real user remains untested."
+    },
+    {
+      "id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+      "slug": "the-lift-stops-at-the-ocean",
+      "sha256": "2acfeaa55a50a54cb51dd9d34abe8effbde7b196d91196557a65fe40b14b5669",
+      "decision": "accepted-local-draft",
+      "reason": "Accepted after one clarification: sliding leaves, door track, threshold and unlabelled panel make lift legible; dry enclosure and ocean depth remain coherent. Face more prominent. Lowest priority of accepted five; do not automatically feature on homepage."
+    }
+  ]
+}

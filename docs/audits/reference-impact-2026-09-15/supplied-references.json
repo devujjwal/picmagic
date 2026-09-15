@@ -1,0 +1,80 @@
+[
+  {
+    "id": "R1",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.54 AM (1).jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Photographic child runs right while a flat ink figure pulls stretched clothing; toy dinosaur and large negative space.",
+    "composition_and_attention": "Full-body diagonal movement; physical fabric tension joins two media.",
+    "must_not_copy": "Do not copy child, toy, shirt tug, running pose or stick figure.",
+    "original_direction": "A seated adult and a cup moved by an original ink bird; different action, prop and framing.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "6f3dc77d038e94fecc8905abcd4f9bd2bdaf79080982a4279219e84d87dd162c"
+  },
+  {
+    "id": "R2",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.54 AM (2).jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Headphone wearer stands on a giant phone displaying branded music UI.",
+    "composition_and_attention": "High angle, strong foreshortening and familiar object establish scale.",
+    "must_not_copy": "Do not copy face, phone layout, album covers, branding, costume or pose.",
+    "original_direction": "Music made architectural already exists in Listening Room. Exclude another giant player.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "8ece20422d011fb79d9fd56444e3dd0bde42b31c75c325e5228ad3d94a46b0a7"
+  },
+  {
+    "id": "R3",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.54 AM (3).jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Close portrait in dark clothing, sunglasses, cool/warm edge lighting.",
+    "composition_and_attention": "Face occupies most of portrait; dark uncluttered background.",
+    "must_not_copy": "Do not copy person, eyewear logo, exact colour split or styling.",
+    "original_direction": "Use surface detail and separation as quality criteria, not a new generic DP.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "c77be6ebc33dfe95421b92a8e1dbd4e336084f599cbd91e26dda2f90b9672015"
+  },
+  {
+    "id": "R4",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.54 AM.jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Child in yellow running with lollipop while ink character pulls clothing.",
+    "composition_and_attention": "Same shirt-tension mechanism as R1, different costume and prop.",
+    "must_not_copy": "Do not count as independent mechanism; do not reproduce child, lollipop or pose.",
+    "original_direction": "Consider a separate notebook-origin interaction only if distinct from existing storybook content.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "4663033cf9636d228ac660fb70318cdc54d51b7c8d33a56f4b33aa04f905a2a6"
+  },
+  {
+    "id": "R5",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.55 AM (1).jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Close portrait with visible eyes and blue/warm edge illumination.",
+    "composition_and_attention": "Face-first shallow framing and clear expression.",
+    "must_not_copy": "Do not copy face or exact light setup.",
+    "original_direction": "Quality benchmark only; current DP collection already serves this composition.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "886ec9a2b16a318fd5b4ce825688ec783fd02d567bc7a5db709229e4da544677"
+  },
+  {
+    "id": "R6",
+    "local_filename": "WhatsApp Image 2026-09-15 at 10.49.55 AM.jpeg",
+    "image_inspected": true,
+    "full_prompt_available": false,
+    "observed": "Large hazy head behind a smaller three-quarter depiction of one identity.",
+    "composition_and_attention": "Two intentional depictions separated by scale and atmospheric depth.",
+    "must_not_copy": "Do not copy face, sunglasses branding, sepia palette or giant-left/small-right layout.",
+    "original_direction": "Explore a live subject operating a projector, with a second depiction visibly carried by architecture.",
+    "provenance": "User supplied visual reference; person identity and ethnicity not inferred.",
+    "publication_allowed": false,
+    "sha256": "dc470d178635c8b0ce2bc8ec11dd9bbda356a6dc87b258007b8701742eb609d8"
+  }
+]

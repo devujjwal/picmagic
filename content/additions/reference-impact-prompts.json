@@ -1,0 +1,379 @@
+[
+  {
+    "id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+    "slug": "ink-took-my-coffee",
+    "title": "Ink Took My Coffee",
+    "description": "Your coffee has somewhere else to be. A photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. Upload your own reference in your chosen image tool to recreate the idea.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Mixed media interaction"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/ink-took-my-coffee-impact.webp",
+    "thumbnail_url": "/previews/ink-took-my-coffee-impact-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A woman reaches toward a terracotta cup being pulled by a flat ink bird on a paper placemat.",
+    "lighting": "Soft neutral face light with coherent environmental shadows",
+    "framing": "4:5 portrait; readable face and complete visual mechanism",
+    "camera": "Natural photographic perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "interacting-ink-character",
+      "Instagram post",
+      "creative transformations",
+      "women",
+      "Gen Z preview",
+      "reference identity first"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 230,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Ink Took My Coffee — AI Photo Prompt | PicMagic",
+    "seo_description": "Your coffee has somewhere else to be. Copy a reference-aware prompt to recreate this original visual idea in your image tool.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Builds a real/ink interaction that cannot be photographed as a normal cafe moment.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "interacting-ink-character",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "6d913443-6ce7-588d-8c5e-6b1cbc5e81c0",
+    "slug": "the-kite-in-my-notebook",
+    "title": "The Kite in My Notebook",
+    "description": "One drawing has learned to fly. One child sits securely at a low table beside an open sketchbook. Upload your own reference in your chosen image tool to recreate the idea.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian child with ordinary child proportions and age-appropriate clothing. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. A child reference is required for the child-specific concept; do not de-age an adult.\n\nCREATIVE DIRECTION: One child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "category_id": "kids",
+    "prompt_type": "photo",
+    "subject": "One child",
+    "style": [
+      "Escaped drawing"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-kite-in-my-notebook-impact.webp",
+    "thumbnail_url": "/previews/the-kite-in-my-notebook-impact-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A child holds a red ribbon as a transparent black-ink kite rises from an open sketchbook.",
+    "lighting": "Soft neutral face light with coherent environmental shadows",
+    "framing": "4:5 portrait; readable face and complete visual mechanism",
+    "camera": "Natural photographic perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "drawing-leaves-page",
+      "Instagram post",
+      "creative transformations",
+      "kids",
+      "drawing",
+      "imagination"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 231,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Kite in My Notebook — AI Photo Prompt | PicMagic",
+    "seo_description": "One drawing has learned to fly. Copy a reference-aware prompt to recreate this original visual idea in your image tool.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Child-appropriate styling, fully clothed, securely seated.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Makes a child’s drawing physically lift a real bookmark while preserving the child photographically.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "drawing-leaves-page",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "child-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "e7ab80d0-1790-56f7-b72e-fe556e3514b0",
+    "slug": "clouds-on-laundry-day",
+    "title": "Clouds on Laundry Day",
+    "description": "Even the sky needs a clothesline. A person stands waist-up on a broad safe apartment terrace behind a low laundry line. Upload your own reference in your chosen image tool to recreate the idea.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Domestic surrealism"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/clouds-on-laundry-day-impact.webp",
+    "thumbnail_url": "/previews/clouds-on-laundry-day-impact-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A man pegs a small misty cloud to a terrace clothesline while droplets fall into a metal basin.",
+    "lighting": "Soft neutral face light with coherent environmental shadows",
+    "framing": "4:5 portrait; readable face and complete visual mechanism",
+    "camera": "Natural photographic perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "domestic-weather-surrealism",
+      "Instagram post",
+      "creative transformations",
+      "men",
+      "Gen Z preview",
+      "reference identity first"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 232,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Clouds on Laundry Day — AI Photo Prompt | PicMagic",
+    "seo_description": "Even the sky needs a clothesline. Copy a reference-aware prompt to recreate this original visual idea in your image tool.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Turns a familiar terrace chore into a believable impossible weather interaction without building a special-effects cloud rig.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "domestic-weather-surrealism",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+    "slug": "the-projectionist-is-me",
+    "title": "The Projectionist Is Me",
+    "description": "You are both the operator and the image. One adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Upload your own reference in your chosen image tool to recreate the idea.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: One adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly two intentional depictions of one identity, not two people; no third face. If the projected likeness drifts, correct it against the original reference rather than accepting a new face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "One identity in two intentional depictions",
+    "style": [
+      "Architectural projection"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-projectionist-is-me-impact.webp",
+    "thumbnail_url": "/previews/the-projectionist-is-me-impact-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A seated man adjusts a projector beside a large projection of his own face across a plaster wall corner.",
+    "lighting": "Soft neutral face light with coherent environmental shadows",
+    "framing": "4:5 portrait; readable face and complete visual mechanism",
+    "camera": "Natural photographic perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "architectural-self-projection",
+      "Instagram post",
+      "creative transformations",
+      "men",
+      "Gen Z preview",
+      "reference identity first",
+      "projection",
+      "intentional repeated identity"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 233,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Projectionist Is Me — AI Photo Prompt | PicMagic",
+    "seo_description": "You are both the operator and the image. Copy a reference-aware prompt to recreate this original visual idea in your image tool.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly TWO intentional depictions of the SAME fictional identity, one live person and one architectural projection. Produce the image itself.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a large commissioned self-portrait projection across architecture while keeping the operator and projection as one identity.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "architectural-self-projection",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 2,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+    "slug": "the-lift-stops-at-the-ocean",
+    "title": "The Lift Stops at the Ocean",
+    "description": "The doors open on a floor that cannot exist. A person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Upload your own reference in your chosen image tool to recreate the idea.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Impossible destination"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-lift-stops-at-the-ocean-impact.webp",
+    "thumbnail_url": "/previews/the-lift-stops-at-the-ocean-impact-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A woman in a yellow jacket turns inside a dry lift whose open inner doors reveal an underwater view behind glass.",
+    "lighting": "Soft neutral face light with coherent environmental shadows",
+    "framing": "4:5 portrait; readable face and complete visual mechanism",
+    "camera": "Natural photographic perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "impossible-everyday-threshold",
+      "Instagram post",
+      "creative transformations",
+      "women",
+      "Gen Z preview",
+      "reference identity first"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 234,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Lift Stops at the Ocean — AI Photo Prompt | PicMagic",
+    "seo_description": "The doors open on a floor that cannot exist. Copy a reference-aware prompt to recreate this original visual idea in your image tool.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a dry everyday lift suspended beside an ocean view that would require a major underwater set or compositing.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "impossible-everyday-threshold",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  }
+]

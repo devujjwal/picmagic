@@ -1,0 +1,227 @@
+[
+  {
+    "content_id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+    "slug": "ink-took-my-coffee",
+    "exact_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "ChatGPT browser image generation",
+    "aspect_ratio": "4:5",
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "ink-took-my-coffee-impact.webp",
+    "alt_text": "A woman reaches toward a terracotta cup being pulled by a flat ink bird on a paper placemat.",
+    "generation_provenance": {
+      "provider": "ChatGPT image generation in logged-in Chrome",
+      "conversation_url": "https://chatgpt.com/c/6aa8d912-5fec-83ee-b0c3-6182d8acbb6c",
+      "date": "2026-09-15",
+      "reference_uploads": [],
+      "fictional_persona": "One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance.",
+      "codex_image_generation_used": false,
+      "paid_api_used": false
+    },
+    "qa_status": "accepted",
+    "accepted": true,
+    "correction_prompt": null,
+    "final_source_file": "media/sources/ink-took-my-coffee-v1.png",
+    "visual_qa": "Accepted first attempt: flat ink bird visibly hooks real cup handle; coffee trail and displaced saucer establish consequence. Face, natural texture and ordinary hand anatomy are clear. Composition is materially different from supplied shirt-pulling references.",
+    "regeneration_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "attempts": [
+      {
+        "source_file": "media/sources/ink-took-my-coffee-v1.png",
+        "sha256": "6a6a0ad8c8e5659d5b4eda9588313c06dc9023043114c3b6073ec2a4ded35d7f",
+        "accepted": true
+      }
+    ],
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_bytes": 126916,
+    "optimized_sha256": "88e53695d2ab0b847095e94b67e8bfcc3071c2efe5a46024eb0faa308cc8edbe"
+  },
+  {
+    "content_id": "6d913443-6ce7-588d-8c5e-6b1cbc5e81c0",
+    "slug": "the-kite-in-my-notebook",
+    "exact_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Child-appropriate styling, fully clothed, securely seated.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "ChatGPT browser image generation",
+    "aspect_ratio": "4:5",
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "the-kite-in-my-notebook-impact.webp",
+    "alt_text": "A child holds a red ribbon as a transparent black-ink kite rises from an open sketchbook.",
+    "generation_provenance": {
+      "provider": "ChatGPT image generation in logged-in Chrome",
+      "conversation_url": "https://chatgpt.com/c/6aa8d941-3488-83e8-8e27-a09870b42a13",
+      "date": "2026-09-15",
+      "reference_uploads": [],
+      "fictional_persona": "One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling.",
+      "codex_image_generation_used": false,
+      "paid_api_used": false
+    },
+    "qa_status": "accepted",
+    "accepted": true,
+    "correction_prompt": "Keep the same fictional child, face, hands, ribbon, sketchbook and composition. Correct only the escaped kite: remove the opaque white paper fill and paper texture inside its diamond. It must be a flat floating black-ink line drawing, with the real window visibly continuing through its transparent interior. Keep the dark hand-drawn diamond edges and simple spars. The photographic red ribbon must remain visibly attached to this ink drawing and continue down into the sketchbook. No other changes.",
+    "final_source_file": "media/sources/the-kite-in-my-notebook-v2.png",
+    "visual_qa": "Accepted after one focused correction: transparent kite interior now reveals window, clearly separating ink line from paper craft. Ribbon connects page and kite, child seated securely, face and hands readable. No supplied child identity was used.",
+    "regeneration_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Child-appropriate styling, fully clothed, securely seated.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "attempts": [
+      {
+        "source_file": "media/sources/the-kite-in-my-notebook-v1.png",
+        "sha256": "e7c88f287a51f272f0d00a75745d2204f4b0238ca39da0c0dbd8f6e26eddce94",
+        "accepted": false
+      },
+      {
+        "source_file": "media/sources/the-kite-in-my-notebook-v2.png",
+        "sha256": "09b4cbf0418b0e097d4795b643ddfe46c1d3a128a08aca69f07d4c55051e3872",
+        "accepted": true
+      }
+    ],
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_bytes": 115900,
+    "optimized_sha256": "2abe48fc6bb781e72bee074fd494a57d2dce41fb5cb9a1e04cebdf3968dbfd6a"
+  },
+  {
+    "content_id": "e7ab80d0-1790-56f7-b72e-fe556e3514b0",
+    "slug": "clouds-on-laundry-day",
+    "exact_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "ChatGPT browser image generation",
+    "aspect_ratio": "4:5",
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "clouds-on-laundry-day-impact.webp",
+    "alt_text": "A man pegs a small misty cloud to a terrace clothesline while droplets fall into a metal basin.",
+    "generation_provenance": {
+      "provider": "ChatGPT image generation in logged-in Chrome",
+      "conversation_url": "https://chatgpt.com/c/6aa8d95c-af48-83ee-a529-3554c93e4239",
+      "date": "2026-09-15",
+      "reference_uploads": [],
+      "fictional_persona": "One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile.",
+      "codex_image_generation_used": false,
+      "paid_api_used": false
+    },
+    "qa_status": "accepted",
+    "accepted": true,
+    "correction_prompt": null,
+    "final_source_file": "media/sources/clouds-on-laundry-day-v1.png",
+    "visual_qa": "Accepted first attempt: cloud has mist edges and distinct falling droplets, clothespin and basin make the impossible chore legible. Face and pinching hand are natural. Not a cotton pillow or painted moon prop.",
+    "regeneration_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "attempts": [
+      {
+        "source_file": "media/sources/clouds-on-laundry-day-v1.png",
+        "sha256": "0634c63ee8aadf50c6bb49700509486e00c7aa11c30ea59bbb11a4803caf01c7",
+        "accepted": true
+      }
+    ],
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_bytes": 132522,
+    "optimized_sha256": "30960a7cd6e0030857931ee8b885ad8fcdbaff0a93af58f30481d40a4e72aefb"
+  },
+  {
+    "content_id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+    "slug": "the-projectionist-is-me",
+    "exact_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly TWO intentional depictions of the SAME fictional identity, one live person and one architectural projection. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "ChatGPT browser image generation",
+    "aspect_ratio": "4:5",
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "the-projectionist-is-me-impact.webp",
+    "alt_text": "A seated man adjusts a projector beside a large projection of his own face across a plaster wall corner.",
+    "generation_provenance": {
+      "provider": "ChatGPT image generation in logged-in Chrome",
+      "conversation_url": "https://chatgpt.com/c/6aa8d986-62e0-83ee-9bf1-0a2695e70808",
+      "date": "2026-09-15",
+      "reference_uploads": [],
+      "fictional_persona": "One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected.",
+      "codex_image_generation_used": false,
+      "paid_api_used": false
+    },
+    "qa_status": "accepted",
+    "accepted": true,
+    "correction_prompt": "Keep the same composition and the same fictional man in both the live and projected depictions. Remove the small framed artwork from the upper-left wall and replace it with plain matching plaster. There must be exactly two human depictions in the entire image: the seated man and his large projected portrait. Keep the projector, wall-corner projection, glasses, hands, clothes and lighting otherwise unchanged.",
+    "final_source_file": "media/sources/the-projectionist-is-me-v2.png",
+    "visual_qa": "Accepted after removing incidental framed artwork: exactly one physical man plus his recognizable projected self. Projection has plaster texture, rectangular light boundary and visible wall corner; glasses and facial geometry align. Reference-transfer performance with a real user remains untested.",
+    "regeneration_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly TWO intentional depictions of the SAME fictional identity, one live person and one architectural projection. Produce the image itself.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "attempts": [
+      {
+        "source_file": "media/sources/the-projectionist-is-me-v1.png",
+        "sha256": "ff93de5845daedc3df74c3285f40bb9e0ac0dd01679449b9a0d1f536b12f478e",
+        "accepted": false
+      },
+      {
+        "source_file": "media/sources/the-projectionist-is-me-v2.png",
+        "sha256": "794618bd141edc96a0119b47b047ee54babc125621dd0eb469c87e2e012f2d39",
+        "accepted": true
+      }
+    ],
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_bytes": 117392,
+    "optimized_sha256": "e662ef2eec0dc6c33a0ba455b6e018d4a7887df4f4f1385e08d9957737b2d24d"
+  },
+  {
+    "content_id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+    "slug": "the-lift-stops-at-the-ocean",
+    "exact_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "ChatGPT browser image generation",
+    "aspect_ratio": "4:5",
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "the-lift-stops-at-the-ocean-impact.webp",
+    "alt_text": "A woman in a yellow jacket turns inside a dry lift whose open inner doors reveal an underwater view behind glass.",
+    "generation_provenance": {
+      "provider": "ChatGPT image generation in logged-in Chrome",
+      "conversation_url": "https://chatgpt.com/c/6aa8d9c9-373c-83ee-87d7-7161703f3dac",
+      "date": "2026-09-15",
+      "reference_uploads": [],
+      "fictional_persona": "One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear.",
+      "codex_image_generation_used": false,
+      "paid_api_used": false
+    },
+    "qa_status": "accepted",
+    "accepted": true,
+    "correction_prompt": "The first image reads too much like an aquarium viewing window. Correct the setting so this is unmistakably an elevator arriving at an impossible ocean floor: show the two brushed-steel sliding inner door leaves visibly retracted left and right, their overhead door track and threshold, plus a small plain metal lift-button panel with two unlabelled round buttons on the side wall. Keep the intact sealed outer glass and deep ocean beyond. Move the framing closer to a three-quarter portrait so the same fictional woman’s face is more prominent while the doorway remains legible. Keep her identity, clothing, dry interior and realistic anatomy. No lettering, logos, extra people or additional effects.",
+    "final_source_file": "media/sources/the-lift-stops-at-the-ocean-v2.png",
+    "visual_qa": "Accepted after one clarification: sliding leaves, door track, threshold and unlabelled panel make lift legible; dry enclosure and ocean depth remain coherent. Face more prominent. Lowest priority of accepted five; do not automatically feature on homepage.",
+    "regeneration_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "attempts": [
+      {
+        "source_file": "media/sources/the-lift-stops-at-the-ocean-v1.png",
+        "sha256": "31cc7572eb851c6c1a0d77811fd8b164b6a4106eaeb884cd273a2cfddaffbc93",
+        "accepted": false
+      },
+      {
+        "source_file": "media/sources/the-lift-stops-at-the-ocean-v2.png",
+        "sha256": "c58b6a13955a3c2202cb49f28ea828ceb31706086967f32980399bd7fa517024",
+        "accepted": true
+      }
+    ],
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_bytes": 144066,
+    "optimized_sha256": "27fc81cf89e54b7df69f0834cd4129ff7ce33c30cf4febe38e5198722075c8c1"
+  }
+]

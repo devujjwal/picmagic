@@ -1,0 +1,901 @@
+[
+  {
+    "id": "RI01",
+    "content_id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+    "title": "Ink Took My Coffee",
+    "slug": "ink-took-my-coffee",
+    "hook": "Your coffee has somewhere else to be.",
+    "nearest_existing": [
+      "small-burst-of-motion-profile",
+      "the-river-remembers",
+      "coffee-rain-and-college-days"
+    ],
+    "scores": {
+      "distinctiveness": 5,
+      "novelty": 4,
+      "shareability": 5,
+      "mobile_impact": 5,
+      "identity_feasibility": 4
+    },
+    "decision": "shortlist",
+    "evidence": "R1,R4,CG01,AP01",
+    "visual_concept": "A photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.",
+    "novelty_difference": "Physical interaction with a displaced real object replaces decorative shoulder marks and journal-to-landscape transition. Table-level framing and a coffee-stealing ink bird differ from child shirt-tugging.",
+    "preview_persona": "One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance.",
+    "transformation_type": "interacting-ink-character",
+    "canonical_category": "women",
+    "collections": [
+      "creative-transformations"
+    ],
+    "generation_risk": "Cup/beak/handle contact and reaching hand must be coherent.",
+    "why_ai": "Builds a real/ink interaction that cannot be photographed as a normal cafe moment.",
+    "nearest_existing_1": {
+      "slug": "small-burst-of-motion-profile",
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "canonical_path": "/ai-prompts/social-media/small-burst-of-motion-profile",
+      "description": "Express personality through one legible graphic gesture while keeping the face familiar. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "illustrated-shoulder-motion",
+      "image": "/previews/small-burst-of-motion-profile-social-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "the-river-remembers",
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "canonical_path": "/ai-prompts/travel/the-river-remembers",
+      "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "photo-illustration",
+      "image": "/previews/the-river-remembers-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "coffee-rain-and-college-days",
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "canonical_path": "/ai-prompts/couple/coffee-rain-and-college-days",
+      "description": "Coffee, rain, and college days: The two adults in the couple reference, one in a denim jacket and the other in a checked shirt, sharing a joke over steaming chai beside a rain-speckled campus window. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/coffee-rain-and-college-days.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5",
+    "reference_requirements": "One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.",
+    "identity_rules": "Preserve recognizable face, facial geometry, apparent age, ethnicity, natural complexion, hairline, glasses, facial hair, distinguishing features and body proportions. No skin lightening or face reshaping. Preview casting never governs reference identity.",
+    "allowed_adaptation": "Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.",
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.",
+    "preview_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "prompt_review": "Reference age/complexion isolated from fictional casting. Photographic face preserved while non-human drawing may be flat. No global hairstyle lock. Two-depiction exception explicit only for projection. No limited-palette contradiction. Product preservation not promised for creative wardrobe.",
+    "qa_status": "accepted",
+    "visual_qa": "Accepted first attempt: flat ink bird visibly hooks real cup handle; coffee trail and displaced saucer establish consequence. Face, natural texture and ordinary hand anatomy are clear. Composition is materially different from supplied shirt-pulling references.",
+    "image_alt": "A woman reaches toward a terracotta cup being pulled by a flat ink bird on a paper placemat.",
+    "final_execution_scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 5,
+      "mobile_impact": 5,
+      "identity_feasibility": 4
+    },
+    "collection_rationale": {
+      "creative-transformations": "Reference-aware creative transformation with a visible impossible or mixed-media mechanism."
+    },
+    "category_rationale": "Existing women category suits this sample; copyable prompt still preserves the uploaded person rather than enforcing preview gender or ethnicity.",
+    "related_content": [
+      "small-burst-of-motion-profile",
+      "the-river-remembers",
+      "coffee-rain-and-college-days"
+    ]
+  },
+  {
+    "id": "RI02",
+    "content_id": "6d913443-6ce7-588d-8c5e-6b1cbc5e81c0",
+    "title": "The Kite in My Notebook",
+    "slug": "the-kite-in-my-notebook",
+    "hook": "One drawing has learned to fly.",
+    "nearest_existing": [
+      "the-family-s-little-storybook-reader",
+      "the-river-remembers",
+      "a-tiny-superhero-off-duty"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "decision": "shortlist",
+    "evidence": "R1,R4,CG01,AP01",
+    "visual_concept": "One child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.",
+    "novelty_difference": "Single child actively interacts with an escaping line drawing; existing family storybook uses passive illustrated background scenery and River Remembers turns landscape into ink. The geometric kite and bookmark give a different narrative from adult coffee theft.",
+    "preview_persona": "One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling.",
+    "transformation_type": "drawing-leaves-page",
+    "canonical_category": "kids",
+    "collections": [
+      "creative-transformations"
+    ],
+    "generation_risk": "Kite must stay drawn rather than become a paper craft; ribbon must attach without tangled extra fingers.",
+    "why_ai": "Makes a child’s drawing physically lift a real bookmark while preserving the child photographically.",
+    "nearest_existing_1": {
+      "slug": "the-family-s-little-storybook-reader",
+      "id": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "canonical_path": "/ai-prompts/family/the-family-s-little-storybook-reader",
+      "description": "The supplied family sits on a rug around the baby safely supported in an adult's lap. An oversized open storybook stands on a stable low easel behind them, its illustrated trees extending into soft paper scenery around the rug. Preserve all people and their ages; the baby is never propped upright alone or placed on the book. The identity reference determines the people; the example provides the styling and setting.",
+      "transformation_type": null,
+      "image": "/previews/our-smallest-family-member-editorial-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "the-river-remembers",
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "canonical_path": "/ai-prompts/travel/the-river-remembers",
+      "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "photo-illustration",
+      "image": "/previews/the-river-remembers-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "a-tiny-superhero-off-duty",
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "canonical_path": "/ai-prompts/kids/a-tiny-superhero-off-duty",
+      "description": "A tiny superhero off duty: The child wearing a homemade red cape over a plain blue T-shirt and jeans, hands on hips in front of a playful cardboard city set, no branded superhero symbols. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/a-tiny-superhero-off-duty.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5",
+    "reference_requirements": "One clear identity reference; additional face angles may help. A child reference is required for the child-specific concept; do not de-age an adult.",
+    "identity_rules": "Preserve recognizable face, facial geometry, apparent age, ethnicity, natural complexion, hairline, glasses, facial hair, distinguishing features and body proportions. No skin lightening or face reshaping. Preview casting never governs reference identity.",
+    "allowed_adaptation": "Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.",
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian child with ordinary child proportions and age-appropriate clothing. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. A child reference is required for the child-specific concept; do not de-age an adult.\n\nCREATIVE DIRECTION: One child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "preview_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Child-appropriate styling, fully clothed, securely seated.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "prompt_review": "Reference age/complexion isolated from fictional casting. Photographic face preserved while non-human drawing may be flat. No global hairstyle lock. Two-depiction exception explicit only for projection. No limited-palette contradiction. Product preservation not promised for creative wardrobe.",
+    "qa_status": "accepted",
+    "visual_qa": "Accepted after one focused correction: transparent kite interior now reveals window, clearly separating ink line from paper craft. Ribbon connects page and kite, child seated securely, face and hands readable. No supplied child identity was used.",
+    "image_alt": "A child holds a red ribbon as a transparent black-ink kite rises from an open sketchbook.",
+    "final_execution_scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "collection_rationale": {
+      "creative-transformations": "Reference-aware creative transformation with a visible impossible or mixed-media mechanism."
+    },
+    "category_rationale": "Existing kids category suits this sample; copyable prompt still preserves the uploaded person rather than enforcing preview gender or ethnicity.",
+    "related_content": [
+      "the-family-s-little-storybook-reader",
+      "the-river-remembers",
+      "a-tiny-superhero-off-duty"
+    ]
+  },
+  {
+    "id": "RI03",
+    "content_id": "e7ab80d0-1790-56f7-b72e-fe556e3514b0",
+    "title": "Clouds on Laundry Day",
+    "slug": "clouds-on-laundry-day",
+    "hook": "Even the sky needs a clothesline.",
+    "nearest_existing": [
+      "borrowed-moon-closing-time",
+      "chai-between-the-floors",
+      "first-birthday-cloud-world"
+    ],
+    "scores": {
+      "distinctiveness": 5,
+      "novelty": 4,
+      "shareability": 5,
+      "mobile_impact": 4,
+      "identity_feasibility": 5
+    },
+    "decision": "shortlist",
+    "evidence": "AP02",
+    "visual_concept": "A person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.",
+    "novelty_difference": "Actual atmospheric cloud treated as laundry, with peg tension and droplets, instead of a painted moon prop, a studio baby cloud mat or a friendship bridge. The person acts on the weather rather than posing beside scenery.",
+    "preview_persona": "One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile.",
+    "transformation_type": "domestic-weather-surrealism",
+    "canonical_category": "men",
+    "collections": [
+      "creative-transformations"
+    ],
+    "generation_risk": "Cloud must read as mist with droplets, not a pillow. Keep both hands simple and away from facial landmarks.",
+    "why_ai": "Turns a familiar terrace chore into a believable impossible weather interaction without building a special-effects cloud rig.",
+    "nearest_existing_1": {
+      "slug": "borrowed-moon-closing-time",
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "canonical_path": "/ai-prompts/social-media/borrowed-moon-closing-time",
+      "description": "A playful fictional movie moment that feels like a story about the user, not a generic portrait. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "fictional-film-moment",
+      "image": "/previews/borrowed-moon-closing-time-social-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "chai-between-the-floors",
+      "id": "e1a81203-e635-5855-8aad-708d6b9b21d0",
+      "canonical_path": "/ai-prompts/social-media/chai-between-the-floors",
+      "description": "Share chai with your friends on an impossible bridge between city balconies. Bring references of all three people to recreate the scene.",
+      "transformation_type": "impossible-social-location",
+      "image": "/previews/chai-between-the-floors-genz.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "first-birthday-cloud-world",
+      "id": "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "canonical_path": "/ai-prompts/family/first-birthday-cloud-world",
+      "description": "The baby sits only if developmentally able, otherwise reclines safely, on a broad padded floor mat dressed as a soft cloud. Oversized paper clouds and a distant pastel balloon moon form a studio backdrop; no floating baby, dangling strings or loose small objects within reach. Preserve the baby's real age and expression; caregiver kneels visibly beside them and provides any support needed. The identity reference determines the people; the example provides the styling and setting.",
+      "transformation_type": null,
+      "image": "/previews/the-floor-blanket-smile-editorial-v1.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5",
+    "reference_requirements": "One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.",
+    "identity_rules": "Preserve recognizable face, facial geometry, apparent age, ethnicity, natural complexion, hairline, glasses, facial hair, distinguishing features and body proportions. No skin lightening or face reshaping. Preview casting never governs reference identity.",
+    "allowed_adaptation": "Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.",
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.",
+    "preview_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "prompt_review": "Reference age/complexion isolated from fictional casting. Photographic face preserved while non-human drawing may be flat. No global hairstyle lock. Two-depiction exception explicit only for projection. No limited-palette contradiction. Product preservation not promised for creative wardrobe.",
+    "qa_status": "accepted",
+    "visual_qa": "Accepted first attempt: cloud has mist edges and distinct falling droplets, clothespin and basin make the impossible chore legible. Face and pinching hand are natural. Not a cotton pillow or painted moon prop.",
+    "image_alt": "A man pegs a small misty cloud to a terrace clothesline while droplets fall into a metal basin.",
+    "final_execution_scores": {
+      "distinctiveness": 5,
+      "novelty": 4,
+      "shareability": 5,
+      "mobile_impact": 4,
+      "identity_feasibility": 5
+    },
+    "collection_rationale": {
+      "creative-transformations": "Reference-aware creative transformation with a visible impossible or mixed-media mechanism."
+    },
+    "category_rationale": "Existing men category suits this sample; copyable prompt still preserves the uploaded person rather than enforcing preview gender or ethnicity.",
+    "related_content": [
+      "borrowed-moon-closing-time",
+      "chai-between-the-floors",
+      "first-birthday-cloud-world"
+    ]
+  },
+  {
+    "id": "RI04",
+    "content_id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+    "title": "The Projectionist Is Me",
+    "slug": "the-projectionist-is-me",
+    "hook": "You are both the operator and the image.",
+    "nearest_existing": [
+      "one-day-four-possible-worlds",
+      "a-mountain-journey-within",
+      "a-night-at-the-cinema"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 3
+    },
+    "decision": "shortlist",
+    "evidence": "R6,AP01",
+    "visual_concept": "One adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.",
+    "novelty_difference": "Physical projection visibly bends across a wall corner, and the same person operates it. Existing Four Worlds is a multi-scene layout; Mountain Journey uses a landscape inside one silhouette. This is one room with a working optical relationship, not R6’s hazy head behind a standing body.",
+    "preview_persona": "One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected.",
+    "transformation_type": "architectural-self-projection",
+    "canonical_category": "men",
+    "collections": [
+      "creative-transformations",
+      "cinematic"
+    ],
+    "generation_risk": "Highest identity risk: second depiction may drift. Projector beam, wall corner and scale must stay clear; reject if it becomes a generic double exposure.",
+    "why_ai": "Creates a large commissioned self-portrait projection across architecture while keeping the operator and projection as one identity.",
+    "nearest_existing_1": {
+      "slug": "one-day-four-possible-worlds",
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "canonical_path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "description": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "multi-scene-identity",
+      "image": "/previews/one-day-four-possible-worlds-creative-v2.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "a-mountain-journey-within",
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "canonical_path": "/ai-prompts/travel/a-mountain-journey-within",
+      "description": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "controlled-double-exposure",
+      "image": "/previews/a-mountain-journey-within-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "a-night-at-the-cinema",
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "canonical_path": "/ai-prompts/cinematic/a-night-at-the-cinema",
+      "description": "A night at the cinema: The person wearing a dark wool coat, standing outside an old cinema entrance at night, lettering abstract and unreadable. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/a-night-at-the-cinema.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5",
+    "reference_requirements": "One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.",
+    "identity_rules": "Preserve recognizable face, facial geometry, apparent age, ethnicity, natural complexion, hairline, glasses, facial hair, distinguishing features and body proportions. No skin lightening or face reshaping. Preview casting never governs reference identity.",
+    "allowed_adaptation": "Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.",
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: One adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly two intentional depictions of one identity, not two people; no third face. If the projected likeness drifts, correct it against the original reference rather than accepting a new face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "preview_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly TWO intentional depictions of the SAME fictional identity, one live person and one architectural projection. Produce the image itself.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "prompt_review": "Reference age/complexion isolated from fictional casting. Photographic face preserved while non-human drawing may be flat. No global hairstyle lock. Two-depiction exception explicit only for projection. No limited-palette contradiction. Product preservation not promised for creative wardrobe.",
+    "qa_status": "accepted",
+    "visual_qa": "Accepted after removing incidental framed artwork: exactly one physical man plus his recognizable projected self. Projection has plaster texture, rectangular light boundary and visible wall corner; glasses and facial geometry align. Reference-transfer performance with a real user remains untested.",
+    "image_alt": "A seated man adjusts a projector beside a large projection of his own face across a plaster wall corner.",
+    "final_execution_scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 3
+    },
+    "collection_rationale": {
+      "creative-transformations": "Reference-aware creative transformation with a visible impossible or mixed-media mechanism.",
+      "cinematic": "Narrative optical scene suitable for fictional-film inspiration."
+    },
+    "category_rationale": "Existing men category suits this sample; copyable prompt still preserves the uploaded person rather than enforcing preview gender or ethnicity.",
+    "related_content": [
+      "one-day-four-possible-worlds",
+      "a-mountain-journey-within",
+      "a-night-at-the-cinema"
+    ]
+  },
+  {
+    "id": "RI05",
+    "content_id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+    "title": "The Lift Stops at the Ocean",
+    "slug": "the-lift-stops-at-the-ocean",
+    "hook": "The doors open on a floor that cannot exist.",
+    "nearest_existing": [
+      "chai-between-the-floors",
+      "between-two-gravities",
+      "from-suitcase-to-seaside"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "decision": "shortlist",
+    "evidence": "CG02; original synthesis",
+    "visual_concept": "A person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.",
+    "novelty_difference": "A mundane lift opens onto an impossible sealed underwater destination. It differs from the balcony chai bridge in threshold/reveal/optical enclosure, from rotated stairs in environmental narrative, and from seaside travel in impossible interior-to-ocean depth.",
+    "preview_persona": "One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear.",
+    "transformation_type": "impossible-everyday-threshold",
+    "canonical_category": "women",
+    "collections": [
+      "creative-transformations",
+      "cinematic"
+    ],
+    "generation_risk": "Water may flood cabin or become a flat screen. Require an obvious dry interior, framed clear pane and visible ocean depth.",
+    "why_ai": "Creates a dry everyday lift suspended beside an ocean view that would require a major underwater set or compositing.",
+    "nearest_existing_1": {
+      "slug": "chai-between-the-floors",
+      "id": "e1a81203-e635-5855-8aad-708d6b9b21d0",
+      "canonical_path": "/ai-prompts/social-media/chai-between-the-floors",
+      "description": "Share chai with your friends on an impossible bridge between city balconies. Bring references of all three people to recreate the scene.",
+      "transformation_type": "impossible-social-location",
+      "image": "/previews/chai-between-the-floors-genz.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "between-two-gravities",
+      "id": "41af04b9-f5d3-52d5-b1a2-2e1fb33285a5",
+      "canonical_path": "/ai-prompts/social-media/between-two-gravities",
+      "description": "Sit beneath a stairwell that bends the rules of gravity. Use your own photo to recreate this impossible fashion set.",
+      "transformation_type": "impossible-spatial-set",
+      "image": "/previews/between-two-gravities-genz.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "from-suitcase-to-seaside",
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "canonical_path": "/reel-prompts/reels/from-suitcase-to-seaside",
+      "description": "From suitcase to seaside: The person wearing a white linen co-ord on a coastal hotel balcony overlooking the sea, a small suitcase beside the open door. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/from-suitcase-to-seaside-df07aabf03.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5",
+    "reference_requirements": "One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.",
+    "identity_rules": "Preserve recognizable face, facial geometry, apparent age, ethnicity, natural complexion, hairline, glasses, facial hair, distinguishing features and body proportions. No skin lightening or face reshaping. Preview casting never governs reference identity.",
+    "allowed_adaptation": "Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.",
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: One clear identity reference; additional face angles may help. Preserve the actual adult age; never make an older person Gen Z. Do not age a child up for this adult concept.\n\nCREATIVE DIRECTION: A person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nSTYLING: Concept-appropriate pose, expression, wardrobe, grooming and hair arrangement; preserve hairline and avoid unnecessary hair changes.\n\nCOMPOSITION AND LIGHT: One coherent 4:5 portrait scene. Keep the face prominent and crisp at mobile-feed size, with clear natural skin texture, physically coherent contact shadows and controlled depth. Use soft neutral face light; material and environment lighting may vary without changing complexion.\n\nOUTPUT: One portrait image, target 1080 × 1350. All essential faces and the defining mechanism remain inside the crop.\n\nCONSTRAINTS: No copied branding, visible application UI, album art, readable text, watermark, malformed objects, extra fingers or merged anatomy. Exactly one photographic person; no extra or duplicate human face. Do not turn a photographic face into a drawing or distort facial landmarks. This is personal creative imagery, not a product-fidelity catalogue workflow. Identity preservation is requested, not guaranteed by PicMagic.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "preview_generation_prompt": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "prompt_review": "Reference age/complexion isolated from fictional casting. Photographic face preserved while non-human drawing may be flat. No global hairstyle lock. Two-depiction exception explicit only for projection. No limited-palette contradiction. Product preservation not promised for creative wardrobe.",
+    "qa_status": "accepted",
+    "visual_qa": "Accepted after one clarification: sliding leaves, door track, threshold and unlabelled panel make lift legible; dry enclosure and ocean depth remain coherent. Face more prominent. Lowest priority of accepted five; do not automatically feature on homepage.",
+    "image_alt": "A woman in a yellow jacket turns inside a dry lift whose open inner doors reveal an underwater view behind glass.",
+    "final_execution_scores": {
+      "distinctiveness": 4,
+      "novelty": 4,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "collection_rationale": {
+      "creative-transformations": "Reference-aware creative transformation with a visible impossible or mixed-media mechanism.",
+      "cinematic": "Narrative optical scene suitable for fictional-film inspiration."
+    },
+    "category_rationale": "Existing women category suits this sample; copyable prompt still preserves the uploaded person rather than enforcing preview gender or ethnicity.",
+    "related_content": [
+      "chai-between-the-floors",
+      "between-two-gravities",
+      "from-suitcase-to-seaside"
+    ]
+  },
+  {
+    "id": "RI06",
+    "title": "Doodle Won’t Let Me Leave",
+    "slug": "doodle-wont-let-me-leave",
+    "nearest_existing": [
+      "small-burst-of-motion-profile",
+      "the-river-remembers",
+      "coffee-rain-and-college-days"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 2,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "decision": "reject",
+    "evidence": "R1,R4,CG01",
+    "visual_concept": "Adult running while doodle pulls overshirt.",
+    "novelty_difference": "Changing child to adult repeats supplied and CG01 composition; reject near-copy.",
+    "nearest_existing_1": {
+      "slug": "small-burst-of-motion-profile",
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "canonical_path": "/ai-prompts/social-media/small-burst-of-motion-profile",
+      "description": "Express personality through one legible graphic gesture while keeping the face familiar. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "illustrated-shoulder-motion",
+      "image": "/previews/small-burst-of-motion-profile-social-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "the-river-remembers",
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "canonical_path": "/ai-prompts/travel/the-river-remembers",
+      "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "photo-illustration",
+      "image": "/previews/the-river-remembers-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "coffee-rain-and-college-days",
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "canonical_path": "/ai-prompts/couple/coffee-rain-and-college-days",
+      "description": "Coffee, rain, and college days: The two adults in the couple reference, one in a denim jacket and the other in a checked shirt, sharing a joke over steaming chai beside a rain-speckled campus window. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/coffee-rain-and-college-days.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI07",
+    "title": "Standing Inside My Soundwave",
+    "slug": "standing-inside-my-soundwave",
+    "nearest_existing": [
+      "the-listening-room-has-tides",
+      "between-two-gravities",
+      "borrowed-moon-closing-time"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 1,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 5
+    },
+    "decision": "reject",
+    "evidence": "R2",
+    "visual_concept": "Headphone wearer inside a room-sized wave sculpture.",
+    "novelty_difference": "Direct equivalent already integrated in the preceding round.",
+    "nearest_existing_1": {
+      "slug": "the-listening-room-has-tides",
+      "id": "8697dd20-7c8f-5b43-8d45-24ef080b4724",
+      "canonical_path": "/ai-prompts/social-media/the-listening-room-has-tides",
+      "description": "Step inside a soundwave. Turn your listening moment into a portrait surrounded by sweeping acoustic sculptures.",
+      "transformation_type": "acoustic-wave-installation",
+      "image": "/previews/the-listening-room-has-tides-genz.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "between-two-gravities",
+      "id": "41af04b9-f5d3-52d5-b1a2-2e1fb33285a5",
+      "canonical_path": "/ai-prompts/social-media/between-two-gravities",
+      "description": "Sit beneath a stairwell that bends the rules of gravity. Use your own photo to recreate this impossible fashion set.",
+      "transformation_type": "impossible-spatial-set",
+      "image": "/previews/between-two-gravities-genz.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "borrowed-moon-closing-time",
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "canonical_path": "/ai-prompts/social-media/borrowed-moon-closing-time",
+      "description": "A playful fictional movie moment that feels like a story about the user, not a generic portrait. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "fictional-film-moment",
+      "image": "/previews/borrowed-moon-closing-time-social-v1.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI08",
+    "title": "Walk Through My Playlist",
+    "slug": "walk-through-my-playlist",
+    "nearest_existing": [
+      "the-listening-room-has-tides",
+      "the-tailors-mountain-range",
+      "one-step-outside-the-frame"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 3,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 4
+    },
+    "decision": "reject",
+    "evidence": "R2",
+    "visual_concept": "Person standing on a giant unbranded glass audio player.",
+    "novelty_difference": "Removing branding does not materially change the supplied giant-phone composition.",
+    "nearest_existing_1": {
+      "slug": "the-listening-room-has-tides",
+      "id": "8697dd20-7c8f-5b43-8d45-24ef080b4724",
+      "canonical_path": "/ai-prompts/social-media/the-listening-room-has-tides",
+      "description": "Step inside a soundwave. Turn your listening moment into a portrait surrounded by sweeping acoustic sculptures.",
+      "transformation_type": "acoustic-wave-installation",
+      "image": "/previews/the-listening-room-has-tides-genz.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "the-tailors-mountain-range",
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "canonical_path": "/ai-prompts/fashion/the-tailors-mountain-range",
+      "description": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "surreal-scale",
+      "image": "/previews/the-tailors-mountain-range-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "one-step-outside-the-frame",
+      "id": "d7aa6cd4-6725-59c4-843e-ead6ddeaa365",
+      "canonical_path": "/ai-prompts/social-media/one-step-outside-the-frame",
+      "description": "Break out of the picture. Create a playful portrait where one continuous leg steps beyond the frame into the room.",
+      "transformation_type": "frame-break-forced-perspective",
+      "image": "/previews/one-step-outside-the-frame-genz.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI09",
+    "title": "Split Light Identity",
+    "slug": "split-light-identity",
+    "nearest_existing": [
+      "soft-light-unmistakably-you",
+      "meet-your-new-profile-picture",
+      "a-fold-around-you-profile"
+    ],
+    "scores": {
+      "distinctiveness": 3,
+      "novelty": 2,
+      "shareability": 3,
+      "mobile_impact": 4,
+      "identity_feasibility": 5
+    },
+    "decision": "reject",
+    "evidence": "R3,R5",
+    "visual_concept": "Square close portrait with blue/warm split light and a prism band outside face.",
+    "novelty_difference": "Primarily lighting and framing variation; the small-size mechanism disappears. No new DP justified.",
+    "nearest_existing_1": {
+      "slug": "soft-light-unmistakably-you",
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "canonical_path": "/ai-prompts/women/soft-light-unmistakably-you",
+      "description": "Soft light, unmistakably you: The person wearing a black boat-neck top against a pale warm-grey studio backdrop, steady direct gaze and their actual age retained. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/soft-light-unmistakably-you.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "meet-your-new-profile-picture",
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "canonical_path": "/ai-prompts/social-media/meet-your-new-profile-picture",
+      "description": "Meet your new profile picture: The person wearing a coral T-shirt against a saturated sky-blue backdrop, candid laughing expression. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/meet-your-new-profile-picture.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "a-fold-around-you-profile",
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "canonical_path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "description": "A clean avatar with a tactile frame that stays understandable at tiny size. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "physical-paper-frame",
+      "image": "/previews/a-fold-around-you-profile-social-v1.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "1:1"
+  },
+  {
+    "id": "RI10",
+    "title": "Blinds Around the Face",
+    "slug": "blinds-around-the-face",
+    "nearest_existing": [
+      "floral-shadows-a-clear-face",
+      "last-train-two-ink-portrait",
+      "a-fold-around-you-profile"
+    ],
+    "scores": {
+      "distinctiveness": 3,
+      "novelty": 2,
+      "shareability": 3,
+      "mobile_impact": 4,
+      "identity_feasibility": 5
+    },
+    "decision": "reject",
+    "evidence": "R3,R5",
+    "visual_concept": "Geometric blind shadows on shoulder and background around a clean face.",
+    "novelty_difference": "Existing face-safe projected shadows already serve the use.",
+    "nearest_existing_1": {
+      "slug": "floral-shadows-a-clear-face",
+      "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "canonical_path": "/ai-prompts/women/floral-shadows-a-clear-face",
+      "description": "The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting.",
+      "transformation_type": null,
+      "image": "/previews/a-small-festive-detail-editorial-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "last-train-two-ink-portrait",
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "canonical_path": "/ai-prompts/retro/last-train-two-ink-portrait",
+      "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "limited-ink-print",
+      "image": "/previews/last-train-two-ink-portrait-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "a-fold-around-you-profile",
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "canonical_path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "description": "A clean avatar with a tactile frame that stays understandable at tiny size. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "physical-paper-frame",
+      "image": "/previews/a-fold-around-you-profile-social-v1.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "1:1"
+  },
+  {
+    "id": "RI11",
+    "title": "Main Character in Haze",
+    "slug": "main-character-in-haze",
+    "nearest_existing": [
+      "one-day-four-possible-worlds",
+      "a-mountain-journey-within",
+      "you-and-your-pet-the-adventure-poster"
+    ],
+    "scores": {
+      "distinctiveness": 3,
+      "novelty": 2,
+      "shareability": 4,
+      "mobile_impact": 4,
+      "identity_feasibility": 3
+    },
+    "decision": "reject",
+    "evidence": "R6",
+    "visual_concept": "Large hazy self portrait behind smaller standing self.",
+    "novelty_difference": "Repeated depictions alone are already covered; composition is too close to R6.",
+    "nearest_existing_1": {
+      "slug": "one-day-four-possible-worlds",
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "canonical_path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "description": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "multi-scene-identity",
+      "image": "/previews/one-day-four-possible-worlds-creative-v2.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "a-mountain-journey-within",
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "canonical_path": "/ai-prompts/travel/a-mountain-journey-within",
+      "description": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "controlled-double-exposure",
+      "image": "/previews/a-mountain-journey-within-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "id": "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "canonical_path": "/ai-prompts/pets/you-and-your-pet-the-adventure-poster",
+      "description": "The supplied owner and pet sit together on broad safe stone steps beneath a giant illustrated forest arch built as a physical film set. The owner wears a weatherproof jacket and looks towards an imaginary trail; the pet rests naturally beside them. Preserve both identities and coat markings. Leave clean negative space above for optional later typography, but generate no title or logo. The identity reference determines the people; the example provides the styling and setting.",
+      "transformation_type": null,
+      "image": "/previews/together-on-the-doorstep-editorial-v1.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI12",
+    "title": "Monsoon Sealed in My Jacket",
+    "slug": "monsoon-sealed-in-my-jacket",
+    "nearest_existing": [
+      "a-mountain-journey-within",
+      "resort-dress-the-wind-between-arches",
+      "perfume-the-water-sculpture"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 3,
+      "shareability": 4,
+      "mobile_impact": 3,
+      "identity_feasibility": 4
+    },
+    "decision": "reject",
+    "evidence": "YM02; original synthesis",
+    "visual_concept": "Transparent coat panels contain tiny clouds and falling rain while wearer stays dry.",
+    "novelty_difference": "Different physical containment from queued monsoon-in-your-jacket, but final silhouette/payoff remains too close and detail may vanish at mobile size.",
+    "nearest_existing_1": {
+      "slug": "a-mountain-journey-within",
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "canonical_path": "/ai-prompts/travel/a-mountain-journey-within",
+      "description": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "controlled-double-exposure",
+      "image": "/previews/a-mountain-journey-within-creative-v2.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "resort-dress-the-wind-between-arches",
+      "id": "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "canonical_path": "/ai-prompts/women/resort-dress-the-wind-between-arches",
+      "description": "The model in the supplied dress stands in a white seaside resort arcade; a gentle breeze lifts only the loose hem within the fabric's real weight and cut. One hand rests on a low rail; posture stays natural. Preserve print placement, colour, straps, neckline and silhouette, with no added slit or changed length. The identity reference determines the people; the example provides the styling and setting.",
+      "transformation_type": null,
+      "image": "/previews/a-dress-that-moves-naturally-editorial-v1.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "perfume-the-water-sculpture",
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "canonical_path": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "description": "Retain the existing dry, upright perfume bottle on a clear plinth. One precise water arc rises behind it like a transient architectural arch. The front label stays unobscured; water never penetrates or redesigns the product. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "impossible-product-set",
+      "image": "/previews/perfume-the-water-sculpture-creative-v2.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI13",
+    "title": "A Matchstick Version of Me",
+    "slug": "a-matchstick-version-of-me",
+    "nearest_existing": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait",
+      "the-tailors-mountain-range"
+    ],
+    "scores": {
+      "distinctiveness": 3,
+      "novelty": 2,
+      "shareability": 3,
+      "mobile_impact": 3,
+      "identity_feasibility": 2
+    },
+    "decision": "reject",
+    "evidence": "YM02",
+    "visual_concept": "Portrait sculpture constructed from coloured match heads.",
+    "novelty_difference": "Material swap repeats existing relief portrait and may erase facial landmarks; too close to the source material recipe.",
+    "nearest_existing_1": {
+      "slug": "portrait-cut-from-monsoon-paper",
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "canonical_path": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "description": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "physical-material-portrait",
+      "image": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "last-train-two-ink-portrait",
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "canonical_path": "/ai-prompts/retro/last-train-two-ink-portrait",
+      "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "limited-ink-print",
+      "image": "/previews/last-train-two-ink-portrait-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "the-tailors-mountain-range",
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "canonical_path": "/ai-prompts/fashion/the-tailors-mountain-range",
+      "description": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "surreal-scale",
+      "image": "/previews/the-tailors-mountain-range-creative-v2.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI14",
+    "title": "My Weekend in Two Mediums",
+    "slug": "my-weekend-in-two-mediums",
+    "nearest_existing": [
+      "the-river-remembers",
+      "one-day-four-possible-worlds",
+      "last-train-two-ink-portrait"
+    ],
+    "scores": {
+      "distinctiveness": 3,
+      "novelty": 2,
+      "shareability": 3,
+      "mobile_impact": 3,
+      "identity_feasibility": 4
+    },
+    "decision": "reject",
+    "evidence": "AP01",
+    "visual_concept": "Photo above, same memory in ink below.",
+    "novelty_difference": "Already represented in photo/illustration territory and directly resembles AP01.",
+    "nearest_existing_1": {
+      "slug": "the-river-remembers",
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "canonical_path": "/ai-prompts/travel/the-river-remembers",
+      "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "photo-illustration",
+      "image": "/previews/the-river-remembers-creative-v2.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "one-day-four-possible-worlds",
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "canonical_path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "description": "One dominant portrait occupies the left two-thirds. Three unequal inset windows show the same adult as a night-sky observer, pottery maker and mountain traveller. Windows share one curved horizon, not a rigid passport grid. Expressions and wardrobe vary; age does not. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "multi-scene-identity",
+      "image": "/previews/one-day-four-possible-worlds-creative-v2.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "last-train-two-ink-portrait",
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "canonical_path": "/ai-prompts/retro/last-train-two-ink-portrait",
+      "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment.",
+      "transformation_type": "limited-ink-print",
+      "image": "/previews/last-train-two-ink-portrait-creative-v2.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "4:5"
+  },
+  {
+    "id": "RI15",
+    "title": "Inside the Lens Barrel",
+    "slug": "inside-the-lens-barrel",
+    "nearest_existing": [
+      "a-fold-around-you-profile",
+      "one-step-outside-the-frame",
+      "soft-light-unmistakably-you"
+    ],
+    "scores": {
+      "distinctiveness": 4,
+      "novelty": 3,
+      "shareability": 4,
+      "mobile_impact": 3,
+      "identity_feasibility": 4
+    },
+    "decision": "reject",
+    "evidence": "CG02",
+    "visual_concept": "Face seen through large camera bellows and circular optical rings.",
+    "novelty_difference": "New prop but familiar aperture framing. Would lose the equipment narrative inside circular DP crops.",
+    "nearest_existing_1": {
+      "slug": "a-fold-around-you-profile",
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "canonical_path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "description": "A clean avatar with a tactile frame that stays understandable at tiny size. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+      "transformation_type": "physical-paper-frame",
+      "image": "/previews/a-fold-around-you-profile-social-v1.webp"
+    },
+    "nearest_existing_2": {
+      "slug": "one-step-outside-the-frame",
+      "id": "d7aa6cd4-6725-59c4-843e-ead6ddeaa365",
+      "canonical_path": "/ai-prompts/social-media/one-step-outside-the-frame",
+      "description": "Break out of the picture. Create a playful portrait where one continuous leg steps beyond the frame into the room.",
+      "transformation_type": "frame-break-forced-perspective",
+      "image": "/previews/one-step-outside-the-frame-genz.webp"
+    },
+    "nearest_existing_3": {
+      "slug": "soft-light-unmistakably-you",
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "canonical_path": "/ai-prompts/women/soft-light-unmistakably-you",
+      "description": "Soft light, unmistakably you: The person wearing a black boat-neck top against a pale warm-grey studio backdrop, steady direct gaze and their actual age retained. Reference photos determine identity; adapt the styling to make the idea your own.",
+      "transformation_type": null,
+      "image": "/previews/soft-light-unmistakably-you.webp"
+    },
+    "score_basis": "Editorial assessment, not engagement data.",
+    "existing_asset_reuse": "No existing finished asset accurately represents the shortlisted scene; use existing assets for comparison only.",
+    "aspect_ratio": "1:1"
+  }
+]

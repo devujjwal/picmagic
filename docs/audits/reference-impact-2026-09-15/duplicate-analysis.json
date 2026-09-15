@@ -1,0 +1,1292 @@
+{
+  "review_date": "2026-09-15",
+  "catalog_records_searched": 177,
+  "published_local_flags": 75,
+  "drafts": 102,
+  "production_status": "Not inferred from local flags; no production mutation or new production audit.",
+  "method": "Current record text/brief/taxonomy search plus semantic mechanism/composition/payoff comparisons and direct contact-sheet inspection of available nearest assets. No embedding similarity or popularity claim.",
+  "searched_fields": [
+    "title",
+    "slug",
+    "description",
+    "prompt_text",
+    "image_brief",
+    "transformation_type",
+    "tags",
+    "style",
+    "subject",
+    "category_id"
+  ],
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "422bc869d90ab4fc7bbf4e50281232b29d4713400a79d27ee30d39b06d7b5a5a",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "5ef9e8bc56a6f7d448b408a6ea71f377af986f7461ecbd5a23baf886a166e4af",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "c782e46ca27f882a0a74813c3c1c4e12bcfcf90f96f6a5988403f78a7e4479e6",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "300755b7113fbc3e4d064e41bea82f233ea3478e83a9e7628f8778d0df9446b8",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "d1e7b8afb26c934553fcaa4fe66462a242884db4e6903964651343e19e0a314f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "6d71d5f6bb05f34af7c30a110f85fe845bd620bc46461a3fd98e8deaeb8295c2",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "26932082bc626942225ceb50fd01e92ee01b0252bcd09a9ef0577828d48ca170",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "526420bd64bf3e983b5da32c32542496c2b46735e23f39daec79a8c51e26c81f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "52a005ece79b60499a6c02c261d645a44608ff7768a0b598b003279f915a2966",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "f658f24d4b9c561449fe906a14ecf815540def3df045e8a39be3ae6b116c9ed0",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "8edba407ad374d89dac71f80d8c89d7071c52875f890b50e075eb0b1e2499afc",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "ed0989a059fb248c931d98802ef70423123d05bfea8f59ac6a8caf7a99cdc9f3",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e4a58458e16b752a36a91072931bfcde9b0a3d2a8bc08a2cdb18f83bb6618210",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e4ab0163e99625d8ba59214bca3d2e5f4b2fad00e3610fe1d07e69bf6b1e3cc6",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "db1097c4b73daa2dc9b97e7be27ed35216939f8063236837661751b5f68af5f3",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "1bf1c4112971ed22982655dcb9e925973375c8476b6e42fb59b1861ef1a7545e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "18bbee162f253d467776f2d6119ca971cc862345a400985ee8b532ea5d04aa63",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e13e5b24aaa9e8ac6dabf65925f8292e7928c358b892c9386034d8ced6ad62f2",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "5925c53904e537535d719da2bb3c71bfcad9b4746661e8bfd22707e1fa4355a8",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e9392857b3b93b4e7404a56487d8fad8f311c9347eda658eb53cb5001092351a",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "5057b5e743db435eb28c59234d7075a9e198020d1c36426911aad8a8e25389e6",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "17bc85c1fc57a3c831da8b2869d323d70e1bb6d8207223449d5749906eb05364",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "cf4bf282961c3fa4e9948f82727f9295bce4f97fd6340b698add24f3fd836170",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "4f3179c864e24f3b04ed1205d0beeb0a93f5ff2c573d5a0bebd58cc875b22995",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "03bede009427762670f73d7b2ec052c408138eb2a150c33a65947e44b9d14181",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "38d4dd65899f7e55986053b0f68d41392018983e6f5c4320bc4e46e7c2bf8ca5",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "36fd5ae5a820eaffdb994bbd25f6735f9b15ddb40b85301e4df9a5e3fc4bca1e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "96817b6fbcd48d90d3323a92a6dfce8846f0debaab6461c7ca9acbbf11f9082e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e643d775136fa8b74aa1b9c3b283c28a6615421ec19d9517014e8ede1c0c4ff3",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "1f11f512360e8bfcb3f7fbd0d028941b2ec1557ed6f5cdcbe3ecf6e1823ccc76",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "4259c5b79c856065791ad73fa36a0fec82dabe5d9b5a18b5f07e27f3db4e916f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "307043f656f36614d8acd81a8b3952dae70cc161283996a3106709d3a8560c5c",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "bab5bad8bfa52922b19d7ac547333411ed095fce3100cf1f10d29809bce862a0",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "c4881b593e65a2239be2aa70bcd89830997edd1a135a296c05f4dbd5ebbcc923",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "aabff6c6a7906cd3b24944cc05d98a99f148069a9cdf868623a999d6d2c9143e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "99899b73da5188392e16a93722642e7b6d3db140dfc2f535c7d182f24cbfb4f6",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "f392a605bc65b39ae1d331bf33a6b933a18acd2521e798f53cd8d98ffb3e8760",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "8dc2fbef064a9d0a45e390136d4ce115896ed0b7b326cb23d565d25fad16256a",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "6217106d40dd8aaa7d2ecdfc452a785a99dcc23b869ae224112bc5c7b93ec6b1",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "0e08bf391a44949f7e4cdb899fb1d0ada0f9af67d129cf9edf0a368a8be3f943",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "99f3e54516732e58b481d6f9be74e0cf6f1d63411a50e1d20a00a7bb22b99dd7",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "5cbd29a10d7291dc669159d80d07fc7ac5b159ece88f464667deb1f81af6af02",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "9145960993493f733b2de7713e8f9cb5891e7ef2d894415c282556e9f2550c52",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "e0d515147a496a9bb4af2a84f945e5af751b40c81903be4d2449e6a919364d24",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "db8e7b332c666c9999642fcff147502b7a5a2f068b89b8cc6956657c7ab53a27",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "66be7c6ca5cff4c36015d786fd064821ab6a6703d33db251c5a628e164b43ada",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "c430661f3f337c7d26b98651e9bcf0b46fab2186e25f2bcc471380906031239c",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "f64bfa4b7dbc6cdbd9eb4d6d5e2affcbf7a5dfe67fc3777f7c92de1870bd12b7",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "5a640aecf52cba153f56f3cdfad3a822d1ed2941b1d0b4cd7407696c277296f7",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "source_file": "content/prompts.json",
+      "search_text_sha256": "add2f4cf4882e5aaaf76c60fed47095b7107240af4584503147da66dc59f3748",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "41af04b9-f5d3-52d5-b1a2-2e1fb33285a5",
+      "slug": "between-two-gravities",
+      "source_file": "content/additions/gen-z-prompts.json",
+      "search_text_sha256": "8745c04f1e3f93c119ce9f1b83e6c4962ff6abf0b7ade9bf06e147f5a3265161",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "8697dd20-7c8f-5b43-8d45-24ef080b4724",
+      "slug": "the-listening-room-has-tides",
+      "source_file": "content/additions/gen-z-prompts.json",
+      "search_text_sha256": "073bf43d7e31cbf560e763d253ed88e2e7c1958ed5c6c65bf27c4566b809f5e1",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "e1a81203-e635-5855-8aad-708d6b9b21d0",
+      "slug": "chai-between-the-floors",
+      "source_file": "content/additions/gen-z-prompts.json",
+      "search_text_sha256": "c5e2e534398750ee26971a03778f54757630116c8daf9a32dd7b130ee6575f81",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "d7aa6cd4-6725-59c4-843e-ead6ddeaa365",
+      "slug": "one-step-outside-the-frame",
+      "source_file": "content/additions/gen-z-prompts.json",
+      "search_text_sha256": "b118d3fb89e3b5ab1f756d056a839694e43f5c62f9ecb7376be18a7579e1d3a6",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "slug": "the-river-remembers",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "945ad8e56fd301db59d1b3208aaf3d49df0f24d1edea8b46b274e000bde838d5",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "ca2053c539a16f6afa3aad8a231e5ef543556d54249834202b279558035a1ebe",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "slug": "a-mountain-journey-within",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "443c0d1e5ddccf1cfb9c42dbfb69d104420963e11d5ab61bf1ec0143fb408905",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "slug": "the-tailors-mountain-range",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "aea9dd129a0d7db5dbcb2002c3a14b4ce34800c35264ebb16ced363e9baebc9c",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "slug": "one-day-four-possible-worlds",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "c74c5a41f117073d99f65b6b31d0cf86c65de8851a383043c1ebc5897aa4714d",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "288fe016389bbc6256dcd90a164dbe24bc9b132797756202b0af9141b3f7111e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "slug": "last-train-two-ink-portrait",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "f388c11f2c7d98a6fca8b0a9c7e8389daa142c7874bf550df9eff21caba3eac2",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "slug": "one-saree-three-campaign-worlds",
+      "source_file": "content/additions/creative-prompts.json",
+      "search_text_sha256": "bba8fc483fccb041c99e517fb3b6fb4e35aed72c173e3ce4b7997ec8f4e4c921",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19",
+      "slug": "cinematic-ladakh-friends-trip",
+      "source_file": "content/additions/friends-trip-prompts.json",
+      "search_text_sha256": "9f331d31ccaf1e489bfdf6099b267b97054981053755681545d59c7cdbd35e64",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "slug": "borrowed-moon-closing-time",
+      "source_file": "content/additions/social-prompts.json",
+      "search_text_sha256": "de9eb340e84e3109d85eaf1dbaddaec25170a46355c32b15acafd7f261ef5c39",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "slug": "a-fold-around-you-profile",
+      "source_file": "content/additions/social-prompts.json",
+      "search_text_sha256": "85d0ca4f8b28a516d990d16f817308ad9ec49f9fcdb6cd1869d9e2ac28c89d53",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "slug": "small-burst-of-motion-profile",
+      "source_file": "content/additions/social-prompts.json",
+      "search_text_sha256": "0ef95be5be5b0d6efdb62e7b08dd7d412fafd6c12b727d18cc83037a07fa410f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "53a8fbbe-9cdc-53ef-aab6-0d96a5dac0cb",
+      "slug": "royal-jaipur-after-hours-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "1e6e06307551bbfd140d159ab90cf9c2b184c1129b37a3d32f5f010c8869ecc3",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+      "slug": "monsoon-love-story",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "ab5e007fa49599ff93f941444ff5a5dd6d0073ba242e2276750be8b173ceb959",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e1465867-b80d-53d1-a68e-8685799d6c8e",
+      "slug": "monsoon-love-story-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "668d8604e7ff27f50194dc2835038b29f1035e451f65fed83a8971730545f37f",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+      "slug": "desert-moonlight-promises",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f256c14635eb2101d1df471aa86a11c1c66739750ea70910853e69cc530a261a",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b78c83d5-c7af-598a-a511-34a11e58ad1c",
+      "slug": "desert-moonlight-promises-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "4b1d5ddc779b0faa49af6da56c44d935553342b819d0506c10f66d5ced4644a2",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "slug": "the-heritage-railway-letter",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "50fd3cb8c0fcdfd69204800e8256e301e92cbbfc156671899f2be566a1cb1471",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "be215413-4b98-5fab-af22-236b833ce9b6",
+      "slug": "the-heritage-railway-letter-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "a53cc3fb7b1b36d3d42eac90541d4213894ee4391ed2980a9ee42a384f6f0b63",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "7c129763-1405-5579-a8cc-ccf338d69a57",
+      "slug": "monsoon-maternity-at-the-heritage-window",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "00d341bc4c6b90c99bc1b6eebbb62d1ce2131d03eb68512948f1cd928bc9e138",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e5bf667e-62ba-51f4-a7d5-b33b686e4cb7",
+      "slug": "monsoon-maternity-at-the-heritage-window-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "88ab337063352e4deed776da38025761baa666b3f5289714c254655cab25f52f",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "972f7890-d4eb-5f89-ac59-27e4dc591474",
+      "slug": "moonlit-motherhood",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "dbe24b44916ddff8226f6c084ab55856b37e663faccbe92af7bfb896285eda13",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2f27fb36-901d-5c51-a623-c817ff00d509",
+      "slug": "moonlit-motherhood-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b058f2263798bd025f4c49373d2c693f45724322a8502164a128db7395e26e18",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2",
+      "slug": "generations-waiting-together",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "56aa5a856bacd7a1fb5b70b0a3b2a4cc426ed300331c59ba3c4915af41b70a32",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "12608a71-2c35-55a3-a6dd-b6a789b705b9",
+      "slug": "generations-waiting-together-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "5aa6a228bf05ec6bcfe876332809f1881fde18b79f3967b0791cc9afec417649",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "16584e1f-38d5-550f-a118-f753b61eaf66",
+      "slug": "motherhood-in-a-field-of-paper-petals",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "618d8e6372d0ad6141cf05251c59e3d232ef11f3eaa431e80aac02716b175227",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "289a1028-ba7d-5c7e-a773-a9888c042026",
+      "slug": "motherhood-in-a-field-of-paper-petals-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f7e2cfb2b7331f48b8b84ec2913e1e9ce60de29fdecfb8fe8e108c50c015be6c",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "15a6fb30-1561-5e74-a2ae-0eadb4592e51",
+      "slug": "himalayan-last-rider-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "1ab086ea63d7a7d75b43ac1410e2f7fc2abfdc9de85a5e9a42511d68dc430353",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+      "slug": "midnight-fuel-stop",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "59d38d34a6d3c4fb8be9bd1354dbc68f2ea28f2a935e769402006a0356aed1f5",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "8d982cdd-f81d-5f85-a91e-043a4c5b3ec0",
+      "slug": "midnight-fuel-stop-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f6e2aa12742f79df377f94add5cbd69c60560b1d88255d5dabcf3a88e9becce1",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e3bcd989-c63b-5a67-a91a-ef49901f7991",
+      "slug": "monsoon-rider-under-the-flyover",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "33ba7c47054f587085569b2d02194ca1aefcd2107c8461e28726e76177e3bf54",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "85d57403-7f43-5bea-aafc-d092b14d53f9",
+      "slug": "monsoon-rider-under-the-flyover-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "af803a8f1df3c6bd1dc56d62d7298d412fc8367bf0a0cee6327ce7e5648c9002",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "53329fb2-d974-5ee1-a385-e060e094efca",
+      "slug": "the-salt-road-to-nowhere",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "412e3bbd0cc8d3179413ef65da1d15a9d9595522afdd1754b9023985e8988c4a",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "3a94dac6-4e97-517b-ab81-3f893ca85ad2",
+      "slug": "the-salt-road-to-nowhere-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "8ccf416a6c7b4377f9e53322abd68607f17701cfada756d5ef10c585d0203000",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "7db5e93f-1991-53c0-ad33-5e90629e80eb",
+      "slug": "desert-road-hero",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b58bc84e8d6a7bd3b95eff8991709a275176b6b46b47aee1659d707199b8623f",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "a8cbf8fb-56ae-50a0-a861-f5625d7e4557",
+      "slug": "desert-road-hero-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "c94c2ca414223895a6d6376cc14e86b8786b8d7b0490c55042f77547c41d6443",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "21051ce7-7d65-567b-a23e-a81e72f23552",
+      "slug": "retro-bombay-through-the-windscreen",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "9ddc065adada0e5a015cad1c4fa651cf8655b975c1661c9479ee911f21af2378",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "c797ff85-40ba-5bdd-add0-4b8a53adc3a7",
+      "slug": "retro-bombay-through-the-windscreen-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "09761067b89d8df240ab8c8cc0e553d5f467a18e866c93e29bfa868e5435d8e7",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7",
+      "slug": "neon-monsoon-drive",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "fed8ff3d9650a4ae679c1ff758c063ee6a9e9b4ad33b010b0065413ecd88b937",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e3cbe555-2a42-5ed8-a183-7d51f6e65636",
+      "slug": "neon-monsoon-drive-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "980bec0ee88fe816553fd3ef2040024992300e920fae03b06da9ffe9e9d51133",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "bd90da35-9209-559d-a68a-bd57dc5e17e8",
+      "slug": "the-mountain-tunnel-arrival",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b379674c4f18e564872d0d817a1f1de6cb0810d5f5bb422f8838913ca9a91d41",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "709eddd4-9065-5f61-af35-79a11b575a33",
+      "slug": "the-mountain-tunnel-arrival-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "fbe2f3dbebce4629d9749e97a0dad47d368b9cc00f80842137287dbcec19a338",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "9e91eee9-2c40-53cd-a46a-444e33d0a04e",
+      "slug": "after-the-last-rep-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "69637eafd55dcda80bea35df23d38bf9db3d0499cefc4a87bb17f3bff583b319",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b",
+      "slug": "split-second-athlete",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "da129332c5e68c2d8e623d3a3f35bba76137aec0a9e53bc9936bda6cda22d8cb",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "3cf8adec-4cda-58de-a449-58dc1e7d6936",
+      "slug": "split-second-athlete-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "d0ba613500cc3eb99b7456554e2f0b2995c07db47158a8a7f5ceef49eccbecb6",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "3499de28-f65f-5680-a7b6-6d94e95b8e6e",
+      "slug": "shadow-athlete-at-dawn",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "0c3f6f44d3ebdc715ecae99f7c86290cc3d40a56fe25494663eb845b5cec55b9",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "5595b27d-e80a-52c6-a8fa-3a80738f9bfb",
+      "slug": "shadow-athlete-at-dawn-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "e77d87d9ad1dafe1e90ad53cf6da8409e90beef3d9578649a4ec59a170305c38",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "8291ec7b-78fa-5512-a037-6f1e642f4d58",
+      "slug": "the-empty-stadium-one-more-try",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "954ed48caf50215de22d4a7ea2644aaad096d1bc983d1d72f7c93b42633a83b3",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2e3bfa74-dc47-5e7a-aede-e965a9058598",
+      "slug": "the-empty-stadium-one-more-try-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "6a9779382283496ff933d27436ef3d14b16fc8b4a820969e4e17032ae02fe554",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+      "slug": "your-next-introduction-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "58908a711723305cf2f2a0b0ab70427f8509984da0910602f72ae230aa078541",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+      "slug": "founder-after-hours",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "04e4eea0b5e3cc5292d9525f7d6589e0417ac064a385530a2417bf4ad390c644",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2f732577-3896-51b7-a714-25ca56275daf",
+      "slug": "founder-after-hours-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "c7aba33892387c60dd6f6777087caf7c2de521d7b21dbf59d476826ad47386bd",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "3e86b4ed-5ed5-5d42-a343-4096fa10a298",
+      "slug": "newsroom-before-the-opening-bell",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "686b3e2d831274fae8a3d17af7d0ecdb7bcc69b85e90edcd981515b7b645fd02",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "3a7c1a68-a218-57c8-ae6d-e50515cb3c3e",
+      "slug": "newsroom-before-the-opening-bell-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "df12654c9561026b57be1cb64fccab5ec12250faf241230bb544bd67784bcdae",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "76c24975-e8bf-5ffc-abe5-aff47832f26e",
+      "slug": "the-idea-becomes-a-skyline",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "97ebd35f7b0f2ecd4271efa9257963a8f4b2af505031ae29285f82f50a876c6b",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "94ea26a4-6d06-5388-afce-d6ae389e38d9",
+      "slug": "the-idea-becomes-a-skyline-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "05ff5b0d4e80b8e1da2fe32aca8dc4ecfef732ef2cccc7a82b9b0be3608b9b75",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "slug": "coffee-and-a-real-smile",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f643637531bcb8092e2043a91b5a1b9d45ac12c2306b4a579a96c485c0408f34",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
+      "slug": "coffee-and-a-real-smile-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f167fd616e16daa70f1d4d2785c00416127f681113d58e61a39bf563ddfa9ecd",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "slug": "the-bookshop-detour",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "db34b8844340e8b0b5b0b8fb27c2ba3865f89296f00bd8c1ae107d82a8f80eae",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
+      "slug": "the-bookshop-detour-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "4e5d97638114674b9ae0f64f1f83a6c5fca8d8c62125075884b60fa6c0cbf46d",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "slug": "sunday-park-conversation",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "56dc41781fad9b203ca17d6255ecbe8d590f4043b8a911b27fa0b42a0b868c6f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
+      "slug": "sunday-park-conversation-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f45e99504df916862d7f138cabd6fea75d54f89003fbf913a421a78bde74758e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "551794fd-8e65-5250-a89d-bdae263578d9",
+      "slug": "something-good-in-the-kitchen",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "6627ea53d1c55dbc9b1c7637bec60121c980de52cf17197f33ed0283783fde2f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
+      "slug": "something-good-in-the-kitchen-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "e7675f5a3a2448edc6bacd9243067e8a9dbf43f8f8dcdec0f9fda35e8998a144",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "58922396-8c86-5793-a71d-ebf3f4af5941",
+      "slug": "goa-after-the-monsoon",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "def091fb206f7888d1a17de80d81a338cc888c83ec136dc34b49b23aeb04ef26",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "9521a0cb-83f3-5388-aa9e-7d0673110055",
+      "slug": "goa-after-the-monsoon-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "9ea0155c00045bc997d5afae93594224904c6855c68131ccdfb08e5aacd68a7d",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1",
+      "slug": "meghalaya-cloud-walk",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "0d0e9d38c26233e09d3e2e7d6f4ad0a8ced4e2e3db241f10e1b4898cb15709c2",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "20a5014c-8ca2-5c1a-a83c-823a802865da",
+      "slug": "meghalaya-cloud-walk-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "3c947537a5f9a747e9564df5ade15918499f027d9bb4b5a68c4b3769a763ec88",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0750ce45-43dc-509e-a588-c7ea05fe40a3",
+      "slug": "the-lighthouse-keeper-s-morning",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "7302004761e1b7870f1ef2cc31e319fcb1994c5d7e808afcb5c44471111da670",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2bf7000d-d496-5ae2-a43f-493a7c4dd5e6",
+      "slug": "the-lighthouse-keeper-s-morning-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "213ae225b3d29eaca9b47c242cb587d281ab0bf1c2160fac56c5cf71c39768ec",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "c55b1cd7-7e95-5184-ae40-c253d2aed42a",
+      "slug": "the-train-through-the-tea-clouds",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "74cfff57cb79ed62e25f5925e446e3edc803319ddff14c008b71677c32c6f2ac",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "9b619fb5-aebf-5817-a057-b9bbce277555",
+      "slug": "the-train-through-the-tea-clouds-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "8357ce8c2696bf7d305b561669255a7a69be4f70d4d0dad4ec8ac7033453fd1f",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "8a5b10f4-bb35-58f7-aa91-94ea71537999",
+      "slug": "coral-against-the-sky-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "cc59f35a807659549d1bea12d238e23ca6f9461156f33eed5569fe01e1b7db7e",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "20d0d883-d1c6-58c8-a3e9-cd57edbce120",
+      "slug": "soft-light-unmistakably-you-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "c6f9e562807868f4ca2f07545e91d788d1db19f1da791df9e7f287490be08ec8",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+      "slug": "monochrome-rain-face-in-focus",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "54359c0db305d89bb24a9ddba5bb2c65afa5284e1cb01be2d36b37495d9cf116",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "faabea55-1920-561a-acb6-9111e6450e46",
+      "slug": "monochrome-rain-face-in-focus-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "0e49edf3db5ddb4781273ec6f343fe5235a8868b75d3615e099f112196c3cb78",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "slug": "floral-shadows-a-clear-face",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "71fdf585f384e44d5da5b1c53cb444f1838f0d70b26d888c36ddcff8ceb8c459",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "cbeb0c3b-afd6-5cbd-a6dd-fc92e544e7b2",
+      "slug": "floral-shadows-a-clear-face-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "d060ad65c6aed63932948d54d90422bbadd9268f4a64c3cecb0e5b74d1dbd5a4",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "29e48c7e-bbbe-55e5-a148-ac4613862701",
+      "slug": "diwali-a-thousand-points-of-light-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "24c59d6f99e4a90baf922ec9d4fdf9c2f69eced836e18ca627f975b09a0f8433",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "37ed3b86-b00c-5ce7-ab8e-9ecbf75099a5",
+      "slug": "holi-the-colour-before-it-falls-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "50b2f0e731bae81731a17f27e48b780911dcefaf1b967c2adfe33878d205e578",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "223f0df3-310f-5bf3-a007-8fe47e1dc58e",
+      "slug": "navratri-still-at-the-centre-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "9d6bb23a9f9be4840ada9f5340dccd15da330450346f512aa5dedbc9fad4b7ea",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b93fce53-9a68-58c9-a9a8-67304efd446e",
+      "slug": "the-little-flute-keeper-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f3741f428a9c8ab1de585c9ec569832660f1500991ccfe48045f8733d184094d",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "6a5fe725-3f2e-5776-a25a-119267e2a7c1",
+      "slug": "the-gentlest-new-beginning-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "fc78f3e81f0c27a4d9280a755f885ee13a2a08d8487308a05fcaaf724472f93f",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "slug": "first-birthday-cloud-world",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "1c35ec03841dc2fc39ff2413fcfbc7c02f8424d430b8de00f16b9bdaaa003a0c",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b2cd54cb-7cb8-5cb2-a3e6-4f3924cbdc44",
+      "slug": "first-birthday-cloud-world-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f4de17081b7ea31c8d3866482f22c4ae8c422ac83f1e5b2564920e1d1cbb0dbd",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "97517e1d-15bb-5257-a202-1cafe3e00154",
+      "slug": "the-nursery-moon-mission",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "4f889e235e7119403c1c386791e87d0012d4b3d1d04ecb6019aef8544e8590c0",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b6df8769-1adf-5e29-a712-45dd99b2b59f",
+      "slug": "the-nursery-moon-mission-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "91736255f3159ef48e69cdbb05ac583ae55f0a0515df8a77906b2f5cfaff5190",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "slug": "the-family-s-little-storybook-reader",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "002ce2aef391d0a55c603969add73f4211e084b4c66f771f8bddf4b0457feebd",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "cfe7a269-b35b-5dcb-a1bb-a4b5b0b232e2",
+      "slug": "the-family-s-little-storybook-reader-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "c94a145163a6173a102d480ff9e29a822d89cf66ffc43123767cbff2aee77e4f",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "7ca4fc36-c0ef-56db-a132-2f1aba89c035",
+      "slug": "the-maharaja-of-the-window-seat",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "6ade324eed1ce5b1aef3bc78768c64f9826a7ef7938004c6046e58251fc48165",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0eda1e7b-28e8-5574-a1f1-8a89711dd4cb",
+      "slug": "the-maharaja-of-the-window-seat-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "7379b759e5c8ec68a71b54522bb88682e75a2456357889d9b5158c3bc65a1528",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "7de25f1d-f954-5703-a53d-ca79d3caa66e",
+      "slug": "the-dog-s-birthday-aftermath",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f2205baab16a960d8ac7c26b8a05048af41b2a92020c641eda6ba198a7a82a5b",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "f9d47ef7-f637-52b6-aec8-f39a9f91c783",
+      "slug": "the-dog-s-birthday-aftermath-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "4a3557b1656b9b91cf4252e5132e2fee0f74ac8f0ae91d209f89518443262dfa",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c",
+      "slug": "tiny-pet-giant-space-mission",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "3af0b76cf2e4adec00e83493488795a31e7f5c9b78d2e5941e5be695792dfa2b",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "a6c71e83-d96c-58e3-a20c-4fd6ab017304",
+      "slug": "tiny-pet-giant-space-mission-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "7ab4d85ad146b98ad6889b91c7053198fcb6fa75ae3b21d5d205914ba105112d",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "f5225b9fe85977f09975ea4ac5764b26a35a3b9e5f2ae11cecedd9c6342e4af3",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "932b44ee-ce8c-5c8f-a418-33727b3661ab",
+      "slug": "you-and-your-pet-the-adventure-poster-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "21a38ede9b4406f2169056d6d68cf4945b3aaeafa58df19755b88132fb94f942",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e9b71c26-b433-55c7-af42-111b17ed2942",
+      "slug": "skincare-on-stone-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "540970927a5d2dc36f3e15bf4b1611f03fa987c785e084e26fd15a939b0f8742",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "146fdfab-b615-54b0-a5e0-10f8ac83b381",
+      "slug": "ceramic-and-linen-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "4e860a82339fb7504d139a254705075b1ba1595151027dc702cdb794bb3d5a8c",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "slug": "perfume-the-water-sculpture",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "c205bd4448d4f41e13835857bd9464ff7b5925e3795d85332d32d8598a7ed5dd",
+      "asset_exists_locally": true
+    },
+    {
+      "id": "9bc1fa0f-375a-5a4e-a6d7-7ab50dc718e3",
+      "slug": "perfume-the-water-sculpture-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b53c96d449ed6eca09a183a397e9b447b0a19c61417b56f35470e10b489009b8",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "14335dd1-2c1a-5331-ae55-ff5f4753abb7",
+      "slug": "handbag-in-the-architecture-of-shadows",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "5b86685189dc4c055415e582b029e4aeab4de135bc8b720a7f8a32d7c8da7622",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "13aeecc7-5cfe-5d07-ae6f-96b72ca60d0e",
+      "slug": "handbag-in-the-architecture-of-shadows-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "a41981640fbcf37af8f4afd058f85b7fbd7bfee3b428222248b0bdd5a6e51e4c",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "da21f9c2-6c33-529e-ac20-e080b97a8e7c",
+      "slug": "the-palace-saree-every-border-visible",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "9a77fa542187b060718161cd6455f42fbcfeec52f250a1d02c8697246ee421ae",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "a3a450c5-f4e2-574e-aacf-563e25b24be8",
+      "slug": "the-palace-saree-every-border-visible-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "d7cdeace098d5b6aa6045f89ba1c4900cc6ab6e026d55b1049756488809cfe74",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "84889762-89de-5f19-a2c1-613c11d95865",
+      "slug": "the-kurta-in-the-jali-light",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "5ed0acba4f1c5e89e773239215fdeb981c45085065342cd82a37b104aa3f3ecc",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b52cf64f-dc78-578f-a5b7-cf1216b34865",
+      "slug": "the-kurta-in-the-jali-light-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "5eea80c858cd983859b5dd1c3302e22a3fcbee633d055ec81306f607db17b4e8",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "slug": "resort-dress-the-wind-between-arches",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b322f3cedb82539a3518938fabf081b34043e72ddc87df58743899e41b2c31a5",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "2ca4fd0e-9f4c-507e-ab5d-8d8cea49ef20",
+      "slug": "resort-dress-the-wind-between-arches-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "a492f5b88c3f8c9b2334a9f75c3efdb1be8324ff6b33f462fa75c04ad5efcfb0",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "c14716dc-ff1e-5147-ace0-c4b9f6816114",
+      "slug": "jewellery-on-sculpted-sandstone",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b88e8b4d7858684eaffb1dbf34377e599628851238459f442a6e1f8ddd8025dd",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "54550bbd-76ac-598d-a53a-fdde9fb37f72",
+      "slug": "jewellery-on-sculpted-sandstone-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "0b3057da502d7fc620b88ca1fa8d442c7cd5767c2432ea0d95fef1c86249f132",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "729aa85a-7654-5745-a860-d558f0d1f7b1",
+      "slug": "the-everyday-shirt-catalogue",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "7bf6b274ed731891a2359bfdde56ad4628275ea044bc7e8db3c01351fd967a91",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e9e9c3ba-42cd-59cc-aeb8-b56723cb2afc",
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "ca55701c3fd3bfc6bfe9b8cdee073ed74c7d2809944deea1ef79e92f2a77bc69",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+      "slug": "kurta-at-the-lantern-courtyard",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "2dfa4c8dadedab4ccc5717f6bf102291c092b625a8155a44feab0ceba3765227",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e2d0dc08-ac8b-5609-a125-0bc013306263",
+      "slug": "kurta-at-the-lantern-courtyard-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "6c4456e40fbb8676ed4a1bd3ddc98f3d7c8fc471653e5fa0fcb14ce8f6e94acd",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "65a7ee09-8679-557e-a99a-8602e85c03fd",
+      "slug": "a-jacket-from-every-angle",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "b24d99c52af71eb69fb3a015a8c12ff0951adda2fc14c43843ea3c92fea1bc5d",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "489103a5-ba55-5fb9-ac87-0d8b0141304f",
+      "slug": "a-jacket-from-every-angle-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "afc3bbb3fd90ccac0aad3af93e06616e5de3377bb979d410488e636532ee77ae",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "b8af0397-db3c-5810-a871-dce8b18f428a",
+      "slug": "footwear-the-city-in-one-step",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "6312df19cefff2200334f8edbfca1a63fabfaf35d49f93dcccc57eaf02d0b60e",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "de9408c5-6149-5ae0-a034-cf2b3e4df8e6",
+      "slug": "footwear-the-city-in-one-step-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "117240e5c60e4701b4f82f34f965c192d7125ed0b53e83fd31045993f4eecdb3",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "32113f5f-6e89-5cd6-a0f9-5736eaeaacff",
+      "slug": "the-honest-quarter-rotation-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "813179ce433339685d01de112961de0a9b3e5e1e5cc50fd244766c88e968e9d8",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e6603e1a-a123-5f0f-a415-bdc578ebd54f",
+      "slug": "fabric-up-close-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "bfdd030f530906cb333026eba7af33777fc6ab4cbe6226c673b3ba91a8ccff4b",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "bab694e7-714e-5829-a612-fe4ee2593891",
+      "slug": "front-back-the-real-product-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "74d4c281fde4a0df41041c3fdc5e7eab2ef81fd260ffaec12a1296a00abce3e3",
+      "asset_exists_locally": false
+    },
+    {
+      "id": "e9119c64-40ef-55a3-a738-af1c8b21dbf0",
+      "slug": "from-detail-to-daily-use-reel",
+      "source_file": "content/expansion/prompts.json",
+      "search_text_sha256": "31aca56c6c8038f1218cd06e2969748ee0feaa418ed907b8a9b7b0d1c0fdd39a",
+      "asset_exists_locally": false
+    }
+  ],
+  "historical_queue_review": [
+    "docs/audits/gen-z-discovery-2026-09-15/candidates.json",
+    "docs/audits/social-posts-profiles-2026-09-15",
+    "docs/audits/library-2026-09/approved-image-manifest.json",
+    "docs/audits/creative-upgrade-2026-09-11/proposals.json",
+    "docs/audits/creative-upgrade-2026-09-11/prompt-paragraphs.json",
+    "docs/audits/social-posts-profiles-2026-09-15/proposals.json",
+    "docs/audits/library-2026-09/editorial-directions.json"
+  ],
+  "explicit_queue_conflicts": [
+    "monsoon-in-your-jacket rejected previously; physical coat-containment candidate also rejected here",
+    "scanner-glass DP failed previously; no similar optical-frame DP accepted"
+  ],
+  "nearest_asset_limitation": "Five nearest draft assets do not exist locally; see nearest-existing.jpg. They remain text comparisons, not claimed visual inspections.",
+  "additional_queue_comparisons": [
+    {
+      "candidate": "the-kite-in-my-notebook",
+      "queued_neighbour": "the-storybook-left-its-pages-open",
+      "difference": "Queued proposal makes a bird into folded paper and scenery emerge behind child/caregiver. New single-child concept preserves transparent ink in air and physical tension on a real bookmark; no paper trees or folded bird."
+    },
+    {
+      "candidate": "the-projectionist-is-me",
+      "queued_neighbour": "the-mirror-kept-another-decade",
+      "difference": "Queued mirror changes period styling in a reflection. New scene uses one adult operating their large architectural self-projection, same outfit and no era change."
+    },
+    {
+      "candidate": "the-projectionist-is-me",
+      "queued_neighbour": "the-last-frame-in-the-empty-cinema",
+      "difference": "Historical queue has a lone adult in a theatre aisle and beam above shoulder. No projected self or two-depiction architecture; current canonical cinema record already included among three nearest."
+    }
+  ]
+}

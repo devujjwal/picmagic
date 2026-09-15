@@ -1,0 +1,80 @@
+[
+  {
+    "id": "CG01",
+    "url": "https://gpt-image2.canghe.ai/",
+    "exact_case_url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-509",
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Full-body running child, doodle pulls shirt; dinosaur prop. Full editable prompt explicitly lists dinosaur/lollipop.",
+    "interpretation": "Physical inter-media force. Very close to R1/R4; this is not an independent new idea.",
+    "original_adaptation": "Replace action, character, prop and framing; do not merely change nationality.",
+    "access_limitation": null,
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  },
+  {
+    "id": "CG02",
+    "url": "https://gpt-image2.canghe.ai/",
+    "exact_case_url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-517",
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Inside-cup fisheye looks through ice and a green straw toward a large face. Full Japanese prompt controls reflections, contact and perspective.",
+    "interpretation": "An everyday object becomes an unusual camera position. Preview has visible decorative lettering despite prompt asking unreadable text.",
+    "original_adaptation": "Use a clear depth mechanism and face-safe optics; do not copy cup/straw composition.",
+    "access_limitation": null,
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  },
+  {
+    "id": "YM01",
+    "url": "https://youmind.com/prompts/mixed-media-illustration-style-34303",
+    "exact_case_url": null,
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Preview is copper/black graphic female portrait with painterly surface and geometric fragments. Full prompt piles many effects and claims 100% matching.",
+    "interpretation": "Material contrast catches attention, but many effects are not a narrative. The matching claim is unsupported.",
+    "original_adaptation": "Keep one material mechanism, protect geometry; do not promise matching or copy palette/layout.",
+    "access_limitation": null,
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  },
+  {
+    "id": "YM02",
+    "url": "https://youmind.com/prompts/matchstick-tiger-sculpture-studio-shot-34305",
+    "exact_case_url": null,
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Full translated prompt describes a tiger built from matches. Displayed image is a social-account screenshot/grid with small sculpture thumbnails, not a standalone full tiger.",
+    "interpretation": "Material substitution is legible in thumbnail; high-resolution sculpture quality cannot be assessed from this preview.",
+    "original_adaptation": "Material needs visible physical structure. Do not reproduce social UI, account, tiger or match construction.",
+    "access_limitation": "Standalone sculpture image unavailable; only account-grid preview visible.",
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  },
+  {
+    "id": "AP01",
+    "url": "https://aiphotoprompt.io/prompts/create-a-nostalgic-editorial-photo-to-sketch-artbook-page-based-on-the-reference-image/",
+    "exact_case_url": null,
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Before/after slider shows photo above and same scene as ink sketch below with editorial lettering. Full prompt preserves scene and requests two sections.",
+    "interpretation": "Repeated scene across media; readable but close to existing River Remembers and Four Worlds.",
+    "original_adaptation": "Reject another split-page sketch. For doodle use actual interaction, not two versions of a portrait.",
+    "access_limitation": null,
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  },
+  {
+    "id": "AP02",
+    "url": "https://aiphotoprompt.io/prompts/manual-1787467623909-17-sdkv5-socks-hanging-on-clothesline-202608231431/",
+    "exact_case_url": null,
+    "inspection_date": "2026-09-15",
+    "image_inspected": true,
+    "full_prompt_inspected": true,
+    "observed": "Four white/coral socks on diagonal clothesline against blue sky; full prompt specifies clothespins, folds and hard sunlight.",
+    "interpretation": "Ordinary objects form a clear graphic silhouette. This alone would not justify a PicMagic portrait.",
+    "original_adaptation": "Translate the everyday chore into a new impossible story: hanging a small real-looking cloud; no sock still-life copy.",
+    "access_limitation": null,
+    "popularity_claim": "None; editorial interpretation, not measured user demand."
+  }
+]

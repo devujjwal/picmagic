@@ -1,3 +1,4 @@
+import referenceImpactReview from "../../docs/audits/reference-impact-2026-09-15/media/content-review.json";
 import socialReview from "../../docs/audits/social-posts-profiles-2026-09-15/media/content-review.json";
 import genZReview from "../../docs/audits/gen-z-discovery-2026-09-15/media/content-review.json";
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
@@ -38,6 +39,7 @@ describe("Why AI editorial release", () => {
         ...releaseReview.records,
         ...socialReview.records,
         ...genZReview.records,
+        ...referenceImpactReview.records,
       ].find((r) => r.id === p.id)!;
       expect(review, p.slug).toBeTruthy();
       expect(
