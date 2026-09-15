@@ -1,0 +1,33 @@
+[
+  {
+    "content_id": "02f6ba31-5645-583e-9017-f0ef4884fad1",
+    "slug": "standing-on-my-playlist",
+    "exact_generation_prompt": "Generate one finished fictional PicMagic preview. One entirely fictional Indian adult man aged 24, medium-brown natural complexion, gently rounded face, short wavy dark hair and ordinary medium build. Invent a new face; no real person, celebrity or user-supplied reference image is used.\n\nCreate an ultra-realistic editorial photograph of this fictional adult standing on the screen of an enormous iPhone 16 Pro lying flat on a clean minimalist studio floor. The phone is a deliberately giant physical object, while the person remains ordinarily proportioned. Use a steep high-angle, top-down perspective with enough oblique angle to see the phone edge and establish scale. Show the whole person, shoes and most of the phone within the frame. The subject looks up toward the camera in a relaxed, confident stance, one hand naturally in a pocket and the other by the side. Both feet rest convincingly on the glass with coherent contact shadows; the person is neither floating nor embedded in the screen.\n\nBlack baseball cap, Space Gray Apple AirPods Max headphones, black rectangular sunglasses, oversized white T-shirt, black shorts, white Air Jordan sneakers and an understated luxury-style wristwatch. Keep the fictional person’s ordinary body shape beneath the clothing. Fit the cap and headphones together plausibly; neither intersects the ears, sunglasses or skull. Sunglasses may cover the eyes, but the remaining facial structure must stay recognizable. Avoid excessive reflections that erase the face. Brand/model names specify requested styling, not sponsorship or proof of ownership.\n\nThe phone screen shows a modern Spotify playlist in a sleek dark interface. Keep the interface physically aligned with the screen perspective and below the person’s feet. Use a small number of coherent playlist rows, original abstract cover tiles and fictional playlist/track labels; do not copy real album artwork or imply the image shows the user’s actual private listening history. Interface text and ordinary product branding may appear where appropriate. Do not add any floating caption, poster title, watermark or unrelated text outside the screen.\n\nUse a polished, minimalist technology-product presentation with soft studio lighting, natural colours, photorealistic skin texture, detailed clothing, subtle glass reflections and realistic floor shadows. A 35mm-equivalent photographic perspective should establish the scene without a fisheye effect or inflated head, hands or shoes. Keep the visible face and clothing crisp with sufficient depth for the phone to read clearly. Preserve highlight detail without artificial HDR halos, over-sharpening, plastic skin or a glossy beauty filter.\n\n4:5 portrait, target 1080 × 1350. One person, one giant phone. Show shoes, whole person and enough phone edge to make scale unmistakable. No extra people, copied album covers, watermark or floating caption. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/standing-on-my-playlist.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-535875a0-6ef4-4c37-b997-cc76fc428416.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "standing-on-my-playlist.webp",
+    "preview_path": "public/previews/standing-on-my-playlist.webp",
+    "thumbnail_path": "public/previews/standing-on-my-playlist-thumb.webp",
+    "alt_text": "A fictional adult in white streetwear and headphones looks up while standing on a giant phone with a dark playlist interface.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "One adult with headphones on one giant phone; coherent feet/glass contact and top-down scale; fictional readable playlist labels; no copied supplied photograph.",
+    "preview_bytes": 80368,
+    "thumbnail_bytes": 19268,
+    "preview_sha256": "9cab3c9f6d29247486992a1ad399363018d7c001bb9b9c3a0f6cedc171b13b52",
+    "thumbnail_sha256": "251fdd298aa2f040de56eb2ccf9eb9147e56061bee65b1654163b496153eefe7"
+  }
+]

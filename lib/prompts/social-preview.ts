@@ -1,3 +1,6 @@
+import doubleExposurePrompts from "@/content/additions/double-exposure-fashion-prompts.json";
+import katanaPrompts from "@/content/additions/katana-streetwear-prompts.json";
+import playlistPrompts from "@/content/additions/giant-playlist-prompts.json";
 import referenceImpactPrompts from "@/content/additions/reference-impact-prompts.json";
 import referenceImpactMemberships from "@/content/additions/reference-impact-memberships.json";
 import socialPrompts from "@/content/additions/social-prompts.json";
@@ -17,9 +20,14 @@ export function socialPreviewEnabled(
   );
 }
 export const socialPreviewIds = new Set(
-  [...socialPrompts, ...genZPrompts, ...referenceImpactPrompts].map(
-    (p) => p.id,
-  ),
+  [
+    ...socialPrompts,
+    ...genZPrompts,
+    ...referenceImpactPrompts,
+    ...doubleExposurePrompts,
+    ...katanaPrompts,
+    ...playlistPrompts,
+  ].map((p) => p.id),
 );
 export const socialPreviewMemberships: Record<string, string[]> =
   Object.fromEntries(

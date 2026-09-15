@@ -33,3 +33,6 @@ This separate round retains the active release hold. Research and current-librar
 ## Reference-inspired expansion — 15 September 2026
 
 The six user-supplied WhatsApp images are research references only: never copy them to public assets, publish them, reuse their faces or reproduce visible branding/UI. The local reference comparison sheet lives under gitignored `.release-private/reference-impact-2026-09-15/`. This round uses ChatGPT browser image generation only and retains the release hold. Accepted records are unpublished local drafts using the existing seed preview guard. No new homepage ordering or automatic release is authorized. See `docs/audits/reference-impact-2026-09-15/` for selection, provenance, prompt and QA records.
+
+## Scoped preview authorization — 15 September 2026
+The owner explicitly requested Codex-only preview generation for double-exposure-fashion-men, double-exposure-fashion-women, katana-in-the-square-of-light and standing-on-my-playlist. This overrides the earlier ChatGPT-only workflow for these four assets only. Preserve the active release hold: local draft review is authorized; production activation and deployment are not.

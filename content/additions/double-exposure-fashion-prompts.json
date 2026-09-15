@@ -1,0 +1,158 @@
+[
+  {
+    "id": "6727215b-f9ae-5474-bd60-3794b6d315d8",
+    "slug": "double-exposure-fashion-men",
+    "title": "Double-Exposure Fashion — Men",
+    "description": "A large translucent profile and a full-body fashion pose show the same person twice in a warm sepia-and-charcoal studio composition. Upload your own photo in your chosen image tool to recreate this look.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: Use one adult person’s uploaded reference photograph; additional clear angles may help match the profile and full-body views. Preserve the actual adult age. Do not age a child up for this adult fashion concept. The category controls styling, never the uploaded person’s identity.\n\nCREATIVE DIRECTION: Create a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nWARDROBE AND GROOMING: Use metallic aviator sunglasses with lightly tinted lenses and restrained reflections so recognizable facial structure remains readable. Preserve important reference eyewear when replacing it would obscure identity. Dress the subject in an open light-grey textured corduroy shirt over a charcoal fitted T-shirt, dark indigo jeans and understated unbranded shoes. Fit clothing to the actual body, never slim or enlarge the body to fit a styling ideal. Keep reference hairline, colour and texture; gently arrange hair for the pose. Longer hair may flow naturally if it suits the reference, but do not invent long hair, a different hairline or a different facial structure. Preserve facial hair and distinguishing marks. The expression is calm, self-assured and natural. Men’s fashion styling: adapt shirt, T-shirt and denim fit to the reference person without adding masculine facial structure, a beard or extra muscle.\n\nLIGHTING AND FINISH: A minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\nOUTPUT: One 4:5 portrait image, target 1080 × 1350, with no magazine title or other text.\n\nCONSTRAINTS: Exactly two intentional depictions of one identity, not two people; no third face or extra body. No facial morphing, mismatched identities, extra fingers or limbs, warped sunglasses, logos, watermark, plastic skin, skin whitening, beauty-filter reshaping or invented hair. Do not treat the intended profile layer as an accidental duplicate to remove. If either likeness drifts, correct it against the original reference. Identity preservation is requested, not guaranteed.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "One adult man",
+    "style": [
+      "Double exposure",
+      "Fashion portrait",
+      "Retro-inspired"
+    ],
+    "occasion": "Fashion portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/double-exposure-fashion-men.webp",
+    "thumbnail_url": "/previews/double-exposure-fashion-men-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "The same fictional man shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "lighting": "Soft directional studio lighting with a warm upper-right light leak",
+    "framing": "Large profile left, complete full-body figure right",
+    "camera": "85mm portrait-lens aesthetic",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "double exposure",
+      "fashion",
+      "aviator sunglasses",
+      "corduroy",
+      "sepia",
+      "portrait",
+      "men"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 950,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Double-Exposure Fashion — Men Portrait Prompt | PicMagic",
+    "seo_description": "Recreate a double-exposure fashion portrait with your own face. A translucent profile and full-body pose, with identity-first men styling.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian man aged 25, medium-brown complexion, softly rectangular face, short textured dark hair, naturally trimmed moustache and beard, ordinary medium build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 3,
+    "why_ai": "Create a coordinated profile-and-full-body fashion composite from personal references without a studio shoot and manual layer compositing. This is an explicitly requested classic portrait utility, not a novel creative-discovery claim.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "fashion-double-exposure",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 2,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "3aff6d60-6a50-5e55-a405-fdcf55529787",
+    "slug": "double-exposure-fashion-women",
+    "title": "Double-Exposure Fashion — Women",
+    "description": "A large translucent profile and a full-body fashion pose show the same person twice in a warm sepia-and-charcoal studio composition. Upload your own photo in your chosen image tool to recreate this look.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman with believable individual features and natural proportions. This is an invented example, not a personalized result.\n\nREFERENCE REQUIREMENTS: Use one adult person’s uploaded reference photograph; additional clear angles may help match the profile and full-body views. Preserve the actual adult age. Do not age a child up for this adult fashion concept. The category controls styling, never the uploaded person’s identity.\n\nCREATIVE DIRECTION: Create a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nWARDROBE AND GROOMING: Use metallic aviator sunglasses with lightly tinted lenses and restrained reflections so recognizable facial structure remains readable. Preserve important reference eyewear when replacing it would obscure identity. Dress the subject in an open light-grey textured corduroy shirt over a charcoal fitted T-shirt, dark indigo jeans and understated unbranded shoes. Fit clothing to the actual body, never slim or enlarge the body to fit a styling ideal. Keep reference hairline, colour and texture; gently arrange hair for the pose. Longer hair may flow naturally if it suits the reference, but do not invent long hair, a different hairline or a different facial structure. Preserve facial hair and distinguishing marks. The expression is calm, self-assured and natural. Women’s fashion styling: adapt shirt, T-shirt and denim fit to the reference person without changing facial femininity, body shape, age or complexion.\n\nLIGHTING AND FINISH: A minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\nOUTPUT: One 4:5 portrait image, target 1080 × 1350, with no magazine title or other text.\n\nCONSTRAINTS: Exactly two intentional depictions of one identity, not two people; no third face or extra body. No facial morphing, mismatched identities, extra fingers or limbs, warped sunglasses, logos, watermark, plastic skin, skin whitening, beauty-filter reshaping or invented hair. Do not treat the intended profile layer as an accidental duplicate to remove. If either likeness drifts, correct it against the original reference. Identity preservation is requested, not guaranteed.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "One adult woman",
+    "style": [
+      "Double exposure",
+      "Fashion portrait",
+      "Retro-inspired"
+    ],
+    "occasion": "Fashion portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/double-exposure-fashion-women.webp",
+    "thumbnail_url": "/previews/double-exposure-fashion-women-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "The same fictional woman shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "lighting": "Soft directional studio lighting with a warm upper-right light leak",
+    "framing": "Large profile left, complete full-body figure right",
+    "camera": "85mm portrait-lens aesthetic",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "double exposure",
+      "fashion",
+      "aviator sunglasses",
+      "corduroy",
+      "sepia",
+      "portrait",
+      "women"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 950,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Double-Exposure Fashion — Women Portrait Prompt | PicMagic",
+    "seo_description": "Recreate a double-exposure fashion portrait with your own face. A translucent profile and full-body pose, with identity-first women styling.",
+    "created_at": "2026-09-15T08:00:00.000Z",
+    "updated_at": "2026-09-15T08:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian woman aged 24, warm light-brown complexion, softly oval face, long gently wavy dark hair, ordinary natural build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 3,
+    "why_ai": "Create a coordinated profile-and-full-body fashion composite from personal references without a studio shoot and manual layer compositing. This is an explicitly requested classic portrait utility, not a novel creative-discovery claim.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "fashion-double-exposure",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 2,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  }
+]

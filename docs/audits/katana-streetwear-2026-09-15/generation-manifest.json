@@ -1,0 +1,33 @@
+[
+  {
+    "content_id": "fc5e91e8-fa8f-5eb3-8fb5-28cb32093c11",
+    "slug": "katana-in-the-square-of-light",
+    "exact_generation_prompt": "Generate one original fictional PicMagic preview. One fictional Indian adult man, approximately 25, medium-brown complexion, short softly textured dark hair, naturally trimmed beard and ordinary lean build, not exaggerated muscles. Invent a new face; no real person, celebrity or supplied reference photo is being used.\n\nCreate a full-body studio fashion portrait of this fictional adult standing with their back predominantly toward the camera, turning the head naturally over one shoulder for a composed, sharp glance. Show enough of the three-quarter face to remain recognizable without twisting the neck or torso unnaturally. One hand holds a traditional Japanese katana by its handle low beside the body, blade angled downward with its tip above the floor and clear of the legs. The blade and handle form one coherent object. It is a still fashion pose, not a combat scene. The other arm rests naturally by the side. Exactly one person and one sword.\n\nDark olive-green sleeveless tank top, ultra-baggy cream streetwear trousers, dark shoes and unbranded dark sunglasses; real fabric folds and ordinary anatomy.\n\nA large, bright white SQUARE softbox panel stands directly behind the subject as the central geometric frame. Leave enough of its four sides visible to read clearly as a square around the upper body. The minimalist studio has a dark concrete floor and thin atmospheric haze that catches the light without hiding the face, hands or sword. Strong backlighting creates a crisp rim around the actual shoulders, arms and clothing; use subtle frontal reflected fill on the turned face so it remains identifiable rather than a featureless silhouette. Preserve skin texture and natural complexion, without brightening skin to match the panel. Use high-contrast chiaroscuro, restrained colour, realistic contact shadows, and a raw photographic finish. An 85mm lens and f/2.8 aesthetic gives controlled depth; keep the turned face and body convincingly defined, with coherent sword geometry.\n\n4:5 portrait image, target 1080 × 1350. Keep head, shoes and whole sword inside the crop. No text, logo, watermark, copied face, blood, injuries, malformed hands or impossible anatomy. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/katana-in-the-square-of-light.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-36039dbf-a913-4d13-a165-60b9fcdb6a5c.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "katana-in-the-square-of-light.webp",
+    "preview_path": "public/previews/katana-in-the-square-of-light.webp",
+    "thumbnail_path": "public/previews/katana-in-the-square-of-light-thumb.webp",
+    "alt_text": "A man in an olive tank top and baggy cream trousers looks over his shoulder, holding a katana downward before a bright square studio light.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "One adult with natural over-shoulder turn; coherent single sword pointing down clear of legs; full body and square backlight visible.",
+    "preview_bytes": 113774,
+    "thumbnail_bytes": 24754,
+    "preview_sha256": "cababeaf8385c783e526edffe19d6bd1de23c9cbbd6237c7286038d7043549c8",
+    "thumbnail_sha256": "dbe8893c4e666b9fbb9fe2eae7685e7f97e9ff22f156a3246b76d4ab20f494d8"
+  }
+]

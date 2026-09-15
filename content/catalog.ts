@@ -1,3 +1,6 @@
+import giantPlaylistPrompts from "./additions/giant-playlist-prompts.json";
+import katanaStreetwearPrompts from "./additions/katana-streetwear-prompts.json";
+import doubleExposureFashionPrompts from "./additions/double-exposure-fashion-prompts.json";
 import referenceImpactPrompts from "./additions/reference-impact-prompts.json";
 import socialPrompts from "./additions/social-prompts.json";
 import genZPrompts from "./additions/gen-z-prompts.json";
@@ -9,5 +12,5 @@ import friendsPrompts from "./additions/friends-trip-prompts.json";
 import friendsCollections from "./additions/friends-trip-collections.json";
 import creativePrompts from "./additions/creative-prompts.json";
 import creativeCollections from "./additions/creative-collections.json";
-export const allPrompts = [...existingPrompts, ...expansionPrompts, ...friendsPrompts, ...creativePrompts, ...socialPrompts, ...genZPrompts, ...referenceImpactPrompts];
+export const allPrompts = [...existingPrompts, ...expansionPrompts, ...friendsPrompts, ...creativePrompts, ...socialPrompts, ...genZPrompts, ...referenceImpactPrompts, ...doubleExposureFashionPrompts, ...katanaStreetwearPrompts, ...giantPlaylistPrompts];
 export const allCollections = [...existingCollections, ...expansionCollections, ...friendsCollections, ...creativeCollections];

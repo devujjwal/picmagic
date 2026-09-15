@@ -1,0 +1,31 @@
+# Katana in the Square of Light
+
+## Copyable user prompt
+
+REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Keep meaningful glasses, facial hair and personal marks. Never lighten, darken, de-age, beautify or reshape the reference to match the fictional preview.
+
+NO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man with believable individual features and natural body proportions. This is an invented example, not a personalized photograph. The Japanese prop does not determine ethnicity.
+
+REFERENCE REQUIREMENTS: Use a clear adult reference photo, ideally with an additional three-quarter view for the over-the-shoulder likeness. Preserve the actual adult age; do not age a child up for this adult fashion concept.
+
+CREATIVE DIRECTION: Create a full-body studio fashion portrait of the reference adult standing with their back predominantly toward the camera, turning the head naturally over one shoulder for a composed, sharp glance. Show enough of the three-quarter face to remain recognizable without twisting the neck or torso unnaturally. One hand holds a traditional Japanese katana by its handle low beside the body, blade angled downward with its tip above the floor and clear of the legs. The blade and handle form one coherent object. It is a still fashion pose, not a combat scene. The other arm rests naturally by the side. Exactly one person and one sword.
+
+WARDROBE AND IDENTITY: Wear a dark olive-green sleeveless tank top, ultra-baggy cream streetwear trousers and understated dark shoes. Add dark sunglasses with controlled reflections; preserve important reference eyewear if changing it would undermine recognition. Clothing follows the person’s actual body. Preserve their natural build and body proportions rather than forcing an athletic physique, increasing muscle size or carving artificial definition. Keep reference hairline, hair texture, facial hair and distinguishing marks. Hair and grooming may be gently arranged for the pose without replacing identity.
+
+LIGHTING AND COMPOSITION: A large, bright white SQUARE softbox panel stands directly behind the subject as the central geometric frame. Leave enough of its four sides visible to read clearly as a square around the upper body. The minimalist studio has a dark concrete floor and thin atmospheric haze that catches the light without hiding the face, hands or sword. Strong backlighting creates a crisp rim around the actual shoulders, arms and clothing; use subtle frontal reflected fill on the turned face so it remains identifiable rather than a featureless silhouette. Preserve skin texture and natural complexion, without brightening skin to match the panel. Use high-contrast chiaroscuro, restrained colour, realistic contact shadows, and a raw photographic finish. An 85mm lens and f/2.8 aesthetic gives controlled depth; keep the turned face and body convincingly defined, with coherent sword geometry.
+
+OUTPUT: One 4:5 portrait image, target 1080 × 1350. Include the entire head, shoes and downward-held sword with comfortable margins; no cropped blade tip.
+
+CONSTRAINTS: No extra person, duplicate face, extra sword, malformed hands, extra limbs, broken wrists, extreme neck rotation, warped blade, sword through the body, invented muscles, changed ethnicity, skin whitening, plastic skin, text, watermark or branding. Haze and sunglasses must not erase all recognizable facial structure. Identity preservation is requested, not guaranteed.
+
+## Separate fictional preview brief
+
+Generate one original fictional PicMagic preview. One fictional Indian adult man, approximately 25, medium-brown complexion, short softly textured dark hair, naturally trimmed beard and ordinary lean build, not exaggerated muscles. Invent a new face; no real person, celebrity or supplied reference photo is being used.
+
+Create a full-body studio fashion portrait of this fictional adult standing with their back predominantly toward the camera, turning the head naturally over one shoulder for a composed, sharp glance. Show enough of the three-quarter face to remain recognizable without twisting the neck or torso unnaturally. One hand holds a traditional Japanese katana by its handle low beside the body, blade angled downward with its tip above the floor and clear of the legs. The blade and handle form one coherent object. It is a still fashion pose, not a combat scene. The other arm rests naturally by the side. Exactly one person and one sword.
+
+Dark olive-green sleeveless tank top, ultra-baggy cream streetwear trousers, dark shoes and unbranded dark sunglasses; real fabric folds and ordinary anatomy.
+
+A large, bright white SQUARE softbox panel stands directly behind the subject as the central geometric frame. Leave enough of its four sides visible to read clearly as a square around the upper body. The minimalist studio has a dark concrete floor and thin atmospheric haze that catches the light without hiding the face, hands or sword. Strong backlighting creates a crisp rim around the actual shoulders, arms and clothing; use subtle frontal reflected fill on the turned face so it remains identifiable rather than a featureless silhouette. Preserve skin texture and natural complexion, without brightening skin to match the panel. Use high-contrast chiaroscuro, restrained colour, realistic contact shadows, and a raw photographic finish. An 85mm lens and f/2.8 aesthetic gives controlled depth; keep the turned face and body convincingly defined, with coherent sword geometry.
+
+4:5 portrait image, target 1080 × 1350. Keep head, shoes and whole sword inside the crop. No text, logo, watermark, copied face, blood, injuries, malformed hands or impossible anatomy. Produce the image itself.

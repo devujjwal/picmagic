@@ -1,0 +1,126 @@
+[
+  {
+    "content_id": "6727215b-f9ae-5474-bd60-3794b6d315d8",
+    "slug": "double-exposure-fashion-men",
+    "exact_generation_prompt": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian man aged 25, medium-brown complexion, softly rectangular face, short textured dark hair, naturally trimmed moustache and beard, ordinary medium build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/double-exposure-fashion-men.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-e072869b-833f-4280-9422-864d898956ce.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "double-exposure-fashion-men.webp",
+    "preview_path": "public/previews/double-exposure-fashion-men.webp",
+    "thumbnail_path": "public/previews/double-exposure-fashion-men-thumb.webp",
+    "alt_text": "The same fictional man shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "Two matching fictional male depictions, large left profile and full body right; grey corduroy, aviators, sepia light leak; head and shoes retained.",
+    "preview_bytes": 111218,
+    "thumbnail_bytes": 21542,
+    "preview_sha256": "104aa2bb6e285c7befa7e6ba1cade8262505b5a5da3c9ac93f2587b0e70801c8",
+    "thumbnail_sha256": "4377343d0b384a7edf1d564dbbf94da4e724995f03a7346285c36f4c1aad98d6"
+  },
+  {
+    "content_id": "3aff6d60-6a50-5e55-a405-fdcf55529787",
+    "slug": "double-exposure-fashion-women",
+    "exact_generation_prompt": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian woman aged 24, warm light-brown complexion, softly oval face, long gently wavy dark hair, ordinary natural build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/double-exposure-fashion-women.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-83ced660-9377-4def-b5fc-16f3c63dd000.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "double-exposure-fashion-women.webp",
+    "preview_path": "public/previews/double-exposure-fashion-women.webp",
+    "thumbnail_path": "public/previews/double-exposure-fashion-women-thumb.webp",
+    "alt_text": "The same fictional woman shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "Two matching fictional female depictions; long wavy hair, grey corduroy, left profile/right full body and restrained light leak.",
+    "preview_bytes": 114956,
+    "thumbnail_bytes": 20588,
+    "preview_sha256": "abecdce3df858288aefc04b5aa4ff4a8feac0dca66f838bf762235849f35e9bd",
+    "thumbnail_sha256": "b83e03af119b12358efa72c95a8f07c256078a7f0502563caaa78326f0991ac9"
+  },
+  {
+    "content_id": "fc5e91e8-fa8f-5eb3-8fb5-28cb32093c11",
+    "slug": "katana-in-the-square-of-light",
+    "exact_generation_prompt": "Generate one original fictional PicMagic preview. One fictional Indian adult man, approximately 25, medium-brown complexion, short softly textured dark hair, naturally trimmed beard and ordinary lean build, not exaggerated muscles. Invent a new face; no real person, celebrity or supplied reference photo is being used.\n\nCreate a full-body studio fashion portrait of this fictional adult standing with their back predominantly toward the camera, turning the head naturally over one shoulder for a composed, sharp glance. Show enough of the three-quarter face to remain recognizable without twisting the neck or torso unnaturally. One hand holds a traditional Japanese katana by its handle low beside the body, blade angled downward with its tip above the floor and clear of the legs. The blade and handle form one coherent object. It is a still fashion pose, not a combat scene. The other arm rests naturally by the side. Exactly one person and one sword.\n\nDark olive-green sleeveless tank top, ultra-baggy cream streetwear trousers, dark shoes and unbranded dark sunglasses; real fabric folds and ordinary anatomy.\n\nA large, bright white SQUARE softbox panel stands directly behind the subject as the central geometric frame. Leave enough of its four sides visible to read clearly as a square around the upper body. The minimalist studio has a dark concrete floor and thin atmospheric haze that catches the light without hiding the face, hands or sword. Strong backlighting creates a crisp rim around the actual shoulders, arms and clothing; use subtle frontal reflected fill on the turned face so it remains identifiable rather than a featureless silhouette. Preserve skin texture and natural complexion, without brightening skin to match the panel. Use high-contrast chiaroscuro, restrained colour, realistic contact shadows, and a raw photographic finish. An 85mm lens and f/2.8 aesthetic gives controlled depth; keep the turned face and body convincingly defined, with coherent sword geometry.\n\n4:5 portrait image, target 1080 × 1350. Keep head, shoes and whole sword inside the crop. No text, logo, watermark, copied face, blood, injuries, malformed hands or impossible anatomy. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/katana-in-the-square-of-light.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-36039dbf-a913-4d13-a165-60b9fcdb6a5c.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "katana-in-the-square-of-light.webp",
+    "preview_path": "public/previews/katana-in-the-square-of-light.webp",
+    "thumbnail_path": "public/previews/katana-in-the-square-of-light-thumb.webp",
+    "alt_text": "A man in an olive tank top and baggy cream trousers looks over his shoulder, holding a katana downward before a bright square studio light.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "One adult with natural over-shoulder turn; coherent single sword pointing down clear of legs; full body and square backlight visible.",
+    "preview_bytes": 113774,
+    "thumbnail_bytes": 24754,
+    "preview_sha256": "cababeaf8385c783e526edffe19d6bd1de23c9cbbd6237c7286038d7043549c8",
+    "thumbnail_sha256": "dbe8893c4e666b9fbb9fe2eae7685e7f97e9ff22f156a3246b76d4ab20f494d8"
+  },
+  {
+    "content_id": "02f6ba31-5645-583e-9017-f0ef4884fad1",
+    "slug": "standing-on-my-playlist",
+    "exact_generation_prompt": "Generate one finished fictional PicMagic preview. One entirely fictional Indian adult man aged 24, medium-brown natural complexion, gently rounded face, short wavy dark hair and ordinary medium build. Invent a new face; no real person, celebrity or user-supplied reference image is used.\n\nCreate an ultra-realistic editorial photograph of this fictional adult standing on the screen of an enormous iPhone 16 Pro lying flat on a clean minimalist studio floor. The phone is a deliberately giant physical object, while the person remains ordinarily proportioned. Use a steep high-angle, top-down perspective with enough oblique angle to see the phone edge and establish scale. Show the whole person, shoes and most of the phone within the frame. The subject looks up toward the camera in a relaxed, confident stance, one hand naturally in a pocket and the other by the side. Both feet rest convincingly on the glass with coherent contact shadows; the person is neither floating nor embedded in the screen.\n\nBlack baseball cap, Space Gray Apple AirPods Max headphones, black rectangular sunglasses, oversized white T-shirt, black shorts, white Air Jordan sneakers and an understated luxury-style wristwatch. Keep the fictional person’s ordinary body shape beneath the clothing. Fit the cap and headphones together plausibly; neither intersects the ears, sunglasses or skull. Sunglasses may cover the eyes, but the remaining facial structure must stay recognizable. Avoid excessive reflections that erase the face. Brand/model names specify requested styling, not sponsorship or proof of ownership.\n\nThe phone screen shows a modern Spotify playlist in a sleek dark interface. Keep the interface physically aligned with the screen perspective and below the person’s feet. Use a small number of coherent playlist rows, original abstract cover tiles and fictional playlist/track labels; do not copy real album artwork or imply the image shows the user’s actual private listening history. Interface text and ordinary product branding may appear where appropriate. Do not add any floating caption, poster title, watermark or unrelated text outside the screen.\n\nUse a polished, minimalist technology-product presentation with soft studio lighting, natural colours, photorealistic skin texture, detailed clothing, subtle glass reflections and realistic floor shadows. A 35mm-equivalent photographic perspective should establish the scene without a fisheye effect or inflated head, hands or shoes. Keep the visible face and clothing crisp with sufficient depth for the phone to read clearly. Preserve highlight detail without artificial HDR halos, over-sharpening, plastic skin or a glossy beauty filter.\n\n4:5 portrait, target 1080 × 1350. One person, one giant phone. Show shoes, whole person and enough phone edge to make scale unmistakable. No extra people, copied album covers, watermark or floating caption. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/standing-on-my-playlist.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-535875a0-6ef4-4c37-b997-cc76fc428416.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "standing-on-my-playlist.webp",
+    "preview_path": "public/previews/standing-on-my-playlist.webp",
+    "thumbnail_path": "public/previews/standing-on-my-playlist-thumb.webp",
+    "alt_text": "A fictional adult in white streetwear and headphones looks up while standing on a giant phone with a dark playlist interface.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "One adult with headphones on one giant phone; coherent feet/glass contact and top-down scale; fictional readable playlist labels; no copied supplied photograph.",
+    "preview_bytes": 80368,
+    "thumbnail_bytes": 19268,
+    "preview_sha256": "9cab3c9f6d29247486992a1ad399363018d7c001bb9b9c3a0f6cedc171b13b52",
+    "thumbnail_sha256": "251fdd298aa2f040de56eb2ccf9eb9147e56061bee65b1654163b496153eefe7"
+  }
+]

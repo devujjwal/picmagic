@@ -1,3 +1,9 @@
+import giantPlaylistReview from "../../docs/audits/giant-playlist-2026-09-15/content-review.json";
+import giantPlaylistQueue from "../../docs/audits/giant-playlist-2026-09-15/generation-manifest.json";
+import katanaStreetwearReview from "../../docs/audits/katana-streetwear-2026-09-15/content-review.json";
+import katanaStreetwearQueue from "../../docs/audits/katana-streetwear-2026-09-15/generation-manifest.json";
+import doubleExposureFashionReview from "../../docs/audits/double-exposure-fashion-2026-09-15/content-review.json";
+import doubleExposureFashionQueue from "../../docs/audits/double-exposure-fashion-2026-09-15/generation-manifest.json";
 import referenceImpactReview from "../../docs/audits/reference-impact-2026-09-15/media/content-review.json";
 import socialReview from "../../docs/audits/social-posts-profiles-2026-09-15/media/content-review.json";
 import genZReview from "../../docs/audits/gen-z-discovery-2026-09-15/media/content-review.json";
@@ -40,6 +46,9 @@ describe("Why AI editorial release", () => {
         ...socialReview.records,
         ...genZReview.records,
         ...referenceImpactReview.records,
+        ...doubleExposureFashionReview.records,
+        ...katanaStreetwearReview.records,
+        ...giantPlaylistReview.records,
       ].find((r) => r.id === p.id)!;
       expect(review, p.slug).toBeTruthy();
       expect(
@@ -119,7 +128,12 @@ describe("Why AI editorial release", () => {
   });
   it("queues only approved concepts and refuses to publish missing or stale media", () => {
     const covered = new Set(
-      [...queue, ...friendsQueue].flatMap((j) => j.used_by),
+      [
+        ...[...queue, ...friendsQueue].flatMap((j) => j.used_by),
+        ...doubleExposureFashionQueue.map((j) => j.slug),
+        ...katanaStreetwearQueue.map((j) => j.slug),
+        ...giantPlaylistQueue.map((j) => j.slug),
+      ],
     );
     for (const p of prompts) {
       if (p.preview_review_status !== "approved") {

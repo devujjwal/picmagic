@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-15",
+  "branch": "content/identity-and-collection-audit",
+  "head": "3505e977028e48825bd6a374e40c3278057ac5db",
+  "new_commit": null,
+  "pushed": false,
+  "deployed": false,
+  "production_content_changed": false,
+  "lint": "passed",
+  "typecheck": "passed",
+  "unit_component_tests": {
+    "passed": 135,
+    "files": 25
+  },
+  "content_validation": {
+    "passed": true,
+    "prompts": 186,
+    "categories": 17,
+    "collections": 40,
+    "drafts": 111,
+    "missing_images": 0
+  },
+  "local_production_build": {
+    "passed": true,
+    "static_pages": 140,
+    "directory": ".next-release",
+    "source": "seed",
+    "indexing": false
+  },
+  "e2e": {
+    "passed": 42,
+    "failed": 0,
+    "duration_seconds": 38.6,
+    "projects": [
+      "chromium",
+      "mobile"
+    ],
+    "suites": [
+      "public.spec.ts",
+      "requested-previews.spec.ts"
+    ],
+    "base_url": "http://localhost:3005",
+    "ads_analytics": "stubbed"
+  },
+  "preview_qa": {
+    "approved": 4,
+    "attempts": 4,
+    "corrections": 0,
+    "fictional_personas": true,
+    "personal_reference_photos_used": false,
+    "responsive_widths": [
+      375,
+      430,
+      1440
+    ],
+    "automated_accessibility_violations": 0,
+    "copy_save_share": "passed",
+    "image_decode": "passed",
+    "canonical": "passed",
+    "draft_sitemap_exclusion": "passed",
+    "homepage_features": "unchanged",
+    "manual_review": "Source images, optimized contact sheet and representative mobile/desktop detail screenshots inspected; faces, subjects, important props and whole-body framing remain readable."
+  },
+  "release_hold": "No main changes, push, Netlify build/deployment or production Supabase mutation. Current changes remain uncommitted locally."
+}

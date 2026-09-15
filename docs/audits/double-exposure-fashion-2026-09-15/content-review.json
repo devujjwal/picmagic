@@ -1,0 +1,19 @@
+{
+  "reviewed_at": "2026-09-15",
+  "records": [
+    {
+      "id": "6727215b-f9ae-5474-bd60-3794b6d315d8",
+      "slug": "double-exposure-fashion-men",
+      "sha256": "7a03d4d6c0bbcdb4d8e868cc223aeadadd01509e77b6260166e9b3efd9856050",
+      "decision": "user-requested-variant-preview-pending",
+      "reason": "Explicit user selection of a classic two-depiction fashion composition for both gender categories; preserve uploaded identity and remove 100% likeness guarantee. Utility score 3; not homepage featured."
+    },
+    {
+      "id": "3aff6d60-6a50-5e55-a405-fdcf55529787",
+      "slug": "double-exposure-fashion-women",
+      "sha256": "bedabe1bbbbbd8bac4eeaa6ca63773de694795cd527683b23f67351393d3b631",
+      "decision": "user-requested-variant-preview-pending",
+      "reason": "Explicit user selection of a classic two-depiction fashion composition for both gender categories; preserve uploaded identity and remove 100% likeness guarantee. Utility score 3; not homepage featured."
+    }
+  ]
+}

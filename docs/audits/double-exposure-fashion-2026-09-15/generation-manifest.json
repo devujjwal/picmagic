@@ -1,0 +1,64 @@
+[
+  {
+    "content_id": "6727215b-f9ae-5474-bd60-3794b6d315d8",
+    "slug": "double-exposure-fashion-men",
+    "exact_generation_prompt": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian man aged 25, medium-brown complexion, softly rectangular face, short textured dark hair, naturally trimmed moustache and beard, ordinary medium build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/double-exposure-fashion-men.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-e072869b-833f-4280-9422-864d898956ce.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "double-exposure-fashion-men.webp",
+    "preview_path": "public/previews/double-exposure-fashion-men.webp",
+    "thumbnail_path": "public/previews/double-exposure-fashion-men-thumb.webp",
+    "alt_text": "The same fictional man shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "Two matching fictional male depictions, large left profile and full body right; grey corduroy, aviators, sepia light leak; head and shoes retained.",
+    "preview_bytes": 111218,
+    "thumbnail_bytes": 21542,
+    "preview_sha256": "104aa2bb6e285c7befa7e6ba1cade8262505b5a5da3c9ac93f2587b0e70801c8",
+    "thumbnail_sha256": "4377343d0b384a7edf1d564dbbf94da4e724995f03a7346285c36f4c1aad98d6"
+  },
+  {
+    "content_id": "3aff6d60-6a50-5e55-a405-fdcf55529787",
+    "slug": "double-exposure-fashion-women",
+    "exact_generation_prompt": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian woman aged 24, warm light-brown complexion, softly oval face, long gently wavy dark hair, ordinary natural build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "required_reference_assets": [],
+    "workflow": "Codex built-in image_gen",
+    "generation_started": true,
+    "generation_date": "2026-09-15",
+    "attempts": 1,
+    "source_path": "docs/audits/requested-previews-2026-09-15/sources/double-exposure-fashion-women.png",
+    "original_source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-83ced660-9377-4def-b5fc-16f3c63dd000.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "filename": "double-exposure-fashion-women.webp",
+    "preview_path": "public/previews/double-exposure-fashion-women.webp",
+    "thumbnail_path": "public/previews/double-exposure-fashion-women-thumb.webp",
+    "alt_text": "The same fictional woman shown as a large translucent profile on the left and a full-body fashion portrait on the right.",
+    "qa_status": "approved-local-review",
+    "qa_notes": "Two matching fictional female depictions; long wavy hair, grey corduroy, left profile/right full body and restrained light leak.",
+    "preview_bytes": 114956,
+    "thumbnail_bytes": 20588,
+    "preview_sha256": "abecdce3df858288aefc04b5aa4ff4a8feac0dca66f838bf762235849f35e9bd",
+    "thumbnail_sha256": "b83e03af119b12358efa72c95a8f07c256078a7f0502563caaa78326f0991ac9"
+  }
+]
