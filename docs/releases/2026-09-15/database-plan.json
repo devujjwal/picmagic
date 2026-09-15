@@ -1,0 +1,11 @@
+{
+  "new_prompts": 16,
+  "new_memberships": 20,
+  "collection_metadata_updates": [
+    "instagram-profile-picture"
+  ],
+  "existing_prompts_modified": 0,
+  "migrations_required": false,
+  "optimistic_guards": true,
+  "backup": ".release-private/release-2026-09-15/production-before.json"
+}

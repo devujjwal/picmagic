@@ -338,17 +338,19 @@
   {
     "id": "instagram-profile-picture",
     "slug": "instagram-profile-picture",
-    "name": "Your face, clearly in the frame",
+    "name": "Profile Picture / DP Ideas",
     "description": "Explore Monochrome Rain, Face in Focus, Floral Shadows, a Clear Face, Soft light, unmistakably you and Meet your new profile picture. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
     "kind": "subcategory",
     "prompt_ids": [
       "ee8f4408-6a01-5204-aa54-17775dbf3274",
       "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "94ffb85b-74ad-5434-bcb3-e2acca634e08",
       "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
       "131a9e1b-46f9-54e5-b370-591355cd25ff"
     ],
-    "is_indexable": false,
-    "active": false,
+    "is_indexable": true,
+    "active": true,
     "start_date": null,
     "end_date": null,
     "priority": 20,

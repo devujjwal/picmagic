@@ -1,0 +1,6 @@
+
+> picmagic@1.0.0 typecheck /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully

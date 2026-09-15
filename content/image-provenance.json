@@ -3714,5 +3714,341 @@
     },
     "alt": "The same woman and indigo saree with copper border in a basalt courtyard, rain-lit pavilion and pale sculptural studio",
     "chat_url": "https://chatgpt.com/c/6aa37954-5a48-83ee-b573-b09c6fb81943"
+  },
+  {
+    "slug": "borrowed-moon-closing-time",
+    "brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 29, medium-brown complexion, shoulder-length naturally wavy hair, short beard, ordinary sturdy build, in a faded olive work jacket over a plain T-shirt.\n\nUse no real private person or competitor image as a reference. Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/social-posts-profiles-2026-09-15/media/manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/borrowed-moon-closing-time-social-v1.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 162378,
+      "sha256": "bf7cec83555b4190014f60db87fcac49e8bfc456f94be0febf028969dc1071bb"
+    },
+    "thumbnail": {
+      "path": "/previews/borrowed-moon-closing-time-social-v1-thumb.webp",
+      "bytes": 38408
+    },
+    "alt": "A man in an olive jacket steadies a painted crescent moon on a backstage cart beside empty theatre seats."
+  },
+  {
+    "slug": "a-fold-around-you-profile",
+    "brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 45, brown complexion, a receding hairline, close-cropped hair, rectangular glasses, short salt-and-pepper beard and a natural stocky build; plain navy crewneck.\n\nUse no real private person or competitor image as a reference. Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/social-posts-profiles-2026-09-15/media/manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/a-fold-around-you-profile-social-v1.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 93440,
+      "sha256": "2e8577a352d4bd061350526cdfa5f88f7ca522d2f5dfdcbb148f4d2bde7a39b3"
+    },
+    "thumbnail": {
+      "path": "/previews/a-fold-around-you-profile-social-v1-thumb.webp",
+      "bytes": 14218
+    },
+    "alt": "A man with glasses and a salt-and-pepper beard framed by folded cream paper against a blue background."
+  },
+  {
+    "slug": "small-burst-of-motion-profile",
+    "brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 48, medium-deep complexion, salt-and-pepper bob with natural waves, small oval glasses and an ordinary full build; simple rust-coloured top.\n\nUse no real private person or competitor image as a reference. Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/social-posts-profiles-2026-09-15/media/manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/small-burst-of-motion-profile-social-v1.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 104352,
+      "sha256": "b07c7f2445f64921c0e3073ff8d503b36f8e25ac1845174e97712ccd9477891c"
+    },
+    "thumbnail": {
+      "path": "/previews/small-burst-of-motion-profile-social-v1-thumb.webp",
+      "bytes": 18366
+    },
+    "alt": "A woman with glasses and a grey wavy bob, with coral and teal brushstrokes behind her shoulders."
+  },
+  {
+    "slug": "between-two-gravities",
+    "brief": "Generate one finished original image for PicMagic. One fictional Indian woman, 22, deep-brown complexion, short dense curls, a softly rounded face and natural midsize build. Cobalt cropped work jacket, loose cream trousers and flat shoes. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nOne person sits naturally on a broad concrete landing close to camera. Behind and beside them, a second flight of the same stairwell climbs horizontally across the wall before turning upward. Repeating terracotta rail posts and daylight make one impossible quarter-turn legible. The person remains upright with ordinary anatomy, not floating or twisted.\n\nPhotographic concrete, worn terracotta railings and soft side daylight. The near landing and person obey ordinary gravity; only the distant architecture makes one ninety-degree turn.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.\n\nGEOMETRY CLARIFICATION: Make the entire upper flight visibly rotated ninety degrees, with sideways treads, balusters projecting horizontally from the right wall and a sideways far doorway. Connect it to the upright near landing as one concrete ribbon. Do not substitute an ordinary corner-turn staircase or tilt the camera.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation only",
+    "evidence": "docs/audits/gen-z-discovery-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/between-two-gravities-genz.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 184634,
+      "sha256": "1918e3e42e37c5835664bac7305fcc6dabdc31f28ce38dcbaff9fc6c1ea18d60"
+    },
+    "thumbnail": {
+      "path": "/previews/between-two-gravities-genz-thumb.webp",
+      "bytes": 42896
+    },
+    "alt": "A woman in a cobalt jacket sits upright beneath a sideways concrete stair flight and terracotta railings."
+  },
+  {
+    "slug": "the-listening-room-has-tides",
+    "brief": "Generate one finished original image for PicMagic. One fictional Indian man, 24, warm medium-brown complexion, gently receding temples, loose medium-length waves, light moustache, ordinary slim build. Burgundy knit polo and worn charcoal trousers. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nA listener sits on a low normal chair in the near foreground, headphones on. Broad acoustic felt ribs rise from the floor along both sides and roll overhead in one asymmetrical frozen soundwave, like a room-sized physical sculpture. A small unbranded player rests on the seat beside them. Face and torso remain unobscured; no equalizer graphics, floating notes or album artwork.\n\nTactile charcoal felt with dusty-rose edges, five broad continuous ribs, warm side-window light. Natural skin, matte surfaces, no luminous neon effects.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation only",
+    "evidence": "docs/audits/gen-z-discovery-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/the-listening-room-has-tides-genz.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 192724,
+      "sha256": "b138ebca8ada421dd2e0652a6ec1d1002c16191f6dfcbd58f32726fb8028e586"
+    },
+    "thumbnail": {
+      "path": "/previews/the-listening-room-has-tides-genz-thumb.webp",
+      "bytes": 44742
+    },
+    "alt": "A man wearing headphones rests beneath five wave-shaped felt ribs in a sunlit listening room."
+  },
+  {
+    "slug": "chai-between-the-floors",
+    "brief": "Generate one finished original image for PicMagic. Exactly three fictional Indian friends aged 21–25: a medium-brown woman with long braid and square glasses, a deep-brown man with short coils and a broad natural build, and a light-brown man with straight ear-length hair and light moustache. Distinct faces; casual teal overshirt, ochre tee and plum hoodie. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nExactly three friends sit shoulder-to-shoulder on one broad bench at a small chai counter supported between two opposing apartment balconies high above a quiet lane. A clearly built steel bridge supports the stall; a surreal gap below creates the impossible location. Camera is close at table height, faces dominate the upper half; a narrow lower gap shows small distant street lights. Everyday cups and a shared laugh provide warmth, no one balances on an edge.\n\nQuiet blue-hour ambient light with one warm practical stall lamp. Natural skin, steel supports, worn painted balconies, realistic cups. This is a fictional impossible set, not evidence of a real visit or a safe real location.\n\nOne 4:5 image, target 1080 × 1350. Keep all three complete heads clearly visible at mobile-feed size, no hidden third friend and no extra people in windows or photographs.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation only",
+    "evidence": "docs/audits/gen-z-discovery-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/chai-between-the-floors-genz.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 165776,
+      "sha256": "959f4fe015787a521b9f4e7515549bf74825c9dbd46839c704e6acd228efb7f7"
+    },
+    "thumbnail": {
+      "path": "/previews/chai-between-the-floors-genz-thumb.webp",
+      "bytes": 48854
+    },
+    "alt": "Three friends share chai at a steel counter bridging two balconies high above a city street."
+  },
+  {
+    "slug": "one-step-outside-the-frame",
+    "brief": "Generate one finished original image for PicMagic. One fictional Indian woman, 25, light-brown complexion, shoulder-length straight hair with off-centre part, small round glasses and ordinary broad-hipped proportions. Sage overshirt, loose dark jeans, original unbranded cream canvas low-top sneakers with gum sole. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nA seated person appears inside a large upright photographic display panel leaning on a plain studio wall. Their upper body remains within the panel, while one naturally bent leg extends through the open lower edge into the physical studio foreground. The same shoe casts a real contact shadow on the floor outside the panel; the transition happens below the knee, not across the face. The panel is a window illusion, never a severed body or a second person.\n\nNeutral soft studio illumination, warm-white wall and pale floor; a crisp panel edge and coherent contact shadow make the frame crossing legible. If footwear is supplied, preserve its design, colour, visible branding, stitching and sole. Never invent unseen product construction.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation only",
+    "evidence": "docs/audits/gen-z-discovery-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/one-step-outside-the-frame-genz.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 79772,
+      "sha256": "91bc5a67ef597fe912655385544594caf00e8eab3768223c88a8f3c51d5f4e3c"
+    },
+    "thumbnail": {
+      "path": "/previews/one-step-outside-the-frame-genz-thumb.webp",
+      "bytes": 19936
+    },
+    "alt": "A seated woman appears inside a black picture frame while one sneaker and leg extend onto the floor."
+  },
+  {
+    "slug": "ink-took-my-coffee",
+    "brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 22, light warm-beige complexion with natural texture, short wavy dark bob, softly square face, natural midsize build. Plum cotton overshirt over a plain ivory tee; small silver studs. Expressive amused glance. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA photographic adult sits at an oval pale-blue table, waist-up, amused and reaching toward an empty saucer. On a cream paper placemat, an original flat black-ink long-legged bird hooks its drawn beak through the handle of a real terracotta cup and drags it away. One curved coffee trail and a small displaced saucer show the physical consequence. The bird remains a flat drawing with no shading; the cup, hand, fabric and person stay photographic. No running, stretched clothing or stick figure.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation",
+    "evidence": "docs/audits/reference-impact-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/ink-took-my-coffee-impact.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 126916,
+      "sha256": "88e53695d2ab0b847095e94b67e8bfcc3071c2efe5a46024eb0faa308cc8edbe"
+    },
+    "thumbnail": {
+      "path": "/previews/ink-took-my-coffee-impact-thumb.webp",
+      "bytes": 30344
+    },
+    "alt": "A woman reaches toward a terracotta cup being pulled by a flat ink bird on a paper placemat."
+  },
+  {
+    "slug": "the-kite-in-my-notebook",
+    "brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian girl, approximately 8, medium-brown complexion, round cheeks, short chin-length dark hair with a simple clip, ordinary child proportions. Comfortable teal cotton shirt. Natural delighted expression, no makeup or adult styling. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne child sits securely at a low table beside an open sketchbook. A simple black-ink diamond kite lifts out of the page, still visibly flat hand-drawn ink, its lower tail continuous with a drawn line on the page. The kite catches and raises a real wide red bookmark ribbon from the book. The child holds the other ribbon end gently and looks at the escaped drawing with delight. Child, hands, book and ribbon remain photographic. Show the page-to-air connection and ribbon tension clearly; no flying child, creature face or shirt pulling.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Child-appropriate styling, fully clothed, securely seated.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: The kite has no opaque fill or paper texture: the real background remains visible inside its black-ink outline.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation",
+    "evidence": "docs/audits/reference-impact-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/the-kite-in-my-notebook-impact.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 115900,
+      "sha256": "2abe48fc6bb781e72bee074fd494a57d2dce41fb5cb9a1e04cebdf3968dbfd6a"
+    },
+    "thumbnail": {
+      "path": "/previews/the-kite-in-my-notebook-impact-thumb.webp",
+      "bytes": 32392
+    },
+    "alt": "A child holds a red ribbon as a transparent black-ink kite rises from an open sketchbook."
+  },
+  {
+    "slug": "clouds-on-laundry-day",
+    "brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 25, light olive-brown complexion, long oval face, short loose curls, neat moustache, ordinary slightly stocky build. Unbranded moss-green camp shirt with sleeves rolled once, plain charcoal trousers. Relaxed half-smile. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands waist-up on a broad safe apartment terrace behind a low laundry line. They attach one wooden clothespin to a small soft volumetric cloud already hanging from the line beside a single ordinary striped cotton shirt. The cloud sags gently at the pegs and sheds a few tiny droplets into a metal basin below; it is condensed mist, not cotton stuffing or a toy. Face and the pinching hand are clear. A quiet warm plaster wall and distant roofline anchor the ordinary Indian home setting. One impossible domestic chore, not many floating clouds.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation",
+    "evidence": "docs/audits/reference-impact-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/clouds-on-laundry-day-impact.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 132522,
+      "sha256": "30960a7cd6e0030857931ee8b885ad8fcdbaff0a93af58f30481d40a4e72aefb"
+    },
+    "thumbnail": {
+      "path": "/previews/clouds-on-laundry-day-impact-thumb.webp",
+      "bytes": 30810
+    },
+    "alt": "A man pegs a small misty cloud to a terrace clothesline while droplets fall into a metal basin."
+  },
+  {
+    "slug": "the-projectionist-is-me",
+    "brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian man, 23, deep-brown complexion, broad face, close-cropped hair, fine rectangular glasses, clean-shaven and natural slim build. Rust knit top and ink-blue trousers. Use this same invented identity exactly twice, live and projected. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nOne adult sits in the lower centre foreground beside a small film projector, one hand resting on its focus knob. Behind them, a LARGE second close portrait of that same identity is projected onto the corner of two angled plaster walls. The projected portrait bends visibly across the architectural corner; its light has surface grain and a rectangular projector boundary. The foreground person is real and neutrally lit, looking towards camera with the same unmistakable facial geometry. Exactly TWO intentional depictions of ONE identity: one physical person and one projected image. No ghost head, double exposure, collage windows, title or branding. Keep both faces unobstructed and recognizable; no face split across a deep gap.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly TWO intentional depictions of the SAME fictional identity, one live person and one architectural projection. Produce the image itself.\n\nMECHANISM CLARIFICATION: The room has plain walls outside the projection; do not add framed artwork, people in pictures or a third face.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation",
+    "evidence": "docs/audits/reference-impact-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/the-projectionist-is-me-impact.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 117392,
+      "sha256": "e662ef2eec0dc6c33a0ba455b6e018d4a7887df4f4f1385e08d9957737b2d24d"
+    },
+    "thumbnail": {
+      "path": "/previews/the-projectionist-is-me-impact-thumb.webp",
+      "bytes": 23680
+    },
+    "alt": "A seated man adjusts a projector beside a large projection of his own face across a plaster wall corner."
+  },
+  {
+    "slug": "the-lift-stops-at-the-ocean",
+    "brief": "Create one finished ORIGINAL PicMagic preview image. One fictional Indian woman, 24, medium warm-brown complexion, long face, dark shoulder-length waves, natural tall build. Butter-yellow lightweight jacket, dark wide-leg trousers and simple white shoes. Calm surprised look over one shoulder, eyes clear. This is a newly invented fictional persona, not a real person or a celebrity. Do not reuse any supplied reference face. No reference images are being supplied for generation.\n\nA person stands three-quarter-length inside a compact warm wood-and-brushed-metal lift, turned gently back toward the camera. Behind them the open inner lift doors reveal an intact clear outer observation wall and an immense underwater ocean beyond. Sunbeams descend through clear turquoise water; one small distant shoal establishes depth. The lift floor and person are completely dry. The clear sealed outer pane has a visible continuous frame so the ocean is convincingly outside. No water pouring in, giant fish, labels, controls with text or recognizable building. The person fills about half the frame height; this is an impossible elevator destination, not an aquarium selfie.\n\nHigh-definition photographic face, natural skin pores and asymmetry, convincing individual hair, expressive readable eyes, deliberate contemporary clothing, coherent shadows and clean visual separation. No plastic skin, exaggerated jawline, skin whitening, over-sharpened eyes or impossible hands. Soft neutral face light with a polished but believable photographic finish. Camera-friendly contemporary adult without beauty-filter anatomy.\n\n4:5 portrait, target 1080 × 1350. Face clearly readable at mobile-card size. Keep the single mechanism strong and uncluttered. No text, watermark, logos, application interfaces or album artwork. Exactly one photographic person. Produce the image itself.\n\nMECHANISM CLARIFICATION: Show retracted brushed-steel inner door leaves, overhead track, threshold and a small unlabelled two-button panel. Use a closer three-quarter portrait with a prominent face; keep the sealed outer observation pane and ocean depth clear.",
+    "status": "generated",
+    "tool": "ChatGPT browser image generation",
+    "evidence": "docs/audits/reference-impact-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/the-lift-stops-at-the-ocean-impact.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 144066,
+      "sha256": "27fc81cf89e54b7df69f0834cd4129ff7ce33c30cf4febe38e5198722075c8c1"
+    },
+    "thumbnail": {
+      "path": "/previews/the-lift-stops-at-the-ocean-impact-thumb.webp",
+      "bytes": 34330
+    },
+    "alt": "A woman in a yellow jacket turns inside a dry lift whose open inner doors reveal an underwater view behind glass."
+  },
+  {
+    "slug": "double-exposure-fashion-men",
+    "brief": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian man aged 25, medium-brown complexion, softly rectangular face, short textured dark hair, naturally trimmed moustache and beard, ordinary medium build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/requested-previews-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/double-exposure-fashion-men.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 111218,
+      "sha256": "104aa2bb6e285c7befa7e6ba1cade8262505b5a5da3c9ac93f2587b0e70801c8"
+    },
+    "thumbnail": {
+      "path": "/previews/double-exposure-fashion-men-thumb.webp",
+      "bytes": 21542
+    },
+    "alt": "The same fictional man shown as a large translucent profile on the left and a full-body fashion portrait on the right."
+  },
+  {
+    "slug": "double-exposure-fashion-women",
+    "brief": "Generate one original finished PicMagic preview, not a prompt response. One entirely fictional Indian woman aged 24, warm light-brown complexion, softly oval face, long gently wavy dark hair, ordinary natural build. Invent a new face, not a celebrity or any person from prior supplied images. Use the SAME fictional identity twice in this image. No reference photos are supplied.\n\nCreate a fashion double-exposure composition with exactly two intentional depictions of the same person, one identity: a large semi-transparent close-up profile filling the left side, blended softly into the background, and a smaller, crisp full-body depiction standing confidently on the right. Both depictions have the same facial geometry, age, hairstyle and outfit; they are not two different people. Keep the two faces spatially distinct rather than merging their features. The full-body subject has a relaxed stance and hands naturally in the trouser pockets, with normal shoulders and body proportions. Keep the entire head and shoes inside the frame. Leave breathing room around the outer edges.\n\nMetallic aviator sunglasses with lightly tinted lenses; an open light-grey corduroy overshirt over a charcoal T-shirt, dark indigo jeans and unbranded dark shoes, comfortable contemporary fit. Natural confident expression, clear natural pores, ordinary realistic anatomy; no airbrushing or beauty-filter facial reshaping.\n\nA minimalist neutral studio dissolves into a warm, desaturated sepia-and-charcoal background. Add a soft golden-orange light-leak flare only in the upper-right negative space, away from faces. Use an 85mm portrait-lens aesthetic: soft yet directional high-contrast light, detailed corduroy texture, subtle film grain and coherent shadows. Keep skin naturally textured and its underlying complexion faithful; the warm atmospheric grade must not bleach or darken the reference. Both faces are crisp within their respective layers, while only the large profile layer is semi-transparent.\n\n4:5 portrait image, target 1080 × 1350. The large profile dominates the left; the full body is entirely visible on the right with space above the head and below the shoes. No third person or face, no merged anatomy, no text, logo, fake magazine branding or watermark. Produce the image itself.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/requested-previews-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/double-exposure-fashion-women.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 114956,
+      "sha256": "abecdce3df858288aefc04b5aa4ff4a8feac0dca66f838bf762235849f35e9bd"
+    },
+    "thumbnail": {
+      "path": "/previews/double-exposure-fashion-women-thumb.webp",
+      "bytes": 20588
+    },
+    "alt": "The same fictional woman shown as a large translucent profile on the left and a full-body fashion portrait on the right."
+  },
+  {
+    "slug": "katana-in-the-square-of-light",
+    "brief": "Generate one original fictional PicMagic preview. One fictional Indian adult man, approximately 25, medium-brown complexion, short softly textured dark hair, naturally trimmed beard and ordinary lean build, not exaggerated muscles. Invent a new face; no real person, celebrity or supplied reference photo is being used.\n\nCreate a full-body studio fashion portrait of this fictional adult standing with their back predominantly toward the camera, turning the head naturally over one shoulder for a composed, sharp glance. Show enough of the three-quarter face to remain recognizable without twisting the neck or torso unnaturally. One hand holds a traditional Japanese katana by its handle low beside the body, blade angled downward with its tip above the floor and clear of the legs. The blade and handle form one coherent object. It is a still fashion pose, not a combat scene. The other arm rests naturally by the side. Exactly one person and one sword.\n\nDark olive-green sleeveless tank top, ultra-baggy cream streetwear trousers, dark shoes and unbranded dark sunglasses; real fabric folds and ordinary anatomy.\n\nA large, bright white SQUARE softbox panel stands directly behind the subject as the central geometric frame. Leave enough of its four sides visible to read clearly as a square around the upper body. The minimalist studio has a dark concrete floor and thin atmospheric haze that catches the light without hiding the face, hands or sword. Strong backlighting creates a crisp rim around the actual shoulders, arms and clothing; use subtle frontal reflected fill on the turned face so it remains identifiable rather than a featureless silhouette. Preserve skin texture and natural complexion, without brightening skin to match the panel. Use high-contrast chiaroscuro, restrained colour, realistic contact shadows, and a raw photographic finish. An 85mm lens and f/2.8 aesthetic gives controlled depth; keep the turned face and body convincingly defined, with coherent sword geometry.\n\n4:5 portrait image, target 1080 × 1350. Keep head, shoes and whole sword inside the crop. No text, logo, watermark, copied face, blood, injuries, malformed hands or impossible anatomy. Produce the image itself.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/requested-previews-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/katana-in-the-square-of-light.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 113774,
+      "sha256": "cababeaf8385c783e526edffe19d6bd1de23c9cbbd6237c7286038d7043549c8"
+    },
+    "thumbnail": {
+      "path": "/previews/katana-in-the-square-of-light-thumb.webp",
+      "bytes": 24754
+    },
+    "alt": "A man in an olive tank top and baggy cream trousers looks over his shoulder, holding a katana downward before a bright square studio light."
+  },
+  {
+    "slug": "standing-on-my-playlist",
+    "brief": "Generate one finished fictional PicMagic preview. One entirely fictional Indian adult man aged 24, medium-brown natural complexion, gently rounded face, short wavy dark hair and ordinary medium build. Invent a new face; no real person, celebrity or user-supplied reference image is used.\n\nCreate an ultra-realistic editorial photograph of this fictional adult standing on the screen of an enormous iPhone 16 Pro lying flat on a clean minimalist studio floor. The phone is a deliberately giant physical object, while the person remains ordinarily proportioned. Use a steep high-angle, top-down perspective with enough oblique angle to see the phone edge and establish scale. Show the whole person, shoes and most of the phone within the frame. The subject looks up toward the camera in a relaxed, confident stance, one hand naturally in a pocket and the other by the side. Both feet rest convincingly on the glass with coherent contact shadows; the person is neither floating nor embedded in the screen.\n\nBlack baseball cap, Space Gray Apple AirPods Max headphones, black rectangular sunglasses, oversized white T-shirt, black shorts, white Air Jordan sneakers and an understated luxury-style wristwatch. Keep the fictional person’s ordinary body shape beneath the clothing. Fit the cap and headphones together plausibly; neither intersects the ears, sunglasses or skull. Sunglasses may cover the eyes, but the remaining facial structure must stay recognizable. Avoid excessive reflections that erase the face. Brand/model names specify requested styling, not sponsorship or proof of ownership.\n\nThe phone screen shows a modern Spotify playlist in a sleek dark interface. Keep the interface physically aligned with the screen perspective and below the person’s feet. Use a small number of coherent playlist rows, original abstract cover tiles and fictional playlist/track labels; do not copy real album artwork or imply the image shows the user’s actual private listening history. Interface text and ordinary product branding may appear where appropriate. Do not add any floating caption, poster title, watermark or unrelated text outside the screen.\n\nUse a polished, minimalist technology-product presentation with soft studio lighting, natural colours, photorealistic skin texture, detailed clothing, subtle glass reflections and realistic floor shadows. A 35mm-equivalent photographic perspective should establish the scene without a fisheye effect or inflated head, hands or shoes. Keep the visible face and clothing crisp with sufficient depth for the phone to read clearly. Preserve highlight detail without artificial HDR halos, over-sharpening, plastic skin or a glossy beauty filter.\n\n4:5 portrait, target 1080 × 1350. One person, one giant phone. Show shoes, whole person and enough phone edge to make scale unmistakable. No extra people, copied album covers, watermark or floating caption. Produce the image itself.",
+    "status": "generated",
+    "tool": "Codex built-in image_gen",
+    "evidence": "docs/audits/requested-previews-2026-09-15/generation-manifest.json",
+    "review_status": "accepted",
+    "review_method": "Prior individual image and mobile QA; exact asset hash recorded for release.",
+    "preview": {
+      "path": "/previews/standing-on-my-playlist.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 80368,
+      "sha256": "9cab3c9f6d29247486992a1ad399363018d7c001bb9b9c3a0f6cedc171b13b52"
+    },
+    "thumbnail": {
+      "path": "/previews/standing-on-my-playlist-thumb.webp",
+      "bytes": 19268
+    },
+    "alt": "A fictional adult in white streetwear and headphones looks up while standing on a giant phone with a dark playlist interface."
   }
 ]

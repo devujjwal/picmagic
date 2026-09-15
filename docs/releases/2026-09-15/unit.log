@@ -1,0 +1,17 @@
+
+> picmagic@1.0.0 test /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> vitest run
+
+
+ RUN  v5.0.0 /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+
+
+ Test Files  25 passed (25)
+      Tests  135 passed (135)
+   Start at  12:10:02
+   Duration  18.57s (environment 62%, setup 11%, tests 11%, transform 8%, import 7%, worker 1%)
+
+Environment  jsdom was created 25 times · 70.10s total, 62% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

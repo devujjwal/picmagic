@@ -32,7 +32,8 @@ describe("katana studio fashion draft", () => {
       depiction_count: 1,
       reference_age: "adult-required",
     });
-    expect(p.is_published || p.is_indexable || p.is_featured).toBe(false);
+    expect(p.is_published && p.is_indexable).toBe(true);
+    expect(p.is_featured).toBe(false);
     expect(socialPreviewIds.has(p.id)).toBe(true);
     expect(p.preview_review_status).toBe("approved");
   });

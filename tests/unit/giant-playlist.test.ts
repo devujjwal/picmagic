@@ -35,7 +35,8 @@ describe("giant playlist user-requested draft", () => {
     });
     expect(p.prompt_text).toContain("No extra people");
     expect(p.image_brief).not.toBe(p.prompt_text);
-    expect(p.is_published || p.is_indexable || p.is_featured).toBe(false);
+    expect(p.is_published && p.is_indexable).toBe(true);
+    expect(p.is_featured).toBe(false);
     expect(socialPreviewIds.has(p.id)).toBe(true);
     expect(p.preview_review_status).toBe("approved");
   });

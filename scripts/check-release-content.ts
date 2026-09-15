@@ -3,7 +3,7 @@ import fs from "node:fs";
 import { createHash } from "node:crypto";
 import sharp from "sharp";
 import { allPrompts, allCollections } from "../content/catalog";
-import scope from "../docs/releases/2026-09-11/content-review.json";
+import scope from "../docs/releases/2026-09-15/content-review.json";
 import baseline from "../docs/audits/creative-upgrade-2026-09-11/production-public-snapshot.json";
 import { editorialIssues } from "../lib/prompts/editorial";
 import { personaIssues } from "../lib/prompts/persona";

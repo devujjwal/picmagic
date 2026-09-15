@@ -40,7 +40,8 @@ describe("Gen Z editorial batch", () => {
         m = manifest.find((m) => m.content_id === p.id)!;
       expect(m.accepted).toBe(true);
       expect(personaIssues(p)).toEqual([]);
-      expect(p.is_published || p.is_indexable || p.is_featured).toBe(false);
+      expect(p.is_published && p.is_indexable).toBe(true);
+      expect(p.is_featured).toBe(false);
       expect(p.prompt_text).toContain("never make an older person Gen Z");
       expect(p.image_brief).toContain("fictional Indian");
       expect(p.prompt_text).not.toBe(p.image_brief);
@@ -85,12 +86,12 @@ describe("Gen Z editorial batch", () => {
       const hosted = await new SeedRepository().getCatalog();
       expect(
         hosted.prompts.some((p) => prompts.some((x) => x.id === p.id)),
-      ).toBe(false);
+      ).toBe(true);
       expect(
         hosted.collections.some((c) =>
           c.prompt_ids.some((id) => prompts.some((p) => p.id === id)),
         ),
-      ).toBe(false);
+      ).toBe(true);
     } finally {
       vi.unstubAllEnvs();
     }

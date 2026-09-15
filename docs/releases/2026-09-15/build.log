@@ -1,0 +1,64 @@
+
+> picmagic@1.0.0 build /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> next build
+
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env.production.local, .env.local
+✓ Running next.config.ts took 33ms
+- Experiments (use with caution):
+  ✓ inlineCss
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1145ms
+  Running TypeScript ...
+  Finished TypeScript in 1763ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/140) ...
+  Generating static pages using 7 workers (35/140) 
+  Generating static pages using 7 workers (70/140) 
+  Generating static pages using 7 workers (105/140) 
+✓ Generating static pages using 7 workers (140/140) in 1017ms
+  Finalizing page optimization ...
+
+Route (app)                        Revalidate  Expire
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /about
+├ ƒ /admin
+├ ƒ /admin/categories
+├ ƒ /admin/collections
+├ ƒ /admin/login
+├ ƒ /admin/preview/[id]
+├ ƒ /admin/prompts
+├ ƒ /admin/prompts/[id]
+├ ƒ /admin/prompts/new
+├ ƒ /admin/seasonal
+├ ○ /ads.txt
+├ ƒ /ai-prompts
+├ ƒ /ai-prompts/[category]
+├ ƒ /ai-prompts/[category]/[slug]
+├ ƒ /api/admin/revalidate
+├ ƒ /api/admin/upload
+├ ƒ /api/og/[id]
+├ ƒ /api/search
+├ ƒ /collections/[slug]
+├ ƒ /contact
+├ ƒ /create
+├ ƒ /enhance-photo
+├ ○ /icon.svg
+├ ○ /opengraph-image
+├ ƒ /privacy
+├ ƒ /reel-prompts
+├ ƒ /reel-prompts/[slug]
+├ ○ /robots.txt
+├ ƒ /saved
+├ ƒ /search
+├ ○ /sitemap.xml                           1h      1y
+└ ƒ /terms
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

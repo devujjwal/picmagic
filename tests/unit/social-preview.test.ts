@@ -22,13 +22,13 @@ describe("local social image review", () => {
     ])
       expect(socialPreviewEnabled({ ...local, ...blocked })).toBe(false);
   });
-  it("keeps the three complete records unpublished and identity-safe", () => {
+  it("keeps the three complete records approved for release and identity-safe", () => {
     expect(prompts).toHaveLength(3);
     for (const raw of prompts) {
       const p = promptSchema.parse(raw);
       expect(personaIssues(p)).toEqual([]);
-      expect(p.is_published).toBe(false);
-      expect(p.is_indexable).toBe(false);
+      expect(p.is_published).toBe(true);
+      expect(p.is_indexable).toBe(true);
       expect(p.prompt_text).not.toBe(p.image_brief);
       expect(p.prompt_text).toContain("glasses and facial hair");
       expect(p.reference_contract?.identity_count).toBe(1);

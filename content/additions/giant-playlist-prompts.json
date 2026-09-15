@@ -42,13 +42,13 @@
     "is_featured": false,
     "is_trending": false,
     "trending_rank": 952,
-    "is_published": false,
-    "is_indexable": false,
+    "is_published": true,
+    "is_indexable": true,
     "seo_title": "Standing on My Playlist — AI Photo Prompt | PicMagic",
     "seo_description": "Turn your photo into a giant-phone playlist portrait with streetwear and headphones. Preserve your identity and hairstyle in a striking 4:5 social post.",
     "created_at": "2026-09-15T08:00:00.000Z",
-    "updated_at": "2026-09-15T08:00:00.000Z",
-    "published_at": null,
+    "updated_at": "2026-09-15T07:00:00.000Z",
+    "published_at": "2026-09-15T07:00:00.000Z",
     "faqs": [
       {
         "question": "Can I use my own photograph?",

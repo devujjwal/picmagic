@@ -1,0 +1,33 @@
+{
+  "phase": "pre-deployment",
+  "date": "2026-09-15",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unit_tests": 135,
+  "content_release_gate": "91 published, 95 deferred, existing 50 canonical owners preserved",
+  "production_build": "passed, seed catalogue with local preview override disabled and indexing enabled",
+  "database_rehearsal": "passed and rolled back; no schema migrations",
+  "e2e": {
+    "total_journeys": 74,
+    "initial_final_config_run": {
+      "passed": 73,
+      "failed": 1
+    },
+    "failure": "Responsive srcset changed during image.decode(); test now polls current candidate",
+    "targeted_recheck": {
+      "passed": 2,
+      "failed": 0
+    },
+    "remaining_failures": 0
+  },
+  "responsive_widths": [
+    375,
+    430,
+    1440
+  ],
+  "new_prompt_accessibility_violations": 0,
+  "unchanged_homepage": "verified",
+  "production_domain_network_check": "Work network returns Zscaler HTTP 403 for picmagic.in; project netlify.app alias HTTP 200",
+  "production_content_mutated": false,
+  "production_deployed": false
+}

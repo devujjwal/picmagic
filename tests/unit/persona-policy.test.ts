@@ -109,7 +109,7 @@ describe("reference and preview persona separation", () => {
     const collections = allCollections.filter((c) => c.priority === 20);
     expect(collections).toHaveLength(31);
     for (const c of collections) {
-      expect(new Set(c.prompt_ids).size).toBe(4);
+      expect(new Set(c.prompt_ids).size).toBeGreaterThanOrEqual(4);
       expect(c.description.length).toBeGreaterThan(100);
     }
     const paths = allPrompts.map((p) => promptPath(promptSchema.parse(p)));

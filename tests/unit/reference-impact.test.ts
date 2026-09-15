@@ -8,6 +8,7 @@ import { personaIssues } from "@/lib/prompts/persona";
 import prompts from "@/content/additions/reference-impact-prompts.json";
 import candidates from "../../docs/audits/reference-impact-2026-09-15/candidates.json";
 import manifest from "../../docs/audits/reference-impact-2026-09-15/generation-manifest.json";
+import releaseScope from "../../docs/releases/2026-09-15/scope.json";
 import baseline from "../../docs/audits/reference-impact-2026-09-15/current-library.json";
 import {
   socialPreviewEnabled,
@@ -24,7 +25,17 @@ describe("Reference-inspired local expansion", () => {
       expect(
         allPrompts.find((x) => x.id === p.id),
         p.slug,
-      ).toEqual(p);
+      ).toEqual(
+        releaseScope.new_prompt_ids.includes(p.id)
+          ? {
+              ...p,
+              is_published: true,
+              is_indexable: true,
+              published_at: "2026-09-15T07:00:00.000Z",
+              updated_at: "2026-09-15T07:00:00.000Z",
+            }
+          : p,
+      );
     }
     expect(candidates).toHaveLength(15);
     for (const c of candidates) {
@@ -56,7 +67,8 @@ describe("Reference-inspired local expansion", () => {
       expect(p.prompt_text).not.toBe(p.image_brief);
       expect(p.prompt_text).toContain("Never lighten, darken, de-age");
       expect(p.image_brief).toContain("fictional Indian");
-      expect(p.is_published || p.is_indexable || p.is_featured).toBe(false);
+      expect(p.is_published && p.is_indexable).toBe(true);
+      expect(p.is_featured).toBe(false);
       const file = `public${p.preview_image_url}`;
       const meta = await sharp(file).metadata();
       expect([meta.width, meta.height]).toEqual([1080, 1350]);
@@ -115,12 +127,12 @@ describe("Reference-inspired local expansion", () => {
       const hosted = await new SeedRepository().getCatalog();
       expect(
         hosted.prompts.some((p) => prompts.some((x) => x.id === p.id)),
-      ).toBe(false);
+      ).toBe(true);
       expect(
         hosted.collections.some((c) =>
           c.prompt_ids.some((id) => prompts.some((p) => p.id === id)),
         ),
-      ).toBe(false);
+      ).toBe(true);
     } finally {
       vi.unstubAllEnvs();
     }

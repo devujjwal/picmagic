@@ -36,3 +36,6 @@ The six user-supplied WhatsApp images are research references only: never copy t
 
 ## Scoped preview authorization — 15 September 2026
 The owner explicitly requested Codex-only preview generation for double-exposure-fashion-men, double-exposure-fashion-women, katana-in-the-square-of-light and standing-on-my-playlist. This overrides the earlier ChatGPT-only workflow for these four assets only. Preserve the active release hold: local draft review is authorized; production activation and deployment are not.
+
+## Explicit production release approval — 15 September 2026
+The owner upgraded Netlify to Personal independently and explicitly requested that the reviewed branch changes go live. The release hold is lifted for the 16 approved September 15 prompt additions, optimized assets, collection memberships and required release checks. Publish this batch once after local validation; preserve 95 unfinished drafts and existing homepage features. Future unapproved work remains branch-only. The existing Personal subscription and included credits are authorized; no additional purchases, upgrades or auto-recharge changes are authorized.

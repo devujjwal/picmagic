@@ -41,13 +41,13 @@
     "is_featured": false,
     "is_trending": false,
     "trending_rank": 951,
-    "is_published": false,
-    "is_indexable": false,
+    "is_published": true,
+    "is_indexable": true,
     "seo_title": "Katana Streetwear Portrait Prompt for Men | PicMagic",
     "seo_description": "Create a square-backlit katana streetwear portrait with your own adult reference. Olive tank top, baggy cream trousers and identity-first studio styling.",
     "created_at": "2026-09-15T08:00:00.000Z",
-    "updated_at": "2026-09-15T08:00:00.000Z",
-    "published_at": null,
+    "updated_at": "2026-09-15T07:00:00.000Z",
+    "published_at": "2026-09-15T07:00:00.000Z",
     "faqs": [
       {
         "question": "Can I use my own photograph?",
