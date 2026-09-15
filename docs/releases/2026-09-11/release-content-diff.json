@@ -1,0 +1,1157 @@
+{
+  "comparison": "Fresh pre-release production backup to verified local release",
+  "published_before": 50,
+  "published_after": 75,
+  "drafts": 95,
+  "changed_original_copy": 50,
+  "changed_original_preview": 12,
+  "published_records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/golden-hour-draped-in-tradition.webp",
+      "preview": "/previews/golden-hour-draped-in-tradition.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/a-little-rain-a-lot-of-romance.webp",
+      "preview": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/your-next-chapter-in-focus.webp",
+      "preview": "/previews/your-next-chapter-in-focus-20260910.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/somewhere-in-the-mediterranean.webp",
+      "preview": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp",
+      "reason": "REWORK",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-birthday-astronaut.webp",
+      "preview": "/previews/the-birthday-astronaut.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/old-school-charm-new-memories.webp",
+      "preview": "/previews/old-school-charm-new-memories.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/city-lights-main-character-energy.webp",
+      "preview": "/previews/city-lights-main-character-energy.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-red-saree-moment.webp",
+      "preview": "/previews/the-red-saree-moment.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/barefoot-at-blue-hour.webp",
+      "preview": "/previews/barefoot-at-blue-hour-20260910.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/quiet-confidence.webp",
+      "preview": "/previews/quiet-confidence-6e748aa44b.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-birthday-made-of-sunshine.webp",
+      "preview": "/previews/a-birthday-made-of-sunshine.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/tiny-krishna-big-wonder.webp",
+      "preview": "/previews/tiny-krishna-big-wonder.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-family-evening-lit-by-diyas.webp",
+      "preview": "/previews/a-family-evening-lit-by-diyas.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-desert-in-your-rear-view.webp",
+      "preview": "/previews/the-desert-in-your-rear-view.webp",
+      "reason": "REWORK",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-modern-bridal-heirloom.webp",
+      "preview": "/previews/a-modern-bridal-heirloom.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/the-forest-princess.webp",
+      "preview": "/previews/the-forest-princess-c4adfd8801.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-headshot-that-feels-like-you.webp",
+      "preview": "/previews/a-headshot-that-feels-like-you.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/sunday-all-together.webp",
+      "preview": "/previews/sunday-all-together-eb050156b7.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/paris-without-a-plan.webp",
+      "preview": "/previews/paris-without-a-plan.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-art-of-standing-still.webp",
+      "preview": "/previews/the-art-of-standing-still.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/coffee-rain-and-college-days.webp",
+      "preview": "/previews/coffee-rain-and-college-days.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/built-on-quiet-discipline.webp",
+      "preview": "/previews/built-on-quiet-discipline.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/your-product-beautifully-simple.webp",
+      "preview": "/previews/your-product-beautifully-simple.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-little-holi-happiness.webp",
+      "preview": "/previews/a-little-holi-happiness.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/the-gentlest-new-beginning.webp",
+      "preview": "/previews/the-gentlest-new-beginning-8116d94c2b.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/made-for-the-mountains.webp",
+      "preview": "/previews/made-for-the-mountains.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-frame-from-another-decade.webp",
+      "preview": "/previews/a-frame-from-another-decade.webp",
+      "reason": "REWORK",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/soft-light-unmistakably-you.webp",
+      "preview": "/previews/soft-light-unmistakably-you.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/an-intimate-jaipur-yes.webp",
+      "preview": "/previews/an-intimate-jaipur-yes.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/your-everyday-with-better-light.webp",
+      "preview": "/previews/your-everyday-with-better-light.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-tiny-superhero-off-duty.webp",
+      "preview": "/previews/a-tiny-superhero-off-duty.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/dressed-for-the-first-dance.webp",
+      "preview": "/previews/dressed-for-the-first-dance.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/the-perfect-birthday-picnic.webp",
+      "preview": "/previews/the-perfect-birthday-picnic-5520ce16c7.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-open-road-portrait.webp",
+      "preview": "/previews/the-open-road-portrait.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-winter-window-story.webp",
+      "preview": "/previews/a-winter-window-story.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-christmas-kitchen.webp",
+      "preview": "/previews/the-christmas-kitchen.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/small-details-beautifully-made.webp",
+      "preview": "/previews/small-details-beautifully-made.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/meet-your-new-profile-picture.webp",
+      "preview": "/previews/meet-your-new-profile-picture.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-night-at-the-cinema.webp",
+      "preview": "/previews/a-night-at-the-cinema.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/thirty-and-entirely-yourself.webp",
+      "preview": "/previews/thirty-and-entirely-yourself.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/garba-under-the-lights.webp",
+      "preview": "/previews/garba-under-the-lights.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-memory-worth-restoring.webp",
+      "preview": "/previews/a-memory-worth-restoring.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/change-the-scene-keep-yourself.webp",
+      "preview": "/previews/change-the-scene-keep-yourself-5908088f14.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/an-outfit-with-a-new-perspective.webp",
+      "preview": "/previews/an-outfit-with-a-new-perspective.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-anniversary-slow-dance.webp",
+      "preview": "/previews/the-anniversary-slow-dance.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/from-suitcase-to-seaside.webp",
+      "preview": "/previews/from-suitcase-to-seaside-df07aabf03.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-birthday-in-three-little-moments.webp",
+      "preview": "/previews/a-birthday-in-three-little-moments.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/the-fragrance-reveal.webp",
+      "preview": "/previews/the-fragrance-reveal.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": "/previews/one-city-one-beautiful-evening.webp",
+      "preview": "/previews/one-city-one-beautiful-evening-0bc8de6bdb.webp",
+      "reason": "RETAIN ORIGINAL UTILITY; DEFER REWRITE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "new_public": false,
+      "copy_changed": true,
+      "preview_changed": false,
+      "old_preview": "/previews/a-wedding-morning-remembered.webp",
+      "preview": "/previews/a-wedding-morning-remembered.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "slug": "the-heritage-railway-letter",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-heritage-railway-letter-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+      "slug": "your-next-introduction-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/your-next-chapter-in-focus-20260910.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "slug": "coffee-and-a-real-smile",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
+      "slug": "coffee-and-a-real-smile-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+      "reason": "DEFEATURE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "slug": "the-bookshop-detour",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-bookshop-detour-89d4eb4255.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
+      "slug": "the-bookshop-detour-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-bookshop-detour-89d4eb4255.webp",
+      "reason": "DEFEATURE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "slug": "sunday-park-conversation",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/sunday-park-conversation-95dcfa3974.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
+      "slug": "sunday-park-conversation-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/sunday-park-conversation-95dcfa3974.webp",
+      "reason": "REWORK",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "551794fd-8e65-5250-a89d-bdae263578d9",
+      "slug": "something-good-in-the-kitchen",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/something-good-in-the-kitchen-2482b2ce0b.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
+      "slug": "something-good-in-the-kitchen-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/something-good-in-the-kitchen-2482b2ce0b.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "8a5b10f4-bb35-58f7-aa91-94ea71537999",
+      "slug": "coral-against-the-sky-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/meet-your-new-profile-picture.webp",
+      "reason": "DEFEATURE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "20d0d883-d1c6-58c8-a3e9-cd57edbce120",
+      "slug": "soft-light-unmistakably-you-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/soft-light-unmistakably-you.webp",
+      "reason": "DEFEATURE",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "b93fce53-9a68-58c9-a9a8-67304efd446e",
+      "slug": "the-little-flute-keeper-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/tiny-krishna-big-wonder.webp",
+      "reason": "KEEP",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "6a5fe725-3f2e-5776-a25a-119267e2a7c1",
+      "slug": "the-gentlest-new-beginning-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-gentlest-new-beginning-8116d94c2b.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "e9b71c26-b433-55c7-af42-111b17ed2942",
+      "slug": "skincare-on-stone-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/your-product-beautifully-simple.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "146fdfab-b615-54b0-a5e0-10f8ac83b381",
+      "slug": "ceramic-and-linen-reel",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/small-details-beautifully-made.webp",
+      "reason": "UTILITY",
+      "audit": "docs/audits/creative-upgrade-2026-09-11/prompt-audit.json"
+    },
+    {
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "slug": "perfume-the-water-sculpture",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "slug": "the-river-remembers",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-river-remembers-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "slug": "a-mountain-journey-within",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/a-mountain-journey-within-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "slug": "the-tailors-mountain-range",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/the-tailors-mountain-range-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "slug": "one-day-four-possible-worlds",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "slug": "last-train-two-ink-portrait",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    },
+    {
+      "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "slug": "one-saree-three-campaign-worlds",
+      "new_public": true,
+      "copy_changed": true,
+      "preview_changed": true,
+      "old_preview": null,
+      "preview": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+      "reason": "APPROVED CREATIVE BATCH",
+      "audit": "docs/audits/creative-batch-2026-09-11/manifest.json"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "golden-hour",
+      "active": true,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "romantic",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 5,
+      "published_reels": 1,
+      "new_public_members": 0
+    },
+    {
+      "slug": "saree",
+      "active": true,
+      "indexable_flag": false,
+      "published_photos": 2,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "cinematic",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 4,
+      "published_reels": 2,
+      "new_public_members": 0
+    },
+    {
+      "slug": "studio",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 10,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "professional",
+      "active": true,
+      "indexable_flag": false,
+      "published_photos": 2,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "diwali",
+      "active": true,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "pre-wedding",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 2,
+      "published_reels": 0,
+      "new_public_members": 1
+    },
+    {
+      "slug": "pre-wedding-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "maternity",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "maternity-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "bikes",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "bikes-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "cars",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "cars-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "gym-fitness",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "gym-fitness-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "office-corporate",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "office-corporate-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 1,
+      "new_public_members": 1
+    },
+    {
+      "slug": "dating-profile",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 4,
+      "published_reels": 0,
+      "new_public_members": 4
+    },
+    {
+      "slug": "dating-profile-reels",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 0,
+      "published_reels": 4,
+      "new_public_members": 4
+    },
+    {
+      "slug": "travel",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "travel-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "instagram-profile-picture",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 2,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "instagram-profile-picture-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 2,
+      "new_public_members": 2
+    },
+    {
+      "slug": "indian-festivals",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 4,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "indian-festivals-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 1,
+      "new_public_members": 1
+    },
+    {
+      "slug": "babies",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 1,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "babies-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 1,
+      "new_public_members": 1
+    },
+    {
+      "slug": "pets",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "pets-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "product-shoots",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 3,
+      "published_reels": 0,
+      "new_public_members": 1
+    },
+    {
+      "slug": "product-shoots-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 2,
+      "new_public_members": 2
+    },
+    {
+      "slug": "womens-fashion-ecommerce",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "womens-fashion-ecommerce-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "mens-fashion-ecommerce",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "mens-fashion-ecommerce-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "ecommerce-product-showcase-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "friends-travel-reels",
+      "active": false,
+      "indexable_flag": false,
+      "published_photos": 0,
+      "published_reels": 0,
+      "new_public_members": 0
+    },
+    {
+      "slug": "creative-transformations",
+      "active": true,
+      "indexable_flag": true,
+      "published_photos": 12,
+      "published_reels": 0,
+      "new_public_members": 10
+    }
+  ]
+}

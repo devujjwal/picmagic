@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-09-11T04:31:07.071Z",
+  "results": [
+    {
+      "path": "/",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts/men",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts/women",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts/couple",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts/kids",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/opengraph-image"
+    },
+    {
+      "path": "/ai-prompts/family",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ai-prompts/wedding",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/collections/creative-transformations",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/creative-transformations",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/opengraph-image"
+    },
+    {
+      "path": "/ai-prompts/travel/the-river-remembers",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/the-river-remembers",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/api/og/3fc06851-bf86-53ac-b4f7-77a58aec8acd"
+    },
+    {
+      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/api/og/f94aedc8-2c72-5627-aba0-f1f6301acfda"
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/api/og/33849ccd-f6de-543d-985f-268cd59302ef"
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/api/og/e47fef4c-2fbc-5a52-82f1-2767a0881a08"
+    },
+    {
+      "path": "/enhance-photo",
+      "status": 200,
+      "canonical": "https://picmagic.in/enhance-photo",
+      "robots": "index, follow",
+      "og": "https://picmagic.in/opengraph-image"
+    },
+    {
+      "path": "/create",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/reel-prompts",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/reel-prompts/the-anniversary-slow-dance",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/search?q=krishna",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/saved",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/admin/login",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/privacy",
+      "status": 403,
+      "blocked_by": "Work-network Zscaler PageRisk filter"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/ai-prompts/reels",
+      "status": 308,
+      "location": "/reel-prompts"
+    },
+    {
+      "path": "/admin",
+      "status": 307,
+      "location": "/admin/login"
+    },
+    {
+      "path": "www regression",
+      "status": 301,
+      "location": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder"
+    },
+    {
+      "path": "optimized image",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "video range",
+      "status": 206,
+      "content_type": "video/mp4"
+    },
+    {
+      "path": "detail share card",
+      "status": 200,
+      "content_type": "image/png"
+    }
+  ]
+}

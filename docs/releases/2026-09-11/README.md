@@ -1,6 +1,6 @@
 # PicMagic creative integration — 11 September 2026
 
-Status: pre-deployment checks passed. Awaiting the single coordinated production release and live verification.
+Status: deployed in one production release. Full live browser sign-off is blocked by the work network’s Zscaler filter. See [FINAL-REPORT.md](FINAL-REPORT.md) for deployment evidence, exact results and remaining dependencies.
 
 ## Release scope
 
