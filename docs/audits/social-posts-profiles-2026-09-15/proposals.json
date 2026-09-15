@@ -1,0 +1,541 @@
+[
+  {
+    "key": "POST-01",
+    "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+    "title": "The River Remembers",
+    "slug": "the-river-remembers",
+    "kind": "Instagram Post",
+    "action": "reuse-existing-approved",
+    "canonical": "/ai-prompts/travel/the-river-remembers",
+    "collections": [
+      "instagram-post-ideas",
+      "creative-transformations"
+    ],
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "score": 5,
+    "why_user": "Turn a travel memory into a continuous ink-and-photograph keepsake.",
+    "why_ai": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+    "visual_concept": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment.",
+    "risk": "Existing reviewed output; third-party personalization still requires reference testing. No guarantee of an identical face or result.",
+    "originality": "Existing original PicMagic concept, not a new competitor adaptation; add collection membership only after approval, retaining its canonical URL.",
+    "reuse_asset": "/previews/the-river-remembers-creative-v2.webp",
+    "source_evidence": [
+      "AP01",
+      "YM07"
+    ],
+    "user_prompt": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult traveller. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a travel-memory artwork: the traveller rests an open blank journal on a ghat step. A single curved indigo ink shoreline flows out of the page and becomes the real river behind them. Keep the face, hand and nearest stone photographic; ink never crosses the face or makes the person dissolve. Copper sunset light, cream paper and practical indigo cotton clothing. Frame the journal transition prominently enough to read at small size, with a clear three-quarter portrait and unblocked face. Incidental distant people, if present, are not substitute identity subjects. Do not reproduce private handwriting or add lettering.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "preview_prompt": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
+    "preview_persona": "Existing fictional Indian persona documented in approved batch provenance; retain the image.",
+    "required_reference_assets": [],
+    "alt": "Woman beside a river at sunset, with an indigo ink shoreline flowing from her open journal into the real water",
+    "related": [
+      "one-day-four-possible-worlds"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Instagram post"
+    ],
+    "seo_title": "The River Remembers — AI Post Prompt | PicMagic",
+    "seo_description": "Turn a travel memory into a continuous ink-and-photograph keepsake. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/the-river-remembers-creative-v2.webp",
+    "qa_status": "existing-approved-image-reinspected-for-post-use; membership approval pending",
+    "prompt_sha256": "df820a7fea81bec805aa6b9f567b8ad73c53cbaae012d93221a004e51578a7bf"
+  },
+  {
+    "key": "POST-02",
+    "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+    "title": "Portrait Cut from Monsoon Paper",
+    "slug": "portrait-cut-from-monsoon-paper",
+    "kind": "Instagram Post",
+    "action": "reuse-existing-approved",
+    "canonical": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+    "collections": [
+      "instagram-post-ideas",
+      "creative-transformations"
+    ],
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "score": 4,
+    "why_user": "See a familiar face as tactile paper artwork with a readable mobile close-up.",
+    "why_ai": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+    "visual_concept": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment.",
+    "risk": "Existing reviewed output; third-party personalization still requires reference testing. No guarantee of an identical face or result.",
+    "originality": "Existing original PicMagic concept, not a new competitor adaptation; add collection membership only after approval, retaining its canonical URL.",
+    "reuse_asset": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "source_evidence": [
+      "CG06",
+      "AP03"
+    ],
+    "user_prompt": "REFERENCE PRESENT: The supplied person is authoritative for identity. Preserve recognizable facial geometry, eye spacing, distinguishing features, age cues, ethnicity, natural proportions and hairline. Translate their relative complexion values into the explicitly declared paper or ink palette; artistic pigment is not literal photographic skin colour or a change of ethnicity. Keep facial landmarks and marks legible in the new medium. The PicMagic example supplies the art treatment and composition only; never substitute its model's face.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nTranslate the reference portrait into a close layered paper-relief artwork. Create cheek and nose planes through torn, cut, folded and stacked paper, with real edge thickness, visible fibres and shallow cast shadows, not a flat texture filter. Use warm umber, indigo, cream and grey paper tones; preserve the reference's relative complexion values and distinguishing age cues in the material translation. Curve monsoon-cloud forms behind the head, never across the eyes. Keep the original gentle expression and recognizable mouth asymmetry, eye spacing and hairline. No unrelated collage faces, stereotyped facial simplification or age reduction. Soft gallery side light reveals the physical relief.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "preview_prompt": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
+    "preview_persona": "Existing fictional Indian persona documented in approved batch provenance; retain the image.",
+    "required_reference_assets": [],
+    "alt": "Layered paper-relief portrait of an older woman, with grey paper hair and indigo cloud shapes behind her",
+    "related": [
+      "the-river-remembers",
+      "one-day-four-possible-worlds"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Instagram post"
+    ],
+    "seo_title": "Portrait Cut from Monsoon Paper — AI Post Prompt | PicMagic",
+    "seo_description": "See a familiar face as tactile paper artwork with a readable mobile close-up. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+    "qa_status": "existing-approved-image-reinspected-for-post-use; membership approval pending",
+    "prompt_sha256": "63fb61008f5887e84acbc9d4be37de7ccb31c8bc3d012b8d7b513223774ac1c3"
+  },
+  {
+    "key": "POST-03",
+    "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+    "title": "The Last Train, Printed in Two Inks",
+    "slug": "last-train-two-ink-portrait",
+    "kind": "Instagram Post",
+    "action": "reuse-existing-approved",
+    "canonical": "/ai-prompts/retro/last-train-two-ink-portrait",
+    "collections": [
+      "instagram-post-ideas",
+      "creative-transformations"
+    ],
+    "ratio": "4:5",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "score": 4,
+    "why_user": "A personal print portrait with a railway-window story and a face large enough for the feed.",
+    "why_ai": "Creates bespoke printable portrait art with controlled material and graphic structure.",
+    "visual_concept": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment.",
+    "risk": "Existing reviewed output; third-party personalization still requires reference testing. No guarantee of an identical face or result.",
+    "originality": "Existing original PicMagic concept, not a new competitor adaptation; add collection membership only after approval, retaining its canonical URL.",
+    "reuse_asset": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "source_evidence": [
+      "AP03",
+      "YM03"
+    ],
+    "user_prompt": "REFERENCE PRESENT: The supplied person is authoritative for identity. Preserve recognizable facial geometry, eye spacing, distinguishing features, age cues, ethnicity, natural proportions and hairline. Translate their relative complexion values into the explicitly declared paper or ink palette; artistic pigment is not literal photographic skin colour or a change of ethnicity. Keep facial landmarks and marks legible in the new medium. The PicMagic example supplies the art treatment and composition only; never substitute its model's face.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian one adult. Use believable diversity of age, complexion, hair and natural build. The preview persona is an example, not a fixed default face. \n\nCREATIVE DIRECTION:\n\nCreate a close portrait as a declared two-ink print: plum and saffron on off-white paper stock. One diagonal carriage-window shadow crosses the shoulder, never the eyes. Show coarse halftone and paper fibres, with a slight background registration offset while eye contours and age cues remain crisp. Adapt a plain period collar and a thoughtful outward glance; do not copy an actor or film poster. Decorative marks in the sample are optional styling, not required identity features. Keep actual reference marks recognizable in the print. No titles, invented lettering or photographic-skin instructions that conflict with the ink medium.\n\nOUTPUT: 4:5 portrait artwork. Keep faces and essential objects inside the frame. No watermark or unwanted text. Keep anatomy, depth and shadows coherent for the declared medium. Compare the result with the supplied references; if details drift, make a focused edit or composite the original source rather than accepting a different identity.",
+    "preview_prompt": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
+    "preview_persona": "Existing fictional Indian persona documented in approved batch provenance; retain the image.",
+    "required_reference_assets": [],
+    "alt": "Plum-and-saffron halftone portrait of a mature woman beside a railway window",
+    "related": [
+      "the-river-remembers",
+      "one-day-four-possible-worlds"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Instagram post"
+    ],
+    "seo_title": "The Last Train, Printed in Two Inks — AI Post Prompt | PicMagic",
+    "seo_description": "A personal print portrait with a railway-window story and a face large enough for the feed. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+    "qa_status": "existing-approved-image-reinspected-for-post-use; membership approval pending",
+    "prompt_sha256": "0be5f026655139aad7e14cac97da50ef3cfe6af72970eef881422ffab3ef713e"
+  },
+  {
+    "key": "POST-04",
+    "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+    "title": "Borrowed Moon, Closing Time",
+    "slug": "borrowed-moon-closing-time",
+    "kind": "Instagram Post",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/borrowed-moon-closing-time",
+    "collections": [
+      "instagram-post-ideas",
+      "creative-transformations"
+    ],
+    "ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "score": 4,
+    "why_user": "A playful fictional movie moment that feels like a story about the user, not a generic portrait.",
+    "why_ai": "Recreates a controlled theatre shoot with a large scenic prop and coordinated set lighting that most people cannot readily stage.",
+    "visual_concept": "Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.",
+    "risk": "Medium: hand/prop contact and cart scale; reject distorted wrists, an apparent floating moon, or a face too small in the frame.",
+    "originality": "The returning-a-prop action is original to this proposal. It does not reproduce the researched railway poster, typography, tiny travellers or miniature-lemon campaign. Unlike PicMagic’s existing cinema portrait, the prop-returning action carries the story.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "YM05",
+      "CG05"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, distinguishing features, apparent age, ethnicity, natural complexion, hairline and natural body proportions. Keep glasses, facial hair and other identifying characteristics unless the user explicitly requests a change. Never copy the PicMagic preview model's face, complexion, ethnicity, hair texture or physique. The preview supplies the treatment only.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.\n\nThis is an adult story/fashion concept. If the only reference is a child, ask for an appropriate adult reference rather than ageing the child up.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 29, medium-brown complexion, shoulder-length naturally wavy hair, short beard, ordinary sturdy build, in a faded olive work jacket over a plain T-shirt.\n\nUse no real private person or competitor image as a reference. Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "One fictional Indian man about 29, medium-brown complexion, shoulder-length naturally wavy hair, short beard, ordinary sturdy build, in a faded olive work jacket over a plain T-shirt.",
+    "required_reference_assets": [],
+    "alt": "Borrowed Moon, Closing Time — AI-generated portrait-format concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "the-river-remembers",
+      "one-day-four-possible-worlds"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Instagram post"
+    ],
+    "seo_title": "Borrowed Moon, Closing Time — AI Post Prompt | PicMagic",
+    "seo_description": "A playful fictional movie moment that feels like a story about the user, not a generic portrait. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/borrowed-moon-closing-time-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "721a145efe06655d0fe6a9d4e21982d20b34bf17defc394139d585ee30093f7a"
+  },
+  {
+    "key": "POST-05",
+    "id": "759e55d6-be2a-5de5-9bf4-38658f431adb",
+    "title": "One Ribbon, a Whole Room",
+    "slug": "one-ribbon-a-whole-room",
+    "kind": "Instagram Post",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/one-ribbon-a-whole-room",
+    "collections": [
+      "instagram-post-ideas",
+      "creative-transformations"
+    ],
+    "ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "target_dimensions": [
+      1080,
+      1350
+    ],
+    "score": 4,
+    "why_user": "Turn a personal fashion photograph into a striking physical campaign set without a busy fantasy background.",
+    "why_ai": "Simulates a large fabricated set, specialist fabric rigging and coordinated studio production.",
+    "visual_concept": "Create a fashion set made from one continuous broad terracotta fabric ribbon held on a believable concealed scenic support. It makes a sweeping freestanding loop behind one person and falls into a single fold across the floor. Photograph the person waist-up at the open side of that loop, face prominent, body slightly turned and one relaxed shoulder toward camera. The person wears a simple charcoal outfit distinct from the terracotta set; fabric does not emerge from their body or merge into their clothes. Broad soft light reveals real fabric weight, edges and cast shadows against a pale mineral wall. Keep the face evenly readable, with one sculptural fabric gesture as the entire set concept. If the user supplies a garment to advertise, retain its actual cut, colour and visible details; change only the surrounding scenic ribbon, not the product.",
+    "risk": "Medium: cloth may fuse with the subject or lose believable support; garment-reference use must not change the advertised design.",
+    "originality": "One life-size scenic loop around a dominant face, not the existing Tailor’s Mountain Range textile landscape or the source’s miniature product-world storyboard.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "CG06",
+      "CG05",
+      "YM08"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, distinguishing features, apparent age, ethnicity, natural complexion, hairline and natural body proportions. Keep glasses, facial hair and other identifying characteristics unless the user explicitly requests a change. Never copy the PicMagic preview model's face, complexion, ethnicity, hair texture or physique. The preview supplies the treatment only.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create a fashion set made from one continuous broad terracotta fabric ribbon held on a believable concealed scenic support. It makes a sweeping freestanding loop behind one person and falls into a single fold across the floor. Photograph the person waist-up at the open side of that loop, face prominent, body slightly turned and one relaxed shoulder toward camera. The person wears a simple charcoal outfit distinct from the terracotta set; fabric does not emerge from their body or merge into their clothes. Broad soft light reveals real fabric weight, edges and cast shadows against a pale mineral wall. Keep the face evenly readable, with one sculptural fabric gesture as the entire set concept. If the user supplies a garment to advertise, retain its actual cut, colour and visible details; change only the surrounding scenic ribbon, not the product.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.\n\nThis is an adult story/fashion concept. If the only reference is a child, ask for an appropriate adult reference rather than ageing the child up.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 33, deep-brown complexion, long natural braids loosely gathered, ordinary broad-hipped build, wearing a modest charcoal jumpsuit with no branding.\n\nUse no real private person or competitor image as a reference. Create a fashion set made from one continuous broad terracotta fabric ribbon held on a believable concealed scenic support. It makes a sweeping freestanding loop behind one person and falls into a single fold across the floor. Photograph the person waist-up at the open side of that loop, face prominent, body slightly turned and one relaxed shoulder toward camera. The person wears a simple charcoal outfit distinct from the terracotta set; fabric does not emerge from their body or merge into their clothes. Broad soft light reveals real fabric weight, edges and cast shadows against a pale mineral wall. Keep the face evenly readable, with one sculptural fabric gesture as the entire set concept. If the user supplies a garment to advertise, retain its actual cut, colour and visible details; change only the surrounding scenic ribbon, not the product.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "One fictional Indian woman about 33, deep-brown complexion, long natural braids loosely gathered, ordinary broad-hipped build, wearing a modest charcoal jumpsuit with no branding.",
+    "required_reference_assets": [],
+    "alt": "One Ribbon, a Whole Room — AI-generated portrait-format concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "the-river-remembers",
+      "one-day-four-possible-worlds"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Instagram post"
+    ],
+    "seo_title": "One Ribbon, a Whole Room — AI Post Prompt | PicMagic",
+    "seo_description": "Turn a personal fashion photograph into a striking physical campaign set without a busy fantasy background. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/one-ribbon-a-whole-room-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "7d9107765ea04d2ba83514cd8b86c7d27ea2b3552f251845b37afbbc73e32a26"
+  },
+  {
+    "key": "DP-01",
+    "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+    "title": "A Fold Around You",
+    "slug": "a-fold-around-you-profile",
+    "kind": "Profile Picture",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/a-fold-around-you-profile",
+    "collections": [
+      "instagram-profile-picture"
+    ],
+    "ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "target_dimensions": [
+      1024,
+      1024
+    ],
+    "score": 4,
+    "why_user": "A clean avatar with a tactile frame that stays understandable at tiny size.",
+    "why_ai": "Creates a custom folded set fitted precisely to a reference portrait and circular safe area.",
+    "visual_concept": "Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.",
+    "risk": "Low–medium: paper can intrude over hair or ears; frame contrast must not overpower glasses and eyes at 40px.",
+    "originality": "The person remains photographic within a physical aperture. This is not PicMagic’s all-paper face or Canghe’s folded-paper landscape, and uses no source scene or props.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "CG06"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, distinguishing features, apparent age, ethnicity, natural complexion, hairline and natural body proportions. Keep glasses, facial hair and other identifying characteristics unless the user explicitly requests a change. Never copy the PicMagic preview model's face, complexion, ethnicity, hair texture or physique. The preview supplies the treatment only.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 45, brown complexion, a receding hairline, close-cropped hair, rectangular glasses, short salt-and-pepper beard and a natural stocky build; plain navy crewneck.\n\nUse no real private person or competitor image as a reference. Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "One fictional Indian man about 45, brown complexion, a receding hairline, close-cropped hair, rectangular glasses, short salt-and-pepper beard and a natural stocky build; plain navy crewneck.",
+    "required_reference_assets": [],
+    "alt": "A Fold Around You — AI-generated square portrait concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe"
+    ],
+    "seo_title": "A Fold Around You — Profile Picture Prompt | PicMagic",
+    "seo_description": "A clean avatar with a tactile frame that stays understandable at tiny size. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/a-fold-around-you-profile-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "08fb5556d94b61c79924ebac7590b45ce6959528725ecc0794baaf265182149d"
+  },
+  {
+    "key": "DP-02",
+    "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+    "title": "A Small Burst of Motion",
+    "slug": "small-burst-of-motion-profile",
+    "kind": "Profile Picture",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/small-burst-of-motion-profile",
+    "collections": [
+      "instagram-profile-picture"
+    ],
+    "ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "target_dimensions": [
+      1024,
+      1024
+    ],
+    "score": 4,
+    "why_user": "Express personality through one legible graphic gesture while keeping the face familiar.",
+    "why_ai": "Combines a reference-conditioned photograph with carefully registered illustration adapted to a small avatar.",
+    "visual_concept": "Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.",
+    "risk": "Medium: arcs can become extra limbs or clutter; expression adaptation must not alter eye shape or remove age cues.",
+    "originality": "A single photographic face with two shoulder-level marks, not a before/after journal, repeated person sheet or PicMagic’s ink river transition.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "AP01",
+      "CG03",
+      "YM08"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, distinguishing features, apparent age, ethnicity, natural complexion, hairline and natural body proportions. Keep glasses, facial hair and other identifying characteristics unless the user explicitly requests a change. Never copy the PicMagic preview model's face, complexion, ethnicity, hair texture or physique. The preview supplies the treatment only.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 48, medium-deep complexion, salt-and-pepper bob with natural waves, small oval glasses and an ordinary full build; simple rust-coloured top.\n\nUse no real private person or competitor image as a reference. Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "One fictional Indian woman about 48, medium-deep complexion, salt-and-pepper bob with natural waves, small oval glasses and an ordinary full build; simple rust-coloured top.",
+    "required_reference_assets": [],
+    "alt": "A Small Burst of Motion — AI-generated square portrait concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe"
+    ],
+    "seo_title": "A Small Burst of Motion — Profile Picture Prompt | PicMagic",
+    "seo_description": "Express personality through one legible graphic gesture while keeping the face familiar. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/small-burst-of-motion-profile-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "43ede854c9219d4d5ea331b4ae1980ab7a2eaee4922f4f86d53e4f97e154875f"
+  },
+  {
+    "key": "DP-03",
+    "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+    "title": "Monochrome Rain, Face in Focus",
+    "slug": "monochrome-rain-face-in-focus",
+    "kind": "Profile Picture",
+    "action": "rework-existing-draft",
+    "canonical": "/ai-prompts/women/monochrome-rain-face-in-focus",
+    "collections": [
+      "instagram-profile-picture"
+    ],
+    "ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "target_dimensions": [
+      1024,
+      1024
+    ],
+    "score": 4,
+    "why_user": "Keep a recognizable avatar while suggesting a quiet monsoon mood through the edge of the frame.",
+    "why_ai": "Controls wet glass, depth, tonal contrast and a clean face zone specifically for circular cropping.",
+    "visual_concept": "Create a monochrome photographic portrait seen through a rain-speckled pane with a broad clear central viewing area. Keep eyes, nose, mouth, chin, hairline and identifying glasses fully clear and undistorted. Rain beads and soft vertical streaks occupy only the outer side bands and far background, disappearing behind a clean central face area rather than forming a conspicuous outlined circle. Use soft window light, rich midtones and a dark charcoal background with clear hair separation. Translate the source complexion into natural monochrome tonal relationships; do not lighten the face as a beauty treatment. Keep a composed natural expression. No water on the person’s face, split-face filter, artificial wet hair or neon colour.",
+    "risk": "Medium: droplets or refraction may obscure eyes/glasses; monochrome must not flatten complexion into artificial whiteness. At 40px the face must work even if rain details disappear.",
+    "originality": "Reworks the existing unpublished 4:5 rain concept into a purpose-built square avatar at its existing URL. No duplicate rain collection or canonical is introduced.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "YM05",
+      "AP03"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, eye spacing, nose and mouth shape, distinguishing features, age cues, hairline and natural proportions. Retain glasses, facial hair and other identifying characteristics. Translate complexion relationships and facial modelling into the declared artistic material and palette; monochrome tonal conversion is a medium choice, not a change of ethnicity. Do not require literal photographic skin colours in a limited-palette artwork. Never replace the reference face with the preview model.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with an individual, believable appearance; describe this as an invented example rather than a personalized result.\n\nSTYLING: Expression, a slight head turn, plain clothing and gentle hair arrangement may adapt to the composition. Preserve actual age and characteristic hair texture/length unless a change is essential and explicitly requested. Do not smooth away age cues, lighten a photographic complexion, idealize facial anatomy or change body proportions.\n\nCREATIVE DIRECTION: Create a monochrome photographic portrait seen through a rain-speckled pane with a broad clear central viewing area. Keep eyes, nose, mouth, chin, hairline and identifying glasses fully clear and undistorted. Rain beads and soft vertical streaks occupy only the outer side bands and far background, disappearing behind a clean central face area rather than forming a conspicuous outlined circle. Use soft window light, rich midtones and a dark charcoal background with clear hair separation. Translate the source complexion into natural monochrome tonal relationships; do not lighten the face as a beauty treatment. Keep a composed natural expression. No water on the person’s face, split-face filter, artificial wet hair or neon colour.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 38 with deep-brown complexion represented by faithful monochrome tonal relationships, dense natural curls, a small visible cheek mark and an ordinary build; retain those distinguishing features, plain dark top.\n\nUse no real private person or competitor image as a reference. Create a monochrome photographic portrait seen through a rain-speckled pane with a broad clear central viewing area. Keep eyes, nose, mouth, chin, hairline and identifying glasses fully clear and undistorted. Rain beads and soft vertical streaks occupy only the outer side bands and far background, disappearing behind a clean central face area rather than forming a conspicuous outlined circle. Use soft window light, rich midtones and a dark charcoal background with clear hair separation. Translate the source complexion into natural monochrome tonal relationships; do not lighten the face as a beauty treatment. Keep a composed natural expression. No water on the person’s face, split-face filter, artificial wet hair or neon colour.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "One fictional Indian woman about 38 with deep-brown complexion represented by faithful monochrome tonal relationships, dense natural curls, a small visible cheek mark and an ordinary build; retain those distinguishing features, plain dark top.",
+    "required_reference_assets": [],
+    "alt": "Monochrome Rain, Face in Focus — AI-generated square portrait concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe"
+    ],
+    "seo_title": "Monochrome Rain, Face in Focus — Profile Picture Prompt | PicMagic",
+    "seo_description": "Keep a recognizable avatar while suggesting a quiet monsoon mood through the edge of the frame. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/monochrome-rain-face-in-focus-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "1ebe28b170f7309bc7a7e3c03fbcbb3fc1961b4db8324a341875b83cb2f9c8ba"
+  },
+  {
+    "key": "DP-04",
+    "id": "8227edc3-2a24-5e8b-b724-43d995ca270c",
+    "title": "Your Features, Two Bold Inks",
+    "slug": "your-features-two-bold-inks-profile",
+    "kind": "Profile Picture",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/your-features-two-bold-inks-profile",
+    "collections": [
+      "instagram-profile-picture"
+    ],
+    "ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "target_dimensions": [
+      1024,
+      1024
+    ],
+    "score": 4,
+    "why_user": "A personal graphic avatar with the clarity of an icon and the character of a print.",
+    "why_ai": "Reinterprets an individual face as controlled printmaking while retaining its landmark relationships.",
+    "visual_concept": "Create a simplified two-ink linocut portrait in dark indigo and burnt orange on warm off-white stock. Use broad carved shapes that follow the reference person’s actual eyes, nose, lips, cheek structure and facial hair. Keep the eyes and mouth resolved as recognizable features, not generic decorative symbols. Preserve glasses frames, hairline, beard outline and age cues where present. Allow only sparse paper grain outside facial landmarks; no dense halftone over the eyes. A plain off-white ground and one small flat shoulder shadow are enough. No train window, scenery, lettering, poster layout or period costume. This is one centred avatar, not a crop from a multi-element poster.",
+    "risk": "High: over-simplification can replace the reference with a generic face. Reject if recognizability fails at 64px or features shift in paired comparison.",
+    "originality": "An intentionally separate square profile composition from the existing railway-print post: different framing, broad marks, no setting and no costume/era transformation. Shares a useful medium, not a duplicated asset or source composition.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "AP03",
+      "CG04"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, eye spacing, nose and mouth shape, distinguishing features, age cues, hairline and natural proportions. Retain glasses, facial hair and other identifying characteristics. Translate complexion relationships and facial modelling into the declared artistic material and palette; pigment or clay is a medium choice, not a change of ethnicity. Do not require literal photographic skin colours in a limited-palette artwork. Never replace the reference face with the preview model.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with an individual, believable appearance; describe this as an invented example rather than a personalized result.\n\nSTYLING: Expression, a slight head turn, plain clothing and gentle hair arrangement may adapt to the composition. Preserve actual age and characteristic hair texture/length unless a change is essential and explicitly requested. Do not smooth away age cues, lighten a photographic complexion, idealize facial anatomy or change body proportions.\n\nCREATIVE DIRECTION: Create a simplified two-ink linocut portrait in dark indigo and burnt orange on warm off-white stock. Use broad carved shapes that follow the reference person’s actual eyes, nose, lips, cheek structure and facial hair. Keep the eyes and mouth resolved as recognizable features, not generic decorative symbols. Preserve glasses frames, hairline, beard outline and age cues where present. Allow only sparse paper grain outside facial landmarks; no dense halftone over the eyes. A plain off-white ground and one small flat shoulder shadow are enough. No train window, scenery, lettering, poster layout or period costume. This is one centred avatar, not a crop from a multi-element poster.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. Use the approved fictional Indian adult man in the supplied PicMagic identity fixture: preserve his curly hair, beard, recognizable geometry, apparent age and natural proportions; translate tones into indigo and burnt-orange inks.\n\nUse the supplied approved fictional reference as the face authority; preserve its geometry and age cues while translating it to the declared medium. Create a simplified two-ink linocut portrait in dark indigo and burnt orange on warm off-white stock. Use broad carved shapes that follow the reference person’s actual eyes, nose, lips, cheek structure and facial hair. Keep the eyes and mouth resolved as recognizable features, not generic decorative symbols. Preserve glasses frames, hairline, beard outline and age cues where present. Allow only sparse paper grain outside facial landmarks; no dense halftone over the eyes. A plain off-white ground and one small flat shoulder shadow are enough. No train window, scenery, lettering, poster layout or period costume. This is one centred avatar, not a crop from a multi-element poster.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "Use the approved fictional Indian adult man in the supplied PicMagic identity fixture: preserve his curly hair, beard, recognizable geometry, apparent age and natural proportions; translate tones into indigo and burnt-orange inks.",
+    "required_reference_assets": [
+      "docs/audits/creative-batch-2026-09-11/sources/p02-identity-fixture.png"
+    ],
+    "alt": "Your Features, Two Bold Inks — AI-generated square portrait concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe"
+    ],
+    "seo_title": "Your Features, Two Bold Inks — Profile Picture Prompt | PicMagic",
+    "seo_description": "A personal graphic avatar with the clarity of an icon and the character of a print. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/your-features-two-bold-inks-profile-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "e59d57826fe715d7f529e1b0a8a0283e333ca0021a7f705c4d83c5daf01c23f1"
+  },
+  {
+    "key": "DP-05",
+    "id": "e7aed044-6eea-54c4-82e9-b6aed442a6de",
+    "title": "A Cameo Made of Clay",
+    "slug": "cameo-made-of-clay-profile",
+    "kind": "Profile Picture",
+    "action": "new-proposal",
+    "canonical": "/ai-prompts/social-media/cameo-made-of-clay-profile",
+    "collections": [
+      "instagram-profile-picture"
+    ],
+    "ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "target_dimensions": [
+      1024,
+      1024
+    ],
+    "score": 4,
+    "why_user": "A distinctive personal keepsake-style avatar that reads as one face at small size.",
+    "why_ai": "Creates a convincing custom sculpted likeness without commissioning and photographing a physical relief.",
+    "visual_concept": "Translate the supplied head-and-shoulders portrait into a warm terracotta bas-relief with one recognizable face emerging gently from a plain darker clay backing. Retain the person’s specific facial geometry, wrinkles, hairline, cheek marks and glasses or facial hair where supplied. Use broad shallow relief and soft light from above-left to make the eyes, nose and mouth readable; avoid deep black eye sockets, a blank mask or idealized classical anatomy. Keep material colour consistently terracotta; it represents clay, not a replacement complexion or ethnicity. Preserve relative tonal structure through modelling and shadow. Do not show a pedestal, museum room, lettering, fragmented body or a second face.",
+    "risk": "High: sculpture can erase individuality and age cues; reject deep eye shadows or a generic classical face. This is the first concept to drop if small-size recognizability fails.",
+    "originality": "Sculpted shallow clay with continuous modelling, not the existing layered paper portrait, an enamel travel badge or a stock marble bust.",
+    "reuse_asset": null,
+    "source_evidence": [
+      "CG01",
+      "CG06"
+    ],
+    "user_prompt": "REFERENCE PHOTO PRESENT: Use exactly one supplied person as the identity authority. Preserve recognizable facial geometry, eye spacing, nose and mouth shape, distinguishing features, age cues, hairline and natural proportions. Retain glasses, facial hair and other identifying characteristics. Translate complexion relationships and facial modelling into the declared artistic material and palette; pigment or clay is a medium choice, not a change of ethnicity. Do not require literal photographic skin colours in a limited-palette artwork. Never replace the reference face with the preview model.\n\nNO REFERENCE PRESENT: Create one explicitly fictional Indian adult with an individual, believable appearance; describe this as an invented example rather than a personalized result.\n\nSTYLING: Expression, a slight head turn, plain clothing and gentle hair arrangement may adapt to the composition. Preserve actual age and characteristic hair texture/length unless a change is essential and explicitly requested. Do not smooth away age cues, lighten a photographic complexion, idealize facial anatomy or change body proportions.\n\nCREATIVE DIRECTION: Translate the supplied head-and-shoulders portrait into a warm terracotta bas-relief with one recognizable face emerging gently from a plain darker clay backing. Retain the person’s specific facial geometry, wrinkles, hairline, cheek marks and glasses or facial hair where supplied. Use broad shallow relief and soft light from above-left to make the eyes, nose and mouth readable; avoid deep black eye sockets, a blank mask or idealized classical anatomy. Keep material colour consistently terracotta; it represents clay, not a replacement complexion or ethnicity. Preserve relative tonal structure through modelling and shadow. Do not show a pedestal, museum room, lettering, fragmented body or a second face.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "preview_prompt": "Create a PicMagic fictional preview, not a personalized customer result. Use the approved fictional Indian older woman in the supplied PicMagic portrait fixture; preserve her short silver-grey hair shape, age lines, cheek mark, facial geometry and ordinary proportions in terracotta relief. Do not rejuvenate her.\n\nUse the supplied approved fictional reference as the face authority; preserve its geometry and age cues while translating it to the declared medium. Translate the supplied head-and-shoulders portrait into a warm terracotta bas-relief with one recognizable face emerging gently from a plain darker clay backing. Retain the person’s specific facial geometry, wrinkles, hairline, cheek marks and glasses or facial hair where supplied. Use broad shallow relief and soft light from above-left to make the eyes, nose and mouth readable; avoid deep black eye sockets, a blank mask or idealized classical anatomy. Keep material colour consistently terracotta; it represents clay, not a replacement complexion or ethnicity. Preserve relative tonal structure through modelling and shadow. Do not show a pedestal, museum room, lettering, fragmented body or a second face.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "preview_persona": "Use the approved fictional Indian older woman in the supplied PicMagic portrait fixture; preserve her short silver-grey hair shape, age lines, cheek mark, facial geometry and ordinary proportions in terracotta relief. Do not rejuvenate her.",
+    "required_reference_assets": [
+      "docs/audits/creative-batch-2026-09-11/sources/p13-portrait-fixture.png"
+    ],
+    "alt": "A Cameo Made of Clay — AI-generated square portrait concept; replace this provisional alt text after the actual asset is inspected.",
+    "related": [
+      "portrait-cut-from-monsoon-paper",
+      "last-train-two-ink-portrait"
+    ],
+    "approval_status": "pending-current-shortlist-approval",
+    "generation_authorized": false,
+    "intended_use_tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe"
+    ],
+    "seo_title": "A Cameo Made of Clay — Profile Picture Prompt | PicMagic",
+    "seo_description": "A distinctive personal keepsake-style avatar that reads as one face at small size. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "expected_filename": "/previews/cameo-made-of-clay-profile-social-v1.webp",
+    "qa_status": "not-generated; crop and identity QA pending",
+    "prompt_sha256": "9a7fa213b636b7498fe3d9ddfe81950ea25a8d8a3f5ec304bfc03894af450c40"
+  }
+]

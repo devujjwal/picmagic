@@ -1,0 +1,311 @@
+[
+  {
+    "id": "AP01",
+    "url": "https://aiphotoprompt.io/prompts/create-a-nostalgic-editorial-photo-to-sketch-artbook-page-based-on-the-reference-image/",
+    "mechanism": "photo-illustration",
+    "observation": "A selfie occupies the upper area; its pose returns as pencil/ink artwork below, with handwritten margins.",
+    "preserves": "Pose, expression, clothing and scene layout.",
+    "transforms": "Lower scene into drawing and journal treatment.",
+    "risk": "Recreating a photo is not pixel preservation. Small marginal writing loses meaning at card size.",
+    "interpretation": "A familiar memory becomes a designed keepsake.",
+    "destinations": [
+      "travel",
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P01 uses a continuous ink river around one intact face, without the source's stacked comparison.",
+    "current_shortlist_support": [
+      "POST-01",
+      "DP-02"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "AP02",
+    "url": "https://aiphotoprompt.io/prompts/real-scene-to-miniature-world/",
+    "mechanism": "miniature-world",
+    "observation": "A street walker, crosswalk and yellow truck appear as a tactile model with shallow depth of field.",
+    "preserves": "Camera angle and relative scene arrangement.",
+    "transforms": "Buildings, vehicles and people into handmade miniature materials.",
+    "risk": "Tiny faces cannot substantiate exact identity claims; an American setting modifier is unnecessary for user memories.",
+    "interpretation": "Ordinary surroundings become a collectible physical world.",
+    "destinations": [
+      "creative-transformations",
+      "babies"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P04 turns an owned family-home scene into a large-faced courtyard model, with no truck or street-copy layout.",
+    "current_shortlist_support": [],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "AP03",
+    "url": "https://aiphotoprompt.io/prompts/transform-the-provided-photo-into-a-bold-retro-screen-print-risograph-poster-while-preserving-the-original-subject/",
+    "mechanism": "limited-ink-print",
+    "observation": "A seated portrait uses cobalt and orange inks, halftone and paper grain.",
+    "preserves": "Recognizable subject, pose, clothing and props.",
+    "transforms": "Colour representation, edge definition and surface texture.",
+    "risk": "Literal complexion cannot simultaneously stay photographic in a restricted ink palette. Palette is artistic treatment, not ethnicity replacement.",
+    "interpretation": "A personal face becomes print-worthy graphic artwork.",
+    "destinations": [
+      "instagram-profile-picture",
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P05 uses a diagonal train-window motif, plum/saffron inks and an original portrait composition.",
+    "current_shortlist_support": [
+      "POST-02",
+      "POST-03",
+      "DP-03",
+      "DP-04"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Profile lesson/counterexample: reduce layout complexity and retain recognizable geometry."
+  },
+  {
+    "id": "CG01",
+    "case": 543,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-543",
+    "gallery": "https://gpt-image2.canghe.ai/",
+    "original_source": "https://x.com/Emmma__0/status/2093194689222705645",
+    "mechanism": "keepsake-object",
+    "observation": "A gold-edged mountain/lake enamel badge contains a small seated traveller against navy fabric.",
+    "preserves": "Landscape composition, with person only as an accent.",
+    "transforms": "Scene into hard enamel and metal outline.",
+    "risk": "The prompt deliberately removes facial features and requires light-coloured skin. It is unsuitable as an identity-preserving portrait contract.",
+    "interpretation": "Travel memory can become a physical collectible, but identity readability must be chosen deliberately.",
+    "destinations": [
+      "pre-wedding",
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P09 places two readable faces inside an open keepsake box, without enamel borders or a faceless traveller.",
+    "current_shortlist_support": [
+      "DP-05"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Profile lesson/counterexample: reduce layout complexity and retain recognizable geometry."
+  },
+  {
+    "id": "CG03",
+    "case": 541,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-541",
+    "gallery": "https://gpt-image2.canghe.ai/",
+    "original_source": "https://x.com/Sairah_0/status/2093212900160868430",
+    "mechanism": "photo-illustration",
+    "observation": "A woman reading beside a window and cat repeats below as a wax-like drawing on paper.",
+    "preserves": "Upper photograph and scene correspondence by instruction.",
+    "transforms": "Lower scene into simplified drawing.",
+    "risk": "A fixed half split and an instruction not to copy composition pull in different directions. This repeats AP01's broad mechanism, not independent evidence of demand.",
+    "interpretation": "A designed page gives a quiet domestic moment emotional permanence.",
+    "destinations": [
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P01 absorbs this mechanism; do not add a separate half-photo clone.",
+    "current_shortlist_support": [
+      "DP-02"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "CG04",
+    "case": 535,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-535",
+    "gallery": "https://gpt-image2.canghe.ai/",
+    "original_source": "https://x.com/Ciri_ai/status/2092452220768002400",
+    "mechanism": "repeated-identity",
+    "observation": "A large source portrait sits beside twelve numbered hairstyle panels; expressions vary slightly.",
+    "preserves": "One identity, hair colour, clothes and expression by instruction.",
+    "transforms": "Hair shape and length.",
+    "risk": "The large source panel is not explained by a strict twelve-panel specification. Exact identity/expression is not established; twelve tiny faces perform poorly on mobile.",
+    "interpretation": "Side-by-side alternatives support a practical personal choice.",
+    "destinations": [
+      "enhance-photo",
+      "instagram-profile-picture"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P10 uses four readable expression beats; hairstyle utility remains separate.",
+    "current_shortlist_support": [
+      "DP-04"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Profile lesson/counterexample: reduce layout complexity and retain recognizable geometry."
+  },
+  {
+    "id": "CG05",
+    "case": 532,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-532",
+    "gallery": "https://gpt-image2.canghe.ai/",
+    "original_source": "https://x.com/ou_zhen599/status/2091160215928574397",
+    "mechanism": "surreal-scale-campaign",
+    "observation": "Six panels show a miniature model interacting with giant lemons, a drink and sorbet.",
+    "preserves": "One fictional campaign character and wardrobe across panels.",
+    "transforms": "Scale and six advertising situations.",
+    "risk": "Exact sequence/brand copying would be derivative. Tiny hands cannot prove detailed anatomy; six scenes make one-pass continuity fragile.",
+    "interpretation": "A product world can tell a story rather than simply rotate a pack.",
+    "destinations": [
+      "product-shoots",
+      "womens-fashion-ecommerce"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P08 uses one textile-world hero; P17 uses one product focal point. No lemon-character sequence.",
+    "current_shortlist_support": [
+      "POST-04",
+      "POST-05"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "CG06",
+    "case": 524,
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-524",
+    "gallery": "https://gpt-image2.canghe.ai/",
+    "original_source": "https://x.com/AiwithLariab/status/2090297565732585554",
+    "mechanism": "mixed-material-world",
+    "observation": "A photographic woman holding flowers stands among folded-paper hills, clouds, flowers and vehicles.",
+    "preserves": "Photographic person and intended facial identity.",
+    "transforms": "Environment into visibly crafted paper scenery.",
+    "risk": "Numerous decorative objects compete with a relatively small face. Exact-identity wording is an instruction, not proof.",
+    "interpretation": "Contrasting a believable person with an obviously handmade world makes the transformation legible.",
+    "destinations": [
+      "babies",
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P18 uses a nursery-book threshold with controlled scenery; P13 makes the portrait itself dimensional.",
+    "current_shortlist_support": [
+      "POST-02",
+      "POST-05",
+      "DP-01",
+      "DP-05"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "YM03",
+    "url": "https://youmind.com/prompts/minimalist-song-dynasty-editorial-art-33525",
+    "mechanism": "era-tableau",
+    "observation": "Two women in white sit on a balcony beneath a broad pale sky with vertical writing.",
+    "preserves": "Named fictional/historical character framing, not supplied identity.",
+    "transforms": "Costume, setting and editorial composition.",
+    "risk": "Beauty descriptors can replace user faces; historical fidelity was not verified. Source signature/text must not be copied.",
+    "interpretation": "Restraint and shared eyelines create a story without dense decoration.",
+    "destinations": [
+      "pre-wedding",
+      "creative-transformations"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P06 uses an original Indian railway letter scene, preserving the actual couple and omitting generated lettering.",
+    "current_shortlist_support": [
+      "POST-03"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "YM05",
+    "url": "https://youmind.com/prompts/rainy-platform-poster-33876",
+    "mechanism": "emotional-story-layout",
+    "observation": "A back-facing elderly man and dog wait on a wet platform; a lower graphic area repeats them with typography.",
+    "preserves": "Man/dog pairing and visual continuity.",
+    "transforms": "Scene into a designed memory poster.",
+    "risk": "Back-facing people cannot establish facial recognizability. Exact wording and split layout are distinctive source elements to avoid.",
+    "interpretation": "The relationship and waiting moment provide the hook, not the adjective cinematic.",
+    "destinations": [
+      "pets",
+      "travel"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P16 gives owner and pet a connected forward-facing journey, without the platform or two-part poster.",
+    "current_shortlist_support": [
+      "POST-04",
+      "DP-03"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "YM07",
+    "url": "https://youmind.com/prompts/watercolor-travel-diary-illustration-33822",
+    "mechanism": "photo-illustration",
+    "observation": "The inspected image pairs a tall blue-tiled building photograph with a watercolour version below.",
+    "preserves": "Architecture, perspective and person placement by instruction.",
+    "transforms": "Medium into pencil/watercolour on aged paper.",
+    "risk": "Prompt asks for an illustration while preview shows a comparison layout. This should not be treated as the literal single output; faces are not the visual focus.",
+    "interpretation": "Place memories may work without making a face the entire image.",
+    "destinations": [
+      "travel"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P01 uses one continuous composition and an explicit face-priority zone, with no copied diary slogans.",
+    "current_shortlist_support": [
+      "POST-01"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Post mechanism; avatar adaptation must use one large unobscured face."
+  },
+  {
+    "id": "YM08",
+    "url": "https://youmind.com/prompts/multi-angle-scene-sheet-34011",
+    "mechanism": "multi-view-identity",
+    "observation": "Nine warehouse views repeat a man in sunglasses and a geometric shirt.",
+    "preserves": "One person's identity, shirt and environment by instruction.",
+    "transforms": "Camera viewpoint across a three-by-three sheet.",
+    "risk": "Unseen rear garment details cannot be verified from one front reference. The separate reference-image section was not opened, so no reference-to-output fidelity claim is made.",
+    "interpretation": "Consistent views support production planning, but need actual reference coverage.",
+    "destinations": [
+      "mens-fashion-ecommerce",
+      "womens-fashion-ecommerce"
+    ],
+    "inspected_on": "2026-09-11",
+    "full_prompt_inspected": true,
+    "image_result_inspected": true,
+    "access": "Chrome rendered page/modal and full visible prompt; source image visually inspected",
+    "historical_adaptation": "P12 shows the same known garment view across three environments; no invented back or nine-panel clone.",
+    "current_shortlist_support": [
+      "POST-05",
+      "DP-02"
+    ],
+    "reuse_basis": "Documented image/full-prompt inspection on 2026-09-11, reused under the focused brief. No claim of fresh competitor image inspection on September 15.",
+    "post_or_profile_interpretation": "Profile lesson/counterexample: reduce layout complexity and retain recognizable geometry."
+  }
+]
