@@ -1,0 +1,292 @@
+[
+  {
+    "id": "41af04b9-f5d3-52d5-b1a2-2e1fb33285a5",
+    "slug": "between-two-gravities",
+    "title": "Between Two Gravities",
+    "description": "Sit beneath a stairwell that bends the rules of gravity. Use your own photo to recreate this impossible fashion set.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Treat the uploaded person reference as authoritative for recognizable facial identity, facial geometry, apparent age, ethnicity, natural complexion, hairline, distinguishing features and natural body proportions. The PicMagic preview is a styling example only; do not copy its model, youth, complexion or ethnicity. Preserve existing glasses, facial hair and meaningful personal features unless the user explicitly requests otherwise. Hair may be gently arranged for the concept without changing the hairline; wardrobe, pose, grooming and expression may adapt. Do not age an older reference down.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and ordinary proportions. This is an invented example, not a personalized result.\n\nCREATIVE DIRECTION: One person sits naturally on a broad concrete landing close to camera. Behind and beside them, a second flight of the same stairwell climbs horizontally across the wall before turning upward. Repeating terracotta rail posts and daylight make one impossible quarter-turn legible. The person remains upright with ordinary anatomy, not floating or twisted. Make the entire upper flight visibly rotated ninety degrees, with sideways treads, balusters projecting horizontally from the right wall and a sideways far doorway. Connect it to the upright near landing as one concrete ribbon. Do not substitute an ordinary corner-turn staircase or tilt the camera.\n\nCOMPOSITION: A single scene, one continuous body. Your outfit stays grounded while the stairwell turns ninety degrees.\n\nSTYLE / MATERIAL / PHOTOGRAPHY: Photographic concrete, worn terracotta railings and soft side daylight. The near landing and person obey ordinary gravity; only the distant architecture makes one ninety-degree turn.\n\nOUTPUT: One 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nCONSTRAINTS: Do not add readable text, logos not supplied as product reference, watermarks, additional effects, extra limbs, merged faces or duplicated people. Keep actual age cues and skin texture; no whitening, beauty-filter smoothing or body reshaping. Do not cover facial landmarks. Preserve declared optical or architectural illusion without distorting anatomy. Identity matching varies by image tool and is not guaranteed.\n\nThis is an adult creative concept. Preserve an adult reference's actual age; never make an older person Gen Z to match this example. If the only reference is a child, ask for an adult reference rather than ageing the child up.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Impossible architecture"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/between-two-gravities-genz.webp",
+    "thumbnail_url": "/previews/between-two-gravities-genz-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A woman in a cobalt jacket sits upright beneath a sideways concrete stair flight and terracotta railings.",
+    "lighting": "Soft side daylight across concrete and natural skin",
+    "framing": "4:5 portrait with prominent recognizable faces",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "creative transformations",
+      "impossible-spatial-set",
+      "Instagram post"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 210,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Between Two Gravities — AI Photo Prompt | PicMagic",
+    "seo_description": "Your outfit stays grounded while the stairwell turns ninety degrees. Copy a reference-aware prompt to recreate this original idea in your image tool.",
+    "created_at": "2026-09-15T05:00:00.000Z",
+    "updated_at": "2026-09-15T05:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one finished original image for PicMagic. One fictional Indian woman, 22, deep-brown complexion, short dense curls, a softly rounded face and natural midsize build. Cobalt cropped work jacket, loose cream trousers and flat shoes. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nOne person sits naturally on a broad concrete landing close to camera. Behind and beside them, a second flight of the same stairwell climbs horizontally across the wall before turning upward. Repeating terracotta rail posts and daylight make one impossible quarter-turn legible. The person remains upright with ordinary anatomy, not floating or twisted.\n\nPhotographic concrete, worn terracotta railings and soft side daylight. The near landing and person obey ordinary gravity; only the distant architecture makes one ninety-degree turn.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.\n\nGEOMETRY CLARIFICATION: Make the entire upper flight visibly rotated ninety degrees, with sideways treads, balusters projecting horizontally from the right wall and a sideways far doorway. Connect it to the upright near landing as one concrete ribbon. Do not substitute an ordinary corner-turn staircase or tilt the camera.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a coherent impossible stair set that would require a custom illusion installation or extensive compositing to photograph, while keeping the person physically ordinary.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "impossible-spatial-set",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "8697dd20-7c8f-5b43-8d45-24ef080b4724",
+    "slug": "the-listening-room-has-tides",
+    "title": "The Listening Room Has Tides",
+    "description": "Step inside a soundwave. Turn your listening moment into a portrait surrounded by sweeping acoustic sculptures.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Treat the uploaded person reference as authoritative for recognizable facial identity, facial geometry, apparent age, ethnicity, natural complexion, hairline, distinguishing features and natural body proportions. The PicMagic preview is a styling example only; do not copy its model, youth, complexion or ethnicity. Preserve existing glasses, facial hair and meaningful personal features unless the user explicitly requests otherwise. Hair may be gently arranged for the concept without changing the hairline; wardrobe, pose, grooming and expression may adapt. Do not age an older reference down.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and ordinary proportions. This is an invented example, not a personalized result.\n\nCREATIVE DIRECTION: A listener sits on a low normal chair in the near foreground, headphones on. Broad acoustic felt ribs rise from the floor along both sides and roll overhead in one asymmetrical frozen soundwave, like a room-sized physical sculpture. A small unbranded player rests on the seat beside them. Face and torso remain unobscured; no equalizer graphics, floating notes or album artwork.\n\nCOMPOSITION: A single scene, one continuous body. The music becomes a room you can sit inside.\n\nSTYLE / MATERIAL / PHOTOGRAPHY: Tactile charcoal felt with dusty-rose edges, five broad continuous ribs, warm side-window light. Natural skin, matte surfaces, no luminous neon effects.\n\nOUTPUT: One 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nCONSTRAINTS: Do not add readable text, logos not supplied as product reference, watermarks, additional effects, extra limbs, merged faces or duplicated people. Keep actual age cues and skin texture; no whitening, beauty-filter smoothing or body reshaping. Do not cover facial landmarks. Preserve declared optical or architectural illusion without distorting anatomy. Identity matching varies by image tool and is not guaranteed.\n\nThis is an adult creative concept. Preserve an adult reference's actual age; never make an older person Gen Z to match this example. If the only reference is a child, ask for an adult reference rather than ageing the child up.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Sculptural listening room"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/the-listening-room-has-tides-genz.webp",
+    "thumbnail_url": "/previews/the-listening-room-has-tides-genz-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A man wearing headphones rests beneath five wave-shaped felt ribs in a sunlit listening room.",
+    "lighting": "Warm side-window light on matte felt and skin",
+    "framing": "4:5 portrait with prominent recognizable faces",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "creative transformations",
+      "acoustic-wave-installation",
+      "Instagram post"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 211,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "The Listening Room Has Tides — AI Photo Prompt | PicMagic",
+    "seo_description": "The music becomes a room you can sit inside. Copy a reference-aware prompt to recreate this original idea in your image tool.",
+    "created_at": "2026-09-15T05:00:00.000Z",
+    "updated_at": "2026-09-15T05:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one finished original image for PicMagic. One fictional Indian man, 24, warm medium-brown complexion, gently receding temples, loose medium-length waves, light moustache, ordinary slim build. Burgundy knit polo and worn charcoal trousers. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nA listener sits on a low normal chair in the near foreground, headphones on. Broad acoustic felt ribs rise from the floor along both sides and roll overhead in one asymmetrical frozen soundwave, like a room-sized physical sculpture. A small unbranded player rests on the seat beside them. Face and torso remain unobscured; no equalizer graphics, floating notes or album artwork.\n\nTactile charcoal felt with dusty-rose edges, five broad continuous ribs, warm side-window light. Natural skin, matte surfaces, no luminous neon effects.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Turns an intimate listening portrait into a room-sized acoustic sculpture without requiring the user to commission and build five curved felt walls.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "acoustic-wave-installation",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "e1a81203-e635-5855-8aad-708d6b9b21d0",
+    "slug": "chai-between-the-floors",
+    "title": "Chai Between the Floors",
+    "description": "Share chai with your friends on an impossible bridge between city balconies. Bring references of all three people to recreate the scene.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Use the uploaded photographs of exactly THREE distinct friends as the identity authority. Preserve each recognizable face, facial geometry, apparent age, ethnicity, complexion, hairline, distinguishing features, glasses/facial hair and natural body proportions independently. Assign the three supplied identities left-to-right and keep that assignment. The preview only supplies the scene and styling. Do not copy its models or make older references younger. Adapt clothes, hair arrangement, pose and small expressions naturally without homogenizing the friends. If any friend lacks a usable reference, ask for it rather than inventing a replacement.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian group of exactly three adults with distinct believable faces, complexions and ordinary builds. These are fictional examples, not the user’s friends.\n\nCREATIVE DIRECTION: Exactly three friends sit shoulder-to-shoulder on one broad bench at a small chai counter supported between two opposing apartment balconies high above a quiet lane. A clearly built steel bridge supports the stall; a surreal gap below creates the impossible location. Camera is close at table height, faces dominate the upper half; a narrow lower gap shows small distant street lights. Everyday cups and a shared laugh provide warmth, no one balances on an edge.\n\nCOMPOSITION: A single shared scene; exactly three separate continuous bodies. Your late-night friend stop has no street beneath it.\n\nSTYLE / MATERIAL / PHOTOGRAPHY: Quiet blue-hour ambient light with one warm practical stall lamp. Natural skin, steel supports, worn painted balconies, realistic cups. This is a fictional impossible set, not evidence of a real visit or a safe real location.\n\nOUTPUT: One 4:5 image, target 1080 × 1350. Keep all three complete heads clearly visible at mobile-feed size, no hidden third friend and no extra people in windows or photographs.\n\nCONSTRAINTS: Do not add readable text, logos not supplied as product reference, watermarks, additional effects, extra limbs, merged faces or duplicated people. Keep actual age cues and skin texture; no whitening, beauty-filter smoothing or body reshaping. Do not cover facial landmarks. Preserve declared optical or architectural illusion without distorting anatomy. Identity matching varies by image tool and is not guaranteed.\n\nThis is an adult creative concept. Preserve an adult reference's actual age; never make an older person Gen Z to match this example. If the only reference is a child, ask for an adult reference rather than ageing the child up.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "Three friends",
+    "style": [
+      "Friendship above the city"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/chai-between-the-floors-genz.webp",
+    "thumbnail_url": "/previews/chai-between-the-floors-genz-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Three friends share chai at a steel counter bridging two balconies high above a city street.",
+    "lighting": "Blue-hour ambient light with a warm stall lamp",
+    "framing": "4:5 portrait with prominent recognizable faces",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "creative transformations",
+      "impossible-social-location",
+      "Instagram post",
+      "friends",
+      "friendship"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 212,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Chai Between the Floors — AI Photo Prompt | PicMagic",
+    "seo_description": "Your late-night friend stop has no street beneath it. Copy a reference-aware prompt to recreate this original idea in your image tool.",
+    "created_at": "2026-09-15T05:00:00.000Z",
+    "updated_at": "2026-09-15T05:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one finished original image for PicMagic. Exactly three fictional Indian friends aged 21–25: a medium-brown woman with long braid and square glasses, a deep-brown man with short coils and a broad natural build, and a light-brown man with straight ear-length hair and light moustache. Distinct faces; casual teal overshirt, ochre tee and plum hoodie. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nExactly three friends sit shoulder-to-shoulder on one broad bench at a small chai counter supported between two opposing apartment balconies high above a quiet lane. A clearly built steel bridge supports the stall; a surreal gap below creates the impossible location. Camera is close at table height, faces dominate the upper half; a narrow lower gap shows small distant street lights. Everyday cups and a shared laugh provide warmth, no one balances on an edge.\n\nQuiet blue-hour ambient light with one warm practical stall lamp. Natural skin, steel supports, worn painted balconies, realistic cups. This is a fictional impossible set, not evidence of a real visit or a safe real location.\n\nOne 4:5 image, target 1080 × 1350. Keep all three complete heads clearly visible at mobile-feed size, no hidden third friend and no extra people in windows or photographs.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 5,
+    "why_ai": "Creates an impossible private chai bridge high between apartment balconies, combining recognizable friends with an environment that cannot safely be staged as an ordinary outing.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "impossible-social-location",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 3,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "d7aa6cd4-6725-59c4-843e-ead6ddeaa365",
+    "slug": "one-step-outside-the-frame",
+    "title": "One Step Outside the Frame",
+    "description": "Break out of the picture. Create a playful portrait where one continuous leg steps beyond the frame into the room.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Treat the uploaded person reference as authoritative for recognizable facial identity, facial geometry, apparent age, ethnicity, natural complexion, hairline, distinguishing features and natural body proportions. The PicMagic preview is a styling example only; do not copy its model, youth, complexion or ethnicity. Preserve existing glasses, facial hair and meaningful personal features unless the user explicitly requests otherwise. Hair may be gently arranged for the concept without changing the hairline; wardrobe, pose, grooming and expression may adapt. Do not age an older reference down.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with believable individual features and ordinary proportions. This is an invented example, not a personalized result.\n\nPRODUCT REFERENCE: Product fidelity takes priority. Preserve the supplied product's exact geometry, material, colour, design, pattern, weave, stitching, silhouette, label, logo and accessories actually supplied. Use only views supported by the references. Do not invent unseen construction, hide important details or redesign the item to resemble the PicMagic example. Keep model identity separate from product identity. If generated lettering or fine construction changes, use the original product layer in a composite rather than claim exact reproduction.\n\nCREATIVE DIRECTION: A seated person appears inside a large upright photographic display panel leaning on a plain studio wall. Their upper body remains within the panel, while one naturally bent leg extends through the open lower edge into the physical studio foreground. The same shoe casts a real contact shadow on the floor outside the panel; the transition happens below the knee, not across the face. The panel is a window illusion, never a severed body or a second person.\n\nCOMPOSITION: A single scene, one continuous body. Your sneaker steps out of a flat portrait into the room.\n\nSTYLE / MATERIAL / PHOTOGRAPHY: Neutral soft studio illumination, warm-white wall and pale floor; a crisp panel edge and coherent contact shadow make the frame crossing legible. If footwear is supplied, preserve its design, colour, visible branding, stitching and sole. Never invent unseen product construction.\n\nOUTPUT: One 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nCONSTRAINTS: Do not add readable text, logos not supplied as product reference, watermarks, additional effects, extra limbs, merged faces or duplicated people. Keep actual age cues and skin texture; no whitening, beauty-filter smoothing or body reshaping. Do not cover facial landmarks. Preserve declared optical or architectural illusion without distorting anatomy. Identity matching varies by image tool and is not guaranteed.\n\nThis is an adult creative concept. Preserve an adult reference's actual age; never make an older person Gen Z to match this example. If the only reference is a child, ask for an adult reference rather than ageing the child up.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Beyond the picture frame"
+    ],
+    "occasion": "Creative social post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/one-step-outside-the-frame-genz.webp",
+    "thumbnail_url": "/previews/one-step-outside-the-frame-genz-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A seated woman appears inside a black picture frame while one sneaker and leg extend onto the floor.",
+    "lighting": "Soft neutral studio light and a coherent floor contact shadow",
+    "framing": "4:5 portrait with prominent recognizable faces",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "creative transformations",
+      "frame-break-forced-perspective",
+      "Instagram post"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 213,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "One Step Outside the Frame — AI Photo Prompt | PicMagic",
+    "seo_description": "Your sneaker steps out of a flat portrait into the room. Copy a reference-aware prompt to recreate this original idea in your image tool.",
+    "created_at": "2026-09-15T05:00:00.000Z",
+    "updated_at": "2026-09-15T05:00:00.000Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Generate one finished original image for PicMagic. One fictional Indian woman, 25, light-brown complexion, shoulder-length straight hair with off-centre part, small round glasses and ordinary broad-hipped proportions. Sage overshirt, loose dark jeans, original unbranded cream canvas low-top sneakers with gum sole. These are original fictional adult personas, not real people, celebrities or personalized customer results. Do not reuse a face from earlier images.\n\nA seated person appears inside a large upright photographic display panel leaning on a plain studio wall. Their upper body remains within the panel, while one naturally bent leg extends through the open lower edge into the physical studio foreground. The same shoe casts a real contact shadow on the floor outside the panel; the transition happens below the knee, not across the face. The panel is a window illusion, never a severed body or a second person.\n\nNeutral soft studio illumination, warm-white wall and pale floor; a crisp panel edge and coherent contact shadow make the frame crossing legible. If footwear is supplied, preserve its design, colour, visible branding, stitching and sole. Never invent unseen product construction.\n\nOne 4:5 portrait image, target 1080 × 1350. Keep the person prominent at 375px mobile-feed width, with clear facial landmarks and no tiny protagonist.\n\nNatural age cues, skin pores and ordinary proportions. No airbrushed skin, exaggerated muscles, stereotyped features, unwanted text, logos, watermark, extra people, fused limbs or distorted hands. Make the single visual mechanism readable at mobile-card size. Produce the image itself.",
+    "persona_policy": "person-and-product",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Combines a flat photographic interior with a continuous body stepping into the surrounding room, avoiding the specialized perspective set and compositing normally needed.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "frame-break-forced-perspective",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "reference-supported"
+    }
+  }
+]

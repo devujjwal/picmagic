@@ -1,0 +1,3681 @@
+{
+  "total_records": 173,
+  "collection_count": 40,
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "bb9fadf47bf60672f1b7c2fdc6d1025e23371dee7c400af8ce95550735445856",
+      "collections": [
+        "golden-hour",
+        "saree"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/golden-hour-draped-in-tradition.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b2bffa87142cca1efba814bb800d66fa35dc78fa5326ce10fa3e7b937442e7ac",
+      "collections": [
+        "romantic",
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "bc9423f58d0283a6c1a89d3b1fc2af594a3c0d0ae79b72967fd1e6ac396fe020",
+      "collections": [
+        "studio",
+        "professional",
+        "office-corporate"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/your-next-chapter-in-focus-20260910.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "1878042e002d083db28b75c262069fdc2ff3cc8a778e7751f510566053fdda73",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "fed2c6bf680a86b2d1c78ddb2655de27a8317a5abb11c70173fe2027475caa5d",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-birthday-astronaut.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "792337cf666c55dca9f107c9218320a8f23a25cdb271b8494735b14f43bb6261",
+      "collections": [
+        "romantic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/old-school-charm-new-memories.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "840945103511232e6f2168b4661307dd702e0b602a34f215539a20f50f03e1aa",
+      "collections": [
+        "cinematic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/city-lights-main-character-energy.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4a9681119829839ced2ec2d1ab57b762e3221c14e37f287685d07d39a79074f1",
+      "collections": [
+        "saree"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-red-saree-moment.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "2925623e63fda7678e68712d151be387ffebe59eec6f42f2d622c77179fc140b",
+      "collections": [
+        "romantic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/barefoot-at-blue-hour-20260910.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a01d499c5e705b4d55a1dade6d74f48fffb7b743a72ef0a91b68cb70eaaaf8f6",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/quiet-confidence-6e748aa44b.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4a8cacb5b8e87f6ed3aeb9813042473a7044115b872392d3bfedb989f2c965ac",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-birthday-made-of-sunshine.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "1e3f5426c24fc8061aa4543cfc0a78d88e9333edafff0f44762e2648aeefe233",
+      "collections": [
+        "indian-festivals",
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/tiny-krishna-big-wonder.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7694fab5c9b325b5cfd72da4bd34fde5697ed6d1e68edb216205ea1e554dd28e",
+      "collections": [
+        "diwali",
+        "indian-festivals"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-family-evening-lit-by-diyas.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a4aa7c5164a5cbf7b4546654376fcfe51c5394034f33d199bd1c0108fa35e6d8",
+      "collections": [
+        "cinematic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-desert-in-your-rear-view.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f643cbb6872e19e315fd7bf7d6eb8b8938298b2b1ef48e61e61af35844da83ad",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-modern-bridal-heirloom.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4d6b0fd867fb41ffea0f74f0f502a7c7097371b85eb48a12a443388bc882eb84",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/the-forest-princess-c4adfd8801.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "203adc4532e818d7b5f0fbb4f9b7d76001ccd0b652ddb3b051f187ba202553c4",
+      "collections": [
+        "professional"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-headshot-that-feels-like-you.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b592389d7e7098a5cd74b3897a137fb905467d2f808cf69b83c62b9886f8df50",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/sunday-all-together-eb050156b7.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9502d60f6ebc1fca6141c2c99ae99b09b32a64a1bd8e0ad605a8d25835390dfe",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/paris-without-a-plan.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "2af5d4675253807c7fd31d1fd6e40ee062f0d54dece66d4f31aae85c29b7104a",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-art-of-standing-still.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "54560359df6877ebf42b840a50f16c4a448a215ba4a6587431a2b33b589398ad",
+      "collections": [
+        "romantic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/coffee-rain-and-college-days.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7d500e7c275cde3fb351cfc873efd128ddd341311d1b44f33fe038a48eaafcf8",
+      "collections": [
+        "cinematic",
+        "gym-fitness"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/built-on-quiet-discipline.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8a6554d43c7e496d106d876be25a1908452a074a7951777a0750f61c84010dc5",
+      "collections": [
+        "studio",
+        "product-shoots"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/your-product-beautifully-simple.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8b2acd965ad99989cf441e56bf0c7bb5b3b60f79e4fc63fff887bf77ccba6f60",
+      "collections": [
+        "indian-festivals"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-little-holi-happiness.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ceba074b1c0581d5a00b994f64bc03399c9840cb62d223e77123586929a7ccef",
+      "collections": [
+        "babies"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-gentlest-new-beginning-8116d94c2b.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e31a12200051fbf9dea8b8df94339570728a1d3c8ca96340dd47f3ee5ca831ab",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/made-for-the-mountains.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7abd410cfc3998bceaef92e49bea3243606f703a6a555b6bf2c9883a85d62d05",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-frame-from-another-decade.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4f8c9e8fad5d24834d5f3eeb379c2495edd2376e5755d5d9a885f87a4eebbdf5",
+      "collections": [
+        "studio",
+        "instagram-profile-picture"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/soft-light-unmistakably-you.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "81b18519e56de03f74b3ad0b3b9404f533f3b1619bd7ba30d60cc392428120e5",
+      "collections": [
+        "pre-wedding"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/an-intimate-jaipur-yes.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4f18ffa38a7c1d477bbfdecb14c17a42b4fee88d4bf784842948ae954ca126f2",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/your-everyday-with-better-light.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "3b490816f51540c3bdf18e1252f2285d8edb0ceb1863abdab05c80018b0a244c",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-tiny-superhero-off-duty.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b1b6a6ee1fd9e96790d387bf9623bbde19e24f46ac5eae04c43f52e3a1922593",
+      "collections": [
+        "romantic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/dressed-for-the-first-dance.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "70cd2edadd4f94a027f8409ddff069701ff579ce8385fe9422d86d094a5bd167",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/the-perfect-birthday-picnic-5520ce16c7.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5c5e0bd6a29a6bd8f00275a4177c1a286d734e30ba135eb1bf5e09d0fed98864",
+      "collections": [
+        "bikes"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-open-road-portrait.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "29c0716ae3581be6482ee96382233cf2aecf56fd80ae1c27bca11196924254ae",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-winter-window-story.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "65f4f177a2a51024f0987e7e7f8ae441292fc85e15157fe58f375d537224fbc6",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/the-christmas-kitchen.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9a81297c3dddfb0627c399f15b733a2f7fad40426a60143f73d6986683b4ef3e",
+      "collections": [
+        "product-shoots"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/small-details-beautifully-made.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8a35c2d9b35ae36e1606293b0d7f9b0005909a6a2ebff9b3b5764ea2f3fb12c5",
+      "collections": [
+        "studio",
+        "instagram-profile-picture"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/meet-your-new-profile-picture.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "495b02cc8fdd68e421d63f2f4cf93ac8d9c216f2dc83a9752e2a829bdfa40e88",
+      "collections": [
+        "cinematic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-night-at-the-cinema.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9fba7bf04b018667ec8d94a4b898a6644bcafa17af5b5d02ee6e1c7417c2536d",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/thirty-and-entirely-yourself.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0476dccdf9b9746236e0c55038e5bc8280aea60900d5f1670119fda4188980dc",
+      "collections": [
+        "indian-festivals"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/garba-under-the-lights.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0b84408e206c9a21bb3ecb72d29f9cfb2930135367e274581a449b148b11b8a2",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-memory-worth-restoring.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "28a6b6f1b25c3b5f84a4c1df1e960b7c55c619981d10a5dd3a07e1bd7cc79b8e",
+      "collections": [
+        "studio"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/change-the-scene-keep-yourself-5908088f14.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e8c3627d4710cf9c80bf7f0d7eb2a1f83f8eeb629c2ae80aa9399b39316fd00c",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/an-outfit-with-a-new-perspective.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a9383808fd099a8caa3f2adc7576579640bd4826dc5c1f8e51481094ed5af029",
+      "collections": [
+        "romantic",
+        "cinematic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-anniversary-slow-dance.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0636f9b840fc55132affaad8a342520d24d339955e64a61da5db25a8d71dc4c9",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/from-suitcase-to-seaside-df07aabf03.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0b0aeb1b60d19540f821e78e218fce237503a859e8a0aca5e4c52ca740e43e5f",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-birthday-in-three-little-moments.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ab8bd09548672fe3faf4d1f1a1d8893d1e7164a6ba70229f15c6f7284a337507",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/the-fragrance-reveal.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "511ed4e37e3aab21a084800a29bd39c073525e4c9ba08166b756320f97985bc9",
+      "collections": [
+        "cinematic"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/one-city-one-beautiful-evening-0bc8de6bdb.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "source": "content/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b744e907f4bf979d9ad1d73c1339cf252ca0f1bb010d8f114143256a8d6f5d68",
+      "collections": [],
+      "is_published_local": true,
+      "preview": "/previews/a-wedding-morning-remembered.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "53a8fbbe-9cdc-53ef-aab6-0d96a5dac0cb",
+      "slug": "royal-jaipur-after-hours-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5bb08cce083aefef10d73f22d90e536952cdb817b84b789ca03c58dce3abf4d8",
+      "collections": [
+        "pre-wedding-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/an-intimate-jaipur-yes-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+      "slug": "monsoon-love-story",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c6847ab5027dd483b683f39bc606448c0b2ecda2bcea92e75e2d1be4402c2fa5",
+      "collections": [
+        "pre-wedding"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/two-cups-before-forever-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e1465867-b80d-53d1-a68e-8685799d6c8e",
+      "slug": "monsoon-love-story-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e45099a2bdf4c401cf02bf266bacabb11aa81b468bdafee3f0da24d6b7e51743",
+      "collections": [
+        "pre-wedding-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/two-cups-before-forever-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+      "slug": "desert-moonlight-promises",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f084a84adab495700e6b785c85a610e1a1cd6a8b66e58578ec536cf8cd92c0b0",
+      "collections": [
+        "pre-wedding"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/riverside-vows-at-sunrise-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b78c83d5-c7af-598a-a511-34a11e58ad1c",
+      "slug": "desert-moonlight-promises-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ee8e49716592525e7684e6e5afdb8f29191b90f17ae5ff342482a0ffbee5102d",
+      "collections": [
+        "pre-wedding-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/riverside-vows-at-sunrise-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "slug": "the-heritage-railway-letter",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "705deaab84f2e39d317a9bd3d4186a3d6c0642db2882a7ead06bb89e7f6cfc61",
+      "collections": [
+        "pre-wedding",
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-heritage-railway-letter-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "be215413-4b98-5fab-af22-236b833ce9b6",
+      "slug": "the-heritage-railway-letter-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b7290a1877f7a13dd1d4a6b571a2c48d3568e6cccaf6cf13e57cbb131ce242c5",
+      "collections": [
+        "pre-wedding-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/letters-on-the-terrace-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "7c129763-1405-5579-a8cc-ccf338d69a57",
+      "slug": "monsoon-maternity-at-the-heritage-window",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "3955f82c6d387f0ed8e1ede0299504a24278792da5e4b12aa976da1b540daf0b",
+      "collections": [
+        "maternity"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-quiet-window-a-new-chapter-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e5bf667e-62ba-51f4-a7d5-b33b686e4cb7",
+      "slug": "monsoon-maternity-at-the-heritage-window-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5e166111b1bb2b047bd875733c41fd0fd7fab2f121d5fdf1377aeac07e4087b7",
+      "collections": [
+        "maternity-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-quiet-window-a-new-chapter-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "972f7890-d4eb-5f89-ac59-27e4dc591474",
+      "slug": "moonlit-motherhood",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ac911d151bb94e362d0a1b64aa4170519dfef6621e95c3f5599c22d8847653f5",
+      "collections": [
+        "maternity"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-garden-waiting-room-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2f27fb36-901d-5c51-a623-c817ff00d509",
+      "slug": "moonlit-motherhood-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5f60dd8572ec6869359d0eb67675211138f22e7a1883e19ab9fc50b86387dd0d",
+      "collections": [
+        "maternity-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-garden-waiting-room-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2",
+      "slug": "generations-waiting-together",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7e816dc50de78c411207a5b727c9d98846f5fa670784d1674c8876dd0588ff95",
+      "collections": [
+        "maternity"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/two-hands-one-new-beginning-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "12608a71-2c35-55a3-a6dd-b6a789b705b9",
+      "slug": "generations-waiting-together-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f295669f29ed82b1e13f23ef2b455f9a74f99e8e17eb14616a29902c7dc9c980",
+      "collections": [
+        "maternity-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/two-hands-one-new-beginning-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "16584e1f-38d5-550f-a118-f753b61eaf66",
+      "slug": "motherhood-in-a-field-of-paper-petals",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "cb3bdb7445df779dbd3ffc463674348b7e1496d4d3ca2b6bcb8b58cd28af21e3",
+      "collections": [
+        "maternity"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/shape-of-anticipation-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "289a1028-ba7d-5c7e-a773-a9888c042026",
+      "slug": "motherhood-in-a-field-of-paper-petals-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "de71f3da994860f769570e15f312b575c93b486aa55d059ceb09b777c335a105",
+      "collections": [
+        "maternity-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/shape-of-anticipation-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "15a6fb30-1561-5e74-a2ae-0eadb4592e51",
+      "slug": "himalayan-last-rider-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9a6d35f51728e4310102787738509b389c69e9e120d5ed25f5152c271e2542c0",
+      "collections": [
+        "bikes-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-open-road-portrait-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+      "slug": "midnight-fuel-stop",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "578b330e977b9c43f571620e1dbbd7c7864c3536c670a90dca2baf32fb1bdebb",
+      "collections": [
+        "bikes"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/garage-hours-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "8d982cdd-f81d-5f85-a91e-043a4c5b3ec0",
+      "slug": "midnight-fuel-stop-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "13fe0f5d8d9c8440369120ce77ecd0970d70dee5ab51ec7afd128bb5af618d9a",
+      "collections": [
+        "bikes-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/garage-hours-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e3bcd989-c63b-5a67-a91a-ef49901f7991",
+      "slug": "monsoon-rider-under-the-flyover",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "006b9805dd57daf8474dad31d21b55fd367ce7083e8e6139b8c1685cab29c4d2",
+      "collections": [
+        "bikes"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/city-chrome-after-rain-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "85d57403-7f43-5bea-aafc-d092b14d53f9",
+      "slug": "monsoon-rider-under-the-flyover-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ced2631276db06d38acd26f09bbb5d5ecea6601174979f98c8ab061af98db38e",
+      "collections": [
+        "bikes-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/city-chrome-after-rain-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "53329fb2-d974-5ee1-a385-e060e094efca",
+      "slug": "the-salt-road-to-nowhere",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d01011f1a24d3561a92ce2acea118c601706135fc3a9de839a174775874777b8",
+      "collections": [
+        "bikes"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-weekend-map-stop-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3a94dac6-4e97-517b-ab81-3f893ca85ad2",
+      "slug": "the-salt-road-to-nowhere-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "910f3e5d17f0e9d015b1f69a3a82aa850d0834a535ce5810bc4139f332b23ad7",
+      "collections": [
+        "bikes-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-weekend-map-stop-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "7db5e93f-1991-53c0-ad33-5e90629e80eb",
+      "slug": "desert-road-hero",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f09fd407e490c0b4b05d3cc8b5ca70cb01c5644378799b33a1234e72e0646e53",
+      "collections": [
+        "cars"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/first-light-on-the-bonnet-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "a8cbf8fb-56ae-50a0-a861-f5625d7e4557",
+      "slug": "desert-road-hero-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "58f0963cc86cc12a876953c79e766544e387eb2ca48a8f3affca74c688ac0bd4",
+      "collections": [
+        "cars-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/first-light-on-the-bonnet-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "21051ce7-7d65-567b-a23e-a81e72f23552",
+      "slug": "retro-bombay-through-the-windscreen",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "83f3f8adbfc8877a0d998aa70648a81626aed0fc0fde7cf1f3eda555389838cf",
+      "collections": [
+        "cars"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/inside-the-drive-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "c797ff85-40ba-5bdd-add0-4b8a53adc3a7",
+      "slug": "retro-bombay-through-the-windscreen-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "851198cf5ab110415f90e3153585e91ef1ebd8d734f44d9461fee312b2356d56",
+      "collections": [
+        "cars-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/inside-the-drive-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7",
+      "slug": "neon-monsoon-drive",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "49dcc6e2f59431777118c9a812004221bc80736fac702f28463c854203428b91",
+      "collections": [
+        "cars"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/rain-on-the-paint-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e3cbe555-2a42-5ed8-a183-7d51f6e65636",
+      "slug": "neon-monsoon-drive-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5b997c67bc1297d74991c4f2202932508e0709ff7109574074757a6ece4289bd",
+      "collections": [
+        "cars-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/rain-on-the-paint-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "bd90da35-9209-559d-a68a-bd57dc5e17e8",
+      "slug": "the-mountain-tunnel-arrival",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a5ed7d57175881269bcc564337c2b9060b24ed9fe2b0ba26f8e4269844298aee",
+      "collections": [
+        "cars"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/weekend-estate-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "709eddd4-9065-5f61-af35-79a11b575a33",
+      "slug": "the-mountain-tunnel-arrival-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "285c2a530c37e977f1dc1874af2962f70f3da17f89e8b949f1d82e3ddf4f4bb9",
+      "collections": [
+        "cars-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/weekend-estate-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "9e91eee9-2c40-53cd-a46a-444e33d0a04e",
+      "slug": "after-the-last-rep-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "677703a66d3761bdc8ec0cc3ce550d24ee067cfb3927a54e97215bf2e3b6bee6",
+      "collections": [
+        "gym-fitness-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/built-on-quiet-discipline-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b",
+      "slug": "split-second-athlete",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a9921a7449b4b44365eae9e3e95c9394b5441a677a1b6754b7c3a734d6ebbf10",
+      "collections": [
+        "gym-fitness"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/laces-before-the-run-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3cf8adec-4cda-58de-a449-58dc1e7d6936",
+      "slug": "split-second-athlete-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e43b5746e43ecdd0257286ea16dfac556ae23e836592740e6f3f9cb6d76664a2",
+      "collections": [
+        "gym-fitness-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/laces-before-the-run-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3499de28-f65f-5680-a7b6-6d94e95b8e6e",
+      "slug": "shadow-athlete-at-dawn",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "002a51f6cdb3559d2ec4db3738536eec78a9e4e717a0a83af5d61ffe016d5de6",
+      "collections": [
+        "gym-fitness"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-steady-stretch-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "5595b27d-e80a-52c6-a8fa-3a80738f9bfb",
+      "slug": "shadow-athlete-at-dawn-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d18f5504557990cc0da3e5519984c184a872508c8171788bb3659919748b12d3",
+      "collections": [
+        "gym-fitness-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-steady-stretch-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "8291ec7b-78fa-5512-a037-6f1e642f4d58",
+      "slug": "the-empty-stadium-one-more-try",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "1b916303b9da58465e7eed04966c60143633419260442df4a6337778ba99abed",
+      "collections": [
+        "gym-fitness"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/ready-at-the-rack-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2e3bfa74-dc47-5e7a-aede-e965a9058598",
+      "slug": "the-empty-stadium-one-more-try-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5b802e477e7532c22c35b37ed725c6d29cc8163a7b2ffa692a6014d640a662e8",
+      "collections": [
+        "gym-fitness-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/ready-at-the-rack-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+      "slug": "your-next-introduction-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7af263e5eb9d075425812b1cee412b4c92ddaa8d293eb7e5fb79bce2cbe1e7c6",
+      "collections": [
+        "office-corporate-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/your-next-chapter-in-focus-20260910.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+      "slug": "founder-after-hours",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9a67381a2f987a3a66a0dcaa113902021a780f786869263b16752ac180ae68b3",
+      "collections": [
+        "office-corporate"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/founder-at-the-desk-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2f732577-3896-51b7-a714-25ca56275daf",
+      "slug": "founder-after-hours-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c62f2c2f022cbcaf40f33f858d76a0c2a18f3c88b149ddf944f089e3e79c292b",
+      "collections": [
+        "office-corporate-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/founder-at-the-desk-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3e86b4ed-5ed5-5d42-a343-4096fa10a298",
+      "slug": "newsroom-before-the-opening-bell",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e2cf5d07c65d977e964d2dd08840fcbb09281cad25d4a443bd808c22af03cc5c",
+      "collections": [
+        "office-corporate"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/ideas-around-the-table-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3a7c1a68-a218-57c8-ae6d-e50515cb3c3e",
+      "slug": "newsroom-before-the-opening-bell-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f4a492f00b9d6ac5d9feaf1ad40be54008abf372238ab29836ac87f52df5eea6",
+      "collections": [
+        "office-corporate-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/ideas-around-the-table-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "76c24975-e8bf-5ffc-abe5-aff47832f26e",
+      "slug": "the-idea-becomes-a-skyline",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "156cc8d9ce6c29371ae2f8ab7b4ade901d1d3f0caa4f7104f877711392fea19e",
+      "collections": [
+        "office-corporate"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-confident-presentation-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "94ea26a4-6d06-5388-afce-d6ae389e38d9",
+      "slug": "the-idea-becomes-a-skyline-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "508d93ce86d3010c8c3bd31a2afa5f0e9da18155ca73eadd63fe8001e3351009",
+      "collections": [
+        "office-corporate-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-confident-presentation-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "slug": "coffee-and-a-real-smile",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a29757533a986be5a0b910db84fc6a005e6fdc8e1790222c7de1ef1e0c8022d3",
+      "collections": [
+        "dating-profile"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
+      "slug": "coffee-and-a-real-smile-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "12961e935c4729f3a24d6b353f82d92c95c882b4c7d940baea3b5d14bd571ab6",
+      "collections": [
+        "dating-profile-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/coffee-and-a-real-smile-fb178a1d16.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "slug": "the-bookshop-detour",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4ba90c029bb9c297a1c4944d5bced505a544f93f77af2615896f51a160cd6875",
+      "collections": [
+        "dating-profile"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-bookshop-detour-89d4eb4255.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
+      "slug": "the-bookshop-detour-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9021b96f87ce562c4952ab21e869272df3097aab32c1736d3f50bae8741c25b1",
+      "collections": [
+        "dating-profile-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-bookshop-detour-89d4eb4255.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "slug": "sunday-park-conversation",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4886e50af37308a7ccbec10ce5e8622612c4c0ef37c96e459b67a468f0b13dde",
+      "collections": [
+        "dating-profile"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/sunday-park-conversation-95dcfa3974.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
+      "slug": "sunday-park-conversation-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e5dcef852f88fa49dbc85dab7d7dd59799549f1710398243ceb195a07f15e6d9",
+      "collections": [
+        "dating-profile-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/sunday-park-conversation-95dcfa3974.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "551794fd-8e65-5250-a89d-bdae263578d9",
+      "slug": "something-good-in-the-kitchen",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "dc6552dd30461d8d1439c57954823f9c78c79aab953efa502f3377ee2d35cd06",
+      "collections": [
+        "dating-profile"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/something-good-in-the-kitchen-2482b2ce0b.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
+      "slug": "something-good-in-the-kitchen-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "37f1123e099db23106298410f0628c098f4bec99b68652654b6a2c902beb8615",
+      "collections": [
+        "dating-profile-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/something-good-in-the-kitchen-2482b2ce0b.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "58922396-8c86-5793-a71d-ebf3f4af5941",
+      "slug": "goa-after-the-monsoon",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "6d68172e3b992e08111a9dcc8c1be77bde860e42eff1f8280e22c136f8f0db16",
+      "collections": [
+        "travel"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/morning-in-the-old-city-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "9521a0cb-83f3-5388-aa9e-7d0673110055",
+      "slug": "goa-after-the-monsoon-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ddc0943eaf75eb06764376c44ece6023534f91d525938ec814b93e0c2420373d",
+      "collections": [
+        "travel-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/morning-in-the-old-city-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1",
+      "slug": "meghalaya-cloud-walk",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "be813153b7ac5a56bcef5a441ff18600020a2d9248bccb54d4abd4c0b00be75c",
+      "collections": [
+        "travel"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/clouds-below-the-path-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "20a5014c-8ca2-5c1a-a83c-823a802865da",
+      "slug": "meghalaya-cloud-walk-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "90b11bd2370ef2ec417a7a79281ed04fe759666c3990a4656e7ead3bbd607314",
+      "collections": [
+        "travel-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/clouds-below-the-path-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0750ce45-43dc-509e-a588-c7ea05fe40a3",
+      "slug": "the-lighthouse-keeper-s-morning",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d2bb44b050e57854de2e7df0944f763906e665fb024405bcf2a64ff7233f0e95",
+      "collections": [
+        "travel"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-balcony-above-the-sea-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2bf7000d-d496-5ae2-a43f-493a7c4dd5e6",
+      "slug": "the-lighthouse-keeper-s-morning-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7d0335bcbbbc78197802351819079ee0dff0cad41fcdacf30bead9ae1bb50fa0",
+      "collections": [
+        "travel-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-balcony-above-the-sea-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "c55b1cd7-7e95-5184-ae40-c253d2aed42a",
+      "slug": "the-train-through-the-tea-clouds",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7712402452c7676df5a0b77b500156d932c956e09a59ec7b4ad2e4bf783702df",
+      "collections": [
+        "travel"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-train-window-journal-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "9b619fb5-aebf-5817-a057-b9bbce277555",
+      "slug": "the-train-through-the-tea-clouds-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f71123af0783f73cfb4c73e96f662d216b16df10f07f4cd1ca3b9d907a4e9acb",
+      "collections": [
+        "travel-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-train-window-journal-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "8a5b10f4-bb35-58f7-aa91-94ea71537999",
+      "slug": "coral-against-the-sky-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "09db03e60463fb8cdbd70edfeeda3b48f41a86721a50bff8aded99f4fef92f41",
+      "collections": [
+        "instagram-profile-picture-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/meet-your-new-profile-picture.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "20d0d883-d1c6-58c8-a3e9-cd57edbce120",
+      "slug": "soft-light-unmistakably-you-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d3997983ea008e545c3f86ba6b98dd1769f603d8d8b111fb960ccaec6ac18f5f",
+      "collections": [
+        "instagram-profile-picture-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/soft-light-unmistakably-you.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+      "slug": "monochrome-rain-face-in-focus",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b0dff7ddbec58ecd4693578d9e75e1f44783b6f77a4806cf56c140d56c4e65c4",
+      "collections": [
+        "instagram-profile-picture"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-monochrome-hello-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "faabea55-1920-561a-acb6-9111e6450e46",
+      "slug": "monochrome-rain-face-in-focus-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "164756aef3e687a0b034c218d93977613228e0ae15553b215a1c3a5089f6be72",
+      "collections": [
+        "instagram-profile-picture-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-monochrome-hello-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "slug": "floral-shadows-a-clear-face",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "96dfefa751cb08622c4373dc8e1524ad953037f4ef27186af342667b347f2506",
+      "collections": [
+        "instagram-profile-picture"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-small-festive-detail-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "cbeb0c3b-afd6-5cbd-a6dd-fc92e544e7b2",
+      "slug": "floral-shadows-a-clear-face-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "266cd528335e4431571546a97bc2012321b639560c58a5eed1e5927e4254f8c1",
+      "collections": [
+        "instagram-profile-picture-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-small-festive-detail-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "29e48c7e-bbbe-55e5-a148-ac4613862701",
+      "slug": "diwali-a-thousand-points-of-light-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "17e83fc7aeeb52f78206ed12b865483fb887a93e1d9b3190283719de070455d0",
+      "collections": [
+        "indian-festivals-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-family-evening-lit-by-diyas-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "37ed3b86-b00c-5ce7-ab8e-9ecbf75099a5",
+      "slug": "holi-the-colour-before-it-falls-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "63e8a139e694b0defa5144af1505fcf82f21d802534674adb43c65bd51e1d544",
+      "collections": [
+        "indian-festivals-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-little-holi-happiness-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "223f0df3-310f-5bf3-a007-8fe47e1dc58e",
+      "slug": "navratri-still-at-the-centre-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "fb0c1f39f33f9cbb848170f7d276018f4e8d78388bdf86ffa82169b876e80198",
+      "collections": [
+        "indian-festivals-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/garba-under-the-lights-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b93fce53-9a68-58c9-a9a8-67304efd446e",
+      "slug": "the-little-flute-keeper-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "66aadcb0b0f6d5c980178c816ffdbfc064cc6e6e667d480a8790362e466ee923",
+      "collections": [
+        "indian-festivals-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/tiny-krishna-big-wonder.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "6a5fe725-3f2e-5776-a25a-119267e2a7c1",
+      "slug": "the-gentlest-new-beginning-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a689d785b5523c879cfc9d698d4b9158beb242193ec79456b7e4235e9be2c2dc",
+      "collections": [
+        "babies-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-gentlest-new-beginning-8116d94c2b.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "slug": "first-birthday-cloud-world",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "1ef5317cbb249887a87bf9d17aede91266abb5a8d6b20917b76f970a2e3e03df",
+      "collections": [
+        "babies"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-floor-blanket-smile-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b2cd54cb-7cb8-5cb2-a3e6-4f3924cbdc44",
+      "slug": "first-birthday-cloud-world-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c7a04e8dcf65d8e7d425eeb138ebb61bdd7c746d68e39ef99aac8459ed186c2a",
+      "collections": [
+        "babies-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-floor-blanket-smile-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "97517e1d-15bb-5257-a202-1cafe3e00154",
+      "slug": "the-nursery-moon-mission",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "dfee9aa0abaeebdf87e4fbb267a7540e884992bb7ae3717e86843fa8f7023a66",
+      "collections": [
+        "babies"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/nursery-afternoon-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b6df8769-1adf-5e29-a712-45dd99b2b59f",
+      "slug": "the-nursery-moon-mission-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "64affef8c7f267b17f99237ba07fe35ee58fc0a7592db29018bc14e190589892",
+      "collections": [
+        "babies-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/nursery-afternoon-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "slug": "the-family-s-little-storybook-reader",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "7d24e59077318af5f6986e4d66fb13b499bb4888e1a00f9def8a8e92d8f444b4",
+      "collections": [
+        "babies"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/our-smallest-family-member-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "cfe7a269-b35b-5dcb-a1bb-a4b5b0b232e2",
+      "slug": "the-family-s-little-storybook-reader-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0292655f997c4809cdcad525f8914c0cd8d65e83d0f56c3d34751a08b64d926d",
+      "collections": [
+        "babies-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/our-smallest-family-member-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "7ca4fc36-c0ef-56db-a132-2f1aba89c035",
+      "slug": "the-maharaja-of-the-window-seat",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "0a5a83d0db9958fb27c4497a6b1ae13341f483e7e9a6492eeddc2d9ec8d8c920",
+      "collections": [
+        "pets"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-window-watcher-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0eda1e7b-28e8-5574-a1f1-8a89711dd4cb",
+      "slug": "the-maharaja-of-the-window-seat-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "dcc7f0d76d64b9c7318c7cb7c0bd660935125a5ab15ab763ba83e57de7135df9",
+      "collections": [
+        "pets-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-window-watcher-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "7de25f1d-f954-5703-a53d-ca79d3caa66e",
+      "slug": "the-dog-s-birthday-aftermath",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "9f2a629e5d8d9219cd634401990ab5c2b358e7f26e0e8a8692537113b3c8f704",
+      "collections": [
+        "pets"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-good-day-in-the-garden-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "f9d47ef7-f637-52b6-aec8-f39a9f91c783",
+      "slug": "the-dog-s-birthday-aftermath-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "461a8eb2e7fde46d2b8c9f04e5d17a12afd1bb66a2a69c15d5a31f66817631c9",
+      "collections": [
+        "pets-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-good-day-in-the-garden-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c",
+      "slug": "tiny-pet-giant-space-mission",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "a34df91ebe9ea1348f9592d6e2e36a1bdd6a9b6166021cf688cf902ade1fadc7",
+      "collections": [
+        "pets"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/favourite-blanket-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "a6c71e83-d96c-58e3-a20c-4fd6ab017304",
+      "slug": "tiny-pet-giant-space-mission-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "2466ef4d1d56347c02071774803239ab33788cd7cd2e49c3a6d5221575aa9b25",
+      "collections": [
+        "pets-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/favourite-blanket-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8bb3a19653f0d97197b72d86e0c680b557e5a82d8bab467567be4d2cec7ec50a",
+      "collections": [
+        "pets"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/together-on-the-doorstep-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "932b44ee-ce8c-5c8f-a418-33727b3661ab",
+      "slug": "you-and-your-pet-the-adventure-poster-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5b4fa5ac1a4bcee5d5d134a02b32e45c4d3300d15cdb47a94954494159116b7a",
+      "collections": [
+        "pets-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/together-on-the-doorstep-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e9b71c26-b433-55c7-af42-111b17ed2942",
+      "slug": "skincare-on-stone-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f8b0176d6342a4bc39211f7c7c00a04aa44479e1537ee6d19d7edf98d6b54f39",
+      "collections": [
+        "product-shoots-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/your-product-beautifully-simple.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "146fdfab-b615-54b0-a5e0-10f8ac83b381",
+      "slug": "ceramic-and-linen-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f97052c5c1b9df59c093ba4b1c24d91cc9f30e631ff1385ec2b296f23eacaf93",
+      "collections": [
+        "product-shoots-reels"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/small-details-beautifully-made.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "slug": "perfume-the-water-sculpture",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5c9b00daa0663918f710e4246f8b875a8e28a7d4d73679d83826d5c03f56fc29",
+      "collections": [
+        "product-shoots",
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/perfume-the-water-sculpture-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "9bc1fa0f-375a-5a4e-a6d7-7ab50dc718e3",
+      "slug": "perfume-the-water-sculpture-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "28468beb9438a2dbe7daf1eee397b53a8a591552f81b1beceb0027946d3abcf8",
+      "collections": [
+        "product-shoots-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/packaging-with-purpose-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "14335dd1-2c1a-5331-ae55-ff5f4753abb7",
+      "slug": "handbag-in-the-architecture-of-shadows",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ccc8923359a9f6deb428c684a2ff908e3d691dedb3b372abb6aa2ee2400b1985",
+      "collections": [
+        "product-shoots"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-useful-everyday-scale-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "13aeecc7-5cfe-5d07-ae6f-96b72ca60d0e",
+      "slug": "handbag-in-the-architecture-of-shadows-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "3e70a2e062e56f0c1419e33ea76a56ce9b4c17d3ec52fa1a13f158ba7be59de4",
+      "collections": [
+        "product-shoots-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-useful-everyday-scale-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "da21f9c2-6c33-529e-ac20-e080b97a8e7c",
+      "slug": "the-palace-saree-every-border-visible",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "af1daafa749bb31a81f3e1ca2f80907778a6d3eab33097b3dec5d18c9afc51f5",
+      "collections": [
+        "womens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-saree-drape-catalogue-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "a3a450c5-f4e2-574e-aacf-563e25b24be8",
+      "slug": "the-palace-saree-every-border-visible-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "3e7f5501528afa6c35c3a7471a66b1d9349bab550459ed374660895498fb5209",
+      "collections": [
+        "womens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-saree-drape-catalogue-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "84889762-89de-5f19-a2c1-613c11d95865",
+      "slug": "the-kurta-in-the-jali-light",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "33d0f68fe84e363d4427efd518106d877e9f1f6ed162e03ad8c0d6df6d92b9fc",
+      "collections": [
+        "womens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/kurta-seam-to-silhouette-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b52cf64f-dc78-578f-a5b7-cf1216b34865",
+      "slug": "the-kurta-in-the-jali-light-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "5e98a98788fe065b0f24ae0b7ba8433deaaab74f05523b5489890c3ca3db8043",
+      "collections": [
+        "womens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/kurta-seam-to-silhouette-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "slug": "resort-dress-the-wind-between-arches",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "254e336aec9df453b049347663a387d82088fcce6cbffba54a8db0be34349665",
+      "collections": [
+        "womens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-dress-that-moves-naturally-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "2ca4fd0e-9f4c-507e-ab5d-8d8cea49ef20",
+      "slug": "resort-dress-the-wind-between-arches-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f33da2791aa71a4ea4becb6957bbd454d4c980a65ed0981c8237b83cb4928355",
+      "collections": [
+        "womens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-dress-that-moves-naturally-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "c14716dc-ff1e-5147-ace0-c4b9f6816114",
+      "slug": "jewellery-on-sculpted-sandstone",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c7a4cf679429ca68b845961df4c605bf9c9d61046126a40b92404ea15e338ec2",
+      "collections": [
+        "womens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/jewellery-honestly-close-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "54550bbd-76ac-598d-a53a-fdde9fb37f72",
+      "slug": "jewellery-on-sculpted-sandstone-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "e4e745e1e23c69329751a5b141a7a7f311ae86376fd2ea581654fe3178856e1f",
+      "collections": [
+        "womens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/jewellery-honestly-close-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "729aa85a-7654-5745-a860-d558f0d1f7b1",
+      "slug": "the-everyday-shirt-catalogue",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "88fdbafede206770cebe6b39794737de6de099a8cca8255d1a330fab055bf57f",
+      "collections": [
+        "mens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-everyday-shirt-catalogue.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e9e9c3ba-42cd-59cc-aeb8-b56723cb2afc",
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "ae0a2f5bde02ff904a5a4514e879269b3e7a492eda60a4a3875e78137c991d69",
+      "collections": [
+        "mens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-everyday-shirt-catalogue.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+      "slug": "kurta-at-the-lantern-courtyard",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c39c7171b644117da6af39230e326da9151e95a1ea90cda85d631a7b52ecdd0f",
+      "collections": [
+        "mens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-festive-kurta-edit-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e2d0dc08-ac8b-5609-a125-0bc013306263",
+      "slug": "kurta-at-the-lantern-courtyard-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "dcc9f21a3d788135032f4b4c75eb0f28458a8f566b629ff6764016792a6441b2",
+      "collections": [
+        "mens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-festive-kurta-edit-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "65a7ee09-8679-557e-a99a-8602e85c03fd",
+      "slug": "a-jacket-from-every-angle",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "bb557a571304957139c7386d880a601bf86992c7e286997faf0351982fb92f75",
+      "collections": [
+        "mens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-jacket-from-every-angle.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "489103a5-ba55-5fb9-ac87-0d8b0141304f",
+      "slug": "a-jacket-from-every-angle-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "c5e3f019c3dc73661c4178a28eff81be25d1c8dfe01d42e070c94ec9eb460803",
+      "collections": [
+        "mens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/a-jacket-from-every-angle.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "b8af0397-db3c-5810-a871-dce8b18f428a",
+      "slug": "footwear-the-city-in-one-step",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "2222d7f7302a0d64a4ec4e1b485a598eb1a6e20437ec1f8ceb38ac7a27d94e26",
+      "collections": [
+        "mens-fashion-ecommerce"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/footwear-on-the-move-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "de9408c5-6149-5ae0-a034-cf2b3e4df8e6",
+      "slug": "footwear-the-city-in-one-step-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f5104a68532bf36a84aca68915141d2929e69eeee06b19fc6e52d35d4adba862",
+      "collections": [
+        "mens-fashion-ecommerce-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/footwear-on-the-move-editorial-v1.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "32113f5f-6e89-5cd6-a0f9-5736eaeaacff",
+      "slug": "the-honest-quarter-rotation-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f3fe5ec3aa3253351ed12d731662f0718922c0dff2280c700bd3db9fea66457e",
+      "collections": [
+        "ecommerce-product-showcase-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/the-honest-quarter-rotation-reel.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e6603e1a-a123-5f0f-a415-bdc578ebd54f",
+      "slug": "fabric-up-close-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8ee35981ecb6ac4c6b06ecfd92afa15bcdf0d6b52beca6b2792acf05bc769501",
+      "collections": [
+        "ecommerce-product-showcase-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/fabric-up-close-reel.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "bab694e7-714e-5829-a612-fe4ee2593891",
+      "slug": "front-back-the-real-product-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "8c50108251b869301ae02b8e30121019196e97457f30fcca4556b2151ce1730d",
+      "collections": [
+        "ecommerce-product-showcase-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/front-back-the-real-product-reel.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "e9119c64-40ef-55a3-a738-af1c8b21dbf0",
+      "slug": "from-detail-to-daily-use-reel",
+      "source": "content/expansion/prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d442ae2f252e5b5f0619b5a14cf13ae4bea0019f574c685c022bb2a7adb22cc3",
+      "collections": [
+        "ecommerce-product-showcase-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/from-detail-to-daily-use-reel.webp",
+      "preview_exists": false
+    },
+    {
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "slug": "the-river-remembers",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "bb09bbcc8d69895c68c4fb434e607edd9a25deae412f10f107181cde04553fed",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-river-remembers-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "69b669f26d4488accb1996c752ba6b76b084418df1816e7e2d43e292ce5609e4",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/our-courtyard-small-enough-to-hold-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "slug": "a-mountain-journey-within",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f20910ad6d74474710adbd10bdf42783034335eb966e7432da2cd86d03a4d79a",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/a-mountain-journey-within-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "slug": "the-tailors-mountain-range",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "77ac23f27aad8a84a51b68a1f1844fb54790a26067a6215c585499592e9e2e89",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/the-tailors-mountain-range-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "slug": "one-day-four-possible-worlds",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "b8ef7c0a630ca9cb3f5f6dfb69f30da83424491b87d5f1cc02b4986bc92a4569",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "75887a74aff8d0193e2e2ddc472f51b7f1190c84f5a24c7a891942f2bb595051",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "slug": "last-train-two-ink-portrait",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "3f633fb214bb382f4b457951e398c14b8059dafe48b20ecf2bb66eab797abe63",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "slug": "one-saree-three-campaign-worlds",
+      "source": "content/additions/creative-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "d32a110ea6b256db899dddf846855c4bf51abcca7f135f71825e69c525bf4d85",
+      "collections": [
+        "creative-transformations"
+      ],
+      "is_published_local": true,
+      "preview": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19",
+      "slug": "cinematic-ladakh-friends-trip",
+      "source": "content/additions/friends-trip-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "f63771d81e2f07eaeeabd129d2467e6b07be8d8ca483e4208ac91dad7284bca7",
+      "collections": [
+        "friends-travel-reels"
+      ],
+      "is_published_local": false,
+      "preview": "/previews/cinematic-ladakh-friends-trip-source-reference.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "slug": "borrowed-moon-closing-time",
+      "source": "content/additions/social-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "6268fb2662fd70e5f75c44946b7c2b919ca78a1e19fc5c4d48b17aed9cc3dc6d",
+      "collections": [],
+      "is_published_local": false,
+      "preview": "/previews/borrowed-moon-closing-time-social-v1.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "slug": "a-fold-around-you-profile",
+      "source": "content/additions/social-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "648793ffe3e0bd37dadb6f191ed1f9daefaebb325e8a82c593250c5c0fd91902",
+      "collections": [],
+      "is_published_local": false,
+      "preview": "/previews/a-fold-around-you-profile-social-v1.webp",
+      "preview_exists": true
+    },
+    {
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "slug": "small-burst-of-motion-profile",
+      "source": "content/additions/social-prompts.json",
+      "fields_indexed": [
+        "title",
+        "slug",
+        "description",
+        "prompt_text",
+        "image_brief",
+        "transformation_type",
+        "tags"
+      ],
+      "full_text_sha256": "4f7c86191fd768ff0a11288cf44c88106dd3f007174bf3bc8f1e5c30a36ebf67",
+      "collections": [],
+      "is_published_local": false,
+      "preview": "/previews/small-burst-of-motion-profile-social-v1.webp",
+      "preview_exists": true
+    }
+  ],
+  "historical_queues": [
+    {
+      "path": "docs/audits/library-2026-09/pre-editorial-reel-preview-manifest.json",
+      "sha256": "8e827b3703b389d9cc58bcbb3a7b27abd76b5b1b3da7f85620064e2bc0bb7690"
+    },
+    {
+      "path": "docs/audits/library-2026-09/reel-preview-manifest.json",
+      "sha256": "ff0d91ed13821ca1f02bd6e528f2f1c539dc94bf82f742ee1696c54ca2aed8cd"
+    },
+    {
+      "path": "docs/audits/library-2026-09/approved-image-manifest.json",
+      "sha256": "30c469220d1ce3b2e6c1e6aa2b2daa3ffdd23ad5e009294f0df11fa6a774933d"
+    },
+    {
+      "path": "docs/audits/library-2026-09/existing-asset-queue.json",
+      "sha256": "893ef144534a960bfe78b2c5e214a51570f73e63cca03eb46b1b02270c6dcbaf"
+    },
+    {
+      "path": "docs/audits/library-2026-09/approved-video-manifest.json",
+      "sha256": "1d3679cf76e7957d82bd8137b01247766406c7adb7ca19b16ed795127cc90d6d"
+    },
+    {
+      "path": "docs/audits/library-2026-09/pre-editorial-generation-queue.json",
+      "sha256": "8e6fedf2ef67fc6bfbda6e372f5ef6ab369bd365322e807922ccecc478f84469"
+    },
+    {
+      "path": "docs/audits/library-2026-09/generation-queue.json",
+      "sha256": "30c469220d1ce3b2e6c1e6aa2b2daa3ffdd23ad5e009294f0df11fa6a774933d"
+    },
+    {
+      "path": "docs/audits/creative-upgrade-2026-09-11/proposals.json",
+      "sha256": "e4ca9c94e64e2013b469efcb27c3c6848340a345acc48482c1b52b7ff258f527"
+    },
+    {
+      "path": "docs/audits/creative-batch-2026-09-11/manifest.json",
+      "sha256": "40f08f65ccf9a685c782424f7939abb640af04838338202237c2fc5b21eae323"
+    },
+    {
+      "path": "docs/audits/social-posts-profiles-2026-09-15/generation-manifest.json",
+      "sha256": "64d83995a27298129d3c0252ca74c646421ab0fae0bcbccc7fa58ac8fc2b403b"
+    },
+    {
+      "path": "docs/audits/social-posts-profiles-2026-09-15/proposals.json",
+      "sha256": "b306a7c1a1f91715ac45ac668239117ff7175f16897b474d708da34aa7c48507"
+    },
+    {
+      "path": "docs/audits/gen-z-discovery-2026-09-15/generation-manifest.json",
+      "sha256": "225f28c96e5c9fd9736dc14f0fe13459bf044cecf3d4e5ef34c11f785a888457"
+    },
+    {
+      "path": "docs/audits/friends-trip-2026-09/video-manifest.json",
+      "sha256": "70689d4aa0cf3c3fe66dce3490c5c789d4b7aaf811ff66f2c0e4901ca886438b"
+    },
+    {
+      "path": "docs/audits/friends-trip-2026-09/image-manifest.json",
+      "sha256": "09154771803c5b98f7e20abd10234449eecdc8245b15389ed8f9fd0eaba3fd02"
+    },
+    {
+      "path": "docs/audits/social-posts-profiles-2026-09-15/duplicate-review/generation-manifest.json",
+      "sha256": "9f2638aae1308c850be82fa64f638a167670eb9d449a30c28534af99b770b2e2"
+    },
+    {
+      "path": "docs/audits/social-posts-profiles-2026-09-15/duplicate-review/retained-proposals.json",
+      "sha256": "fe1d29bf6e8318976d6898754bfd717f99015713143ef491853640640a7d3fcf"
+    },
+    {
+      "path": "docs/audits/social-posts-profiles-2026-09-15/media/manifest.json",
+      "sha256": "4e9fe39746bfc99d3495139a29a4e344a88936676c6330eb9ede8bf7d118cfc4"
+    }
+  ],
+  "scope": "Complete local records/fields indexed and semantic descriptions screened; closest full records and actual available assets compared. No new production database audit. Missing draft assets explicitly remain unverified."
+}

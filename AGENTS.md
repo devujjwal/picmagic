@@ -25,3 +25,7 @@ Before any feature-branch push, verify the production branch, Netlify branch-dep
 For this task, first deliver roughly five post concepts and five square/circle-safe profile concepts with source evidence, complete user prompts and separate fictional Indian preview briefs. Stop for concept approval before image generation or application/content integration. After approval use the accessible ChatGPT workflow only; no automatic Codex/Astra/paid-API fallback. No video expansion. Preserve existing agent guidance and unrelated work.
 
 The owner subsequently authorized Codex-only image generation for the three retained concepts (POST-04, DP-01 and DP-02). This supersedes the earlier ChatGPT-only media rule for this batch only. Branch-only development and explicit production release approval remain required.
+
+## Gen Z discovery round — 15 September 2026
+
+This separate round retains the active release hold. Research and current-library duplicate checks precede a 5–8 concept shortlist; generate only that shortlist through accessible ChatGPT image generation. The prior three-asset Codex-only exception does not extend to this round. No Codex/Astra fallback, paid API, purchase or video work. Integrate only visually accepted assets locally; no automatic homepage edits or production activation.

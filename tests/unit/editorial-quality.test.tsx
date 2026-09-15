@@ -1,4 +1,5 @@
 import socialReview from "../../docs/audits/social-posts-profiles-2026-09-15/media/content-review.json";
+import genZReview from "../../docs/audits/gen-z-discovery-2026-09-15/media/content-review.json";
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
@@ -33,9 +34,11 @@ describe("Why AI editorial release", () => {
       2,
     );
     for (const p of prompts) {
-      const review = [...releaseReview.records, ...socialReview.records].find(
-        (r) => r.id === p.id,
-      )!;
+      const review = [
+        ...releaseReview.records,
+        ...socialReview.records,
+        ...genZReview.records,
+      ].find((r) => r.id === p.id)!;
       expect(review, p.slug).toBeTruthy();
       expect(
         createHash("sha256").update(p.prompt_text).digest("hex"),

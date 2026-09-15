@@ -1,8 +1,10 @@
 import "server-only";
+import { createHash } from "node:crypto";
 import {
   socialPreviewEnabled,
   socialPreviewIds,
   socialProfileIds,
+  socialPreviewMemberships,
 } from "@/lib/prompts/social-preview";
 import { orderForDiscovery } from "@/lib/prompts/editorial";
 import { unstable_cache } from "next/cache";
@@ -38,6 +40,21 @@ export class SeedRepository implements ContentRepository {
       categories: categories.map((c) => categorySchema.parse(c)),
       collections: collections
         .map((c) => collectionSchema.parse(c))
+        .map((c) =>
+          socialPreviewEnabled() && socialPreviewMemberships[c.slug]
+            ? {
+                ...c,
+                active: true,
+                is_indexable: false,
+                prompt_ids: [
+                  ...new Set([
+                    ...socialPreviewMemberships[c.slug],
+                    ...c.prompt_ids,
+                  ]),
+                ],
+              }
+            : c,
+        )
         .map((c) =>
           socialPreviewEnabled() && c.slug === "instagram-profile-picture"
             ? {
@@ -125,6 +142,19 @@ export const getCatalog = unstable_cache(
     String(socialPreviewEnabled()),
     process.env.CONTENT_SOURCE || "supabase",
     process.env.NEXT_PUBLIC_SUPABASE_URL || "local",
+    // The Data Cache survives rebuilds; local editorial changes need a new key.
+    process.env.CONTENT_SOURCE === "seed"
+      ? createHash("sha256")
+          .update(
+            JSON.stringify({
+              prompts,
+              collections,
+              categories,
+              socialPreviewMemberships,
+            }),
+          )
+          .digest("hex")
+      : "supabase",
   ],
   { revalidate: 3600, tags: ["catalog"] },
 );

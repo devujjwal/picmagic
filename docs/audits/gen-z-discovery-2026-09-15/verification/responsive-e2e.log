@@ -1,0 +1,23 @@
+
+Running 10 tests using 2 workers
+
+(node:46463) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46462) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: the-listening-room-has-tides (3.3s)
+  ✓   2 [chromium] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: between-two-gravities (3.3s)
+  ✓   3 [chromium] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: chai-between-the-floors (2.5s)
+  ✓   4 [chromium] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: one-step-outside-the-frame (2.5s)
+(node:46633) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/e2e/gen-z-discovery.spec.ts:76:1 › Gen Z drafts stay out of the sitemap and use existing collection routes (676ms)
+(node:46638) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [mobile] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: between-two-gravities (3.5s)
+  ✓   7 [mobile] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: the-listening-room-has-tides (3.5s)
+  ✓   8 [mobile] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: chai-between-the-floors (3.4s)
+  ✓   9 [mobile] › tests/e2e/gen-z-discovery.spec.ts:13:3 › local Gen Z preview: one-step-outside-the-frame (3.4s)
+  ✓  10 [mobile] › tests/e2e/gen-z-discovery.spec.ts:76:1 › Gen Z drafts stay out of the sitemap and use existing collection routes (737ms)
+
+  10 passed (16.4s)
