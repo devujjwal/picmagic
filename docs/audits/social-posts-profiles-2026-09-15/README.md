@@ -1,3 +1,5 @@
+> **Superseded scope:** See [duplicate-review/README.md](duplicate-review/README.md). Following approval and the owner’s duplicate-check instruction, only POST-04, DP-01 and DP-02 remain in the active new-work queue. This original shortlist is preserved as history.
+
 # Instagram posts and profile pictures — approval checkpoint
 
 Prepared 15 September 2026. This is a focused proposal, **not an integrated or release-ready collection**.

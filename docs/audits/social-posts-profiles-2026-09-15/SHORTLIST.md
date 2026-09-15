@@ -1,3 +1,5 @@
+> **Superseded scope:** See [duplicate-review/README.md](duplicate-review/README.md). Following approval and the owner’s duplicate-check instruction, only POST-04, DP-01 and DP-02 remain in the active new-work queue. This original shortlist is preserved as history.
+
 # PicMagic social posts and profile pictures — shortlist for approval
 
 Planning only, 15 September 2026. **No generation or integration is authorized by this document.** Five post concepts + five profile concepts; three approved post assets reused, seven new previews proposed. Scores are editorial estimates, not measured popularity.

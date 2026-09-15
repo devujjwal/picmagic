@@ -1,0 +1,301 @@
+{
+  "scope": "Screened 170 local record titles/descriptions, compared closest full prompts, and checked historical planning/queue slug collisions. Not a new complete library quality audit and not a live database read.",
+  "current_records": 170,
+  "reviewed_shortlist": 10,
+  "skip_existing": 4,
+  "defer_overlap": 3,
+  "keep_approved_new": 3,
+  "new_previews_needed": 3,
+  "new_records_planned": 3,
+  "no_automatic_replacement_concepts": true,
+  "records": [
+    {
+      "key": "POST-01",
+      "title": "The River Remembers",
+      "slug": "the-river-remembers",
+      "decision": "skip-existing",
+      "reason": "Exact existing record and approved asset. Already described as reuse in the first shortlist; exclude from new development/generation.",
+      "evidence": [
+        {
+          "slug": "the-river-remembers",
+          "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/travel/the-river-remembers",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/the-river-remembers-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "df820a7fea81bec805aa6b9f567b8ad73c53cbaae012d93221a004e51578a7bf",
+          "description": "A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split. Use your own reference for identity; the example supplies the creative treatment."
+        }
+      ]
+    },
+    {
+      "key": "POST-02",
+      "title": "Portrait Cut from Monsoon Paper",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "decision": "skip-existing",
+      "reason": "Exact existing record and approved asset. Preserve its content and canonical URL; do not regenerate.",
+      "evidence": [
+        {
+          "slug": "portrait-cut-from-monsoon-paper",
+          "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "63fb61008f5887e84acbc9d4be37de7ccb31c8bc3d012b8d7b513223774ac1c3",
+          "description": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment."
+        }
+      ]
+    },
+    {
+      "key": "POST-03",
+      "title": "The Last Train, Printed in Two Inks",
+      "slug": "last-train-two-ink-portrait",
+      "decision": "skip-existing",
+      "reason": "Exact existing record and approved asset. Preserve it; do not count it as a new prompt.",
+      "evidence": [
+        {
+          "slug": "last-train-two-ink-portrait",
+          "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/retro/last-train-two-ink-portrait",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "0be5f026655139aad7e14cac97da50ef3cfe6af72970eef881422ffab3ef713e",
+          "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment."
+        }
+      ]
+    },
+    {
+      "key": "POST-04",
+      "title": "Borrowed Moon, Closing Time",
+      "slug": "borrowed-moon-closing-time",
+      "decision": "keep-approved-new",
+      "reason": "The old cinema prompt is a static exterior portrait; the new concept has a backstage prop-returning action and a personal story. A child astronaut shares a moon prop but not this use, action or composition. No matching backstage concept found.",
+      "evidence": [
+        {
+          "slug": "a-night-at-the-cinema",
+          "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+          "source": "content/prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/cinematic/a-night-at-the-cinema",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/a-night-at-the-cinema.webp",
+          "asset_exists": true,
+          "prompt_sha256": "c17257acd0c674da6c7c758102f6f0527b7c2183350421776e590480d926fa91",
+          "description": "A night at the cinema: The person wearing a dark wool coat, standing outside an old cinema entrance at night, lettering abstract and unreadable. Reference photos determine identity; adapt the styling to make the idea your own."
+        },
+        {
+          "slug": "the-birthday-astronaut",
+          "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+          "source": "content/prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/kids/the-birthday-astronaut",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/the-birthday-astronaut.webp",
+          "asset_exists": true,
+          "prompt_sha256": "b357780ea63294c3286570670bc70ec9909b8b31ad7664d8ef7cd6a525893324",
+          "description": "The birthday astronaut: The child in a handmade silver astronaut costume with a helmet tucked beneath one arm; a small cardboard moon and paper stars decorate a navy studio set. Reference photos determine identity; adapt the styling to make the idea your own."
+        }
+      ]
+    },
+    {
+      "key": "POST-05",
+      "title": "One Ribbon, a Whole Room",
+      "slug": "one-ribbon-a-whole-room",
+      "decision": "defer-overlap",
+      "reason": "Not an exact duplicate. Supported cloth curved around a person and sculptural fashion settings already exist. A waist-up fashion-specific version is possible, but the marginal benefit is too small for this focused batch. Exclude rather than generate a colour/set variant.",
+      "evidence": [
+        {
+          "slug": "moonlit-motherhood",
+          "id": "972f7890-d4eb-5f89-ac59-27e4dc591474",
+          "source": "content/expansion/prompts.json",
+          "local_is_published": false,
+          "canonical": "/ai-prompts/women/moonlit-motherhood",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/the-garden-waiting-room-editorial-v1.webp",
+          "asset_exists": false,
+          "prompt_sha256": "65edc2733c51c905c05be2c5b17a39b6c6bc28dc8269d61ec9f5ea69dfab588c",
+          "description": "The expectant mother sits on a broad stable studio platform; softly supported fabric sweeps behind her into a crescent shape, never wrapping tightly around the body. A dark blue backdrop and a few out-of-focus paper stars suggest moonlight rather than outer space. Preserve actual pregnancy stage and comfortable posture; face, both hands and bump unobscured. The identity reference determines the people; the example provides the styling and setting."
+        },
+        {
+          "slug": "the-tailors-mountain-range",
+          "id": "6251657f-6842-59e3-9066-82529471c802",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/fashion/the-tailors-mountain-range",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/the-tailors-mountain-range-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "5a0f02df85f81d4f062575e773665ace8aebdbaed8ee5e35862301a39dd07d4c",
+          "description": "A miniature designer stands in the foreground between enormous folds of cloth resembling mountain ridges. A single oversized spool anchors the scale. The person's face is near enough to read; a seam runs like a trail toward a distant fabric pass. This is personal creative art, not an accurate sellable garment listing. Use your own reference for identity; the example supplies the creative treatment."
+        },
+        {
+          "slug": "the-art-of-standing-still",
+          "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+          "source": "content/prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/fashion/the-art-of-standing-still",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/the-art-of-standing-still.webp",
+          "asset_exists": true,
+          "prompt_sha256": "cf26dcb99d500ab3c493bd429deba98924cb73c88da137186afd3b8cfe453a69",
+          "description": "The art of standing still: The person wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall. Reference photos determine identity; adapt the styling to make the idea your own."
+        }
+      ]
+    },
+    {
+      "key": "DP-01",
+      "title": "A Fold Around You",
+      "slug": "a-fold-around-you-profile",
+      "decision": "keep-approved-new",
+      "reason": "The face stays photographic and the physical paper only frames it. Existing relief transforms the face into paper; petals create a maternity installation. The square avatar has different preservation and composition rules.",
+      "evidence": [
+        {
+          "slug": "portrait-cut-from-monsoon-paper",
+          "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "63fb61008f5887e84acbc9d4be37de7ccb31c8bc3d012b8d7b513223774ac1c3",
+          "description": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment."
+        },
+        {
+          "slug": "motherhood-in-a-field-of-paper-petals",
+          "id": "16584e1f-38d5-550f-a118-f753b61eaf66",
+          "source": "content/expansion/prompts.json",
+          "local_is_published": false,
+          "canonical": "/ai-prompts/women/motherhood-in-a-field-of-paper-petals",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/shape-of-anticipation-editorial-v1.webp",
+          "asset_exists": false,
+          "prompt_sha256": "9da91370ce9aa5d15a44c050d59d8a6f1545983ec58e55797c77db6816090249",
+          "description": "The expectant mother sits upright on a comfortable hidden-backed stool within an installation of oversized ivory paper petals. The petals form a soft opening around her without touching face or belly; a simple fitted knit dress follows her real silhouette. Keep the installation recognizably handmade with folded paper edges. The identity reference determines the people; the example provides the styling and setting."
+        }
+      ]
+    },
+    {
+      "key": "DP-02",
+      "title": "A Small Burst of Motion",
+      "slug": "small-burst-of-motion-profile",
+      "decision": "keep-approved-new",
+      "reason": "Two broad illustrated shoulder arcs are distinct from a landscape inside a jacket, photographic commuter blur or natural foliage shadows. Keep one large photographic face and no repeated identities.",
+      "evidence": [
+        {
+          "slug": "a-mountain-journey-within",
+          "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/travel/a-mountain-journey-within",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/a-mountain-journey-within-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "9dec435cb41d71409e46538ad24eeda5595c9ddf463b6ee83c9be56fad80398c",
+          "description": "An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. Use your own reference for identity; the example supplies the creative treatment."
+        },
+        {
+          "slug": "city-lights-main-character-energy",
+          "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+          "source": "content/prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/men/city-lights-main-character-energy",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/city-lights-main-character-energy.webp",
+          "asset_exists": true,
+          "prompt_sha256": "69b7bf099492539c8d3520f4539a14321343aa6f54dd6289889bbb004ee21143",
+          "description": "City lights, main-character energy: The person wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind them. Reference photos determine identity; adapt the styling to make the idea your own."
+        },
+        {
+          "slug": "floral-shadows-a-clear-face",
+          "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+          "source": "content/expansion/prompts.json",
+          "local_is_published": false,
+          "canonical": "/ai-prompts/women/floral-shadows-a-clear-face",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/a-small-festive-detail-editorial-v1.webp",
+          "asset_exists": false,
+          "prompt_sha256": "8de1eb8dd039746a52f9e59f347a47d20cc9e42351cdeac8af1ce41589ac873a",
+          "description": "The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting."
+        }
+      ]
+    },
+    {
+      "key": "DP-03",
+      "title": "Monochrome Rain, Face in Focus",
+      "slug": "monochrome-rain-face-in-focus",
+      "decision": "skip-existing",
+      "reason": "Same canonical owner and core clear-face monochrome/rain profile use already exist as a draft. Changing doorway rain to a glass pane and making a square master does not justify a new concept here. Cancel the proposed rework for this batch; leave the original draft unchanged.",
+      "evidence": [
+        {
+          "slug": "monochrome-rain-face-in-focus",
+          "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+          "source": "content/expansion/prompts.json",
+          "local_is_published": false,
+          "canonical": "/ai-prompts/women/monochrome-rain-face-in-focus",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/a-monochrome-hello-editorial-v1.webp",
+          "asset_exists": false,
+          "prompt_sha256": "528f9a6a74e409d3a7cc055446a0f0fad34f12bb989f96a7f26c8febd9952316",
+          "description": "Create a black-and-white close-up of the person just inside a sheltered doorway, with rain streaks visible behind one shoulder and tiny droplets on the outer jacket collar. Their eyes remain dry, expression calm, face evenly readable; retain pores, age and distinguishing marks. Centre both eyes and mouth inside a circular profile crop. The identity reference determines the people; the example provides the styling and setting."
+        }
+      ]
+    },
+    {
+      "key": "DP-04",
+      "title": "Your Features, Two Bold Inks",
+      "slug": "your-features-two-bold-inks-profile",
+      "decision": "defer-overlap",
+      "reason": "Not an exact duplicate: square linocut would differ from railway halftone. But the two-ink identity portrait is already covered. Defer the new variant and media; do not assume the current rectangular image passes circular QA.",
+      "evidence": [
+        {
+          "slug": "last-train-two-ink-portrait",
+          "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/retro/last-train-two-ink-portrait",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "0be5f026655139aad7e14cac97da50ef3cfe6af72970eef881422ffab3ef713e",
+          "description": "A readable close portrait is crossed only at the shoulder by the shadow of a diagonal carriage window. Plum and saffron inks reveal coarse halftone, paper fibres and deliberate registration offset in the background; the eyes remain crisp. No actor reference, film title or invented lettering. Use your own reference for identity; the example supplies the creative treatment."
+        }
+      ]
+    },
+    {
+      "key": "DP-05",
+      "title": "A Cameo Made of Clay",
+      "slug": "cameo-made-of-clay-profile",
+      "decision": "defer-overlap",
+      "reason": "Not an exact duplicate: clay has continuous modelling rather than paper planes. Both offer a tactile shallow-relief likeness, however, and clay adds high identity risk. Material substitution alone is not enough incremental value for this batch.",
+      "evidence": [
+        {
+          "slug": "portrait-cut-from-monsoon-paper",
+          "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+          "source": "content/additions/creative-prompts.json",
+          "local_is_published": true,
+          "canonical": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+          "aspect_ratio": "4:5",
+          "preview_path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+          "asset_exists": true,
+          "prompt_sha256": "63fb61008f5887e84acbc9d4be37de7ccb31c8bc3d012b8d7b513223774ac1c3",
+          "description": "A close portrait is built from layered torn and cut paper, with real edge thickness and shallow cast shadows. Curved monsoon cloud shapes sit behind the head, not across the eyes. The nose and cheek planes arise from paper relief rather than a flat filter. Use your own reference for identity; the example supplies the creative treatment."
+        }
+      ]
+    }
+  ],
+  "content_snapshot_hashes": {
+    "content/prompts.json": "38dd0fd5ec617e7e27770f533717602a94b6aa00b104f325e9b679c55a2989e3",
+    "content/expansion/prompts.json": "247a13db73337de5afd12ce756637f06823b9aeb6f5cb06436c3c0bf926f7701",
+    "content/additions/creative-prompts.json": "b6d104dd8b2eec7be36bc2f1aee2569ad2ac803d12a04c77d7c4a4ebea9b7ac1",
+    "content/additions/friends-trip-prompts.json": "873a4ec3c1dac9c41d260b91ec24989374044705dfdc026181d2913ff8e941e9"
+  }
+}

@@ -1,4 +1,5 @@
 """Planning artifacts only. Never imports or updates application content."""
+raise SystemExit("Historical shortlist generator frozen. Use duplicate-review/retained-proposals.json and duplicate-review/generation-manifest.json; do not restore skipped concepts.")
 import json, uuid, hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3]
