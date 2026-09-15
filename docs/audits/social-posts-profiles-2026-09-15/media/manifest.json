@@ -1,0 +1,112 @@
+[
+  {
+    "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+    "key": "POST-04",
+    "slug": "borrowed-moon-closing-time",
+    "action": "generate-only-after-approval",
+    "exact_generation_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 29, medium-brown complexion, shoulder-length naturally wavy hair, short beard, ordinary sturdy build, in a faded olive work jacket over a plain T-shirt.\n\nUse no real private person or competitor image as a reference. Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "required_reference_assets": [],
+    "aspect_ratio": "4:5",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "expected_filename": "/previews/borrowed-moon-closing-time-social-v1.webp",
+    "alt_text": "A man in an olive jacket steadies a painted crescent moon on a backstage cart beside empty theatre seats.",
+    "provenance": {
+      "provider": "Codex built-in image_gen",
+      "generated_at": "2026-09-15T04:21:53.915Z",
+      "generation_output": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-75707405-27f3-4ab5-9d18-16c2410efcbe.png",
+      "personal_user_photos": false,
+      "authorization": "Latest owner instruction: generate the images in Codex only"
+    },
+    "qa_status": "passed: full image, mobile feed or square/circle 40/64/128 review; fictional persona only, no customer identity guarantee",
+    "generation_authorized": true,
+    "approval_basis": "Owner approved the original shortlist; later duplicate review retained this concept unchanged.",
+    "source_file": "docs/audits/social-posts-profiles-2026-09-15/media/sources/borrowed-moon-closing-time.png",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "optimized_dimensions": [
+      1080,
+      1350
+    ],
+    "optimized_bytes": 162378,
+    "optimized_path": "public/previews/borrowed-moon-closing-time-social-v1.webp"
+  },
+  {
+    "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+    "key": "DP-01",
+    "slug": "a-fold-around-you-profile",
+    "action": "generate-only-after-approval",
+    "exact_generation_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 45, brown complexion, a receding hairline, close-cropped hair, rectangular glasses, short salt-and-pepper beard and a natural stocky build; plain navy crewneck.\n\nUse no real private person or competitor image as a reference. Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "required_reference_assets": [],
+    "aspect_ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "expected_filename": "/previews/a-fold-around-you-profile-social-v1.webp",
+    "alt_text": "A man with glasses and a salt-and-pepper beard framed by folded cream paper against a blue background.",
+    "provenance": {
+      "provider": "Codex built-in image_gen",
+      "generated_at": "2026-09-15T04:22:25.914Z",
+      "generation_output": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-ac81c4e9-9535-4f82-a05c-5b6f18bbdf29.png",
+      "personal_user_photos": false,
+      "authorization": "Latest owner instruction: generate the images in Codex only"
+    },
+    "qa_status": "passed: full image, mobile feed or square/circle 40/64/128 review; fictional persona only, no customer identity guarantee",
+    "generation_authorized": true,
+    "approval_basis": "Owner approved the original shortlist; later duplicate review retained this concept unchanged.",
+    "source_file": "docs/audits/social-posts-profiles-2026-09-15/media/sources/a-fold-around-you-profile.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "optimized_dimensions": [
+      1024,
+      1024
+    ],
+    "optimized_bytes": 93440,
+    "optimized_path": "public/previews/a-fold-around-you-profile-social-v1.webp"
+  },
+  {
+    "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+    "key": "DP-02",
+    "slug": "small-burst-of-motion-profile",
+    "action": "generate-only-after-approval",
+    "exact_generation_prompt": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 48, medium-deep complexion, salt-and-pepper bob with natural waves, small oval glasses and an ordinary full build; simple rust-coloured top.\n\nUse no real private person or competitor image as a reference. Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "required_reference_assets": [],
+    "aspect_ratio": "1:1",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "expected_filename": "/previews/small-burst-of-motion-profile-social-v1.webp",
+    "alt_text": "A woman with glasses and a grey wavy bob, with coral and teal brushstrokes behind her shoulders.",
+    "provenance": {
+      "provider": "Codex built-in image_gen",
+      "generated_at": "2026-09-15T04:25:33.149Z",
+      "generation_output": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-2854a59d-897c-42f8-86ae-52801d175607.png",
+      "personal_user_photos": false,
+      "authorization": "Latest owner instruction: generate the images in Codex only",
+      "initial_output": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-d35f216e-81aa-439a-8e31-b28f451c28a9.png",
+      "correction": "Opaque warm-grey background and additional headroom, retaining the same fictional face; full correction prompt recorded separately."
+    },
+    "qa_status": "passed: full image, mobile feed or square/circle 40/64/128 review; fictional persona only, no customer identity guarantee",
+    "generation_authorized": true,
+    "approval_basis": "Owner approved the original shortlist; later duplicate review retained this concept unchanged.",
+    "source_file": "docs/audits/social-posts-profiles-2026-09-15/media/sources/small-burst-of-motion-profile.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "optimized_dimensions": [
+      1024,
+      1024
+    ],
+    "optimized_bytes": 104352,
+    "optimized_path": "public/previews/small-burst-of-motion-profile-social-v1.webp"
+  }
+]

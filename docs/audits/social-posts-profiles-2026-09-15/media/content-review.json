@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "slug": "borrowed-moon-closing-time",
+      "sha256": "620fab5f23edcd3de870d77d8ea1e4d473c7ae6f46a5a4618ceeaa5ebc417034",
+      "note": "Approved concept; canonical reference preamble adapted to existing validator, preserving single-person/glasses and styling rules. Local draft only."
+    },
+    {
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "slug": "a-fold-around-you-profile",
+      "sha256": "46953444ab34afb4f7f11d66548fb6a99fa14ef4f603722e4196711262783a20",
+      "note": "Approved concept; canonical reference preamble adapted to existing validator, preserving single-person/glasses and styling rules. Local draft only."
+    },
+    {
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "slug": "small-burst-of-motion-profile",
+      "sha256": "ec87494d1cc427f6597384bb2112484435bb46570c92df145e37b9564a9399df",
+      "note": "Approved concept; canonical reference preamble adapted to existing validator, preserving single-person/glasses and styling rules. Local draft only."
+    }
+  ]
+}

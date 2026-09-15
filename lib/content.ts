@@ -1,4 +1,9 @@
 import "server-only";
+import {
+  socialPreviewEnabled,
+  socialPreviewIds,
+  socialProfileIds,
+} from "@/lib/prompts/social-preview";
 import { orderForDiscovery } from "@/lib/prompts/editorial";
 import { unstable_cache } from "next/cache";
 import { createClient } from "@supabase/supabase-js";
@@ -22,11 +27,28 @@ export class SeedRepository implements ContentRepository {
   async getCatalog() {
     return {
       prompts: orderForDiscovery(
-        prompts.map((p) => promptSchema.parse(p)).filter((p) => p.is_published),
+        prompts
+          .map((p) => promptSchema.parse(p))
+          .filter(
+            (p) =>
+              p.is_published ||
+              (socialPreviewEnabled() && socialPreviewIds.has(p.id)),
+          ),
       ),
       categories: categories.map((c) => categorySchema.parse(c)),
       collections: collections
         .map((c) => collectionSchema.parse(c))
+        .map((c) =>
+          socialPreviewEnabled() && c.slug === "instagram-profile-picture"
+            ? {
+                ...c,
+                active: true,
+                is_indexable: false,
+                name: "Profile Picture / DP Ideas",
+                prompt_ids: [...socialProfileIds, ...c.prompt_ids],
+              }
+            : c,
+        )
         .filter((c) => c.active),
     };
   }
@@ -100,6 +122,7 @@ export const getCatalog = unstable_cache(
   () => repository().getCatalog(),
   [
     "catalog-v3-editorial",
+    String(socialPreviewEnabled()),
     process.env.CONTENT_SOURCE || "supabase",
     process.env.NEXT_PUBLIC_SUPABASE_URL || "local",
   ],

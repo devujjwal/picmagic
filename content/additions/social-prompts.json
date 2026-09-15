@@ -1,0 +1,223 @@
+[
+  {
+    "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+    "slug": "borrowed-moon-closing-time",
+    "title": "Borrowed Moon, Closing Time",
+    "description": "A playful fictional movie moment that feels like a story about the user, not a generic portrait. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Exactly one supplied person is the identity authority; retain glasses and facial hair unless explicitly changed by the user.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.\n\nThis is an adult story/fashion concept. If the only reference is a child, ask for an appropriate adult reference rather than ageing the child up.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Fictional film story"
+    ],
+    "occasion": "Instagram post",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/borrowed-moon-closing-time-social-v1.webp",
+    "thumbnail_url": "/previews/borrowed-moon-closing-time-social-v1-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A man in an olive jacket steadies a painted crescent moon on a backstage cart beside empty theatre seats.",
+    "lighting": "Warm theatre work light with cool stage spill",
+    "framing": "Waist-up 4:5 portrait",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "Instagram post",
+      "borrowed-moon-closing-time"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 200,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "Borrowed Moon, Closing Time — AI Post Prompt | PicMagic",
+    "seo_description": "A playful fictional movie moment that feels like a story about the user, not a generic portrait. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "created_at": "2026-09-15T04:21:53.915Z",
+    "updated_at": "2026-09-15T04:21:53.915Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Does PicMagic generate this image for me?",
+        "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 29, medium-brown complexion, shoulder-length naturally wavy hair, short beard, ordinary sturdy build, in a faded olive work jacket over a plain T-shirt.\n\nUse no real private person or competitor image as a reference. Create one original fictional-film still in the side aisle of a small theatre after the performance. The person, waist-up in the foreground, steadies a lightweight moon-shaped theatre prop already resting on a low wheeled cart. Show a quiet amused sideways glance, as if caught returning the moon backstage. A crescent of the large painted prop remains beside the torso, never behind the head as a halo. Include one rolled stage curtain and softly receding empty seats; no famous film set, celebrity likeness or recognizable franchise costume. Warm work light grazes the face and painted surface; cooler spill from the stage gives depth. The moon is a tangible painted prop, not a second sky or a glowing object fused to the hands. Keep hands simple and naturally resting on its accessible rim.\n\nOUTPUT: One 4:5 portrait composition, target 1080 × 1350. Keep the person prominent, with a clearly readable face in a 375px-wide mobile feed; use close or waist-up framing rather than a tiny full-body subject. Maintain one clear visual idea. No title, lettering, brand marks, watermark, collage panels, duplicate people, distorted hands, extra limbs or background elements passing through the body.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Recreates a controlled theatre shoot with a large scenic prop and coordinated set lighting that most people cannot readily stage.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "fictional-film-moment",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "adult-required",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+    "slug": "a-fold-around-you-profile",
+    "title": "A Fold Around You",
+    "description": "A clean avatar with a tactile frame that stays understandable at tiny size. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Exactly one supplied person is the identity authority; retain glasses and facial hair unless explicitly changed by the user.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Creative profile portrait"
+    ],
+    "occasion": "Cross-app profile picture",
+    "aspect_ratio": "1:1",
+    "preview_image_url": "/previews/a-fold-around-you-profile-social-v1.webp",
+    "thumbnail_url": "/previews/a-fold-around-you-profile-social-v1-thumb.webp",
+    "image_width": 1024,
+    "image_height": 1024,
+    "image_alt": "A man with glasses and a salt-and-pepper beard framed by folded cream paper against a blue background.",
+    "lighting": "Soft neutral face light",
+    "framing": "Square close portrait with circular safe area",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe",
+      "a-fold-around-you-profile"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 200,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "A Fold Around You — Profile Picture Prompt | PicMagic",
+    "seo_description": "A clean avatar with a tactile frame that stays understandable at tiny size. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "created_at": "2026-09-15T04:22:25.914Z",
+    "updated_at": "2026-09-15T04:22:25.914Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Will this work as a circular profile picture?",
+        "answer": "Use the square composition and keep your full face inside the central circle. Check the finished result at small size before using it."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian man about 45, brown complexion, a receding hairline, close-cropped hair, rectangular glasses, short salt-and-pepper beard and a natural stocky build; plain navy crewneck.\n\nUse no real private person or competitor image as a reference. Create a photographic close portrait in front of a physically folded sheet of heavy cream paper. Two broad asymmetric folds behind the left and right shoulders form an open aperture around the head, with soft real cast shadows and a quiet petrol-blue backing. Keep the face, hair, glasses and clothing photographic; do not turn the person into paper, tear through the face or wrap paper around the neck. Use neutral soft frontal light on the face and restrained side light on the paper. Show one calm, natural expression with readable eyes and distinct separation from the backing.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a custom folded set fitted precisely to a reference portrait and circular safe area.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "physical-paper-frame",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "preserve",
+      "product_views": "not-applicable"
+    }
+  },
+  {
+    "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+    "slug": "small-burst-of-motion-profile",
+    "title": "A Small Burst of Motion",
+    "description": "Express personality through one legible graphic gesture while keeping the face familiar. Use your own reference photo in your chosen image tool; PicMagic provides the prompt, not direct image generation.",
+    "prompt_text": "REFERENCE PRESENT: The supplied person/persons are authoritative for identity. Preserve each recognizable face, facial structure, distinguishing features, age, ethnicity, skin tone, natural body proportions and hairline. The PicMagic preview supplies the creative treatment, pose, wardrobe, expression, composition, lighting and environment only; do not copy its model's face or identity. Cultural styling never determines ethnicity. Adapt hair arrangement, clothing, expression and pose only as required by the concept, keeping the person recognizable. Otherwise preserve or gently arrange the existing hair. Exactly one supplied person is the identity authority; retain glasses and facial hair unless explicitly changed by the user.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult with a believable, individual appearance. This is an invented example, not a personalized result.\n\nSTYLING: Adapt pose, expression, clothing or hair arrangement only enough to support the concept. Do not unnecessarily change hair length, texture or colour. Keep the person recognizable and the styling appropriate to their actual age. No automatic beautification, age reduction, skin lightening, altered facial proportions or physique changes.\n\nCREATIVE DIRECTION: Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nBefore rendering, resolve any conflict in favour of reference identity and the stated material. Identity preservation is an instruction, not a guaranteed third-party result.",
+    "category_id": "social-media",
+    "prompt_type": "photo",
+    "subject": "One person",
+    "style": [
+      "Creative profile portrait"
+    ],
+    "occasion": "Cross-app profile picture",
+    "aspect_ratio": "1:1",
+    "preview_image_url": "/previews/small-burst-of-motion-profile-social-v1.webp",
+    "thumbnail_url": "/previews/small-burst-of-motion-profile-social-v1-thumb.webp",
+    "image_width": 1024,
+    "image_height": 1024,
+    "image_alt": "A woman with glasses and a grey wavy bob, with coral and teal brushstrokes behind her shoulders.",
+    "lighting": "Soft neutral face light",
+    "framing": "Square close portrait with circular safe area",
+    "camera": "Natural portrait perspective",
+    "suggested_tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "Profile picture",
+      "WhatsApp DP",
+      "Instagram avatar",
+      "Cross-app avatar",
+      "Circle safe",
+      "small-burst-of-motion-profile"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 200,
+    "is_published": false,
+    "is_indexable": false,
+    "seo_title": "A Small Burst of Motion — Profile Picture Prompt | PicMagic",
+    "seo_description": "Express personality through one legible graphic gesture while keeping the face familiar. Copy the reference-first prompt into your chosen image tool; results vary.",
+    "created_at": "2026-09-15T04:25:33.149Z",
+    "updated_at": "2026-09-15T04:25:33.149Z",
+    "published_at": null,
+    "faqs": [
+      {
+        "question": "Can I use my own photograph?",
+        "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary."
+      },
+      {
+        "question": "Will this work as a circular profile picture?",
+        "answer": "Use the square composition and keep your full face inside the central circle. Check the finished result at small size before using it."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Create a PicMagic fictional preview, not a personalized customer result. One fictional Indian woman about 48, medium-deep complexion, salt-and-pepper bob with natural waves, small oval glasses and an ordinary full build; simple rust-coloured top.\n\nUse no real private person or competitor image as a reference. Create a photographic chest-up avatar of one person in a relaxed slight turn, looking toward camera. Two broad hand-drawn brush arcs follow the outer shoulder line: one muted coral arc on one side and one deep teal arc on the other. They sit behind the shoulders like an illustrator’s notation of a lively turn, not extra arms, wings, a glowing halo or repeated silhouettes. Keep the head, facial landmarks and hair free of marks. Use a clean warm-grey ground, soft natural face light and one genuine small smile. The brushwork is visible pigment with imperfect edges; avoid confetti, symbols and many thin doodles.\n\nOUTPUT: One 1:1 square master, target 1024 × 1024. A single close or chest-up portrait with the face as the primary focal point. Centre the eyes, nose and mouth; keep the complete head, hair and chin comfortably inside the central circular crop, with visible breathing room above and below. Aim for the head to occupy roughly 55–65% of canvas height; adapt to the person's actual hair and headwear without trimming them. The identity and one broad treatment must remain legible as both square and circular avatars at 40, 64 and 128 pixels. Put decoration toward the sides and behind the shoulders, not across facial landmarks. Do not add a printed circular border, multiple panels, duplicate heads, tiny writing, logos or watermarks.\n\nNatural age cues and proportions; no airbrushed skin, ethnicity substitution, stereotyped features, anatomical distortion or watermark. This image is an AI-generated example.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "distinctiveness_score": 4,
+    "why_ai": "Combines a reference-conditioned photograph with carefully registered illustration adapted to a small avatar.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "preview_video": null,
+    "transformation_type": "illustrated-shoulder-motion",
+    "display_hint": "standard",
+    "generation_mode": "reference-optional",
+    "reference_contract": {
+      "medium": "photographic",
+      "identity_count": 1,
+      "depiction_count": 1,
+      "reference_age": "preserve",
+      "product_views": "not-applicable"
+    }
+  }
+]

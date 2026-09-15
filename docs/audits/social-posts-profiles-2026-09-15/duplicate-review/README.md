@@ -1,3 +1,5 @@
+> Media generation and local draft integration are now documented in [../media/README.md](../media/README.md). The owner subsequently authorized Codex-only generation; the provider requirement below is historical.
+
 # Duplicate and overlap review
 
 This review supersedes the original ten-item development/generation scope. The owner approved that shortlist, then asked to skip existing prompts and reanalyse. Three unchanged, already-approved concepts remain; no replacement concepts are silently added.

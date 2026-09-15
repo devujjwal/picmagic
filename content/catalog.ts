@@ -1,3 +1,4 @@
+import socialPrompts from "./additions/social-prompts.json";
 import existingPrompts from "./prompts.json";
 import existingCollections from "./collections.json";
 import expansionPrompts from "./expansion/prompts.json";
@@ -6,5 +7,5 @@ import friendsPrompts from "./additions/friends-trip-prompts.json";
 import friendsCollections from "./additions/friends-trip-collections.json";
 import creativePrompts from "./additions/creative-prompts.json";
 import creativeCollections from "./additions/creative-collections.json";
-export const allPrompts = [...existingPrompts, ...expansionPrompts, ...friendsPrompts, ...creativePrompts];
+export const allPrompts = [...existingPrompts, ...expansionPrompts, ...friendsPrompts, ...creativePrompts, ...socialPrompts];
 export const allCollections = [...existingCollections, ...expansionCollections, ...friendsCollections, ...creativeCollections];
