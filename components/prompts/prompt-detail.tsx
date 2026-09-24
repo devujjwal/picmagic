@@ -10,6 +10,7 @@ import { PromptGrid } from "./prompt-grid";
 import { relatedPrompts } from "@/lib/prompts/discovery";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { StructuredData } from "@/components/ui/structured-data";
+import { site } from "@/config/site";
 export function PromptDetail({
   prompt: p,
   catalog,
@@ -28,6 +29,8 @@ export function PromptDetail({
     medium: isReel ? "reel" : "photo",
     contextIds: [p.id],
   }).map((pick) => pick.collection);
+  const canonical = site.url + promptPath(p);
+  const imageUrl = new URL(p.preview_image_url, site.url).href;
   return (
     <div className="container">
       <Breadcrumbs
@@ -123,6 +126,13 @@ export function PromptDetail({
           </div>
         </div>
       </div>
+      {p.why_ai && (
+        <section className="detail-insight" aria-labelledby="concept-heading">
+          <div className="eyebrow">Why this concept works</div>
+          <h2 id="concept-heading">A look built for AI, not a stock filter.</h2>
+          <p>{p.why_ai}</p>
+        </section>
+      )}
       {p.reel_template && (
         <FriendsTripCreator initial={p.reel_template.variables} />
       )}
@@ -196,6 +206,42 @@ export function PromptDetail({
         />
         <AdSlot placement="prompt-related-feed" />
       </section>
+      <StructuredData
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": `${canonical}#webpage`,
+          url: canonical,
+          name: p.title,
+          description: p.description,
+          datePublished: p.published_at || p.created_at,
+          dateModified: p.updated_at,
+          primaryImageOfPage: {
+            "@type": "ImageObject",
+            "@id": `${canonical}#primaryimage`,
+            url: imageUrl,
+            contentUrl: imageUrl,
+            caption: p.image_alt,
+            width: p.image_width,
+            height: p.image_height,
+          },
+          mainEntity: {
+            "@type": "CreativeWork",
+            "@id": `${canonical}#prompt`,
+            name: p.title,
+            description: p.description,
+            image: { "@id": `${canonical}#primaryimage` },
+            dateCreated: p.created_at,
+            dateModified: p.updated_at,
+            keywords: [...new Set([...p.style, ...p.tags])].join(", "),
+            creator: {
+              "@type": "Organization",
+              name: site.name,
+              url: site.url,
+            },
+          },
+        }}
+      />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import type { Prompt, Collection } from "@/types/content";
+import { isPromptSeoEligible } from "@/lib/seo/eligibility";
 export function searchPrompts(prompts: Prompt[], query: string) {
   const terms = query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
   return prompts
@@ -23,13 +24,30 @@ export function searchPrompts(prompts: Prompt[], query: string) {
     );
 }
 export function relatedPrompts(current: Prompt, all: Prompt[], limit = 8) {
-  const score = (p: Prompt) =>
-    Number(p.subject === current.subject) * 4 +
-    Number(p.category_id === current.category_id) * 3 +
-    p.style.filter((x) => current.style.includes(x)).length * 2 +
-    Number(p.occasion === current.occasion && p.occasion !== "Everyday");
+  const currentIsReel = ["reel", "video"].includes(current.prompt_type);
+  const score = (p: Prompt) => {
+    const sharedStyles = p.style.filter((x) =>
+      current.style.includes(x),
+    ).length;
+    const sharedTags = p.tags.filter((x) => current.tags.includes(x)).length;
+    return (
+      Number(p.subject === current.subject) * 4 +
+      Number(p.category_id === current.category_id) * 3 +
+      sharedStyles * 2 +
+      Math.min(sharedTags, 3) +
+      Number(p.occasion === current.occasion && p.occasion !== "Everyday") * 2 +
+      Number(p.content_intent === current.content_intent)
+    );
+  };
   return Array.from(new Map(all.map((p) => [p.id, p])).values())
-    .filter((p) => p.id !== current.id && p.is_published)
+    .filter(
+      (p) =>
+        p.id !== current.id &&
+        isPromptSeoEligible(p) &&
+        ["reel", "video"].includes(p.prompt_type) === currentIsReel &&
+        p.preview_image_url !== current.preview_image_url &&
+        score(p) > 0,
+    )
     .sort((a, b) => score(b) - score(a) || a.trending_rank - b.trending_rank)
     .slice(0, limit);
 }

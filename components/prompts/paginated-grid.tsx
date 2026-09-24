@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import type { Prompt } from "@/types/content";
+import type { PromptCardData } from "@/lib/prompts/card-data";
 import { PromptGrid } from "./prompt-grid";
 
 const subscribe = () => () => {};
@@ -13,7 +13,7 @@ export function PaginatedGrid({
   page,
   path,
 }: {
-  prompts: Prompt[];
+  prompts: PromptCardData[];
   page: number;
   path: string;
 }) {

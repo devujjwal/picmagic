@@ -1,8 +1,9 @@
 import { notFound, permanentRedirect } from "next/navigation";
 import { getCatalog, repository } from "@/lib/content";
 import { CatalogPage } from "@/components/prompts/catalog-page";
-import { metadata } from "@/lib/seo/metadata";
+import { brandedTitle, metadata } from "@/lib/seo/metadata";
 import { pageNumber } from "@/lib/prompts/discovery";
+import { isCollectionSeoEligible } from "@/lib/seo/eligibility";
 type Props = {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ page?: string }>;
@@ -18,14 +19,15 @@ export async function generateMetadata({ params, searchParams }: Props) {
   const c = catalog.collections.find((c) => c.slug === slug && c.active);
   if (!c) return {};
   const n = pageNumber((await searchParams).page);
-  const count = catalog.prompts.filter((p) =>
-    c.prompt_ids.includes(p.id),
-  ).length;
+  const baseTitle = (c.seo_title || c.name).replace(
+    /\s*\|\s*PicMagic\s*$/i,
+    "",
+  );
   return metadata(
-    `${c.seo_title || c.name}${n > 1 ? ` — Page ${n}` : ""} | PicMagic`,
+    brandedTitle(`${baseTitle}${n > 1 ? ` — Page ${n}` : ""}`),
     c.seo_description || c.description,
     `/collections/${slug}${n > 1 ? `?page=${n}` : ""}`,
-    c.is_indexable && count >= 4 && c.description.length >= 100,
+    isCollectionSeoEligible(c, catalog.prompts),
   );
 }
 export default async function Collection({ params, searchParams }: Props) {

@@ -1,11 +1,11 @@
 {
-  "origin": "http://localhost:4313",
-  "measuredAt": "2026-09-11T04:18:11.540Z",
+  "origin": "http://127.0.0.1:4316",
+  "measuredAt": "2026-09-24T06:28:14.575Z",
   "indexingExpected": true,
-  "sitemapCanonicalCount": 94,
-  "libraryRecords": 170,
-  "published": 75,
-  "readyCollections": 7,
+  "sitemapCanonicalCount": 112,
+  "libraryRecords": 186,
+  "published": 91,
+  "readyCollections": 8,
   "checked": [
     {
       "path": "/",
@@ -13,9 +13,15 @@
       "canonical": "https://picmagic.in",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "WebSite"
-      ]
+      "structuredTypes": ["WebSite"]
+    },
+    {
+      "path": "/collections",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections",
+      "robots": "index, follow",
+      "descriptionInHead": true,
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/ai-prompts/women",
@@ -23,10 +29,7 @@
       "canonical": "https://picmagic.in/ai-prompts/women",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/collections/romantic",
@@ -34,10 +37,7 @@
       "canonical": "https://picmagic.in/collections/romantic",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/collections/creative-transformations",
@@ -45,10 +45,7 @@
       "canonical": "https://picmagic.in/collections/creative-transformations",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
@@ -56,10 +53,7 @@
       "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
     },
     {
       "path": "/ai-prompts/couple/barefoot-at-blue-hour",
@@ -67,10 +61,7 @@
       "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
     },
     {
       "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
@@ -78,10 +69,7 @@
       "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
     },
     {
       "path": "/reel-prompts/the-anniversary-slow-dance",
@@ -89,10 +77,7 @@
       "canonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
     },
     {
       "path": "/ai-prompts?page=2",
@@ -100,10 +85,7 @@
       "canonical": "https://picmagic.in/ai-prompts?page=2",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/collections/dating-profile",
@@ -111,10 +93,7 @@
       "canonical": "https://picmagic.in/collections/dating-profile",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     },
     {
       "path": "/collections/dating-profile-reels",
@@ -122,10 +101,7 @@
       "canonical": "https://picmagic.in/collections/dating-profile-reels",
       "robots": "index, follow",
       "descriptionInHead": true,
-      "structuredTypes": [
-        "BreadcrumbList",
-        "CollectionPage"
-      ]
+      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
     }
   ],
   "shareImageStatus": 200,

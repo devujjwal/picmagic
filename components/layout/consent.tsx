@@ -19,6 +19,7 @@ import {
   readConsent,
   subscribeConsent,
 } from "@/lib/privacy/consent";
+import { AnalyticsConsentBanner } from "./analytics-consent-banner";
 const analyticsSnapshot = () => readConsent(analyticsConsentKey);
 const serverSnapshot = () => "no" as const;
 
@@ -75,6 +76,7 @@ export function Consent({ nonce }: { nonce?: string }) {
           strategy="afterInteractive"
         />
       )}
+      {ga && <AnalyticsConsentBanner choice={choice} />}
       {loadAdvertising && adReady && (
         <Script
           nonce={nonce}

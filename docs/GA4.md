@@ -23,6 +23,7 @@ Live on 10 September 2026: the owner completed legal acceptance and created PicM
 - Real Google collection verified at 13:19:56 UTC: `page_view` and `prompt_save` both received HTTP 204 from Google Analytics for `G-DY3MC34E0S`. Page location was `https://picmagic.in/`; the diagnostic query string was excluded.
 - No GA script or collection before consent or after initial rejection. After withdrawal, the reloaded page contained no GA script. Zero CSP violations. Ads were blocked in the verification browser to avoid test ad impressions.
 - Google's Realtime interface initially still showed zero users. HTTP 204 confirms successful collection transport, not finished report processing; the new-property report can lag. Recheck the linked dashboard without redeploying.
+- On 24 September 2026, a fresh production session enabled analytics through PicMagic's privacy controls and GA4 Realtime immediately showed one active user from India. The measurement ID and data stream therefore require no dashboard correction; the standard Home setup warning is stale until processed reporting catches up.
 
 ## Release verification procedure
 
@@ -31,6 +32,8 @@ Before release, run the existing local analytics browser journeys with a stubbed
 ## Measurement behavior
 
 Analytics consent is stored under `picmagic:analytics-consent`. Advertising consent is controlled separately by Google’s CMP; see [AdSense operations](ADSENSE.md). Blocked or unavailable storage prevents collection. Cookie preferences and cross-tab changes support withdrawal; the page reloads to stop previously loaded integrations.
+
+The September 24 SEO branch adds a visible first-visit choice for optional analytics because the GA4 property had received no data while the choice was available only in footer preferences. Collection remains off by default. Consented sessions also send sanitized `web_vital` events for field LCP, INP, CLS, FCP and TTFB monitoring; these events contain metric identifiers and values, never prompt text, search text or query strings.
 
 The adapter sends one page view per public route transition and typed feature events. Query strings, URL fragments, search text, generated prompt text and arbitrary event properties are excluded. External referrers are reduced to their origin. Admin routes are excluded. Session-depth milestones are deduplicated using optional sessionStorage only after analytics consent. Google signals and advertising personalization are disabled in the Analytics tag configuration. The analytics adapter never changes advertising-storage or personalization consent; Google’s publisher CMP owns advertising signals.
 

@@ -12,7 +12,7 @@ import {
   activeCollection,
 } from "@/lib/prompts/discovery";
 import { promptSchema, promptPath } from "@/types/content";
-import { metadata, jsonLd } from "@/lib/seo/metadata";
+import { brandedTitle, metadata, jsonLd } from "@/lib/seo/metadata";
 import data from "@/content/prompts.json";
 const prompts = data.map((p) => promptSchema.parse(p));
 const base = {
@@ -152,6 +152,17 @@ describe("SEO", () => {
       metadata("Title", "Description", "/collections/romantic").alternates
         ?.canonical,
     ).toBe("https://picmagic.in/collections/romantic");
+  });
+  it("normalizes brand suffixes and allows large image previews", () => {
+    expect(brandedTitle("Creative transformations | PicMagic")).toBe(
+      "Creative transformations | PicMagic",
+    );
+    expect(brandedTitle("Creative transformations")).toBe(
+      "Creative transformations | PicMagic",
+    );
+    expect(metadata("Title", "Description", "/").robots).toMatchObject({
+      googleBot: { "max-image-preview": "large" },
+    });
   });
   it("escapes script-breaking markup in structured data", () => {
     expect(

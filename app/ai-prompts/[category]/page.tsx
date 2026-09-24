@@ -3,6 +3,7 @@ import { getCatalog } from "@/lib/content";
 import { CatalogPage } from "@/components/prompts/catalog-page";
 import { metadata } from "@/lib/seo/metadata";
 import { pageNumber } from "@/lib/prompts/discovery";
+import { isCategorySeoEligible } from "@/lib/seo/eligibility";
 type Props = {
   params: Promise<{ category: string }>;
   searchParams: Promise<{ page?: string }>;
@@ -14,14 +15,15 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params, searchParams }: Props) {
   const { category } = await params;
-  const c = (await getCatalog()).categories.find((c) => c.slug === category);
+  const catalog = await getCatalog();
+  const c = catalog.categories.find((c) => c.slug === category);
   if (!c) return {};
   const n = pageNumber((await searchParams).page);
   return metadata(
     `${c.seo_title}${n > 1 ? ` — Page ${n}` : ""}`,
     c.description,
     `/ai-prompts/${c.slug}${n > 1 ? `?page=${n}` : ""}`,
-    c.is_indexable,
+    isCategorySeoEligible(c, catalog.prompts),
   );
 }
 export default async function Category({ params, searchParams }: Props) {

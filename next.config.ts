@@ -38,6 +38,12 @@ const config: NextConfig = {
         destination: "https://picmagic.in/:path*",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "picmagic-in.netlify.app" }],
+        destination: "https://picmagic.in/:path*",
+        permanent: true,
+      },
     ];
   },
   async headers() {

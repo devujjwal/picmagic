@@ -19,6 +19,7 @@ export function Footer() {
           <div>
             <h2>Find your inspiration</h2>
             <Link href="/ai-prompts">Photo ideas</Link>
+            <Link href="/collections">Curated collections</Link>
             <Link href="/enhance-photo">Enhance your photo</Link>
             <Link href="/reel-prompts">Reel ideas</Link>
             <Link href="/create">

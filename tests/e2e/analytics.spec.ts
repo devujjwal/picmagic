@@ -28,9 +28,6 @@ test("analytics consent, sanitized SPA pageviews, events and revocation", async 
   await page.goto("/?email=do-not-send@example.com");
   expect(requests).toBe(0);
   await page
-    .getByRole("button", { name: "Cookie preferences", exact: true })
-    .click();
-  await page
     .getByRole("button", { name: "Allow analytics", exact: true })
     .click();
   await expect.poll(() => requests).toBe(1);

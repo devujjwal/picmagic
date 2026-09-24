@@ -34,7 +34,9 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp"
+    "featured_image": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+    "seo_title": "Romantic Couple AI Photo Prompts",
+    "seo_description": "Explore romantic AI photo prompts for couples, from rainy city walks to quiet beach evenings, with natural poses and identity-first reference guidance."
   },
   {
     "id": "saree",
@@ -77,7 +79,9 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/city-lights-main-character-energy.webp"
+    "featured_image": "/previews/city-lights-main-character-energy.webp",
+    "seo_title": "Cinematic AI Photo Prompts and Portrait Ideas",
+    "seo_description": "Create film-like AI portraits with practical direction for atmosphere, lighting and composition while keeping the uploaded person recognisable."
   },
   {
     "id": "studio",
@@ -105,7 +109,9 @@
     "start_date": null,
     "end_date": null,
     "priority": 10,
-    "featured_image": "/previews/the-birthday-astronaut.webp"
+    "featured_image": "/previews/the-birthday-astronaut.webp",
+    "seo_title": "Studio Portrait and Product AI Photo Prompts",
+    "seo_description": "Browse studio AI prompts for portraits and products with clean backdrops, controlled lighting and precise composition guidance."
   },
   {
     "id": "professional",

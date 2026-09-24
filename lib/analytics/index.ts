@@ -25,6 +25,12 @@ type Properties = {
   query_length?: number;
   generator_type?: string;
 };
+type WebVitalMetric = {
+  id: string;
+  name: "CLS" | "FCP" | "FID" | "INP" | "LCP" | "TTFB";
+  rating: "good" | "needs-improvement" | "poor";
+  value: number;
+};
 declare global {
   interface Window {
     dataLayer?: unknown[];
@@ -160,6 +166,21 @@ export function track(event: AnalyticsEvent, props: Properties = {}) {
     page_location:
       "https://picmagic.in" + safeAnalyticsPath(window.location.pathname),
     page_referrer: safeReferrer(document.referrer),
+  });
+}
+export function trackWebVital(metric: WebVitalMetric) {
+  if (!startAnalytics()) return;
+  const path = safeAnalyticsPath(window.location.pathname);
+  if (!path || !/^[\w-]{1,100}$/.test(metric.id)) return;
+  window.gtag!("event", "web_vital", {
+    metric_name: metric.name,
+    metric_id: metric.id,
+    metric_value: Math.round(
+      metric.name === "CLS" ? metric.value * 1000 : metric.value,
+    ),
+    metric_rating: metric.rating,
+    non_interaction: true,
+    page_location: `https://picmagic.in${path}`,
   });
 }
 export function recordDepth(path: string) {

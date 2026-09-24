@@ -10,6 +10,8 @@ import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { StructuredData } from "@/components/ui/structured-data";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { site } from "@/config/site";
+import { toPromptCard } from "@/lib/prompts/card-data";
+import { isCategorySeoEligible } from "@/lib/seo/eligibility";
 export function CatalogPage({
   title,
   description,
@@ -38,6 +40,7 @@ export function CatalogPage({
   const pages = Math.max(1, Math.ceil(prompts.length / 24));
   if (page > pages) notFound();
   const shown = prompts.slice((page - 1) * 24, page * 24);
+  const cards = prompts.map(toPromptCard);
   return (
     <div className="container">
       <CategoryView category={path} />
@@ -67,7 +70,12 @@ export function CatalogPage({
           {reelsOnly ? "All reel ideas" : "All looks"}
         </Link>
         {(reelsOnly ? [] : categories)
-          .filter((c) => c.slug !== "reels")
+          .filter(
+            (c) =>
+              c.slug !== "reels" &&
+              (isCategorySeoEligible(c, availablePrompts) ||
+                path === `/ai-prompts/${c.slug}`),
+          )
           .map((c) => (
             <Link
               className={`chip ${path === `/ai-prompts/${c.slug}` ? "active" : ""}`}
@@ -87,7 +95,7 @@ export function CatalogPage({
           <h2 className="sr-only">Explore these looks</h2>
           <PaginatedGrid
             key={`${path}-${page}`}
-            prompts={prompts}
+            prompts={cards}
             page={page}
             path={path}
           />

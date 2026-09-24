@@ -94,6 +94,58 @@ test("collection and prompt namespaces never overlap", async ({ page }) => {
   const response = await page.goto("/ai-prompts/couple/romantic");
   expect(response?.status()).toBe(404);
 });
+test("collection hub exposes curated crawl paths", async ({ page }) => {
+  await page.goto("/collections");
+  await expect(
+    page.getByRole("heading", { name: "Find a collection for the moment." }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("region", { name: "Explore curated collections" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Creative transformations", exact: true }),
+  ).toHaveAttribute("href", "/collections/creative-transformations");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://picmagic.in/collections",
+  );
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth,
+    ),
+  ).toBe(true);
+  const results = await new AxeBuilder({ page })
+    .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+    .analyze();
+  expect(results.violations).toEqual([]);
+});
+test("prompt metadata identifies its primary image and creative work", async ({
+  page,
+}) => {
+  await page.goto("/ai-prompts/women/golden-hour-draped-in-tradition");
+  await expect(page.locator('meta[name="googlebot"]')).toHaveAttribute(
+    "content",
+    /max-image-preview:large/,
+  );
+  await expect(
+    page.locator('meta[property="og:image"]').first(),
+  ).toHaveAttribute(
+    "content",
+    "https://picmagic.in/previews/golden-hour-draped-in-tradition.webp",
+  );
+  const structured = await page
+    .locator('script[type="application/ld+json"]')
+    .allTextContents();
+  expect(structured.some((value) => value.includes('"@type":"WebPage"'))).toBe(
+    true,
+  );
+  expect(
+    structured.some((value) => value.includes('"@type":"ImageObject"')),
+  ).toBe(true);
+  expect(
+    structured.some((value) => value.includes('"@type":"CreativeWork"')),
+  ).toBe(true);
+});
 test("admin is protected and preview is noindex", async ({ page }) => {
   await page.goto("/admin/prompts");
   await expect(page).toHaveURL(/\/admin\/login/);

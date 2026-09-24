@@ -93,4 +93,34 @@ describe("analytics consent and SPA measurement", () => {
     expect(() => m.trackPageView("/")).not.toThrow();
     expect(window.dataLayer).toEqual([]);
   });
+  it("sends sanitized web-vital measurements only after consent", async () => {
+    const m = await import("@/lib/analytics");
+    m.trackWebVital({
+      id: "v4-123",
+      name: "LCP",
+      rating: "good",
+      value: 2184.4,
+    });
+    expect(window.dataLayer).toEqual([]);
+    localStorage.setItem("picmagic:analytics-consent", "yes");
+    m.trackWebVital({
+      id: "v4-123",
+      name: "LCP",
+      rating: "good",
+      value: 2184.4,
+    });
+    const commands = window.dataLayer!.map((x) =>
+      Array.from(x as ArrayLike<unknown>),
+    );
+    expect(commands).toContainEqual([
+      "event",
+      "web_vital",
+      expect.objectContaining({
+        metric_name: "LCP",
+        metric_id: "v4-123",
+        metric_value: 2184,
+        metric_rating: "good",
+      }),
+    ]);
+  });
 });

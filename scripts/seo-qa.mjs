@@ -1,20 +1,42 @@
 import fs from "node:fs/promises";
 const read = async (path) => JSON.parse(await fs.readFile(path, "utf8"));
-const prompts = [
-  ...(await read("content/prompts.json")),
-  ...(await read("content/expansion/prompts.json")),
-  ...(await read("content/additions/creative-prompts.json")),
-  ...(await read("content/additions/friends-trip-prompts.json")),
+const additions = await fs.readdir("content/additions");
+const promptFiles = [
+  "content/prompts.json",
+  "content/expansion/prompts.json",
+  ...additions
+    .filter((name) => name.endsWith("-prompts.json"))
+    .sort()
+    .map((name) => `content/additions/${name}`),
 ];
-const collections = [
-  ...(await read("content/collections.json")),
-  ...(await read("content/expansion/collections.json")),
-  ...(await read("content/additions/creative-collections.json")),
-  ...(await read("content/additions/friends-trip-collections.json")),
+const collectionFiles = [
+  "content/collections.json",
+  "content/expansion/collections.json",
+  ...additions
+    .filter((name) => name.endsWith("-collections.json"))
+    .sort()
+    .map((name) => `content/additions/${name}`),
 ];
+const prompts = [...(await Promise.all(promptFiles.map(read))).flat()];
+const collections = [...(await Promise.all(collectionFiles.map(read))).flat()];
 const origin = process.env.E2E_BASE_URL || "http://localhost:4313";
 const indexing = process.env.SEO_EXPECT_INDEXING !== "false";
 const site = "https://picmagic.in";
+const promptEligible = (p) =>
+  Boolean(
+    p.is_published &&
+    p.is_indexable &&
+    p.preview_review_status === "approved" &&
+    p.editorial_review_version === "why-ai-2026-09-v1" &&
+    p.why_ai?.trim().length >= 40 &&
+    (p.content_intent === "utility"
+      ? p.distinctiveness_score >= 3
+      : p.content_intent === "creative" && p.distinctiveness_score >= 4) &&
+    (!["reel", "video"].includes(p.prompt_type) ||
+      (p.reel?.hook?.trim() &&
+        p.reel?.progression?.trim() &&
+        p.reel?.payoff?.trim())),
+  );
 const request = (path, options = {}) =>
   fetch(origin + path, {
     headers: { "User-Agent": "Twitterbot/1.0 (PicMagic local metadata QA)" },
@@ -34,7 +56,7 @@ if (urls.some((url) => /\/(search|saved|admin)(\/|$)/.test(url)))
   failures.push("Private/noindex URL in sitemap");
 if (!indexing && urls.length) failures.push("Preview sitemap should be empty");
 for (const p of prompts) {
-  const expected = indexing && p.is_published && p.is_indexable;
+  const expected = indexing && promptEligible(p);
   if (urls.includes(site + promptPath(p)) !== expected)
     failures.push(`Sitemap membership ${p.slug}`);
 }
@@ -42,9 +64,14 @@ const ready = collections.filter(
   (c) =>
     c.active &&
     c.is_indexable &&
-    c.description.length >= 100 &&
-    prompts.filter((p) => p.is_published && c.prompt_ids.includes(p.id))
-      .length >= 4,
+    c.description.length >= 120 &&
+    prompts.filter((p) => promptEligible(p) && c.prompt_ids.includes(p.id))
+      .length >= 4 &&
+    new Set(
+      prompts
+        .filter((p) => promptEligible(p) && c.prompt_ids.includes(p.id))
+        .map((p) => p.preview_image_url),
+    ).size >= 4,
 );
 for (const c of collections) {
   if (
@@ -56,6 +83,7 @@ for (const c of collections) {
 const checked = [];
 const sample = [
   "/",
+  "/collections",
   "/ai-prompts/women",
   "/collections/romantic",
   "/collections/creative-transformations",
@@ -84,6 +112,7 @@ for (const path of sample) {
     /<meta name="description" content="([^"]+)"/,
   )?.[1];
   const og = head.match(/<meta property="og:url" content="([^"]+)"/)?.[1];
+  const title = head.match(/<title>(.*?)<\/title>/)?.[1];
   if (
     !response.ok ||
     !canonical ||
@@ -91,6 +120,8 @@ for (const path of sample) {
     !description ||
     Boolean(robots?.includes("noindex")) === indexing ||
     !og ||
+    !title ||
+    /\|\s*PicMagic\s*\|\s*PicMagic/i.test(title) ||
     !canonical ||
     new URL(og).href !== new URL(canonical).href
   )

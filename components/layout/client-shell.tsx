@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { NoticeProvider } from "@/features/saved/store";
 import { Consent } from "@/components/layout/consent";
+import { WebVitals } from "@/components/analytics/web-vitals";
 export function ClientShell({
   children,
   nonce,
@@ -28,6 +29,7 @@ export function ClientShell({
         {notice}
       </div>
       <Consent nonce={nonce} />
+      <WebVitals />
     </NoticeProvider>
   );
 }

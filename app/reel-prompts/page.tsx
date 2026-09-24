@@ -10,6 +10,7 @@ import { metadata as makeMetadata } from "@/lib/seo/metadata";
 import { pageNumber } from "@/lib/prompts/discovery";
 import { promptPath } from "@/types/content";
 import { site } from "@/config/site";
+import { toPromptCard } from "@/lib/prompts/card-data";
 type Props = { searchParams: Promise<{ page?: string }> };
 export async function generateMetadata({ searchParams }: Props) {
   const page = pageNumber((await searchParams).page);
@@ -45,7 +46,7 @@ export default async function Reels({ searchParams }: Props) {
       </p>
       <PaginatedGrid
         key={`reels-${page}`}
-        prompts={reels}
+        prompts={reels.map(toPromptCard)}
         page={page}
         path="/reel-prompts"
       />
