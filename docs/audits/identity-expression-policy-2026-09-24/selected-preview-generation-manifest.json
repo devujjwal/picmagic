@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-09-24T09:10:00.000Z",
+  "policy_version": "identity-expression-age-v2",
+  "private_reference_paths_committed": false,
+  "items": [
+    {
+      "slug": "the-river-remembers",
+      "title": "The River Remembers",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: approximately 42.",
+      "expression_directive": "Quiet, reflective and contemplative; only restrained natural warmth, not a camera-facing smile.",
+      "scene_prompt": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/the-river-remembers-identity-v2-ce7d3f07d3.webp",
+      "thumbnail_url": "/previews/the-river-remembers-identity-v2-ce7d3f07d3-thumb.webp",
+      "image_alt": "A reflective Indian woman rests an open journal on ghat steps as indigo ink flows from the page into a real river.",
+      "source_sha256": "ce7d3f07d3ae70251291fa73e2598d5263ea5f89cd6d612b4283aae28669eff2"
+    },
+    {
+      "slug": "the-heritage-railway-letter",
+      "title": "The Letter Before the Train Leaves",
+      "catalog": "content/expansion/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24",
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit ages: woman approximately 45; man approximately 49.",
+      "expression_directive": "Quietly relieved affection with subtle closed-mouth smiles appropriate to a railway farewell.",
+      "scene_prompt": "Create one original finished photographic artwork for PicMagic: The Letter Before the Train Leaves. Exactly two fictional Indian adults, a woman about 45 with deep-brown skin and loose short curls and a man about 49 with medium-brown complexion and a greying moustache; distinct faces and ordinary builds. They exchange one folded cream letter beside a STATIONARY 1970s-inspired heritage railway carriage. Muted maroon and cream travel clothes. Compose a close emotional three-quarter view: their separate hands support opposite ends of the same small letter; the recipient looks at the giver with a warm relieved smile, the giver looks back. Amber platform lamps and cool drifting steam create depth; steam hides the far end of the empty platform, never faces or hands. No readable lettering on the carriage or paper, no actors, borrowed film composition, logos or watermark. Period is wardrobe and set styling only. Believable hand anatomy and body posture, unretouched natural skin, subtle photographic grain. 4:5 vertical target 1200 × 1500. Faces should remain readable at a mobile-card size. Generate the image itself.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b.webp",
+      "thumbnail_url": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b-thumb.webp",
+      "image_alt": "A middle-aged Indian couple exchange a letter beside a heritage train on a softly lit railway platform.",
+      "source_sha256": "6abc645a5b763a75f3d3a1c00a8d6dc286d28f02012bbdeeeec4c6f04c9ae513"
+    },
+    {
+      "slug": "a-mountain-journey-within",
+      "title": "A Mountain Journey Within",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: approximately 58.",
+      "expression_directive": "Calm, reflective and composed with relaxed closed lips.",
+      "scene_prompt": "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9.webp",
+      "thumbnail_url": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9-thumb.webp",
+      "image_alt": "A reflective older Indian man appears above a mountain road woven through his outdoor jacket in a double-exposure portrait.",
+      "source_sha256": "ce4a52bab97f40f27c2c2179e91690ccedc54777de97c60d811539bf96202ace"
+    },
+    {
+      "slug": "the-tailors-mountain-range",
+      "title": "The Tailor's Mountain Range",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: approximately 47.",
+      "expression_directive": "Focused and quietly proud while moving through the textile landscape.",
+      "scene_prompt": "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87.webp",
+      "thumbnail_url": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87-thumb.webp",
+      "image_alt": "A middle-aged Indian tailor walks through enormous indigo fabric folds shaped like a mountain range.",
+      "source_sha256": "d18d512c873b0dea6ac1317cc22f363afa5baaaecac10ef6979fb6c7c1513a76"
+    },
+    {
+      "slug": "one-day-four-possible-worlds",
+      "title": "One Day, Four Possible Worlds",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 in all four depictions.",
+      "expression_directive": "Thoughtful main portrait, curious observer, focused potter and gentle open-air smile; expressions follow each panel's action.",
+      "scene_prompt": "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7.webp",
+      "thumbnail_url": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7-thumb.webp",
+      "image_alt": "The same young Indian man appears in four possible worlds as a portrait subject, observer, potter and mountain traveller.",
+      "source_sha256": "37337157b77db781712958a2f134b1a5933872d2a23887661088e2f1e134eeb0"
+    },
+    {
+      "slug": "portrait-cut-from-monsoon-paper",
+      "title": "Portrait Cut from Monsoon Paper",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit mature portrait with believable age progression and naturally grey hair, approximately mid-fifties.",
+      "expression_directive": "Restrained, gentle and reflective; preserve expression through the paper medium without a generic model smile.",
+      "scene_prompt": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134.webp",
+      "thumbnail_url": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134-thumb.webp",
+      "image_alt": "A mature Indian woman's recognizable portrait is constructed from layered indigo, cream, umber and silver-grey monsoon paper.",
+      "source_sha256": "e8dbcce134a8d4ae322edfa84acd478877d131acf5d6ec2d1c6a963e1fd0ca85"
+    },
+    {
+      "slug": "one-saree-three-campaign-worlds",
+      "title": "One Saree, Three Campaign Worlds",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 in all three panels.",
+      "expression_directive": "Composed professional editorial neutrality with relaxed closed lips and level mouth corners; no smile.",
+      "scene_prompt": "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e.webp",
+      "thumbnail_url": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e-thumb.webp",
+      "image_alt": "The same young Indian woman models one indigo saree in three distinct campaign environments.",
+      "source_sha256": "452d11b29ec3e8248fc73c94765b83e330379ad2f0d1eaedf789ecf1cd356ed8"
+    },
+    {
+      "slug": "last-train-two-ink-portrait",
+      "title": "The Last Train, Printed in Two Inks",
+      "catalog": "content/additions/creative-prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: approximately 52.",
+      "expression_directive": "Thoughtful and inward-looking, as if watching the end of a journey; no smile.",
+      "scene_prompt": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf.webp",
+      "thumbnail_url": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf-thumb.webp",
+      "image_alt": "A thoughtful middle-aged Indian woman appears in a plum-and-saffron two-ink railway portrait.",
+      "source_sha256": "c01737bfdfd363bba044194f18cfb9bf9ce7ceb8efe492043a5ee62508c30d12"
+    },
+    {
+      "slug": "a-little-rain-a-lot-of-romance",
+      "title": "A little rain. A lot of romance.",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24",
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 to both people.",
+      "expression_directive": "Warm affectionate eye contact with small natural smiles appropriate to the romantic scene.",
+      "scene_prompt": "Generate a 4:5 original photograph of a fictional Indian couple with distinct natural faces under a transparent umbrella on a rainy East Asian city street. Charcoal overcoat over black knitwear and beige trench coat, warm affectionate eye contact and small smiles. The coat wearer holds the umbrella, the other rests one hand on their arm. Wet pavement reflects warm shop lights against blue dusk. Natural skin and separate fingers, no text or watermark.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be.webp",
+      "thumbnail_url": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be-thumb.webp",
+      "image_alt": "A young Indian couple share a transparent umbrella and affectionate smiles on a rainy city street.",
+      "source_sha256": "3da22335becdd9c62478ef3a74bef02b68598a14ac00ce280a5784e9bcccd58f"
+    },
+    {
+      "slug": "somewhere-in-the-mediterranean",
+      "title": "Somewhere in the Mediterranean",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+      "expression_directive": "A natural cheerful travel smile that belongs to the bright social scene.",
+      "scene_prompt": "Generate one original 4:5 travel editorial photograph. A fictional Indian woman with medium-brown skin and distinct natural face, wearing a rust-orange linen dress and carrying a woven straw bag, strolling through a whitewashed Mediterranean lane with blue shutters and a glimpse of the sea. Bright natural afternoon light, relaxed expression, full body and bare sandal-wearing feet visible. Natural skin, hands and anatomy, no text or collage.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48.webp",
+      "thumbnail_url": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48-thumb.webp",
+      "image_alt": "A cheerful young Indian woman in a rust dress stands on a sunlit Mediterranean street above the sea.",
+      "source_sha256": "9ff83c9c48fa22a10ed1bb6e8ab8b90ce4ae9663ded44e7a389d2da4a21cd2f0"
+    },
+    {
+      "slug": "old-school-charm-new-memories",
+      "title": "Old-school charm, new memories",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24",
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: both people are in their fifties.",
+      "expression_directive": "Genuine shared laughter directed toward each other, appropriate to the nostalgic social moment.",
+      "scene_prompt": "Create one original editorial photograph, portrait 4:5 composition. a South Asian couple in their fifties laughing beside a vintage maroon car, the woman in a mustard printed saree and the man in a cream open-collar shirt and brown trousers, on a quiet tree-lined avenue. Lighting: late afternoon light with subdued 1980s film colour. Camera/composition: 50mm lens, f/4, wide two-person environmental composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae.webp",
+      "thumbnail_url": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae-thumb.webp",
+      "image_alt": "An Indian couple in their fifties laugh together beside a vintage maroon car on a tree-lined avenue.",
+      "source_sha256": "2fc532daaea40546838673ba0c6eeeeee84b42d6e9bf7638efbe51650eee3fc7"
+    },
+    {
+      "slug": "the-desert-in-your-rear-view",
+      "title": "The desert in your rear-view",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Explicit scene age: a man in his thirties.",
+      "expression_directive": "Calm and thoughtful while looking toward the distant dunes; relaxed closed lips and no smile.",
+      "scene_prompt": "Create one original editorial photograph, portrait 4:5 composition. a North African man in his thirties with olive skin and a short beard, wearing a sand-coloured linen shirt, standing beside a dusty parked four-wheel-drive with immense dunes behind him. Lighting: low desert sunset, warm highlights and cool shadows. Camera/composition: 35mm lens, f/8, wide environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594.webp",
+      "thumbnail_url": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594-thumb.webp",
+      "image_alt": "A thoughtful Indian man in his thirties stands beside a dusty four-wheel-drive at sunset in the desert.",
+      "source_sha256": "ae73ac759442eb436d2a136ee884b59d6b50a4f3e781a11282cdf658fb8b3c2a"
+    },
+    {
+      "slug": "a-modern-bridal-heirloom",
+      "title": "A modern bridal heirloom",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+      "expression_directive": "Gentle, composed bridal warmth with a very subtle closed-mouth smile.",
+      "scene_prompt": "Create one original editorial photograph, portrait 4:5 composition. a South Indian bride with dark brown skin in an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera against a textured deep brown studio backdrop. Lighting: soft Rembrandt light with careful jewellery highlights. Camera/composition: 85mm lens, f/4, elegant half-body portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40.webp",
+      "thumbnail_url": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40-thumb.webp",
+      "image_alt": "A young South Indian bride wears an emerald Kanjeevaram saree, jasmine flowers and layered traditional gold jewellery.",
+      "source_sha256": "c26d8c5c4081e298caccc013ffc362a400663b6a4bcde36a11ec73a04af6ebbd"
+    },
+    {
+      "slug": "the-art-of-standing-still",
+      "title": "The art of standing still",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "female-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+      "expression_directive": "Serious, composed and editorial, with chin slightly lifted and eyes beyond the camera; no smile.",
+      "scene_prompt": "Create one original editorial photograph, portrait 4:5 composition. a tall South Asian woman with medium brown skin wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall. Lighting: hard directional studio light casting a crisp graphic shadow. Camera/composition: 70mm lens, f/8, full-body editorial composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab.webp",
+      "thumbnail_url": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab-thumb.webp",
+      "image_alt": "A serious young Indian woman in a sculptural cobalt-blue suit holds an angular full-body pose beside a curved white wall.",
+      "source_sha256": "e4dc1367ab145af3f1fbf27df42573574094000a19d5d57587f9c72e3d0d81b4"
+    },
+    {
+      "slug": "city-lights-main-character-energy",
+      "title": "City lights, main-character energy",
+      "catalog": "content/prompts.json",
+      "identity_policy_version": "identity-expression-age-v2",
+      "identity_reference_ids": [
+        "male-preview-reference-2026-09-24"
+      ],
+      "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+      "expression_directive": "Alert and thoughtful while looking across the street, with relaxed closed lips and no smile.",
+      "scene_prompt": "Create one original editorial photograph, portrait 4:5 composition. a young Indian man with medium brown skin and curly hair wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind him. Lighting: mixed teal storefront light and warm practical street lamps. Camera/composition: 35mm lens, f/2, three-quarter portrait with subtle motion blur behind the sharp subject. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "precedence": "The identity policy, logical identity references, age directive and expression directive override any legacy fictional-persona details inside the scene prompt; the scene prompt controls composition, styling and creative mechanism.",
+      "preview_image_url": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af.webp",
+      "thumbnail_url": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af-thumb.webp",
+      "image_alt": "A thoughtful young Indian man stands still at a wet Mumbai crossing while commuters blur around him at dusk.",
+      "source_sha256": "bb1b8885af4c0d1f16a7ee07816a412cf7af2451ef3d5aa60de57eb6c61a8078"
+    }
+  ]
+}

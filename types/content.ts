@@ -132,7 +132,9 @@ export const promptSchema = z
     persona_policy: z
       .enum(["person", "product", "person-and-product", "animal"])
       .nullish(),
-    persona_version: z.literal("reference-first-india-default-v1").nullish(),
+    persona_version: z
+      .enum(["reference-first-india-default-v1", "identity-expression-age-v2"])
+      .nullish(),
   })
   .superRefine((p, ctx) => {
     const invalid = (message: string) =>

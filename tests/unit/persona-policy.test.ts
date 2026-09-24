@@ -1,10 +1,15 @@
 import { describe, it, expect } from "vitest";
 import { allPrompts, allCollections } from "@/content/catalog";
 import {
+  PERSONA_POLICY_VERSION,
   personaIssues,
   personaPreamble,
   referencePersona,
 } from "@/lib/prompts/persona";
+import {
+  composePreviewGenerationPrompt,
+  PREVIEW_GENERATION_POLICY_VERSION,
+} from "@/lib/prompts/preview-generation-policy";
 import { promptPath, promptSchema } from "@/types/content";
 import { TemplatePromptProvider } from "@/features/generator/provider";
 import existing from "@/content/prompts.json";
@@ -131,5 +136,30 @@ describe("reference and preview persona separation", () => {
     expect(result.text).toContain(referencePersona);
     expect(result.text).toContain("NO REFERENCE PRESENT:");
     expect(result.text).not.toContain("lips, hairstyle, skin tone");
+  });
+  it("separates identity from prompt-led age and expression for future generation", () => {
+    const preamble = personaPreamble("person", "adult woman");
+    expect(PERSONA_POLICY_VERSION).toBe("identity-expression-age-v2");
+    expect(preamble).toContain("authoritative for identity only");
+    expect(preamble).toContain("approximately 22–30");
+    expect(preamble).toContain("creative direction controls emotion");
+    expect(preamble).toContain("Do not copy the reference smile");
+
+    const composed = composePreviewGenerationPrompt({
+      identityRole: "female",
+      referenceAssetId: "private-female-reference",
+      explicitAge: null,
+      mood: "serious editorial",
+      expression: "neutral, composed gaze with closed lips",
+      scenePrompt: "A cobalt studio fashion portrait.",
+      outputRequirements: "One 4:5 image.",
+    });
+    expect(PREVIEW_GENERATION_POLICY_VERSION).toBe(
+      "preview-identity-expression-age-v1",
+    );
+    expect(composed).toContain("identity only");
+    expect(composed).toContain("use approximately 22–30");
+    expect(composed).toContain("neutral, composed gaze with closed lips");
+    expect(composed).not.toContain("smiling reference");
   });
 });
