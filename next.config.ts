@@ -4,8 +4,9 @@ const config: NextConfig = {
   distDir: process.env.PICMAGIC_DIST_DIR || ".next",
   // Keep canonical and description tags in the initial head for every client.
   htmlLimitedBots: /.*/,
-  // The small Tailwind stylesheet can arrive with HTML on slow mobile networks.
-  experimental: { inlineCss: true },
+  // External CSS removes ~78 KB of duplicated CSS per HTML response and caches across pages.
+  // The opt-in switch is retained only for reproducible local A/B benchmarks.
+  experimental: { inlineCss: process.env.PICMAGIC_INLINE_CSS === "true" },
   images: {
     // Only the disposable local Supabase test instance may serve local images.
     // Hosted builds retain Next.js private-network protection.
@@ -48,6 +49,16 @@ const config: NextConfig = {
   },
   async headers() {
     return [
+      {
+        // Only content-addressed previews are immutable. Legacy names still revalidate.
+        source: "/previews/:asset([a-z0-9-]+-[a-f0-9]{10}(?:-thumb)?)\\.webp",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
       {
         source: "/:path*",
         headers: [

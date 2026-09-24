@@ -39,17 +39,32 @@ export function relatedPrompts(current: Prompt, all: Prompt[], limit = 8) {
       Number(p.content_intent === current.content_intent)
     );
   };
-  return Array.from(new Map(all.map((p) => [p.id, p])).values())
-    .filter(
-      (p) =>
-        p.id !== current.id &&
-        isPromptSeoEligible(p) &&
-        ["reel", "video"].includes(p.prompt_type) === currentIsReel &&
-        p.preview_image_url !== current.preview_image_url &&
-        score(p) > 0,
-    )
-    .sort((a, b) => score(b) - score(a) || a.trending_rank - b.trending_rank)
-    .slice(0, limit);
+  return (
+    Array.from(new Map(all.map((p) => [p.id, p])).values())
+      .filter(
+        (p) =>
+          p.id !== current.id &&
+          isPromptSeoEligible(p) &&
+          ["reel", "video"].includes(p.prompt_type) === currentIsReel &&
+          p.preview_image_url !== current.preview_image_url &&
+          score(p) >= 4,
+      )
+      .sort((a, b) => score(b) - score(a) || a.trending_rank - b.trending_rank)
+      // Avoid filling a whole rail with repeated posters or the same visual style.
+      .reduce<Prompt[]>((selected, candidate) => {
+        if (selected.length >= Math.max(0, limit)) return selected;
+        if (
+          selected.some(
+            (p) => p.preview_image_url === candidate.preview_image_url,
+          )
+        )
+          return selected;
+        const style = candidate.style[0];
+        if (selected.filter((p) => p.style[0] === style).length >= 3)
+          return selected;
+        return [...selected, candidate];
+      }, [])
+  );
 }
 export function activeCollection(c: Collection, now = new Date()) {
   const date = new Intl.DateTimeFormat("en-CA", {

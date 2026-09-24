@@ -1,0 +1,133 @@
+{
+  "measuredAt": "2026-09-24T09:23:09.137Z",
+  "origin": "http://127.0.0.1:4316",
+  "mode": "Mobile Lighthouse, 3 cold runs; Google blocked. Local lab, not field CWV.",
+  "results": [
+    {
+      "route": "/",
+      "htmlBytes": 249792,
+      "samples": [
+        {
+          "scores": {
+            "performance": 94,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 3083.699,
+          "cls": 0,
+          "tbt": 27.5,
+          "ttfb": 16
+        },
+        {
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 2654.4518,
+          "cls": 0,
+          "tbt": 21.5,
+          "ttfb": 15
+        },
+        {
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 1965.3896,
+          "cls": 0,
+          "tbt": 18.5,
+          "ttfb": 14
+        }
+      ]
+    },
+    {
+      "route": "/ai-prompts/men",
+      "htmlBytes": 176710,
+      "samples": [
+        {
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 2110.9863,
+          "cls": 0,
+          "tbt": 20.5,
+          "ttfb": 11
+        },
+        {
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 2435.3722,
+          "cls": 0,
+          "tbt": 22,
+          "ttfb": 12
+        },
+        {
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcp": 2575.4514,
+          "cls": 0,
+          "tbt": 21,
+          "ttfb": 14
+        }
+      ]
+    },
+    {
+      "route": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "htmlBytes": 184027,
+      "samples": [
+        {
+          "scores": {
+            "performance": 97,
+            "accessibility": 100,
+            "best-practices": 96,
+            "seo": 100
+          },
+          "lcp": 2672.8193,
+          "cls": 0,
+          "tbt": 62,
+          "ttfb": 11
+        },
+        {
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 96,
+            "seo": 100
+          },
+          "lcp": 2405.3445,
+          "cls": 0,
+          "tbt": 26.5,
+          "ttfb": 14
+        },
+        {
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 96,
+            "seo": 100
+          },
+          "lcp": 2408.0321,
+          "cls": 0,
+          "tbt": 28.5,
+          "ttfb": 12
+        }
+      ]
+    }
+  ]
+}

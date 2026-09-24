@@ -10,6 +10,7 @@ import {
 } from "@/types/content";
 import { editorialIssues } from "@/lib/prompts/editorial";
 import { personaIssues } from "@/lib/prompts/persona";
+import { isCollectionSeoEligible } from "@/lib/seo/eligibility";
 export type ActionState = { error?: string; success?: string; id?: string };
 function message(error: unknown) {
   console.error(
@@ -22,6 +23,8 @@ function invalidate() {
   updateTag("catalog");
   revalidatePath("/", "layout");
   revalidatePath("/sitemap.xml");
+  revalidatePath("/sitemap-pages.xml");
+  revalidatePath("/sitemap-images.xml");
   revalidatePath("/api/search");
 }
 export async function login(
@@ -169,15 +172,22 @@ export async function saveCollection(
       return { error: parsed.error.issues.map((i) => i.message).join(" · ") };
     const record = parsed.data;
     if (record.is_indexable) {
-      const { count } = await db
+      const { data: members, error: memberError } = await db
         .from("prompts")
-        .select("id", { count: "exact", head: true })
+        .select("*")
         .in("id", record.prompt_ids)
         .eq("is_published", true);
-      if ((count || 0) < 4 || record.description.length < 100)
+      if (memberError) return { error: message(memberError) };
+      // Validate editorial quality here; season/activation controls when the hub is indexed.
+      if (
+        !isCollectionSeoEligible(
+          { ...record, active: true, kind: "style" },
+          (members || []).map((p) => promptSchema.parse(p)),
+        )
+      )
         return {
           error:
-            "Indexable collections need at least four published prompts and a substantive introduction.",
+            "Indexable collections need four editorially approved, indexable prompts, four distinct preview images and a substantive introduction of at least 120 characters.",
         };
     }
     if (

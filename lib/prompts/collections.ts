@@ -1,5 +1,8 @@
 import type { Collection, Prompt } from "@/types/content";
-import { activeCollection } from "./discovery";
+import {
+  isCollectionSeoEligible,
+  isPromptSeoEligible,
+} from "@/lib/seo/eligibility";
 import { orderForDiscovery } from "./editorial";
 export type CollectionMedium = "photo" | "reel";
 const isReel = (p: Prompt) =>
@@ -26,8 +29,7 @@ export function discoverCollections({
     prompts
       .filter(
         (p) =>
-          p.is_published &&
-          p.preview_review_status === "approved" &&
+          isPromptSeoEligible(p) &&
           (medium === "reel" ? isReel(p) : !isReel(p)),
       )
       .map((p) => [p.id, p]),
@@ -37,8 +39,7 @@ export function discoverCollections({
   return collections
     .flatMap((collection) => {
       if (
-        !activeCollection(collection, now) ||
-        collection.description.trim().length < 100 ||
+        !isCollectionSeoEligible(collection, prompts, now) ||
         `/collections/${collection.slug}` === excludePath ||
         seen.has(collection.slug)
       )

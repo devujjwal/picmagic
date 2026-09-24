@@ -156,7 +156,7 @@ export function CollectionForm({
             checked={c.is_indexable}
             onChange={(e) => setC({ ...c, is_indexable: e.target.checked })}
           />
-          Indexable (requires four published prompts)
+          Indexable (requires four approved, indexable prompts with distinct previews)
         </label>
       </div>
       <fieldset className="border border-stone-200 rounded-lg p-4 my-5">

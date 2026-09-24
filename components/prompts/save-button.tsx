@@ -28,7 +28,7 @@ export function SaveButton({
       }}
     >
       <Bookmark size={18} fill={saved ? "currentColor" : "none"} />
-      {full && (saved ? "Saved" : "Save look")}
+      {full && (saved ? "Unsave" : "Save")}
     </button>
   );
 }

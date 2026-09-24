@@ -1,5 +1,8 @@
 import { allCollections, allPrompts } from "../content/catalog";
 import categories from "../content/categories.json";
+import { textSimilarity } from "../lib/seo/similarity";
+import { hubGuides, promptGuides } from "../content/seo-guides";
+import { promptPath } from "../types/content";
 import {
   promptSchema,
   categorySchema,
@@ -21,6 +24,34 @@ const collections = allCollections.map((collection) =>
 const eligible = prompts.filter(isPromptSeoEligible);
 const errors: string[] = [];
 const warnings: string[] = [];
+const paths = new Set([
+  "/",
+  "/collections",
+  "/ai-prompts",
+  "/reel-prompts",
+  ...eligible.map(promptPath),
+  ...parsedCategories.map((c) => `/ai-prompts/${c.slug}`),
+  ...collections.map((c) => `/collections/${c.slug}`),
+]);
+for (const [path, guide] of Object.entries(hubGuides)) {
+  if (!paths.has(path)) errors.push(`Guide for missing route ${path}`);
+  for (const link of guide.links || [])
+    if (!paths.has(link.path))
+      errors.push(`Broken editorial link ${link.path}`);
+}
+for (const slug of Object.keys(promptGuides))
+  if (!eligible.some((p) => p.slug === slug))
+    errors.push(`Guide for unavailable prompt ${slug}`);
+for (let i = 0; i < eligible.length; i++) {
+  for (const b of eligible.slice(i + 1)) {
+    const a = eligible[i];
+    const score = textSimilarity(a.prompt_text, b.prompt_text);
+    if (score >= 0.7)
+      warnings.push(
+        `Near text overlap ${Math.round(score * 100)}%: ${a.slug} / ${b.slug}; review intent, not just wording.`,
+      );
+  }
+}
 
 function exactDuplicates(
   label: string,
@@ -76,7 +107,7 @@ for (const [image, owners] of images)
     warnings.push(`Shared indexable preview ${image}: ${owners.join(", ")}`);
 
 console.log(
-  `SEO content check: ${eligible.length} eligible prompts, ${errors.length} errors, ${warnings.length} shared-image warnings.`,
+  `SEO content check: ${eligible.length} eligible prompts, ${errors.length} errors, ${warnings.length} editorial review notices.`,
 );
 warnings.forEach((warning) => console.warn(`- ${warning}`));
 errors.forEach((error) => console.error(`- ${error}`));

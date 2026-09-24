@@ -115,7 +115,7 @@ test("Requested preview released prompts enter the sitemap and use existing coll
       /^index, follow/,
     );
   }
-  const sitemap = await (await request.get("/sitemap.xml")).text();
+  const sitemap = await (await request.get("/sitemap-pages.xml")).text();
   for (const p of prompts) expect(sitemap).toContain(p.slug);
   expect(
     (

@@ -12,6 +12,8 @@ import { AdSlot } from "@/components/ads/ad-slot";
 import { site } from "@/config/site";
 import { toPromptCard } from "@/lib/prompts/card-data";
 import { isCategorySeoEligible } from "@/lib/seo/eligibility";
+import { hubGuides } from "@/content/seo-guides";
+import { EditorialGuide } from "./editorial-guide";
 export function CatalogPage({
   title,
   description,
@@ -109,6 +111,7 @@ export function CatalogPage({
           </Link>
         </div>
       )}
+      {page === 1 && <EditorialGuide guide={hubGuides[path]} />}
       <AdSlot placement="category-inline-1" />
       <CollectionDiscovery
         collections={collections}

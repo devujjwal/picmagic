@@ -27,6 +27,8 @@ export async function POST(request: Request) {
   revalidateTag("catalog", { expire: 0 });
   revalidatePath("/", "layout");
   revalidatePath("/sitemap.xml");
+  revalidatePath("/sitemap-pages.xml");
+  revalidatePath("/sitemap-images.xml");
   revalidatePath("/api/search");
   return Response.json({ revalidated: true });
 }

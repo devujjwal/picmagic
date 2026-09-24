@@ -33,7 +33,13 @@ Before release, run the existing local analytics browser journeys with a stubbed
 
 Analytics consent is stored under `picmagic:analytics-consent`. Advertising consent is controlled separately by Google’s CMP; see [AdSense operations](ADSENSE.md). Blocked or unavailable storage prevents collection. Cookie preferences and cross-tab changes support withdrawal; the page reloads to stop previously loaded integrations.
 
-The September 24 SEO branch adds a visible first-visit choice for optional analytics because the GA4 property had received no data while the choice was available only in footer preferences. Collection remains off by default. Consented sessions also send sanitized `web_vital` events for field LCP, INP, CLS, FCP and TTFB monitoring; these events contain metric identifiers and values, never prompt text, search text or query strings.
+The September 24 SEO branch adds a visible first-visit choice for optional analytics; the choice previously existed only in footer preferences. The historical reporting gap's cause is not established. Collection remains off by default. Consented sessions also send sanitized `web_vital` events for field LCP, INP, CLS, FCP and TTFB monitoring; these events contain metric identifiers and values, never prompt text, search text or query strings.
+
+## Search Console and Web Vitals — 24 September 2026
+
+With explicit owner confirmation, the verified `picmagic.in` domain property was linked to the PicMagic web stream. The Queries and Google organic search traffic reports are available in GA4. The organic report already displays Search Console history: 6 clicks and 112 impressions for 27 August–23 September. This is imported historical search data, not proof of new GA4 visitor collection or an SEO gain.
+
+Event-scoped custom definitions created: **Web Vital name** (`metric_name`), **Web Vital rating** (`metric_rating`), and custom metric **Web Vital value** (`metric_value`, Standard). Filter by metric name before interpreting values: timing metrics are milliseconds and CLS is multiplied by 1000. Do not aggregate different metric names or register the high-cardinality metric ID as a custom dimension. Processing of newly collected events may lag; consent remains mandatory.
 
 The adapter sends one page view per public route transition and typed feature events. Query strings, URL fragments, search text, generated prompt text and arbitrary event properties are excluded. External referrers are reduced to their origin. Admin routes are excluded. Session-depth milestones are deduplicated using optional sessionStorage only after analytics consent. Google signals and advertising personalization are disabled in the Analytics tag configuration. The analytics adapter never changes advertising-storage or personalization consent; Google’s publisher CMP owns advertising signals.
 

@@ -1,109 +1,1490 @@
 {
-  "origin": "http://127.0.0.1:4316",
-  "measuredAt": "2026-09-24T09:06:32.459Z",
+  "origin": "http://127.0.0.1:4317",
+  "measuredAt": "2026-09-24T09:35:20.605Z",
   "indexingExpected": true,
   "sitemapCanonicalCount": 112,
+  "imagePageCount": 91,
   "libraryRecords": 186,
   "published": 91,
-  "readyCollections": 8,
+  "draftsChecked": 95,
   "checked": [
     {
       "path": "/",
       "status": 200,
       "canonical": "https://picmagic.in",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["WebSite"]
+      "htmlBytes": 172222,
+      "structuredTypes": [
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/ai-prompts",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts",
+      "robots": "index, follow",
+      "htmlBytes": 166895,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
     },
     {
       "path": "/collections",
       "status": 200,
       "canonical": "https://picmagic.in/collections",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 64470,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
     },
     {
-      "path": "/ai-prompts/women",
+      "path": "/reel-prompts",
       "status": 200,
-      "canonical": "https://picmagic.in/ai-prompts/women",
+      "canonical": "https://picmagic.in/reel-prompts",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 109213,
+      "structuredTypes": [
+        "CollectionPage"
+      ]
     },
     {
-      "path": "/collections/romantic",
+      "path": "/about",
       "status": 200,
-      "canonical": "https://picmagic.in/collections/romantic",
+      "canonical": "https://picmagic.in/about",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 29577,
+      "structuredTypes": []
     },
     {
-      "path": "/collections/creative-transformations",
+      "path": "/create",
       "status": 200,
-      "canonical": "https://picmagic.in/collections/creative-transformations",
+      "canonical": "https://picmagic.in/create",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 30642,
+      "structuredTypes": []
     },
     {
-      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "path": "/enhance-photo",
       "status": 200,
-      "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
+      "canonical": "https://picmagic.in/enhance-photo",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
-    },
-    {
-      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
-      "status": 200,
-      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
-      "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
-    },
-    {
-      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
-      "status": 200,
-      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
-      "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
-    },
-    {
-      "path": "/reel-prompts/the-anniversary-slow-dance",
-      "status": 200,
-      "canonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
-      "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "FAQPage", "WebPage"]
+      "htmlBytes": 31388,
+      "structuredTypes": []
     },
     {
       "path": "/ai-prompts?page=2",
       "status": 200,
       "canonical": "https://picmagic.in/ai-prompts?page=2",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 163403,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men",
+      "robots": "index, follow",
+      "htmlBytes": 99106,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women",
+      "robots": "index, follow",
+      "htmlBytes": 82658,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple",
+      "robots": "index, follow",
+      "htmlBytes": 67136,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids",
+      "robots": "index, follow",
+      "htmlBytes": 68227,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/family",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/family",
+      "robots": "noindex, follow",
+      "htmlBytes": 54988,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/wedding",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/wedding",
+      "robots": "noindex, follow",
+      "htmlBytes": 56111,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/birthday",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/birthday",
+      "robots": "noindex, follow",
+      "htmlBytes": 52327,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel",
+      "robots": "index, follow",
+      "htmlBytes": 69750,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/festival",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/festival",
+      "robots": "index, follow",
+      "htmlBytes": 58807,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/professional",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/professional",
+      "robots": "noindex, follow",
+      "htmlBytes": 52806,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/fashion",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/fashion",
+      "robots": "noindex, follow",
+      "htmlBytes": 56569,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/product-photography",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/product-photography",
+      "robots": "noindex, follow",
+      "htmlBytes": 55747,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media",
+      "robots": "noindex, follow",
+      "htmlBytes": 89915,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/retro",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/retro",
+      "robots": "noindex, follow",
+      "htmlBytes": 49136,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/cinematic",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/cinematic",
+      "robots": "noindex, follow",
+      "htmlBytes": 44159,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/pets",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/pets",
+      "robots": "noindex, follow",
+      "htmlBytes": 34626,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/golden-hour",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/golden-hour",
+      "robots": "noindex, follow",
+      "htmlBytes": 39778,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/romantic",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/romantic",
+      "robots": "index, follow",
+      "htmlBytes": 66550,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/saree",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/saree",
+      "robots": "noindex, follow",
+      "htmlBytes": 44051,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/cinematic",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/cinematic",
+      "robots": "index, follow",
+      "htmlBytes": 86344,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/studio",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/studio",
+      "robots": "index, follow",
+      "htmlBytes": 95143,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/professional",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/professional",
+      "robots": "noindex, follow",
+      "htmlBytes": 48774,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/diwali",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/diwali",
+      "robots": "noindex, follow",
+      "htmlBytes": 44141,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
     },
     {
       "path": "/collections/dating-profile",
       "status": 200,
       "canonical": "https://picmagic.in/collections/dating-profile",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 53973,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
     },
     {
       "path": "/collections/dating-profile-reels",
       "status": 200,
       "canonical": "https://picmagic.in/collections/dating-profile-reels",
       "robots": "index, follow",
-      "descriptionInHead": true,
-      "structuredTypes": ["BreadcrumbList", "CollectionPage"]
+      "htmlBytes": 55303,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/instagram-profile-picture",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/instagram-profile-picture",
+      "robots": "index, follow",
+      "htmlBytes": 58932,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/indian-festivals",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/indian-festivals",
+      "robots": "index, follow",
+      "htmlBytes": 58017,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/collections/creative-transformations",
+      "status": 200,
+      "canonical": "https://picmagic.in/collections/creative-transformations",
+      "robots": "index, follow",
+      "htmlBytes": 130322,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "robots": "index, follow",
+      "htmlBytes": 97747,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/a-little-rain-a-lot-of-romance",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/a-little-rain-a-lot-of-romance",
+      "robots": "index, follow",
+      "htmlBytes": 95280,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/professional/your-next-chapter-in-focus",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/professional/your-next-chapter-in-focus",
+      "robots": "index, follow",
+      "htmlBytes": 98873,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/somewhere-in-the-mediterranean",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/somewhere-in-the-mediterranean",
+      "robots": "index, follow",
+      "htmlBytes": 97759,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/the-birthday-astronaut",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/the-birthday-astronaut",
+      "robots": "index, follow",
+      "htmlBytes": 97893,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/old-school-charm-new-memories",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/old-school-charm-new-memories",
+      "robots": "index, follow",
+      "htmlBytes": 98819,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/city-lights-main-character-energy",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/city-lights-main-character-energy",
+      "robots": "index, follow",
+      "htmlBytes": 98455,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/the-red-saree-moment",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/the-red-saree-moment",
+      "robots": "index, follow",
+      "htmlBytes": 97197,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+      "robots": "index, follow",
+      "htmlBytes": 97544,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/quiet-confidence",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/quiet-confidence",
+      "robots": "index, follow",
+      "htmlBytes": 95323,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/birthday/a-birthday-made-of-sunshine",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/birthday/a-birthday-made-of-sunshine",
+      "robots": "index, follow",
+      "htmlBytes": 96028,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
+      "robots": "index, follow",
+      "htmlBytes": 94849,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/festival/a-family-evening-lit-by-diyas",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/festival/a-family-evening-lit-by-diyas",
+      "robots": "index, follow",
+      "htmlBytes": 99329,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/the-desert-in-your-rear-view",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/the-desert-in-your-rear-view",
+      "robots": "index, follow",
+      "htmlBytes": 99602,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/wedding/a-modern-bridal-heirloom",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/wedding/a-modern-bridal-heirloom",
+      "robots": "index, follow",
+      "htmlBytes": 100579,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/the-forest-princess",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/the-forest-princess",
+      "robots": "index, follow",
+      "htmlBytes": 88782,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/professional/a-headshot-that-feels-like-you",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/professional/a-headshot-that-feels-like-you",
+      "robots": "index, follow",
+      "htmlBytes": 99492,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/family/sunday-all-together",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/family/sunday-all-together",
+      "robots": "index, follow",
+      "htmlBytes": 97397,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/paris-without-a-plan",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/paris-without-a-plan",
+      "robots": "index, follow",
+      "htmlBytes": 96454,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/fashion/the-art-of-standing-still",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/fashion/the-art-of-standing-still",
+      "robots": "index, follow",
+      "htmlBytes": 99262,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/coffee-rain-and-college-days",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/coffee-rain-and-college-days",
+      "robots": "index, follow",
+      "htmlBytes": 94194,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/built-on-quiet-discipline",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/built-on-quiet-discipline",
+      "robots": "index, follow",
+      "htmlBytes": 97209,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/product-photography/your-product-beautifully-simple",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/product-photography/your-product-beautifully-simple",
+      "robots": "index, follow",
+      "htmlBytes": 99220,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/festival/a-little-holi-happiness",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/festival/a-little-holi-happiness",
+      "robots": "index, follow",
+      "htmlBytes": 97555,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/family/the-gentlest-new-beginning",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/family/the-gentlest-new-beginning",
+      "robots": "index, follow",
+      "htmlBytes": 99667,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/made-for-the-mountains",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/made-for-the-mountains",
+      "robots": "index, follow",
+      "htmlBytes": 97922,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/retro/a-frame-from-another-decade",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/retro/a-frame-from-another-decade",
+      "robots": "index, follow",
+      "htmlBytes": 97575,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/soft-light-unmistakably-you",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/soft-light-unmistakably-you",
+      "robots": "index, follow",
+      "htmlBytes": 99951,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/wedding/an-intimate-jaipur-yes",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/wedding/an-intimate-jaipur-yes",
+      "robots": "index, follow",
+      "htmlBytes": 97166,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/professional/your-everyday-with-better-light",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/professional/your-everyday-with-better-light",
+      "robots": "index, follow",
+      "htmlBytes": 98912,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/a-tiny-superhero-off-duty",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/a-tiny-superhero-off-duty",
+      "robots": "index, follow",
+      "htmlBytes": 97893,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/wedding/dressed-for-the-first-dance",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/wedding/dressed-for-the-first-dance",
+      "robots": "index, follow",
+      "htmlBytes": 98333,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/birthday/the-perfect-birthday-picnic",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/birthday/the-perfect-birthday-picnic",
+      "robots": "index, follow",
+      "htmlBytes": 88574,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/the-open-road-portrait",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/the-open-road-portrait",
+      "robots": "index, follow",
+      "htmlBytes": 96865,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/a-winter-window-story",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/a-winter-window-story",
+      "robots": "index, follow",
+      "htmlBytes": 95495,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/festival/the-christmas-kitchen",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/festival/the-christmas-kitchen",
+      "robots": "index, follow",
+      "htmlBytes": 93294,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/product-photography/small-details-beautifully-made",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/product-photography/small-details-beautifully-made",
+      "robots": "index, follow",
+      "htmlBytes": 73933,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/meet-your-new-profile-picture",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/meet-your-new-profile-picture",
+      "robots": "index, follow",
+      "htmlBytes": 99852,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/cinematic/a-night-at-the-cinema",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/cinematic/a-night-at-the-cinema",
+      "robots": "index, follow",
+      "htmlBytes": 97279,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/birthday/thirty-and-entirely-yourself",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/birthday/thirty-and-entirely-yourself",
+      "robots": "index, follow",
+      "htmlBytes": 98663,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/festival/garba-under-the-lights",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/festival/garba-under-the-lights",
+      "robots": "index, follow",
+      "htmlBytes": 97926,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/family/a-memory-worth-restoring",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/family/a-memory-worth-restoring",
+      "robots": "index, follow",
+      "htmlBytes": 95724,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/change-the-scene-keep-yourself",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/change-the-scene-keep-yourself",
+      "robots": "index, follow",
+      "htmlBytes": 99210,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/an-outfit-with-a-new-perspective",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/an-outfit-with-a-new-perspective",
+      "robots": "index, follow",
+      "htmlBytes": 99579,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-anniversary-slow-dance",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-anniversary-slow-dance",
+      "robots": "index, follow",
+      "htmlBytes": 111433,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/from-suitcase-to-seaside",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/from-suitcase-to-seaside",
+      "robots": "index, follow",
+      "htmlBytes": 110679,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/a-birthday-in-three-little-moments",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/a-birthday-in-three-little-moments",
+      "robots": "index, follow",
+      "htmlBytes": 113064,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-fragrance-reveal",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-fragrance-reveal",
+      "robots": "index, follow",
+      "htmlBytes": 110029,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/one-city-one-beautiful-evening",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/one-city-one-beautiful-evening",
+      "robots": "index, follow",
+      "htmlBytes": 111268,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/a-wedding-morning-remembered",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/a-wedding-morning-remembered",
+      "robots": "index, follow",
+      "htmlBytes": 114147,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/couple/the-heritage-railway-letter",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/the-heritage-railway-letter",
+      "robots": "index, follow",
+      "htmlBytes": 96898,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/your-next-introduction-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/your-next-introduction-reel",
+      "robots": "index, follow",
+      "htmlBytes": 109472,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/coffee-and-a-real-smile",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/coffee-and-a-real-smile",
+      "robots": "index, follow",
+      "htmlBytes": 97689,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/coffee-and-a-real-smile-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/coffee-and-a-real-smile-reel",
+      "robots": "index, follow",
+      "htmlBytes": 110187,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/the-bookshop-detour",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/the-bookshop-detour",
+      "robots": "index, follow",
+      "htmlBytes": 97618,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-bookshop-detour-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-bookshop-detour-reel",
+      "robots": "index, follow",
+      "htmlBytes": 110338,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/sunday-park-conversation",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/sunday-park-conversation",
+      "robots": "index, follow",
+      "htmlBytes": 97642,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/sunday-park-conversation-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/sunday-park-conversation-reel",
+      "robots": "index, follow",
+      "htmlBytes": 110459,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/something-good-in-the-kitchen",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/something-good-in-the-kitchen",
+      "robots": "index, follow",
+      "htmlBytes": 98295,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/something-good-in-the-kitchen-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/something-good-in-the-kitchen-reel",
+      "robots": "index, follow",
+      "htmlBytes": 110948,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/coral-against-the-sky-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/coral-against-the-sky-reel",
+      "robots": "index, follow",
+      "htmlBytes": 109388,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/soft-light-unmistakably-you-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/soft-light-unmistakably-you-reel",
+      "robots": "index, follow",
+      "htmlBytes": 109475,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-little-flute-keeper-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-little-flute-keeper-reel",
+      "robots": "index, follow",
+      "htmlBytes": 114333,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/the-gentlest-new-beginning-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/the-gentlest-new-beginning-reel",
+      "robots": "index, follow",
+      "htmlBytes": 110756,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/skincare-on-stone-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/skincare-on-stone-reel",
+      "robots": "index, follow",
+      "htmlBytes": 109453,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/reel-prompts/ceramic-and-linen-reel",
+      "status": 200,
+      "canonical": "https://picmagic.in/reel-prompts/ceramic-and-linen-reel",
+      "robots": "index, follow",
+      "htmlBytes": 108210,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "robots": "index, follow",
+      "htmlBytes": 96258,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/the-river-remembers",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/the-river-remembers",
+      "robots": "index, follow",
+      "htmlBytes": 98603,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/family/our-courtyard-small-enough-to-hold",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/family/our-courtyard-small-enough-to-hold",
+      "robots": "index, follow",
+      "htmlBytes": 98066,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/travel/a-mountain-journey-within",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/travel/a-mountain-journey-within",
+      "robots": "index, follow",
+      "htmlBytes": 98388,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/fashion/the-tailors-mountain-range",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/fashion/the-tailors-mountain-range",
+      "robots": "index, follow",
+      "htmlBytes": 96923,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
+      "robots": "index, follow",
+      "htmlBytes": 99877,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "robots": "index, follow",
+      "htmlBytes": 99100,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/retro/last-train-two-ink-portrait",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/retro/last-train-two-ink-portrait",
+      "robots": "index, follow",
+      "htmlBytes": 96488,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/fashion/one-saree-three-campaign-worlds",
+      "robots": "index, follow",
+      "htmlBytes": 102902,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/borrowed-moon-closing-time",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/borrowed-moon-closing-time",
+      "robots": "index, follow",
+      "htmlBytes": 94107,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/a-fold-around-you-profile",
+      "robots": "index, follow",
+      "htmlBytes": 93690,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/small-burst-of-motion-profile",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/small-burst-of-motion-profile",
+      "robots": "index, follow",
+      "htmlBytes": 94224,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/between-two-gravities",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/between-two-gravities",
+      "robots": "index, follow",
+      "htmlBytes": 95297,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/the-listening-room-has-tides",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/the-listening-room-has-tides",
+      "robots": "index, follow",
+      "htmlBytes": 94412,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/chai-between-the-floors",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/chai-between-the-floors",
+      "robots": "index, follow",
+      "htmlBytes": 96061,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/one-step-outside-the-frame",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-step-outside-the-frame",
+      "robots": "index, follow",
+      "htmlBytes": 96123,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/ink-took-my-coffee",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/ink-took-my-coffee",
+      "robots": "index, follow",
+      "htmlBytes": 92778,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/kids/the-kite-in-my-notebook",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/the-kite-in-my-notebook",
+      "robots": "index, follow",
+      "htmlBytes": 92807,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/clouds-on-laundry-day",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/clouds-on-laundry-day",
+      "robots": "index, follow",
+      "htmlBytes": 92960,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/the-projectionist-is-me",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/the-projectionist-is-me",
+      "robots": "index, follow",
+      "htmlBytes": 95289,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/the-lift-stops-at-the-ocean",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/the-lift-stops-at-the-ocean",
+      "robots": "index, follow",
+      "htmlBytes": 95704,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/double-exposure-fashion-men",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/double-exposure-fashion-men",
+      "robots": "index, follow",
+      "htmlBytes": 100579,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/women/double-exposure-fashion-women",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/women/double-exposure-fashion-women",
+      "robots": "index, follow",
+      "htmlBytes": 100908,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/men/katana-in-the-square-of-light",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/men/katana-in-the-square-of-light",
+      "robots": "index, follow",
+      "htmlBytes": 99021,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
+    },
+    {
+      "path": "/ai-prompts/social-media/standing-on-my-playlist",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/standing-on-my-playlist",
+      "robots": "index, follow",
+      "htmlBytes": 77712,
+      "structuredTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "WebPage"
+      ]
     }
   ],
-  "shareImageStatus": 200,
   "failures": []
 }

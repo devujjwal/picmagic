@@ -12,6 +12,7 @@ const template = promptSchema.parse(originalPrompts[0]);
 const prompts = Array.from({ length: 8 }, (_, i) => ({
   ...template,
   id: `p${i}`,
+  preview_image_url: `/previews/unique-${i}.webp`,
   is_published: true,
   preview_review_status: "approved" as const,
   prompt_type: "photo" as const,
@@ -19,11 +20,13 @@ const prompts = Array.from({ length: 8 }, (_, i) => ({
 const base = {
   ...collectionSchema.parse(originalCollections[0]),
   active: true,
+  is_indexable: true,
   prompt_ids: prompts.slice(0, 4).map((p) => p.id),
 };
 it("excludes inactive, expired, thin, empty, draft-only, duplicate and dangling destinations", () => {
   const collections = [
     { ...base, slug: "inactive", active: false },
+    { ...base, slug: "noindex", is_indexable: false },
     { ...base, slug: "empty", prompt_ids: [] },
     { ...base, slug: "thin", prompt_ids: ["p0"] },
     { ...base, slug: "duplicate-ids", prompt_ids: ["p0", "p0", "p0", "p0"] },

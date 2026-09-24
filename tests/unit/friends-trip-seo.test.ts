@@ -7,7 +7,7 @@ vi.mock("@/config/site", () => ({
 }));
 vi.mock("@/lib/content", () => ({ getCatalog: vi.fn() }));
 import { getCatalog } from "@/lib/content";
-import sitemap from "@/app/sitemap";
+import { sitemapEntries } from "@/lib/seo/sitemap";
 import { promptMetadata } from "@/lib/seo/metadata";
 it("excludes the Ladakh draft and thin collection even when production indexing is enabled", async () => {
   const p = promptSchema.parse(additions[0]);
@@ -17,7 +17,7 @@ it("excludes the Ladakh draft and thin collection even when production indexing 
     categories: [],
     collections: [{ ...collection, is_indexable: true }],
   });
-  const urls = (await sitemap()).map((u) => u.url);
+  const urls = sitemapEntries(await getCatalog()).map((u) => u.url);
   expect(urls).toContain("https://picmagic.in/reel-prompts");
   expect(urls).not.toContain(
     "https://picmagic.in/reel-prompts/cinematic-ladakh-friends-trip",

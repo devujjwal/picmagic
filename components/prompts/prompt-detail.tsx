@@ -11,6 +11,10 @@ import { relatedPrompts } from "@/lib/prompts/discovery";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { StructuredData } from "@/components/ui/structured-data";
 import { site } from "@/config/site";
+import { promptGuides } from "@/content/seo-guides";
+import { EditorialGuide } from "./editorial-guide";
+import { toPromptCard } from "@/lib/prompts/card-data";
+import { isPromptSeoEligible } from "@/lib/seo/eligibility";
 export function PromptDetail({
   prompt: p,
   catalog,
@@ -31,6 +35,16 @@ export function PromptDetail({
   }).map((pick) => pick.collection);
   const canonical = site.url + promptPath(p);
   const imageUrl = new URL(p.preview_image_url, site.url).href;
+  const modified = [p.updated_at, promptGuides[p.slug]?.updatedAt || ""]
+    .sort()
+    .at(-1);
+  const otherMedium = catalog.prompts.find(
+    (other) =>
+      other.id !== p.id &&
+      other.preview_image_url === p.preview_image_url &&
+      ["reel", "video"].includes(other.prompt_type) !== isReel &&
+      isPromptSeoEligible(other),
+  );
   return (
     <div className="container">
       <Breadcrumbs
@@ -52,7 +66,7 @@ export function PromptDetail({
             className="detail-visual"
             style={{ aspectRatio: `${p.image_width} / ${p.image_height}` }}
           >
-            <PreviewMedia prompt={p} priority detail />
+            <PreviewMedia prompt={toPromptCard(p)} priority detail />
           </div>
           <p className="detail-visual-note">
             {p.poster_role === "source-reference"
@@ -126,12 +140,23 @@ export function PromptDetail({
           </div>
         </div>
       </div>
-      {p.why_ai && (
+      {p.why_ai && !p.why_ai.startsWith("A reference-based") && (
         <section className="detail-insight" aria-labelledby="concept-heading">
           <div className="eyebrow">Why this concept works</div>
-          <h2 id="concept-heading">A look built for AI, not a stock filter.</h2>
+          <h2 id="concept-heading">What this prompt helps you create</h2>
           <p>{p.why_ai}</p>
         </section>
+      )}
+      <EditorialGuide guide={promptGuides[p.slug]} />
+      {otherMedium && (
+        <p className="notice">
+          Looking for the {isReel ? "still-photo composition" : "motion story"}?{" "}
+          <Link className="text-link" href={promptPath(otherMedium)}>
+            {otherMedium.title} — {isReel ? "photo prompt" : "reel prompt"}
+          </Link>
+          . The shared concept image illustrates the setting; the instructions
+          serve different outputs.
+        </p>
       )}
       {p.reel_template && (
         <FriendsTripCreator initial={p.reel_template.variables} />
@@ -147,6 +172,18 @@ export function PromptDetail({
             </div>
           </div>
           <div className="reel-scenes">
+            {[
+              ["Opening hook", p.reel.hook],
+              ["How the story develops", p.reel.progression],
+              ["Final payoff", p.reel.payoff],
+            ].map(([heading, text]) =>
+              text ? (
+                <div className="reel-scene" key={heading}>
+                  <h3>{heading}</h3>
+                  <p>{text}</p>
+                </div>
+              ) : null,
+            )}
             {p.reel.scenes.map((s, i) => (
               <div className="reel-scene" key={i}>
                 <h3>
@@ -215,7 +252,7 @@ export function PromptDetail({
           name: p.title,
           description: p.description,
           datePublished: p.published_at || p.created_at,
-          dateModified: p.updated_at,
+          dateModified: modified,
           primaryImageOfPage: {
             "@type": "ImageObject",
             "@id": `${canonical}#primaryimage`,
