@@ -1,0 +1,265 @@
+[
+  {
+    "slug": "the-river-remembers",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "The River Remembers | PicMagic",
+      "tags": [
+        "photo-illustration",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "River Ink Travel Portrait Prompt — The River Remembers | PicMagic",
+      "tags": [
+        "photo-illustration",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "our-courtyard-small-enough-to-hold",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "Our Courtyard, Small Enough to Hold | PicMagic",
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Miniature Courtyard Family Photo Prompt | PicMagic",
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "a-mountain-journey-within",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "A Mountain Journey Within | PicMagic",
+      "tags": [
+        "controlled-double-exposure",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Mountain Double-Exposure Portrait Prompt | PicMagic",
+      "tags": [
+        "controlled-double-exposure",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "the-tailors-mountain-range",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "The Tailor's Mountain Range | PicMagic",
+      "tags": [
+        "surreal-scale",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Fabric Mountain Fashion Photo Prompt | PicMagic",
+      "tags": [
+        "surreal-scale",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "one-day-four-possible-worlds",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "One Day, Four Possible Worlds | PicMagic",
+      "tags": [
+        "multi-scene-identity",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Four Worlds, One Identity: AI Portrait Prompt | PicMagic",
+      "tags": [
+        "multi-scene-identity",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "portrait-cut-from-monsoon-paper",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "tags": [
+        "physical-material-portrait",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "tags": [
+        "physical-material-portrait",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "last-train-two-ink-portrait",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "The Last Train, Printed in Two Inks | PicMagic",
+      "tags": [
+        "limited-ink-print",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Two-Ink Railway Portrait Prompt | PicMagic",
+      "tags": [
+        "limited-ink-print",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "one-saree-three-campaign-worlds",
+    "source": "content/additions/creative-prompts.json",
+    "before": {
+      "seo_title": "One Saree, Three Campaign Worlds | PicMagic",
+      "tags": [
+        "garment-consistent-campaign",
+        "creative transformations",
+        "couple"
+      ],
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Three-Scene Saree Campaign Image Prompt | PicMagic",
+      "tags": [
+        "garment-consistent-campaign",
+        "creative transformations"
+      ],
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "the-heritage-railway-letter",
+    "source": "content/expansion/prompts.json",
+    "before": {
+      "seo_title": "The Letter Before the Train Leaves | PicMagic",
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Vintage Railway Couple Photo Prompt | PicMagic",
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  },
+  {
+    "slug": "soft-light-unmistakably-you-reel",
+    "source": "content/expansion/prompts.json",
+    "before": {
+      "seo_title": "Under the neem shade Reel Prompt",
+      "seo_description": "Under the neem shade: timed reel concept with even open shade, reference-first identity and practical styling directions.",
+      "updated_at": "2026-09-10T18:00:00.000Z",
+      "reel": {
+        "duration": 8,
+        "concept": "Under the neem shade",
+        "scenes": [
+          {
+            "start": 0,
+            "end": 2,
+            "action": "Begin on the soft boundary between background light and shadow.",
+            "transition": "Establish hook"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "action": "Bring the age-honest face into focus without smoothing skin.",
+            "transition": "Continuous progression or specified reference-backed cut"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "action": "Hold the natural expression and clear facial detail.",
+            "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          }
+        ],
+        "caption": "Under the neem shade. Your story, your identity.",
+        "hashtags": [
+          "#PicMagic",
+          "#instagramprofilepicture",
+          "#CreativeReel"
+        ],
+        "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
+        "hook": "Begin on the soft boundary between background light and shadow.",
+        "progression": "Bring the age-honest face into focus without smoothing skin.",
+        "payoff": "Hold the natural expression and clear facial detail."
+      }
+    },
+    "after": {
+      "seo_title": "Soft-Light Studio Portrait Reel Prompt | PicMagic",
+      "seo_description": "Plan an eight-second studio portrait reel: move from soft background light into a clear face, preserve natural skin texture and finish with a steady hold.",
+      "updated_at": "2026-09-24T11:12:00Z",
+      "reel": {
+        "duration": 8,
+        "concept": "Soft light, unmistakably you",
+        "scenes": [
+          {
+            "start": 0,
+            "end": 2,
+            "action": "Begin on the soft boundary between background light and shadow.",
+            "transition": "Establish hook"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "action": "Bring the age-honest face into focus without smoothing skin.",
+            "transition": "Continuous progression or specified reference-backed cut"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "action": "Hold the natural expression and clear facial detail.",
+            "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          }
+        ],
+        "caption": "Soft light, unmistakably you. Your story, your identity.",
+        "hashtags": [
+          "#PicMagic",
+          "#instagramprofilepicture",
+          "#CreativeReel"
+        ],
+        "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
+        "hook": "Begin on the soft boundary between background light and shadow.",
+        "progression": "Bring the age-honest face into focus without smoothing skin.",
+        "payoff": "Hold the natural expression and clear facial detail."
+      }
+    }
+  },
+  {
+    "slug": "perfume-the-water-sculpture",
+    "source": "content/expansion/prompts.json",
+    "before": {
+      "seo_title": "The Bottle Inside a Moment of Water | PicMagic",
+      "updated_at": "2026-09-11T06:00:00Z"
+    },
+    "after": {
+      "seo_title": "Perfume Water-Sculpture Product Image Prompt | PicMagic",
+      "updated_at": "2026-09-24T10:55:00Z"
+    }
+  }
+]

@@ -61,7 +61,7 @@ export function metadata(
       card: "summary_large_image",
       title,
       description,
-      images: socialImages.map((image) => image.url),
+      images: socialImages.map(({ url, alt }) => ({ url, alt })),
     },
   };
 }

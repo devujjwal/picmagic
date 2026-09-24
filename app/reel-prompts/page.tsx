@@ -11,6 +11,7 @@ import { pageNumber } from "@/lib/prompts/discovery";
 import { promptPath } from "@/types/content";
 import { site } from "@/config/site";
 import { toPromptCard } from "@/lib/prompts/card-data";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 type Props = { searchParams: Promise<{ page?: string }> };
 export async function generateMetadata({ searchParams }: Props) {
   const page = pageNumber((await searchParams).page);
@@ -31,6 +32,12 @@ export default async function Reels({ searchParams }: Props) {
   const shown = reels.slice((page - 1) * 24, page * 24);
   return (
     <div className="container">
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Reels", path: "/reel-prompts" },
+        ]}
+      />
       <header className="page-heading section">
         <div className="eyebrow">A story in motion</div>
         <h1>Make the moment move.</h1>

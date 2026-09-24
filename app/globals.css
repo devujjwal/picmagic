@@ -1084,6 +1084,28 @@ main {
 .prose a {
   text-decoration: underline;
 }
+.reference-guide > ol,
+.reference-guide > ul {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.reference-guide > ol {
+  list-style: decimal;
+}
+.reference-guide > ul {
+  list-style: disc;
+}
+.reference-guide > ol > li,
+.reference-guide > ul > li {
+  margin: 0.75rem 0;
+}
+.reference-guide blockquote {
+  border-left: 3px solid var(--muted);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  line-height: 1.8;
+}
 .privacy-control {
   background: transparent;
   border: 0;

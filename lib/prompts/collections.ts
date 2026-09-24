@@ -7,6 +7,22 @@ import { orderForDiscovery } from "./editorial";
 export type CollectionMedium = "photo" | "reel";
 const isReel = (p: Prompt) =>
   p.prompt_type === "reel" || p.prompt_type === "video";
+/** Membership navigation is independent of the medium-specific card module. */
+export function promptCollections(
+  prompt: Prompt,
+  collections: Collection[],
+  prompts: Prompt[],
+  now = new Date(),
+) {
+  if (!isPromptSeoEligible(prompt)) return [];
+  return collections
+    .filter(
+      (collection) =>
+        collection.prompt_ids.includes(prompt.id) &&
+        isCollectionSeoEligible(collection, prompts, now),
+    )
+    .sort((a, b) => b.priority - a.priority || a.slug.localeCompare(b.slug));
+}
 /** Recommend only real, useful destinations; never infer routes from tags or names. */
 export function discoverCollections({
   collections,

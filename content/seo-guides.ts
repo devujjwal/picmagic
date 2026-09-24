@@ -73,6 +73,26 @@ export const hubGuides: Record<string, EditorialGuide> = {
 };
 
 export const promptGuides: Record<string, EditorialGuide> = {
+  "the-heritage-railway-letter": guide([
+    ["Keep the exchange readable", "Choose two separately identifiable adult references. The folded letter connects their hands and gaze; keep it blank and the carriage stationary. Period clothing and a heritage setting do not determine the people's age. Use a quiet relieved smile for this scene, not unrelated glamour posing."],
+    ["Check the emotional centre", "Keep steam behind the couple, away from faces and hands. Inspect the two grips on opposite ends of the letter and preserve space between fingers. Change luggage or garment colour without replacing the shared exchange with two independent portraits."],
+  ]),
+  "perfume-the-water-sculpture": guide([
+    ["Separate product evidence from the effect", "Supply a clear view of the actual bottle and readable packaging. Keep the bottle dry, upright and unchanged on its plinth. The water arc belongs behind the product; it must not replace the label, penetrate the bottle or imply a redesigned container."],
+    ["Review before commercial use", "Check bottle proportions, cap shape, label geometry and any legible lettering against the source. Reflections should agree with the light and plinth. Treat the result as a concept until product fidelity has been verified; visual polish is not proof of an accurate listing."],
+  ]),
+  "our-courtyard-small-enough-to-hold": guide([
+    ["Make the family readable at miniature scale", "Identify the three intended family members separately and preserve their ages. Keep them near the model's front edge around the tiny chessboard, with enough space to distinguish faces. Do not duplicate one reference across different family members."],
+    ["Keep the handmade construction", "Visible card, carved wood and glue seams establish that this is a shallow model on a shelf. Change personal courtyard details without converting it into a normal house photograph. Inspect chessboard scale, contact shadows and the rear balconies' recession."],
+  ]),
+  "the-tailors-mountain-range": guide([
+    ["Let cloth create the landscape", "The miniature designer, oversized spool and fabric folds establish the scale relationship. Keep the face close enough to read and the seam visible as a trail. Changing fabric colour is simpler than adding several competing giant props."],
+    ["Check scale before adding detail", "Follow the fold ridges toward the distant fabric pass; shadows should make the cloth feel physical. Keep feet in contact with the fabric and inspect the spool's scale. This imaginative artwork is not evidence of an accurately represented sellable garment."],
+  ]),
+  "last-train-two-ink-portrait": guide([
+    ["Keep print texture away from essential features", "Use the plum-and-saffron ink treatment, coarse halftone and paper fibres deliberately. Registration offset can enrich the background, but keep the eyes readable. The diagonal carriage-window shadow crosses the shoulder, not the entire face."],
+    ["Adapt the print, not a film identity", "Change the paper tone or ink balance while preserving the two-colour construction. Avoid actor references, copied film posters and invented titles. This is an illustrated print treatment, so evaluate coherent marks and recognizability rather than demanding photographic skin everywhere."],
+  ]),
   "coffee-and-a-real-smile": guide([
     ["Choose a genuine café moment", "Use a current identity reference and ordinary clothing. Keep the cup below the face, with a relaxed hand around it rather than a complicated grip. A small amused reaction suits the conversation implied here; teeth do not need to show."],
     ["Vary the setting without adding status claims", "Change the café colour or seat position, but retain soft ambient light and the everyday scale. Avoid invented luxury accessories. For a profile sequence, pair this close, sociable image with the bookshop or park idea rather than another seated coffee pose."],
@@ -90,11 +110,11 @@ export const promptGuides: Record<string, EditorialGuide> = {
     ["Check the working surface", "Inspect hand-to-utensil contact, food scale and counter perspective. A kitchen that looks lived-in can communicate an interest better than an invented luxury set. Keep appliances and brands unobtrusive, and reject unsafe or anatomically impossible handling."],
   ]),
   "the-river-remembers": guide([
-    ["Make the memory specific", "Use a personal travel photo whose person and river setting remain readable. Change the keepsake's colours or the remembered location, but retain the prompt's physical artwork construction and perspective. The memory should feel contained in the object, not pasted over the face."],
-    ["Review the material illusion", "Check edges, paper depth and contact shadows at full size. Reject a result that turns the person into a second unrelated portrait or replaces the material construction with an ordinary landscape background."],
+    ["Make the memory specific", "Use a clear adult portrait and, optionally, your own river photograph. Keep the open journal on the ghat step and the curved indigo shoreline flowing from its page into the river. Change the remembered location without letting ink cover the face or turning the scene into a straight split-screen."],
+    ["Review the ink transition", "Check the journal edge, hand contact and the curved shoreline at full size. The face, nearest stone and hand should stay photographic while the ink becomes the landscape. Reject a second unrelated portrait, private handwriting or an ordinary background that loses the page-to-river transition."],
   ]),
   "a-mountain-journey-within": guide([
-    ["Build the portrait before the landscape", "Choose a reference with a clean, readable facial outline. Keep the mountain scene inside the intended silhouette and leave the identity-defining profile intact. Personalise the mountain range or atmospheric colour without moving the face into an unrelated outdoor portrait."],
+    ["Build the portrait before the landscape", "Choose a clear, nearly frontal reference. Keep eyes to mouth readable while the Himalayan road runs through the jacket and outer shoulder silhouette. Personalise the mountain range or atmospheric colour without covering the facial centre or introducing a second human silhouette."],
     ["Control the composite", "Use the prompt's restrained mood rather than the reference photograph's smile. Check that landscape texture does not obscure the eye, nose or lips, and that the silhouette remains readable at mobile-card size."],
   ]),
   "one-day-four-possible-worlds": guide([

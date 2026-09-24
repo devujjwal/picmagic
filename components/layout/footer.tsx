@@ -29,6 +29,9 @@ export function Footer() {
           <div>
             <h2>A little more</h2>
             <Link href="/about">About PicMagic</Link>
+            <Link href="/guides/reference-photo-prompts">
+              Reference-photo guide
+            </Link>
             <Link href="/saved">Your saved looks</Link>
             <Link href="/contact">Get in touch</Link>
           </div>

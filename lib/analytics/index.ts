@@ -50,6 +50,7 @@ export function measurementId() {
 export function safeAnalyticsPath(value: string): string | null {
   try {
     const path = new URL(value, "https://picmagic.in").pathname;
+    if (path === "/guides/reference-photo-prompts") return path;
     if (
       !/^\/(?:$|ai-prompts(?:\/[a-z0-9-]+){0,2}$|collections(?:\/[a-z0-9-]+)?$|reel-prompts(?:\/[a-z0-9-]+)?$|create$|enhance-photo$|search$|saved$|about$|privacy$|terms$|contact$)/.test(
         path,

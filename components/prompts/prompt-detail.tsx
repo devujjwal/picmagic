@@ -1,4 +1,4 @@
-import { discoverCollections } from "@/lib/prompts/collections";
+import { promptCollections } from "@/lib/prompts/collections";
 import { FriendsTripCreator } from "@/features/generator/friends-trip-creator";
 import Link from "@/components/ui/site-link";
 import { Sparkles, ArrowUpRight } from "lucide-react";
@@ -27,12 +27,11 @@ export function PromptDetail({
   const category = catalog.categories.find((c) => c.id === p.category_id);
   const isReel = p.prompt_type === "reel" || p.prompt_type === "video";
   const parent = isReel ? "/reel-prompts" : `/ai-prompts/${p.category_id}`;
-  const collections = discoverCollections({
-    collections: catalog.collections,
-    prompts: catalog.prompts,
-    medium: isReel ? "reel" : "photo",
-    contextIds: [p.id],
-  }).map((pick) => pick.collection);
+  const collections = promptCollections(
+    p,
+    catalog.collections,
+    catalog.prompts,
+  );
   const canonical = site.url + promptPath(p);
   const imageUrl = new URL(p.preview_image_url, site.url).href;
   const modified = [p.updated_at, promptGuides[p.slug]?.updatedAt || ""]
@@ -121,7 +120,11 @@ export function PromptDetail({
           </div>
           <p className="fine-print">
             Tool support and results vary. A suggestion is not a compatibility
-            guarantee.
+            guarantee.{" "}
+            <Link href="/about#editorial-methodology">
+              How we review examples
+            </Link>
+            .
           </p>
           {p.prompt_type === "photo_edit" && (
             <p className="notice">
@@ -148,6 +151,17 @@ export function PromptDetail({
         </section>
       )}
       <EditorialGuide guide={promptGuides[p.slug]} />
+      {!isReel &&
+        p.persona_policy !== "product" &&
+        p.persona_policy !== "animal" && (
+          <p className="notice">
+            Using your own portrait? Read the{" "}
+            <Link href="/guides/reference-photo-prompts">
+              reference-photo and customization guide
+            </Link>{" "}
+            before adapting this concept.
+          </p>
+        )}
       {otherMedium && (
         <p className="notice">
           Looking for the {isReel ? "still-photo composition" : "motion story"}?{" "}
@@ -251,6 +265,8 @@ export function PromptDetail({
           url: canonical,
           name: p.title,
           description: p.description,
+          isPartOf: { "@id": `${site.url}#website` },
+          publisher: { "@id": `${site.url}#organization` },
           datePublished: p.published_at || p.created_at,
           dateModified: modified,
           primaryImageOfPage: {
@@ -273,6 +289,7 @@ export function PromptDetail({
             keywords: [...new Set([...p.style, ...p.tags])].join(", "),
             creator: {
               "@type": "Organization",
+              "@id": `${site.url}#organization`,
               name: site.name,
               url: site.url,
             },

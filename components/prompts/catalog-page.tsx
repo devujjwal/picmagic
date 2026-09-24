@@ -43,6 +43,11 @@ export function CatalogPage({
   if (page > pages) notFound();
   const shown = prompts.slice((page - 1) * 24, page * 24);
   const cards = prompts.map(toPromptCard);
+  const parentPath = path.startsWith("/collections/")
+    ? "/collections"
+    : reelsOnly
+      ? "/reel-prompts"
+      : "/ai-prompts";
   return (
     <div className="container">
       <CategoryView category={path} />
@@ -50,10 +55,15 @@ export function CatalogPage({
         items={[
           { name: "Home", path: "/" },
           {
-            name: reelsOnly ? "Reels" : "Photo ideas",
-            path: reelsOnly ? "/reel-prompts" : "/ai-prompts",
+            name:
+              parentPath === "/collections"
+                ? "Collections"
+                : reelsOnly
+                  ? "Reels"
+                  : "Photo ideas",
+            path: parentPath,
           },
-          ...(path !== "/ai-prompts" ? [{ name: title, path }] : []),
+          ...(path !== parentPath ? [{ name: title, path }] : []),
         ]}
       />
       <header className="page-heading">

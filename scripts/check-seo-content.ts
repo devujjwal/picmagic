@@ -1,6 +1,6 @@
 import { allCollections, allPrompts } from "../content/catalog";
 import categories from "../content/categories.json";
-import { textSimilarity } from "../lib/seo/similarity";
+import { overlappingPairs } from "./optimization/catalog";
 import { hubGuides, promptGuides } from "../content/seo-guides";
 import { promptPath } from "../types/content";
 import {
@@ -42,15 +42,10 @@ for (const [path, guide] of Object.entries(hubGuides)) {
 for (const slug of Object.keys(promptGuides))
   if (!eligible.some((p) => p.slug === slug))
     errors.push(`Guide for unavailable prompt ${slug}`);
-for (let i = 0; i < eligible.length; i++) {
-  for (const b of eligible.slice(i + 1)) {
-    const a = eligible[i];
-    const score = textSimilarity(a.prompt_text, b.prompt_text);
-    if (score >= 0.7)
-      warnings.push(
-        `Near text overlap ${Math.round(score * 100)}%: ${a.slug} / ${b.slug}; review intent, not just wording.`,
-      );
-  }
+for (const { a, b, score } of overlappingPairs(eligible)) {
+  warnings.push(
+    `Near text overlap ${Math.round(score * 100)}%: ${a.slug} / ${b.slug}; review intent, not just wording.`,
+  );
 }
 
 function exactDuplicates(

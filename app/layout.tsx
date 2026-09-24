@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/footer";
 import { ClientShell } from "@/components/layout/client-shell";
 import { site } from "@/config/site";
 import { adsenseClient } from "@/config/ads";
+import { StructuredData } from "@/components/ui/structured-data";
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: site.title,
@@ -26,6 +27,27 @@ export default async function RootLayout({
           <Header />
           <main id="main">{children}</main>
           <Footer />
+          <StructuredData
+            data={{
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": `${site.url}#organization`,
+                  name: site.name,
+                  url: site.url,
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": `${site.url}#website`,
+                  name: site.name,
+                  url: site.url,
+                  description: site.description,
+                  publisher: { "@id": `${site.url}#organization` },
+                },
+              ],
+            }}
+          />
         </ClientShell>
       </body>
     </html>

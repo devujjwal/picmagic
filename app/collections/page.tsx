@@ -59,6 +59,9 @@ export default async function Collections() {
         <div className="collection-hub-grid">
           {collections.map(({ collection, members }) => {
             const image = collection.featured_image || members[0].thumbnail_url;
+            const imageOwner = members.find(
+              (p) => p.thumbnail_url === image || p.preview_image_url === image,
+            );
             return (
               <article className="collection-hub-card" key={collection.id}>
                 <Link
@@ -68,7 +71,10 @@ export default async function Collections() {
                 >
                   <PreviewImage
                     src={image}
-                    alt={`${collection.name} AI prompt collection preview`}
+                    alt={
+                      imageOwner?.image_alt ||
+                      `${collection.name} collection cover`
+                    }
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </Link>

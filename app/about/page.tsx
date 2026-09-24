@@ -38,6 +38,46 @@ export default function About() {
         reference images. Identity-preservation instructions can help express
         your intention, but cannot guarantee the outcome.
       </p>
+      <h2 id="editorial-methodology">How we review the library</h2>
+      <p>
+        PicMagic combines scene instructions, an illustrative preview and
+        practical guidance. Published catalogue records pass checks for a
+        reviewed concept, approved preview, required content and working asset
+        references. Draft concepts stay outside the public prompt catalogue.
+        These checks do not mean every suggested tool has been tested.
+      </p>
+      <h3>What a preview demonstrates</h3>
+      <p>
+        A preview illustrates composition, lighting and the intended visual
+        mechanism. It is not a promise that copying the prompt into any model
+        will reproduce the same output. Some examples use illustration or
+        compositing concepts rather than photography. A still image on a reel
+        page is concept art unless a playable video is explicitly provided.
+      </p>
+      <h3>Suggestions are not verified tool tests</h3>
+      <p>
+        We do not currently publish a model-version-specific compatibility test
+        record for each prompt. A verified test would need the exact prompt
+        version, tool and model, test date, relevant settings, permitted
+        references and reviewed results. Until that evidence is available,
+        suggested tools should be treated as starting points, not endorsements
+        or success guarantees.
+      </p>
+      <h3>Corrections and responsible use</h3>
+      <p>
+        Check likeness, anatomy and important product or cultural details before
+        sharing a result. Do not represent a generated scene as documentary
+        evidence. If a description, preview or instruction is misleading,
+        <Link href="/contact"> contact PicMagic</Link> with the prompt URL and
+        the specific issue; do not send private identity photographs.
+      </p>
+      <p>
+        Start with our{" "}
+        <Link href="/guides/reference-photo-prompts">
+          reference-photo and prompt-customization guide
+        </Link>{" "}
+        to separate identity from styling.
+      </p>
       <Link href="/ai-prompts" className="button">
         Find your next idea
       </Link>

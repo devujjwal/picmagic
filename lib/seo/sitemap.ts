@@ -3,6 +3,7 @@ import type { Catalog } from "@/types/content";
 import { promptPath } from "@/types/content";
 import { site } from "@/config/site";
 import { hubGuides, promptGuides } from "@/content/seo-guides";
+import { sitePages } from "@/content/site-pages";
 import {
   categorySeoMembers,
   collectionSeoMembers,
@@ -22,16 +23,9 @@ export function sitemapEntries({
     .sort()
     .at(-1);
   return [
-    ...[
-      "/",
-      "/ai-prompts",
-      "/collections",
-      "/enhance-photo",
-      "/create",
-      "/reel-prompts",
-      "/about",
-    ].map((path) => ({
+    ...sitePages.map(({ path, updatedAt }) => ({
       url: site.url + path,
+      ...(updatedAt ? { lastModified: updatedAt } : {}),
       ...(latestPromptUpdate &&
       ["/", "/ai-prompts", "/collections", "/reel-prompts"].includes(path)
         ? { lastModified: latestPromptUpdate }
