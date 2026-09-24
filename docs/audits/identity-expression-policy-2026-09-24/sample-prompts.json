@@ -1,0 +1,66 @@
+{
+  "shared_policy_version": "preview-identity-expression-age-v1",
+  "shared_policy_source": "lib/prompts/preview-generation-policy.ts",
+  "notes": [
+    "Identity references control identity only. They never control expression, gaze, pose, wardrobe, styling, lighting or environment.",
+    "An explicit adult age wins. If adult age is unspecified, use approximately 22–30.",
+    "These are review-only generation records. They do not replace published preview paths."
+  ],
+  "samples": [
+    {
+      "slug": "katana-in-the-square-of-light",
+      "source_record": "content/additions/katana-streetwear-prompts.json",
+      "identity_role": "male",
+      "reference_asset_id": "male-preview-reference-2026-09-24",
+      "age_rule": "explicit: approximately 25",
+      "mood": "serious editorial confidence",
+      "required_expression": "Serious, composed and quietly confident; closed relaxed lips, focused eyes, subtle brow tension, no smile and no teeth.",
+      "scene_prompt": "Exactly one man, full-body, back predominantly toward camera, turning naturally over one shoulder. Dark olive sleeveless tank, ultra-baggy cream trousers, dark shoes and understated sunglasses. One coherent katana held low with its blade angled downward. Large bright white square softbox behind the upper body, dark concrete studio, thin haze, crisp rim light and restrained raw photography.",
+      "output": "samples/katana-in-the-square-of-light-serious-sample.webp"
+    },
+    {
+      "slug": "coffee-and-a-real-smile",
+      "source_record": "content/expansion/prompts.json",
+      "identity_role": "male",
+      "reference_asset_id": "male-preview-reference-2026-09-24",
+      "age_rule": "unspecified adult: default approximately 22–30",
+      "mood": "warm social amusement",
+      "required_expression": "A spontaneous warm smile toward a friend beside the camera, with subtle cheek and eye movement; not a copied reference smile, posed influencer grin or exaggerated laugh.",
+      "scene_prompt": "Exactly one young adult man in an unbranded casual outfit beside a cafe window. Chest-up 85mm portrait, holding one ceramic cup below the face in soft open-window light with relaxed shoulders and believable hands.",
+      "output": "samples/coffee-and-a-real-smile-amused-sample.webp"
+    },
+    {
+      "slug": "the-art-of-standing-still",
+      "source_record": "content/prompts.json",
+      "identity_role": "female",
+      "reference_asset_id": "female-preview-reference-2026-09-24",
+      "age_rule": "unspecified adult: default approximately 22–30",
+      "mood": "neutral high-fashion editorial",
+      "required_expression": "Neutral, serious and composed; chin slightly lifted, eyes beyond camera, lips naturally closed, no smile and no teeth.",
+      "scene_prompt": "Exactly one woman in a sculptural cobalt-blue belted suit and wide-leg trousers, full-body in a strong angular pose beside a curved white wall. Sleek low bun, hard directional studio light and one crisp graphic shadow; complete suit silhouette and hems inside the crop.",
+      "output": "samples/the-art-of-standing-still-neutral-sample.webp"
+    },
+    {
+      "slug": "the-lift-stops-at-the-ocean",
+      "source_record": "content/additions/reference-impact-prompts.json",
+      "identity_role": "female",
+      "reference_asset_id": "female-preview-reference-2026-09-24",
+      "age_rule": "explicit: approximately 24",
+      "mood": "restrained surprise at an impossible destination",
+      "required_expression": "Calm, believable surprise: slightly widened clear eyes, subtly raised brows and softly parted lips; no smile, laugh or exaggerated shock.",
+      "scene_prompt": "Exactly one woman in a butter-yellow jacket and dark trousers, three-quarter portrait inside a dry wood-and-steel lift. Open inner doors reveal a sealed framed observation pane and a vast underwater ocean outside, with turquoise sunbeams and a small shoal. Keep the lift dry and the mechanism legible.",
+      "output": "samples/the-lift-stops-at-the-ocean-surprised-sample.webp"
+    },
+    {
+      "slug": "a-night-at-the-cinema",
+      "source_record": "content/prompts.json",
+      "identity_role": "male",
+      "reference_asset_id": "male-preview-reference-2026-09-24",
+      "age_rule": "explicit: man in his sixties; rendered approximately 65–68",
+      "mood": "serious cinematic reflection",
+      "required_expression": "Serious, quiet and reflective; closed lips, restrained brow and gaze past camera, no smile and no teeth.",
+      "scene_prompt": "Exactly one age-progressed man in a dark textured wool coat outside an old cinema at night. Asymmetric close portrait with warm tungsten canopy bulbs against deep blue evening shadows and fine film grain. Lettering remains abstract and unreadable. Ageing must be anatomically integrated rather than pasted wrinkles.",
+      "output": "samples/a-night-at-the-cinema-older-sample.webp"
+    }
+  ]
+}

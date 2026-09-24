@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-24T09:20:00.000Z",
+  "published_previews_reviewed": 91,
+  "human_focused_preview_assets": 76,
+  "non_human_or_product_preview_assets": 15,
+  "selected_legacy_assets_replaced_locally": 15,
+  "human_focused_assets_remaining_for_future_identity_review": 61,
+  "selected_batch": {
+    "single_identity_or_intentional_repeat": 11,
+    "mixed_male_female_couples": 4,
+    "child_identities_used": 0,
+    "multiple_distinct_same_sex_people_cloned": 0
+  },
+  "subject_labels": {
+    "Couple": 9,
+    "Family": 7,
+    "Fashion model and garment": 1,
+    "Kid": 7,
+    "Man": 21,
+    "One adult man": 2,
+    "One adult person": 1,
+    "One adult woman": 1,
+    "One child": 1,
+    "One identity in two depictions": 1,
+    "One person": 9,
+    "Person": 6,
+    "Product": 6,
+    "Three friends": 1,
+    "Woman": 18
+  },
+  "notes": [
+    "Contact sheets cover all 91 published previews.",
+    "Under-18 characters remain outside adult identity replacement.",
+    "Multiple distinct same-sex subjects require manual review rather than identity cloning.",
+    "Counts are visual-library audit labels and are not demographic claims about users."
+  ]
+}

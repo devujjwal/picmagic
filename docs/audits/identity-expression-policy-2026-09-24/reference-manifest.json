@@ -1,0 +1,23 @@
+{
+  "policy": "Private identity references are resolved by logical ID only at generation time. The source photographs are not copied into the repository, public/, prompt records, or generated metadata.",
+  "references": [
+    {
+      "logical_id": "male-preview-reference-2026-09-24",
+      "role": "adult-male-identity-only",
+      "sha256": "1902f0a3bd5a6f93a811ea681ac7e8ca6b1756196041a56a514d6dd7bd230fb8",
+      "pixel_width": 1178,
+      "pixel_height": 1335,
+      "repository_copy": false,
+      "public_copy": false
+    },
+    {
+      "logical_id": "female-preview-reference-2026-09-24",
+      "role": "adult-female-identity-only",
+      "sha256": "284a957e04d607096528045294a615b90234f8eb26b750348843be879dcecdc8",
+      "pixel_width": 1086,
+      "pixel_height": 1448,
+      "repository_copy": false,
+      "public_copy": false
+    }
+  ]
+}

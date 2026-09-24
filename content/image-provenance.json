@@ -35,62 +35,97 @@
   {
     "slug": "a-little-rain-a-lot-of-romance",
     "brief": "Generate a 4:5 original photograph of a fictional Indian couple with distinct natural faces under a transparent umbrella on a rainy East Asian city street. Charcoal overcoat over black knitwear and beige trench coat, warm affectionate eye contact and small smiles. The coat wearer holds the umbrella, the other rests one hand on their arm. Wet pavement reflects warm shop lights against blue dusk. Natural skin and separate fingers, no text or watermark.",
-    "tool": "ChatGPT web image generation",
-    "source_path": "/Users/Ujjwal.Paul/Downloads/ChatGPT Image Sep 10, 2026, 07_27_33 PM.png",
-    "source_conversation": "https://chatgpt.com/c/6aa2b2f4-05b8-83e8-8a09-d18dddfd47c3",
-    "source_sha256": "555935eb1d91519b2c10d202552d69ce1d9a2d018c7477490d32ebd9e1a5471c",
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24",
+      "male-preview-reference-2026-09-24"
+    ],
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 to both people.",
+    "expression_directive": "Warm affectionate eye contact with small natural smiles appropriate to the romantic scene.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "3da22335becdd9c62478ef3a74bef02b68598a14ac00ce280a5784e9bcccd58f",
     "source_width": 1122,
     "source_height": 1402,
-    "reviewed_at": "2026-09-10T14:21:09.399Z",
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
-    "review_method": "Full-resolution visual inspection: subject count, clothing, expression, setting, lighting, visible hands and body proportions match the concept. No material anatomy or accessory defect visible.",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
     "status": "generated",
-    "alt": "A fictional Indian couple share a transparent umbrella on a rainy city street, wearing a charcoal coat and beige trench coat.",
+    "alt": "A young Indian couple share a transparent umbrella and affectionate smiles on a rainy city street.",
     "preview": {
-      "path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+      "path": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 143898,
-      "sha256": "8748c65509c300278489d37451021faa14a76c009d19a55384eb64e843f79daf"
+      "bytes": 201808,
+      "sha256": "d0ed6f14851d9199860971249e693e236ac8f584318c4a9bd247e587028df6ef"
     },
     "thumbnail": {
-      "path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d-thumb.webp",
+      "path": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 39414
+      "bytes": 50710,
+      "sha256": "79570fd0f51c304631789e79a668a37a1a7d5b404e1392fd0bd430e4e7254c4f"
     },
     "previous_asset": {
       "slug": "a-little-rain-a-lot-of-romance",
-      "brief": "Create one original editorial photograph, portrait 4:5 composition. an East Asian couple in their late twenties, one in a charcoal wool coat and one in a cream trench, smiling at one another under a transparent umbrella on a rainy Seoul side street. Lighting: cool blue dusk with reflected amber shop lights. Camera/composition: 50mm lens, f/2, intimate half-body two-shot. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-      "subject": "Couple",
-      "style": [
-        "Romantic",
-        "Korean drama",
-        "Rain"
-      ],
-      "lighting": "cool blue dusk with reflected amber shop lights",
-      "framing": "intimate half-body two-shot",
-      "status": "generated",
-      "tool": "built-in imagegen",
-      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-f0ace136-706d-4fde-85e9-f4aba4804e4a.png",
-      "generated_at": "2026-09-10T07:51:25.313Z",
-      "reviewed_at": "2026-09-10T08:49:38.283Z",
-      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "brief": "Generate a 4:5 original photograph of a fictional Indian couple with distinct natural faces under a transparent umbrella on a rainy East Asian city street. Charcoal overcoat over black knitwear and beige trench coat, warm affectionate eye contact and small smiles. The coat wearer holds the umbrella, the other rests one hand on their arm. Wet pavement reflects warm shop lights against blue dusk. Natural skin and separate fingers, no text or watermark.",
+      "tool": "ChatGPT web image generation",
+      "source_path": "/Users/Ujjwal.Paul/Downloads/ChatGPT Image Sep 10, 2026, 07_27_33 PM.png",
+      "source_conversation": "https://chatgpt.com/c/6aa2b2f4-05b8-83e8-8a09-d18dddfd47c3",
+      "source_sha256": "555935eb1d91519b2c10d202552d69ce1d9a2d018c7477490d32ebd9e1a5471c",
+      "source_width": 1122,
+      "source_height": 1402,
+      "reviewed_at": "2026-09-10T14:21:09.399Z",
       "review_status": "accepted",
+      "review_method": "Full-resolution visual inspection: subject count, clothing, expression, setting, lighting, visible hands and body proportions match the concept. No material anatomy or accessory defect visible.",
+      "status": "generated",
+      "alt": "A fictional Indian couple share a transparent umbrella on a rainy city street, wearing a charcoal coat and beige trench coat.",
       "preview": {
-        "path": "/previews/a-little-rain-a-lot-of-romance.webp",
+        "path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
         "width": 960,
         "height": 1200,
-        "bytes": 144124,
-        "sha256": "ad71df74cb1ccb6c9cc01c94cb51d0136d5fb831a114776b51318f8fc24eb870"
+        "bytes": 143898,
+        "sha256": "8748c65509c300278489d37451021faa14a76c009d19a55384eb64e843f79daf"
       },
       "thumbnail": {
-        "path": "/previews/a-little-rain-a-lot-of-romance-thumb.webp",
+        "path": "/previews/a-little-rain-a-lot-of-romance-555935eb1d-thumb.webp",
         "width": 480,
         "height": 600,
-        "bytes": 42618
+        "bytes": 39414
       },
-      "alt": "An East Asian couple in their late twenties, one in a charcoal wool coat and one in a cream trench, smiling at one another under a transparent umbrella on a rainy Seoul side street"
+      "previous_asset": {
+        "slug": "a-little-rain-a-lot-of-romance",
+        "brief": "Create one original editorial photograph, portrait 4:5 composition. an East Asian couple in their late twenties, one in a charcoal wool coat and one in a cream trench, smiling at one another under a transparent umbrella on a rainy Seoul side street. Lighting: cool blue dusk with reflected amber shop lights. Camera/composition: 50mm lens, f/2, intimate half-body two-shot. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+        "subject": "Couple",
+        "style": [
+          "Romantic",
+          "Korean drama",
+          "Rain"
+        ],
+        "lighting": "cool blue dusk with reflected amber shop lights",
+        "framing": "intimate half-body two-shot",
+        "status": "generated",
+        "tool": "built-in imagegen",
+        "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-f0ace136-706d-4fde-85e9-f4aba4804e4a.png",
+        "generated_at": "2026-09-10T07:51:25.313Z",
+        "reviewed_at": "2026-09-10T08:49:38.283Z",
+        "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+        "review_status": "accepted",
+        "preview": {
+          "path": "/previews/a-little-rain-a-lot-of-romance.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 144124,
+          "sha256": "ad71df74cb1ccb6c9cc01c94cb51d0136d5fb831a114776b51318f8fc24eb870"
+        },
+        "thumbnail": {
+          "path": "/previews/a-little-rain-a-lot-of-romance-thumb.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 42618
+        },
+        "alt": "An East Asian couple in their late twenties, one in a charcoal wool coat and one in a cream trench, smiling at one another under a transparent umbrella on a rainy Seoul side street"
+      }
     }
   },
   {
@@ -165,62 +200,96 @@
   {
     "slug": "somewhere-in-the-mediterranean",
     "brief": "Generate one original 4:5 travel editorial photograph. A fictional Indian woman with medium-brown skin and distinct natural face, wearing a rust-orange linen dress and carrying a woven straw bag, strolling through a whitewashed Mediterranean lane with blue shutters and a glimpse of the sea. Bright natural afternoon light, relaxed expression, full body and bare sandal-wearing feet visible. Natural skin, hands and anatomy, no text or collage.",
-    "tool": "ChatGPT web image generation",
-    "source_path": "/Users/Ujjwal.Paul/Downloads/ChatGPT Image Sep 10, 2026, 07_23_13 PM.png",
-    "source_conversation": "https://chatgpt.com/c/6aa2b2f4-05b8-83e8-8a09-d18dddfd47c3",
-    "source_sha256": "6e5fa4c39c378f132cb5874a9443f27618d39cc14528bd8b11a50ad0424f3e49",
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
+    ],
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+    "expression_directive": "A natural cheerful travel smile that belongs to the bright social scene.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "9ff83c9c48fa22a10ed1bb6e8ab8b90ce4ae9663ded44e7a389d2da4a21cd2f0",
     "source_width": 1122,
     "source_height": 1402,
-    "reviewed_at": "2026-09-10T14:21:10.152Z",
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
-    "review_method": "Full-resolution visual inspection: subject count, clothing, expression, setting, lighting, visible hands and body proportions match the concept. No material anatomy or accessory defect visible.",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
     "status": "generated",
-    "alt": "A fictional Indian woman in a rust-orange linen dress with a straw bag on a whitewashed Mediterranean lane with blue shutters and sea beyond.",
+    "alt": "A cheerful young Indian woman in a rust dress stands on a sunlit Mediterranean street above the sea.",
     "preview": {
-      "path": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp",
+      "path": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 131384,
-      "sha256": "76ed25eca594912cfce389b962e2b8c8adaf6dac0bb712d6870071a369ad60af"
+      "bytes": 186988,
+      "sha256": "8f4d6a004c412a60aec13649a434506de47e02c0d1c186afda65169f0d18db3a"
     },
     "thumbnail": {
-      "path": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c-thumb.webp",
+      "path": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 38878
+      "bytes": 54152,
+      "sha256": "0781abc452e076b547d570d35a5202688e3be83fd8306c7c1a699efeb93ef80d"
     },
     "previous_asset": {
       "slug": "somewhere-in-the-mediterranean",
-      "brief": "Create one original editorial photograph, portrait 4:5 composition. a freckled red-haired woman in her late twenties wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with blue shutters. Lighting: crisp Mediterranean morning light with architectural shadows. Camera/composition: 35mm lens, f/5.6, full-body environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-      "subject": "Woman",
-      "style": [
-        "Travel",
-        "Editorial",
-        "Summer"
-      ],
-      "lighting": "crisp Mediterranean morning light with architectural shadows",
-      "framing": "full-body environmental portrait",
-      "status": "generated",
-      "tool": "built-in imagegen",
-      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-f0147d05-6908-44dd-a089-39e1ffae1a35.png",
-      "generated_at": "2026-09-10T07:51:25.932Z",
-      "reviewed_at": "2026-09-10T08:49:38.286Z",
-      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "brief": "Generate one original 4:5 travel editorial photograph. A fictional Indian woman with medium-brown skin and distinct natural face, wearing a rust-orange linen dress and carrying a woven straw bag, strolling through a whitewashed Mediterranean lane with blue shutters and a glimpse of the sea. Bright natural afternoon light, relaxed expression, full body and bare sandal-wearing feet visible. Natural skin, hands and anatomy, no text or collage.",
+      "tool": "ChatGPT web image generation",
+      "source_path": "/Users/Ujjwal.Paul/Downloads/ChatGPT Image Sep 10, 2026, 07_23_13 PM.png",
+      "source_conversation": "https://chatgpt.com/c/6aa2b2f4-05b8-83e8-8a09-d18dddfd47c3",
+      "source_sha256": "6e5fa4c39c378f132cb5874a9443f27618d39cc14528bd8b11a50ad0424f3e49",
+      "source_width": 1122,
+      "source_height": 1402,
+      "reviewed_at": "2026-09-10T14:21:10.152Z",
       "review_status": "accepted",
+      "review_method": "Full-resolution visual inspection: subject count, clothing, expression, setting, lighting, visible hands and body proportions match the concept. No material anatomy or accessory defect visible.",
+      "status": "generated",
+      "alt": "A fictional Indian woman in a rust-orange linen dress with a straw bag on a whitewashed Mediterranean lane with blue shutters and sea beyond.",
       "preview": {
-        "path": "/previews/somewhere-in-the-mediterranean.webp",
+        "path": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp",
         "width": 960,
         "height": 1200,
-        "bytes": 159796,
-        "sha256": "7955d305f015fb3da263b661108f6388e8845a74b7860039f1186b81810cffc0"
+        "bytes": 131384,
+        "sha256": "76ed25eca594912cfce389b962e2b8c8adaf6dac0bb712d6870071a369ad60af"
       },
       "thumbnail": {
-        "path": "/previews/somewhere-in-the-mediterranean-thumb.webp",
+        "path": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c-thumb.webp",
         "width": 480,
         "height": 600,
-        "bytes": 48482
+        "bytes": 38878
       },
-      "alt": "A freckled red-haired woman in her late twenties wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with blue shutters"
+      "previous_asset": {
+        "slug": "somewhere-in-the-mediterranean",
+        "brief": "Create one original editorial photograph, portrait 4:5 composition. a freckled red-haired woman in her late twenties wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with blue shutters. Lighting: crisp Mediterranean morning light with architectural shadows. Camera/composition: 35mm lens, f/5.6, full-body environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+        "subject": "Woman",
+        "style": [
+          "Travel",
+          "Editorial",
+          "Summer"
+        ],
+        "lighting": "crisp Mediterranean morning light with architectural shadows",
+        "framing": "full-body environmental portrait",
+        "status": "generated",
+        "tool": "built-in imagegen",
+        "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-f0147d05-6908-44dd-a089-39e1ffae1a35.png",
+        "generated_at": "2026-09-10T07:51:25.932Z",
+        "reviewed_at": "2026-09-10T08:49:38.286Z",
+        "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+        "review_status": "accepted",
+        "preview": {
+          "path": "/previews/somewhere-in-the-mediterranean.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 159796,
+          "sha256": "7955d305f015fb3da263b661108f6388e8845a74b7860039f1186b81810cffc0"
+        },
+        "thumbnail": {
+          "path": "/previews/somewhere-in-the-mediterranean-thumb.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 48482
+        },
+        "alt": "A freckled red-haired woman in her late twenties wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with blue shutters"
+      }
     }
   },
   {
@@ -259,68 +328,137 @@
   {
     "slug": "old-school-charm-new-memories",
     "brief": "Create one original editorial photograph, portrait 4:5 composition. a South Asian couple in their fifties laughing beside a vintage maroon car, the woman in a mustard printed saree and the man in a cream open-collar shirt and brown trousers, on a quiet tree-lined avenue. Lighting: late afternoon light with subdued 1980s film colour. Camera/composition: 50mm lens, f/4, wide two-person environmental composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-    "subject": "Couple",
-    "style": [
-      "Retro",
-      "Bollywood",
-      "Romantic"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24",
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "late afternoon light with subdued 1980s film colour",
-    "framing": "wide two-person environmental composition",
-    "status": "generated",
-    "tool": "built-in imagegen",
-    "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-0bc2b66d-e914-4bfe-b785-f13d17acfef1.png",
-    "generated_at": "2026-09-10T07:56:05.859Z",
-    "reviewed_at": "2026-09-10T08:49:38.288Z",
-    "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+    "age_directive": "Explicit scene age: both people are in their fifties.",
+    "expression_directive": "Genuine shared laughter directed toward each other, appropriate to the nostalgic social moment.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "2fc532daaea40546838673ba0c6eeeeee84b42d6e9bf7638efbe51650eee3fc7",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "An Indian couple in their fifties laugh together beside a vintage maroon car on a tree-lined avenue.",
     "preview": {
-      "path": "/previews/old-school-charm-new-memories.webp",
+      "path": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 212372,
-      "sha256": "1e6846630217ae3cf92b141d8554a6d940d2a2b9375b11823d76bd1f63227c80"
+      "bytes": 215174,
+      "sha256": "2469d8b53a34a212e11d680bd4f6af460d20ae2aca1b3f386ece25af34d5ebf3"
     },
     "thumbnail": {
-      "path": "/previews/old-school-charm-new-memories-thumb.webp",
+      "path": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 66596
+      "bytes": 61256,
+      "sha256": "7dad34e577740c49b8e9e0814b2992344bf89c776f09640d64092e9685a817c5"
     },
-    "alt": "A South Asian couple in their fifties laughing beside a vintage maroon car, the woman in a mustard printed saree and the man in a cream open-collar shirt and brown trousers, on a quiet tree-lined avenue"
+    "previous_asset": {
+      "slug": "old-school-charm-new-memories",
+      "brief": "Create one original editorial photograph, portrait 4:5 composition. a South Asian couple in their fifties laughing beside a vintage maroon car, the woman in a mustard printed saree and the man in a cream open-collar shirt and brown trousers, on a quiet tree-lined avenue. Lighting: late afternoon light with subdued 1980s film colour. Camera/composition: 50mm lens, f/4, wide two-person environmental composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "subject": "Couple",
+      "style": [
+        "Retro",
+        "Bollywood",
+        "Romantic"
+      ],
+      "lighting": "late afternoon light with subdued 1980s film colour",
+      "framing": "wide two-person environmental composition",
+      "status": "generated",
+      "tool": "built-in imagegen",
+      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-0bc2b66d-e914-4bfe-b785-f13d17acfef1.png",
+      "generated_at": "2026-09-10T07:56:05.859Z",
+      "reviewed_at": "2026-09-10T08:49:38.288Z",
+      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/old-school-charm-new-memories.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 212372,
+        "sha256": "1e6846630217ae3cf92b141d8554a6d940d2a2b9375b11823d76bd1f63227c80"
+      },
+      "thumbnail": {
+        "path": "/previews/old-school-charm-new-memories-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 66596
+      },
+      "alt": "A South Asian couple in their fifties laughing beside a vintage maroon car, the woman in a mustard printed saree and the man in a cream open-collar shirt and brown trousers, on a quiet tree-lined avenue"
+    }
   },
   {
     "slug": "city-lights-main-character-energy",
     "brief": "Create one original editorial photograph, portrait 4:5 composition. a young Indian man with medium brown skin and curly hair wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind him. Lighting: mixed teal storefront light and warm practical street lamps. Camera/composition: 35mm lens, f/2, three-quarter portrait with subtle motion blur behind the sharp subject. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-    "subject": "Man",
-    "style": [
-      "Cinematic",
-      "Urban",
-      "Night"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "mixed teal storefront light and warm practical street lamps",
-    "framing": "three-quarter portrait with subtle motion blur behind the sharp subject",
-    "status": "generated",
-    "tool": "built-in imagegen",
-    "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-0796bdd4-c57d-40fd-bb28-11738bb1ac2c.png",
-    "generated_at": "2026-09-10T07:56:06.230Z",
-    "reviewed_at": "2026-09-10T08:49:38.290Z",
-    "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+    "expression_directive": "Alert and thoughtful while looking across the street, with relaxed closed lips and no smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "bb1b8885af4c0d1f16a7ee07816a412cf7af2451ef3d5aa60de57eb6c61a8078",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A thoughtful young Indian man stands still at a wet Mumbai crossing while commuters blur around him at dusk.",
     "preview": {
-      "path": "/previews/city-lights-main-character-energy.webp",
+      "path": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 109042,
-      "sha256": "5d928cb725968a3361b34dad1dba5e83ddf17ba2957600862526d5a34040ac86"
+      "bytes": 128550,
+      "sha256": "b31fefcd3eff2a45b08efce0fbdaa47524d843f8d86251d7a5ba337a081489de"
     },
     "thumbnail": {
-      "path": "/previews/city-lights-main-character-energy-thumb.webp",
+      "path": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 38332
+      "bytes": 39638,
+      "sha256": "f9b5c6b779148ef98f2dcb229dd7f0ff02a972e927d732b1ee72a1515a77029c"
     },
-    "alt": "A young Indian man with medium brown skin and curly hair wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind him"
+    "previous_asset": {
+      "slug": "city-lights-main-character-energy",
+      "brief": "Create one original editorial photograph, portrait 4:5 composition. a young Indian man with medium brown skin and curly hair wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind him. Lighting: mixed teal storefront light and warm practical street lamps. Camera/composition: 35mm lens, f/2, three-quarter portrait with subtle motion blur behind the sharp subject. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "subject": "Man",
+      "style": [
+        "Cinematic",
+        "Urban",
+        "Night"
+      ],
+      "lighting": "mixed teal storefront light and warm practical street lamps",
+      "framing": "three-quarter portrait with subtle motion blur behind the sharp subject",
+      "status": "generated",
+      "tool": "built-in imagegen",
+      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-0796bdd4-c57d-40fd-bb28-11738bb1ac2c.png",
+      "generated_at": "2026-09-10T07:56:06.230Z",
+      "reviewed_at": "2026-09-10T08:49:38.290Z",
+      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/city-lights-main-character-energy.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 109042,
+        "sha256": "5d928cb725968a3361b34dad1dba5e83ddf17ba2957600862526d5a34040ac86"
+      },
+      "thumbnail": {
+        "path": "/previews/city-lights-main-character-energy-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 38332
+      },
+      "alt": "A young Indian man with medium brown skin and curly hair wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind him"
+    }
   },
   {
     "slug": "the-red-saree-moment",
@@ -588,68 +726,136 @@
   {
     "slug": "the-desert-in-your-rear-view",
     "brief": "Create one original editorial photograph, portrait 4:5 composition. a North African man in his thirties with olive skin and a short beard, wearing a sand-coloured linen shirt, standing beside a dusty parked four-wheel-drive with immense dunes behind him. Lighting: low desert sunset, warm highlights and cool shadows. Camera/composition: 35mm lens, f/8, wide environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-    "subject": "Man",
-    "style": [
-      "Travel",
-      "Adventure",
-      "Cinematic"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "low desert sunset, warm highlights and cool shadows",
-    "framing": "wide environmental portrait",
-    "status": "generated",
-    "tool": "built-in imagegen",
-    "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-c2859e2c-613e-4baa-b102-2168788b9721.png",
-    "generated_at": "2026-09-10T08:07:36.341Z",
-    "reviewed_at": "2026-09-10T08:49:38.300Z",
-    "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+    "age_directive": "Explicit scene age: a man in his thirties.",
+    "expression_directive": "Calm and thoughtful while looking toward the distant dunes; relaxed closed lips and no smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "ae73ac759442eb436d2a136ee884b59d6b50a4f3e781a11282cdf658fb8b3c2a",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A thoughtful Indian man in his thirties stands beside a dusty four-wheel-drive at sunset in the desert.",
     "preview": {
-      "path": "/previews/the-desert-in-your-rear-view.webp",
+      "path": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 118046,
-      "sha256": "26ccd02e0b6c4125f2065400583eadbed8cb3731e617e6b92a4a6c1d9fbfc301"
+      "bytes": 161740,
+      "sha256": "33e49617dc3cae94ee2676b91b97ac4e208a94bf839abacd0b2070714ccac66e"
     },
     "thumbnail": {
-      "path": "/previews/the-desert-in-your-rear-view-thumb.webp",
+      "path": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 36116
+      "bytes": 43410,
+      "sha256": "5b656b584a5dd3d31232a63e0c52280ae6a4a92437b4ad0525b4037d526d0675"
     },
-    "alt": "A North African man in his thirties with olive skin and a short beard, wearing a sand-coloured linen shirt, standing beside a dusty parked four-wheel-drive with immense dunes behind him"
+    "previous_asset": {
+      "slug": "the-desert-in-your-rear-view",
+      "brief": "Create one original editorial photograph, portrait 4:5 composition. a North African man in his thirties with olive skin and a short beard, wearing a sand-coloured linen shirt, standing beside a dusty parked four-wheel-drive with immense dunes behind him. Lighting: low desert sunset, warm highlights and cool shadows. Camera/composition: 35mm lens, f/8, wide environmental portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "subject": "Man",
+      "style": [
+        "Travel",
+        "Adventure",
+        "Cinematic"
+      ],
+      "lighting": "low desert sunset, warm highlights and cool shadows",
+      "framing": "wide environmental portrait",
+      "status": "generated",
+      "tool": "built-in imagegen",
+      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-c2859e2c-613e-4baa-b102-2168788b9721.png",
+      "generated_at": "2026-09-10T08:07:36.341Z",
+      "reviewed_at": "2026-09-10T08:49:38.300Z",
+      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/the-desert-in-your-rear-view.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 118046,
+        "sha256": "26ccd02e0b6c4125f2065400583eadbed8cb3731e617e6b92a4a6c1d9fbfc301"
+      },
+      "thumbnail": {
+        "path": "/previews/the-desert-in-your-rear-view-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 36116
+      },
+      "alt": "A North African man in his thirties with olive skin and a short beard, wearing a sand-coloured linen shirt, standing beside a dusty parked four-wheel-drive with immense dunes behind him"
+    }
   },
   {
     "slug": "a-modern-bridal-heirloom",
     "brief": "Create one original editorial photograph, portrait 4:5 composition. a South Indian bride with dark brown skin in an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera against a textured deep brown studio backdrop. Lighting: soft Rembrandt light with careful jewellery highlights. Camera/composition: 85mm lens, f/4, elegant half-body portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-    "subject": "Woman",
-    "style": [
-      "Bridal",
-      "Traditional",
-      "Studio"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "soft Rembrandt light with careful jewellery highlights",
-    "framing": "elegant half-body portrait",
-    "status": "generated",
-    "tool": "built-in imagegen",
-    "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-752b07d0-8cf3-41a5-9153-454473f55231.png",
-    "generated_at": "2026-09-10T08:07:36.631Z",
-    "reviewed_at": "2026-09-10T08:49:38.302Z",
-    "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+    "expression_directive": "Gentle, composed bridal warmth with a very subtle closed-mouth smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "c26d8c5c4081e298caccc013ffc362a400663b6a4bcde36a11ec73a04af6ebbd",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A young South Indian bride wears an emerald Kanjeevaram saree, jasmine flowers and layered traditional gold jewellery.",
     "preview": {
-      "path": "/previews/a-modern-bridal-heirloom.webp",
+      "path": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 119904,
-      "sha256": "3c141d766b97d3dd64894376fdea8476f1a42b58eab02c48025c32e8d7348387"
+      "bytes": 187896,
+      "sha256": "a16820fd1df49d67a61d7f6a29bede0c809861cc2570dafe4fdbb5906d6e83ec"
     },
     "thumbnail": {
-      "path": "/previews/a-modern-bridal-heirloom-thumb.webp",
+      "path": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 29342
+      "bytes": 44726,
+      "sha256": "baad63b34e6bab5e3e32ef48263b181ca0fb22ce5b0c146bb2a2896b73be1d82"
     },
-    "alt": "A South Indian bride with dark brown skin in an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera against a textured deep brown studio backdrop"
+    "previous_asset": {
+      "slug": "a-modern-bridal-heirloom",
+      "brief": "Create one original editorial photograph, portrait 4:5 composition. a South Indian bride with dark brown skin in an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera against a textured deep brown studio backdrop. Lighting: soft Rembrandt light with careful jewellery highlights. Camera/composition: 85mm lens, f/4, elegant half-body portrait. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "subject": "Woman",
+      "style": [
+        "Bridal",
+        "Traditional",
+        "Studio"
+      ],
+      "lighting": "soft Rembrandt light with careful jewellery highlights",
+      "framing": "elegant half-body portrait",
+      "status": "generated",
+      "tool": "built-in imagegen",
+      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-752b07d0-8cf3-41a5-9153-454473f55231.png",
+      "generated_at": "2026-09-10T08:07:36.631Z",
+      "reviewed_at": "2026-09-10T08:49:38.302Z",
+      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/a-modern-bridal-heirloom.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 119904,
+        "sha256": "3c141d766b97d3dd64894376fdea8476f1a42b58eab02c48025c32e8d7348387"
+      },
+      "thumbnail": {
+        "path": "/previews/a-modern-bridal-heirloom-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 29342
+      },
+      "alt": "A South Indian bride with dark brown skin in an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera against a textured deep brown studio backdrop"
+    }
   },
   {
     "slug": "the-forest-princess",
@@ -844,35 +1050,69 @@
   {
     "slug": "the-art-of-standing-still",
     "brief": "Create one original editorial photograph, portrait 4:5 composition. a tall South Asian woman with medium brown skin wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall. Lighting: hard directional studio light casting a crisp graphic shadow. Camera/composition: 70mm lens, f/8, full-body editorial composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
-    "subject": "Woman",
-    "style": [
-      "Fashion",
-      "Editorial",
-      "Studio"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "hard directional studio light casting a crisp graphic shadow",
-    "framing": "full-body editorial composition",
-    "status": "generated",
-    "tool": "built-in imagegen",
-    "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-d1d70009-3e0e-4b97-a333-81cdb15db850.png",
-    "generated_at": "2026-09-10T08:12:52.576Z",
-    "reviewed_at": "2026-09-10T08:49:38.313Z",
-    "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30.",
+    "expression_directive": "Serious, composed and editorial, with chin slightly lifted and eyes beyond the camera; no smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "e4dc1367ab145af3f1fbf27df42573574094000a19d5d57587f9c72e3d0d81b4",
+    "source_width": 960,
+    "source_height": 1200,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A serious young Indian woman in a sculptural cobalt-blue suit holds an angular full-body pose beside a curved white wall.",
     "preview": {
-      "path": "/previews/the-art-of-standing-still.webp",
+      "path": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 69584,
-      "sha256": "f01f95b0bd97814eb53504a18eae2ddf76a23743081cffee0d9719b110d31068"
+      "bytes": 66608,
+      "sha256": "51c031dd080c5397f713c6bddb6d392ca20ad5cdc6cdfab2825e1b60f37b6f26"
     },
     "thumbnail": {
-      "path": "/previews/the-art-of-standing-still-thumb.webp",
+      "path": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 16370
+      "bytes": 17066,
+      "sha256": "4a3934b943798ddd86cfce565c838a7a1c03337e367bdaeb205a24ad4efa095d"
     },
-    "alt": "A tall South Asian woman with medium brown skin wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall"
+    "previous_asset": {
+      "slug": "the-art-of-standing-still",
+      "brief": "Create one original editorial photograph, portrait 4:5 composition. a tall South Asian woman with medium brown skin wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall. Lighting: hard directional studio light casting a crisp graphic shadow. Camera/composition: 70mm lens, f/8, full-body editorial composition. Natural realistic texture and anatomy. No text, watermark, collage, layout or branding. This is a single standalone photograph for a photo inspiration gallery.",
+      "subject": "Woman",
+      "style": [
+        "Fashion",
+        "Editorial",
+        "Studio"
+      ],
+      "lighting": "hard directional studio light casting a crisp graphic shadow",
+      "framing": "full-body editorial composition",
+      "status": "generated",
+      "tool": "built-in imagegen",
+      "source_path": "/Users/Ujjwal.Paul/.codex/generated_images/01a08a21-bbed-7f00-92d9-95323fb0ea20/exec-d1d70009-3e0e-4b97-a333-81cdb15db850.png",
+      "generated_at": "2026-09-10T08:12:52.576Z",
+      "reviewed_at": "2026-09-10T08:49:38.313Z",
+      "review_method": "Individual thumbnail inspection and two full-library contact sheets; additional full-size anatomy checks for selected multi-person scenes.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/the-art-of-standing-still.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 69584,
+        "sha256": "f01f95b0bd97814eb53504a18eae2ddf76a23743081cffee0d9719b110d31068"
+      },
+      "thumbnail": {
+        "path": "/previews/the-art-of-standing-still-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 16370
+      },
+      "alt": "A tall South Asian woman with medium brown skin wearing a sculptural cobalt blue cotton suit, standing in a strong angular pose beside a curved white wall"
+    }
   },
   {
     "slug": "coffee-rain-and-college-days",
@@ -3388,35 +3628,69 @@
   {
     "slug": "the-river-remembers",
     "brief": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
-    "subject": "Person",
-    "style": [
-      "Photo Illustration",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p01-river.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Curved ink shoreline connects the journal to the river. Face, resting hands and stone remain photographic; background incidental people are not identity subjects. Main subject is readable at card size.",
+    "age_directive": "Explicit scene age: approximately 42.",
+    "expression_directive": "Quiet, reflective and contemplative; only restrained natural warmth, not a camera-facing smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "ce7d3f07d3ae70251291fa73e2598d5263ea5f89cd6d612b4283aae28669eff2",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A reflective Indian woman rests an open journal on ghat steps as indigo ink flows from the page into a real river.",
     "preview": {
-      "path": "/previews/the-river-remembers-creative-v2.webp",
+      "path": "/previews/the-river-remembers-identity-v2-ce7d3f07d3.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 190802,
-      "sha256": "b865ff5caa9c12fdecc5252f0a6b118a05348d420fa87be6ee11d7b73853d555"
+      "bytes": 225606,
+      "sha256": "9b58bd92d8d895e79b7ead710ca81a125146f83548087c39e2be2905194f0e3f"
     },
     "thumbnail": {
-      "path": "/previews/the-river-remembers-creative-v2-thumb.webp",
+      "path": "/previews/the-river-remembers-identity-v2-ce7d3f07d3-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 58760
+      "bytes": 64836,
+      "sha256": "098107526ac6de91d8a04909f7f28b5eba11567fe16a7fafa352735d10fd24d7"
     },
-    "alt": "Woman beside a river at sunset, with an indigo ink shoreline flowing from her open journal into the real water",
-    "chat_url": "https://chatgpt.com/c/6aa3782a-5f8c-83e9-bc68-1459bcce9bf0"
+    "previous_asset": {
+      "slug": "the-river-remembers",
+      "brief": "Create one original finished image for PicMagic, not a prompt, mockup or explanation. The River Remembers.\n\nVISUAL STORY: A traveller rests an open journal on a ghat step. One river edge flows out of its page as translucent ink, becoming a real river behind the person; the face, hand and nearest stone remain photographic. The transition follows a curved shoreline, never a straight split.\n\nFICTIONAL PREVIEW PERSONA / PRODUCT: One fictional Indian woman about 42, deep-brown complexion, short wavy hair, ordinary build, in an indigo cotton shirt; copper river light, cream paper and one indigo ink channel. Three-quarter framing, face large and unobscured.\n\nCOMPOSITION: 4:5 vertical, target 1200 × 1500 pixels. Design the whole frame deliberately. The visual story must read at a mobile-card size; keep all important faces and objects comfortably inside the edges.\n\nPRESERVATION: One recognizable face and actual proportions; keep the photographic face outside the painted region.\nPERMITTED TRANSFORMATIONS: Environment edges and blank journal artwork into flowing ink; adapt practical clothing and a quiet glance.\n\nQUALITY CONTROLS: Ink must not cross facial landmarks or imply the person is dissolving; avoid tiny journal detail as the only hook. Follow believable anatomy, coherent physical shadows, natural varied expressions and age-appropriate details. No beauty-filter skin, accidental duplicate people, malformed hands, branded creative assets, captions, logos, watermarks or frame around the artwork. Texture and rendering must match the specified photographic, illustration or craft medium; do not force photographic skin onto an explicitly paper or print interpretation.",
+      "subject": "Person",
+      "style": [
+        "Photo Illustration",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p01-river.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Curved ink shoreline connects the journal to the river. Face, resting hands and stone remain photographic; background incidental people are not identity subjects. Main subject is readable at card size.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/the-river-remembers-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 190802,
+        "sha256": "b865ff5caa9c12fdecc5252f0a6b118a05348d420fa87be6ee11d7b73853d555"
+      },
+      "thumbnail": {
+        "path": "/previews/the-river-remembers-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 58760
+      },
+      "alt": "Woman beside a river at sunset, with an indigo ink shoreline flowing from her open journal into the real water",
+      "chat_url": "https://chatgpt.com/c/6aa3782a-5f8c-83e9-bc68-1459bcce9bf0"
+    }
   },
   {
     "slug": "perfume-the-water-sculpture",
@@ -3487,233 +3761,472 @@
   {
     "slug": "the-heritage-railway-letter",
     "brief": "Create one original finished photographic artwork for PicMagic: The Letter Before the Train Leaves. Exactly two fictional Indian adults, a woman about 45 with deep-brown skin and loose short curls and a man about 49 with medium-brown complexion and a greying moustache; distinct faces and ordinary builds. They exchange one folded cream letter beside a STATIONARY 1970s-inspired heritage railway carriage. Muted maroon and cream travel clothes. Compose a close emotional three-quarter view: their separate hands support opposite ends of the same small letter; the recipient looks at the giver with a warm relieved smile, the giver looks back. Amber platform lamps and cool drifting steam create depth; steam hides the far end of the empty platform, never faces or hands. No readable lettering on the carriage or paper, no actors, borrowed film composition, logos or watermark. Period is wardrobe and set styling only. Believable hand anatomy and body posture, unretouched natural skin, subtle photographic grain. 4:5 vertical target 1200 × 1500. Faces should remain readable at a mobile-card size. Generate the image itself.",
-    "subject": "Couple",
-    "style": [
-      "Era Story",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24",
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p06-railway.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Two distinct faces and natural eye contact, one letter between separate hands, stationary carriage, warm lamps and clear faces. Bags are worn rather than a separate suitcase; final copy must follow the reviewed image.",
+    "age_directive": "Explicit ages: woman approximately 45; man approximately 49.",
+    "expression_directive": "Quietly relieved affection with subtle closed-mouth smiles appropriate to a railway farewell.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "6abc645a5b763a75f3d3a1c00a8d6dc286d28f02012bbdeeeec4c6f04c9ae513",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A middle-aged Indian couple exchange a letter beside a heritage train on a softly lit railway platform.",
     "preview": {
-      "path": "/previews/the-heritage-railway-letter-creative-v2.webp",
+      "path": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 181696,
-      "sha256": "2f3b090f55c52c4b2deef27faf7a7fb04b97e0728090d24861d443338ee77e73"
+      "bytes": 193822,
+      "sha256": "b00b4d10c384ff43734ffcf60f90d12490433f1d3d13c493c07ee3b6e95f48c2"
     },
     "thumbnail": {
-      "path": "/previews/the-heritage-railway-letter-creative-v2-thumb.webp",
+      "path": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 50386
+      "bytes": 53538,
+      "sha256": "68d03ae7269ca031e15e94d215046a437e05c6d2c6af80eb07cb5fca170b335c"
     },
-    "alt": "Two adults exchange a folded letter beside a heritage railway carriage under warm station lamps",
-    "chat_url": "https://chatgpt.com/c/6aa3798b-3190-83e9-815c-382f4b47b105"
+    "previous_asset": {
+      "slug": "the-heritage-railway-letter",
+      "brief": "Create one original finished photographic artwork for PicMagic: The Letter Before the Train Leaves. Exactly two fictional Indian adults, a woman about 45 with deep-brown skin and loose short curls and a man about 49 with medium-brown complexion and a greying moustache; distinct faces and ordinary builds. They exchange one folded cream letter beside a STATIONARY 1970s-inspired heritage railway carriage. Muted maroon and cream travel clothes. Compose a close emotional three-quarter view: their separate hands support opposite ends of the same small letter; the recipient looks at the giver with a warm relieved smile, the giver looks back. Amber platform lamps and cool drifting steam create depth; steam hides the far end of the empty platform, never faces or hands. No readable lettering on the carriage or paper, no actors, borrowed film composition, logos or watermark. Period is wardrobe and set styling only. Believable hand anatomy and body posture, unretouched natural skin, subtle photographic grain. 4:5 vertical target 1200 × 1500. Faces should remain readable at a mobile-card size. Generate the image itself.",
+      "subject": "Couple",
+      "style": [
+        "Era Story",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p06-railway.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Two distinct faces and natural eye contact, one letter between separate hands, stationary carriage, warm lamps and clear faces. Bags are worn rather than a separate suitcase; final copy must follow the reviewed image.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/the-heritage-railway-letter-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 181696,
+        "sha256": "2f3b090f55c52c4b2deef27faf7a7fb04b97e0728090d24861d443338ee77e73"
+      },
+      "thumbnail": {
+        "path": "/previews/the-heritage-railway-letter-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 50386
+      },
+      "alt": "Two adults exchange a folded letter beside a heritage railway carriage under warm station lamps",
+      "chat_url": "https://chatgpt.com/c/6aa3798b-3190-83e9-815c-382f4b47b105"
+    }
   },
   {
     "slug": "a-mountain-journey-within",
     "brief": "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork.",
-    "subject": "Person",
-    "style": [
-      "Controlled Double Exposure",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p03-mountain.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "One clear face; scenery starts below face in shoulders/jacket. No road over eyes or hollow face. One unoccupied tent, no second protagonist.",
+    "age_directive": "Explicit scene age: approximately 58.",
+    "expression_directive": "Calm, reflective and composed with relaxed closed lips.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "ce4a52bab97f40f27c2c2179e91690ccedc54777de97c60d811539bf96202ace",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A reflective older Indian man appears above a mountain road woven through his outdoor jacket in a double-exposure portrait.",
     "preview": {
-      "path": "/previews/a-mountain-journey-within-creative-v2.webp",
+      "path": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 196898,
-      "sha256": "5ad9689f547a4ed0b93bfddd3cbf2b2613fd988dfb4ad85cb4ecc7d9cf958f90"
+      "bytes": 224894,
+      "sha256": "f1d9e9cae5553041c7bf495032b8176f4f4041210b2baa3f3de6dc0bdf5bd892"
     },
     "thumbnail": {
-      "path": "/previews/a-mountain-journey-within-creative-v2-thumb.webp",
+      "path": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 49350
+      "bytes": 56266,
+      "sha256": "85e111ef149faa4cdd06884496360163ed62bc374876afd57eaa63c4ba0bf7d3"
     },
-    "alt": "Mature man with a clear photographic face above a Himalayan road and mountain landscape blended into his jacket",
-    "chat_url": "https://chatgpt.com/c/6aa378bb-94d4-83ee-997f-0bedc670f7a8"
+    "previous_asset": {
+      "slug": "a-mountain-journey-within",
+      "brief": "Create one original finished image for PicMagic, not a prompt or explanation. A Mountain Journey Within. An almost frontal portrait remains clear from eyes to mouth. A Himalayan road runs through the jacket and outer shoulder silhouette, with a tiny unoccupied roadside tent. A pale sky separates the facial edge from the mountain layers; no second human silhouette. One fictional Indian adult about 58 with light-brown complexion, grey moustache and short salt-and-pepper hair, weatherproof dark jacket; slate mountains and a warm winding road. No implied real expedition achievement. 4:5 vertical, target 1200 × 1500 pixels. Eyes, nose, mouth, face geometry and hairline remain in a photographic neutral-lit zone. Transform ONLY jacket/shoulder area into a layered mountain landscape; literal colour retained on face, scenery permitted only outside it. Face large and clearly visible. Avoid road crossing eyes, hollow-looking face, extra person, artificial beauty-filter skin, anatomical distortions, text, logos and watermark. Believable perspective within the surreal composite. The effect should read strongly at mobile-card size. Generate the finished artwork.",
+      "subject": "Person",
+      "style": [
+        "Controlled Double Exposure",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p03-mountain.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "One clear face; scenery starts below face in shoulders/jacket. No road over eyes or hollow face. One unoccupied tent, no second protagonist.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/a-mountain-journey-within-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 196898,
+        "sha256": "5ad9689f547a4ed0b93bfddd3cbf2b2613fd988dfb4ad85cb4ecc7d9cf958f90"
+      },
+      "thumbnail": {
+        "path": "/previews/a-mountain-journey-within-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 49350
+      },
+      "alt": "Mature man with a clear photographic face above a Himalayan road and mountain landscape blended into his jacket",
+      "chat_url": "https://chatgpt.com/c/6aa378bb-94d4-83ee-997f-0bedc670f7a8"
+    }
   },
   {
     "slug": "the-tailors-mountain-range",
     "brief": "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself.",
-    "subject": "Person",
-    "style": [
-      "Surreal Scale",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p08-tailor.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "One person at uniform miniature scale. Cloth weave, spool and winding seam establish the effect. Hands and proportions examined. Wide card recommended so the face is not reduced to a dot; this is personal art, not a sellable garment depiction.",
+    "age_directive": "Explicit scene age: approximately 47.",
+    "expression_directive": "Focused and quietly proud while moving through the textile landscape.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "d18d512c873b0dea6ac1317cc22f363afa5baaaecac10ef6979fb6c7c1513a76",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A middle-aged Indian tailor walks through enormous indigo fabric folds shaped like a mountain range.",
     "preview": {
-      "path": "/previews/the-tailors-mountain-range-creative-v2.webp",
+      "path": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 174084,
-      "sha256": "e7695798bc1465e4b5f2649c45b4d768ebc140c566746781a32cb50548166d39"
+      "bytes": 201228,
+      "sha256": "f38006f397a35687b58cbc973166d2c804ad5b2a7d73681deafa5a017e0278c5"
     },
     "thumbnail": {
-      "path": "/previews/the-tailors-mountain-range-creative-v2-thumb.webp",
+      "path": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 52704
+      "bytes": 58686,
+      "sha256": "2e7912bdbae5085bb8b9a390c7750d0e5a2e254dc83905f94897efb0f02bb2c6"
     },
-    "alt": "Miniature tailor with spectacles beside an enormous spool and mountain-like indigo fabric folds",
-    "chat_url": "https://chatgpt.com/c/6aa37a02-6a28-83ee-8382-471b858831f2"
+    "previous_asset": {
+      "slug": "the-tailors-mountain-range",
+      "brief": "Create one original finished PicMagic artwork: The Tailor's Mountain Range. One miniature fictional Indian designer, a man about 47 with warm-brown complexion, spectacles, thinning curly hair and a round ordinary build, wears a rust cotton work shirt. He stands close to the foreground between enormous folds of indigo woven fabric resembling mountain ridges. One oversized pale wooden thread spool anchors the impossible scale. A stitched seam winds like a trail toward a distant fabric pass. Low camera angle from within the fabric valley; he is uniformly miniature but occupies enough of the foreground for his face to remain clearly readable, never an anonymous tiny dot. Weave fibres, woodgrain and seam stitches are convincingly physical. Soft side light, coherent contact shadows, subtle depth falloff in distant cloth ridges. The man remains naturally proportioned and recognizable, with believable arms and hands, no altered physique. This is personal creative art, not a catalogue claim about a manufactured garment. 4:5 vertical, target 1200 × 1500 pixels. No extra people, text, logos or watermark. Generate the image itself.",
+      "subject": "Person",
+      "style": [
+        "Surreal Scale",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p08-tailor.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "One person at uniform miniature scale. Cloth weave, spool and winding seam establish the effect. Hands and proportions examined. Wide card recommended so the face is not reduced to a dot; this is personal art, not a sellable garment depiction.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/the-tailors-mountain-range-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 174084,
+        "sha256": "e7695798bc1465e4b5f2649c45b4d768ebc140c566746781a32cb50548166d39"
+      },
+      "thumbnail": {
+        "path": "/previews/the-tailors-mountain-range-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 52704
+      },
+      "alt": "Miniature tailor with spectacles beside an enormous spool and mountain-like indigo fabric folds",
+      "chat_url": "https://chatgpt.com/c/6aa37a02-6a28-83ee-8382-471b858831f2"
+    }
   },
   {
     "slug": "one-day-four-possible-worlds",
     "brief": "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself.",
-    "subject": "Person",
-    "style": [
-      "Multi Scene Identity",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "male-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p02-four-worlds.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Four intentional depictions, one fictional identity. Compared to both saved fixture and observer trial: face shape, curls, beard and proportions remain recognizable. All panels remain inside 3:4 framing. No claim of guaranteed user-reference fidelity.",
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 in all four depictions.",
+    "expression_directive": "Thoughtful main portrait, curious observer, focused potter and gentle open-air smile; expressions follow each panel's action.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "37337157b77db781712958a2f134b1a5933872d2a23887661088e2f1e134eeb0",
+    "source_width": 1086,
+    "source_height": 1448,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "The same young Indian man appears in four possible worlds as a portrait subject, observer, potter and mountain traveller.",
     "preview": {
-      "path": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+      "path": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7.webp",
       "width": 1080,
       "height": 1440,
-      "bytes": 219818,
-      "sha256": "f7e4c6c781b7147a3f1118fb710c3b932e140a6cb8c582f140c0708ef2268811"
+      "bytes": 235334,
+      "sha256": "da87314aa974b46b71804dcfaec68faedfbe9543589a1ba1c1609c5389aaf261"
     },
     "thumbnail": {
-      "path": "/previews/one-day-four-possible-worlds-creative-v2-thumb.webp",
-      "width": 576,
-      "height": 768,
-      "bytes": 74808
+      "path": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7-thumb.webp",
+      "width": 540,
+      "height": 720,
+      "bytes": 70402,
+      "sha256": "42acb3f3f101980d5bfd9e6d7fe98d28f468f3da75f87eb5d382cf076922a776"
     },
-    "alt": "The same fictional man in four curved panels: a main portrait, stargazing, making pottery and mountain travel",
-    "chat_url": "https://chatgpt.com/c/6aa377ff-08e4-83ee-8d63-d24dd06d53b7"
+    "previous_asset": {
+      "slug": "one-day-four-possible-worlds",
+      "brief": "Now create the finished PicMagic artwork: One Day, Four Possible Worlds. Use BOTH previous generated images as identity references for the SAME fictional man; the first ochre-shirt portrait is authoritative. Exactly ONE identity appears FOUR times intentionally, not four different men. Preserve his recognizable face geometry, hairline, curls, beard, complexion, age and ordinary stocky proportions in every panel.\n\n3:4 vertical artwork, target 1200 × 1600 pixels. One dominant waist-up ochre-shirt portrait occupies the left two-thirds. Along the right, three unequal inset scene windows show this same man: top, the night observer beside the telescope from the reviewed second image; middle, shaping a clay bowl at a pottery wheel with believable hands; bottom, a mountain traveller in practical outdoor layers with a curved road behind him. Faces in all four depictions must be clearly readable and never hidden by hats or objects. Vary expressions naturally: thoughtful main portrait, curious observer, focused potter, gentle open-air smile.\n\nUse fluid curved window edges sharing an imagined horizon, not a rigid passport-photo grid. Keep four clearly separate depictions with no blended faces or limbs between panels. No fifth depiction, reflections of extra people, labels or text. Retain photographic natural skin; only wardrobe, action and environment change. Ochre main panel, midnight blue observatory, clay neutrals and muted mountain colours. This represents imagined pursuits, not real professional achievements. Do not crop away any panel. Generate the finished original image itself.",
+      "subject": "Person",
+      "style": [
+        "Multi Scene Identity",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p02-four-worlds.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Four intentional depictions, one fictional identity. Compared to both saved fixture and observer trial: face shape, curls, beard and proportions remain recognizable. All panels remain inside 3:4 framing. No claim of guaranteed user-reference fidelity.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 219818,
+        "sha256": "f7e4c6c781b7147a3f1118fb710c3b932e140a6cb8c582f140c0708ef2268811"
+      },
+      "thumbnail": {
+        "path": "/previews/one-day-four-possible-worlds-creative-v2-thumb.webp",
+        "width": 576,
+        "height": 768,
+        "bytes": 74808
+      },
+      "alt": "The same fictional man in four curved panels: a main portrait, stargazing, making pottery and mountain travel",
+      "chat_url": "https://chatgpt.com/c/6aa377ff-08e4-83ee-8d63-d24dd06d53b7"
+    }
   },
   {
     "slug": "portrait-cut-from-monsoon-paper",
     "brief": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
-    "subject": "Person",
-    "style": [
-      "Physical Material Portrait",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p13-paper.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Compared to the saved fictional portrait: eye spacing, face shape, smile asymmetry and age cues remain recognizable. Paper edge thickness and fibres are visible; palette is declared material translation rather than literal skin preservation.",
+    "age_directive": "Explicit mature portrait with believable age progression and naturally grey hair, approximately mid-fifties.",
+    "expression_directive": "Restrained, gentle and reflective; preserve expression through the paper medium without a generic model smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "e8dbcce134a8d4ae322edfa84acd478877d131acf5d6ec2d1c6a963e1fd0ca85",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A mature Indian woman's recognizable portrait is constructed from layered indigo, cream, umber and silver-grey monsoon paper.",
     "preview": {
-      "path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+      "path": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 294882,
-      "sha256": "b583bf292ecfc1b874bd5cd1acef77ea1381634fb6db27eb44746edbe65cc083"
+      "bytes": 377148,
+      "sha256": "467084f2dac9dd6ce3675903e8b683e15ebaae98ec65a7fcd936fb72700f6f40"
     },
     "thumbnail": {
-      "path": "/previews/portrait-cut-from-monsoon-paper-creative-v2-thumb.webp",
+      "path": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 70630
+      "bytes": 84366,
+      "sha256": "2f2f595f39ca4841d801448eb1ca01d04a83cd257c067349d6c32017330515d6"
     },
-    "alt": "Layered paper-relief portrait of an older woman, with grey paper hair and indigo cloud shapes behind her",
-    "chat_url": "https://chatgpt.com/c/6aa37a47-d728-83ee-9e40-803641e1f63f"
+    "previous_asset": {
+      "slug": "portrait-cut-from-monsoon-paper",
+      "brief": "Translate this exact fictional woman's portrait into the finished PicMagic artwork Portrait Cut from Monsoon Paper. Her identity reference is authoritative: preserve recognizable facial geometry, eye spacing, nose and mouth shape, gentle asymmetry, apparent age and grey hairline. Make the portrait entirely from layered torn and cut paper, with real edge thickness, irregular fibres and shallow physical cast shadows. Model nose and cheeks through folded and stacked paper relief, not a flat digital filter. Translate her complexion into warm umber paper tonal relationships; indigo, cream and silver-grey papers for clothing, hair and surroundings. This is an explicit material palette, not a change of ethnicity or age. Keep eye contours and natural facial lines readable in the paper construction; do not smooth her into a young generic face. Curved monsoon-cloud shapes sit behind her head, never across eyes. Soft directional gallery light reveals relief. Close portrait 4:5, target 1200 × 1500, no border, text, logos, unrelated collage faces or watermark. Preserve the original gentle expression. Generate one finished image using this portrait as the reference.",
+      "subject": "Person",
+      "style": [
+        "Physical Material Portrait",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p13-paper.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Compared to the saved fictional portrait: eye spacing, face shape, smile asymmetry and age cues remain recognizable. Paper edge thickness and fibres are visible; palette is declared material translation rather than literal skin preservation.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 294882,
+        "sha256": "b583bf292ecfc1b874bd5cd1acef77ea1381634fb6db27eb44746edbe65cc083"
+      },
+      "thumbnail": {
+        "path": "/previews/portrait-cut-from-monsoon-paper-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 70630
+      },
+      "alt": "Layered paper-relief portrait of an older woman, with grey paper hair and indigo cloud shapes behind her",
+      "chat_url": "https://chatgpt.com/c/6aa37a47-d728-83ee-9e40-803641e1f63f"
+    }
   },
   {
     "slug": "last-train-two-ink-portrait",
     "brief": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
-    "subject": "Person",
-    "style": [
-      "Limited Ink Print",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p05-print.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Two-ink treatment, halftone and visible age cues. Window shadow crosses shoulder rather than eyes. A small decorative bindi appears in this fictional preview; it is not a mandatory user identity feature. This is artwork, not a literal complexion change.",
+    "age_directive": "Explicit scene age: approximately 52.",
+    "expression_directive": "Thoughtful and inward-looking, as if watching the end of a journey; no smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "c01737bfdfd363bba044194f18cfb9bf9ce7ceb8efe492043a5ee62508c30d12",
+    "source_width": 1122,
+    "source_height": 1402,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "A thoughtful middle-aged Indian woman appears in a plum-and-saffron two-ink railway portrait.",
     "preview": {
-      "path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+      "path": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf.webp",
       "width": 960,
       "height": 1200,
-      "bytes": 536406,
-      "sha256": "84dfcaf91a029bda2b38de00dee0b86080144978e9488fee0cecec7f8c4f814f"
+      "bytes": 524696,
+      "sha256": "098ec874375f2534a420f5e50c8afe45410cd8790d63357a4b6ba47ed15d223b"
     },
     "thumbnail": {
-      "path": "/previews/last-train-two-ink-portrait-creative-v2-thumb.webp",
+      "path": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 111592
+      "bytes": 100816,
+      "sha256": "594bf60b4aad8080485eef745d113c7b0354a136b8619681b6a5dfe932bdd935"
     },
-    "alt": "Plum-and-saffron halftone portrait of a mature woman beside a railway window",
-    "chat_url": "https://chatgpt.com/c/6aa37a76-4ccc-83ee-be3d-7b703f6ea6e2"
+    "previous_asset": {
+      "slug": "last-train-two-ink-portrait",
+      "brief": "Create one original finished PicMagic artwork: The Last Train, Printed in Two Inks. A readable close portrait of one fictional Indian woman around 52, medium-brown complexion represented through relative print tones, silver-streaked short curls and a broad naturally lined face. Plain period blouse. Her shoulders are crossed by the shadow of a diagonal railway-carriage window; the shadow stays away from the eyes. The entire image is a deliberately limited PLUM AND SAFFRON ink print on off-white paper stock. Show coarse halftone, visible paper fibres and a small deliberate registration offset in the BACKGROUND; eyes and facial contours stay crisp and age remains visible. This is ink artwork, not photorealistic skin or an ethnicity change. Her expression is thoughtful, as if looking from a train at the end of a journey. No actor reference, copied film poster, film title, lettering, logos or watermark. Compose boldly for 4:5 vertical, target 1200 × 1500, face large enough for mobile discovery, one diagonal window-shadow motif and no additional people. Generate the finished image itself.",
+      "subject": "Person",
+      "style": [
+        "Limited Ink Print",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 4:5 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p05-print.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Two-ink treatment, halftone and visible age cues. Window shadow crosses shoulder rather than eyes. A small decorative bindi appears in this fictional preview; it is not a mandatory user identity feature. This is artwork, not a literal complexion change.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 536406,
+        "sha256": "84dfcaf91a029bda2b38de00dee0b86080144978e9488fee0cecec7f8c4f814f"
+      },
+      "thumbnail": {
+        "path": "/previews/last-train-two-ink-portrait-creative-v2-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 111592
+      },
+      "alt": "Plum-and-saffron halftone portrait of a mature woman beside a railway window",
+      "chat_url": "https://chatgpt.com/c/6aa37a76-4ccc-83ee-be3d-7b703f6ea6e2"
+    }
   },
   {
     "slug": "one-saree-three-campaign-worlds",
     "brief": "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment.",
-    "subject": "Fashion model and garment",
-    "style": [
-      "Garment Consistent Campaign",
-      "Creative transformation"
+    "tool": "Codex built-in image generation",
+    "identity_policy_version": "identity-expression-age-v2",
+    "identity_reference_ids": [
+      "female-preview-reference-2026-09-24"
     ],
-    "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
-    "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
-    "status": "generated",
-    "tool": "ChatGPT browser workflow",
-    "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p12-saree-worlds.png",
-    "generated_at": "2026-09-11T06:00:00Z",
-    "reviewed_at": "2026-09-11T06:00:00Z",
-    "review_method": "Exactly three depictions of one model in the same front-three-quarter view. Indigo weave, copper border, blouse and front drape visually consistent with the saved fixture; no back view invented. Full garment visible. Visual inspection is not pixel-exact seller certification: real logos/labels should use source compositing if generation alters them.",
+    "age_directive": "Adult age is not explicit; apply the young-adult default of approximately 22–30 in all three panels.",
+    "expression_directive": "Composed professional editorial neutrality with relaxed closed lips and level mouth corners; no smile.",
+    "reference_binding": "Private reference binding is intentionally excluded from production data.",
+    "source_sha256": "452d11b29ec3e8248fc73c94765b83e330379ad2f0d1eaedf789ecf1cd356ed8",
+    "source_width": 1086,
+    "source_height": 1448,
+    "reviewed_at": "2026-09-24T09:10:00.000Z",
     "review_status": "accepted",
+    "review_method": "Full-size visual review against the original PicMagic scene, logical identity reference, explicit/default age rule, prompt-led expression, subject count, anatomy and crop. Corrective generations were required for age progression and repetitive smiling before acceptance.",
+    "status": "generated",
+    "alt": "The same young Indian woman models one indigo saree in three distinct campaign environments.",
     "preview": {
-      "path": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+      "path": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e.webp",
       "width": 1080,
       "height": 1440,
-      "bytes": 208544,
-      "sha256": "bf632ac131a6efa44acde686e7ee4f3f37c7517af23656a22a83037dfd24a3c2"
+      "bytes": 221048,
+      "sha256": "556c029a5af8a14644b9cdb12404c85916ddbe1e2ceadc7d2e14fda3fc367c43"
     },
     "thumbnail": {
-      "path": "/previews/one-saree-three-campaign-worlds-creative-v2-thumb.webp",
-      "width": 576,
-      "height": 768,
-      "bytes": 71514
+      "path": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e-thumb.webp",
+      "width": 540,
+      "height": 720,
+      "bytes": 63694,
+      "sha256": "130da9ae21ddcf9141ef769be6e5e4f06c23e4336fed5a24a7d3191d166323af"
     },
-    "alt": "The same woman and indigo saree with copper border in a basalt courtyard, rain-lit pavilion and pale sculptural studio",
-    "chat_url": "https://chatgpt.com/c/6aa37954-5a48-83ee-b573-b09c6fb81943"
+    "previous_asset": {
+      "slug": "one-saree-three-campaign-worlds",
+      "brief": "Create the finished PicMagic artwork One Saree, Three Campaign Worlds. Use the displayed fictional model and saree as the exact authoritative reference. ONE model identity, intentionally shown THREE times in three separate panels. Preserve her face, short wavy hairline, apparent age, skin tone, ordinary broad-hipped proportions. Product fidelity is the priority: exact indigo fabric, visible weave, narrow solid copper border, plain matching blouse, front pallu placement and supplied drape. Do not invent rear or side construction or add motifs/accessories.\n\n3:4 vertical, target 1200 × 1600. One dominant front-three-quarter full-length view fills the left two-thirds, in a basalt courtyard. Two supporting frames on the right show the SAME front-three-quarter pose and same garment: top a rain-lit glass pavilion, bottom an ivory sculptural studio. Neutral soft light on the garment in every frame keeps colour and border consistent; environmental lighting affects the surroundings only. Show head to feet without cutting the saree in all panels. Clear faces, same expression and stance are acceptable for comparison. No overlapping bodies or merged panel edges. No fourth model, fashion branding, labels, captions or watermark. Keep enough panel size to inspect the fabric. Generate the image itself using this fixture; no new model or reinterpreted garment.",
+      "subject": "Fashion model and garment",
+      "style": [
+        "Garment Consistent Campaign",
+        "Creative transformation"
+      ],
+      "lighting": "Lighting follows the scene-specific directions in the prompt; preserve believable depth and facial readability.",
+      "framing": "Uncropped 3:4 composition; preserve all essential faces, panels and props.",
+      "status": "generated",
+      "tool": "ChatGPT browser workflow",
+      "source_path": "/Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/docs/audits/creative-batch-2026-09-11/sources/p12-saree-worlds.png",
+      "generated_at": "2026-09-11T06:00:00Z",
+      "reviewed_at": "2026-09-11T06:00:00Z",
+      "review_method": "Exactly three depictions of one model in the same front-three-quarter view. Indigo weave, copper border, blouse and front drape visually consistent with the saved fixture; no back view invented. Full garment visible. Visual inspection is not pixel-exact seller certification: real logos/labels should use source compositing if generation alters them.",
+      "review_status": "accepted",
+      "preview": {
+        "path": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 208544,
+        "sha256": "bf632ac131a6efa44acde686e7ee4f3f37c7517af23656a22a83037dfd24a3c2"
+      },
+      "thumbnail": {
+        "path": "/previews/one-saree-three-campaign-worlds-creative-v2-thumb.webp",
+        "width": 576,
+        "height": 768,
+        "bytes": 71514
+      },
+      "alt": "The same woman and indigo saree with copper border in a basalt courtyard, rain-lit pavilion and pale sculptural studio",
+      "chat_url": "https://chatgpt.com/c/6aa37954-5a48-83ee-b573-b09c6fb81943"
+    }
   },
   {
     "slug": "borrowed-moon-closing-time",

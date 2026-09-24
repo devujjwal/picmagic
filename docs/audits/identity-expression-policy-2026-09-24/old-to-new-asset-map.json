@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-24T09:20:00.000Z",
+  "assets_overwritten_or_deleted": false,
+  "mappings": [
+    {
+      "slug": "the-river-remembers",
+      "old_preview": "/previews/the-river-remembers-creative-v2.webp",
+      "new_preview": "/previews/the-river-remembers-identity-v2-ce7d3f07d3.webp",
+      "old_thumbnail": "/previews/the-river-remembers-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/the-river-remembers-identity-v2-ce7d3f07d3-thumb.webp"
+    },
+    {
+      "slug": "the-heritage-railway-letter",
+      "old_preview": "/previews/the-heritage-railway-letter-creative-v2.webp",
+      "new_preview": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b.webp",
+      "old_thumbnail": "/previews/the-heritage-railway-letter-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/the-heritage-railway-letter-identity-v2-6abc645a5b-thumb.webp"
+    },
+    {
+      "slug": "a-mountain-journey-within",
+      "old_preview": "/previews/a-mountain-journey-within-creative-v2.webp",
+      "new_preview": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9.webp",
+      "old_thumbnail": "/previews/a-mountain-journey-within-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/a-mountain-journey-within-identity-v2-ce4a52bab9-thumb.webp"
+    },
+    {
+      "slug": "the-tailors-mountain-range",
+      "old_preview": "/previews/the-tailors-mountain-range-creative-v2.webp",
+      "new_preview": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87.webp",
+      "old_thumbnail": "/previews/the-tailors-mountain-range-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/the-tailors-mountain-range-identity-v2-d18d512c87-thumb.webp"
+    },
+    {
+      "slug": "one-day-four-possible-worlds",
+      "old_preview": "/previews/one-day-four-possible-worlds-creative-v2.webp",
+      "new_preview": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7.webp",
+      "old_thumbnail": "/previews/one-day-four-possible-worlds-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/one-day-four-possible-worlds-identity-v2-37337157b7-thumb.webp"
+    },
+    {
+      "slug": "portrait-cut-from-monsoon-paper",
+      "old_preview": "/previews/portrait-cut-from-monsoon-paper-creative-v2.webp",
+      "new_preview": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134.webp",
+      "old_thumbnail": "/previews/portrait-cut-from-monsoon-paper-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/portrait-cut-from-monsoon-paper-identity-v2-e8dbcce134-thumb.webp"
+    },
+    {
+      "slug": "one-saree-three-campaign-worlds",
+      "old_preview": "/previews/one-saree-three-campaign-worlds-creative-v2.webp",
+      "new_preview": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e.webp",
+      "old_thumbnail": "/previews/one-saree-three-campaign-worlds-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/one-saree-three-campaign-worlds-identity-v2-452d11b29e-thumb.webp"
+    },
+    {
+      "slug": "last-train-two-ink-portrait",
+      "old_preview": "/previews/last-train-two-ink-portrait-creative-v2.webp",
+      "new_preview": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf.webp",
+      "old_thumbnail": "/previews/last-train-two-ink-portrait-creative-v2-thumb.webp",
+      "new_thumbnail": "/previews/last-train-two-ink-portrait-identity-v2-c01737bfdf-thumb.webp"
+    },
+    {
+      "slug": "a-little-rain-a-lot-of-romance",
+      "old_preview": "/previews/a-little-rain-a-lot-of-romance-555935eb1d.webp",
+      "new_preview": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be.webp",
+      "old_thumbnail": "/previews/a-little-rain-a-lot-of-romance-555935eb1d-thumb.webp",
+      "new_thumbnail": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be-thumb.webp"
+    },
+    {
+      "slug": "somewhere-in-the-mediterranean",
+      "old_preview": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c.webp",
+      "new_preview": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48.webp",
+      "old_thumbnail": "/previews/somewhere-in-the-mediterranean-6e5fa4c39c-thumb.webp",
+      "new_thumbnail": "/previews/somewhere-in-the-mediterranean-identity-v2-9ff83c9c48-thumb.webp"
+    },
+    {
+      "slug": "old-school-charm-new-memories",
+      "old_preview": "/previews/old-school-charm-new-memories.webp",
+      "new_preview": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae.webp",
+      "old_thumbnail": "/previews/old-school-charm-new-memories-thumb.webp",
+      "new_thumbnail": "/previews/old-school-charm-new-memories-identity-v2-2fc532daae-thumb.webp"
+    },
+    {
+      "slug": "the-desert-in-your-rear-view",
+      "old_preview": "/previews/the-desert-in-your-rear-view.webp",
+      "new_preview": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594.webp",
+      "old_thumbnail": "/previews/the-desert-in-your-rear-view-thumb.webp",
+      "new_thumbnail": "/previews/the-desert-in-your-rear-view-identity-v2-ae73ac7594-thumb.webp"
+    },
+    {
+      "slug": "a-modern-bridal-heirloom",
+      "old_preview": "/previews/a-modern-bridal-heirloom.webp",
+      "new_preview": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40.webp",
+      "old_thumbnail": "/previews/a-modern-bridal-heirloom-thumb.webp",
+      "new_thumbnail": "/previews/a-modern-bridal-heirloom-identity-v2-c26d8c5c40-thumb.webp"
+    },
+    {
+      "slug": "the-art-of-standing-still",
+      "old_preview": "/previews/the-art-of-standing-still.webp",
+      "new_preview": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab.webp",
+      "old_thumbnail": "/previews/the-art-of-standing-still-thumb.webp",
+      "new_thumbnail": "/previews/the-art-of-standing-still-identity-v2-e4dc1367ab-thumb.webp"
+    },
+    {
+      "slug": "city-lights-main-character-energy",
+      "old_preview": "/previews/city-lights-main-character-energy.webp",
+      "new_preview": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af.webp",
+      "old_thumbnail": "/previews/city-lights-main-character-energy-thumb.webp",
+      "new_thumbnail": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af-thumb.webp"
+    }
+  ]
+}

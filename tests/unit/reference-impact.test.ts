@@ -10,6 +10,7 @@ import candidates from "../../docs/audits/reference-impact-2026-09-15/candidates
 import manifest from "../../docs/audits/reference-impact-2026-09-15/generation-manifest.json";
 import releaseScope from "../../docs/releases/2026-09-15/scope.json";
 import baseline from "../../docs/audits/reference-impact-2026-09-15/current-library.json";
+import identityPreviewManifest from "../../docs/audits/identity-expression-policy-2026-09-24/selected-preview-generation-manifest.json";
 import {
   socialPreviewEnabled,
   socialPreviewMemberships,
@@ -22,19 +23,30 @@ describe("Reference-inspired local expansion", () => {
     expect(baseline).toHaveLength(177);
     for (const { source_file: sourceFile, ...p } of baseline) {
       expect(sourceFile).toMatch(/^content\//);
+      const identityPreview = identityPreviewManifest.items.find(
+        (item) => item.slug === p.slug,
+      );
+      const releaseExpected = releaseScope.new_prompt_ids.includes(p.id)
+        ? {
+            ...p,
+            is_published: true,
+            is_indexable: true,
+            published_at: "2026-09-15T07:00:00.000Z",
+            updated_at: "2026-09-15T07:00:00.000Z",
+          }
+        : p;
       expect(
         allPrompts.find((x) => x.id === p.id),
         p.slug,
       ).toEqual(
-        releaseScope.new_prompt_ids.includes(p.id)
+        identityPreview
           ? {
-              ...p,
-              is_published: true,
-              is_indexable: true,
-              published_at: "2026-09-15T07:00:00.000Z",
-              updated_at: "2026-09-15T07:00:00.000Z",
+              ...releaseExpected,
+              preview_image_url: identityPreview.preview_image_url,
+              thumbnail_url: identityPreview.thumbnail_url,
+              image_alt: identityPreview.image_alt,
             }
-          : p,
+          : releaseExpected,
       );
     }
     expect(candidates).toHaveLength(15);

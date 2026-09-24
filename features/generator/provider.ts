@@ -169,7 +169,7 @@ export interface ImageGenerationProvider {
 }
 export const identityInstruction = referencePersona;
 export const referenceDetailInstruction =
-  "Essential reference details: retain the original hair part, length and texture, facial hair, expression, gaze, spectacles, jewellery, headwear and visible cultural marks such as a bindi or tilak unless a requested direction explicitly changes that detail. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
+  "Essential reference details: retain the identity-defining hairline, original hair part and texture, facial hair characteristics, spectacles, jewellery, headwear, visible cultural marks such as a bindi or tilak, and distinguishing facial features unless a requested direction explicitly changes that detail. Do not copy the reference smile, expression, gaze, pose, clothing or lighting into a new creative scene. Determine expression from the scene's emotion and use a smile only when it belongs in that scene. For a scoped edit, preserve the source expression and all details outside the requested change. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
 export function interpolate(
   template: string,
   variables: Record<string, string>,
@@ -228,7 +228,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     const product = v.subject === "Product";
     const subject = product
       ? "the product in the reference, preserving its geometry, materials and existing label text"
-      : `the person or group from the reference when supplied, otherwise the fictional ${v.subject.toLowerCase()} specified above. Preserve the original age and natural proportions. If the reference does not match the requested ${v.subject.toLowerCase()} concept or omits intended group members, ask for suitable complete references instead of changing age or inventing people`;
+      : `the person or group from the reference when supplied, otherwise the fictional ${v.subject.toLowerCase()} specified above. Follow an explicitly requested age; when adult age is unspecified, use approximately 22–30 regardless of the reference's apparent age. Preserve natural proportions. If the reference does not match the requested ${v.subject.toLowerCase()} concept or omits intended group members, ask for suitable complete references instead of inventing people`;
     const pose = product
       ? "a clean three-quarter product presentation with stable geometry"
       : poses[v.variant % poses.length];

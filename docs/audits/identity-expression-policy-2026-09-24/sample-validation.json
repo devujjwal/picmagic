@@ -1,0 +1,59 @@
+{
+  "review_state": "awaiting-owner-approval",
+  "automated_checks": {
+    "sample_count": 5,
+    "all_portrait_4_5": true,
+    "published_asset_mappings_changed": false,
+    "public_assets_overwritten": false,
+    "reference_photos_copied_to_repository": false
+  },
+  "preliminary_visual_qa": [
+    {
+      "slug": "katana-in-the-square-of-light",
+      "identity": "pass",
+      "age": "pass-explicit-approximately-25",
+      "expression": "pass-serious-no-smile",
+      "concept": "pass",
+      "people_count": "pass-one"
+    },
+    {
+      "slug": "coffee-and-a-real-smile",
+      "identity": "pass",
+      "age": "pass-default-young-adult",
+      "expression": "pass-natural-amusement",
+      "concept": "pass",
+      "people_count": "pass-one"
+    },
+    {
+      "slug": "the-art-of-standing-still",
+      "identity": "pass-provisional-owner-review-required",
+      "age": "pass-default-young-adult",
+      "expression": "pass-neutral-editorial-no-smile",
+      "concept": "pass",
+      "people_count": "pass-one"
+    },
+    {
+      "slug": "the-lift-stops-at-the-ocean",
+      "identity": "pass-provisional-owner-review-required",
+      "age": "pass-explicit-24",
+      "expression": "pass-restrained-surprise-no-smile",
+      "concept": "pass",
+      "people_count": "pass-one"
+    },
+    {
+      "slug": "a-night-at-the-cinema",
+      "identity": "pass-provisional-owner-review-required",
+      "age": "pass-explicit-sixties-after-two-age-correction-retries",
+      "expression": "pass-serious-reflective-no-smile",
+      "concept": "pass",
+      "people_count": "pass-one"
+    }
+  ],
+  "discarded_generations": [
+    {
+      "slug": "a-night-at-the-cinema",
+      "count": 2,
+      "reason": "Age read as middle-aged rather than clearly in his sixties. Neither image was copied into the review set or mapped to content."
+    }
+  ]
+}
