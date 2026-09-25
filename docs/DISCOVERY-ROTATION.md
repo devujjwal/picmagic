@@ -1,13 +1,16 @@
 # Visit-based discovery rotation
 
-Local implementation on `codex/discovery-rotation`. **Not approved for production activation.**
+Implementation on `codex/discovery-rotation`. The owner approved production
+activation and default-on visit memory on 25 September 2026. See the release
+preflight and post-release report for actual deployment status.
 
-## Enable only in a local preview
+## Configuration
 
 Set the server environment variable `PICMAGIC_DISCOVERY_ROTATION_ENABLED=true`
-when building/starting the local seed-content preview. It is deliberately false
-when absent. Do not add it to Netlify or shared production environment settings
-without separate rollout and default-on storage approval. No migration, content
+when building/starting a local seed-content preview. It is deliberately false
+when absent. Production activation uses the owner-approved production-context
+environment variable across builds/functions/runtime. Future activation changes
+still require rollout and privacy review. No migration, content
 sync, paid API, image generation or background task is needed.
 
 The kill switch suppresses rotation, the preference form and cookie writes.

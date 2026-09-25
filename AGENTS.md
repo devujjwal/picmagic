@@ -42,3 +42,16 @@ The owner upgraded Netlify to Personal independently and explicitly requested th
 
 ## AdSense implementation approval — 25 September 2026
 The owner approved the audited local remediation batch on `feature/seo-aeo-geo-agent`: content-aware advertising boundaries, two collection-copy corrections, six practical workflows, the documented two-example trial, tool explanations and local QA. This is not release approval. Do not push, deploy, update production Supabase, change publication/indexability flags, or request AdSense review. Preserve canonical URLs and existing unfinished work. Regional CMP and Auto ads verification remain explicit release dependencies; stubbed browser tests are not evidence of actual geographic consent behavior.
+
+## Combined release approval — 25 September 2026
+
+The owner subsequently explicitly approved release of the reviewed AdSense batch
+and discovery rotation together, including default-on visit memory and its privacy
+disclosure. The owner accepted the proposed temporary disabling of production ad
+loading until real regional consent and Auto ads verification is complete. This
+supersedes the earlier local-only hold for these two reviewed batches only.
+Release once after validation; synchronize only the two guarded collection
+descriptions. Preserve 95 drafts, canonical URLs, private reference assets and
+unrelated draft-publication audit work. No paid upgrade or AdSense review request
+is authorized. Re-enabling advertising and submitting review remain separate
+decisions after live verification.

@@ -138,7 +138,8 @@ export function repository(): ContentRepository {
 export const getCatalog = unstable_cache(
   () => repository().getCatalog(),
   [
-    "catalog-v3-editorial",
+    // One-time release invalidation after the guarded September 25 copy sync.
+    "catalog-v4-adsense-copy",
     String(socialPreviewEnabled()),
     process.env.CONTENT_SOURCE || "supabase",
     process.env.NEXT_PUBLIC_SUPABASE_URL || "local",

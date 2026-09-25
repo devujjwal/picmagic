@@ -45,7 +45,7 @@ services are stubbed in these tests. Earlier discovery performance and
 visual evidence, including slower hero variants, is retained in
 `docs/qa/discovery-rotation-2026-09-25.md`.
 
-## Advertising gate still unresolved
+## Advertising gate and subsequent owner decision
 
 The live AdSense account still shows low-value-content rejection and an account
 activation/payment-information warning. Privacy & Messaging shows one active
@@ -63,3 +63,11 @@ Once resolved, prepare one final release commit, push to `main` once without for
 perform the guarded two-description sync, verify Netlify published that exact
 commit and make only minimal live smoke requests. Preserve the unrelated untracked
 draft-publication audit directory and all 95 drafts.
+
+The owner subsequently answered yes to the proposed release with ad loading
+temporarily disabled and requested live verification before a future AdSense
+review. The authorized runtime flags are discovery rotation `true` and advertising
+`false`, production context only. This permits the code/content release, not a
+claim of regional consent verification or AdSense acceptance. The historical
+preflight observations above are retained; post-release evidence is recorded
+separately.
