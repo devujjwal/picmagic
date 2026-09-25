@@ -7,7 +7,10 @@ const subscribe = () => () => {};
 const supportsAutoLoad = () => typeof IntersectionObserver !== "undefined";
 const serverSnapshot = () => false;
 
-/** Scroll enhancement over crawlable, server-rendered 24-item pages. */
+/** Scroll enhancement over crawlable, server-rendered 24-item pages.
+ * CatalogPage keys this component by route, page and server snapshot: a new feed
+ * resets batches by remounting, never by reordering an already-open feed.
+ */
 export function PaginatedGrid({
   prompts,
   page,

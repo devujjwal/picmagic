@@ -10,11 +10,15 @@ import { LocalDiscovery } from "@/components/prompts/local-discovery";
 import { CollectionDiscovery } from "@/components/prompts/collection-discovery";
 import { StructuredData } from "@/components/ui/structured-data";
 import { AdSlot } from "@/components/ads/ad-slot";
-import { isHomepageEligible } from "@/lib/prompts/editorial";
+import { selectHomepage } from "@/lib/prompts/discovery-rotation";
+import { isPromptSeoEligible } from "@/lib/seo/eligibility";
+import { getDiscoveryContext } from "@/lib/prompts/discovery-request";
+import { DiscoveryPreference } from "@/components/prompts/discovery-preference";
 import { promptPath } from "@/lib/routes";
 export const metadata = makeMetadata(site.title, site.description, "/");
 export default async function Home() {
   const { prompts, categories, collections } = await getCatalog();
+  const discovery = await getDiscoveryContext();
   if (!prompts.length)
     return (
       <div className="container">
@@ -27,18 +31,10 @@ export default async function Home() {
         </section>
       </div>
     );
-  const approved = prompts
-    .filter((p) => isHomepageEligible(p) && p.is_featured)
-    .sort((a, b) => a.trending_rank - b.trending_rank);
-  const seen = new Set<string>();
-  const creative = approved.filter((p) => {
-    if (seen.has(p.preview_image_url)) return false;
-    seen.add(p.preview_image_url);
-    return true;
-  });
-  const hero = creative[0];
-  const next = creative.slice(1, 5);
-  const more = creative.slice(5, 12);
+  const { hero, next, more, ids } = selectHomepage(prompts, discovery?.counter);
+  const selectedAssets = new Set(
+    [...(hero ? [hero] : []), ...next, ...more].map((p) => p.preview_image_url),
+  );
   return (
     <div
       className="container home-bottom"
@@ -92,7 +88,7 @@ export default async function Home() {
               <PreviewImage
                 src={hero.preview_image_url}
                 alt={hero.image_alt}
-                priority
+                preload
                 sizes="(max-width:760px) 90vw, 480px"
               />
             </Link>
@@ -105,6 +101,7 @@ export default async function Home() {
           </figure>
         )}
       </section>
+      <DiscoveryPreference context={discovery} path="/" />
       {next.length > 0 && (
         <section className="section">
           <div className="section-head">
@@ -166,7 +163,17 @@ export default async function Home() {
           </Link>
         </div>
       </section>
-      <LocalDiscovery prompts={prompts.map(toPromptCard)} mode="recent" />
+      <LocalDiscovery
+        prompts={prompts
+          .filter(
+            (p) =>
+              isPromptSeoEligible(p) &&
+              !selectedAssets.has(p.preview_image_url),
+          )
+          .map(toPromptCard)}
+        mode="recent"
+        excludedIds={ids}
+      />
       <section className="section">
         <div className="section-head">
           <h2>Find your next idea</h2>

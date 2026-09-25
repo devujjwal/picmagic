@@ -7,16 +7,20 @@ import type { PromptCardData } from "@/lib/prompts/card-data";
 export function LocalDiscovery({
   prompts,
   mode,
+  excludedIds = [],
 }: {
   prompts: PromptCardData[];
   mode: "saved" | "recent";
+  excludedIds?: string[];
 }) {
   const { ids } = useSaved();
   const recent = useRecent();
-  const selected = (mode === "saved" ? ids : recent).flatMap((id) => {
-    const p = prompts.find((p) => p.id === id);
-    return p ? [p] : [];
-  });
+  const selected = [...new Set(mode === "saved" ? ids : recent)].flatMap(
+    (id) => {
+      const p = prompts.find((p) => p.id === id);
+      return p && !excludedIds.includes(p.id) ? [p] : [];
+    },
+  );
   if (!selected.length)
     return mode === "recent" ? null : (
       <div className="empty-state">

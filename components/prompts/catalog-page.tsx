@@ -18,6 +18,10 @@ import {
 } from "@/lib/seo/eligibility";
 import { hubGuides } from "@/content/seo-guides";
 import { EditorialGuide } from "./editorial-guide";
+import { orderExplore } from "@/lib/prompts/discovery-rotation";
+import type { DiscoveryContext } from "@/lib/prompts/discovery-request";
+import { DiscoveryPreference } from "./discovery-preference";
+import { createHash } from "node:crypto";
 export function CatalogPage({
   title,
   description,
@@ -28,6 +32,7 @@ export function CatalogPage({
   page = 1,
   availablePrompts = prompts,
   medium,
+  discovery,
 }: {
   title: string;
   description: string;
@@ -38,8 +43,22 @@ export function CatalogPage({
   page?: number;
   availablePrompts?: Prompt[];
   medium?: "photo" | "reel";
+  discovery?: DiscoveryContext;
 }) {
-  prompts = orderForDiscovery(prompts);
+  prompts =
+    path === "/ai-prompts"
+      ? orderExplore(prompts, discovery?.counter)
+      : orderForDiscovery(prompts);
+  // Remount the append-only feed after navigation to a different snapshot/order.
+  // Include card-relevant revisions, without passing full prompts to the client.
+  const feedKey = createHash("sha256")
+    .update(
+      JSON.stringify(
+        prompts.map((p) => [p.id, p.updated_at, p.preview_image_url]),
+      ),
+    )
+    .digest("hex")
+    .slice(0, 16);
   const reelsOnly =
     prompts.length > 0 &&
     prompts.every((p) => p.prompt_type === "reel" || p.prompt_type === "video");
@@ -85,6 +104,12 @@ export function CatalogPage({
         <h1>{title}</h1>
         <p>{description}</p>
       </header>
+      {path === "/ai-prompts" && (
+        <DiscoveryPreference
+          context={discovery}
+          path={path + (page > 1 ? `?page=${page}` : "")}
+        />
+      )}
       <nav
         className="filter-bar"
         aria-label={reelsOnly ? "Explore reels" : "Explore categories"}
@@ -120,7 +145,7 @@ export function CatalogPage({
         <>
           <h2 className="sr-only">Explore these looks</h2>
           <PaginatedGrid
-            key={`${path}-${page}`}
+            key={`${path}-${page}-${feedKey}-${discovery?.enabled}-${discovery?.counter}`}
             prompts={cards}
             page={page}
             path={path}

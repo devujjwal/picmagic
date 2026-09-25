@@ -1,15 +1,7 @@
 import { test, expect } from "./fixtures";
-import fs from "node:fs";
-const allPrompts: unknown[] = [
-  ...JSON.parse(fs.readFileSync("content/prompts.json", "utf8")),
-  ...JSON.parse(fs.readFileSync("content/expansion/prompts.json", "utf8")),
-  ...JSON.parse(
-    fs.readFileSync("content/additions/creative-prompts.json", "utf8"),
-  ),
-];
-import { promptSchema, promptPath } from "../../types/content";
+import { prompts } from "./catalogue";
+import { promptPath } from "../../types/content";
 import { isHomepageEligible } from "../../lib/prompts/editorial";
-const prompts = allPrompts.map((p) => promptSchema.parse(p));
 test("homepage cards use only approved distinctive creative concepts", async ({
   page,
 }) => {

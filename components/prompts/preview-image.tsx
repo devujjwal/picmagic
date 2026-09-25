@@ -6,12 +6,14 @@ export function PreviewImage({
   src,
   alt,
   priority = false,
+  preload = false,
   preoptimized = false,
   sizes = "(max-width: 600px) 46vw, (max-width: 1000px) 30vw, 23vw",
 }: {
   src: string;
   alt: string;
   priority?: boolean;
+  preload?: boolean;
   preoptimized?: boolean;
   sizes?: string;
 }) {
@@ -28,8 +30,9 @@ export function PreviewImage({
       fill
       sizes={sizes}
       unoptimized={preoptimized && src.startsWith("/previews/")}
-      loading={priority ? "eager" : "lazy"}
-      fetchPriority={priority ? "high" : undefined}
+      preload={preload}
+      loading={preload ? undefined : priority ? "eager" : "lazy"}
+      fetchPriority={!preload && priority ? "high" : undefined}
       onError={() => setFailed(true)}
     />
   );

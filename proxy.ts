@@ -2,6 +2,20 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient } from "@supabase/ssr";
 import { contentSecurityPolicy } from "@/lib/security/csp";
 import { advertisingConfigured } from "@/config/ads";
+import {
+  DISCOVERY_COOKIE,
+  DISCOVERY_HEADER,
+  discoveryRotationEnabled,
+} from "@/config/discovery";
+import {
+  advanceDiscoverySession,
+  discoveryCookieOptions,
+  isDiscoveryEntry,
+  isDiscoveryNavigation,
+  minuteNow,
+  parseDiscoverySession,
+  serializeDiscoverySession,
+} from "@/lib/prompts/discovery-session";
 export async function proxy(request: NextRequest) {
   const admin = /^\/(?:admin(?:\/|$)|api\/admin(?:\/|$))/.test(
     request.nextUrl.pathname,
@@ -9,6 +23,30 @@ export async function proxy(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString("base64");
   const csp = contentSecurityPolicy(nonce, advertisingConfigured() && !admin);
   const headers = new Headers(request.headers);
+  // Never trust a client-supplied internal rotation header.
+  headers.delete(DISCOVERY_HEADER);
+  let discoveryCookie: string | undefined;
+  if (!admin && discoveryRotationEnabled()) {
+    const minute = minuteNow();
+    const previous = parseDiscoverySession(
+      request.cookies.get(DISCOVERY_COOKIE)?.value,
+      minute,
+    );
+    let state = previous;
+    if (
+      isDiscoveryNavigation(request.method, request.nextUrl, request.headers)
+    ) {
+      state = advanceDiscoverySession(
+        previous,
+        minute,
+        isDiscoveryEntry(request.nextUrl),
+      );
+      discoveryCookie = serializeDiscoverySession(state);
+      request.cookies.set(DISCOVERY_COOKIE, discoveryCookie);
+      headers.set("cookie", request.headers.get("cookie") || "");
+    }
+    headers.set(DISCOVERY_HEADER, String(state?.enabled ? state.counter : 0));
+  }
   headers.set("x-nonce", nonce);
   headers.set("Content-Security-Policy", csp);
   const next = () => {
@@ -16,6 +54,12 @@ export async function proxy(request: NextRequest) {
     response.headers.set("Content-Security-Policy", csp);
     // Nonces must never be shared through a cached HTML response.
     response.headers.set("Cache-Control", "private, no-store");
+    if (discoveryCookie)
+      response.cookies.set(
+        DISCOVERY_COOKIE,
+        discoveryCookie,
+        discoveryCookieOptions(),
+      );
     if (admin) response.headers.set("X-Robots-Tag", "noindex, nofollow");
     return response;
   };

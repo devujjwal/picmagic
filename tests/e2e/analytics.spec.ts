@@ -79,6 +79,7 @@ test("analytics consent, sanitized pageviews across navigation, events and revoc
   expect(queue.some((x) => x[1] === "prompt_copy")).toBe(true);
   expect(JSON.stringify(queue)).not.toContain("do-not-send");
   expect(JSON.stringify(queue)).not.toContain("Create a photograph");
+  expect(JSON.stringify(queue)).not.toContain("picmagic-discovery");
   const requestsBeforeRevocation = requests;
   await page
     .getByRole("button", { name: "Cookie preferences", exact: true })

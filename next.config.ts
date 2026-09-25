@@ -4,6 +4,9 @@ const config: NextConfig = {
   distDir: process.env.PICMAGIC_DIST_DIR || ".next",
   // Keep canonical and description tags in the initial head for every client.
   htmlLimitedBots: /.*/,
+  // Keep prefetch/Flight headers visible to Proxy's activity guard. Excluding
+  // prefetches from the whole Proxy would also skip our nonce/CSP protections.
+  skipProxyUrlNormalize: true,
   // External CSS removes ~78 KB of duplicated CSS per HTML response and caches across pages.
   // The opt-in switch is retained only for reproducible local A/B benchmarks.
   experimental: { inlineCss: process.env.PICMAGIC_INLINE_CSS === "true" },

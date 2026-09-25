@@ -104,6 +104,13 @@ test("footer reopens Google choices; analytics never grants advertising consent"
   );
   await page.goto("/privacy");
   await expect(page.locator("script#picmagic-adsense")).toHaveCount(0);
+  // A combined GA/ad integration build shows the analytics banner first.
+  // Make an explicit choice before interacting with the footer beneath it.
+  const rejectAnalytics = page.getByRole("button", {
+    name: "No thanks",
+    exact: true,
+  });
+  if (process.env.E2E_GA_ENABLED === "true") await rejectAnalytics.click();
   await page
     .getByRole("button", { name: "Cookie preferences", exact: true })
     .click();

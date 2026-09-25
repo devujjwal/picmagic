@@ -1,5 +1,6 @@
 import Link from "@/components/ui/site-link";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
+import { discoveryRotationEnabled } from "@/config/discovery";
 export const metadata = makeMetadata(
   "Privacy | PicMagic",
   "How PicMagic handles local saves, optional analytics, advertising and administrator accounts.",
@@ -10,7 +11,7 @@ export default function Privacy() {
     <article className="container prose">
       <h1>Your privacy matters.</h1>
       <p>
-        Updated 10 September 2026. This page describes PicMagic’s implemented
+        Updated 25 September 2026. This page describes PicMagic’s implemented
         data practices.
       </p>
       <h2>Photos and prompt creation</h2>
@@ -28,6 +29,29 @@ export default function Privacy() {
         browser data to remove all local records. These records are not synced
         to an account.
       </p>
+      {discoveryRotationEnabled() && (
+        <>
+          <h2 id="discovery-memory">Fresh mix on return visits</h2>
+          <p>
+            When this feature is enabled, PicMagic remembers discovery visits by
+            default in a first-party cookie for up to 30 days after your last
+            public page navigation. It stores the setting version, your on/off
+            choice, a bounded rotation counter and the last navigation time
+            rounded to a minute. Our server reads it to choose a different mix
+            after a 30-minute break when you return to Home or the first Explore
+            page. It does not contain a visitor identifier, viewed-prompt
+            history or account information, and we do not pass it to analytics
+            or advertising providers.
+          </p>
+          <p>
+            Turn off “Fresh mix on return visits” on Home or Explore to restore
+            the editorial order. We retain the off preference in the same
+            cookie. Clear this site’s cookies to remove it; blocking cookies
+            keeps the editorial order. This setting is separate from analytics
+            and advertising choices.
+          </p>
+        </>
+      )}
       <h2>Optional analytics and advertising</h2>
       <p>
         Advertising helps fund PicMagic. We use Google AdSense on selected

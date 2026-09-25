@@ -1,5 +1,8 @@
 import { it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
+vi.mock("@/lib/prompts/discovery-request", () => ({
+  getDiscoveryContext: async () => undefined,
+}));
 vi.mock("@/lib/content", () => ({
   getCatalog: vi.fn(async () => ({
     prompts: [],

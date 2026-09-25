@@ -85,3 +85,36 @@ it("keeps a usable next-page link without observer support and starts at the cor
     "/ai-prompts?page=3",
   );
 });
+it("resets appended batches when the server snapshot key changes", () => {
+  const callbacks: IntersectionObserverCallback[] = [];
+  vi.stubGlobal(
+    "IntersectionObserver",
+    class {
+      constructor(cb: IntersectionObserverCallback) {
+        callbacks.push(cb);
+      }
+      observe() {}
+      disconnect() {}
+    },
+  );
+  const { rerender } = render(
+    <PaginatedGrid key="first" prompts={prompts} page={1} path="/ai-prompts" />,
+  );
+  act(() =>
+    callbacks[0](
+      [{ isIntersecting: true }] as IntersectionObserverEntry[],
+      {} as IntersectionObserver,
+    ),
+  );
+  expect(screen.getAllByTestId("look")).toHaveLength(48);
+  rerender(
+    <PaginatedGrid
+      key="second"
+      prompts={[...prompts].reverse()}
+      page={1}
+      path="/ai-prompts"
+    />,
+  );
+  expect(screen.getAllByTestId("look")).toHaveLength(24);
+  expect(screen.getAllByTestId("look")[0]).toHaveTextContent("54");
+});

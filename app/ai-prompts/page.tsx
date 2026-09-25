@@ -2,6 +2,7 @@ import { getCatalog } from "@/lib/content";
 import { CatalogPage } from "@/components/prompts/catalog-page";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 import { pageNumber } from "@/lib/prompts/discovery";
+import { getDiscoveryContext } from "@/lib/prompts/discovery-request";
 export async function generateMetadata({
   searchParams,
 }: {
@@ -20,6 +21,7 @@ export default async function Explore({
   searchParams: Promise<{ page?: string }>;
 }) {
   const c = await getCatalog();
+  const discovery = await getDiscoveryContext();
   return (
     <CatalogPage
       availablePrompts={c.prompts}
@@ -30,6 +32,7 @@ export default async function Explore({
       title="Find a look you love."
       description="A mood, a moment, a new version of your favourite photo. Your next idea starts here."
       path="/ai-prompts"
+      discovery={discovery}
       page={pageNumber((await searchParams).page)}
     />
   );
