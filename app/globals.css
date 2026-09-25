@@ -889,6 +889,9 @@ main {
 .ad-reserve:has(ins[data-ad-status="filled"]) > span {
   visibility: visible;
 }
+.ad-unfilled {
+  display: none;
+}
 .ad-empty {
   background: transparent;
   border-color: transparent;
@@ -2019,4 +2022,8 @@ main {
   .creative-hero-copy .creative-how {
     margin-top: 1rem;
   }
+}
+
+.tool-guide .text-link {
+  white-space: normal;
 }

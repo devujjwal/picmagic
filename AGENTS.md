@@ -39,3 +39,6 @@ The owner explicitly requested Codex-only preview generation for double-exposure
 
 ## Explicit production release approval — 15 September 2026
 The owner upgraded Netlify to Personal independently and explicitly requested that the reviewed branch changes go live. The release hold is lifted for the 16 approved September 15 prompt additions, optimized assets, collection memberships and required release checks. Publish this batch once after local validation; preserve 95 unfinished drafts and existing homepage features. Future unapproved work remains branch-only. The existing Personal subscription and included credits are authorized; no additional purchases, upgrades or auto-recharge changes are authorized.
+
+## AdSense implementation approval — 25 September 2026
+The owner approved the audited local remediation batch on `feature/seo-aeo-geo-agent`: content-aware advertising boundaries, two collection-copy corrections, six practical workflows, the documented two-example trial, tool explanations and local QA. This is not release approval. Do not push, deploy, update production Supabase, change publication/indexability flags, or request AdSense review. Preserve canonical URLs and existing unfinished work. Regional CMP and Auto ads verification remain explicit release dependencies; stubbed browser tests are not evidence of actual geographic consent behavior.

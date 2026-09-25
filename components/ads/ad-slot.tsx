@@ -17,6 +17,7 @@ export function AdSlot({ placement }: { placement: AdPlacement }) {
   const ref = useRef<HTMLElement>(null);
   const insRef = useRef<HTMLModElement>(null);
   const [visible, setVisible] = useState(false);
+  const [unfilled, setUnfilled] = useState(false);
   const enabled = advertisingConfigured();
   const slot = adSlotId(placement);
   useEffect(() => {
@@ -36,20 +37,32 @@ export function AdSlot({ placement }: { placement: AdPlacement }) {
   useEffect(() => {
     const element = insRef.current;
     if (!visible || !element || element.dataset.picmagicRequested) return;
+    const observer = new MutationObserver(() => {
+      setUnfilled(element.dataset.adStatus === "unfilled");
+    });
+    observer.observe(element, {
+      attributes: true,
+      attributeFilter: ["data-ad-status"],
+    });
     // Request only after React commits the actual ins element. The DOM marker
     // survives Strict Mode effects and avoids duplicate requests on rerenders.
     element.dataset.picmagicRequested = "true";
     try {
       prepareAdvertising().push({});
     } catch {
+      element.dataset.adStatus = "unfilled";
       // Blocked ads never interrupt discovery or create a retry loop.
     }
+    return () => observer.disconnect();
   }, [visible, slot]);
   if (!slot) return null;
-  if (!enabled)
-    return <div className="ad-reserve ad-empty" aria-hidden="true" />;
+  if (!enabled) return null;
   return (
-    <aside className="ad-reserve" aria-label="Advertisement" ref={ref}>
+    <aside
+      className={`ad-reserve${unfilled ? " ad-unfilled" : ""}`}
+      aria-label="Advertisement"
+      ref={ref}
+    >
       <span>Advertisement</span>
       {visible && (
         <ins

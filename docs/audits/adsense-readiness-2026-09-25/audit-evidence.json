@@ -1,0 +1,2946 @@
+{
+  "observed": "2026-09-25",
+  "baseline": "5ab912a",
+  "limitations": [
+    "Extracted words include prompt/UI, not a unique-content score",
+    "Simulated crawler agents, not provider networks"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "ttfb": 3.741721,
+      "bytes": 172686,
+      "h1": [
+        "See yourself in a story worth creating."
+      ],
+      "word_count": 322,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in",
+        "og:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "og:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "og:url": "https://picmagic.in",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "twitter:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:48.332929+00:00"
+    },
+    {
+      "path": "/ai-prompts",
+      "status": 200,
+      "ttfb": 8.733693,
+      "bytes": 167786,
+      "h1": [
+        "Find a look you love."
+      ],
+      "word_count": 303,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover beautiful photo ideas for every person, occasion and mood. Choose a look and copy the prompt.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts",
+        "og:title": "AI Photo Ideas | PicMagic",
+        "og:description": "Discover beautiful photo ideas for every person, occasion and mood. Choose a look and copy the prompt.",
+        "og:url": "https://picmagic.in/ai-prompts",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Ideas | PicMagic",
+        "twitter:description": "Discover beautiful photo ideas for every person, occasion and mood. Choose a look and copy the prompt.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:53.336128+00:00"
+    },
+    {
+      "path": "/collections",
+      "status": 200,
+      "ttfb": 0.800258,
+      "bytes": 68003,
+      "h1": [
+        "Find a collection for the moment."
+      ],
+      "word_count": 438,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore curated PicMagic collections for portraits, profile pictures, cinematic transformations, Indian celebrations, dating profiles and reels.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections",
+        "og:title": "Curated AI Photo and Reel Prompt Collections | PicMagic",
+        "og:description": "Explore curated PicMagic collections for portraits, profile pictures, cinematic transformations, Indian celebrations, dating profiles and reels.",
+        "og:url": "https://picmagic.in/collections",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Curated AI Photo and Reel Prompt Collections | PicMagic",
+        "twitter:description": "Explore curated PicMagic collections for portraits, profile pictures, cinematic transformations, Indian celebrations, dating profiles and reels.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:49.165527+00:00"
+    },
+    {
+      "path": "/reel-prompts",
+      "status": 200,
+      "ttfb": 1.202358,
+      "bytes": 111483,
+      "h1": [
+        "Make the moment move."
+      ],
+      "word_count": 469,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover reel concepts and create scene-by-scene video prompts, captions and music mood suggestions.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/reel-prompts",
+        "og:title": "AI Reel Ideas and Video Prompts | PicMagic",
+        "og:description": "Discover reel concepts and create scene-by-scene video prompts, captions and music mood suggestions.",
+        "og:url": "https://picmagic.in/reel-prompts",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Reel Ideas and Video Prompts | PicMagic",
+        "twitter:description": "Discover reel concepts and create scene-by-scene video prompts, captions and music mood suggestions.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:50.406392+00:00"
+    },
+    {
+      "path": "/create",
+      "status": 200,
+      "ttfb": 0.499649,
+      "bytes": 32559,
+      "h1": [
+        "Make something only you could imagine."
+      ],
+      "word_count": 52,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Choose a subject, style, outfit and lighting. Create a useful photo prompt in a few simple steps.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/create",
+        "og:title": "Create Your Own AI Photo Prompt | PicMagic",
+        "og:description": "Choose a subject, style, outfit and lighting. Create a useful photo prompt in a few simple steps.",
+        "og:url": "https://picmagic.in/create",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Create Your Own AI Photo Prompt | PicMagic",
+        "twitter:description": "Choose a subject, style, outfit and lighting. Create a useful photo prompt in a few simple steps.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:50.930606+00:00"
+    },
+    {
+      "path": "/enhance-photo",
+      "status": 200,
+      "ttfb": 0.77847,
+      "bytes": 33248,
+      "h1": [
+        "A little polish. Still you."
+      ],
+      "word_count": 93,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Create photo enhancement prompts for lighting, backgrounds, professional portraits and more. Keep your appearance natural.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/enhance-photo",
+        "og:title": "Enhance Your Photo with AI Editing Prompts | PicMagic",
+        "og:description": "Create photo enhancement prompts for lighting, backgrounds, professional portraits and more. Keep your appearance natural.",
+        "og:url": "https://picmagic.in/enhance-photo",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Enhance Your Photo with AI Editing Prompts | PicMagic",
+        "twitter:description": "Create photo enhancement prompts for lighting, backgrounds, professional portraits and more. Keep your appearance natural.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:51.732468+00:00"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "ttfb": 0.632387,
+      "bytes": 35436,
+      "h1": [
+        "A little inspiration goes a long way."
+      ],
+      "word_count": 402,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover why PicMagic makes creative photo ideas simple, visual and free.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/about",
+        "og:title": "About PicMagic | Photo Inspiration for Everyone",
+        "og:description": "Discover why PicMagic makes creative photo ideas simple, visual and free.",
+        "og:url": "https://picmagic.in/about",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "About PicMagic | Photo Inspiration for Everyone",
+        "twitter:description": "Discover why PicMagic makes creative photo ideas simple, visual and free.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:52.395721+00:00"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "ttfb": 0.543135,
+      "bytes": 29425,
+      "h1": [
+        "Let\u2019s make PicMagic better."
+      ],
+      "word_count": 41,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Contact the PicMagic operator about feedback, content or privacy.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/contact",
+        "og:title": "Contact PicMagic",
+        "og:description": "Contact the PicMagic operator about feedback, content or privacy.",
+        "og:url": "https://picmagic.in/contact",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Contact PicMagic",
+        "twitter:description": "Contact the PicMagic operator about feedback, content or privacy.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:52.957966+00:00"
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "ttfb": 0.84872,
+      "bytes": 38070,
+      "h1": [
+        "Your privacy matters."
+      ],
+      "word_count": 573,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "How PicMagic handles local saves, optional analytics, advertising and administrator accounts.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/privacy",
+        "og:title": "Privacy | PicMagic",
+        "og:description": "How PicMagic handles local saves, optional analytics, advertising and administrator accounts.",
+        "og:url": "https://picmagic.in/privacy",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Privacy | PicMagic",
+        "twitter:description": "How PicMagic handles local saves, optional analytics, advertising and administrator accounts.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:53.831492+00:00"
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "ttfb": 0.555323,
+      "bytes": 31690,
+      "h1": [
+        "A few things to know."
+      ],
+      "word_count": 195,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Terms for using PicMagic photo ideas, example images and prompt creators.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/terms",
+        "og:title": "Terms of Use | PicMagic",
+        "og:description": "Terms for using PicMagic photo ideas, example images and prompt creators.",
+        "og:url": "https://picmagic.in/terms",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Terms of Use | PicMagic",
+        "twitter:description": "Terms for using PicMagic photo ideas, example images and prompt creators.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:53.915793+00:00"
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "ttfb": 1.19586,
+      "bytes": 831840,
+      "h1": [
+        "What\u2019s your kind of magic?"
+      ],
+      "word_count": 473,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Search photo ideas by subject, style, occasion or mood.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/search",
+        "og:title": "Find Your Next Photo Idea | PicMagic",
+        "og:description": "Search photo ideas by subject, style, occasion or mood.",
+        "og:url": "https://picmagic.in/search",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Find Your Next Photo Idea | PicMagic",
+        "twitter:description": "Search photo ideas by subject, style, occasion or mood.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:55.128549+00:00"
+    },
+    {
+      "path": "/saved",
+      "status": 200,
+      "ttfb": 0.92525,
+      "bytes": 91726,
+      "h1": [
+        "Looks you love."
+      ],
+      "word_count": 43,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Your favourite ideas, all in one place.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/saved",
+        "og:title": "Your Saved Looks | PicMagic",
+        "og:description": "Your favourite ideas, all in one place.",
+        "og:url": "https://picmagic.in/saved",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your Saved Looks | PicMagic",
+        "twitter:description": "Your favourite ideas, all in one place.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:54.897832+00:00"
+    },
+    {
+      "path": "/guides/reference-photo-prompts",
+      "status": 200,
+      "ttfb": 0.478944,
+      "bytes": 43613,
+      "h1": [
+        "How to use a reference photo with an AI portrait prompt"
+      ],
+      "word_count": 615,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Separate identity from styling, choose a useful reference, customize a PicMagic prompt and check the result for face drift and realism.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/guides/reference-photo-prompts",
+        "og:title": "How to use a reference photo with an AI portrait prompt",
+        "og:description": "Separate identity from styling, choose a useful reference, customize a PicMagic prompt and check the result for face drift and realism.",
+        "og:url": "https://picmagic.in/guides/reference-photo-prompts",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "How to use a reference photo with an AI portrait prompt",
+        "twitter:description": "Separate identity from styling, choose a useful reference, customize a PicMagic prompt and check the result for face drift and realism.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:55.403657+00:00"
+    },
+    {
+      "path": "/guides/prompt-trial",
+      "status": 404,
+      "ttfb": 0.576867,
+      "bytes": 29958,
+      "h1": [
+        "This look has wandered off."
+      ],
+      "word_count": 30,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "og:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "og:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "og:image": "https://picmagic.in/opengraph-image?8c7c0773b7dfaf9f",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic \u2014 Turn your photos into something magical",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "twitter:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "twitter:image": "https://picmagic.in/opengraph-image?8c7c0773b7dfaf9f",
+        "twitter:image:alt": "PicMagic \u2014 Turn your photos into something magical",
+        "twitter:image:type": "image/png",
+        "twitter:image:width": "1200",
+        "twitter:image:height": "630"
+      },
+      "timestamp": "2026-09-25T04:21:55.725007+00:00"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "ttfb": 0.474293,
+      "bytes": 107,
+      "h1": [],
+      "word_count": 0,
+      "ad_labels": 0,
+      "meta": {},
+      "timestamp": "2026-09-25T04:21:55.895857+00:00"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "ttfb": 0.710776,
+      "bytes": 59,
+      "h1": [],
+      "word_count": 0,
+      "ad_labels": 0,
+      "meta": {},
+      "timestamp": "2026-09-25T04:21:56.452843+00:00"
+    },
+    {
+      "path": "/sitemap-pages.xml",
+      "status": 200,
+      "ttfb": 0.768541,
+      "bytes": 14227,
+      "h1": [],
+      "word_count": 0,
+      "ad_labels": 0,
+      "meta": {},
+      "timestamp": "2026-09-25T04:21:56.681372+00:00"
+    },
+    {
+      "path": "/audit-nonexistent-page",
+      "status": 404,
+      "ttfb": 0.562107,
+      "bytes": 29957,
+      "h1": [
+        "This look has wandered off."
+      ],
+      "word_count": 30,
+      "ad_labels": 0,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow",
+        "description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "og:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "og:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "og:image": "https://picmagic.in/opengraph-image?8c7c0773b7dfaf9f",
+        "og:image:type": "image/png",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic \u2014 Turn your photos into something magical",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
+        "twitter:description": "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",
+        "twitter:image": "https://picmagic.in/opengraph-image?8c7c0773b7dfaf9f",
+        "twitter:image:alt": "PicMagic \u2014 Turn your photos into something magical",
+        "twitter:image:type": "image/png",
+        "twitter:image:width": "1200",
+        "twitter:image:height": "630"
+      },
+      "timestamp": "2026-09-25T04:21:57.040633+00:00"
+    },
+    {
+      "path": "/ai-prompts/men",
+      "status": 200,
+      "ttfb": 0.891702,
+      "bytes": 100672,
+      "h1": [
+        "Men photo ideas"
+      ],
+      "word_count": 386,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore AI photo prompts for men that range from relaxed everyday portraits to cinematic fashion and polished profile pictures. Each idea includes practical direction for pose, framing, light and identity preservation, so you can adapt the look to your own reference photo.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/men",
+        "og:title": "AI Photo Prompts for Men | PicMagic",
+        "og:description": "Explore AI photo prompts for men that range from relaxed everyday portraits to cinematic fashion and polished profile pictures. Each idea includes practical direction for pose, framing, light and identity preservation, so you can adapt the look to your own reference photo.",
+        "og:url": "https://picmagic.in/ai-prompts/men",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Men | PicMagic",
+        "twitter:description": "Explore AI photo prompts for men that range from relaxed everyday portraits to cinematic fashion and polished profile pictures. Each idea includes practical direction for pose, framing, light and identity preservation, so you can adapt the look to your own reference photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:57.615295+00:00"
+    },
+    {
+      "path": "/ai-prompts/women",
+      "status": 200,
+      "ttfb": 0.959533,
+      "bytes": 84264,
+      "h1": [
+        "Women photo ideas"
+      ],
+      "word_count": 308,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover AI photo prompts for women across modern portraits, Indian fashion, soft editorial light and imaginative transformations. Choose a visual direction, then adapt the complete prompt to your outfit, setting and reference photo without losing the person\u2019s identity.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/women",
+        "og:title": "AI Photo Prompts for Women | PicMagic",
+        "og:description": "Discover AI photo prompts for women across modern portraits, Indian fashion, soft editorial light and imaginative transformations. Choose a visual direction, then adapt the complete prompt to your outfit, setting and reference photo without losing the person\u2019s identity.",
+        "og:url": "https://picmagic.in/ai-prompts/women",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Women | PicMagic",
+        "twitter:description": "Discover AI photo prompts for women across modern portraits, Indian fashion, soft editorial light and imaginative transformations. Choose a visual direction, then adapt the complete prompt to your outfit, setting and reference photo without losing the person\u2019s identity.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:58.035848+00:00"
+    },
+    {
+      "path": "/ai-prompts/couple",
+      "status": 200,
+      "ttfb": 0.646912,
+      "bytes": 68762,
+      "h1": [
+        "Couples photo ideas"
+      ],
+      "word_count": 256,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Find couple photo prompts designed around believable connection rather than stiff matching poses. Explore romantic, pre-wedding and everyday scenes with clear guidance for body language, composition, lighting and preserving both people from their reference photos.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/couple",
+        "og:title": "AI Photo Prompts for Couples | PicMagic",
+        "og:description": "Find couple photo prompts designed around believable connection rather than stiff matching poses. Explore romantic, pre-wedding and everyday scenes with clear guidance for body language, composition, lighting and preserving both people from their reference photos.",
+        "og:url": "https://picmagic.in/ai-prompts/couple",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Couples | PicMagic",
+        "twitter:description": "Find couple photo prompts designed around believable connection rather than stiff matching poses. Explore romantic, pre-wedding and everyday scenes with clear guidance for body language, composition, lighting and preserving both people from their reference photos.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:58.298038+00:00"
+    },
+    {
+      "path": "/ai-prompts/kids",
+      "status": 200,
+      "ttfb": 1.132743,
+      "bytes": 69853,
+      "h1": [
+        "Kids photo ideas"
+      ],
+      "word_count": 234,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Browse child-friendly AI portrait ideas built around play, curiosity, celebrations and gentle storytelling. The prompts favour natural expressions, age-appropriate styling and careful reference fidelity while giving the image tool specific lighting and composition direction.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/kids",
+        "og:title": "AI Photo Prompts for Kids | PicMagic",
+        "og:description": "Browse child-friendly AI portrait ideas built around play, curiosity, celebrations and gentle storytelling. The prompts favour natural expressions, age-appropriate styling and careful reference fidelity while giving the image tool specific lighting and composition direction.",
+        "og:url": "https://picmagic.in/ai-prompts/kids",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Kids | PicMagic",
+        "twitter:description": "Browse child-friendly AI portrait ideas built around play, curiosity, celebrations and gentle storytelling. The prompts favour natural expressions, age-appropriate styling and careful reference fidelity while giving the image tool specific lighting and composition direction.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:59.201865+00:00"
+    },
+    {
+      "path": "/ai-prompts/family",
+      "status": 200,
+      "ttfb": 0.741994,
+      "bytes": 56634,
+      "h1": [
+        "Family photo ideas"
+      ],
+      "word_count": 137,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful family photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/family",
+        "og:title": "AI Photo Prompts for Family | PicMagic",
+        "og:description": "Discover thoughtful family photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/family",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Family | PicMagic",
+        "twitter:description": "Discover thoughtful family photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:59.068705+00:00"
+    },
+    {
+      "path": "/ai-prompts/wedding",
+      "status": 200,
+      "ttfb": 0.610613,
+      "bytes": 57757,
+      "h1": [
+        "Wedding photo ideas"
+      ],
+      "word_count": 130,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful wedding photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/wedding",
+        "og:title": "AI Photo Prompts for Wedding | PicMagic",
+        "og:description": "Discover thoughtful wedding photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/wedding",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Wedding | PicMagic",
+        "twitter:description": "Discover thoughtful wedding photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:59.714006+00:00"
+    },
+    {
+      "path": "/ai-prompts/birthday",
+      "status": 200,
+      "ttfb": 0.620271,
+      "bytes": 53973,
+      "h1": [
+        "Birthday photo ideas"
+      ],
+      "word_count": 129,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful birthday photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/birthday",
+        "og:title": "AI Photo Prompts for Birthday | PicMagic",
+        "og:description": "Discover thoughtful birthday photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/birthday",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Birthday | PicMagic",
+        "twitter:description": "Discover thoughtful birthday photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:21:59.856989+00:00"
+    },
+    {
+      "path": "/ai-prompts/travel",
+      "status": 200,
+      "ttfb": 0.710671,
+      "bytes": 71376,
+      "h1": [
+        "Travel photo ideas"
+      ],
+      "word_count": 261,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Turn travel memories into stronger portraits and story-led scenes without replacing what made the place recognisable. These AI prompts cover street moments, landscapes and group trips with concrete direction for atmosphere, scale, light and reference identity.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/travel",
+        "og:title": "AI Photo Prompts for Travel | PicMagic",
+        "og:description": "Turn travel memories into stronger portraits and story-led scenes without replacing what made the place recognisable. These AI prompts cover street moments, landscapes and group trips with concrete direction for atmosphere, scale, light and reference identity.",
+        "og:url": "https://picmagic.in/ai-prompts/travel",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Travel | PicMagic",
+        "twitter:description": "Turn travel memories into stronger portraits and story-led scenes without replacing what made the place recognisable. These AI prompts cover street moments, landscapes and group trips with concrete direction for atmosphere, scale, light and reference identity.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:00.456868+00:00"
+    },
+    {
+      "path": "/ai-prompts/festival",
+      "status": 200,
+      "ttfb": 0.623415,
+      "bytes": 60433,
+      "h1": [
+        "Festival photo ideas"
+      ],
+      "word_count": 253,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore Indian festival photo prompts shaped around the colour, light and rituals of the celebration rather than a generic festive backdrop. Use the complete directions to preserve faces and clothing while refining composition, lamps, d\u00e9cor and the mood of the occasion.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/festival",
+        "og:title": "AI Photo Prompts for Festival | PicMagic",
+        "og:description": "Explore Indian festival photo prompts shaped around the colour, light and rituals of the celebration rather than a generic festive backdrop. Use the complete directions to preserve faces and clothing while refining composition, lamps, d\u00e9cor and the mood of the occasion.",
+        "og:url": "https://picmagic.in/ai-prompts/festival",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Festival | PicMagic",
+        "twitter:description": "Explore Indian festival photo prompts shaped around the colour, light and rituals of the celebration rather than a generic festive backdrop. Use the complete directions to preserve faces and clothing while refining composition, lamps, d\u00e9cor and the mood of the occasion.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:00.517043+00:00"
+    },
+    {
+      "path": "/ai-prompts/professional",
+      "status": 200,
+      "ttfb": 0.719999,
+      "bytes": 54452,
+      "h1": [
+        "Professional photo ideas"
+      ],
+      "word_count": 133,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful professional photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/professional",
+        "og:title": "AI Photo Prompts for Professional | PicMagic",
+        "og:description": "Discover thoughtful professional photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/professional",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Professional | PicMagic",
+        "twitter:description": "Discover thoughtful professional photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:01.205209+00:00"
+    },
+    {
+      "path": "/ai-prompts/fashion",
+      "status": 200,
+      "ttfb": 0.740339,
+      "bytes": 58255,
+      "h1": [
+        "Fashion photo ideas"
+      ],
+      "word_count": 116,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful fashion photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/fashion",
+        "og:title": "AI Photo Prompts for Fashion | PicMagic",
+        "og:description": "Discover thoughtful fashion photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/fashion",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Fashion | PicMagic",
+        "twitter:description": "Discover thoughtful fashion photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:01.284751+00:00"
+    },
+    {
+      "path": "/ai-prompts/product-photography",
+      "status": 200,
+      "ttfb": 0.643714,
+      "bytes": 57413,
+      "h1": [
+        "Product photography photo ideas"
+      ],
+      "word_count": 140,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful product photography photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/product-photography",
+        "og:title": "AI Photo Prompts for Product photography | PicMagic",
+        "og:description": "Discover thoughtful product photography photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/product-photography",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Product photography | PicMagic",
+        "twitter:description": "Discover thoughtful product photography photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:01.891345+00:00"
+    },
+    {
+      "path": "/ai-prompts/social-media",
+      "status": 200,
+      "ttfb": 0.69999,
+      "bytes": 91601,
+      "h1": [
+        "Social media photo ideas"
+      ],
+      "word_count": 219,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful social media photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/social-media",
+        "og:title": "AI Photo Prompts for Social media | PicMagic",
+        "og:description": "Discover thoughtful social media photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/social-media",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Social media | PicMagic",
+        "twitter:description": "Discover thoughtful social media photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:02.031508+00:00"
+    },
+    {
+      "path": "/ai-prompts/retro",
+      "status": 200,
+      "ttfb": 0.596169,
+      "bytes": 50822,
+      "h1": [
+        "Retro photo ideas"
+      ],
+      "word_count": 103,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful retro photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/retro",
+        "og:title": "AI Photo Prompts for Retro | PicMagic",
+        "og:description": "Discover thoughtful retro photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/retro",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Retro | PicMagic",
+        "twitter:description": "Discover thoughtful retro photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:02.514673+00:00"
+    },
+    {
+      "path": "/ai-prompts/cinematic",
+      "status": 200,
+      "ttfb": 0.784945,
+      "bytes": 45845,
+      "h1": [
+        "Cinematic photo ideas"
+      ],
+      "word_count": 109,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover thoughtful cinematic photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/cinematic",
+        "og:title": "AI Photo Prompts for Cinematic | PicMagic",
+        "og:description": "Discover thoughtful cinematic photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "og:url": "https://picmagic.in/ai-prompts/cinematic",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Photo Prompts for Cinematic | PicMagic",
+        "twitter:description": "Discover thoughtful cinematic photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:02.843857+00:00"
+    },
+    {
+      "path": "/ai-prompts/pets",
+      "status": 200,
+      "ttfb": 0.783729,
+      "bytes": 36638,
+      "h1": [
+        "Pets photo ideas"
+      ],
+      "word_count": 70,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Portrait ideas for the animals in your life, preserving their own markings and character with natural poses and gentle handling.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/pets",
+        "og:title": "Pet Photo Prompts and Portrait Ideas",
+        "og:description": "Portrait ideas for the animals in your life, preserving their own markings and character with natural poses and gentle handling.",
+        "og:url": "https://picmagic.in/ai-prompts/pets",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Pet Photo Prompts and Portrait Ideas",
+        "twitter:description": "Portrait ideas for the animals in your life, preserving their own markings and character with natural poses and gentle handling.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:03.335413+00:00"
+    },
+    {
+      "path": "/collections/golden-hour",
+      "status": 200,
+      "ttfb": 0.624325,
+      "bytes": 41640,
+      "h1": [
+        "Chasing the golden hour"
+      ],
+      "word_count": 90,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Warm light, gentle shadows and the feeling of an evening you wish would last. These ideas help you make the most of sunset-inspired portraits.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/golden-hour",
+        "og:title": "Chasing the golden hour | PicMagic",
+        "og:description": "Warm light, gentle shadows and the feeling of an evening you wish would last. These ideas help you make the most of sunset-inspired portraits.",
+        "og:url": "https://picmagic.in/collections/golden-hour",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Chasing the golden hour | PicMagic",
+        "twitter:description": "Warm light, gentle shadows and the feeling of an evening you wish would last. These ideas help you make the most of sunset-inspired portraits.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:03.509547+00:00"
+    },
+    {
+      "path": "/collections/romantic",
+      "status": 200,
+      "ttfb": 0.703579,
+      "bytes": 68172,
+      "h1": [
+        "A little more romance"
+      ],
+      "word_count": 251,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore romantic AI photo prompts for couples, from rainy city walks to quiet beach evenings, with natural poses and identity-first reference guidance.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/romantic",
+        "og:title": "Romantic Couple AI Photo Prompts | PicMagic",
+        "og:description": "Explore romantic AI photo prompts for couples, from rainy city walks to quiet beach evenings, with natural poses and identity-first reference guidance.",
+        "og:url": "https://picmagic.in/collections/romantic",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Romantic Couple AI Photo Prompts | PicMagic",
+        "twitter:description": "Explore romantic AI photo prompts for couples, from rainy city walks to quiet beach evenings, with natural poses and identity-first reference guidance.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:04.088101+00:00"
+    },
+    {
+      "path": "/collections/saree",
+      "status": 200,
+      "ttfb": 0.858017,
+      "bytes": 45893,
+      "h1": [
+        "The saree edit"
+      ],
+      "word_count": 99,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore saree portraits that celebrate fabric, drape and personal style. Keep the details that make the look yours, from a favourite weave to meaningful jewellery.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/saree",
+        "og:title": "The saree edit | PicMagic",
+        "og:description": "Explore saree portraits that celebrate fabric, drape and personal style. Keep the details that make the look yours, from a favourite weave to meaningful jewellery.",
+        "og:url": "https://picmagic.in/collections/saree",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The saree edit | PicMagic",
+        "twitter:description": "Explore saree portraits that celebrate fabric, drape and personal style. Keep the details that make the look yours, from a favourite weave to meaningful jewellery.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:04.394386+00:00"
+    },
+    {
+      "path": "/collections/cinematic",
+      "status": 200,
+      "ttfb": 0.727353,
+      "bytes": 87966,
+      "h1": [
+        "Make it cinematic"
+      ],
+      "word_count": 302,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Create film-like AI portraits with practical direction for atmosphere, lighting and composition while keeping the uploaded person recognisable.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/cinematic",
+        "og:title": "Cinematic AI Photo Prompts and Portrait Ideas | PicMagic",
+        "og:description": "Create film-like AI portraits with practical direction for atmosphere, lighting and composition while keeping the uploaded person recognisable.",
+        "og:url": "https://picmagic.in/collections/cinematic",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Cinematic AI Photo Prompts and Portrait Ideas | PicMagic",
+        "twitter:description": "Create film-like AI portraits with practical direction for atmosphere, lighting and composition while keeping the uploaded person recognisable.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:04.854067+00:00"
+    },
+    {
+      "path": "/collections/studio",
+      "status": 200,
+      "ttfb": 0.759708,
+      "bytes": 96675,
+      "h1": [
+        "The studio collection"
+      ],
+      "word_count": 323,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Browse studio AI prompts for portraits and products with clean backdrops, controlled lighting and precise composition guidance.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/studio",
+        "og:title": "Studio Portrait and Product AI Photo Prompts | PicMagic",
+        "og:description": "Browse studio AI prompts for portraits and products with clean backdrops, controlled lighting and precise composition guidance.",
+        "og:url": "https://picmagic.in/collections/studio",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Studio Portrait and Product AI Photo Prompts | PicMagic",
+        "twitter:description": "Browse studio AI prompts for portraits and products with clean backdrops, controlled lighting and precise composition guidance.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:05.201043+00:00"
+    },
+    {
+      "path": "/collections/professional",
+      "status": 200,
+      "ttfb": 0.776811,
+      "bytes": 50466,
+      "h1": [
+        "Your professional era"
+      ],
+      "word_count": 117,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Approachable headshots and confident portraits for the next chapter of your career. Choose natural light or a studio look and keep your appearance authentic.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/professional",
+        "og:title": "Your professional era | PicMagic",
+        "og:description": "Approachable headshots and confident portraits for the next chapter of your career. Choose natural light or a studio look and keep your appearance authentic.",
+        "og:url": "https://picmagic.in/collections/professional",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your professional era | PicMagic",
+        "twitter:description": "Approachable headshots and confident portraits for the next chapter of your career. Choose natural light or a studio look and keep your appearance authentic.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:05.662694+00:00"
+    },
+    {
+      "path": "/collections/diwali",
+      "status": 200,
+      "ttfb": 0.726945,
+      "bytes": 45853,
+      "h1": [
+        "An evening of light"
+      ],
+      "word_count": 110,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Celebrate Diwali with warm home portraits, traditional outfits and the glow of diyas. Keep faces naturally lit and choose an environment that reflects your celebration.",
+        "robots": "noindex, follow",
+        "googlebot": "noindex, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/diwali",
+        "og:title": "An evening of light | PicMagic",
+        "og:description": "Celebrate Diwali with warm home portraits, traditional outfits and the glow of diyas. Keep faces naturally lit and choose an environment that reflects your celebration.",
+        "og:url": "https://picmagic.in/collections/diwali",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "An evening of light | PicMagic",
+        "twitter:description": "Celebrate Diwali with warm home portraits, traditional outfits and the glow of diyas. Keep faces naturally lit and choose an environment that reflects your celebration.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:05.964130+00:00"
+    },
+    {
+      "path": "/collections/dating-profile",
+      "status": 200,
+      "ttfb": 0.58498,
+      "bytes": 55815,
+      "h1": [
+        "A profile with a real personality"
+      ],
+      "word_count": 266,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Create natural dating-profile photos around coffee, books, parks and cooking, with relaxed expressions and faithful reference identity.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/dating-profile",
+        "og:title": "Dating Profile Photo Ideas with Personality | PicMagic",
+        "og:description": "Create natural dating-profile photos around coffee, books, parks and cooking, with relaxed expressions and faithful reference identity.",
+        "og:url": "https://picmagic.in/collections/dating-profile",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Dating Profile Photo Ideas with Personality | PicMagic",
+        "twitter:description": "Create natural dating-profile photos around coffee, books, parks and cooking, with relaxed expressions and faithful reference identity.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:06.280211+00:00"
+    },
+    {
+      "path": "/collections/dating-profile-reels",
+      "status": 200,
+      "ttfb": 0.782997,
+      "bytes": 57159,
+      "h1": [
+        "A profile with a real personality \u2014 reel ideas"
+      ],
+      "word_count": 283,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Plan short dating-profile reels with everyday stories, natural movement and clear hooks while keeping the uploaded person recognisable.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/dating-profile-reels",
+        "og:title": "Dating Profile Reel Ideas and Video Prompts | PicMagic",
+        "og:description": "Plan short dating-profile reels with everyday stories, natural movement and clear hooks while keeping the uploaded person recognisable.",
+        "og:url": "https://picmagic.in/collections/dating-profile-reels",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Dating Profile Reel Ideas and Video Prompts | PicMagic",
+        "twitter:description": "Plan short dating-profile reels with everyday stories, natural movement and clear hooks while keeping the uploaded person recognisable.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:06.775658+00:00"
+    },
+    {
+      "path": "/collections/instagram-profile-picture",
+      "status": 200,
+      "ttfb": 0.765314,
+      "bytes": 60624,
+      "h1": [
+        "Profile Picture / DP Ideas"
+      ],
+      "word_count": 271,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore distinctive AI profile-picture and DP prompts with clear facial framing, controlled light and identity-first reference guidance.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/instagram-profile-picture",
+        "og:title": "AI Profile Picture and DP Prompts for Instagram | PicMagic",
+        "og:description": "Explore distinctive AI profile-picture and DP prompts with clear facial framing, controlled light and identity-first reference guidance.",
+        "og:url": "https://picmagic.in/collections/instagram-profile-picture",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "AI Profile Picture and DP Prompts for Instagram | PicMagic",
+        "twitter:description": "Explore distinctive AI profile-picture and DP prompts with clear facial framing, controlled light and identity-first reference guidance.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:07.074915+00:00"
+    },
+    {
+      "path": "/collections/indian-festivals",
+      "status": 200,
+      "ttfb": 1.006728,
+      "bytes": 59669,
+      "h1": [
+        "Celebrations in familiar light"
+      ],
+      "word_count": 263,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Explore AI photo prompts for Diwali, Holi, Navratri and Krishna-inspired portraits with celebration-specific light, colour and reference fidelity.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/indian-festivals",
+        "og:title": "Indian Festival AI Photo Prompts and Portrait Ideas | PicMagic",
+        "og:description": "Explore AI photo prompts for Diwali, Holi, Navratri and Krishna-inspired portraits with celebration-specific light, colour and reference fidelity.",
+        "og:url": "https://picmagic.in/collections/indian-festivals",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Indian Festival AI Photo Prompts and Portrait Ideas | PicMagic",
+        "twitter:description": "Explore AI photo prompts for Diwali, Holi, Navratri and Krishna-inspired portraits with celebration-specific light, colour and reference fidelity.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:07.810454+00:00"
+    },
+    {
+      "path": "/collections/creative-transformations",
+      "status": 200,
+      "ttfb": 0.872397,
+      "bytes": 132014,
+      "h1": [
+        "Creative transformations"
+      ],
+      "word_count": 431,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Original photo, family, art, fashion and product transformations. Copy reference-first prompts for miniature worlds, paper portraits and creative campaign sets.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/collections/creative-transformations",
+        "og:title": "Creative AI Photo Transformations | PicMagic",
+        "og:description": "Original photo, family, art, fashion and product transformations. Copy reference-first prompts for miniature worlds, paper portraits and creative campaign sets.",
+        "og:url": "https://picmagic.in/collections/creative-transformations",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/opengraph-image",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "PicMagic AI photo and reel prompt ideas",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Creative AI Photo Transformations | PicMagic",
+        "twitter:description": "Original photo, family, art, fashion and product transformations. Copy reference-first prompts for miniature worlds, paper portraits and creative campaign sets.",
+        "twitter:image": "https://picmagic.in/opengraph-image",
+        "twitter:image:alt": "PicMagic AI photo and reel prompt ideas"
+      },
+      "timestamp": "2026-09-25T04:22:08.003859+00:00"
+    },
+    {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "status": 200,
+      "ttfb": 0.97412,
+      "bytes": 100178,
+      "h1": [
+        "Golden hour, draped in tradition"
+      ],
+      "word_count": 814,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Golden hour, draped in tradition: The person in an ivory silk saree with a narrow gold border and jasmine hair adornment, glancing over one shoulder beside\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+        "og:title": "Golden hour, draped in tradition AI Photo Prompt | PicMagic",
+        "og:description": "Golden hour, draped in tradition: The person in an ivory silk saree with a narrow gold border and jasmine hair adornment, glancing over one shoulder beside\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/ac229bca-b98d-59ff-bda2-977203e8e083",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Golden hour, draped in tradition on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Golden hour, draped in tradition AI Photo Prompt | PicMagic",
+        "twitter:description": "Golden hour, draped in tradition: The person in an ivory silk saree with a narrow gold border and jasmine hair adornment, glancing over one shoulder beside\u2026",
+        "twitter:image": "https://picmagic.in/api/og/ac229bca-b98d-59ff-bda2-977203e8e083",
+        "twitter:image:alt": "Golden hour, draped in tradition on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:08.839983+00:00"
+    },
+    {
+      "path": "/ai-prompts/professional/your-next-chapter-in-focus",
+      "status": 200,
+      "ttfb": 0.883305,
+      "bytes": 101108,
+      "h1": [
+        "Your next chapter, in focus"
+      ],
+      "word_count": 823,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Your next chapter, in focus: The person in a navy unstructured jacket over a white crew-neck shirt, relaxed shoulders and direct eye contact against a warm\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/professional/your-next-chapter-in-focus",
+        "og:title": "Your next chapter, in focus AI Photo Prompt | PicMagic",
+        "og:description": "Your next chapter, in focus: The person in a navy unstructured jacket over a white crew-neck shirt, relaxed shoulders and direct eye contact against a warm\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/professional/your-next-chapter-in-focus",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Your next chapter, in focus on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your next chapter, in focus AI Photo Prompt | PicMagic",
+        "twitter:description": "Your next chapter, in focus: The person in a navy unstructured jacket over a white crew-neck shirt, relaxed shoulders and direct eye contact against a warm\u2026",
+        "twitter:image": "https://picmagic.in/api/og/f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+        "twitter:image:alt": "Your next chapter, in focus on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:09.022703+00:00"
+    },
+    {
+      "path": "/ai-prompts/travel/somewhere-in-the-mediterranean",
+      "status": 200,
+      "ttfb": 0.693925,
+      "bytes": 99964,
+      "h1": [
+        "Somewhere in the Mediterranean"
+      ],
+      "word_count": 791,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Somewhere in the Mediterranean: The person wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/travel/somewhere-in-the-mediterranean",
+        "og:title": "Somewhere in the Mediterranean AI Photo Prompt | PicMagic",
+        "og:description": "Somewhere in the Mediterranean: The person wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/travel/somewhere-in-the-mediterranean",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Somewhere in the Mediterranean on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Somewhere in the Mediterranean AI Photo Prompt | PicMagic",
+        "twitter:description": "Somewhere in the Mediterranean: The person wearing a linen rust sundress and holding a woven market bag on a sunlit whitewashed Greek island staircase with\u2026",
+        "twitter:image": "https://picmagic.in/api/og/170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+        "twitter:image:alt": "Somewhere in the Mediterranean on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:09.582967+00:00"
+    },
+    {
+      "path": "/ai-prompts/kids/the-birthday-astronaut",
+      "status": 200,
+      "ttfb": 0.680015,
+      "bytes": 100256,
+      "h1": [
+        "The birthday astronaut"
+      ],
+      "word_count": 816,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "The birthday astronaut: The child in a handmade silver astronaut costume with a helmet tucked beneath one arm; a small cardboard moon and paper stars\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/kids/the-birthday-astronaut",
+        "og:title": "The birthday astronaut AI Photo Prompt | PicMagic",
+        "og:description": "The birthday astronaut: The child in a handmade silver astronaut costume with a helmet tucked beneath one arm; a small cardboard moon and paper stars\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/kids/the-birthday-astronaut",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "The birthday astronaut on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The birthday astronaut AI Photo Prompt | PicMagic",
+        "twitter:description": "The birthday astronaut: The child in a handmade silver astronaut costume with a helmet tucked beneath one arm; a small cardboard moon and paper stars\u2026",
+        "twitter:image": "https://picmagic.in/api/og/e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+        "twitter:image:alt": "The birthday astronaut on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:09.752227+00:00"
+    },
+    {
+      "path": "/ai-prompts/men/city-lights-main-character-energy",
+      "status": 200,
+      "ttfb": 0.833237,
+      "bytes": 100694,
+      "h1": [
+        "City lights, main-character energy"
+      ],
+      "word_count": 822,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "City lights, main-character energy: The person wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind them.\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/men/city-lights-main-character-energy",
+        "og:title": "City lights, main-character energy AI Photo Prompt | PicMagic",
+        "og:description": "City lights, main-character energy: The person wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind them.\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/men/city-lights-main-character-energy",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "City lights, main-character energy on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "City lights, main-character energy AI Photo Prompt | PicMagic",
+        "twitter:description": "City lights, main-character energy: The person wearing a dark olive overshirt, standing still at a busy Mumbai crossing while commuters blur behind them.\u2026",
+        "twitter:image": "https://picmagic.in/api/og/4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+        "twitter:image:alt": "City lights, main-character energy on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:10.461605+00:00"
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "ttfb": 0.666489,
+      "bytes": 99781,
+      "h1": [
+        "Barefoot at blue hour"
+      ],
+      "word_count": 809,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Barefoot at blue hour: The two people in the couple reference wearing loose off-white cotton clothing, walking barefoot along a quiet beach with small waves\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+        "og:title": "Barefoot at blue hour AI Photo Prompt | PicMagic",
+        "og:description": "Barefoot at blue hour: The two people in the couple reference wearing loose off-white cotton clothing, walking barefoot along a quiet beach with small waves\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/33849ccd-f6de-543d-985f-268cd59302ef",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Barefoot at blue hour on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Barefoot at blue hour AI Photo Prompt | PicMagic",
+        "twitter:description": "Barefoot at blue hour: The two people in the couple reference wearing loose off-white cotton clothing, walking barefoot along a quiet beach with small waves\u2026",
+        "twitter:image": "https://picmagic.in/api/og/33849ccd-f6de-543d-985f-268cd59302ef",
+        "twitter:image:alt": "Barefoot at blue hour on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:10.465080+00:00"
+    },
+    {
+      "path": "/ai-prompts/men/quiet-confidence",
+      "status": 200,
+      "ttfb": 0.804889,
+      "bytes": 97548,
+      "h1": [
+        "Quiet confidence"
+      ],
+      "word_count": 782,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Quiet confidence: The person in a textured charcoal suit and burgundy knit tie, seated at the edge of a modern oak desk with an architectural window behind\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/men/quiet-confidence",
+        "og:title": "Quiet confidence AI Photo Prompt | PicMagic",
+        "og:description": "Quiet confidence: The person in a textured charcoal suit and burgundy knit tie, seated at the edge of a modern oak desk with an architectural window behind\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/men/quiet-confidence",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Quiet confidence on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Quiet confidence AI Photo Prompt | PicMagic",
+        "twitter:description": "Quiet confidence: The person in a textured charcoal suit and burgundy knit tie, seated at the edge of a modern oak desk with an architectural window behind\u2026",
+        "twitter:image": "https://picmagic.in/api/og/b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+        "twitter:image:alt": "Quiet confidence on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:11.320884+00:00"
+    },
+    {
+      "path": "/ai-prompts/birthday/a-birthday-made-of-sunshine",
+      "status": 200,
+      "ttfb": 0.749866,
+      "bytes": 98345,
+      "h1": [
+        "A birthday made of sunshine"
+      ],
+      "word_count": 756,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "A birthday made of sunshine: The person wearing a cobalt blue dress, laughing beside a small lemon cake on a garden table surrounded by flowers. Reference\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/birthday/a-birthday-made-of-sunshine",
+        "og:title": "A birthday made of sunshine AI Photo Prompt | PicMagic",
+        "og:description": "A birthday made of sunshine: The person wearing a cobalt blue dress, laughing beside a small lemon cake on a garden table surrounded by flowers. Reference\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/birthday/a-birthday-made-of-sunshine",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/9ab7f504-b37f-51b2-98ee-0be064f761c3",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A birthday made of sunshine on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A birthday made of sunshine AI Photo Prompt | PicMagic",
+        "twitter:description": "A birthday made of sunshine: The person wearing a cobalt blue dress, laughing beside a small lemon cake on a garden table surrounded by flowers. Reference\u2026",
+        "twitter:image": "https://picmagic.in/api/og/9ab7f504-b37f-51b2-98ee-0be064f761c3",
+        "twitter:image:alt": "A birthday made of sunshine on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:11.271320+00:00"
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "ttfb": 0.741746,
+      "bytes": 97222,
+      "h1": [
+        "Tiny Krishna, big wonder"
+      ],
+      "word_count": 1005,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Tiny Krishna, big wonder: The child in a Krishna-inspired portrait wearing a comfortable yellow dhoti and blue sash, a single peacock feather in the hair,\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
+        "og:title": "Tiny Krishna, big wonder AI Photo Prompt | PicMagic",
+        "og:description": "Tiny Krishna, big wonder: The child in a Krishna-inspired portrait wearing a comfortable yellow dhoti and blue sash, a single peacock feather in the hair,\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Tiny Krishna, big wonder on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Tiny Krishna, big wonder AI Photo Prompt | PicMagic",
+        "twitter:description": "Tiny Krishna, big wonder: The child in a Krishna-inspired portrait wearing a comfortable yellow dhoti and blue sash, a single peacock feather in the hair,\u2026",
+        "twitter:image": "https://picmagic.in/api/og/e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+        "twitter:image:alt": "Tiny Krishna, big wonder on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:12.050705+00:00"
+    },
+    {
+      "path": "/ai-prompts/festival/a-family-evening-lit-by-diyas",
+      "status": 200,
+      "ttfb": 0.999249,
+      "bytes": 101728,
+      "h1": [
+        "A family evening, lit by diyas"
+      ],
+      "word_count": 859,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "A family evening, lit by diyas: The reference family in indigo, cream and marigold festive clothing, seated around brass diyas on a home veranda. Reference\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/festival/a-family-evening-lit-by-diyas",
+        "og:title": "A family evening, lit by diyas AI Photo Prompt | PicMagic",
+        "og:description": "A family evening, lit by diyas: The reference family in indigo, cream and marigold festive clothing, seated around brass diyas on a home veranda. Reference\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/festival/a-family-evening-lit-by-diyas",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/d4967caf-a598-58e3-bc71-a80371251b30",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A family evening, lit by diyas on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A family evening, lit by diyas AI Photo Prompt | PicMagic",
+        "twitter:description": "A family evening, lit by diyas: The reference family in indigo, cream and marigold festive clothing, seated around brass diyas on a home veranda. Reference\u2026",
+        "twitter:image": "https://picmagic.in/api/og/d4967caf-a598-58e3-bc71-a80371251b30",
+        "twitter:image:alt": "A family evening, lit by diyas on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:12.374164+00:00"
+    },
+    {
+      "path": "/ai-prompts/wedding/a-modern-bridal-heirloom",
+      "status": 200,
+      "ttfb": 0.812018,
+      "bytes": 102808,
+      "h1": [
+        "A modern bridal heirloom"
+      ],
+      "word_count": 887,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "A modern bridal heirloom: The bride wearing an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/wedding/a-modern-bridal-heirloom",
+        "og:title": "A modern bridal heirloom AI Photo Prompt | PicMagic",
+        "og:description": "A modern bridal heirloom: The bride wearing an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/wedding/a-modern-bridal-heirloom",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/22ffe650-d663-515a-80a6-105f75e0df6b",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A modern bridal heirloom on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A modern bridal heirloom AI Photo Prompt | PicMagic",
+        "twitter:description": "A modern bridal heirloom: The bride wearing an emerald Kanjeevaram saree, traditional gold jewellery and jasmine flowers, looking gently towards the camera\u2026",
+        "twitter:image": "https://picmagic.in/api/og/22ffe650-d663-515a-80a6-105f75e0df6b",
+        "twitter:image:alt": "A modern bridal heirloom on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:12.907286+00:00"
+    },
+    {
+      "path": "/ai-prompts/professional/a-headshot-that-feels-like-you",
+      "status": 200,
+      "ttfb": 0.830979,
+      "bytes": 101847,
+      "h1": [
+        "A headshot that feels like you"
+      ],
+      "word_count": 868,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "LinkedIn inspiration for woman photos. A middle-aged Indian woman with medium brown skin, short wavy hair and rectangular spectacles wearing a teal blouse\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/professional/a-headshot-that-feels-like-you",
+        "og:title": "A headshot that feels like you AI Photo Prompt | PicMagic",
+        "og:description": "LinkedIn inspiration for woman photos. A middle-aged Indian woman with medium brown skin, short wavy hair and rectangular spectacles wearing a teal blouse\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/professional/a-headshot-that-feels-like-you",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/84eb7852-fcb5-518e-8181-41730c7f6f82",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A headshot that feels like you on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A headshot that feels like you AI Photo Prompt | PicMagic",
+        "twitter:description": "LinkedIn inspiration for woman photos. A middle-aged Indian woman with medium brown skin, short wavy hair and rectangular spectacles wearing a teal blouse\u2026",
+        "twitter:image": "https://picmagic.in/api/og/84eb7852-fcb5-518e-8181-41730c7f6f82",
+        "twitter:image:alt": "A headshot that feels like you on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:13.246621+00:00"
+    },
+    {
+      "path": "/ai-prompts/family/sunday-all-together",
+      "status": 200,
+      "ttfb": 0.814305,
+      "bytes": 99646,
+      "h1": [
+        "Sunday, all together"
+      ],
+      "word_count": 826,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Sunday, all together: The reference family making pancakes around a modest sunny kitchen island, casual knitwear and genuinely candid gestures. Reference\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/family/sunday-all-together",
+        "og:title": "Sunday, all together AI Photo Prompt | PicMagic",
+        "og:description": "Sunday, all together: The reference family making pancakes around a modest sunny kitchen island, casual knitwear and genuinely candid gestures. Reference\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/family/sunday-all-together",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Sunday, all together on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Sunday, all together AI Photo Prompt | PicMagic",
+        "twitter:description": "Sunday, all together: The reference family making pancakes around a modest sunny kitchen island, casual knitwear and genuinely candid gestures. Reference\u2026",
+        "twitter:image": "https://picmagic.in/api/og/5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+        "twitter:image:alt": "Sunday, all together on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:13.760143+00:00"
+    },
+    {
+      "path": "/ai-prompts/cinematic/a-night-at-the-cinema",
+      "status": 200,
+      "ttfb": 0.703778,
+      "bytes": 99588,
+      "h1": [
+        "A night at the cinema"
+      ],
+      "word_count": 797,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "A night at the cinema: The person wearing a dark wool coat, standing outside an old cinema entrance at night, lettering abstract and unreadable. Reference\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/cinematic/a-night-at-the-cinema",
+        "og:title": "A night at the cinema AI Photo Prompt | PicMagic",
+        "og:description": "A night at the cinema: The person wearing a dark wool coat, standing outside an old cinema entrance at night, lettering abstract and unreadable. Reference\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/cinematic/a-night-at-the-cinema",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/b11ac839-d07f-5f85-b723-ee2975a4381b",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A night at the cinema on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A night at the cinema AI Photo Prompt | PicMagic",
+        "twitter:description": "A night at the cinema: The person wearing a dark wool coat, standing outside an old cinema entrance at night, lettering abstract and unreadable. Reference\u2026",
+        "twitter:image": "https://picmagic.in/api/og/b11ac839-d07f-5f85-b723-ee2975a4381b",
+        "twitter:image:alt": "A night at the cinema on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:13.990212+00:00"
+    },
+    {
+      "path": "/ai-prompts/festival/garba-under-the-lights",
+      "status": 200,
+      "ttfb": 0.768137,
+      "bytes": 100273,
+      "h1": [
+        "Garba under the lights"
+      ],
+      "word_count": 820,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Garba under the lights: The person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/festival/garba-under-the-lights",
+        "og:title": "Garba under the lights AI Photo Prompt | PicMagic",
+        "og:description": "Garba under the lights: The person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba\u2026",
+        "og:url": "https://picmagic.in/ai-prompts/festival/garba-under-the-lights",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Garba under the lights on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Garba under the lights AI Photo Prompt | PicMagic",
+        "twitter:description": "Garba under the lights: The person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba\u2026",
+        "twitter:image": "https://picmagic.in/api/og/1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+        "twitter:image:alt": "Garba under the lights on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:14.571648+00:00"
+    },
+    {
+      "path": "/reel-prompts/the-fragrance-reveal",
+      "status": 200,
+      "ttfb": 0.791746,
+      "bytes": 111982,
+      "h1": [
+        "The fragrance reveal"
+      ],
+      "word_count": 1103,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "The fragrance reveal. A product, luxury, reel presentation with narrow softbox reflections with a warm backlight through the bottle. Keep the supplied\u2026",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/reel-prompts/the-fragrance-reveal",
+        "og:title": "The fragrance reveal AI Reel Prompt | PicMagic",
+        "og:description": "The fragrance reveal. A product, luxury, reel presentation with narrow softbox reflections with a warm backlight through the bottle. Keep the supplied\u2026",
+        "og:url": "https://picmagic.in/reel-prompts/the-fragrance-reveal",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "The fragrance reveal on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The fragrance reveal AI Reel Prompt | PicMagic",
+        "twitter:description": "The fragrance reveal. A product, luxury, reel presentation with narrow softbox reflections with a warm backlight through the bottle. Keep the supplied\u2026",
+        "twitter:image": "https://picmagic.in/api/og/f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+        "twitter:image:alt": "The fragrance reveal on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:14.827728+00:00"
+    },
+    {
+      "path": "/reel-prompts/your-next-introduction-reel",
+      "status": 200,
+      "ttfb": 0.788176,
+      "bytes": 111427,
+      "h1": [
+        "Your next introduction \u2014 reel"
+      ],
+      "word_count": 1082,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Your next introduction: timed reel concept with large soft key light, reference-first identity and practical styling directions.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/reel-prompts/your-next-introduction-reel",
+        "og:title": "Your next introduction Reel Prompt",
+        "og:description": "Your next introduction: timed reel concept with large soft key light, reference-first identity and practical styling directions.",
+        "og:url": "https://picmagic.in/reel-prompts/your-next-introduction-reel",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Your next introduction \u2014 reel on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your next introduction Reel Prompt",
+        "twitter:description": "Your next introduction: timed reel concept with large soft key light, reference-first identity and practical styling directions.",
+        "twitter:image": "https://picmagic.in/api/og/b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+        "twitter:image:alt": "Your next introduction \u2014 reel on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:15.399710+00:00"
+    },
+    {
+      "path": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "status": 200,
+      "ttfb": 0.603625,
+      "bytes": 100274,
+      "h1": [
+        "The Bottle Inside a Moment of Water"
+      ],
+      "word_count": 724,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/product-photography/perfume-the-water-sculpture",
+        "og:title": "Perfume Water-Sculpture Product Image Prompt | PicMagic",
+        "og:description": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+        "og:url": "https://picmagic.in/ai-prompts/product-photography/perfume-the-water-sculpture",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "The Bottle Inside a Moment of Water on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Perfume Water-Sculpture Product Image Prompt | PicMagic",
+        "twitter:description": "Builds a high-speed water/VFX campaign normally requiring specialist production while retaining the product as the anchor.",
+        "twitter:image": "https://picmagic.in/api/og/72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+        "twitter:image:alt": "The Bottle Inside a Moment of Water on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:15.473999+00:00"
+    },
+    {
+      "path": "/ai-prompts/travel/the-river-remembers",
+      "status": 200,
+      "ttfb": 0.687489,
+      "bytes": 101395,
+      "h1": [
+        "The River Remembers"
+      ],
+      "word_count": 774,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/travel/the-river-remembers",
+        "og:title": "River Ink Travel Portrait Prompt \u2014 The River Remembers | PicMagic",
+        "og:description": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+        "og:url": "https://picmagic.in/ai-prompts/travel/the-river-remembers",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "The River Remembers on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "River Ink Travel Portrait Prompt \u2014 The River Remembers | PicMagic",
+        "twitter:description": "Turns a personal travel photograph into a physical-looking memory artwork that requires compositing, illustration and perspective matching.",
+        "twitter:image": "https://picmagic.in/api/og/3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+        "twitter:image:alt": "The River Remembers on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:16.170710+00:00"
+    },
+    {
+      "path": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "status": 200,
+      "ttfb": 0.735073,
+      "bytes": 101530,
+      "h1": [
+        "Portrait Cut from Monsoon Paper"
+      ],
+      "word_count": 745,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+        "og:title": "Portrait Cut from Monsoon Paper | PicMagic",
+        "og:description": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+        "og:url": "https://picmagic.in/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/19adfe33-076f-561a-9140-ca9d6593192b",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Portrait Cut from Monsoon Paper on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Portrait Cut from Monsoon Paper | PicMagic",
+        "twitter:description": "Creates a commissioned sculptural portrait with material depth from an ordinary reference photograph.",
+        "twitter:image": "https://picmagic.in/api/og/19adfe33-076f-561a-9140-ca9d6593192b",
+        "twitter:image:alt": "Portrait Cut from Monsoon Paper on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:16.353589+00:00"
+    },
+    {
+      "path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "status": 200,
+      "ttfb": 0.758538,
+      "bytes": 96017,
+      "h1": [
+        "A Fold Around You"
+      ],
+      "word_count": 715,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "A clean avatar with a tactile frame that stays understandable at tiny size. Copy the reference-first prompt into your chosen image tool; results vary.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/social-media/a-fold-around-you-profile",
+        "og:title": "A Fold Around You \u2014 Profile Picture Prompt | PicMagic",
+        "og:description": "A clean avatar with a tactile frame that stays understandable at tiny size. Copy the reference-first prompt into your chosen image tool; results vary.",
+        "og:url": "https://picmagic.in/ai-prompts/social-media/a-fold-around-you-profile",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/1e4cd4b9-6892-5d07-a325-0f622cca7842",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "A Fold Around You on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A Fold Around You \u2014 Profile Picture Prompt | PicMagic",
+        "twitter:description": "A clean avatar with a tactile frame that stays understandable at tiny size. Copy the reference-first prompt into your chosen image tool; results vary.",
+        "twitter:image": "https://picmagic.in/api/og/1e4cd4b9-6892-5d07-a325-0f622cca7842",
+        "twitter:image:alt": "A Fold Around You on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:16.984630+00:00"
+    },
+    {
+      "path": "/ai-prompts/women/double-exposure-fashion-women",
+      "status": 200,
+      "ttfb": 1.541392,
+      "bytes": 103193,
+      "h1": [
+        "Double-Exposure Fashion \u2014 Women"
+      ],
+      "word_count": 1025,
+      "ad_labels": 1,
+      "meta": {
+        "": "",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Recreate a double-exposure fashion portrait with your own face. A translucent profile and full-body pose, with identity-first women styling.",
+        "robots": "index, follow",
+        "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "google-adsense-account": "ca-pub-4114304022167819",
+        "canonical": "https://picmagic.in/ai-prompts/women/double-exposure-fashion-women",
+        "og:title": "Double-Exposure Fashion \u2014 Women Portrait Prompt | PicMagic",
+        "og:description": "Recreate a double-exposure fashion portrait with your own face. A translucent profile and full-body pose, with identity-first women styling.",
+        "og:url": "https://picmagic.in/ai-prompts/women/double-exposure-fashion-women",
+        "og:site_name": "PicMagic",
+        "og:image": "https://picmagic.in/api/og/3aff6d60-6a50-5e55-a405-fdcf55529787",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:alt": "Double-Exposure Fashion \u2014 Women on PicMagic",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Double-Exposure Fashion \u2014 Women Portrait Prompt | PicMagic",
+        "twitter:description": "Recreate a double-exposure fashion portrait with your own face. A translucent profile and full-body pose, with identity-first women styling.",
+        "twitter:image": "https://picmagic.in/api/og/3aff6d60-6a50-5e55-a405-fdcf55529787",
+        "twitter:image:alt": "Double-Exposure Fashion \u2014 Women on PicMagic"
+      },
+      "timestamp": "2026-09-25T04:22:17.985191+00:00"
+    }
+  ],
+  "advertisingCrawlerRequests": [
+    {
+      "url": "/",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 1.437370 172686",
+      "error": ""
+    },
+    {
+      "url": "/",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 1.316135 172686",
+      "error": ""
+    },
+    {
+      "url": "/ai-prompts/men",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 1.047425 100672",
+      "error": ""
+    },
+    {
+      "url": "/ai-prompts/men",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 0.966229 100672",
+      "error": ""
+    },
+    {
+      "url": "/collections/creative-transformations",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 1.423751 132014",
+      "error": ""
+    },
+    {
+      "url": "/collections/creative-transformations",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 1.456653 132014",
+      "error": ""
+    },
+    {
+      "url": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 0.887564 97222",
+      "error": ""
+    },
+    {
+      "url": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 0.850358 97222",
+      "error": ""
+    },
+    {
+      "url": "/robots.txt",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 0.139701 107",
+      "error": ""
+    },
+    {
+      "url": "/robots.txt",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 0.140530 107",
+      "error": ""
+    },
+    {
+      "url": "/sitemap.xml",
+      "ua": "Mediapartners-Google",
+      "metrics": "200 0.492985 254",
+      "error": ""
+    },
+    {
+      "url": "/sitemap.xml",
+      "ua": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+      "metrics": "200 0.383299 254",
+      "error": ""
+    }
+  ],
+  "duplication": {
+    "published_prompts": {
+      "description": {
+        "count": 91,
+        "exact_groups": [],
+        "near_pairs": [
+          {
+            "a": "your-next-chapter-in-focus",
+            "b": "your-next-introduction-reel",
+            "similarity": 0.873
+          },
+          {
+            "a": "tiny-krishna-big-wonder",
+            "b": "the-little-flute-keeper-reel",
+            "similarity": 0.889
+          },
+          {
+            "a": "your-product-beautifully-simple",
+            "b": "skincare-on-stone-reel",
+            "similarity": 0.869
+          },
+          {
+            "a": "the-gentlest-new-beginning",
+            "b": "the-gentlest-new-beginning-reel",
+            "similarity": 0.884
+          },
+          {
+            "a": "soft-light-unmistakably-you",
+            "b": "soft-light-unmistakably-you-reel",
+            "similarity": 0.875
+          },
+          {
+            "a": "small-details-beautifully-made",
+            "b": "ceramic-and-linen-reel",
+            "similarity": 0.863
+          },
+          {
+            "a": "meet-your-new-profile-picture",
+            "b": "coral-against-the-sky-reel",
+            "similarity": 0.849
+          }
+        ]
+      },
+      "seo_description": {
+        "count": 91,
+        "exact_groups": [],
+        "near_pairs": [
+          {
+            "a": "your-next-introduction-reel",
+            "b": "coral-against-the-sky-reel",
+            "similarity": 0.8
+          },
+          {
+            "a": "your-next-introduction-reel",
+            "b": "the-gentlest-new-beginning-reel",
+            "similarity": 0.812
+          },
+          {
+            "a": "your-next-introduction-reel",
+            "b": "ceramic-and-linen-reel",
+            "similarity": 0.808
+          },
+          {
+            "a": "coffee-and-a-real-smile",
+            "b": "coffee-and-a-real-smile-reel",
+            "similarity": 0.906
+          },
+          {
+            "a": "coffee-and-a-real-smile-reel",
+            "b": "coral-against-the-sky-reel",
+            "similarity": 0.837
+          },
+          {
+            "a": "coffee-and-a-real-smile-reel",
+            "b": "the-gentlest-new-beginning-reel",
+            "similarity": 0.857
+          },
+          {
+            "a": "coffee-and-a-real-smile-reel",
+            "b": "ceramic-and-linen-reel",
+            "similarity": 0.854
+          },
+          {
+            "a": "the-bookshop-detour",
+            "b": "the-bookshop-detour-reel",
+            "similarity": 0.913
+          },
+          {
+            "a": "sunday-park-conversation",
+            "b": "sunday-park-conversation-reel",
+            "similarity": 0.905
+          },
+          {
+            "a": "something-good-in-the-kitchen",
+            "b": "something-good-in-the-kitchen-reel",
+            "similarity": 0.911
+          },
+          {
+            "a": "coral-against-the-sky-reel",
+            "b": "the-gentlest-new-beginning-reel",
+            "similarity": 0.823
+          },
+          {
+            "a": "the-little-flute-keeper-reel",
+            "b": "the-gentlest-new-beginning-reel",
+            "similarity": 0.815
+          },
+          {
+            "a": "the-gentlest-new-beginning-reel",
+            "b": "ceramic-and-linen-reel",
+            "similarity": 0.832
+          },
+          {
+            "a": "the-listening-room-has-tides",
+            "b": "clouds-on-laundry-day",
+            "similarity": 0.805
+          },
+          {
+            "a": "the-listening-room-has-tides",
+            "b": "the-lift-stops-at-the-ocean",
+            "similarity": 0.809
+          },
+          {
+            "a": "ink-took-my-coffee",
+            "b": "the-kite-in-my-notebook",
+            "similarity": 0.836
+          },
+          {
+            "a": "ink-took-my-coffee",
+            "b": "the-projectionist-is-me",
+            "similarity": 0.814
+          },
+          {
+            "a": "the-kite-in-my-notebook",
+            "b": "clouds-on-laundry-day",
+            "similarity": 0.8
+          },
+          {
+            "a": "the-kite-in-my-notebook",
+            "b": "the-projectionist-is-me",
+            "similarity": 0.802
+          },
+          {
+            "a": "clouds-on-laundry-day",
+            "b": "the-projectionist-is-me",
+            "similarity": 0.835
+          },
+          {
+            "a": "clouds-on-laundry-day",
+            "b": "the-lift-stops-at-the-ocean",
+            "similarity": 0.83
+          },
+          {
+            "a": "the-projectionist-is-me",
+            "b": "the-lift-stops-at-the-ocean",
+            "similarity": 0.8
+          },
+          {
+            "a": "double-exposure-fashion-men",
+            "b": "double-exposure-fashion-women",
+            "similarity": 0.993
+          }
+        ]
+      }
+    },
+    "categories": {
+      "description": {
+        "count": 17,
+        "exact_groups": [],
+        "near_pairs": [
+          {
+            "a": "family",
+            "b": "wedding",
+            "similarity": 0.966
+          },
+          {
+            "a": "family",
+            "b": "birthday",
+            "similarity": 0.97
+          },
+          {
+            "a": "family",
+            "b": "professional",
+            "similarity": 0.964
+          },
+          {
+            "a": "family",
+            "b": "fashion",
+            "similarity": 0.979
+          },
+          {
+            "a": "family",
+            "b": "product-photography",
+            "similarity": 0.938
+          },
+          {
+            "a": "family",
+            "b": "social-media",
+            "similarity": 0.964
+          },
+          {
+            "a": "family",
+            "b": "retro",
+            "similarity": 0.966
+          },
+          {
+            "a": "family",
+            "b": "cinematic",
+            "similarity": 0.967
+          },
+          {
+            "a": "family",
+            "b": "reels",
+            "similarity": 0.972
+          },
+          {
+            "a": "wedding",
+            "b": "birthday",
+            "similarity": 0.96
+          },
+          {
+            "a": "wedding",
+            "b": "professional",
+            "similarity": 0.961
+          },
+          {
+            "a": "wedding",
+            "b": "fashion",
+            "similarity": 0.97
+          },
+          {
+            "a": "wedding",
+            "b": "product-photography",
+            "similarity": 0.935
+          },
+          {
+            "a": "wedding",
+            "b": "social-media",
+            "similarity": 0.961
+          },
+          {
+            "a": "wedding",
+            "b": "retro",
+            "similarity": 0.969
+          },
+          {
+            "a": "wedding",
+            "b": "cinematic",
+            "similarity": 0.964
+          },
+          {
+            "a": "wedding",
+            "b": "reels",
+            "similarity": 0.969
+          },
+          {
+            "a": "birthday",
+            "b": "professional",
+            "similarity": 0.952
+          },
+          {
+            "a": "birthday",
+            "b": "fashion",
+            "similarity": 0.96
+          },
+          {
+            "a": "birthday",
+            "b": "product-photography",
+            "similarity": 0.95
+          },
+          {
+            "a": "birthday",
+            "b": "social-media",
+            "similarity": 0.958
+          },
+          {
+            "a": "birthday",
+            "b": "retro",
+            "similarity": 0.972
+          },
+          {
+            "a": "birthday",
+            "b": "cinematic",
+            "similarity": 0.961
+          },
+          {
+            "a": "birthday",
+            "b": "reels",
+            "similarity": 0.966
+          },
+          {
+            "a": "professional",
+            "b": "fashion",
+            "similarity": 0.973
+          },
+          {
+            "a": "professional",
+            "b": "product-photography",
+            "similarity": 0.939
+          },
+          {
+            "a": "professional",
+            "b": "social-media",
+            "similarity": 0.953
+          },
+          {
+            "a": "professional",
+            "b": "retro",
+            "similarity": 0.961
+          },
+          {
+            "a": "professional",
+            "b": "cinematic",
+            "similarity": 0.949
+          },
+          {
+            "a": "professional",
+            "b": "reels",
+            "similarity": 0.967
+          },
+          {
+            "a": "fashion",
+            "b": "product-photography",
+            "similarity": 0.935
+          },
+          {
+            "a": "fashion",
+            "b": "social-media",
+            "similarity": 0.955
+          },
+          {
+            "a": "fashion",
+            "b": "retro",
+            "similarity": 0.969
+          },
+          {
+            "a": "fashion",
+            "b": "cinematic",
+            "similarity": 0.964
+          },
+          {
+            "a": "fashion",
+            "b": "reels",
+            "similarity": 0.969
+          },
+          {
+            "a": "product-photography",
+            "b": "social-media",
+            "similarity": 0.928
+          },
+          {
+            "a": "product-photography",
+            "b": "retro",
+            "similarity": 0.941
+          },
+          {
+            "a": "product-photography",
+            "b": "cinematic",
+            "similarity": 0.93
+          },
+          {
+            "a": "product-photography",
+            "b": "reels",
+            "similarity": 0.935
+          },
+          {
+            "a": "social-media",
+            "b": "retro",
+            "similarity": 0.955
+          },
+          {
+            "a": "social-media",
+            "b": "cinematic",
+            "similarity": 0.961
+          },
+          {
+            "a": "social-media",
+            "b": "reels",
+            "similarity": 0.955
+          },
+          {
+            "a": "retro",
+            "b": "cinematic",
+            "similarity": 0.97
+          },
+          {
+            "a": "retro",
+            "b": "reels",
+            "similarity": 0.981
+          },
+          {
+            "a": "cinematic",
+            "b": "reels",
+            "similarity": 0.963
+          }
+        ]
+      }
+    },
+    "active_collections": {
+      "description": {
+        "count": 12,
+        "exact_groups": [],
+        "near_pairs": []
+      }
+    },
+    "inactive_collections": {
+      "description": {
+        "count": 28,
+        "exact_groups": [
+          [
+            "pre-wedding",
+            "pre-wedding-reels"
+          ],
+          [
+            "maternity",
+            "maternity-reels"
+          ],
+          [
+            "bikes",
+            "bikes-reels"
+          ],
+          [
+            "cars",
+            "cars-reels"
+          ],
+          [
+            "gym-fitness",
+            "gym-fitness-reels"
+          ],
+          [
+            "travel",
+            "travel-reels"
+          ],
+          [
+            "babies",
+            "babies-reels"
+          ],
+          [
+            "pets",
+            "pets-reels"
+          ],
+          [
+            "womens-fashion-ecommerce",
+            "womens-fashion-ecommerce-reels"
+          ],
+          [
+            "mens-fashion-ecommerce",
+            "mens-fashion-ecommerce-reels"
+          ]
+        ],
+        "near_pairs": [
+          {
+            "a": "pre-wedding",
+            "b": "pre-wedding-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "maternity",
+            "b": "maternity-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "bikes",
+            "b": "bikes-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "cars",
+            "b": "cars-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "gym-fitness",
+            "b": "gym-fitness-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "office-corporate",
+            "b": "office-corporate-reels",
+            "similarity": 0.962
+          },
+          {
+            "a": "travel",
+            "b": "travel-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "babies",
+            "b": "babies-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "pets",
+            "b": "pets-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "womens-fashion-ecommerce",
+            "b": "womens-fashion-ecommerce-reels",
+            "similarity": 1.0
+          },
+          {
+            "a": "mens-fashion-ecommerce",
+            "b": "mens-fashion-ecommerce-reels",
+            "similarity": 1.0
+          }
+        ]
+      }
+    },
+    "faq": {
+      "occurrences": 257,
+      "distinct_pairs": 87,
+      "top": [
+        {
+          "question": "How do I use this prompt with my own photo?",
+          "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+          "occurrences": 47
+        },
+        {
+          "question": "What if the tool leaves out a detail?",
+          "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+          "occurrences": 46
+        },
+        {
+          "question": "Can I use my own photograph?",
+          "answer": "Yes. Copy the complete prompt into your chosen image tool and attach your photograph. Your reference controls identity; the fictional preview supplies styling. Results can vary.",
+          "occurrences": 16
+        },
+        {
+          "question": "What if the tool leaves out a detail?",
+          "answer": "Ask for a focused revision of the missing feature while keeping the rest of the image or clip unchanged. Compare identity, hands, important accessories and product details to the references; results vary by tool.",
+          "occurrences": 15
+        },
+        {
+          "question": "Does PicMagic generate this image for me?",
+          "answer": "PicMagic provides the idea and ready-to-use prompt. Create your image in a compatible external tool; the preview is an AI-generated example.",
+          "occurrences": 14
+        },
+        {
+          "question": "How should I use a reference photo?",
+          "answer": "Label each identity reference clearly. The supplied people determine face, age, ethnicity, skin tone and body proportions. Without references, the prompt defaults to fictional Indian/South Asian subjects; a style category does not change ethnicity.",
+          "occurrences": 13
+        },
+        {
+          "question": "Which details matter most for this concept?",
+          "answer": "Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Keep the setting, clothing and major props shown in the scene distinct and unobscured.",
+          "occurrences": 11
+        },
+        {
+          "question": "Will the result match this preview exactly?",
+          "answer": "No. This AI-generated example demonstrates the treatment. Your references determine identity and product details. Compare the result with your source and use focused edits or compositing if important details drift.",
+          "occurrences": 10
+        }
+      ]
+    }
+  }
+}

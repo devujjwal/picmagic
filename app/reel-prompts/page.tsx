@@ -31,7 +31,10 @@ export default async function Reels({ searchParams }: Props) {
   if (page > pages) notFound();
   const shown = reels.slice((page - 1) * 24, page * 24);
   return (
-    <div className="container">
+    <div
+      className="container"
+      data-ad-surface={shown.length ? "/reel-prompts" : undefined}
+    >
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
@@ -57,7 +60,7 @@ export default async function Reels({ searchParams }: Props) {
         page={page}
         path="/reel-prompts"
       />
-      <AdSlot placement="reel-page-inline" />
+      {shown.length > 0 && <AdSlot placement="reel-page-inline" />}
       <CollectionDiscovery
         collections={collections}
         prompts={prompts}

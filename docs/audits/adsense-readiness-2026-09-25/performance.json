@@ -1,0 +1,28 @@
+{
+  "measuredAt": "2026-09-25T04:09:27.185Z",
+  "mode": "One local mobile Lighthouse lab run per route, Turbopack production build, Google requests blocked. Not production field data or AdSense approval evidence.",
+  "rows": [
+    {
+      "route": "/guides/prompt-trial",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 1685.29365,
+      "cls": 0
+    },
+    {
+      "route": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 2721.8454,
+      "cls": 0
+    }
+  ]
+}

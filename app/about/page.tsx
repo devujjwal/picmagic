@@ -63,6 +63,12 @@ export default function About() {
         suggested tools should be treated as starting points, not endorsements
         or success guarantees.
       </p>
+      <p>
+        Our <Link href="/guides/prompt-trial">two-prompt walkthrough</Link>{" "}
+        records a small ChatGPT trial with a newly generated fictional person,
+        exact inputs, first outputs and crop checks. It does not verify
+        real-person likeness or compatibility across models.
+      </p>
       <h3>Corrections and responsible use</h3>
       <p>
         Check likeness, anatomy and important product or cultural details before

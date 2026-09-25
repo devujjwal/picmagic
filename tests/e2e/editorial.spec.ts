@@ -3,7 +3,9 @@ import fs from "node:fs";
 const allPrompts: unknown[] = [
   ...JSON.parse(fs.readFileSync("content/prompts.json", "utf8")),
   ...JSON.parse(fs.readFileSync("content/expansion/prompts.json", "utf8")),
-  ...JSON.parse(fs.readFileSync("content/additions/creative-prompts.json", "utf8")),
+  ...JSON.parse(
+    fs.readFileSync("content/additions/creative-prompts.json", "utf8"),
+  ),
 ];
 import { promptSchema, promptPath } from "../../types/content";
 import { isHomepageEligible } from "../../lib/prompts/editorial";
@@ -36,7 +38,7 @@ test("catalogue separates useful utility and keeps rewritten missing-asset conce
 }) => {
   await page.goto("/ai-prompts/professional");
   await expect(
-    page.getByRole("region", { name: "Practical utility prompts" }),
+    page.getByRole("region", { name: "More looks to explore" }),
   ).toBeVisible();
   const awaiting = prompts.find((p) => p.slug === "neon-monsoon-drive")!;
   expect(awaiting.preview_review_status).toBe("replacement-required");

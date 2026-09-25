@@ -129,7 +129,8 @@ describe("read-only catalogue acceptance", () => {
   });
   it("models every eligible canonical and every protected draft", () => {
     const paths = expectedSitemapPaths(catalog, new Date(asOf));
-    expect(paths).toHaveLength(113);
+    expect(paths).toHaveLength(114);
+    expect(paths).toContain("/guides/prompt-trial");
     expect(new Set(paths).size).toBe(paths.length);
     expect(
       expectedPages(catalog, new Date(asOf)).filter((p) => p.status === 404),

@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_ONLY_REQUIRES_RELEASE_APPROVAL",
+  "updates": [
+    {
+      "slug": "instagram-profile-picture",
+      "expected_description": "Explore Monochrome Rain, Face in Focus, Floral Shadows, a Clear Face, Soft light, unmistakably you and Meet your new profile picture. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+      "description": "Choose a profile picture that stays readable inside a small circle: folded paper framing in A Fold Around You, illustrated shoulder movement in A Small Burst of Motion, a soft studio portrait or a clean everyday profile. Start with a clear reference face, keep the full hairline and chin inside the crop, and compare the result at thumbnail size before using it."
+    },
+    {
+      "slug": "indian-festivals",
+      "expected_description": "Explore Tiny Krishna, big wonder, Diwali, a Thousand Points of Light, Holi, the Colour Before It Falls and Navratri, Still at the Centre. Each creative concept has a specific visual story; practical catalogue or profile prompts remain available as clearly labelled utility. References determine identity and supplied product design. Preview styling never overrides the people or products you provide.",
+      "description": "Choose the details of the celebration: a gently held flute and visible tilak in Tiny Krishna, big wonder; warm household diyas in A family evening, lit by diyas; playful colour in A little Holi happiness; or a moving outfit in Garba under the lights. Keep each reference person recognizable, then check the clothing, props and gestures for the intended festival."
+    }
+  ]
+}

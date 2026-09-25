@@ -40,7 +40,10 @@ export default async function Home() {
   const next = creative.slice(1, 5);
   const more = creative.slice(5, 12);
   return (
-    <div className="container home-bottom">
+    <div
+      className="container home-bottom"
+      data-ad-surface={hero ? "/" : undefined}
+    >
       <StructuredData
         data={{
           "@context": "https://schema.org",
@@ -73,6 +76,11 @@ export default async function Home() {
             tool.
           </p>
           <small>Prompts here. Create images in your chosen tool.</small>
+          <p className="fine-print">
+            <Link href="/guides/prompt-trial">
+              See two prompts tried, with their first results
+            </Link>
+          </p>
         </div>
         {hero && (
           <figure className="creative-hero-figure">
@@ -114,7 +122,7 @@ export default async function Home() {
           <PromptGrid prompts={next} />
         </section>
       )}
-      <AdSlot placement="home-feed-1" />
+      {hero && <AdSlot placement="home-feed-1" />}
       {more.length > 0 && (
         <section className="section">
           <div className="section-head">

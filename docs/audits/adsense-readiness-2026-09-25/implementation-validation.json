@@ -1,0 +1,135 @@
+{
+  "recorded_at": "2026-09-25T04:49:01.877726+00:00",
+  "scope": "Approved local AdSense implementation; no production release or review request",
+  "branch": "feature/seo-aeo-geo-agent",
+  "base_commit": "5ab912ac8591501a3460c0433d7554bcd8f23849",
+  "commit_created_by_this_task": false,
+  "pushed": false,
+  "deployed": false,
+  "production_data_written": false,
+  "adsense_settings_changed": false,
+  "review_requested": false,
+  "lint": {
+    "result": "PASS",
+    "warnings": 0
+  },
+  "typecheck": {
+    "result": "PASS",
+    "command": "pnpm typecheck"
+  },
+  "unit": {
+    "result": "PASS",
+    "tests": 183,
+    "files": 30
+  },
+  "content": {
+    "result": "PASS",
+    "prompts": 186,
+    "categories": 17,
+    "collections": 40,
+    "missing_local_images": 0
+  },
+  "seo_content": {
+    "result": "PASS",
+    "errors": 0,
+    "editorial_notices": 42
+  },
+  "release_content": {
+    "result": "PASS",
+    "published": 91,
+    "deferred_drafts": 95,
+    "original_canonical_owners_preserved": 50
+  },
+  "production_build": {
+    "result": "PASS",
+    "bundler": "Turbopack",
+    "output": ".next-release",
+    "postbuild_preview_cache_headers": "PASS",
+    "environment": "local seed; advertising configured; additional build with dummy G-LOCALTEST01 analytics ID"
+  },
+  "browser_full": {
+    "result": "PASS",
+    "stats": {
+      "startTime": "2026-09-25T04:44:20.115Z",
+      "duration": 132054.497,
+      "expected": 136,
+      "skipped": 52,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "browsers": [
+      "desktop Chromium",
+      "mobile Chromium"
+    ],
+    "skipped": {
+      "admin_authenticated_mutation_tests": 4,
+      "historical_preview_mode_tests": 44,
+      "analytics_no_measurement_id_in_first_build": 4
+    }
+  },
+  "browser_analytics_followup": {
+    "result": "PASS",
+    "stats": {
+      "startTime": "2026-09-25T04:47:55.586Z",
+      "duration": 11781.942,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "scope": "Four previously skipped GA cases plus four repeated advertising/copy/share boundary cases; dummy ID and intercepted Google traffic"
+  },
+  "responsive": {
+    "widths": [
+      375,
+      430,
+      1440
+    ],
+    "reviewed": [
+      "Create tool guide",
+      "Enhance tool guide",
+      "Pets empty state",
+      "two-example prompt trial",
+      "Fold prompt detail"
+    ],
+    "horizontal_overflow": "PASS",
+    "axe_main_content": "PASS for new guide/tool surfaces; existing homepage/detail checks also pass",
+    "screenshots": "implementation-screenshots/"
+  },
+  "network_safety": "Browser fixtures intercepted Google AdSense, GA, DoubleClick and Funding Choices. No live impressions, ad clicks or production data mutations.",
+  "corrections_during_validation": [
+    "Tool-guide long link wrapping fixed at 375px",
+    "Consent requestedChoices dependency declared",
+    "SiteLink document navigation avoids RSC-then-reload race and extra request after ad vendor loads",
+    "Stale collection count and renamed region assertions updated",
+    "Mobile navigation opened before selecting Create",
+    "Analytics test observes consent/events across document navigation instead of assuming persistent SPA queue"
+  ],
+  "content_diff": {
+    "changed_collection_fields": [
+      [
+        "instagram-profile-picture",
+        "description"
+      ],
+      [
+        "indian-festivals",
+        "description"
+      ]
+    ],
+    "prompt_records_changed": 0,
+    "publication_flags_changed": 0,
+    "indexability_flags_changed": 0,
+    "collection_memberships_changed": 0,
+    "homepage_feature_order_changed": false
+  },
+  "preservation": "Preserved inherited workflows, trial, assets and audits; restored initially clean historical QA screenshots overwritten by legacy tests; stored new screenshots separately.",
+  "external_checks_pending": [
+    "Real clean EEA/UK/Swiss CMP behaviour and withdrawal",
+    "Effective Auto ads settings and page exclusions",
+    "Production/Supabase collection-copy reconciliation",
+    "Explicit production release approval and post-release smoke review",
+    "Owner-approved AdSense resubmission"
+  ],
+  "adsense_readiness": "NOT_READY_TO_REQUEST_REVIEW",
+  "local_implementation_status": "COMPLETE_FOR_REVIEW"
+}

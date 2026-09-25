@@ -1,0 +1,23 @@
+{
+  "conversation": "https://chatgpt.com/c/6ab5ed0f-1854-83e9-a00f-ec785a8d0365",
+  "mode": "Instant",
+  "backendModel": "undisclosed",
+  "noPaidAPI": true,
+  "personalPhotosUsed": false,
+  "originals": ".release-private/adsense-readiness-2026-09-25/",
+  "cropProcessing": "Sharp resize only; circular alpha masks for QA; no creative retouching.",
+  "records": [
+    {
+      "slug": "a-fold-around-you-profile",
+      "promptSha256": "46953444ab34afb4f7f11d66548fb6a99fa14ef4f603722e4196711262783a20",
+      "inputSha256": "46953444ab34afb4f7f11d66548fb6a99fa14ef4f603722e4196711262783a20",
+      "originalSha256": "41834b891abb2125f89c9627329a55d81223ac5762f03a6909c8f78b8adfde2a"
+    },
+    {
+      "slug": "borrowed-moon-closing-time",
+      "promptSha256": "620fab5f23edcd3de870d77d8ea1e4d473c7ae6f46a5a4618ceeaa5ebc417034",
+      "inputSha256": "a3687aead7ad37e94144957abc4deafa8460c3b2d3fd8a96a04c45c9ffbd1ef4",
+      "originalSha256": "b2176b471c112dd9271180928349efafb7e89e0753a1ad4165505df1e4306e6d"
+    }
+  ]
+}

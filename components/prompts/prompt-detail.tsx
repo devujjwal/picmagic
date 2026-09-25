@@ -1,3 +1,4 @@
+import { deferredAdvertisingPrompts } from "@/config/ads";
 import { promptCollections } from "@/lib/prompts/collections";
 import { FriendsTripCreator } from "@/features/generator/friends-trip-creator";
 import Link from "@/components/ui/site-link";
@@ -5,7 +6,7 @@ import { Sparkles, ArrowUpRight } from "lucide-react";
 import { promptPath, type Prompt, type Catalog } from "@/types/content";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { PreviewMedia } from "./preview-media";
-import { DetailActions } from "@/components/share/detail-actions";
+import { CopyButton, DetailActions } from "@/components/share/detail-actions";
 import { PromptGrid } from "./prompt-grid";
 import { relatedPrompts } from "@/lib/prompts/discovery";
 import { AdSlot } from "@/components/ads/ad-slot";
@@ -15,6 +16,8 @@ import { promptGuides } from "@/content/seo-guides";
 import { EditorialGuide } from "./editorial-guide";
 import { toPromptCard } from "@/lib/prompts/card-data";
 import { isPromptSeoEligible } from "@/lib/seo/eligibility";
+import { promptWorkflows } from "@/content/prompt-workflows";
+import { PromptWorkflow } from "./prompt-workflow";
 export function PromptDetail({
   prompt: p,
   catalog,
@@ -25,6 +28,10 @@ export function PromptDetail({
   preview?: boolean;
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
+  const showAds =
+    !preview &&
+    isPromptSeoEligible(p) &&
+    !deferredAdvertisingPrompts.has(p.slug);
   const isReel = p.prompt_type === "reel" || p.prompt_type === "video";
   const parent = isReel ? "/reel-prompts" : `/ai-prompts/${p.category_id}`;
   const collections = promptCollections(
@@ -34,7 +41,11 @@ export function PromptDetail({
   );
   const canonical = site.url + promptPath(p);
   const imageUrl = new URL(p.preview_image_url, site.url).href;
-  const modified = [p.updated_at, promptGuides[p.slug]?.updatedAt || ""]
+  const modified = [
+    p.updated_at,
+    promptGuides[p.slug]?.updatedAt || "",
+    promptWorkflows[p.slug]?.updatedAt || "",
+  ]
     .sort()
     .at(-1);
   const otherMedium = catalog.prompts.find(
@@ -45,7 +56,10 @@ export function PromptDetail({
       isPromptSeoEligible(other),
   );
   return (
-    <div className="container">
+    <div
+      className="container"
+      data-ad-surface={showAds ? promptPath(p) : undefined}
+    >
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },
@@ -58,7 +72,6 @@ export function PromptDetail({
           Private draft preview. This page is not published or indexable.
         </p>
       )}
-      <AdSlot placement="prompt-detail-top" />
       <div className="detail-grid">
         <div>
           <div
@@ -82,6 +95,13 @@ export function PromptDetail({
           <div className="eyebrow">{p.style.slice(0, 3).join(" · ")}</div>
           <h1>{p.title}</h1>
           <p className="description">{p.description}</p>
+          {!preview && (
+            <CopyButton
+              text={p.prompt_text}
+              id={p.id}
+              label="Copy complete prompt"
+            />
+          )}
           <div className="prompt-box">
             <h2>
               <Sparkles size={16} />{" "}
@@ -150,7 +170,20 @@ export function PromptDetail({
           <p>{p.why_ai}</p>
         </section>
       )}
-      <EditorialGuide guide={promptGuides[p.slug]} />
+      {promptWorkflows[p.slug] ? (
+        <PromptWorkflow workflow={promptWorkflows[p.slug]} />
+      ) : (
+        <EditorialGuide guide={promptGuides[p.slug]} />
+      )}
+      {["a-fold-around-you-profile", "borrowed-moon-closing-time"].includes(
+        p.slug,
+      ) && (
+        <p className="notice">
+          See this prompt in our{" "}
+          <Link href="/guides/prompt-trial">documented ChatGPT trial</Link>,
+          with exact inputs, first results and limitations.
+        </p>
+      )}
       {!isReel &&
         p.persona_policy !== "product" &&
         p.persona_policy !== "animal" && (
@@ -218,7 +251,7 @@ export function PromptDetail({
           </div>
         </section>
       )}
-      <AdSlot placement="prompt-detail-inline" />
+      {showAds && <AdSlot placement="prompt-detail-inline" />}
       {p.faqs.length > 0 && (
         <section className="faq">
           <h2>A little help getting started</h2>
@@ -255,7 +288,6 @@ export function PromptDetail({
           prompts={relatedPrompts(p, catalog.prompts)}
           source="related"
         />
-        <AdSlot placement="prompt-related-feed" />
       </section>
       <StructuredData
         data={{

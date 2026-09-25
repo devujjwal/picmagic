@@ -5,8 +5,10 @@ export default defineConfig([
   ...next,
   ...ts,
   globalIgnores([
-    ".next/**", ".next-release/**",
+    ".next/**",
+    ".next-release/**",
     ".netlify/**",
+    ".release-private/**",
     "next-env.d.ts",
     "playwright-report/**",
     "test-results/**",

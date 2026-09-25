@@ -122,6 +122,13 @@ export default function ReferencePhotoGuide() {
         important details, use a different workflow or retain the original
         photograph instead of accepting an inaccurate identity.
       </p>
+      <p>
+        See a worked example in our{" "}
+        <Link href="/guides/prompt-trial">
+          two-prompt trial with a fictional person
+        </Link>
+        : the first outputs, exact inputs and the limits we observed.
+      </p>
       <h2>Are these instructions tested in every tool?</h2>
       <p>
         No. Suggested-tool labels are not verified compatibility badges.

@@ -170,7 +170,7 @@ describe("Why AI editorial release", () => {
       />,
     );
     const section = screen.getByRole("region", {
-      name: "Practical utility prompts",
+      name: "More looks to explore",
     });
     expect(section).toHaveTextContent(utility.title);
     expect(section).not.toHaveTextContent(creative.title);

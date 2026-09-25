@@ -1,0 +1,61 @@
+{
+  "at": "2026-09-25T04:09:54.938Z",
+  "origin": "http://127.0.0.1:3061",
+  "seed": true,
+  "rows": [
+    {
+      "path": "/guides/prompt-trial",
+      "status": 200,
+      "canonical": "https://picmagic.in/guides/prompt-trial",
+      "workflow": null,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/social-media/a-fold-around-you-profile",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/a-fold-around-you-profile",
+      "workflow": true,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/social-media/borrowed-moon-closing-time",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/borrowed-moon-closing-time",
+      "workflow": true,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/couple/barefoot-at-blue-hour",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/couple/barefoot-at-blue-hour",
+      "workflow": true,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/kids/tiny-krishna-big-wonder",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/kids/tiny-krishna-big-wonder",
+      "workflow": true,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/product-photography/perfume-the-water-sculpture",
+      "workflow": true,
+      "noindex": false
+    },
+    {
+      "path": "/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "status": 200,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/portrait-cut-from-monsoon-paper",
+      "workflow": true,
+      "noindex": false
+    }
+  ],
+  "sitemap": {
+    "containsTrial": true,
+    "entries": 114,
+    "containsWorkflowUpdate": true
+  }
+}

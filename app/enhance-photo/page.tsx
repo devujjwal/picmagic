@@ -1,3 +1,4 @@
+import { ToolGuide } from "@/components/prompts/tool-guide";
 import { Wizard } from "@/features/generator/wizard";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 export const metadata = makeMetadata(
@@ -14,11 +15,12 @@ export default function Enhance() {
         </div>
         <h1>A little polish. Still you.</h1>
         <p>
-          Make your photo look professionally shot while keeping you looking
-          like you.
+          Write editing instructions for your image tool while keeping your
+          appearance natural.
         </p>
       </header>
       <Wizard mode="edit" />
+      <ToolGuide edit />
     </div>
   );
 }

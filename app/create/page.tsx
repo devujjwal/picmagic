@@ -1,3 +1,4 @@
+import { ToolGuide } from "@/components/prompts/tool-guide";
 import { Wizard } from "@/features/generator/wizard";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 export const metadata = makeMetadata(
@@ -11,9 +12,13 @@ export default function Create() {
       <header className="page-heading section">
         <div className="eyebrow">Your imagination, a little guidance</div>
         <h1>Make something only you could imagine.</h1>
-        <p>Choose the look. We’ll find the words.</p>
+        <p>
+          Choose a look and get a prompt to use with your photo in an external
+          image tool.
+        </p>
       </header>
       <Wizard />
+      <ToolGuide />
     </div>
   );
 }

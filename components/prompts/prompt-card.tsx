@@ -39,10 +39,7 @@ export function PromptCard({
           </span>
         )}
       </div>
-      <div className="card-meta">
-        {p.content_intent === "utility" ? "Practical utility · " : ""}
-        {p.style.slice(0, 2).join(" · ")}
-      </div>
+      <div className="card-meta">{p.style.slice(0, 2).join(" · ")}</div>
       <h3>
         <TrackedLink href={promptPath(p)} source={source} id={p.id}>
           {p.title}

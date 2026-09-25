@@ -4,6 +4,7 @@ import { promptPath } from "@/types/content";
 import { site } from "@/config/site";
 import { hubGuides, promptGuides } from "@/content/seo-guides";
 import { sitePages } from "@/content/site-pages";
+import { promptWorkflows } from "@/content/prompt-workflows";
 import {
   categorySeoMembers,
   collectionSeoMembers,
@@ -59,7 +60,11 @@ export function sitemapEntries({
       })),
     ...prompts.filter(isPromptSeoEligible).map((p) => ({
       url: site.url + promptPath(p),
-      lastModified: [p.updated_at, promptGuides[p.slug]?.updatedAt || ""]
+      lastModified: [
+        p.updated_at,
+        promptGuides[p.slug]?.updatedAt || "",
+        promptWorkflows[p.slug]?.updatedAt || "",
+      ]
         .sort()
         .at(-1),
       images: [site.url + p.preview_image_url].map((url) =>

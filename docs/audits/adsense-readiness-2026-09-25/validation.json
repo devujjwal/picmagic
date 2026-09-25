@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-25",
+  "branch": "feature/seo-aeo-geo-agent",
+  "baseCommit": "5ab912a",
+  "newCommits": [],
+  "pushed": false,
+  "productionChanged": false,
+  "adsenseReviewSubmitted": false,
+  "localBuildId": "lSSrZ0L61hnEdfdJ24I2t",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unit": {
+    "passed": 180,
+    "files": 29
+  },
+  "content": {
+    "prompts": 186,
+    "categories": 17,
+    "collections": 40,
+    "missingImages": 0
+  },
+  "seoContent": {
+    "eligiblePrompts": 91,
+    "errors": 0,
+    "editorialNotices": 42
+  },
+  "releaseContent": "passed: 91 published / 95 deferred; 50 original canonicals retained",
+  "build": {
+    "command": "CONTENT_SOURCE=seed NEXT_PUBLIC_INDEXING_ENABLED=true NEXT_PUBLIC_ADS_ENABLED=false PICMAGIC_DIST_DIR=.next-release pnpm build",
+    "status": "passed",
+    "bundler": "Turbopack",
+    "pagesGenerated": 145,
+    "notes": "Initial cached sandbox port error resolved with a fresh standard build directory. Diagnostic Webpack build also passed. Temporary nested build directory rejected by the cache-header guard; final standard directory passed."
+  },
+  "e2e": {
+    "passed": 46,
+    "failed": 0,
+    "projects": [
+      "desktop Chromium",
+      "mobile Chromium"
+    ],
+    "runtime": "Final normal Turbopack production build on localhost:3061",
+    "googleServices": "stubbed",
+    "suites": [
+      "prompt-workflows",
+      "seo-followup",
+      "public",
+      "prompt-fidelity"
+    ]
+  },
+  "manualReview": {
+    "widths": [
+      375,
+      430,
+      1440
+    ],
+    "cropPixels": [
+      40,
+      64,
+      128
+    ],
+    "findings": "Readable faces and text, no horizontal overflow; exact inputs exposed in disclosures; no creative retouching of evidence images."
+  },
+  "releaseHold": "Explicit approval required for this new batch; no changes sent to main, Supabase or Netlify."
+}

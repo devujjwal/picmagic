@@ -13,7 +13,10 @@ import {
   adsenseClient,
   isAdvertisingPage,
 } from "@/config/ads";
-import { prepareAdvertising } from "@/lib/privacy/advertising";
+import {
+  prepareAdvertising,
+  setAdvertisingSurfaceAllowed,
+} from "@/lib/privacy/advertising";
 import {
   analyticsConsentKey,
   readConsent,
@@ -22,6 +25,26 @@ import {
 import { AnalyticsConsentBanner } from "./analytics-consent-banner";
 const analyticsSnapshot = () => readConsent(analyticsConsentKey);
 const serverSnapshot = () => "no" as const;
+
+// Read the server-rendered eligibility decision, including after streamed navigation.
+// An eligible-looking pathname alone must never enable advertising on a 404/draft.
+function surfaceSnapshot() {
+  return (
+    document.querySelector<HTMLElement>("main [data-ad-surface]")?.dataset
+      .adSurface || ""
+  );
+}
+function subscribeSurface(notify: () => void) {
+  const observer = new MutationObserver(notify);
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["data-ad-surface"],
+  });
+  return () => observer.disconnect();
+}
+const noSurface = () => "";
 
 // One integration controller. Google Privacy & Messaging owns advertising
 // consent; PicMagic's independent analytics choice never grants ad consent.
@@ -37,8 +60,14 @@ export function Consent({ nonce }: { nonce?: string }) {
   const [requestedChoices, setRequestedChoices] = useState(false);
   const [adReady, setAdReady] = useState(false);
   const ads = advertisingConfigured();
-  const loadAdvertising =
-    ads && !privatePage && (isAdvertisingPage(pathname) || requestedChoices);
+  const surface = useSyncExternalStore(
+    subscribeSurface,
+    surfaceSnapshot,
+    noSurface,
+  );
+  const eligible = isAdvertisingPage(pathname) && surface === pathname;
+  const vendorDocument = useRef<string | null>(null);
+  const loadAdvertising = ads && !privatePage && (eligible || requestedChoices);
   const previousChoice = useRef(choice);
   useEffect(() => {
     const open = () => setRequestedChoices(true);
@@ -47,12 +76,24 @@ export function Consent({ nonce }: { nonce?: string }) {
       window.removeEventListener("picmagic:open-advertising-choices", open);
   }, []);
   useEffect(() => {
+    // Removing next/script does not unload an executed vendor. Start a fresh
+    // document on route changes after loading it, including browser back/forward.
+    if (
+      vendorDocument.current !== null &&
+      (vendorDocument.current !== pathname || (!eligible && !requestedChoices))
+    ) {
+      setAdvertisingSurfaceAllowed(false);
+      window.location.reload();
+      return;
+    }
     if (!loadAdvertising) return;
+    setAdvertisingSurfaceAllowed(eligible);
     prepareAdvertising();
+    vendorDocument.current = pathname;
     // Prepare any legacy-rejection restriction before the vendor can execute.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setAdReady(true);
-  }, [loadAdvertising]);
+  }, [loadAdvertising, eligible, pathname, requestedChoices]);
   useEffect(() => {
     if (previousChoice.current === "yes" && choice !== "yes") {
       setAnalyticsDisabled(true);

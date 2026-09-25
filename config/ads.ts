@@ -40,3 +40,11 @@ export function advertisingConfigured() {
     process.env.NEXT_PUBLIC_ADS_ENABLED === "true" && Boolean(adsenseClient)
   );
 }
+
+// Editorial hold for motion variants whose added value still needs stronger
+// supporting guidance. This does not alter publication, URLs or indexability.
+export const deferredAdvertisingPrompts = new Set([
+  "your-next-introduction-reel",
+  "soft-light-unmistakably-you-reel",
+  "coral-against-the-sky-reel",
+]);

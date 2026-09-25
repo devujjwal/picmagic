@@ -11,7 +11,11 @@ import { StructuredData } from "@/components/ui/structured-data";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { site } from "@/config/site";
 import { toPromptCard } from "@/lib/prompts/card-data";
-import { isCategorySeoEligible } from "@/lib/seo/eligibility";
+import {
+  isCategorySeoEligible,
+  isCollectionSeoEligible,
+  isPromptSeoEligible,
+} from "@/lib/seo/eligibility";
 import { hubGuides } from "@/content/seo-guides";
 import { EditorialGuide } from "./editorial-guide";
 export function CatalogPage({
@@ -43,13 +47,23 @@ export function CatalogPage({
   if (page > pages) notFound();
   const shown = prompts.slice((page - 1) * 24, page * 24);
   const cards = prompts.map(toPromptCard);
+  const collection = collections.find((c) => path === `/collections/${c.slug}`);
+  const category = categories.find((c) => path === `/ai-prompts/${c.slug}`);
+  const showAds =
+    shown.some(isPromptSeoEligible) &&
+    (path === "/ai-prompts" ||
+      (collection
+        ? isCollectionSeoEligible(collection, availablePrompts)
+        : category
+          ? isCategorySeoEligible(category, availablePrompts)
+          : false));
   const parentPath = path.startsWith("/collections/")
     ? "/collections"
     : reelsOnly
       ? "/reel-prompts"
       : "/ai-prompts";
   return (
-    <div className="container">
+    <div className="container" data-ad-surface={showAds ? path : undefined}>
       <CategoryView category={path} />
       <Breadcrumbs
         items={[
@@ -122,7 +136,7 @@ export function CatalogPage({
         </div>
       )}
       {page === 1 && <EditorialGuide guide={hubGuides[path]} />}
-      <AdSlot placement="category-inline-1" />
+      {showAds && <AdSlot placement="category-inline-1" />}
       <CollectionDiscovery
         collections={collections}
         prompts={availablePrompts}

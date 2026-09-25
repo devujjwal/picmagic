@@ -1,4 +1,5 @@
 /** Public non-catalogue pages shared by sitemap generation and audit expectations. */
+export const promptTrialPath = "/guides/prompt-trial";
 export const referenceGuidePath = "/guides/reference-photo-prompts";
 export const sitePages = [
   { path: "/" },
@@ -7,6 +8,7 @@ export const sitePages = [
   { path: "/enhance-photo" },
   { path: "/create" },
   { path: "/reel-prompts" },
-  { path: "/about", updatedAt: "2026-09-24T11:00:00Z" },
-  { path: referenceGuidePath, updatedAt: "2026-09-24T11:00:00Z" },
+  { path: "/about", updatedAt: "2026-09-25T04:00:00Z" },
+  { path: referenceGuidePath, updatedAt: "2026-09-25T04:00:00Z" },
+  { path: promptTrialPath, updatedAt: "2026-09-25T04:00:00Z" },
 ];

@@ -1,0 +1,1344 @@
+{
+  "date": "2026-09-25",
+  "source": "Current local catalog at HEAD 5ab912a plus authored guidance changes. Local published flags were compared with the live public search count (91) earlier in this session; this is not a production database export.",
+  "kind": "Structural inventory and editorial triage, not a claim that every prompt was generation-tested",
+  "totals": {
+    "all": 186,
+    "published": 91,
+    "drafts": 95,
+    "indexable": 91,
+    "collections": 40,
+    "indexableCollections": 8,
+    "indexableCategories": 6,
+    "detailedWorkflows": 6
+  },
+  "published": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f8599583-8854-5732-93f1-a0ac27860372",
+      "slug": "a-little-rain-a-lot-of-romance",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f8fc2d1d-7a65-59f3-a508-956c48b4b283",
+      "slug": "your-next-chapter-in-focus",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "170d6dd9-d234-53a7-9ecc-65f0eec12d16",
+      "slug": "somewhere-in-the-mediterranean",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "e1856972-c9f3-55d9-9ff4-8b1f69566b0f",
+      "slug": "the-birthday-astronaut",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "slug": "old-school-charm-new-memories",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "slug": "city-lights-main-character-energy",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b5661669-70e7-5288-9018-cc8712655143",
+      "slug": "the-red-saree-moment",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "33849ccd-f6de-543d-985f-268cd59302ef",
+      "slug": "barefoot-at-blue-hour",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "slug": "quiet-confidence",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "9ab7f504-b37f-51b2-98ee-0be064f761c3",
+      "slug": "a-birthday-made-of-sunshine",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "e47fef4c-2fbc-5a52-82f1-2767a0881a08",
+      "slug": "tiny-krishna-big-wonder",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "d4967caf-a598-58e3-bc71-a80371251b30",
+      "slug": "a-family-evening-lit-by-diyas",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f00a5ca5-4570-5595-adfb-7143a2fa53f2",
+      "slug": "the-desert-in-your-rear-view",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "22ffe650-d663-515a-80a6-105f75e0df6b",
+      "slug": "a-modern-bridal-heirloom",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "807a3a24-909f-5009-99cd-20de0d23278b",
+      "slug": "the-forest-princess",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "84eb7852-fcb5-518e-8181-41730c7f6f82",
+      "slug": "a-headshot-that-feels-like-you",
+      "type": "photo_edit",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "5d9ed71f-bc56-54a3-88fb-2516d8557f71",
+      "slug": "sunday-all-together",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "26fff284-07b8-5b92-a8fe-5130b8991024",
+      "slug": "paris-without-a-plan",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "ebc03680-007a-5358-a3e8-76da74b3ac66",
+      "slug": "the-art-of-standing-still",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "slug": "coffee-rain-and-college-days",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "7ca2b906-78ec-54db-a323-28795468c015",
+      "slug": "built-on-quiet-discipline",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "99cbd0cd-7fee-525e-8d48-82f022889895",
+      "slug": "your-product-beautifully-simple",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "731e4801-3e2d-5b26-82c3-08a7df46329e",
+      "slug": "a-little-holi-happiness",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "a1132738-4bbc-5cd3-84d3-3e64ef9abcce",
+      "slug": "the-gentlest-new-beginning",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "8491a7fa-37fd-5ff7-b874-4c5ed7e806b7",
+      "slug": "made-for-the-mountains",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "fa694d60-04b8-5d05-acc1-398852054eea",
+      "slug": "a-frame-from-another-decade",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "slug": "soft-light-unmistakably-you",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "3aab1955-2828-5344-ae55-4453f7ba77ce",
+      "slug": "an-intimate-jaipur-yes",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "c87b7ef2-f82c-5094-8828-bbe2b7cdd171",
+      "slug": "your-everyday-with-better-light",
+      "type": "photo_edit",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "48cb5e6c-f782-5949-9473-f6b0949aa4c6",
+      "slug": "a-tiny-superhero-off-duty",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "5deeaae7-e8fa-507b-9b10-95d1ebdf099d",
+      "slug": "dressed-for-the-first-dance",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "d66b5db2-1f78-5dca-ba62-c533bc566e3f",
+      "slug": "the-perfect-birthday-picnic",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "664a6d2d-ae74-51b9-b1c3-06b43377eea9",
+      "slug": "the-open-road-portrait",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "917ed0a0-2dc5-5422-af10-8a625feeb232",
+      "slug": "a-winter-window-story",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "bc73f37b-c71a-5c64-a6f5-4d6f4674083d",
+      "slug": "the-christmas-kitchen",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "de1a1c99-7fff-5ecc-8b35-c55e87217c0c",
+      "slug": "small-details-beautifully-made",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "131a9e1b-46f9-54e5-b370-591355cd25ff",
+      "slug": "meet-your-new-profile-picture",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b11ac839-d07f-5f85-b723-ee2975a4381b",
+      "slug": "a-night-at-the-cinema",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "1357fd83-5a57-5ae8-82df-72b08f6fba5e",
+      "slug": "thirty-and-entirely-yourself",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+      "slug": "garba-under-the-lights",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "7da93adb-939c-52fb-99e7-69e065c4e055",
+      "slug": "a-memory-worth-restoring",
+      "type": "photo_edit",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+      "slug": "change-the-scene-keep-yourself",
+      "type": "photo_edit",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "type": "photo_edit",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "213e5a4d-5447-5729-95e0-4f41d810e877",
+      "slug": "the-anniversary-slow-dance",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": true,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "af22e4a5-7a22-5e35-8419-1ed9cdc597d4",
+      "slug": "from-suitcase-to-seaside",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "18d12f54-4d76-5634-8722-213fbe1a88fe",
+      "slug": "a-birthday-in-three-little-moments",
+      "type": "reel",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f5e850b0-5f36-59bb-9caf-7cabb60f2e51",
+      "slug": "the-fragrance-reveal",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": true,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "0fcec4ba-cf32-545b-bc0d-914a5e0082df",
+      "slug": "one-city-one-beautiful-evening",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "05afe967-d972-5871-86f8-24b991040825",
+      "slug": "a-wedding-morning-remembered",
+      "type": "reel",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+      "slug": "the-heritage-railway-letter",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b65dd466-0b0b-50dd-ad11-8e5dc01ae905",
+      "slug": "your-next-introduction-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "30880ec9-feb4-5525-a9b0-daadaeaef4e2",
+      "slug": "coffee-and-a-real-smile",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
+      "slug": "coffee-and-a-real-smile-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "926a5e8b-ed1f-578b-a232-813d58d94c90",
+      "slug": "the-bookshop-detour",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
+      "slug": "the-bookshop-detour-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "2297a72a-39ac-5810-a1f0-8bbab294a699",
+      "slug": "sunday-park-conversation",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
+      "slug": "sunday-park-conversation-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "551794fd-8e65-5250-a89d-bdae263578d9",
+      "slug": "something-good-in-the-kitchen",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
+      "slug": "something-good-in-the-kitchen-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "8a5b10f4-bb35-58f7-aa91-94ea71537999",
+      "slug": "coral-against-the-sky-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "20d0d883-d1c6-58c8-a3e9-cd57edbce120",
+      "slug": "soft-light-unmistakably-you-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b93fce53-9a68-58c9-a9a8-67304efd446e",
+      "slug": "the-little-flute-keeper-reel",
+      "type": "reel",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "6a5fe725-3f2e-5776-a25a-119267e2a7c1",
+      "slug": "the-gentlest-new-beginning-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "e9b71c26-b433-55c7-af42-111b17ed2942",
+      "slug": "skincare-on-stone-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "146fdfab-b615-54b0-a5e0-10f8ac83b381",
+      "slug": "ceramic-and-linen-reel",
+      "type": "reel",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "72a460ac-4ba1-5eb5-a15f-4d1ad4ee1e72",
+      "slug": "perfume-the-water-sculpture",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "3fc06851-bf86-53ac-b4f7-77a58aec8acd",
+      "slug": "the-river-remembers",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f1e451ee-7abb-54ea-bd8b-d6cc59ca8fc7",
+      "slug": "our-courtyard-small-enough-to-hold",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "279e829a-a5e6-54e9-a337-96838298c9a2",
+      "slug": "a-mountain-journey-within",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "6251657f-6842-59e3-9066-82529471c802",
+      "slug": "the-tailors-mountain-range",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "f94aedc8-2c72-5627-aba0-f1f6301acfda",
+      "slug": "one-day-four-possible-worlds",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "19adfe33-076f-561a-9140-ca9d6593192b",
+      "slug": "portrait-cut-from-monsoon-paper",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "0908d32c-464c-578a-a3e5-f59521b944a7",
+      "slug": "last-train-two-ink-portrait",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "90e94688-5009-54ba-89a2-d7d5984e82a3",
+      "slug": "one-saree-three-campaign-worlds",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "11f20cfe-cbe1-5ffe-9a04-48100d491949",
+      "slug": "borrowed-moon-closing-time",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "1e4cd4b9-6892-5d07-a325-0f622cca7842",
+      "slug": "a-fold-around-you-profile",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": true,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "94ffb85b-74ad-5434-bcb3-e2acca634e08",
+      "slug": "small-burst-of-motion-profile",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "41af04b9-f5d3-52d5-b1a2-2e1fb33285a5",
+      "slug": "between-two-gravities",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "8697dd20-7c8f-5b43-8d45-24ef080b4724",
+      "slug": "the-listening-room-has-tides",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "e1a81203-e635-5855-8aad-708d6b9b21d0",
+      "slug": "chai-between-the-floors",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "d7aa6cd4-6725-59c4-843e-ead6ddeaa365",
+      "slug": "one-step-outside-the-frame",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+      "slug": "ink-took-my-coffee",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "6d913443-6ce7-588d-8c5e-6b1cbc5e81c0",
+      "slug": "the-kite-in-my-notebook",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "e7ab80d0-1790-56f7-b72e-fe556e3514b0",
+      "slug": "clouds-on-laundry-day",
+      "type": "photo",
+      "score": 5,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+      "slug": "the-projectionist-is-me",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+      "slug": "the-lift-stops-at-the-ocean",
+      "type": "photo",
+      "score": 4,
+      "intent": "creative",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "6727215b-f9ae-5474-bd60-3794b6d315d8",
+      "slug": "double-exposure-fashion-men",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "3aff6d60-6a50-5e55-a405-fdcf55529787",
+      "slug": "double-exposure-fashion-women",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": true,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "fc5e91e8-fa8f-5eb3-8fb5-28cb32093c11",
+      "slug": "katana-in-the-square-of-light",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    },
+    {
+      "id": "02f6ba31-5645-583e-9017-f0ef4884fad1",
+      "slug": "standing-on-my-playlist",
+      "type": "photo",
+      "score": 3,
+      "intent": "utility",
+      "indexable": true,
+      "hasPriorGuidance": false,
+      "hasNewWorkflow": false,
+      "hasVideo": false,
+      "previewStatus": "approved"
+    }
+  ],
+  "sharedPreviews": [
+    [
+      "your-next-chapter-in-focus",
+      "your-next-introduction-reel"
+    ],
+    [
+      "tiny-krishna-big-wonder",
+      "the-little-flute-keeper-reel"
+    ],
+    [
+      "your-product-beautifully-simple",
+      "skincare-on-stone-reel"
+    ],
+    [
+      "the-gentlest-new-beginning",
+      "the-gentlest-new-beginning-reel"
+    ],
+    [
+      "soft-light-unmistakably-you",
+      "soft-light-unmistakably-you-reel"
+    ],
+    [
+      "small-details-beautifully-made",
+      "ceramic-and-linen-reel"
+    ],
+    [
+      "meet-your-new-profile-picture",
+      "coral-against-the-sky-reel"
+    ],
+    [
+      "coffee-and-a-real-smile",
+      "coffee-and-a-real-smile-reel"
+    ],
+    [
+      "the-bookshop-detour",
+      "the-bookshop-detour-reel"
+    ],
+    [
+      "sunday-park-conversation",
+      "sunday-park-conversation-reel"
+    ],
+    [
+      "something-good-in-the-kitchen",
+      "something-good-in-the-kitchen-reel"
+    ]
+  ],
+  "nearTextOverlap": [
+    {
+      "a": "your-next-chapter-in-focus",
+      "b": "your-next-introduction-reel",
+      "score": 0.8681983071342201,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "a-birthday-made-of-sunshine",
+      "b": "a-winter-window-story",
+      "score": 0.7073509015256588,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "tiny-krishna-big-wonder",
+      "b": "the-little-flute-keeper-reel",
+      "score": 0.8576512455516014,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "your-product-beautifully-simple",
+      "b": "skincare-on-stone-reel",
+      "score": 0.8609271523178808,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-gentlest-new-beginning",
+      "b": "the-gentlest-new-beginning-reel",
+      "score": 0.8844114528101803,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "soft-light-unmistakably-you",
+      "b": "soft-light-unmistakably-you-reel",
+      "score": 0.8708133971291866,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "your-everyday-with-better-light",
+      "b": "change-the-scene-keep-yourself",
+      "score": 0.7060333761232349,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "small-details-beautifully-made",
+      "b": "ceramic-and-linen-reel",
+      "score": 0.8587412587412587,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "meet-your-new-profile-picture",
+      "b": "coral-against-the-sky-reel",
+      "score": 0.8694610778443114,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile",
+      "b": "coffee-and-a-real-smile-reel",
+      "score": 0.7181372549019608,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile",
+      "b": "the-bookshop-detour",
+      "score": 0.8558951965065502,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile",
+      "b": "sunday-park-conversation",
+      "score": 0.874251497005988,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile",
+      "b": "something-good-in-the-kitchen",
+      "score": 0.8698224852071006,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile-reel",
+      "b": "the-bookshop-detour-reel",
+      "score": 0.8397104446742503,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile-reel",
+      "b": "sunday-park-conversation-reel",
+      "score": 0.8445378151260504,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "coffee-and-a-real-smile-reel",
+      "b": "something-good-in-the-kitchen-reel",
+      "score": 0.8416666666666667,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-bookshop-detour",
+      "b": "the-bookshop-detour-reel",
+      "score": 0.7255369928400954,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-bookshop-detour",
+      "b": "sunday-park-conversation",
+      "score": 0.8600883652430045,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-bookshop-detour",
+      "b": "something-good-in-the-kitchen",
+      "score": 0.8529839883551674,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-bookshop-detour-reel",
+      "b": "sunday-park-conversation-reel",
+      "score": 0.8328141225337488,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "the-bookshop-detour-reel",
+      "b": "something-good-in-the-kitchen-reel",
+      "score": 0.8321318228630278,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "sunday-park-conversation",
+      "b": "sunday-park-conversation-reel",
+      "score": 0.7089552238805971,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "sunday-park-conversation",
+      "b": "something-good-in-the-kitchen",
+      "score": 0.8712574850299402,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "sunday-park-conversation-reel",
+      "b": "something-good-in-the-kitchen-reel",
+      "score": 0.8368200836820083,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "something-good-in-the-kitchen",
+      "b": "something-good-in-the-kitchen-reel",
+      "score": 0.7146341463414634,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "a-fold-around-you-profile",
+      "b": "small-burst-of-motion-profile",
+      "score": 0.7626918536009445,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "between-two-gravities",
+      "b": "the-listening-room-has-tides",
+      "score": 0.7229190421892816,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "ink-took-my-coffee",
+      "b": "clouds-on-laundry-day",
+      "score": 0.7692307692307693,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "ink-took-my-coffee",
+      "b": "the-lift-stops-at-the-ocean",
+      "score": 0.7259786476868327,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "clouds-on-laundry-day",
+      "b": "the-lift-stops-at-the-ocean",
+      "score": 0.7189695550351288,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    },
+    {
+      "a": "double-exposure-fashion-men",
+      "b": "double-exposure-fashion-women",
+      "score": 0.9729286300246104,
+      "note": "Lexical overlap, including common reference-authority instructions; not an automatic merge recommendation."
+    }
+  ],
+  "weakDiscoveryFlags": []
+}

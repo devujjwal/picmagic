@@ -55,13 +55,12 @@ export function PaginatedGrid({
         />
       )}
       {visible.some((p) => p.content_intent === "utility") && (
-        <section className="section" aria-label="Practical utility prompts">
+        <section className="section" aria-label="More looks to explore">
           <div className="section-head">
             <div>
-              <h2>Practical tools for a specific job</h2>
+              <h2>More looks to explore</h2>
               <p>
-                Profile photos, faithful catalogue views and careful photo
-                edits.
+                Profiles, styling studies, product scenes and focused edits.
               </p>
             </div>
           </div>

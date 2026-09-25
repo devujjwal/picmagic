@@ -101,6 +101,30 @@ describe("Google CMP owns advertising decisions", () => {
     expect(localStorage.getItem(advertisingConsentKey)).toBeNull();
     expect(localStorage.getItem(analyticsConsentKey)).toBeNull();
   });
+  it("a new CMP decision cannot release an excluded page's advertising hold", async () => {
+    localStorage.setItem(advertisingConsentKey, "no");
+    const { setAdvertisingSurfaceAllowed, prepareAdvertising } =
+      await import("@/lib/privacy/advertising");
+    setAdvertisingSurfaceAllowed(false);
+    let listener: Parameters<NonNullable<Window["__tcfapi"]>>[2] | undefined;
+    window.__tcfapi = vi.fn((_command, _version, cb) => {
+      listener = cb;
+    });
+    window.googlefc!.callbackQueue![0].CONSENT_API_READY();
+    listener!(
+      {
+        gdprApplies: true,
+        cmpStatus: "loaded",
+        eventStatus: "useractioncomplete",
+        tcString: "real-vendor-signal",
+      },
+      true,
+    );
+    expect(prepareAdvertising().pauseAdRequests).toBe(1);
+    setAdvertisingSurfaceAllowed(true);
+    expect(prepareAdvertising().pauseAdRequests).toBe(0);
+    expect(prepareAdvertising().requestNonPersonalizedAds).toBe(1);
+  });
   it("queues reopening through Google's supported callback API", async () => {
     const { openAdvertisingChoices } =
       await import("@/lib/privacy/advertising");

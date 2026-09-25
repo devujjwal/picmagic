@@ -2,6 +2,7 @@ import { allCollections, allPrompts } from "../content/catalog";
 import categories from "../content/categories.json";
 import { overlappingPairs } from "./optimization/catalog";
 import { hubGuides, promptGuides } from "../content/seo-guides";
+import { promptWorkflows } from "../content/prompt-workflows";
 import { promptPath } from "../types/content";
 import {
   promptSchema,
@@ -42,6 +43,17 @@ for (const [path, guide] of Object.entries(hubGuides)) {
 for (const slug of Object.keys(promptGuides))
   if (!eligible.some((p) => p.slug === slug))
     errors.push(`Guide for unavailable prompt ${slug}`);
+for (const [slug, workflow] of Object.entries(promptWorkflows)) {
+  if (!eligible.some((p) => p.slug === slug))
+    errors.push(`Workflow for unavailable prompt ${slug}`);
+  if (
+    !workflow.preparation ||
+    workflow.steps.length < 3 ||
+    workflow.fixes.length < 2 ||
+    workflow.checks.length < 3
+  )
+    errors.push(`Incomplete practical workflow ${slug}`);
+}
 for (const { a, b, score } of overlappingPairs(eligible)) {
   warnings.push(
     `Near text overlap ${Math.round(score * 100)}%: ${a.slug} / ${b.slug}; review intent, not just wording.`,

@@ -77,8 +77,9 @@ for (const state of [
     await slot
       .locator("ins")
       .evaluate((el) => el.setAttribute("data-ad-status", "unfilled"));
+    await expect(slot).toBeHidden();
     expect(await slot.evaluate((el) => el.getBoundingClientRect().height)).toBe(
-      height,
+      0,
     );
     expect(height).toBe(280);
     await expect(slot.locator("ins")).toBeHidden();

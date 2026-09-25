@@ -26,6 +26,17 @@ declare global {
 }
 let initialized = false;
 let legacyHold = false;
+let surfaceAllowed = true;
+
+// Page eligibility is independent of consent. Opening privacy choices on a
+// non-advertising page may load the CMP, but must keep ad requests paused.
+export function setAdvertisingSurfaceAllowed(allowed: boolean) {
+  const wasAllowed = surfaceAllowed;
+  surfaceAllowed = allowed;
+  const queue = prepareAdvertising();
+  if (!allowed) queue.pauseAdRequests = 1;
+  else if (!wasAllowed && !legacyHold) queue.pauseAdRequests = 0;
+}
 
 function legacyRejected() {
   try {
@@ -79,7 +90,7 @@ export function prepareAdvertising(): AdQueue {
         // Keep this page's extra non-personalization restriction until reload.
         const activeQueue = (window.adsbygoogle ||= []) as AdQueue;
         activeQueue.requestNonPersonalizedAds = 1;
-        activeQueue.pauseAdRequests = 0;
+        activeQueue.pauseAdRequests = surfaceAllowed ? 0 : 1;
       });
     });
   };
