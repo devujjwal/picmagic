@@ -8,6 +8,7 @@ import referenceImpactReview from "../../docs/audits/reference-impact-2026-09-15
 import socialReview from "../../docs/audits/social-posts-profiles-2026-09-15/media/content-review.json";
 import genZReview from "../../docs/audits/gen-z-discovery-2026-09-15/media/content-review.json";
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
+import contentRereview from "../../docs/audits/content-rereview-2026-09-25/changes.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createHash } from "node:crypto";
@@ -51,8 +52,25 @@ describe("Why AI editorial release", () => {
         ...giantPlaylistReview.records,
       ].find((r) => r.id === p.id)!;
       expect(review, p.slug).toBeTruthy();
+      const followup = contentRereview.find((r) => r.id === p.id);
+      const beforeText =
+        followup && "prompt_text" in followup.before
+          ? followup.before.prompt_text
+          : undefined;
+      const afterText =
+        followup && "prompt_text" in followup.after
+          ? followup.after.prompt_text
+          : undefined;
+      if (typeof beforeText === "string") {
+        expect(createHash("sha256").update(beforeText).digest("hex")).toBe(
+          review.sha256,
+        );
+        expect(p.prompt_text).toBe(afterText);
+      }
       expect(
-        createHash("sha256").update(p.prompt_text).digest("hex"),
+        createHash("sha256")
+          .update(beforeText || p.prompt_text)
+          .digest("hex"),
         p.slug,
       ).toBe(review.sha256);
       expect(editorialIssues(p), p.slug).toEqual([]);
@@ -127,14 +145,12 @@ describe("Why AI editorial release", () => {
     }
   });
   it("queues only approved concepts and refuses to publish missing or stale media", () => {
-    const covered = new Set(
-      [
-        ...[...queue, ...friendsQueue].flatMap((j) => j.used_by),
-        ...doubleExposureFashionQueue.map((j) => j.slug),
-        ...katanaStreetwearQueue.map((j) => j.slug),
-        ...giantPlaylistQueue.map((j) => j.slug),
-      ],
-    );
+    const covered = new Set([
+      ...[...queue, ...friendsQueue].flatMap((j) => j.used_by),
+      ...doubleExposureFashionQueue.map((j) => j.slug),
+      ...katanaStreetwearQueue.map((j) => j.slug),
+      ...giantPlaylistQueue.map((j) => j.slug),
+    ]);
     for (const p of prompts) {
       if (p.preview_review_status !== "approved") {
         expect(p.is_published, p.slug).toBe(false);

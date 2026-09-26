@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import sharp from "sharp";
 import { allPrompts, allCollections } from "../content/catalog";
 import scope from "../docs/releases/2026-09-15/content-review.json";
+import contentRereview from "../docs/audits/content-rereview-2026-09-25/changes.json";
 import baseline from "../docs/audits/creative-upgrade-2026-09-11/production-public-snapshot.json";
 import { editorialIssues } from "../lib/prompts/editorial";
 import { personaIssues } from "../lib/prompts/persona";
@@ -23,7 +24,25 @@ for (const raw of allPrompts) {
   paths.add(promptPath(p));
   const review = scope.records.filter((r) => r.id === p.id);
   const hash = createHash("sha256").update(p.prompt_text).digest("hex");
-  if (review.length !== 1 || review[0].sha256 !== hash)
+  // Preserve the historical review. A scoped follow-up must connect its exact
+  // before text to that baseline and its after text to the current record.
+  const followup = contentRereview.find((r) => r.id === p.id);
+  const beforeText =
+    followup && "prompt_text" in followup.before
+      ? followup.before.prompt_text
+      : undefined;
+  const afterText =
+    followup && "prompt_text" in followup.after
+      ? followup.after.prompt_text
+      : undefined;
+  const reviewedFollowup =
+    review.length === 1 &&
+    typeof beforeText === "string" &&
+    typeof afterText === "string" &&
+    createHash("sha256").update(beforeText).digest("hex") ===
+      review[0].sha256 &&
+    afterText === p.prompt_text;
+  if (review.length !== 1 || (review[0].sha256 !== hash && !reviewedFollowup))
     failures.push(`${p.slug}: missing or stale release review`);
   for (const issue of [...personaIssues(p), ...editorialIssues(p)])
     failures.push(`${p.slug}: ${issue}`);
@@ -55,7 +74,10 @@ for (const raw of allPrompts) {
 }
 for (const p of baseline.prompts) {
   const current = allPrompts.find((x) => x.id === p.id);
-  if (!current?.is_published || promptPath(promptSchema.parse(current)) !== p.canonical_path)
+  if (
+    !current?.is_published ||
+    promptPath(promptSchema.parse(current)) !== p.canonical_path
+  )
     failures.push(`${p.slug}: existing public canonical lost`);
 }
 for (const c of allCollections) {

@@ -1,0 +1,1504 @@
+{
+  "observedAt": "2026-09-25T08:17:37.441Z",
+  "scope": "Repository structural screening of all records; description/intent screening of published records; targeted full-copy review for changed records. No fresh generation, full-library visual acceptance or production database export.",
+  "counts": {
+    "total": 186,
+    "published": 91,
+    "draft": 95,
+    "promptChanges": 9,
+    "newGuides": 12,
+    "publishedWithGuidance": 32,
+    "lexicalPairs": 31,
+    "sharedImageGroups": 11
+  },
+  "records": [
+    {
+      "slug": "golden-hour-draped-in-tradition",
+      "source": "content/prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-little-rain-a-lot-of-romance",
+      "source": "content/prompts.json:75",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "your-next-chapter-in-focus",
+      "source": "content/prompts.json:146",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "somewhere-in-the-mediterranean",
+      "source": "content/prompts.json:217",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-birthday-astronaut",
+      "source": "content/prompts.json:288",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "old-school-charm-new-memories",
+      "source": "content/prompts.json:358",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "city-lights-main-character-energy",
+      "source": "content/prompts.json:429",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-red-saree-moment",
+      "source": "content/prompts.json:500",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "barefoot-at-blue-hour",
+      "source": "content/prompts.json:571",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "quiet-confidence",
+      "source": "content/prompts.json:642",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-birthday-made-of-sunshine",
+      "source": "content/prompts.json:713",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "tiny-krishna-big-wonder",
+      "source": "content/prompts.json:783",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-family-evening-lit-by-diyas",
+      "source": "content/prompts.json:854",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-desert-in-your-rear-view",
+      "source": "content/prompts.json:923",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-modern-bridal-heirloom",
+      "source": "content/prompts.json:994",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-forest-princess",
+      "source": "content/prompts.json:1065",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-headshot-that-feels-like-you",
+      "source": "content/prompts.json:1136",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "sunday-all-together",
+      "source": "content/prompts.json:1207",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "paris-without-a-plan",
+      "source": "content/prompts.json:1278",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-art-of-standing-still",
+      "source": "content/prompts.json:1349",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "coffee-rain-and-college-days",
+      "source": "content/prompts.json:1420",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "built-on-quiet-discipline",
+      "source": "content/prompts.json:1491",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "your-product-beautifully-simple",
+      "source": "content/prompts.json:1561",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-little-holi-happiness",
+      "source": "content/prompts.json:1631",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-gentlest-new-beginning",
+      "source": "content/prompts.json:1701",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "made-for-the-mountains",
+      "source": "content/prompts.json:1772",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-frame-from-another-decade",
+      "source": "content/prompts.json:1843",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "soft-light-unmistakably-you",
+      "source": "content/prompts.json:1914",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "an-intimate-jaipur-yes",
+      "source": "content/prompts.json:1985",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "your-everyday-with-better-light",
+      "source": "content/prompts.json:2055",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "a-tiny-superhero-off-duty",
+      "source": "content/prompts.json:2126",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "dressed-for-the-first-dance",
+      "source": "content/prompts.json:2197",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-perfect-birthday-picnic",
+      "source": "content/prompts.json:2274",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-open-road-portrait",
+      "source": "content/prompts.json:2344",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-winter-window-story",
+      "source": "content/prompts.json:2415",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-christmas-kitchen",
+      "source": "content/prompts.json:2485",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "small-details-beautifully-made",
+      "source": "content/prompts.json:2555",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "meet-your-new-profile-picture",
+      "source": "content/prompts.json:2625",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-night-at-the-cinema",
+      "source": "content/prompts.json:2696",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "thirty-and-entirely-yourself",
+      "source": "content/prompts.json:2767",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "garba-under-the-lights",
+      "source": "content/prompts.json:2837",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-memory-worth-restoring",
+      "source": "content/prompts.json:2907",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "change-the-scene-keep-yourself",
+      "source": "content/prompts.json:2978",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "an-outfit-with-a-new-perspective",
+      "source": "content/prompts.json:3049",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "the-anniversary-slow-dance",
+      "source": "content/prompts.json:3120",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "from-suitcase-to-seaside",
+      "source": "content/prompts.json:3233",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-birthday-in-three-little-moments",
+      "source": "content/prompts.json:3337",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-fragrance-reveal",
+      "source": "content/prompts.json:3440",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "one-city-one-beautiful-evening",
+      "source": "content/prompts.json:3552",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-wedding-morning-remembered",
+      "source": "content/prompts.json:3656",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "royal-jaipur-after-hours-reel",
+      "source": "content/expansion/prompts.json:4",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-love-story",
+      "source": "content/expansion/prompts.json:111",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-love-story-reel",
+      "source": "content/expansion/prompts.json:183",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "desert-moonlight-promises",
+      "source": "content/expansion/prompts.json:289",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "desert-moonlight-promises-reel",
+      "source": "content/expansion/prompts.json:361",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-heritage-railway-letter",
+      "source": "content/expansion/prompts.json:467",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-heritage-railway-letter-reel",
+      "source": "content/expansion/prompts.json:544",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-maternity-at-the-heritage-window",
+      "source": "content/expansion/prompts.json:651",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-maternity-at-the-heritage-window-reel",
+      "source": "content/expansion/prompts.json:725",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "moonlit-motherhood",
+      "source": "content/expansion/prompts.json:833",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "moonlit-motherhood-reel",
+      "source": "content/expansion/prompts.json:904",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "generations-waiting-together",
+      "source": "content/expansion/prompts.json:1009",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "generations-waiting-together-reel",
+      "source": "content/expansion/prompts.json:1081",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "motherhood-in-a-field-of-paper-petals",
+      "source": "content/expansion/prompts.json:1187",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "motherhood-in-a-field-of-paper-petals-reel",
+      "source": "content/expansion/prompts.json:1263",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "himalayan-last-rider-reel",
+      "source": "content/expansion/prompts.json:1373",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "midnight-fuel-stop",
+      "source": "content/expansion/prompts.json:1479",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "midnight-fuel-stop-reel",
+      "source": "content/expansion/prompts.json:1551",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-rider-under-the-flyover",
+      "source": "content/expansion/prompts.json:1657",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monsoon-rider-under-the-flyover-reel",
+      "source": "content/expansion/prompts.json:1731",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-salt-road-to-nowhere",
+      "source": "content/expansion/prompts.json:1839",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-salt-road-to-nowhere-reel",
+      "source": "content/expansion/prompts.json:1913",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "desert-road-hero",
+      "source": "content/expansion/prompts.json:2021",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "desert-road-hero-reel",
+      "source": "content/expansion/prompts.json:2093",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "retro-bombay-through-the-windscreen",
+      "source": "content/expansion/prompts.json:2199",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "retro-bombay-through-the-windscreen-reel",
+      "source": "content/expansion/prompts.json:2273",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "neon-monsoon-drive",
+      "source": "content/expansion/prompts.json:2381",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "neon-monsoon-drive-reel",
+      "source": "content/expansion/prompts.json:2453",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-mountain-tunnel-arrival",
+      "source": "content/expansion/prompts.json:2559",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-mountain-tunnel-arrival-reel",
+      "source": "content/expansion/prompts.json:2632",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "after-the-last-rep-reel",
+      "source": "content/expansion/prompts.json:2739",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "split-second-athlete",
+      "source": "content/expansion/prompts.json:2846",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "split-second-athlete-reel",
+      "source": "content/expansion/prompts.json:2918",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "shadow-athlete-at-dawn",
+      "source": "content/expansion/prompts.json:3024",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "shadow-athlete-at-dawn-reel",
+      "source": "content/expansion/prompts.json:3097",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-empty-stadium-one-more-try",
+      "source": "content/expansion/prompts.json:3204",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-empty-stadium-one-more-try-reel",
+      "source": "content/expansion/prompts.json:3279",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "your-next-introduction-reel",
+      "source": "content/expansion/prompts.json:3388",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "founder-after-hours",
+      "source": "content/expansion/prompts.json:3491",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "founder-after-hours-reel",
+      "source": "content/expansion/prompts.json:3562",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "newsroom-before-the-opening-bell",
+      "source": "content/expansion/prompts.json:3667",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "newsroom-before-the-opening-bell-reel",
+      "source": "content/expansion/prompts.json:3741",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-idea-becomes-a-skyline",
+      "source": "content/expansion/prompts.json:3849",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-idea-becomes-a-skyline-reel",
+      "source": "content/expansion/prompts.json:3923",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "coffee-and-a-real-smile",
+      "source": "content/expansion/prompts.json:4031",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "coffee-and-a-real-smile-reel",
+      "source": "content/expansion/prompts.json:4100",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "the-bookshop-detour",
+      "source": "content/expansion/prompts.json:4203",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-bookshop-detour-reel",
+      "source": "content/expansion/prompts.json:4271",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "sunday-park-conversation",
+      "source": "content/expansion/prompts.json:4373",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "sunday-park-conversation-reel",
+      "source": "content/expansion/prompts.json:4442",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "something-good-in-the-kitchen",
+      "source": "content/expansion/prompts.json:4545",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "something-good-in-the-kitchen-reel",
+      "source": "content/expansion/prompts.json:4614",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "local-correction-awaiting-release"
+    },
+    {
+      "slug": "goa-after-the-monsoon",
+      "source": "content/expansion/prompts.json:4717",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "goa-after-the-monsoon-reel",
+      "source": "content/expansion/prompts.json:4790",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "meghalaya-cloud-walk",
+      "source": "content/expansion/prompts.json:4897",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "meghalaya-cloud-walk-reel",
+      "source": "content/expansion/prompts.json:4969",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-lighthouse-keeper-s-morning",
+      "source": "content/expansion/prompts.json:5075",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-lighthouse-keeper-s-morning-reel",
+      "source": "content/expansion/prompts.json:5149",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-train-through-the-tea-clouds",
+      "source": "content/expansion/prompts.json:5257",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-train-through-the-tea-clouds-reel",
+      "source": "content/expansion/prompts.json:5330",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "coral-against-the-sky-reel",
+      "source": "content/expansion/prompts.json:5437",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "soft-light-unmistakably-you-reel",
+      "source": "content/expansion/prompts.json:5539",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "monochrome-rain-face-in-focus",
+      "source": "content/expansion/prompts.json:5642",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "monochrome-rain-face-in-focus-reel",
+      "source": "content/expansion/prompts.json:5722",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "floral-shadows-a-clear-face",
+      "source": "content/expansion/prompts.json:5836",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "floral-shadows-a-clear-face-reel",
+      "source": "content/expansion/prompts.json:5910",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "diwali-a-thousand-points-of-light-reel",
+      "source": "content/expansion/prompts.json:6018",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "holi-the-colour-before-it-falls-reel",
+      "source": "content/expansion/prompts.json:6127",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "navratri-still-at-the-centre-reel",
+      "source": "content/expansion/prompts.json:6235",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-little-flute-keeper-reel",
+      "source": "content/expansion/prompts.json:6343",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-gentlest-new-beginning-reel",
+      "source": "content/expansion/prompts.json:6446",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "first-birthday-cloud-world",
+      "source": "content/expansion/prompts.json:6549",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "first-birthday-cloud-world-reel",
+      "source": "content/expansion/prompts.json:6622",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-nursery-moon-mission",
+      "source": "content/expansion/prompts.json:6729",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-nursery-moon-mission-reel",
+      "source": "content/expansion/prompts.json:6802",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-family-s-little-storybook-reader",
+      "source": "content/expansion/prompts.json:6909",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-family-s-little-storybook-reader-reel",
+      "source": "content/expansion/prompts.json:6984",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-maharaja-of-the-window-seat",
+      "source": "content/expansion/prompts.json:7093",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-maharaja-of-the-window-seat-reel",
+      "source": "content/expansion/prompts.json:7166",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-dog-s-birthday-aftermath",
+      "source": "content/expansion/prompts.json:7273",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-dog-s-birthday-aftermath-reel",
+      "source": "content/expansion/prompts.json:7347",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "tiny-pet-giant-space-mission",
+      "source": "content/expansion/prompts.json:7455",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "tiny-pet-giant-space-mission-reel",
+      "source": "content/expansion/prompts.json:7529",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "source": "content/expansion/prompts.json:7637",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "you-and-your-pet-the-adventure-poster-reel",
+      "source": "content/expansion/prompts.json:7713",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "skincare-on-stone-reel",
+      "source": "content/expansion/prompts.json:7823",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "ceramic-and-linen-reel",
+      "source": "content/expansion/prompts.json:7925",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "perfume-the-water-sculpture",
+      "source": "content/expansion/prompts.json:8027",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "perfume-the-water-sculpture-reel",
+      "source": "content/expansion/prompts.json:8104",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "handbag-in-the-architecture-of-shadows",
+      "source": "content/expansion/prompts.json:8211",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "handbag-in-the-architecture-of-shadows-reel",
+      "source": "content/expansion/prompts.json:8286",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-palace-saree-every-border-visible",
+      "source": "content/expansion/prompts.json:8395",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-palace-saree-every-border-visible-reel",
+      "source": "content/expansion/prompts.json:8469",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-kurta-in-the-jali-light",
+      "source": "content/expansion/prompts.json:8577",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-kurta-in-the-jali-light-reel",
+      "source": "content/expansion/prompts.json:8650",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "resort-dress-the-wind-between-arches",
+      "source": "content/expansion/prompts.json:8757",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "resort-dress-the-wind-between-arches-reel",
+      "source": "content/expansion/prompts.json:8831",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "jewellery-on-sculpted-sandstone",
+      "source": "content/expansion/prompts.json:8939",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "jewellery-on-sculpted-sandstone-reel",
+      "source": "content/expansion/prompts.json:9011",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-everyday-shirt-catalogue",
+      "source": "content/expansion/prompts.json:9117",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "source": "content/expansion/prompts.json:9187",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "kurta-at-the-lantern-courtyard",
+      "source": "content/expansion/prompts.json:9291",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "kurta-at-the-lantern-courtyard-reel",
+      "source": "content/expansion/prompts.json:9365",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "a-jacket-from-every-angle",
+      "source": "content/expansion/prompts.json:9473",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "a-jacket-from-every-angle-reel",
+      "source": "content/expansion/prompts.json:9545",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "footwear-the-city-in-one-step",
+      "source": "content/expansion/prompts.json:9651",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "footwear-the-city-in-one-step-reel",
+      "source": "content/expansion/prompts.json:9725",
+      "published": false,
+      "previewStatus": "replacement-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-honest-quarter-rotation-reel",
+      "source": "content/expansion/prompts.json:9833",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "fabric-up-close-reel",
+      "source": "content/expansion/prompts.json:9936",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "front-back-the-real-product-reel",
+      "source": "content/expansion/prompts.json:10038",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "from-detail-to-daily-use-reel",
+      "source": "content/expansion/prompts.json:10142",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": false,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "cinematic-ladakh-friends-trip",
+      "source": "content/additions/friends-trip-prompts.json:22",
+      "published": false,
+      "previewStatus": "generation-required",
+      "previewExists": true,
+      "disposition": "hold-unapproved-preview"
+    },
+    {
+      "slug": "the-river-remembers",
+      "source": "content/additions/creative-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "our-courtyard-small-enough-to-hold",
+      "source": "content/additions/creative-prompts.json:80",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-mountain-journey-within",
+      "source": "content/additions/creative-prompts.json:157",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-tailors-mountain-range",
+      "source": "content/additions/creative-prompts.json:233",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "one-day-four-possible-worlds",
+      "source": "content/additions/creative-prompts.json:309",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "portrait-cut-from-monsoon-paper",
+      "source": "content/additions/creative-prompts.json:385",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "last-train-two-ink-portrait",
+      "source": "content/additions/creative-prompts.json:461",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "one-saree-three-campaign-worlds",
+      "source": "content/additions/creative-prompts.json:537",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "borrowed-moon-closing-time",
+      "source": "content/additions/social-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "a-fold-around-you-profile",
+      "source": "content/additions/social-prompts.json:75",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "small-burst-of-motion-profile",
+      "source": "content/additions/social-prompts.json:150",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "between-two-gravities",
+      "source": "content/additions/gen-z-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-listening-room-has-tides",
+      "source": "content/additions/gen-z-prompts.json:76",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "chai-between-the-floors",
+      "source": "content/additions/gen-z-prompts.json:148",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "one-step-outside-the-frame",
+      "source": "content/additions/gen-z-prompts.json:222",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "ink-took-my-coffee",
+      "source": "content/additions/reference-impact-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-kite-in-my-notebook",
+      "source": "content/additions/reference-impact-prompts.json:79",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "clouds-on-laundry-day",
+      "source": "content/additions/reference-impact-prompts.json:154",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-projectionist-is-me",
+      "source": "content/additions/reference-impact-prompts.json:229",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "the-lift-stops-at-the-ocean",
+      "source": "content/additions/reference-impact-prompts.json:306",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "double-exposure-fashion-men",
+      "source": "content/additions/double-exposure-fashion-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "owner-decision-on-overlap"
+    },
+    {
+      "slug": "double-exposure-fashion-women",
+      "source": "content/additions/double-exposure-fashion-prompts.json:82",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "owner-decision-on-overlap"
+    },
+    {
+      "slug": "katana-in-the-square-of-light",
+      "source": "content/additions/katana-streetwear-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    },
+    {
+      "slug": "standing-on-my-playlist",
+      "source": "content/additions/giant-playlist-prompts.json:4",
+      "published": true,
+      "previewStatus": "approved",
+      "previewExists": true,
+      "disposition": "retain-after-intent-screen"
+    }
+  ]
+}

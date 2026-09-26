@@ -40,9 +40,13 @@ for (const [path, guide] of Object.entries(hubGuides)) {
     if (!paths.has(link.path))
       errors.push(`Broken editorial link ${link.path}`);
 }
-for (const slug of Object.keys(promptGuides))
+for (const [slug, guide] of Object.entries(promptGuides)) {
   if (!eligible.some((p) => p.slug === slug))
     errors.push(`Guide for unavailable prompt ${slug}`);
+  for (const link of guide.links || [])
+    if (!paths.has(link.path))
+      errors.push(`Broken prompt guide link ${link.path}`);
+}
 for (const [slug, workflow] of Object.entries(promptWorkflows)) {
   if (!eligible.some((p) => p.slug === slug))
     errors.push(`Workflow for unavailable prompt ${slug}`);

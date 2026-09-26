@@ -12,6 +12,7 @@ import releaseScope from "../../docs/releases/2026-09-15/scope.json";
 import baseline from "../../docs/audits/reference-impact-2026-09-15/current-library.json";
 import identityPreviewManifest from "../../docs/audits/identity-expression-policy-2026-09-24/selected-preview-generation-manifest.json";
 import seoFollowup from "../../docs/audits/seo-followup-2026-09-24/editorial-changes.json";
+import contentRereview from "../../docs/audits/content-rereview-2026-09-25/changes.json";
 import {
   socialPreviewEnabled,
   socialPreviewMemberships,
@@ -52,6 +53,7 @@ describe("Reference-inspired local expansion", () => {
             }
           : releaseExpected),
         ...editorial,
+        ...contentRereview.find((change) => change.id === p.id)?.after,
       });
     }
     expect(candidates).toHaveLength(15);
