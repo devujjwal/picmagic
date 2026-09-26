@@ -4099,8 +4099,8 @@
     "id": "6acb5cf4-6841-5784-aa67-42af8a2b2557",
     "slug": "coffee-and-a-real-smile-reel",
     "title": "Coffee and a real smile — reel",
-    "description": "Coffee and a real smile. Reference adult in their own casual outfit at a cafe window, holding one ceramic cup below the face. An eight-second visual story with timed movement and a quiet closing hold.",
-    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in their own casual outfit at a cafe window, holding one ceramic cup below the face.\n\nLighting and composition: soft open window light; 85mm chest-up portrait. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\n0–2 seconds: Establish the complete scene: reference adult in their own casual outfit at a cafe window, holding one ceramic cup below the face. Keep the subject clearly visible before movement begins. Transition: Continuous shot.\n2–6 seconds: The person lowers the cup slightly and smiles towards someone just beside the camera, then holds naturally. Transition: Return gently to the starting composition.\n6–8 seconds: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Transition: Loop-compatible hold.\n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the stationary cup beside the person.\n2–6 seconds: PROGRESSION: They look up with a small spontaneous smile.\n6–8 seconds: PAYOFF: Hold the relaxed face rather than a staged glamour pose.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "description": "Plan an eight-second café clip: start with a cup held below the face, follow a small reaction to someone off-camera, then hold the expression. Keep one grip and one cup throughout; the shared still illustrates the setting, not a tested video result.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in their own casual outfit at a cafe window, holding one ceramic cup below the face.\n\nLighting and composition: soft open window light; 85mm chest-up portrait. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin with the person holding one stationary cup below the face beside the cafe window.\n2–6 seconds: PROGRESSION: The person lowers the same cup slightly and looks toward someone just beside the camera with a small spontaneous smile.\n6–8 seconds: PAYOFF: Hold the relaxed face and the same cup grip; natural breathing only, with no reset to the opening pose.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
     "category_id": "reels",
     "prompt_type": "reel",
     "subject": "Man",
@@ -4138,7 +4138,7 @@
     "seo_title": "Coffee and a real smile Reel Prompt",
     "seo_description": "Coffee and a real smile: timed reel concept with soft open window light, reference-first identity and practical styling directions.",
     "created_at": "2026-09-10T14:00:00.000Z",
-    "updated_at": "2026-09-10T18:00:00.000Z",
+    "updated_at": "2026-09-25T08:10:54.730Z",
     "published_at": "2026-09-10T16:10:19.076Z",
     "faqs": [
       {
@@ -4161,20 +4161,20 @@
         {
           "start": 0,
           "end": 2,
-          "action": "Begin on the stationary cup beside the person.",
-          "transition": "Establish hook"
+          "action": "Begin with the person holding one stationary cup below the face beside the cafe window.",
+          "transition": "Continuous shot"
         },
         {
           "start": 2,
           "end": 6,
-          "action": "They look up with a small spontaneous smile.",
-          "transition": "Continuous progression or specified reference-backed cut"
+          "action": "The person lowers the same cup slightly and looks toward someone just beside the camera with a small spontaneous smile.",
+          "transition": "Continuous shot"
         },
         {
           "start": 6,
           "end": 8,
-          "action": "Hold the relaxed face rather than a staged glamour pose.",
-          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          "action": "Hold the relaxed face and the same cup grip; natural breathing only, with no reset to the opening pose.",
+          "transition": "Stable final hold; end without forcing a loop"
         }
       ],
       "caption": "Coffee and a real smile. Your story, your identity.",
@@ -4184,9 +4184,9 @@
         "#CreativeReel"
       ],
       "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
-      "hook": "Begin on the stationary cup beside the person.",
-      "progression": "They look up with a small spontaneous smile.",
-      "payoff": "Hold the relaxed face rather than a staged glamour pose."
+      "hook": "Begin with the person holding one stationary cup below the face beside the cafe window.",
+      "progression": "The person lowers the same cup slightly and looks toward someone just beside the camera with a small spontaneous smile.",
+      "payoff": "Hold the relaxed face and the same cup grip; natural breathing only, with no reset to the opening pose."
     },
     "image_brief": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with warm-brown skin, straight dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in their own casual outfit at a cafe window, holding one ceramic cup below the face.  Lighting and framing: soft open window light; 85mm chest-up portrait. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
     "preview_video": null,
@@ -4270,8 +4270,8 @@
     "id": "7f11fd48-1791-5944-ae49-bf8bbd4f73a4",
     "slug": "the-bookshop-detour-reel",
     "title": "The bookshop detour — reel",
-    "description": "The bookshop detour. Reference adult in a light casual shirt holding a closed book near a shelf, no readable cover branding. An eight-second visual story with timed movement and a quiet closing hold.",
-    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in a light casual shirt holding a closed book near a shelf, no readable cover branding.\n\nLighting and composition: warm practical light with window fill; 50mm three-quarter. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\n0–2 seconds: Establish the complete scene: reference adult in a light casual shirt holding a closed book near a shelf, no readable cover branding. Keep the subject clearly visible before movement begins. Transition: Continuous shot.\n2–6 seconds: The person looks down at the single closed book already in their hands, then glances towards the camera with a small smile; no additional book is taken. Transition: Return gently to the starting composition.\n6–8 seconds: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Transition: Loop-compatible hold.\n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the single closed book already in the person’s hands.\n2–6 seconds: PROGRESSION: They glance towards the shelf, then towards camera.\n6–8 seconds: PAYOFF: Hold a subtle amused smile with the same book visible.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "description": "Plan an eight-second bookshop moment around one closed book already in the person’s hands. Move attention from the book to the shelf and camera without adding a second book, a page turn or a complicated hand exchange.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in a light casual shirt holding a closed book near a shelf, no readable cover branding.\n\nLighting and composition: warm practical light with window fill; 50mm three-quarter. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on the single closed book already in the person’s hands.\n2–6 seconds: PROGRESSION: The person glances toward the shelf, then toward the camera, keeping the same closed book and grip.\n6–8 seconds: PAYOFF: Hold a subtle amused smile with the same book visible; do not take another book or reset the gaze for a loop.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
     "category_id": "reels",
     "prompt_type": "reel",
     "subject": "Man",
@@ -4308,7 +4308,7 @@
     "seo_title": "The bookshop detour Reel Prompt",
     "seo_description": "The bookshop detour: timed reel concept with warm practical light with window fill, reference-first identity and practical styling directions.",
     "created_at": "2026-09-10T14:00:00.000Z",
-    "updated_at": "2026-09-10T18:00:00.000Z",
+    "updated_at": "2026-09-25T08:10:54.730Z",
     "published_at": "2026-09-10T16:10:19.076Z",
     "faqs": [
       {
@@ -4332,19 +4332,19 @@
           "start": 0,
           "end": 2,
           "action": "Begin on the single closed book already in the person’s hands.",
-          "transition": "Establish hook"
+          "transition": "Continuous shot"
         },
         {
           "start": 2,
           "end": 6,
-          "action": "They glance towards the shelf, then towards camera.",
-          "transition": "Continuous progression or specified reference-backed cut"
+          "action": "The person glances toward the shelf, then toward the camera, keeping the same closed book and grip.",
+          "transition": "Continuous shot"
         },
         {
           "start": 6,
           "end": 8,
-          "action": "Hold a subtle amused smile with the same book visible.",
-          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          "action": "Hold a subtle amused smile with the same book visible; do not take another book or reset the gaze for a loop.",
+          "transition": "Stable final hold; end without forcing a loop"
         }
       ],
       "caption": "The bookshop detour. Your story, your identity.",
@@ -4355,8 +4355,8 @@
       ],
       "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
       "hook": "Begin on the single closed book already in the person’s hands.",
-      "progression": "They glance towards the shelf, then towards camera.",
-      "payoff": "Hold a subtle amused smile with the same book visible."
+      "progression": "The person glances toward the shelf, then toward the camera, keeping the same closed book and grip.",
+      "payoff": "Hold a subtle amused smile with the same book visible; do not take another book or reset the gaze for a loop."
     },
     "image_brief": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with light-brown skin and naturally greying hair, visible age lines and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in a light casual shirt holding a closed book near a shelf, no readable cover branding.  Lighting and framing: warm practical light with window fill; 50mm three-quarter. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
     "preview_video": null,
@@ -4441,8 +4441,8 @@
     "id": "5bea7f2a-1914-505f-a8c7-2b7d5299f660",
     "slug": "sunday-park-conversation-reel",
     "title": "Sunday park conversation — reel",
-    "description": "Sunday park conversation. Reference adult in comfortable casual clothing standing on a level garden path, hands relaxed. An eight-second visual story with timed movement and a quiet closing hold.",
-    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in comfortable casual clothing standing on a level garden path, hands relaxed.\n\nLighting and composition: late afternoon shade; 70mm full-body environmental. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\n0–2 seconds: Establish the complete scene: reference adult in comfortable casual clothing standing on a level garden path, hands relaxed. Keep the subject clearly visible before movement begins. Transition: Continuous shot.\n2–6 seconds: Take one unhurried step and pause with an open expression, background foliage moves gently. Transition: Return gently to the starting composition.\n6–8 seconds: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Transition: Loop-compatible hold.\n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Start on soft leaves moving behind the standing person.\n2–6 seconds: PROGRESSION: The person responds to an imagined friendly greeting with a small smile.\n6–8 seconds: PAYOFF: Hold an approachable readable face against the park depth.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "description": "Plan an eight-second park portrait in which the person responds to a friendly off-camera greeting. A small gaze change and natural smile provide the action; keep the person planted on the path rather than forcing a walking loop.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult in comfortable casual clothing standing on a level garden path, hands relaxed.\n\nLighting and composition: late afternoon shade; 70mm full-body environmental. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Establish the person standing still on the level path with softly moving leaves behind them.\n2–6 seconds: PROGRESSION: The person responds to an off-camera friendly greeting with a small gaze change and natural smile, without taking a step.\n6–8 seconds: PAYOFF: Hold the readable face and planted stance against the park depth; let only foliage and natural breathing move.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
     "category_id": "reels",
     "prompt_type": "reel",
     "subject": "Man",
@@ -4480,7 +4480,7 @@
     "seo_title": "Sunday park conversation Reel Prompt",
     "seo_description": "Sunday park conversation: timed reel concept with late afternoon shade, reference-first identity and practical styling directions.",
     "created_at": "2026-09-10T14:00:00.000Z",
-    "updated_at": "2026-09-10T18:00:00.000Z",
+    "updated_at": "2026-09-25T08:10:54.730Z",
     "published_at": "2026-09-10T16:10:19.076Z",
     "faqs": [
       {
@@ -4503,20 +4503,20 @@
         {
           "start": 0,
           "end": 2,
-          "action": "Start on soft leaves moving behind the standing person.",
-          "transition": "Establish hook"
+          "action": "Establish the person standing still on the level path with softly moving leaves behind them.",
+          "transition": "Continuous shot"
         },
         {
           "start": 2,
           "end": 6,
-          "action": "The person responds to an imagined friendly greeting with a small smile.",
-          "transition": "Continuous progression or specified reference-backed cut"
+          "action": "The person responds to an off-camera friendly greeting with a small gaze change and natural smile, without taking a step.",
+          "transition": "Continuous shot"
         },
         {
           "start": 6,
           "end": 8,
-          "action": "Hold an approachable readable face against the park depth.",
-          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          "action": "Hold the readable face and planted stance against the park depth; let only foliage and natural breathing move.",
+          "transition": "Stable final hold; end without forcing a loop"
         }
       ],
       "caption": "Sunday park conversation. Your story, your identity.",
@@ -4526,9 +4526,9 @@
         "#CreativeReel"
       ],
       "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
-      "hook": "Start on soft leaves moving behind the standing person.",
-      "progression": "The person responds to an imagined friendly greeting with a small smile.",
-      "payoff": "Hold an approachable readable face against the park depth."
+      "hook": "Establish the person standing still on the level path with softly moving leaves behind them.",
+      "progression": "The person responds to an off-camera friendly greeting with a small gaze change and natural smile, without taking a step.",
+      "payoff": "Hold the readable face and planted stance against the park depth; let only foliage and natural breathing move."
     },
     "image_brief": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional Indian adult with medium-brown skin, short naturally wavy dark hair and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult in comfortable casual clothing standing on a level garden path, hands relaxed.  Lighting and framing: late afternoon shade; 70mm full-body environmental. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
     "preview_video": null,
@@ -4613,8 +4613,8 @@
     "id": "16f7f5b0-ec7d-5c10-a543-21868721927f",
     "slug": "something-good-in-the-kitchen-reel",
     "title": "Something good in the kitchen — reel",
-    "description": "Something good in the kitchen. Reference adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables. An eight-second visual story with timed movement and a quiet closing hold.",
-    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables.\n\nLighting and composition: bright diffused daylight; 35mm documentary. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\n0–2 seconds: Establish the complete scene: reference adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables. Keep the subject clearly visible before movement begins. Transition: Continuous shot.\n2–6 seconds: The person gently stirs a bowl and looks up with a relaxed smile; no knives in motion or changing ingredients. Transition: Return gently to the starting composition.\n6–8 seconds: Settle into the starting composition and hold through second 8, with natural breathing or ambient motion only. The final hold is included in the eight-second duration. Transition: Loop-compatible hold.\n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin on a spoon resting inside the mixing bowl.\n2–6 seconds: PROGRESSION: The person makes one gentle stir, then looks up.\n6–8 seconds: PAYOFF: Hold their natural smile with the same bowl and spoon; no knives.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "description": "Plan an eight-second kitchen clip with one gentle stir and a glance up from the bowl. Preserve the same spoon, ingredients and grip from start to finish; use the shared still as a composition reference, not proof of a successful animation.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate an 8-second vertical 9:16 reel. Scene: reference adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables.\n\nLighting and composition: bright diffused daylight; 35mm documentary. Keep faces, defining clothing and major accessories within the frame; use a deliberate central crop for a vertical preview. \n\nStyling and identity: Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. \n\nContinuity: keep the same people, product design, wardrobe, hairstyle and props across all shots; a chosen initial hairstyle adaptation stays consistent thereafter. No morphing, flashing, duplicated hands, changing logos or invented product claims.\n\nRetain realistic texture, plausible contact shadows and clear subject separation. No added text or watermarks. Suggested camera directions describe a look, not guaranteed tool controls.\n\nREEL TIMELINE (8 seconds total):\n0–2 seconds: HOOK: Begin with the person holding one spoon resting inside the mixing bowl.\n2–6 seconds: PROGRESSION: The person makes one gentle stir, then looks up while keeping the same bowl, spoon and ingredients.\n6–8 seconds: PAYOFF: Hold the natural smile and resting spoon; no knives, new ingredients or reset of the stirring action.\nKeep the same subject count, identities, wardrobe and exact supplied products throughout. No morphing, flicker, added people or invented text. The final hold is included in the duration; do not force a loop that requires teleportation. Preview must communicate without audio.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
     "category_id": "reels",
     "prompt_type": "reel",
     "subject": "Man",
@@ -4652,7 +4652,7 @@
     "seo_title": "Something good in the kitchen Reel Prompt",
     "seo_description": "Something good in the kitchen: timed reel concept with bright diffused daylight, reference-first identity and practical styling directions.",
     "created_at": "2026-09-10T14:00:00.000Z",
-    "updated_at": "2026-09-10T16:43:14.127Z",
+    "updated_at": "2026-09-25T08:10:54.730Z",
     "published_at": "2026-09-10T16:43:14.127Z",
     "faqs": [
       {
@@ -4675,20 +4675,20 @@
         {
           "start": 0,
           "end": 2,
-          "action": "Begin on a spoon resting inside the mixing bowl.",
-          "transition": "Establish hook"
+          "action": "Begin with the person holding one spoon resting inside the mixing bowl.",
+          "transition": "Continuous shot"
         },
         {
           "start": 2,
           "end": 6,
-          "action": "The person makes one gentle stir, then looks up.",
-          "transition": "Continuous progression or specified reference-backed cut"
+          "action": "The person makes one gentle stir, then looks up while keeping the same bowl, spoon and ingredients.",
+          "transition": "Continuous shot"
         },
         {
           "start": 6,
           "end": 8,
-          "action": "Hold their natural smile with the same bowl and spoon; no knives.",
-          "transition": "Stable final hold; use a gentle crossfade only if it preserves continuity"
+          "action": "Hold the natural smile and resting spoon; no knives, new ingredients or reset of the stirring action.",
+          "transition": "Stable final hold; end without forcing a loop"
         }
       ],
       "caption": "Something good in the kitchen. Your story, your identity.",
@@ -4698,9 +4698,9 @@
         "#CreativeReel"
       ],
       "music_mood": "Gentle instrumental pulse; preview communicates without audio. Use music you have rights to publish.",
-      "hook": "Begin on a spoon resting inside the mixing bowl.",
-      "progression": "The person makes one gentle stir, then looks up.",
-      "payoff": "Hold their natural smile with the same bowl and spoon; no knives."
+      "hook": "Begin with the person holding one spoon resting inside the mixing bowl.",
+      "progression": "The person makes one gentle stir, then looks up while keeping the same bowl, spoon and ingredients.",
+      "payoff": "Hold the natural smile and resting spoon; no knives, new ingredients or reset of the stirring action."
     },
     "image_brief": "Generate one original photographic preview, 4:5 portrait, ideally 1200 × 1500. a fictional South Asian adult with deep-brown skin, shoulder-length loose curls and ordinary proportions. Match man presentation to the concept, with no stereotyped uniform face. Scene: adult wearing a plain apron over their own outfit at a clean kitchen counter with cut vegetables.  Lighting and framing: bright diffused daylight; 35mm documentary. Use comfortable, natural body positioning. Preserve actual body shape and facial asymmetry; do not beautify by changing identity. Photographic realism, natural pores and material texture, believable shadows, complete essential props and hands in frame. Do not reuse the previous image's face, pose, grading or outfit. No collage, text overlay, watermark or external brand assets. This is one standalone photographic asset, not a collage or web-page mockup. 4:5 portrait.",
     "preview_video": null,

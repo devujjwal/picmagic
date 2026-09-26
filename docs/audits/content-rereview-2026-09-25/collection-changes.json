@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dating-profile",
+    "slug": "dating-profile",
+    "file": "content/expansion/collections.json",
+    "before": {
+      "description": "Explore Coffee and a real smile, The bookshop detour, Sunday park conversation and Something good in the kitchen. These practical prompts focus on accurate presentation and useful deliverables rather than spectacle. References determine identity and supplied product design. Preview styling never overrides the people or products you provide."
+    },
+    "after": {
+      "description": "Choose a natural portrait around something you actually enjoy: a café conversation, a bookshop, a park or time in the kitchen. Compare a close face-led image with an activity or full-body composition. Keep current appearance and ordinary clothing; these are creative examples, not evidence of real experiences."
+    }
+  },
+  {
+    "id": "dating-profile-reels",
+    "slug": "dating-profile-reels",
+    "file": "content/expansion/collections.json",
+    "before": {
+      "description": "Plan a natural dating-profile reel around four everyday stories: coffee, a bookshop detour, a park conversation and cooking together. Each concept adds a short hook, movement and payoff while keeping the uploaded person recognisable and avoiding exaggerated influencer-style acting."
+    },
+    "after": {
+      "description": "Plan one of four quiet eight-second clips: a reaction over coffee, a glance from a closed book, a response to a park greeting or one stir of a mixing bowl. Each follows one adult and ends on a stable hold. The still previews illustrate composition, not verified video outputs or support for animated dating-profile photos."
+    }
+  }
+]
