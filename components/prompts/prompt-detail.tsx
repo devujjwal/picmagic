@@ -1,4 +1,5 @@
 import { deferredAdvertisingPrompts } from "@/config/ads";
+import { consolidatedPath } from "@/content/consolidations";
 import { promptCollections } from "@/lib/prompts/collections";
 import { FriendsTripCreator } from "@/features/generator/friends-trip-creator";
 import Link from "@/components/ui/site-link";
@@ -20,7 +21,10 @@ import { promptWorkflows } from "@/content/prompt-workflows";
 import { PromptWorkflow } from "./prompt-workflow";
 import { PromptEvidence } from "./prompt-evidence";
 import { PromptReport } from "./prompt-report";
-import { remainingGuidanceDate, remainingPromptFaqs } from "@/content/remaining-guidance";
+import {
+  remainingGuidanceDate,
+  remainingPromptFaqs,
+} from "@/content/remaining-guidance";
 export function PromptDetail({
   prompt: p,
   catalog,
@@ -31,13 +35,16 @@ export function PromptDetail({
   preview?: boolean;
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
-  const faqs = remainingPromptFaqs[p.slug] ?? promptGuides[p.slug]?.faqs ?? p.faqs;
+  const faqs =
+    remainingPromptFaqs[p.slug] ?? promptGuides[p.slug]?.faqs ?? p.faqs;
   const showAds =
     !preview &&
     isPromptSeoEligible(p) &&
     !deferredAdvertisingPrompts.has(p.slug);
   const isReel = p.prompt_type === "reel" || p.prompt_type === "video";
-  const parent = isReel ? "/reel-prompts" : `/ai-prompts/${p.category_id}`;
+  const parent = isReel
+    ? "/reel-prompts"
+    : consolidatedPath(`/ai-prompts/${p.category_id}`);
   const collections = promptCollections(
     p,
     catalog.collections,
@@ -124,11 +131,24 @@ export function PromptDetail({
           )}
           <dl className="detail-facts">
             {[
-              ["Aspect ratio", p.aspect_ratio],
+              ["Preview aspect ratio", p.aspect_ratio],
               ["Subject", p.subject],
-              ["Framing", p.framing],
-              ["Lighting", p.lighting],
-              ["Camera direction", p.camera],
+              [
+                p.prompt_type === "photo_edit" ? "Example framing" : "Framing",
+                p.framing,
+              ],
+              [
+                p.prompt_type === "photo_edit"
+                  ? "Example lighting"
+                  : "Lighting",
+                p.lighting,
+              ],
+              [
+                p.prompt_type === "photo_edit"
+                  ? "Example camera direction"
+                  : "Camera direction",
+                p.camera,
+              ],
               ["Occasion", p.occasion],
             ].map(([label, value]) => (
               <div key={label}>
@@ -187,8 +207,8 @@ export function PromptDetail({
             guidanceUpdatedAt={
               [
                 promptGuides[p.slug]?.updatedAt || "",
-              promptWorkflows[p.slug]?.updatedAt || "",
-              remainingPromptFaqs[p.slug] ? remainingGuidanceDate : "",
+                promptWorkflows[p.slug]?.updatedAt || "",
+                remainingPromptFaqs[p.slug] ? remainingGuidanceDate : "",
               ]
                 .sort()
                 .at(-1) || undefined

@@ -1,5 +1,6 @@
 import type { Category, Collection, Prompt } from "@/types/content";
 import { editorialIssues } from "@/lib/prompts/editorial";
+import { isConsolidatedPrompt } from "@/content/consolidations";
 
 const isReel = (prompt: Prompt) =>
   prompt.prompt_type === "reel" || prompt.prompt_type === "video";
@@ -27,6 +28,7 @@ function activeSeoCollection(collection: Collection, now: Date) {
 export function isPromptSeoEligible(prompt: Prompt) {
   return (
     prompt.is_published &&
+    !isConsolidatedPrompt(prompt) &&
     prompt.is_indexable &&
     prompt.preview_review_status === "approved" &&
     editorialIssues(prompt).length === 0
@@ -45,6 +47,7 @@ export function categorySeoMembers(category: Category, prompts: Prompt[]) {
 export function isCategorySeoEligible(category: Category, prompts: Prompt[]) {
   return (
     category.is_indexable &&
+    category.slug !== "cinematic" &&
     category.slug !== "reels" &&
     category.description.trim().length >= 120 &&
     categorySeoMembers(category, prompts).length >= 4

@@ -1,4 +1,5 @@
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
+import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import { describe, it, expect } from "vitest";
 import { createHash } from "node:crypto";
 import {
@@ -25,9 +26,18 @@ describe("preview fidelity", () => {
     for (const p of prompts) {
       const r = releaseReview.records.find((r) => r.id === p.id)!;
       expect(r.slug).toBe(p.slug);
-      expect(createHash("sha256").update(p.prompt_text).digest("hex")).toBe(
-        r.sha256,
-      );
+      const revision = dotChanges.find((x) => x.id === p.id);
+      const baselineText =
+        revision && "prompt_text" in revision.before
+          ? revision.before.prompt_text
+          : p.prompt_text;
+      if (revision && "prompt_text" in revision.after)
+        expect(p.prompt_text).toBe(revision.after.prompt_text);
+      expect(
+        createHash("sha256")
+          .update(baselineText as string)
+          .digest("hex"),
+      ).toBe(r.sha256);
       expect(p.prompt_text).toContain("CREATIVE DIRECTION:");
       expect(p.image_brief).not.toBe(p.prompt_text);
       if (p.is_published) expect(p.preview_review_status).toBe("approved");

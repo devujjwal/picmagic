@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "double-exposure-fashion-men",
+    "file": "content/additions/double-exposure-fashion-prompts.json",
+    "first": {
+      "hash": "0b83ccd03bd1b7a08f3894fdd6352992c249a2e4",
+      "date": "2026-09-15T12:00:26+05:30"
+    },
+    "last": {
+      "hash": "961e54924a0baee450675b0c80b45ad703ef1d3c",
+      "date": "2026-09-24T14:30:02+05:30"
+    },
+    "created_at": "2026-09-15T06:30:26.000Z",
+    "updated_at": "2026-09-24T09:00:02.000Z"
+  },
+  {
+    "slug": "double-exposure-fashion-women",
+    "file": "content/additions/double-exposure-fashion-prompts.json",
+    "first": {
+      "hash": "0b83ccd03bd1b7a08f3894fdd6352992c249a2e4",
+      "date": "2026-09-15T12:00:26+05:30"
+    },
+    "last": {
+      "hash": "961e54924a0baee450675b0c80b45ad703ef1d3c",
+      "date": "2026-09-24T14:30:02+05:30"
+    },
+    "created_at": "2026-09-15T06:30:26.000Z",
+    "updated_at": "2026-09-24T09:00:02.000Z"
+  },
+  {
+    "slug": "standing-on-my-playlist",
+    "file": "content/additions/giant-playlist-prompts.json",
+    "first": {
+      "hash": "0b83ccd03bd1b7a08f3894fdd6352992c249a2e4",
+      "date": "2026-09-15T12:00:26+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T06:30:26.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "katana-in-the-square-of-light",
+    "file": "content/additions/katana-streetwear-prompts.json",
+    "first": {
+      "hash": "0b83ccd03bd1b7a08f3894fdd6352992c249a2e4",
+      "date": "2026-09-15T12:00:26+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T06:30:26.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "ink-took-my-coffee",
+    "file": "content/additions/reference-impact-prompts.json",
+    "first": {
+      "hash": "60cdd11120e1e9d27cf01e762ff95ccb309fde8a",
+      "date": "2026-09-15T11:26:56+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T05:56:56.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "the-kite-in-my-notebook",
+    "file": "content/additions/reference-impact-prompts.json",
+    "first": {
+      "hash": "60cdd11120e1e9d27cf01e762ff95ccb309fde8a",
+      "date": "2026-09-15T11:26:56+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T05:56:56.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "clouds-on-laundry-day",
+    "file": "content/additions/reference-impact-prompts.json",
+    "first": {
+      "hash": "60cdd11120e1e9d27cf01e762ff95ccb309fde8a",
+      "date": "2026-09-15T11:26:56+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T05:56:56.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "the-projectionist-is-me",
+    "file": "content/additions/reference-impact-prompts.json",
+    "first": {
+      "hash": "60cdd11120e1e9d27cf01e762ff95ccb309fde8a",
+      "date": "2026-09-15T11:26:56+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T05:56:56.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  },
+  {
+    "slug": "the-lift-stops-at-the-ocean",
+    "file": "content/additions/reference-impact-prompts.json",
+    "first": {
+      "hash": "60cdd11120e1e9d27cf01e762ff95ccb309fde8a",
+      "date": "2026-09-15T11:26:56+05:30"
+    },
+    "last": {
+      "hash": "941970750eaa0d7d77130fe11642c714f71769d8",
+      "date": "2026-09-15T12:17:45+05:30"
+    },
+    "created_at": "2026-09-15T05:56:56.000Z",
+    "updated_at": "2026-09-15T06:47:45.000Z"
+  }
+]

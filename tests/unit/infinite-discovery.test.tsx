@@ -79,8 +79,15 @@ it("keeps a usable next-page link without observer support and starts at the cor
   render(<PaginatedGrid prompts={prompts} page={2} path="/ai-prompts" />);
   expect(screen.getAllByTestId("look")).toHaveLength(24);
   expect(screen.getAllByTestId("look")[0]).toHaveTextContent("24");
-  expect(screen.getByRole("link")).not.toHaveClass("sr-only");
-  expect(screen.getByRole("link")).toHaveAttribute(
+  expect(screen.getByRole("link", { name: "Previous page" })).toHaveAttribute(
+    "href",
+    "/ai-prompts",
+  );
+  expect(screen.getByText("Page 2 of 3")).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: "Load more looks" })).not.toHaveClass(
+    "sr-only",
+  );
+  expect(screen.getByRole("link", { name: "Load more looks" })).toHaveAttribute(
     "href",
     "/ai-prompts?page=3",
   );

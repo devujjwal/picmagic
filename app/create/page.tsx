@@ -1,5 +1,6 @@
 import { ToolGuide } from "@/components/prompts/tool-guide";
 import { Wizard } from "@/features/generator/wizard";
+import Link from "next/link";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 export const metadata = makeMetadata(
   "Create Your Own AI Photo Prompt | PicMagic",
@@ -18,6 +19,13 @@ export default function Create() {
         </p>
       </header>
       <Wizard />
+      <noscript>
+        <p className="section">
+          The prompt creator needs JavaScript. You can still{" "}
+          <Link href="/ai-prompts">browse ready-to-use photo prompts</Link> and
+          select the text from their pages.
+        </p>
+      </noscript>
       <ToolGuide />
     </div>
   );

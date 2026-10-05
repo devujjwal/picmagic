@@ -54,6 +54,7 @@ export default async function Reels({ searchParams }: Props) {
       <p className="result-count">
         {reels.length} reel concepts{page > 1 ? ` · Page ${page}` : ""}
       </p>
+      <h2 className="sr-only">Reel concepts and motion plans</h2>
       <PaginatedGrid
         key={`reels-${page}`}
         prompts={reels.map(toPromptCard)}

@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { editorialRedirects } from "./content/consolidations";
 const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const config: NextConfig = {
   distDir: process.env.PICMAGIC_DIST_DIR || ".next",
@@ -31,6 +32,7 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      ...editorialRedirects,
       {
         source: "/ai-prompts/reels",
         destination: "/reel-prompts",

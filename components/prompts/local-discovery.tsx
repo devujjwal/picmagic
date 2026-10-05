@@ -4,6 +4,10 @@ import { Bookmark, ArrowRight } from "lucide-react";
 import { useSaved, useRecent } from "@/features/saved/store";
 import { PromptGrid } from "./prompt-grid";
 import type { PromptCardData } from "@/lib/prompts/card-data";
+import {
+  doubleExposureIds,
+  doubleExposureGuidePath,
+} from "@/content/consolidations";
 export function LocalDiscovery({
   prompts,
   mode,
@@ -15,12 +19,25 @@ export function LocalDiscovery({
 }) {
   const { ids } = useSaved();
   const recent = useRecent();
+  const hasConsolidated = (mode === "saved" ? ids : recent).some((id) =>
+    doubleExposureIds.some((old) => old === id),
+  );
   const selected = [...new Set(mode === "saved" ? ids : recent)].flatMap(
     (id) => {
       const p = prompts.find((p) => p.id === id);
       return p && !excludedIds.includes(p.id) ? [p] : [];
     },
   );
+  const guideLink = hasConsolidated ? (
+    <p className="notice">
+      Your double-exposure look is now in the{" "}
+      <Link href={doubleExposureGuidePath}>
+        inclusive double-exposure guide
+      </Link>
+      .
+    </p>
+  ) : null;
+  if (!selected.length && hasConsolidated) return guideLink;
   if (!selected.length)
     return mode === "recent" ? null : (
       <div className="empty-state">
@@ -37,6 +54,7 @@ export function LocalDiscovery({
     );
   return (
     <section className={mode === "recent" ? "section" : "saved-section"}>
+      {guideLink}
       {mode === "saved" && <h2 className="sr-only">Your saved looks</h2>}
       {mode === "recent" && (
         <div className="section-head">

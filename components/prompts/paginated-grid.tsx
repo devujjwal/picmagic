@@ -31,6 +31,17 @@ export function PaginatedGrid({
   const end = start + batches * 24;
   const visible = prompts.slice(start, end);
   const hasMore = end < prompts.length;
+  const sectionLabel = path.startsWith("/reel-prompts")
+    ? "Motion plans to explore"
+    : {
+        "/ai-prompts/family": "Family portraits and faithful restorations",
+        "/ai-prompts/wedding": "Wedding clothing and shared moments",
+        "/ai-prompts/birthday": "Birthday portraits and celebration props",
+        "/ai-prompts/festival": "Celebration-specific portraits",
+        "/ai-prompts/product-photography": "Product sets and material studies",
+        "/collections/indian-festivals":
+          "Festival portraits and cultural details",
+      }[path] || "More looks to explore";
   useEffect(() => {
     if (!autoLoad || !hasMore || !sentinel.current) return;
     let consumed = false;
@@ -58,13 +69,10 @@ export function PaginatedGrid({
         />
       )}
       {visible.some((p) => p.content_intent === "utility") && (
-        <section className="section" aria-label="More looks to explore">
+        <section className="section" aria-label={sectionLabel}>
           <div className="section-head">
             <div>
-              <h2>More looks to explore</h2>
-              <p>
-                Profiles, styling studies, product scenes and focused edits.
-              </p>
+              <h2>{sectionLabel}</h2>
             </div>
           </div>
           <PromptGrid
@@ -78,6 +86,22 @@ export function PaginatedGrid({
       <p className="sr-only" role="status">
         Showing {visible.length} looks on this page.
       </p>
+      {Math.ceil(prompts.length / 24) > 1 && (
+        <nav className="pagination" aria-label="Prompt pages">
+          {page > 1 && (
+            <a
+              className="button secondary"
+              rel="prev"
+              href={page === 2 ? path : `${path}?page=${page - 1}`}
+            >
+              Previous page
+            </a>
+          )}
+          <span>
+            Page {page} of {Math.ceil(prompts.length / 24)}
+          </span>
+        </nav>
+      )}
       {hasMore && (
         <div
           ref={sentinel}

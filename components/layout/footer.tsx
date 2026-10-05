@@ -33,6 +33,9 @@ export function Footer() {
             <Link href="/guides/reference-photo-prompts">
               Reference-photo guide
             </Link>
+            <Link href="/guides/double-exposure-fashion">
+              Double-exposure guide
+            </Link>
             <Link href="/saved">Your saved looks</Link>
             <Link href="/contact">Get in touch</Link>
             {site.social.map(({ label, href }) => (

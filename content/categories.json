@@ -35,7 +35,7 @@
     "id": "family",
     "slug": "family",
     "name": "Family",
-    "description": "Discover thoughtful family photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "description": "Choose a shared kitchen moment, a diya-lit gathering, a miniature courtyard or a faithful restoration of an existing family photo. Supply references for every intended person and keep real ages and identities distinct.",
     "is_indexable": false,
     "seo_title": "AI Photo Prompts for Family | PicMagic"
   },
@@ -43,7 +43,7 @@
     "id": "wedding",
     "slug": "wedding",
     "name": "Wedding",
-    "description": "Discover thoughtful wedding photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "description": "Explore bridal clothing, ornament-led portraits and a monochrome first dance. Label both people for couple scenes and check garment construction, hand contact and each face separately.",
     "is_indexable": false,
     "seo_title": "AI Photo Prompts for Wedding | PicMagic"
   },
@@ -51,7 +51,7 @@
     "id": "birthday",
     "slug": "birthday",
     "name": "Birthday",
-    "description": "Discover thoughtful birthday photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "description": "Choose a garden cake portrait, a picnic, a handmade astronaut costume or a birthday candle moment. Keep props below the face and use the actual child's permitted reference for child portraits.",
     "is_indexable": false,
     "seo_title": "AI Photo Prompts for Birthday | PicMagic"
   },
@@ -91,7 +91,7 @@
     "id": "product-photography",
     "slug": "product-photography",
     "name": "Product photography",
-    "description": "Discover thoughtful product photography photo ideas, from natural everyday moments to carefully styled portraits. Choose a look, copy its prompt and adapt it to your own photo.",
+    "description": "Explore bottle, ceramic and textile product sets with controlled light, readable materials and reference-supported packaging. Compare shape, labels and construction against the real item before commercial use.",
     "is_indexable": false,
     "seo_title": "AI Photo Prompts for Product photography | PicMagic"
   },

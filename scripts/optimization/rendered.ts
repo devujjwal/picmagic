@@ -8,6 +8,10 @@ import {
 import type { AuditCatalog, Finding } from "./types";
 import { finding, origin } from "./analyze";
 import { sitePages } from "../../content/site-pages";
+import {
+  editorialRedirects,
+  isConsolidatedPrompt,
+} from "../../content/consolidations";
 
 // jsdom never runs page scripts or loads subresources here.
 const { JSDOM } = createRequire(import.meta.url)("jsdom") as {
@@ -72,7 +76,10 @@ export function expectedPages(c: AuditCatalog, now: Date): ExpectedPage[] {
     });
   const photoPages = Math.ceil(
     c.prompts.filter(
-      (p) => p.is_published && !["reel", "video"].includes(p.prompt_type),
+      (p) =>
+        p.is_published &&
+        !isConsolidatedPrompt(p) &&
+        !["reel", "video"].includes(p.prompt_type),
     ).length / 24,
   );
   for (let page = 2; page <= photoPages; page++)
@@ -103,7 +110,17 @@ export function expectedPages(c: AuditCatalog, now: Date): ExpectedPage[] {
       redirect: "/reel-prompts",
     },
   );
-  return pages;
+  return pages.map((page) => {
+    const redirect = editorialRedirects.find((r) => r.source === page.path);
+    return redirect
+      ? {
+          path: page.path,
+          status: 308,
+          indexable: false,
+          redirect: redirect.destination,
+        }
+      : page;
+  });
 }
 
 export function expectedSitemapPaths(c: AuditCatalog, now: Date) {

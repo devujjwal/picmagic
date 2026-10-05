@@ -153,7 +153,7 @@ test.describe("enabled local discovery preview", () => {
     await stubGoogleServices(context);
     await visitState(context, 2, 31);
     const page = await context.newPage();
-    for (let n = 2; n <= 4; n++) {
+    for (let n = 2; n <= 3; n++) {
       await page.goto(`/ai-prompts?page=${n}`);
       const paths = await cardPaths(page);
       expect(paths).toEqual(
@@ -171,7 +171,7 @@ test.describe("enabled local discovery preview", () => {
       expect(list.map((x: { url: string }) => new URL(x.url).pathname)).toEqual(
         paths,
       );
-      if (n < 4)
+      if (n < 3)
         await expect(
           page.getByRole("link", { name: "Load more looks" }),
         ).toHaveAttribute("href", `/ai-prompts?page=${n + 1}`);
@@ -187,12 +187,12 @@ test.describe("enabled local discovery preview", () => {
       page.getByRole("button", { name: "Turn on fresh mix on return visits" }),
     ).toBeVisible();
     expect(await cardPaths(page)).toEqual(
-      orderExplore(prompts).slice(72).map(promptPath),
+      orderExplore(prompts).slice(48).map(promptPath),
     );
     await context.close();
   });
   for (const counter of [0, 3])
-    test(`infinite scroll covers the same 74-record snapshot once (variant ${counter})`, async ({
+    test(`infinite scroll covers the same 72-record snapshot once (variant ${counter})`, async ({
       page,
       context,
     }) => {
@@ -200,14 +200,15 @@ test.describe("enabled local discovery preview", () => {
       await page.goto("/ai-prompts");
       for (let batch = 1; batch <= 3; batch++) {
         await expect(page.locator(".prompt-card h3 a")).toHaveCount(batch * 24);
-        await page
-          .locator("[data-load-more-sentinel]")
-          .scrollIntoViewIfNeeded();
+        if (batch < 3)
+          await page
+            .locator("[data-load-more-sentinel]")
+            .scrollIntoViewIfNeeded();
       }
-      await expect(page.locator(".prompt-card h3 a")).toHaveCount(74);
+      await expect(page.locator(".prompt-card h3 a")).toHaveCount(72);
       const paths = await cardPaths(page);
       expect(paths).toEqual(orderExplore(prompts, counter).map(promptPath));
-      expect(new Set(paths).size).toBe(74);
+      expect(new Set(paths).size).toBe(72);
       await page
         .getByRole("button", { name: "Turn off fresh mix on return visits" })
         .click();

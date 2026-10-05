@@ -22,8 +22,16 @@ const reReviewedGuide = (sections: [string, string][], links?: EditorialGuide["l
   ...guide(sections, links),
   updatedAt: "2026-09-25T08:11:00Z",
 });
+const auditReviewedGuide = (sections: [string, string][], links?: EditorialGuide["links"]): EditorialGuide => ({
+  ...guide(sections, links),
+  updatedAt: "2026-10-05T10:13:44Z",
+});
 export const hubGuides: Record<string, EditorialGuide> = {
   ...octoberHubGuides,
+  "/ai-prompts/professional": auditReviewedGuide([
+    ["Choose generation or faithful enhancement", "Your Next Chapter in Focus constructs a new studio headshot; Quiet Confidence constructs a wider seated office portrait. Your Everyday with Better Light edits an existing photograph's exposure and white balance without replacing its scene. Choose the edit when accurate clothing, expression and background matter more than a new set."],
+    ["Match the source and destination", "Use a clear current portrait for generation; enhancement requires the original photograph with recoverable detail. A close headshot suits a small profile icon, while the seated portrait needs space for the desk and hands. Enhancement preserves the source ratio unless you explicitly request a crop. Generated offices, uniforms and styling do not verify an employer, job title or credential."],
+  ]),
   "/ai-prompts/men": guide([
     ["Choose the portrait's job", "For a readable profile image, start with a close crop and a quiet background. City Lights gives more space to the setting and clothing; a professional headshot instead needs even facial light. Choose the use first, then keep only the props that help tell that story."],
     ["Keep character, not a template face", "Supply a clear photograph with a visible hairline and jaw. Preserve beard density, natural complexion and body proportions. A serious cinematic scene does not need the smile from your reference, and formal clothing does not require an older face. Change wardrobe or background one element at a time."],
@@ -44,17 +52,18 @@ export const hubGuides: Record<string, EditorialGuide> = {
     ["Decide how the place participates", "Mediterranean streets use architecture as a setting, while A Mountain Journey Within puts the landscape inside a portrait silhouette. The River Remembers treats travel as a physical memory artwork. Choose an environmental portrait or a deliberate composite before changing the destination."],
     ["Keep scale and location coherent", "Describe one recognisable location and one time of day. Match the person's light direction to the environment; keep vehicles, mountains and doorways at the intended scale. For a personal memory, provide your own location photograph rather than asking the model to invent documentary details."],
   ], [{label:"Explore constructed travel worlds",path:"/collections/creative-transformations"}]),
-  "/ai-prompts/festival": guide([
-    ["Start with the actual celebration", "Diyas call for small warm light sources; Holi needs believable colour on skin and clothing; Garba needs movement and enough room for the outfit. Krishna-inspired child portraits use different props again. Keep those rituals distinct instead of mixing every festival decoration into one image."],
+  "/ai-prompts/festival": auditReviewedGuide([
+    ["Start with the actual celebration", "This festival category includes Christmas as well as Diwali, Holi and Garba. For Christmas, keep the tree and warm practical lights behind a readable face; add greetings later rather than generating unstable lettering. The Indian Festivals collection also includes Krishna-inspired child portraits from the kids category. These are different memberships, not interchangeable lists. Keep each celebration's props distinct."],
     ["Check light, clothing and context", "Preserve the reference person's complexion under coloured light. Ask for readable fabric texture rather than a metallic costume effect. Check culturally specific props and gestures with someone familiar with the celebration, and avoid invented sacred text or logos."],
   ], [{label:"Diwali, Holi, Garba and Krishna portrait collection",path:"/collections/indian-festivals"}]),
   "/collections/romantic": guide([
     ["Choose a moment, not just a backdrop", "A Little Rain uses close shelter and wet city reflections; Barefoot at Blue Hour leaves room for the beach; Old-school Charm makes the journey part of the memory. Pick the interaction that suits the couple before choosing clothes or adding decorative props."],
     ["Still portrait or moving story?", "For a photograph, specify the exact shared gesture and where each person looks. For the anniversary slow-dance reel, preserve the sequence and gentle movement instead of turning every frame into a camera-facing pose. Keep both identities separately identifiable throughout."],
   ], [{label:"All couple photo ideas",path:"/ai-prompts/couple"}]),
-  "/collections/cinematic": guide([
+  "/collections/cinematic": auditReviewedGuide([
     ["Use one clear lighting idea", "City Lights relies on practical night lights; Katana in the Square of Light builds a controlled backlit set. The Projectionist Is Me uses an architectural projection as its main event. Mixing every lighting effect can flatten these differences: retain the key source and its intended shadows."],
     ["Protect the storytelling mechanism", "Choose a believable reaction to the scene, not a default smile. In an impossible environment, check perspective and contact shadows before adding haze or grain. For reels, preserve the hook and payoff; a slow camera push alone does not replace the action."],
+    ["Read the face through practical light", "A Night at the Cinema uses a warm theatre entrance with restrained blue fill on the shadow side. Keep the eyes readable without turning the night scene into daylight. City Lights instead keeps the person stationary inside commuter motion. Check prop geometry, hands and grounded feet before adding grain; a close still portrait and a timed reel need different instructions."],
   ], [{label:"Creative transformations and illusions",path:"/collections/creative-transformations"}]),
   "/collections/studio": guide([
     ["Choose portrait light or product light", "A professional headshot needs even facial exposure; a bridal portrait needs fabric and jewellery detail; a product hero must preserve packaging and label geometry. Start with the closest subject type, then alter backdrop colour without changing the light's purpose."],
@@ -72,8 +81,8 @@ export const hubGuides: Record<string, EditorialGuide> = {
     ["Design for a small circle", "Soft Light prioritises readable identity; Meet Your New Profile Picture adds colour separation; A Fold Around You frames the face with a built set; Small Burst of Motion adds controlled illustration. Keep the distinctive detail near the face, inside a circle-safe central area."],
     ["Test the crop before posting", "Preview the square result at avatar size and in a circular mask. Eyes should remain clear, with room above the hair and no important graphics at the corners. Reduce background contrast if it competes with the face; do not compensate by sharpening skin or whitening the complexion."],
   ], [{label:"Studio lighting alternatives",path:"/collections/studio"}]),
-  "/collections/indian-festivals": guide([
-    ["Four celebrations, four visual directions", "Krishna-inspired portraits depend on the flute, feather and age-appropriate clothing. Diwali scenes work through diya light and family connection. Holi uses powder and spontaneous expression, while Garba uses dance and textile movement. Pick the tradition first and keep its props coherent."],
+  "/collections/indian-festivals": auditReviewedGuide([
+    ["Choose a celebration and its format", "Krishna-inspired portraits depend on the flute, feather and age-appropriate clothing. Diwali scenes work through diya light and family connection. Holi uses powder and spontaneous expression, while Garba uses dance and textile movement. This collection includes child and reel concepts selected across categories; the broader festival category also includes Christmas. Pick the tradition and still or motion output first, keeping its props coherent."],
     ["Personalise respectfully", "Use references for the people and clothing you intend to show. Keep infants and children age-appropriate, preserve natural skin under coloured lighting, and check garments and gestures before sharing. These are creative images, not documentary records of an event that actually happened."],
   ], [{label:"More festival portrait guidance",path:"/ai-prompts/festival"}]),
   "/collections/creative-transformations": guide([
@@ -111,7 +120,7 @@ export const promptGuides: Record<string, EditorialGuide> = {
   ]),
   "soft-light-unmistakably-you-reel": reReviewedGuide([
     ["Use light to reveal, not to rejuvenate", "This restrained clip suits a quiet introduction: attention moves from the grey background's light boundary to the same person's face. Begin with an accepted portrait and keep the light direction fixed. Preserve the actual age, hairline and facial texture as focus resolves; smoothing skin is not part of the reveal."],
-    ["Stop when movement adds nothing", "Compare the sharp closing frames to the source, especially glasses, fine lines and the edge of the black top. If texture flickers or identity shifts, keep the still portrait rather than increasing motion to hide the defect. No moving result is documented here, and an eight-second brief may need trimming in your chosen editor if the video tool only supports other durations."],
+    ["Use an editor-controlled quiet introduction", "For a low-motion alternative, keep the accepted portrait as one fixed layer in a video editor. Animate a small opening blur to zero, with no face animation or perspective warp, then hold the sharp image for the final two seconds. Compare a paused final frame to the original at equal scale: glasses, fine lines and black-top texture must not change. Label this as still-image animation, not a generated performance. No moving result is documented here; the eight-second plan may need trimming for tools with other duration limits."],
   ]),
   "coral-against-the-sky-reel": reReviewedGuide([
     ["Separate the animated portrait from the avatar", "The eight-second coral-and-blue clip is a social-video idea; do not assume your profile-picture field accepts animation. Start from an accepted sharp portrait and keep the head within a central square safe area throughout the vertical sequence. Save a separate sharp still for the avatar instead of exporting the blurred opening frame."],
@@ -145,9 +154,10 @@ export const promptGuides: Record<string, EditorialGuide> = {
     ["Make the family readable at miniature scale", "Identify every intended family member separately and preserve their ages. The three-person example does not override your actual family. Keep the group near the model's front edge around the tiny chessboard, with enough space to distinguish faces; use a wider composition if needed rather than omitting someone. Do not duplicate one reference across different family members."],
     ["Keep the handmade construction", "Visible card, carved wood and glue seams establish that this is a shallow model on a shelf. Change personal courtyard details without converting it into a normal house photograph. Inspect chessboard scale, contact shadows and the rear balconies' recession."],
   ]),
-  "the-tailors-mountain-range": guide([
+  "the-tailors-mountain-range": auditReviewedGuide([
     ["Let cloth create the landscape", "The miniature designer, oversized spool and fabric folds establish the scale relationship. Keep the face close enough to read and the seam visible as a trail. Changing fabric colour is simpler than adding several competing giant props."],
     ["Check scale before adding detail", "Follow the fold ridges toward the distant fabric pass; shadows should make the cloth feel physical. Keep feet in contact with the fabric and inspect the spool's scale. This imaginative artwork is not evidence of an accurately represented sellable garment."],
+    ["Preview stance versus requested stance", "The illustrative preview shows a walking stance, while the copyable prompt asks for a standing designer. It is not evidence of exact prompt reproduction. For the standing version, keep both feet grounded and the seam readable without adding a walking sequence; retain the truthful walking description of the existing preview."],
   ]),
   "last-train-two-ink-portrait": guide([
     ["Keep print texture away from essential features", "Use the plum-and-saffron ink treatment, coarse halftone and paper fibres deliberately. Registration offset can enrich the background, but keep the eyes readable. The diagonal carriage-window shadow crosses the shoulder, not the entire face."],
@@ -169,32 +179,27 @@ export const promptGuides: Record<string, EditorialGuide> = {
     ["Keep the cooking action simple", "Choose a single plausible action already supported by the scene, such as mixing or preparing an ingredient. Let the expression follow concentration or a small reaction to the activity. Do not force simultaneous eye contact, laughter and complicated knife work."],
     ["Check the working surface", "Inspect hand-to-utensil contact, food scale and counter perspective. A kitchen that looks lived-in can communicate an interest better than an invented luxury set. Keep appliances and brands unobtrusive, and reject unsafe or anatomically impossible handling."],
   ]),
-  "the-river-remembers": guide([
+  "the-river-remembers": auditReviewedGuide([
     ["Make the memory specific", "Use a clear adult portrait and, optionally, your own river photograph. Keep the open journal on the ghat step and the curved indigo shoreline flowing from its page into the river. Change the remembered location without letting ink cover the face or turning the scene into a straight split-screen."],
     ["Review the ink transition", "Check the journal edge, hand contact and the curved shoreline at full size. The face, nearest stone and hand should stay photographic while the ink becomes the landscape. Reject a second unrelated portrait, private handwriting or an ordinary background that loses the page-to-river transition."],
+    ["Repair the boundary locally", "Suggested untested repair: mask only the shoreline where it exits the journal and ask for one continuous indigo curve from paper to river. Protect the photographic face, hand and nearest stone. If ink spills over fingers, remove that spill without regenerating the portrait or flattening the transition into a straight dividing line."],
   ]),
   "a-mountain-journey-within": guide([
     ["Build the portrait before the landscape", "Choose a clear, nearly frontal reference. Keep eyes to mouth readable while the Himalayan road runs through the jacket and outer shoulder silhouette. Personalise the mountain range or atmospheric colour without covering the facial centre or introducing a second human silhouette."],
     ["Control the composite", "Use the prompt's restrained mood rather than the reference photograph's smile. Check that landscape texture does not obscure the eye, nose or lips, and that the silhouette remains readable at mobile-card size."],
   ]),
-  "one-day-four-possible-worlds": guide([
+  "one-day-four-possible-worlds": auditReviewedGuide([
     ["Choose four worlds with a shared anchor", "Keep the same person recognisable in all four scenes. Change an individual setting or clothing concept only within its panel, and preserve the original layout. Give each scene a distinct purpose without turning the set into four unrelated stock portraits."],
     ["Review the set together", "Compare face shape, complexion and body proportions across panels, then inspect each hand and prop separately. Expressions should follow each setting; consistency does not mean copying one smile four times."],
+    ["Map and repair panels separately", "Suggested workflow, not a documented generation test: label the panels top-left, top-right, bottom-left and bottom-right, and attach the same identity reference for each. If one panel drifts, mask that panel only and repeat its scene and identity instructions. Preserve the other three panels and grid boundaries. If a single generation cannot retain identity, assemble four separately reviewed images in an ordinary layout editor."],
   ]),
   "portrait-cut-from-monsoon-paper": guide([
     ["Keep the portrait sculptural", "Adapt the paper palette to a personal monsoon memory while preserving the layered cut-paper construction. Use the reference to guide the portrait's geometry; do not demand photographic skin where the scene explicitly calls for paper."],
     ["Check depth and recognition", "Layer edges should cast coherent shadows, and the face should remain recognisable in the material. Reject a flat digital filter, unreadable facial layers or rain details that accidentally become text."],
   ]),
-  "one-saree-three-campaign-worlds": guide([
+  "one-saree-three-campaign-worlds": auditReviewedGuide([
     ["Treat the garment as evidence", "Provide clear garment photographs showing the weave, border and drape. Keep those details stable across the three campaign environments. Do not ask the model to invent unseen embroidery or change the product colour to match each background."],
     ["Compare before publishing", "Check the saree's pattern scale, border width and colour in every panel, alongside the model's identity. Use the images as creative campaign concepts until the represented product details have been verified against the real garment."],
-  ]),
-  "double-exposure-fashion-men": guide([
-    ["Balance the two menswear views", "Use the close profile to carry recognisable facial structure and the full-length figure to show the corduroy-and-denim silhouette. Keep beard and hairline consistent between layers. Change jacket colour only after the two exposures read clearly."],
-    ["Avoid a second invented person", "The profile and standing figure are two depictions of one man, not two models. Keep the full-body feet grounded, leave the translucent layer soft, and use a composed editorial expression rather than reproducing a reference smile."],
-  ]),
-  "double-exposure-fashion-women": guide([
-    ["Use hair and silhouette as structure", "Preserve the woman's hairline and facial proportions in the soft profile, while the standing figure carries the garment shape. Keep strands from becoming an opaque mask over the layered face. Adjust the outfit's fit without slimming the person."],
-    ["Separate pose from identity", "The larger profile and full-length pose can have different gaze directions but must remain one woman. Keep the studio palette warm without lightening her complexion, and inspect overlapping fabric and hair for cut-out artefacts."],
+    ["Assign evidence to each panel", "Suggested untested assembly: label left, centre and right scenes, using the same labelled model and garment references in each. Repair only the panel with a changed border or weave, protecting the other panels. If the tool cannot keep construction exact, preserve an actual garment layer in an editor or reject the inaccurate panel; matching colour alone does not demonstrate product fidelity."],
   ]),
 };

@@ -1,4 +1,8 @@
 import { CollectionDiscovery } from "./collection-discovery";
+import {
+  doubleExposureGuidePath,
+  isConsolidatedPrompt,
+} from "@/content/consolidations";
 import { orderForDiscovery } from "@/lib/prompts/editorial";
 import Link from "@/components/ui/site-link";
 import { CategoryView } from "@/components/ui/view-event";
@@ -45,6 +49,7 @@ export function CatalogPage({
   medium?: "photo" | "reel";
   discovery?: DiscoveryContext;
 }) {
+  prompts = prompts.filter((p) => !isConsolidatedPrompt(p));
   prompts =
     path === "/ai-prompts"
       ? orderExplore(prompts, discovery?.counter)
@@ -124,6 +129,7 @@ export function CatalogPage({
           .filter(
             (c) =>
               c.slug !== "reels" &&
+              c.slug !== "cinematic" &&
               (isCategorySeoEligible(c, availablePrompts) ||
                 path === `/ai-prompts/${c.slug}`),
           )
@@ -137,13 +143,26 @@ export function CatalogPage({
             </Link>
           ))}
       </nav>
+      {page === 1 &&
+        ["/ai-prompts", "/ai-prompts/men", "/ai-prompts/women"].includes(
+          path,
+        ) && (
+          <p className="notice">
+            <Link href={doubleExposureGuidePath}>
+              Double-exposure fashion: one workflow, two styling examples
+            </Link>
+          </p>
+        )}
       <p className="result-count">
-        {prompts.length} looks to make your own
+        {prompts.length} {prompts.length === 1 ? "look" : "looks"} to make your
+        own
         {page > 1 ? ` · Page ${page}` : ""}
       </p>
       {shown.length ? (
         <>
-          <h2 className="sr-only">Explore these looks</h2>
+          {shown.some((p) => p.content_intent !== "utility") && (
+            <h2 className="sr-only">Explore these looks</h2>
+          )}
           <PaginatedGrid
             key={`${path}-${page}-${feedKey}-${discovery?.enabled}-${discovery?.counter}`}
             prompts={cards}

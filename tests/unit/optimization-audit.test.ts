@@ -26,6 +26,7 @@ import {
 } from "../../scripts/optimization/report";
 import { writeReports } from "../../scripts/optimization/io";
 import { promptPath } from "../../types/content";
+import { isConsolidatedPrompt } from "../../content/consolidations";
 
 const asOf = "2026-09-24T12:00:00.000Z";
 const catalog = loadAuditCatalog();
@@ -59,12 +60,12 @@ describe("read-only catalogue acceptance", () => {
       total: 186,
       published: 91,
       drafts: 95,
-      eligible: 91,
+      eligible: 89,
       categories: 17,
       collections: 40,
       eligibleCollections: 8,
       uniqueImages: 80,
-      relatedEdges: 706,
+      relatedEdges: 705,
       withoutCollection: 20,
       withoutEligibleCollection: 34,
       modeledUnreachablePrompts: 0,
@@ -74,7 +75,7 @@ describe("read-only catalogue acceptance", () => {
     ).toHaveLength(11);
     expect(
       baseline.findings.filter((f) => f.rule === "lexical-overlap"),
-    ).toHaveLength(31);
+    ).toHaveLength(32);
   });
   it("retains exact source locations and keeps drafts out of recommendations", () => {
     expect(catalog.sources["category:cinematic"].file).toBe(
@@ -129,13 +130,13 @@ describe("read-only catalogue acceptance", () => {
   });
   it("models every eligible canonical and every protected draft", () => {
     const paths = expectedSitemapPaths(catalog, new Date(asOf));
-    expect(paths).toHaveLength(114);
+    expect(paths).toHaveLength(113);
     expect(paths).toContain("/guides/prompt-trial");
     expect(new Set(paths).size).toBe(paths.length);
     expect(
       expectedPages(catalog, new Date(asOf)).filter((p) => p.status === 404),
     ).toHaveLength(97);
-    for (const p of catalog.prompts.filter((p) => p.is_published))
+    for (const p of catalog.prompts.filter((p) => p.is_published && !isConsolidatedPrompt(p)))
       expect(paths).toContain(promptPath(p));
   });
   it("inspects source and thumbnail metadata without rewriting assets", async () => {

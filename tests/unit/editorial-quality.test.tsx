@@ -9,6 +9,8 @@ import socialReview from "../../docs/audits/social-posts-profiles-2026-09-15/med
 import genZReview from "../../docs/audits/gen-z-discovery-2026-09-15/media/content-review.json";
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
 import contentRereview from "../../docs/audits/content-rereview-2026-09-25/changes.json";
+import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
+import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createHash } from "node:crypto";
@@ -53,6 +55,13 @@ describe("Why AI editorial release", () => {
       ].find((r) => r.id === p.id)!;
       expect(review, p.slug).toBeTruthy();
       const followup = contentRereview.find((r) => r.id === p.id);
+      const dotRevision = [...dotChanges, ...reelChanges].find(
+        (r) => r.id === p.id,
+      );
+      const dotBefore =
+        dotRevision && "prompt_text" in dotRevision.before
+          ? (dotRevision.before.prompt_text as string)
+          : undefined;
       const beforeText =
         followup && "prompt_text" in followup.before
           ? followup.before.prompt_text
@@ -65,11 +74,11 @@ describe("Why AI editorial release", () => {
         expect(createHash("sha256").update(beforeText).digest("hex")).toBe(
           review.sha256,
         );
-        expect(p.prompt_text).toBe(afterText);
+        expect(dotBefore || p.prompt_text).toBe(afterText);
       }
       expect(
         createHash("sha256")
-          .update(beforeText || p.prompt_text)
+          .update(beforeText || dotBefore || p.prompt_text)
           .digest("hex"),
         p.slug,
       ).toBe(review.sha256);

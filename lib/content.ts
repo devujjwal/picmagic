@@ -14,6 +14,7 @@ import {
   allCollections as collections,
 } from "@/content/catalog";
 import categories from "@/content/categories.json";
+import { isConsolidatedPrompt } from "@/content/consolidations";
 
 import {
   promptSchema,
@@ -31,6 +32,7 @@ export class SeedRepository implements ContentRepository {
       prompts: orderForDiscovery(
         prompts
           .map((p) => promptSchema.parse(p))
+          .filter((p) => !isConsolidatedPrompt(p))
           .filter(
             (p) =>
               p.is_published ||
@@ -108,7 +110,11 @@ export class SupabaseRepository implements ContentRepository {
       );
     }
     return {
-      prompts: orderForDiscovery(p.data.map((x) => promptSchema.parse(x))),
+      prompts: orderForDiscovery(
+        p.data
+          .map((x) => promptSchema.parse(x))
+          .filter((p) => !isConsolidatedPrompt(p)),
+      ),
       categories: c.data.map((x) => categorySchema.parse(x)),
       collections: s.data.map((x) =>
         collectionSchema.parse({
@@ -139,7 +145,7 @@ export const getCatalog = unstable_cache(
   () => repository().getCatalog(),
   [
     // One-time release invalidation after the guarded content re-review sync.
-    "catalog-v5-content-rereview",
+    "catalog-v6-dot-consolidation",
     String(socialPreviewEnabled()),
     process.env.CONTENT_SOURCE || "supabase",
     process.env.NEXT_PUBLIC_SUPABASE_URL || "local",

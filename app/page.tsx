@@ -186,7 +186,14 @@ export default async function Home() {
                 prompts.some((p) => p.category_id === c.id),
             )
             .map((c) => (
-              <Link key={c.id} href={`/ai-prompts/${c.slug}`}>
+              <Link
+                key={c.id}
+                href={
+                  c.slug === "cinematic"
+                    ? "/collections/cinematic"
+                    : `/ai-prompts/${c.slug}`
+                }
+              >
                 {c.name}
                 <ArrowRight size={14} />
               </Link>
