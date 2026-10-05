@@ -1,6 +1,7 @@
 import Link from "@/components/ui/site-link";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 import { discoveryRotationEnabled } from "@/config/discovery";
+import { advertisingConfigured } from "@/config/ads";
 export const metadata = makeMetadata(
   "Privacy | PicMagic",
   "How PicMagic handles local saves, optional analytics, advertising and administrator accounts.",
@@ -11,8 +12,8 @@ export default function Privacy() {
     <article className="container prose">
       <h1>Your privacy matters.</h1>
       <p>
-        Updated 25 September 2026. This page describes PicMagic’s implemented
-        data practices.
+        Updated 5 October 2026. This page describes PicMagic’s implemented data
+        practices.
       </p>
       <h2>Photos and prompt creation</h2>
       <p>
@@ -52,16 +53,24 @@ export default function Privacy() {
           </p>
         </>
       )}
-      <h2>Optional analytics and advertising</h2>
+      <h2 id="privacy-choices">Optional analytics and advertising</h2>
+      {!advertisingConfigured() && (
+        <p>
+          Advertising is currently disabled on PicMagic. We do not load the
+          AdSense advertising tag or Google advertising-choice controls while
+          this hold is active. The advertising practices below describe what
+          applies if advertising is enabled after verification.
+        </p>
+      )}
       <p>
         Advertising helps fund PicMagic. We use Google AdSense on selected
         discovery and prompt pages when Google approves our site and supplies
         ads. Google’s Privacy &amp; Messaging consent management platform
         manages advertising choices and applicable regional consent signals,
         including the IAB Transparency and Consent Framework for visitors in the
-        EEA, UK and Switzerland. The advertising tag loads to support that
-        process; loading it does not itself mean you have consented to
-        personalized ads.
+        EEA, UK and Switzerland. When advertising is enabled, the tag loads to
+        support that process; loading it does not itself mean you have consented
+        to personalized ads.
       </p>
       <p>
         Where permitted by your choices and applicable requirements, Google may
@@ -87,6 +96,13 @@ export default function Privacy() {
         fragments; external referrers are reduced to their origin. Admin pages
         are excluded. You can reopen cookie preferences to change your choice.
         Rejecting optional cookies leaves the core application functional.
+      </p>
+      <p>
+        Cookie preferences requires JavaScript for interactive choices. If
+        scripts are blocked or cannot load, optional analytics stays off unless
+        previously allowed. You can remove a previous permission by clearing
+        PicMagic site data in your browser. No choice on this page grants
+        advertising consent.
       </p>
       <p>
         Use Cookie preferences in the footer to open Google’s applicable

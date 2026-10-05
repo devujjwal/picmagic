@@ -12,7 +12,7 @@ function guide(sections: [string, string][], faqs: [string, string][]): Editoria
 
 export const remainingPromptGuides: Record<string, EditorialGuide> = {
   "a-little-rain-a-lot-of-romance": guide([
-    ["Prepare the umbrella interaction", "Use a couple photograph with both faces clear, or two labelled adult portraits. Assign the navy coat and cream trench to the intended people rather than letting the model guess. Keep the transparent umbrella above both heads and the two faces turned toward one another; a close half-body crop should still include the handle and their hands."],
+    ["Prepare the umbrella interaction", "Use a couple photograph with both faces clear, or two labelled adult portraits. Assign the charcoal wool coat and cream trench to the intended people rather than letting the model guess. Keep the transparent umbrella above both heads and the two faces turned toward one another; a close half-body crop should still include the handle and their hands."],
     ["Check rain through the canopy", "Inspect the umbrella rim, handle, fingers and overlapping shoulders. Reflections belong on the wet street and canopy, not as streaks through the faces. Ask to repair only the umbrella if its shaft splits or passes through a head. This constructed Seoul scene does not demonstrate a real trip or weather event."],
   ], [
     ["Why does the umbrella hide one face?", "Raise and tilt only the canopy so both complete faces remain visible beneath it. Keep a single handle and a plausible shared grip; do not move either identity to make room."],

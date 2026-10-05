@@ -2,6 +2,9 @@ import { test, expect } from "./fixtures";
 import AxeBuilder from "@axe-core/playwright";
 // Public journey tests must never generate real advertising impressions.
 test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() =>
+    localStorage.setItem("picmagic:analytics-consent", "no"),
+  );
   await page.route("**/pagead/js/adsbygoogle.js*", (route) =>
     route.fulfill({
       contentType: "application/javascript",

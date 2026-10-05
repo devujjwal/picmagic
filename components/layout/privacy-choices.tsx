@@ -12,6 +12,9 @@ import {
 } from "@/lib/privacy/consent";
 const snapshot = () => readConsent(analyticsConsentKey);
 const serverSnapshot = () => "no" as const;
+const subscribeHydration = () => () => {};
+const hydratedSnapshot = () => true;
+const unhydratedSnapshot = () => false;
 export function PrivacyChoices() {
   const dialog = useRef<HTMLDialogElement>(null);
   const [status, setStatus] = useState("");
@@ -23,15 +26,26 @@ export function PrivacyChoices() {
   const pathname = usePathname();
   const ads = advertisingConfigured();
   const ga = measurementId();
+  const hydrated = useSyncExternalStore(
+    subscribeHydration,
+    hydratedSnapshot,
+    unhydratedSnapshot,
+  );
   if (pathname.startsWith("/admin") || (!ads && !ga)) return null;
   return (
     <>
-      <button
-        className="privacy-control"
-        onClick={() => dialog.current?.showModal()}
-      >
-        Cookie preferences
-      </button>
+      {!hydrated ? (
+        <a className="privacy-control" href="/privacy#privacy-choices">
+          Cookie preferences
+        </a>
+      ) : (
+        <button
+          className="privacy-control"
+          onClick={() => dialog.current?.showModal()}
+        >
+          Cookie preferences
+        </button>
+      )}
       <dialog
         ref={dialog}
         className="privacy-dialog"
