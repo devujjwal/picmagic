@@ -1659,6 +1659,10 @@ main {
   .page-heading h1 {
     font-size: 40px;
   }
+  /* Keep keyboard and automatic scroll targets above the mobile navigation. */
+  html {
+    scroll-padding-bottom: calc(90px + env(safe-area-inset-bottom));
+  }
   .bottom-nav {
     position: fixed;
     bottom: 0;

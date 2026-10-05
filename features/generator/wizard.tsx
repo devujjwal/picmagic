@@ -33,6 +33,7 @@ const initial: GeneratorInput = {
   framing: "Half Body",
   aspect_ratio: "4:5",
   identity: false,
+  age_group: "Keep original age",
   improvement: "Professional Portrait",
   duration: 15,
   mood: "Cinematic",
@@ -176,6 +177,7 @@ export function Wizard({ mode = "photo" }: { mode?: Mode }) {
             ? "No clothing / product styling"
             : "Keep original outfit";
         next.style = "Natural";
+        next.age_group = "Keep original age";
         if (value === "Product") next.identity = false;
       }
       if (key === "improvement" && String(value).startsWith("Product")) {
@@ -269,7 +271,6 @@ export function Wizard({ mode = "photo" }: { mode?: Mode }) {
             <button className="chip" onClick={() => improve("shorten")}>
               Shorten prompt
             </button>
-
           </div>
           {result.scenes && (
             <>
@@ -341,8 +342,43 @@ export function Wizard({ mode = "photo" }: { mode?: Mode }) {
                 </button>
               ))}
             </div>
+            {step === steps.length - 1 &&
+              mode !== "edit" &&
+              !["Product", "Kid", "Family"].includes(input.subject) && (
+                <label className="field">
+                  Age intent
+                  <select
+                    aria-label="Age intent"
+                    value={input.age_group}
+                    onChange={(event) =>
+                      update("age_group", event.target.value)
+                    }
+                  >
+                    <option value="Keep original age">Keep original age</option>
+                    <option value="Adult">
+                      Creative adult age: approximately 22–30
+                    </option>
+                    <option value="Older adult">
+                      Creative older adult age: approximately 60–75
+                    </option>
+                  </select>
+                  <span className="fine-print">
+                    Creative age choices deliberately change adult age cues
+                    while retaining identity. Keep original age preserves the
+                    reference; children and teenagers cannot be transformed into
+                    adults.
+                  </span>
+                </label>
+              )}
             {step === steps.length - 1 && input.subject !== "Product" && (
-              <p className="notice">Your reference photo determines identity. Without a reference, the prompt uses an Indian/South Asian example. Styling can change while recognizable features remain yours.</p>
+              <p className="notice">
+                Your reference photo determines identity. Without a reference,
+                the prompt uses an Indian/South Asian example. Age is preserved
+                by default. An explicitly selected creative age changes adult
+                age cues. Scoped edits preserve source age. Styling can change
+                while recognizable features remain yours; third-party tools may
+                still drift.
+              </p>
             )}
             <div className="wizard-buttons">
               <button

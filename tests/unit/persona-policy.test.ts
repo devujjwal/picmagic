@@ -4,7 +4,6 @@ import {
   PERSONA_POLICY_VERSION,
   personaIssues,
   personaPreamble,
-  referencePersona,
 } from "@/lib/prompts/persona";
 import {
   composePreviewGenerationPrompt,
@@ -133,7 +132,13 @@ describe("reference and preview persona separation", () => {
       aspect_ratio: "4:5",
       identity: false,
     });
-    expect(result.text).toContain(referencePersona);
+    expect(result.text).toContain(
+      "Preserve every person's recognizable facial identity",
+    );
+    expect(result.text).toContain(
+      "preserve every supplied person's apparent age",
+    );
+    expect(result.text).not.toContain("22–30");
     expect(result.text).toContain("NO REFERENCE PRESENT:");
     expect(result.text).not.toContain("lips, hairstyle, skin tone");
   });

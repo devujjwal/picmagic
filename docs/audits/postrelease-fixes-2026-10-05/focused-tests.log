@@ -1,0 +1,9 @@
+
+ RUN  v5.0.0 /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+
+
+ Test Files  6 passed (6)
+      Tests  38 passed (38)
+   Start at  19:23:32
+   Duration  3.68s (environment 51%, setup 17%, transform 16%, import 8%, tests 6%, worker 2%)
+

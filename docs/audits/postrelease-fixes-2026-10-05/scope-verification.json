@@ -1,0 +1,26 @@
+{
+  "baseline": "4d70ca6",
+  "branch": "codex/postrelease-audit-oct5",
+  "changedRecords": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "fields": [
+        "framing",
+        "camera"
+      ]
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "fields": [
+        "prompt_text"
+      ]
+    }
+  ],
+  "allOtherSeedFieldsAndRecordOrdering": "unchanged",
+  "draftsAndFlags": "unchanged",
+  "privateAndMediaAssets": "no tracked changes",
+  "databaseApplication": "unapplied",
+  "browserMatrix": "unverified: environment launch restrictions"
+}

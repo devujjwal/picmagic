@@ -1,3 +1,4 @@
+import releasedRevisions from "../../docs/audits/dot-public-2026-10-05/release-revisions.json";
 import { expect, it } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
 import Guide from "@/app/guides/double-exposure-fashion/page";
@@ -11,10 +12,7 @@ import { doubleExposureGuide } from "@/content/double-exposure-guide";
 import { isPromptSeoEligible } from "@/lib/seo/eligibility";
 import { allPrompts } from "@/content/catalog";
 import { promptSchema } from "@/types/content";
-import {
-  reviewedRevisions,
-  releaseSql,
-} from "../../scripts/content/dot-release";
+import { type Revision, releaseSql } from "../../scripts/content/dot-release";
 
 it("consolidates without changing publication or indexability flags", () => {
   const archived = allPrompts.filter((p) =>
@@ -46,7 +44,9 @@ it("presents two illustrative examples and one complete inclusive recipe", () =>
   expect(doubleExposureGuide.prompt).toContain("not guaranteed");
 });
 it("prepares only scoped, transactional, conflict-checked revisions", () => {
-  const revisions = reviewedRevisions("c21f970");
+  // The completed release is immutable; test its saved patch, not a new
+  // cumulative diff containing later, separately approved fields.
+  const revisions = releasedRevisions.revisions as unknown as Revision[];
   expect(revisions.filter((r) => r.table === "prompts")).toHaveLength(27);
   expect(revisions.some((r) => "reference_contract" in r.after)).toBe(true);
   expect(revisions.filter((r) => "created_at" in r.after)).toHaveLength(9);

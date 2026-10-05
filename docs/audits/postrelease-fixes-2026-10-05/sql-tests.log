@@ -1,0 +1,1 @@
+PASS: preview rollback, two exact row updates, verification, guarded rollback, untouched draft/membership, late-conflict atomicity, protected flag rejection, repeat apply rejection, rollback conflict rejection. Disposable socket-only database; no production connection.

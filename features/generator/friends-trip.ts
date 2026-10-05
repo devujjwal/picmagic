@@ -1,5 +1,10 @@
+import {
+  utilityReference,
+  preserveReferenceAge,
+  utilityExpression,
+} from "./reference-policy";
 import { z } from "zod";
-import { referencePersona, referenceRequired } from "@/lib/prompts/persona";
+import { referenceRequired } from "@/lib/prompts/persona";
 
 export const friendsTripInputSchema = z.object({
   friends_count: z.number().int().min(2).max(8),
@@ -70,7 +75,9 @@ export function generateFriendsTrip(input: FriendsTripInput, preview = false) {
   }));
   const text = [
     `Use the uploaded reference photos of exactly ${n} friends as the authoritative identity source for every shot. Create a ${duration}-second, 9:16 vertical image-to-video travel-memory reel at ${v.place_name}.`,
-    referencePersona,
+    utilityReference,
+    preserveReferenceAge,
+    utilityExpression,
     referenceRequired,
     `Maintain exactly ${n} distinct friends independently: no merged or swapped faces, duplicate people, missing friends, extra people or homogenized appearances. The reference people's actual ethnicity and skin tones remain authoritative. Pose, expression, clothing and hairstyle may adapt naturally for continuity; never replace identity.`,
     "CREATIVE DIRECTION:",

@@ -26,11 +26,15 @@ const auditReviewedGuide = (sections: [string, string][], links?: EditorialGuide
   ...guide(sections, links),
   updatedAt: "2026-10-05T10:13:44Z",
 });
+const postreleaseGuide = (sections: [string, string][], links?: EditorialGuide["links"]): EditorialGuide => ({
+  ...guide(sections, links),
+  updatedAt: "2026-10-05T13:44:06Z",
+});
 export const hubGuides: Record<string, EditorialGuide> = {
   ...octoberHubGuides,
-  "/ai-prompts/professional": auditReviewedGuide([
-    ["Choose generation or faithful enhancement", "Your Next Chapter in Focus constructs a new studio headshot; Quiet Confidence constructs a wider seated office portrait. Your Everyday with Better Light edits an existing photograph's exposure and white balance without replacing its scene. Choose the edit when accurate clothing, expression and background matter more than a new set."],
-    ["Match the source and destination", "Use a clear current portrait for generation; enhancement requires the original photograph with recoverable detail. A close headshot suits a small profile icon, while the seated portrait needs space for the desk and hands. Enhancement preserves the source ratio unless you explicitly request a crop. Generated offices, uniforms and styling do not verify an employer, job title or credential."],
+  "/ai-prompts/professional": postreleaseGuide([
+    ["Choose generation or faithful enhancement", "Your Next Chapter in Focus creates a new navy-jacket studio headshot from an identity reference: choose it for a new set and styling rather than a faithful edit. A Headshot That Feels Like You adapts an existing portrait with balanced facial light and a quiet grey background, retaining the original outfit, spectacles and expression unless you explicitly change them. Your Everyday with Better Light adjusts exposure, white balance and shadows only: choose it to keep the existing scene, clothing and expression."],
+    ["Match the source and destination", "Use a clear current portrait for generation; enhancement requires the original photograph with recoverable detail. Both headshot options suit a small profile icon; the adapted headshot needs a sharp source with eyes and shoulders visible. The lighting-only option keeps the original composition. Enhancement preserves the source ratio unless you explicitly request a crop. Generated offices, uniforms and styling do not verify an employer, job title or credential."],
   ]),
   "/ai-prompts/men": guide([
     ["Choose the portrait's job", "For a readable profile image, start with a close crop and a quiet background. City Lights gives more space to the setting and clothing; a professional headshot instead needs even facial light. Choose the use first, then keep only the props that help tell that story."],
@@ -81,8 +85,8 @@ export const hubGuides: Record<string, EditorialGuide> = {
     ["Design for a small circle", "Soft Light prioritises readable identity; Meet Your New Profile Picture adds colour separation; A Fold Around You frames the face with a built set; Small Burst of Motion adds controlled illustration. Keep the distinctive detail near the face, inside a circle-safe central area."],
     ["Test the crop before posting", "Preview the square result at avatar size and in a circular mask. Eyes should remain clear, with room above the hair and no important graphics at the corners. Reduce background contrast if it competes with the face; do not compensate by sharpening skin or whitening the complexion."],
   ], [{label:"Studio lighting alternatives",path:"/collections/studio"}]),
-  "/collections/indian-festivals": auditReviewedGuide([
-    ["Choose a celebration and its format", "Krishna-inspired portraits depend on the flute, feather and age-appropriate clothing. Diwali scenes work through diya light and family connection. Holi uses powder and spontaneous expression, while Garba uses dance and textile movement. This collection includes child and reel concepts selected across categories; the broader festival category also includes Christmas. Pick the tradition and still or motion output first, keeping its props coherent."],
+  "/collections/indian-festivals": postreleaseGuide([
+    ["Choose a celebration for a still portrait", "This collection contains four photo ideas. Tiny Krishna, Big Wonder uses a child reference, flute, feather and visible tilak. A Family Evening, Lit by Diyas keeps the family together in warm household light. A Little Holi Happiness uses playful colour; Garba Under the Lights captures a dance pose and readable fabric in a still photograph. Choose the celebration, people and props before editing. The child concept comes from the kids category; the broader festival category also includes Christmas. Motion plans are outside this collection."],
     ["Personalise respectfully", "Use references for the people and clothing you intend to show. Keep infants and children age-appropriate, preserve natural skin under coloured lighting, and check garments and gestures before sharing. These are creative images, not documentary records of an event that actually happened."],
   ], [{label:"More festival portrait guidance",path:"/ai-prompts/festival"}]),
   "/collections/creative-transformations": guide([
@@ -188,18 +192,18 @@ export const promptGuides: Record<string, EditorialGuide> = {
     ["Build the portrait before the landscape", "Choose a clear, nearly frontal reference. Keep eyes to mouth readable while the Himalayan road runs through the jacket and outer shoulder silhouette. Personalise the mountain range or atmospheric colour without covering the facial centre or introducing a second human silhouette."],
     ["Control the composite", "Use the prompt's restrained mood rather than the reference photograph's smile. Check that landscape texture does not obscure the eye, nose or lips, and that the silhouette remains readable at mobile-card size."],
   ]),
-  "one-day-four-possible-worlds": auditReviewedGuide([
+  "one-day-four-possible-worlds": postreleaseGuide([
     ["Choose four worlds with a shared anchor", "Keep the same person recognisable in all four scenes. Change an individual setting or clothing concept only within its panel, and preserve the original layout. Give each scene a distinct purpose without turning the set into four unrelated stock portraits."],
     ["Review the set together", "Compare face shape, complexion and body proportions across panels, then inspect each hand and prop separately. Expressions should follow each setting; consistency does not mean copying one smile four times."],
-    ["Map and repair panels separately", "Suggested workflow, not a documented generation test: label the panels top-left, top-right, bottom-left and bottom-right, and attach the same identity reference for each. If one panel drifts, mask that panel only and repeat its scene and identity instructions. Preserve the other three panels and grid boundaries. If a single generation cannot retain identity, assemble four separately reviewed images in an ordinary layout editor."],
+    ["Map and repair panels separately", "Suggested workflow, not a documented generation test: label the dominant left portrait and the three unequal curved right-side windows: night-sky observer, pottery maker and mountain traveller, and attach the same identity reference for each. If one panel drifts, mask that panel only and repeat its scene and identity instructions. Preserve the other three regions and the original curved boundaries. If a single generation cannot retain identity, assemble four separately reviewed depictions within the same asymmetric left-plus-three-right layout in an ordinary editor."],
   ]),
   "portrait-cut-from-monsoon-paper": guide([
     ["Keep the portrait sculptural", "Adapt the paper palette to a personal monsoon memory while preserving the layered cut-paper construction. Use the reference to guide the portrait's geometry; do not demand photographic skin where the scene explicitly calls for paper."],
     ["Check depth and recognition", "Layer edges should cast coherent shadows, and the face should remain recognisable in the material. Reject a flat digital filter, unreadable facial layers or rain details that accidentally become text."],
   ]),
-  "one-saree-three-campaign-worlds": auditReviewedGuide([
+  "one-saree-three-campaign-worlds": postreleaseGuide([
     ["Treat the garment as evidence", "Provide clear garment photographs showing the weave, border and drape. Keep those details stable across the three campaign environments. Do not ask the model to invent unseen embroidery or change the product colour to match each background."],
     ["Compare before publishing", "Check the saree's pattern scale, border width and colour in every panel, alongside the model's identity. Use the images as creative campaign concepts until the represented product details have been verified against the real garment."],
-    ["Assign evidence to each panel", "Suggested untested assembly: label left, centre and right scenes, using the same labelled model and garment references in each. Repair only the panel with a changed border or weave, protecting the other panels. If the tool cannot keep construction exact, preserve an actual garment layer in an editor or reject the inaccurate panel; matching colour alone does not demonstrate product fidelity."],
+    ["Assign evidence to each panel", "Suggested untested assembly: label the dominant left basalt courtyard view and the two right-side regions: rain-lit glass pavilion and ivory sculptural studio, using the same labelled model and garment references in each. Repair only the panel with a changed border or weave, protecting the other panels and the original dominant-left/two-right composition and boundaries. If the tool cannot keep construction exact, preserve an actual garment layer in an editor or reject the inaccurate panel; matching colour alone does not demonstrate product fidelity."],
   ]),
 };

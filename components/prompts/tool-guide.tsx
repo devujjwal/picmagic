@@ -35,9 +35,9 @@ export function ToolGuide({ edit = false }: { edit?: boolean }) {
               clear photo you have permission to edit there, not here.
             </li>
             <li>
-              Check the result against the reference. Keep the same face, age,
-              complexion and proportions; request one focused correction if they
-              drift.
+              {edit
+                ? "Check the result against the reference. Keep the same face, age, complexion and proportions; request one focused correction if they drift."
+                : "Check the result against the reference. Keep the same face, complexion and proportions. Keep source age unless you explicitly selected a creative adult age; then check only the selected age cues change. Request one focused correction if identity drifts."}
             </li>
           </ol>
         </div>

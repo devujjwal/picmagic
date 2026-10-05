@@ -1,0 +1,27 @@
+
+Running 16 tests using 1 worker
+
+(node:96297) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/dot-audit-remediation.spec.ts:3:1 › creator exposes a useful no-script route (1.2s)
+  ✓   2 [chromium] › tests/e2e/dot-audit-remediation.spec.ts:28:1 › last finite page exposes previous navigation (1.3s)
+  ✓   3 [chromium] › tests/e2e/dot-audit-remediation.spec.ts:51:1 › source-preserving prompt and legacy sample limitations render (930ms)
+(node:96327) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96327) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/postrelease-fixes.spec.ts:33:3 › postrelease wizard/copy/Shorten/age/focus 1180px (21.2s)
+  ✓   5 [chromium] › tests/e2e/postrelease-fixes.spec.ts:125:3 › postrelease progress/navigation/filter/history 1180px (2.9s)
+  ✓   6 [chromium] › tests/e2e/postrelease-fixes.spec.ts:179:3 › postrelease menu/search/save/privacy/detail-copy 1180px (3.4s)
+  ✓   7 [chromium] › tests/e2e/postrelease-fixes.spec.ts:33:3 › postrelease wizard/copy/Shorten/age/focus 390px (30.7s)
+  ✓   8 [chromium] › tests/e2e/postrelease-fixes.spec.ts:125:3 › postrelease progress/navigation/filter/history 390px (1.4s)
+  ✓   9 [chromium] › tests/e2e/postrelease-fixes.spec.ts:179:3 › postrelease menu/search/save/privacy/detail-copy 390px (1.4s)
+  ✓  10 [chromium] › tests/e2e/postrelease-fixes.spec.ts:33:3 › postrelease wizard/copy/Shorten/age/focus 320px (27.6s)
+  ✓  11 [chromium] › tests/e2e/postrelease-fixes.spec.ts:125:3 › postrelease progress/navigation/filter/history 320px (1.5s)
+  ✓  12 [chromium] › tests/e2e/postrelease-fixes.spec.ts:179:3 › postrelease menu/search/save/privacy/detail-copy 320px (1.5s)
+  ✓  13 [chromium] › tests/e2e/reel-preview.spec.ts:18:1 › real preview has no server video source, plays on demand and pauses (1.2s)
+  ✓  14 [chromium] › tests/e2e/reel-preview.spec.ts:47:1 › failed video retains the poster without a broken player (353ms)
+  ✓  15 [chromium] › tests/e2e/reel-preview.spec.ts:61:1 › discovery with reduced motion downloads no preview videos (419ms)
+  ✓  16 [chromium] › tests/e2e/reel-preview.spec.ts:76:1 › reel pagination is crawlable and owns distinct canonical URLs (460ms)
+
+  16 passed (1.7m)

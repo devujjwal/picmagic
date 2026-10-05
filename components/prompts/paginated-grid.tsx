@@ -83,11 +83,12 @@ export function PaginatedGrid({
           />
         </section>
       )}
-      <p className="sr-only" role="status">
-        Showing {visible.length} looks on this page.
+      <p className="result-count" role="status">
+        Showing looks {start + 1}–{Math.min(end, prompts.length)} of{" "}
+        {prompts.length}.
       </p>
       {Math.ceil(prompts.length / 24) > 1 && (
-        <nav className="pagination" aria-label="Prompt pages">
+        <nav className="pagination flex-wrap" aria-label="Prompt pages">
           {page > 1 && (
             <a
               className="button secondary"
@@ -97,9 +98,25 @@ export function PaginatedGrid({
               Previous page
             </a>
           )}
-          <span>
-            Page {page} of {Math.ceil(prompts.length / 24)}
-          </span>
+          <p className="basis-full text-center">
+            Server page {page} of {Math.ceil(prompts.length / 24)} · appended
+            results shown above
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {Array.from(
+              { length: Math.ceil(prompts.length / 24) },
+              (_, i) => i + 1,
+            ).map((number) => (
+              <a
+                key={number}
+                className="chip"
+                aria-current={number === page ? "page" : undefined}
+                href={number === 1 ? path : `${path}?page=${number}`}
+              >
+                Page {number}
+              </a>
+            ))}
+          </div>
         </nav>
       )}
       {hasMore && (

@@ -35,12 +35,15 @@ This separate round retains the active release hold. Research and current-librar
 The six user-supplied WhatsApp images are research references only: never copy them to public assets, publish them, reuse their faces or reproduce visible branding/UI. The local reference comparison sheet lives under gitignored `.release-private/reference-impact-2026-09-15/`. This round uses ChatGPT browser image generation only and retains the release hold. Accepted records are unpublished local drafts using the existing seed preview guard. No new homepage ordering or automatic release is authorized. See `docs/audits/reference-impact-2026-09-15/` for selection, provenance, prompt and QA records.
 
 ## Scoped preview authorization — 15 September 2026
+
 The owner explicitly requested Codex-only preview generation for double-exposure-fashion-men, double-exposure-fashion-women, katana-in-the-square-of-light and standing-on-my-playlist. This overrides the earlier ChatGPT-only workflow for these four assets only. Preserve the active release hold: local draft review is authorized; production activation and deployment are not.
 
 ## Explicit production release approval — 15 September 2026
+
 The owner upgraded Netlify to Personal independently and explicitly requested that the reviewed branch changes go live. The release hold is lifted for the 16 approved September 15 prompt additions, optimized assets, collection memberships and required release checks. Publish this batch once after local validation; preserve 95 unfinished drafts and existing homepage features. Future unapproved work remains branch-only. The existing Personal subscription and included credits are authorized; no additional purchases, upgrades or auto-recharge changes are authorized.
 
 ## AdSense implementation approval — 25 September 2026
+
 The owner approved the audited local remediation batch on `feature/seo-aeo-geo-agent`: content-aware advertising boundaries, two collection-copy corrections, six practical workflows, the documented two-example trial, tool explanations and local QA. This is not release approval. Do not push, deploy, update production Supabase, change publication/indexability flags, or request AdSense review. Preserve canonical URLs and existing unfinished work. Regional CMP and Auto ads verification remain explicit release dependencies; stubbed browser tests are not evidence of actual geographic consent behavior.
 
 ## Combined release approval — 25 September 2026
@@ -81,3 +84,7 @@ and issue-reporting implementation. Keep ads disabled, all 95 drafts unpublished
 and private identity references, recognizable test outputs and account screenshots
 out of Git and deployment. No Supabase migration/content sync, account-permission
 change, advertising activation or AdSense review submission is included.
+
+## Post-release remediation release approval — 5 October 2026
+
+The owner explicitly requested making the reviewed post-release audit fixes live and then reviewing the live site using Dot again. This authorizes one validated code release and the exact two-record transactional patch documented in `docs/audits/postrelease-fixes-2026-10-05/`, with live old-value checks and full-catalog preservation checks. Keep ads disabled, 95 drafts unpublished, social publishing untouched, and private references out of Git/deployment. No AdSense review/indexing request, authentication change, new media generation, purchase or upgrade is authorized.

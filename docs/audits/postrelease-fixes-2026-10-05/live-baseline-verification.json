@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-05T14:03:52.413Z",
+  "prompts": 186,
+  "published": 91,
+  "drafts": 95,
+  "records": [
+    {
+      "id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "slug": "golden-hour-draped-in-tradition",
+      "updated_at": "2026-10-05T10:43:43.949+00:00",
+      "oldFieldsMatch": true,
+      "protectedFieldsMatch": true
+    },
+    {
+      "id": "9826de05-2220-5039-9749-8ac3bac6d81d",
+      "slug": "an-outfit-with-a-new-perspective",
+      "updated_at": "2026-10-05T10:43:43.949+00:00",
+      "oldFieldsMatch": true,
+      "protectedFieldsMatch": true
+    }
+  ],
+  "collectionsUnchanged": true
+}

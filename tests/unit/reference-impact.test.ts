@@ -14,6 +14,7 @@ import identityPreviewManifest from "../../docs/audits/identity-expression-polic
 import seoFollowup from "../../docs/audits/seo-followup-2026-09-24/editorial-changes.json";
 import contentRereview from "../../docs/audits/content-rereview-2026-09-25/changes.json";
 import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
+import postrelease from "../../docs/audits/postrelease-fixes-2026-10-05/database-patch.json";
 import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import {
   socialPreviewEnabled,
@@ -58,6 +59,7 @@ describe("Reference-inspired local expansion", () => {
         ...contentRereview.find((change) => change.id === p.id)?.after,
         ...dotChanges.find((change) => change.id === p.id)?.after,
         ...reelChanges.find((change) => change.id === p.id)?.after,
+        ...postrelease.find((change) => change.id === p.id)?.after,
       });
     }
     expect(candidates).toHaveLength(15);

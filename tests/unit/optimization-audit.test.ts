@@ -75,7 +75,7 @@ describe("read-only catalogue acceptance", () => {
     ).toHaveLength(11);
     expect(
       baseline.findings.filter((f) => f.rule === "lexical-overlap"),
-    ).toHaveLength(32);
+    ).toHaveLength(30);
   });
   it("retains exact source locations and keeps drafts out of recommendations", () => {
     expect(catalog.sources["category:cinematic"].file).toBe(

@@ -30,7 +30,11 @@ test("last finite page exposes previous navigation", async ({ page }) => {
   await expect(
     page.getByRole("link", { name: "Previous page" }),
   ).toHaveAttribute("href", "/ai-prompts?page=2");
-  await expect(page.getByText("Page 3 of 3", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText("Server page 3 of 3 · appended results shown above", {
+      exact: true,
+    }),
+  ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "More looks to explore", exact: true }),
   ).toBeVisible();

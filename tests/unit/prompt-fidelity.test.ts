@@ -1,3 +1,4 @@
+import postrelease from "../../docs/audits/postrelease-fixes-2026-10-05/database-patch.json";
 import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
 import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import { describe, it, expect } from "vitest";
@@ -26,13 +27,18 @@ describe("preview fidelity", () => {
     for (const p of prompts) {
       const r = releaseReview.records.find((r) => r.id === p.id)!;
       expect(r.slug).toBe(p.slug);
+      const currentRevision = postrelease.find((x) => x.id === p.id);
       const revision = dotChanges.find((x) => x.id === p.id);
       const baselineText =
         revision && "prompt_text" in revision.before
           ? revision.before.prompt_text
           : p.prompt_text;
       if (revision && "prompt_text" in revision.after)
-        expect(p.prompt_text).toBe(revision.after.prompt_text);
+        expect(currentRevision?.before.prompt_text ?? p.prompt_text).toBe(
+          revision.after.prompt_text,
+        );
+      if (currentRevision?.after.prompt_text)
+        expect(p.prompt_text).toBe(currentRevision.after.prompt_text);
       expect(
         createHash("sha256")
           .update(baselineText as string)

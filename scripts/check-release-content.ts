@@ -5,6 +5,7 @@ import sharp from "sharp";
 import { allPrompts, allCollections } from "../content/catalog";
 import scope from "../docs/releases/2026-09-15/content-review.json";
 import contentRereview from "../docs/audits/content-rereview-2026-09-25/changes.json";
+import postrelease from "../docs/audits/postrelease-fixes-2026-10-05/database-patch.json";
 import dotChanges from "../docs/audits/dot-public-2026-10-05/changes.json";
 import reelChanges from "../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import baseline from "../docs/audits/creative-upgrade-2026-09-11/production-public-snapshot.json";
@@ -25,7 +26,11 @@ for (const raw of allPrompts) {
   ids.add(p.id);
   paths.add(promptPath(p));
   const review = scope.records.filter((r) => r.id === p.id);
-  const hash = createHash("sha256").update(p.prompt_text).digest("hex");
+  const latest = postrelease.find((revision) => revision.id === p.id);
+  const releaseText = latest?.before.prompt_text ?? p.prompt_text;
+  if (latest?.after.prompt_text && p.prompt_text !== latest.after.prompt_text)
+    failures.push(`${p.slug}: stale post-release correction`);
+  const hash = createHash("sha256").update(releaseText).digest("hex");
   // Preserve the historical review. A scoped follow-up must connect its exact
   // before text to that baseline and its after text to the current record.
   const followup = contentRereview.find((r) => r.id === p.id);
@@ -40,7 +45,7 @@ for (const raw of allPrompts) {
     dotRevision && "prompt_text" in dotRevision.after
       ? dotRevision.after.prompt_text
       : undefined;
-  const priorText = typeof dotBefore === "string" ? dotBefore : p.prompt_text;
+  const priorText = typeof dotBefore === "string" ? dotBefore : releaseText;
   const beforeText =
     followup && "prompt_text" in followup.before
       ? followup.before.prompt_text
@@ -60,7 +65,7 @@ for (const raw of allPrompts) {
     review.length === 1 &&
     typeof dotBefore === "string" &&
     typeof dotAfter === "string" &&
-    dotAfter === p.prompt_text &&
+    dotAfter === releaseText &&
     (createHash("sha256").update(dotBefore).digest("hex") ===
       review[0].sha256 ||
       reviewedFollowup);

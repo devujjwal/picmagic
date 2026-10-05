@@ -1,9 +1,14 @@
 import { z } from "zod";
+import { personaPreamble, productPersona } from "@/lib/prompts/persona";
 import {
-  personaPreamble,
-  referencePersona,
-  productPersona,
-} from "@/lib/prompts/persona";
+  utilityPreamble,
+  utilityReference,
+  compactUtilityReference,
+  utilityExpression,
+  compactUtilityExpression,
+  preserveAge,
+  compactPreserveAge,
+} from "./reference-policy";
 // Avoid runtime code generation so validation works under the production CSP.
 z.config({ jitless: true });
 export const subjects = [
@@ -167,9 +172,11 @@ export interface ImageGenerationProvider {
     referenceImage?: Blob;
   }): Promise<{ url: string }>;
 }
-export const identityInstruction = referencePersona;
+export const identityInstruction = utilityReference;
 export const referenceDetailInstruction =
-  "Essential reference details: retain the identity-defining hairline, original hair part and texture, facial hair characteristics, spectacles, jewellery, headwear, visible cultural marks such as a bindi or tilak, and distinguishing facial features unless a requested direction explicitly changes that detail. Do not copy the reference smile, expression, gaze, pose, clothing or lighting into a new creative scene. Determine expression from the scene's emotion and use a smile only when it belongs in that scene. For a scoped edit, preserve the source expression and all details outside the requested change. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
+  "Essential reference details: retain the identity-defining hairline, original hair part and texture, facial hair characteristics, spectacles, jewellery, headwear, visible cultural marks such as a bindi or tilak, and distinguishing facial features unless a requested direction explicitly changes that detail. For a scoped edit, preserve the source expression and all details outside the requested change. Do not invent a religious mark merely from a broad style choice. Keep defining accessories and held objects visible within the crop. Use a personal photo for identity and any separate style preview only for styling, never as a replacement face.";
+const compactReferenceDetails =
+  "Essential reference details: retain hairline, original hair part and texture, facial hair, spectacles, jewellery, headwear, bindi or tilak and distinguishing facial features unless explicitly changed. Do not invent a religious mark from a broad style. For a scoped edit, preserve the original expression, pose, outfit and background and all details outside the requested change. Keep accessories and held objects inside the crop. Personal references supply identity; style previews supply styling only.";
 export function interpolate(
   template: string,
   variables: Record<string, string>,
@@ -228,19 +235,22 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     const product = v.subject === "Product";
     const subject = product
       ? "the product in the reference, preserving its geometry, materials and existing label text"
-      : `the person or group from the reference when supplied, otherwise the fictional ${v.subject.toLowerCase()} specified above. Follow an explicitly requested age; when adult age is unspecified, use approximately 22–30 regardless of the reference's apparent age. Preserve natural proportions. If the reference does not match the requested ${v.subject.toLowerCase()} concept or omits intended group members, ask for suitable complete references instead of inventing people`;
+      : `the person or group from the reference when supplied, otherwise the fictional ${v.subject.toLowerCase()} specified above. Preserve natural proportions. If the reference does not match the requested ${v.subject.toLowerCase()} concept or omits intended group members, ask for suitable complete references instead of inventing people`;
     const pose = product
       ? "a clean three-quarter product presentation with stable geometry"
       : poses[v.variant % poses.length];
     return {
       text:
-        personaPreamble(
-          product ? "product" : "person",
-          v.subject === "Kid" ? "child" : v.subject,
-        ) +
+        (product
+          ? personaPreamble("product", v.subject)
+          : utilityPreamble(
+              v.subject === "Kid" ? "child" : v.subject,
+              false,
+              v.age_group,
+            )) +
         "\n\n" +
         interpolate(
-          "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{identity_preservation}} {{reference_details}}",
+          "Create a {{style}} photograph of {{subject}}. Place the subject in {{background}}, using {{lighting}} lighting and {{pose}}. Styling: {{outfit}}. Framing: {{framing}}. Camera direction: {{camera}}. Build a clear composition with realistic depth, consistent shadows and natural colour. {{texture}} Output aspect ratio: {{aspect_ratio}}. {{reference_details}} No added text or watermarks.",
           {
             style: v.style.toLowerCase(),
             subject,
@@ -260,9 +270,6 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
               ? "Retain fine material texture, legible original labels and realistic reflections."
               : "Retain skin texture and believable hands. Avoid beauty filters and exaggerated proportions.",
             aspect_ratio: v.aspect_ratio,
-            identity_preservation: !product
-              ? identityInstruction
-              : "Do not add watermarks or unwanted text.",
             reference_details: product
               ? "Essential reference details: preserve the exact cap, handle, label, logo, geometry and material texture of the supplied product. Keep the complete object visible and never replace its branding with invented lettering."
               : referenceDetailInstruction,
@@ -288,11 +295,6 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     // photoshoot template: those directions can erase the details being kept.
     if (scopedEdits.includes(v.improvement)) {
       const product = v.subject === "Product";
-      const identity = product
-        ? "Preserve the exact object, geometry, materials, existing label and branding."
-        : v.improvement === "Hairstyle Ideas"
-          ? identityInstruction.replace("hairstyle, ", "")
-          : identityInstruction;
       const requested =
         v.improvement === "Change Background" ||
         v.improvement === "Product Background"
@@ -305,7 +307,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
                 ? "Retain the source's monochrome or colour treatment; do not colourize unless requested."
                 : "";
       return {
-        text: `${personaPreamble(product ? "product" : "person", v.subject, true)}\n\nEdit the supplied photo. ${editDirections[v.improvement]} ${requested} ${identity} ${product ? "Preserve all original product details, placement and supporting props outside the requested edit." : `${referenceDetailInstruction} Preserve the original expression, pose, outfit and background except for the specifically requested change.`} ${v.recrop ? `Recrop to ${v.aspect_ratio} only as explicitly requested` : "Preserve the source aspect ratio and original crop; do not recrop merely to match the preview"}${product ? "" : " and do not invent unseen body parts"}. No added text or watermarks.`,
+        text: `${product ? personaPreamble("product", v.subject, true) : utilityPreamble(v.subject, true)}\n\nEdit the supplied photo. ${editDirections[v.improvement]} ${requested} ${product ? "Preserve all original product details, placement and supporting props outside the requested edit." : `${referenceDetailInstruction} Preserve the original expression, pose, outfit and background except for the specifically requested change.`} ${v.recrop ? `Recrop to ${v.aspect_ratio} only as explicitly requested` : "Preserve the source aspect ratio and original crop; do not recrop merely to match the preview"}${product ? "" : " and do not invent unseen body parts"}. No added text or watermarks.`,
       };
     }
     const base = this.generatePhotoPrompt({
@@ -391,7 +393,7 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
     return {
       concept,
       scenes,
-      text: `${personaPreamble(v.subject === "Product" ? "product" : "person", v.subject)}\n\nCreate a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} ${v.subject === "Product" ? `${productPersona} Essential continuity: preserve the exact product shape, cap, label, material, liquid level and props across every shot; reflections should move consistently with the camera.` : `Wardrobe: ${v.outfit}. ${referenceDetailInstruction} Essential continuity: keep the same people, age, hairstyle, facial marks, jewellery and wardrobe across every shot; expressions change only subtly with the action.`} Keep the final hold inside the selected duration. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
+      text: `${v.subject === "Product" ? personaPreamble("product", v.subject) : utilityPreamble(v.subject, false, v.age_group)}\n\nCreate a ${v.duration}-second ${v.aspect_ratio} video for ${v.platform}. Concept: ${concept}. Visual style: ${v.style}. ${scenes.map((s, i) => `Scene ${i + 1}, ${s.start}–${s.end}s: ${s.action} Camera: ${s.camera}. Environment: ${s.environment}. Lighting: ${s.lighting}. Transition: ${s.transition}.`).join(" ")} ${v.subject === "Product" ? `Essential continuity: preserve the exact product shape, cap, label, material, liquid level and props across every shot; reflections should move consistently with the camera.` : `Wardrobe: ${v.outfit}. ${referenceDetailInstruction} Essential continuity: keep the same people, age, hairstyle, facial marks, jewellery and wardrobe across every shot; expressions change only subtly with the action.`} Keep the final hold inside the selected duration. Use natural motion; avoid morphing, flashing lights, added text and watermarks.`,
       caption: `${v.mood === "Funny" ? "A little unexpected joy." : "A moment worth keeping."} ${v.subject === "Product" ? "It’s all in the details." : "Make this story your own."}`,
       hashtags: ["#PicMagic", `#${v.subject}Reel`, "#CreativeVideo"],
       music:
@@ -411,9 +413,31 @@ export class TemplatePromptProvider implements PromptGenerationProvider {
       identity: identityInstruction,
     };
     if (kind === "shorten") {
-      return { ...result, text: result.text.replace(/\s+/g, " ").trim() };
+      // Compact known utility clauses only. Never drop arbitrary scene sentences.
+      // Unknown/library constraints remain intact.
+      const text = result.text
+        .replaceAll(utilityReference, compactUtilityReference)
+        .replaceAll(utilityExpression, compactUtilityExpression)
+        .replaceAll(preserveAge, compactPreserveAge)
+        .replaceAll(referenceDetailInstruction, compactReferenceDetails)
+        .replaceAll(
+          "Use believable diversity in appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face.",
+          "Use diverse natural appearances, complexion, hair and proportions; avoid stereotypical faces.",
+        )
+        .replaceAll(
+          "Build a clear composition with realistic depth, consistent shadows and natural colour.",
+          "Use realistic depth, shadows and colour.",
+        )
+        .replaceAll(
+          "Keep the final hold inside the selected duration.",
+          "End within the selected duration.",
+        )
+        .replace(/\s+/g, " ")
+        .trim();
+      return { ...result, text };
     }
     if (kind === "identity") {
+      if (/REFERENCE PRESENT:/.test(result.text)) return result;
       // Existing person, product or artistic contracts already govern identity.
       const instruction =
         /PRODUCT REFERENCE:/.test(result.text) &&

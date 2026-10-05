@@ -1,0 +1,66 @@
+▲ Next.js 16.3.4 (webpack)
+- Environments: .env.production.local, .env.local
+✓ Running next.config.ts took 100ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 8.3s
+  Running TypeScript ...
+  Finished TypeScript in 2.5s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/144) ...
+  Generating static pages using 7 workers (36/144) 
+  Generating static pages using 7 workers (72/144) 
+  Generating static pages using 7 workers (108/144) 
+✓ Generating static pages using 7 workers (144/144) in 577ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /about
+├ ƒ /admin
+├ ƒ /admin/categories
+├ ƒ /admin/collections
+├ ƒ /admin/login
+├ ƒ /admin/preview/[id]
+├ ƒ /admin/prompts
+├ ƒ /admin/prompts/[id]
+├ ƒ /admin/prompts/new
+├ ƒ /admin/seasonal
+├ ○ /ads.txt
+├ ƒ /ai-prompts
+├ ƒ /ai-prompts/[category]
+├ ƒ /ai-prompts/[category]/[slug]
+├ ƒ /api/admin/revalidate
+├ ƒ /api/admin/upload
+├ ƒ /api/og/[id]
+├ ƒ /api/search
+├ ƒ /collections
+├ ƒ /collections/[slug]
+├ ƒ /contact
+├ ƒ /create
+├ ƒ /enhance-photo
+├ ƒ /guides/double-exposure-fashion
+├ ƒ /guides/prompt-trial
+├ ƒ /guides/reference-photo-prompts
+├ ○ /icon.svg
+├ ○ /opengraph-image
+├ ƒ /privacy
+├ ƒ /reel-prompts
+├ ƒ /reel-prompts/[slug]
+├ ○ /robots.txt
+├ ƒ /saved
+├ ƒ /search
+├ ƒ /sitemap-images.xml
+├ ƒ /sitemap-pages.xml
+├ ○ /sitemap.xml
+└ ƒ /terms
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Prepared versioned-preview cache headers: /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/.next-targeted/_headers

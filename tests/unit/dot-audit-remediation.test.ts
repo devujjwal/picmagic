@@ -1,3 +1,4 @@
+import postrelease from "../../docs/audits/postrelease-fixes-2026-10-05/database-patch.json";
 import { expect, it } from "vitest";
 import { allPrompts } from "@/content/catalog";
 import { personaIssues } from "@/lib/prompts/persona";
@@ -76,7 +77,10 @@ it("records history-backed dates without changing publication ownership", () => 
     expect(d.first.hash).toMatch(/^[a-f0-9]{40}$/);
   }
   for (const change of [...changes, ...reels]) {
-    expect(find(change.slug)).toMatchObject(change.after);
+    const current = postrelease.find((x) => x.id === find(change.slug).id);
+    expect({ ...find(change.slug), ...current?.before }).toMatchObject(
+      change.after,
+    );
     for (const key of [
       "id",
       "slug",

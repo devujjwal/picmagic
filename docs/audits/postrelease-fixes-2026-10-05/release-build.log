@@ -1,0 +1,105 @@
+
+> picmagic@1.0.0 build /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic
+> next build && node scripts/preview-cache-headers.mjs
+
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env.production.local, .env.local
+✓ Running next.config.ts took 20ms
+
+  Creating an optimized production build ...
+Found 3 warnings while optimizing generated CSS:
+
+Issue #1:
+[2m│   }[22m
+[2m│   .p-\[var\(-\12 \5 �e\)\] {[22m
+[2m│[22m     padding: var(-�e);
+[2m┆[22m                  [33m[2m^--[22m Unexpected token Delim('-')[39m
+[2m┆[22m
+[2m│   }[22m
+[2m│   .p-\[var\(-\14 \16 �e\)\] {[22m
+
+Issue #2:
+[2m│   }[22m
+[2m│   .p-\[var\(-\14 \16 �e\)\] {[22m
+[2m│[22m     padding: var(-�e);
+[2m┆[22m                  [33m[2m^--[22m Unexpected token Delim('-')[39m
+[2m┆[22m
+[2m│   }[22m
+[2m│   .p-\[var\(-�\b �e\)\] {[22m
+
+Issue #3:
+[2m│   }[22m
+[2m│   .p-\[var\(-�\b �e\)\] {[22m
+[2m│[22m     padding: var(-��e);
+[2m┆[22m                  [33m[2m^--[22m Unexpected token Ident("-�")[39m
+[2m┆[22m
+[2m│   }[22m
+[2m│   .py-3 {[22m
+
+✓ Compiled successfully in 4.8s
+  Running TypeScript ...
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next-targeted/types/**/*.ts'
+  	- include was updated to add '.next-targeted/dev/types/**/*.ts'
+
+  Finished TypeScript in 12.3s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/144) ...
+  Generating static pages using 7 workers (36/144) 
+  Generating static pages using 7 workers (72/144) 
+  Generating static pages using 7 workers (108/144) 
+✓ Generating static pages using 7 workers (144/144) in 1695ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /about
+├ ƒ /admin
+├ ƒ /admin/categories
+├ ƒ /admin/collections
+├ ƒ /admin/login
+├ ƒ /admin/preview/[id]
+├ ƒ /admin/prompts
+├ ƒ /admin/prompts/[id]
+├ ƒ /admin/prompts/new
+├ ƒ /admin/seasonal
+├ ○ /ads.txt
+├ ƒ /ai-prompts
+├ ƒ /ai-prompts/[category]
+├ ƒ /ai-prompts/[category]/[slug]
+├ ƒ /api/admin/revalidate
+├ ƒ /api/admin/upload
+├ ƒ /api/og/[id]
+├ ƒ /api/search
+├ ƒ /collections
+├ ƒ /collections/[slug]
+├ ƒ /contact
+├ ƒ /create
+├ ƒ /enhance-photo
+├ ƒ /guides/double-exposure-fashion
+├ ƒ /guides/prompt-trial
+├ ƒ /guides/reference-photo-prompts
+├ ○ /icon.svg
+├ ○ /opengraph-image
+├ ƒ /privacy
+├ ƒ /reel-prompts
+├ ƒ /reel-prompts/[slug]
+├ ○ /robots.txt
+├ ƒ /saved
+├ ƒ /search
+├ ƒ /sitemap-images.xml
+├ ƒ /sitemap-pages.xml
+├ ○ /sitemap.xml
+└ ƒ /terms
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Prepared versioned-preview cache headers: /Users/Ujjwal.Paul/Desktop/Other Projects/PicMagic/.next-targeted/_headers
