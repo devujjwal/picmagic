@@ -88,3 +88,7 @@ change, advertising activation or AdSense review submission is included.
 ## Post-release remediation release approval — 5 October 2026
 
 The owner explicitly requested making the reviewed post-release audit fixes live and then reviewing the live site using Dot again. This authorizes one validated code release and the exact two-record transactional patch documented in `docs/audits/postrelease-fixes-2026-10-05/`, with live old-value checks and full-catalog preservation checks. Keep ads disabled, 95 drafts unpublished, social publishing untouched, and private references out of Git/deployment. No AdSense review/indexing request, authentication change, new media generation, purchase or upgrade is authorized.
+
+## Fresh mix presentation release approval — 5 October 2026
+
+The owner explicitly approved committing and pushing the reviewed Fresh mix preference card after desktop, 390px and 320px checks. Release the two presentation files and their audit record once. Preserve the existing discovery preference behavior, cookies, catalogue ordering, database content, ads-disabled settings and social publishing. The Zscaler JavaScript resource block remains a network-administrator review item; do not bypass security controls.
