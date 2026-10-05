@@ -36,6 +36,7 @@ export default async function RootLayout({
                   "@id": `${site.url}#organization`,
                   name: site.name,
                   url: site.url,
+                  sameAs: site.social.map(({ href }) => href),
                 },
                 {
                   "@type": "WebSite",

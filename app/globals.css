@@ -207,20 +207,22 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .brand-mark {
-  height: 32px;
-  width: 32px;
+  display: block;
+  flex-shrink: 0;
+}
+.brand-name {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 9px;
-  background: var(--brand);
-  color: white;
 }
-.brand-dot {
-  color: var(--brand);
-  margin-left: -8px;
+.brand-wordmark {
+  display: block;
+  flex-shrink: 0;
+  width: auto;
+  height: 1em;
 }
 .desktop-nav {
   display: flex;
@@ -800,6 +802,84 @@ main {
 }
 .detail-insight p {
   line-height: 1.75;
+}
+.prompt-evidence {
+  max-width: 920px;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+.prompt-evidence > h2 {
+  font-size: 24px;
+}
+.prompt-evidence p {
+  line-height: 1.75;
+  margin-top: 12px;
+}
+.prompt-evidence .text-link {
+  white-space: normal;
+}
+.evidence-result {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: 28px;
+  margin-top: 24px;
+}
+.evidence-result figure {
+  margin: 0;
+}
+.evidence-result img {
+  width: 100%;
+  height: auto;
+}
+.evidence-result figcaption {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.prompt-report {
+  max-width: 680px;
+  margin-top: 24px;
+  border-block: 1px solid var(--line);
+  padding-block: 18px;
+}
+.prompt-report summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+.report-fields {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+.report-field {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+.report-fields :is(input, select, textarea) {
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--surface);
+  color: inherit;
+  font: inherit;
+}
+.report-fields textarea {
+  resize: vertical;
+}
+.report-fields .button {
+  justify-self: start;
+}
+@media (max-width: 600px) {
+  .evidence-result {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .evidence-result figure {
+    max-width: 280px;
+  }
 }
 .faq h2 {
   font-size: 24px;

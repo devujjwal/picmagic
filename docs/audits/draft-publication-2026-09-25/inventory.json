@@ -1,0 +1,1340 @@
+{
+  "observedAt": "2026-09-25",
+  "baseline": "853559a",
+  "scope": "repository",
+  "published": 91,
+  "drafts": 95,
+  "readyToPublish": 0,
+  "records": [
+    {
+      "id": "53a8fbbe-9cdc-53ef-aab6-0d96a5dac0cb",
+      "slug": "royal-jaipur-after-hours-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/an-intimate-jaipur-yes-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 4,
+        "recordId": "53a8fbbe-9cdc-53ef-aab6-0d96a5dac0cb"
+      }
+    },
+    {
+      "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+      "slug": "monsoon-love-story",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/two-cups-before-forever-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 111,
+        "recordId": "eba54b03-680c-5638-aa10-25ce82ff7108"
+      }
+    },
+    {
+      "id": "e1465867-b80d-53d1-a68e-8685799d6c8e",
+      "slug": "monsoon-love-story-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/two-cups-before-forever-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 183,
+        "recordId": "e1465867-b80d-53d1-a68e-8685799d6c8e"
+      }
+    },
+    {
+      "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+      "slug": "desert-moonlight-promises",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/riverside-vows-at-sunrise-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 289,
+        "recordId": "cda4be03-0ad8-5764-a0d0-aec1454776ce"
+      }
+    },
+    {
+      "id": "b78c83d5-c7af-598a-a511-34a11e58ad1c",
+      "slug": "desert-moonlight-promises-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/riverside-vows-at-sunrise-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 361,
+        "recordId": "b78c83d5-c7af-598a-a511-34a11e58ad1c"
+      }
+    },
+    {
+      "id": "be215413-4b98-5fab-af22-236b833ce9b6",
+      "slug": "the-heritage-railway-letter-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/letters-on-the-terrace-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 544,
+        "recordId": "be215413-4b98-5fab-af22-236b833ce9b6"
+      }
+    },
+    {
+      "id": "7c129763-1405-5579-a8cc-ccf338d69a57",
+      "slug": "monsoon-maternity-at-the-heritage-window",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-quiet-window-a-new-chapter-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 651,
+        "recordId": "7c129763-1405-5579-a8cc-ccf338d69a57"
+      }
+    },
+    {
+      "id": "e5bf667e-62ba-51f4-a7d5-b33b686e4cb7",
+      "slug": "monsoon-maternity-at-the-heritage-window-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-quiet-window-a-new-chapter-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 725,
+        "recordId": "e5bf667e-62ba-51f4-a7d5-b33b686e4cb7"
+      }
+    },
+    {
+      "id": "972f7890-d4eb-5f89-ac59-27e4dc591474",
+      "slug": "moonlit-motherhood",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-garden-waiting-room-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 833,
+        "recordId": "972f7890-d4eb-5f89-ac59-27e4dc591474"
+      }
+    },
+    {
+      "id": "2f27fb36-901d-5c51-a623-c817ff00d509",
+      "slug": "moonlit-motherhood-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-garden-waiting-room-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 904,
+        "recordId": "2f27fb36-901d-5c51-a623-c817ff00d509"
+      }
+    },
+    {
+      "id": "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2",
+      "slug": "generations-waiting-together",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/two-hands-one-new-beginning-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1009,
+        "recordId": "2a6381c4-ec4a-5976-a4e3-ae85ad0a72d2"
+      }
+    },
+    {
+      "id": "12608a71-2c35-55a3-a6dd-b6a789b705b9",
+      "slug": "generations-waiting-together-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/two-hands-one-new-beginning-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1081,
+        "recordId": "12608a71-2c35-55a3-a6dd-b6a789b705b9"
+      }
+    },
+    {
+      "id": "16584e1f-38d5-550f-a118-f753b61eaf66",
+      "slug": "motherhood-in-a-field-of-paper-petals",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/shape-of-anticipation-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1187,
+        "recordId": "16584e1f-38d5-550f-a118-f753b61eaf66"
+      }
+    },
+    {
+      "id": "289a1028-ba7d-5c7e-a773-a9888c042026",
+      "slug": "motherhood-in-a-field-of-paper-petals-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/shape-of-anticipation-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1263,
+        "recordId": "289a1028-ba7d-5c7e-a773-a9888c042026"
+      }
+    },
+    {
+      "id": "15a6fb30-1561-5e74-a2ae-0eadb4592e51",
+      "slug": "himalayan-last-rider-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-open-road-portrait-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1373,
+        "recordId": "15a6fb30-1561-5e74-a2ae-0eadb4592e51"
+      }
+    },
+    {
+      "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+      "slug": "midnight-fuel-stop",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/garage-hours-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1479,
+        "recordId": "5ba878c1-b65c-5192-afe5-9e684461852c"
+      }
+    },
+    {
+      "id": "8d982cdd-f81d-5f85-a91e-043a4c5b3ec0",
+      "slug": "midnight-fuel-stop-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/garage-hours-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1551,
+        "recordId": "8d982cdd-f81d-5f85-a91e-043a4c5b3ec0"
+      }
+    },
+    {
+      "id": "e3bcd989-c63b-5a67-a91a-ef49901f7991",
+      "slug": "monsoon-rider-under-the-flyover",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/city-chrome-after-rain-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1657,
+        "recordId": "e3bcd989-c63b-5a67-a91a-ef49901f7991"
+      }
+    },
+    {
+      "id": "85d57403-7f43-5bea-aafc-d092b14d53f9",
+      "slug": "monsoon-rider-under-the-flyover-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/city-chrome-after-rain-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1731,
+        "recordId": "85d57403-7f43-5bea-aafc-d092b14d53f9"
+      }
+    },
+    {
+      "id": "53329fb2-d974-5ee1-a385-e060e094efca",
+      "slug": "the-salt-road-to-nowhere",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-weekend-map-stop-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1839,
+        "recordId": "53329fb2-d974-5ee1-a385-e060e094efca"
+      }
+    },
+    {
+      "id": "3a94dac6-4e97-517b-ab81-3f893ca85ad2",
+      "slug": "the-salt-road-to-nowhere-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-weekend-map-stop-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 1913,
+        "recordId": "3a94dac6-4e97-517b-ab81-3f893ca85ad2"
+      }
+    },
+    {
+      "id": "7db5e93f-1991-53c0-ad33-5e90629e80eb",
+      "slug": "desert-road-hero",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/first-light-on-the-bonnet-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2021,
+        "recordId": "7db5e93f-1991-53c0-ad33-5e90629e80eb"
+      }
+    },
+    {
+      "id": "a8cbf8fb-56ae-50a0-a861-f5625d7e4557",
+      "slug": "desert-road-hero-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/first-light-on-the-bonnet-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2093,
+        "recordId": "a8cbf8fb-56ae-50a0-a861-f5625d7e4557"
+      }
+    },
+    {
+      "id": "21051ce7-7d65-567b-a23e-a81e72f23552",
+      "slug": "retro-bombay-through-the-windscreen",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/inside-the-drive-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2199,
+        "recordId": "21051ce7-7d65-567b-a23e-a81e72f23552"
+      }
+    },
+    {
+      "id": "c797ff85-40ba-5bdd-add0-4b8a53adc3a7",
+      "slug": "retro-bombay-through-the-windscreen-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/inside-the-drive-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2273,
+        "recordId": "c797ff85-40ba-5bdd-add0-4b8a53adc3a7"
+      }
+    },
+    {
+      "id": "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7",
+      "slug": "neon-monsoon-drive",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/rain-on-the-paint-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2381,
+        "recordId": "f5b8a786-5481-5c5c-a0f3-aea1028cf5d7"
+      }
+    },
+    {
+      "id": "e3cbe555-2a42-5ed8-a183-7d51f6e65636",
+      "slug": "neon-monsoon-drive-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/rain-on-the-paint-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2453,
+        "recordId": "e3cbe555-2a42-5ed8-a183-7d51f6e65636"
+      }
+    },
+    {
+      "id": "bd90da35-9209-559d-a68a-bd57dc5e17e8",
+      "slug": "the-mountain-tunnel-arrival",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/weekend-estate-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2559,
+        "recordId": "bd90da35-9209-559d-a68a-bd57dc5e17e8"
+      }
+    },
+    {
+      "id": "709eddd4-9065-5f61-af35-79a11b575a33",
+      "slug": "the-mountain-tunnel-arrival-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/weekend-estate-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2632,
+        "recordId": "709eddd4-9065-5f61-af35-79a11b575a33"
+      }
+    },
+    {
+      "id": "9e91eee9-2c40-53cd-a46a-444e33d0a04e",
+      "slug": "after-the-last-rep-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/built-on-quiet-discipline-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2739,
+        "recordId": "9e91eee9-2c40-53cd-a46a-444e33d0a04e"
+      }
+    },
+    {
+      "id": "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b",
+      "slug": "split-second-athlete",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/laces-before-the-run-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2846,
+        "recordId": "0f7c433a-9e6d-562f-ad10-8e9ebbc0784b"
+      }
+    },
+    {
+      "id": "3cf8adec-4cda-58de-a449-58dc1e7d6936",
+      "slug": "split-second-athlete-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/laces-before-the-run-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 2918,
+        "recordId": "3cf8adec-4cda-58de-a449-58dc1e7d6936"
+      }
+    },
+    {
+      "id": "3499de28-f65f-5680-a7b6-6d94e95b8e6e",
+      "slug": "shadow-athlete-at-dawn",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-steady-stretch-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3024,
+        "recordId": "3499de28-f65f-5680-a7b6-6d94e95b8e6e"
+      }
+    },
+    {
+      "id": "5595b27d-e80a-52c6-a8fa-3a80738f9bfb",
+      "slug": "shadow-athlete-at-dawn-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-steady-stretch-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3097,
+        "recordId": "5595b27d-e80a-52c6-a8fa-3a80738f9bfb"
+      }
+    },
+    {
+      "id": "8291ec7b-78fa-5512-a037-6f1e642f4d58",
+      "slug": "the-empty-stadium-one-more-try",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/ready-at-the-rack-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3204,
+        "recordId": "8291ec7b-78fa-5512-a037-6f1e642f4d58"
+      }
+    },
+    {
+      "id": "2e3bfa74-dc47-5e7a-aede-e965a9058598",
+      "slug": "the-empty-stadium-one-more-try-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/ready-at-the-rack-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3279,
+        "recordId": "2e3bfa74-dc47-5e7a-aede-e965a9058598"
+      }
+    },
+    {
+      "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+      "slug": "founder-after-hours",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/founder-at-the-desk-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3491,
+        "recordId": "337778bf-4aa2-5442-a67a-0d2e2c9a789b"
+      }
+    },
+    {
+      "id": "2f732577-3896-51b7-a714-25ca56275daf",
+      "slug": "founder-after-hours-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/founder-at-the-desk-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3562,
+        "recordId": "2f732577-3896-51b7-a714-25ca56275daf"
+      }
+    },
+    {
+      "id": "3e86b4ed-5ed5-5d42-a343-4096fa10a298",
+      "slug": "newsroom-before-the-opening-bell",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/ideas-around-the-table-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3667,
+        "recordId": "3e86b4ed-5ed5-5d42-a343-4096fa10a298"
+      }
+    },
+    {
+      "id": "3a7c1a68-a218-57c8-ae6d-e50515cb3c3e",
+      "slug": "newsroom-before-the-opening-bell-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/ideas-around-the-table-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3741,
+        "recordId": "3a7c1a68-a218-57c8-ae6d-e50515cb3c3e"
+      }
+    },
+    {
+      "id": "76c24975-e8bf-5ffc-abe5-aff47832f26e",
+      "slug": "the-idea-becomes-a-skyline",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-confident-presentation-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3849,
+        "recordId": "76c24975-e8bf-5ffc-abe5-aff47832f26e"
+      }
+    },
+    {
+      "id": "94ea26a4-6d06-5388-afce-d6ae389e38d9",
+      "slug": "the-idea-becomes-a-skyline-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-confident-presentation-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 3923,
+        "recordId": "94ea26a4-6d06-5388-afce-d6ae389e38d9"
+      }
+    },
+    {
+      "id": "58922396-8c86-5793-a71d-ebf3f4af5941",
+      "slug": "goa-after-the-monsoon",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/morning-in-the-old-city-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 4717,
+        "recordId": "58922396-8c86-5793-a71d-ebf3f4af5941"
+      }
+    },
+    {
+      "id": "9521a0cb-83f3-5388-aa9e-7d0673110055",
+      "slug": "goa-after-the-monsoon-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/morning-in-the-old-city-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 4790,
+        "recordId": "9521a0cb-83f3-5388-aa9e-7d0673110055"
+      }
+    },
+    {
+      "id": "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1",
+      "slug": "meghalaya-cloud-walk",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/clouds-below-the-path-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 4897,
+        "recordId": "cfdb4f3e-f417-592e-ae86-cd60cd9df3a1"
+      }
+    },
+    {
+      "id": "20a5014c-8ca2-5c1a-a83c-823a802865da",
+      "slug": "meghalaya-cloud-walk-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/clouds-below-the-path-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 4969,
+        "recordId": "20a5014c-8ca2-5c1a-a83c-823a802865da"
+      }
+    },
+    {
+      "id": "0750ce45-43dc-509e-a588-c7ea05fe40a3",
+      "slug": "the-lighthouse-keeper-s-morning",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-balcony-above-the-sea-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5075,
+        "recordId": "0750ce45-43dc-509e-a588-c7ea05fe40a3"
+      }
+    },
+    {
+      "id": "2bf7000d-d496-5ae2-a43f-493a7c4dd5e6",
+      "slug": "the-lighthouse-keeper-s-morning-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-balcony-above-the-sea-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5149,
+        "recordId": "2bf7000d-d496-5ae2-a43f-493a7c4dd5e6"
+      }
+    },
+    {
+      "id": "c55b1cd7-7e95-5184-ae40-c253d2aed42a",
+      "slug": "the-train-through-the-tea-clouds",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-train-window-journal-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5257,
+        "recordId": "c55b1cd7-7e95-5184-ae40-c253d2aed42a"
+      }
+    },
+    {
+      "id": "9b619fb5-aebf-5817-a057-b9bbce277555",
+      "slug": "the-train-through-the-tea-clouds-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-train-window-journal-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5330,
+        "recordId": "9b619fb5-aebf-5817-a057-b9bbce277555"
+      }
+    },
+    {
+      "id": "ee8f4408-6a01-5204-aa54-17775dbf3274",
+      "slug": "monochrome-rain-face-in-focus",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-monochrome-hello-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5642,
+        "recordId": "ee8f4408-6a01-5204-aa54-17775dbf3274"
+      }
+    },
+    {
+      "id": "faabea55-1920-561a-acb6-9111e6450e46",
+      "slug": "monochrome-rain-face-in-focus-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-monochrome-hello-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5722,
+        "recordId": "faabea55-1920-561a-acb6-9111e6450e46"
+      }
+    },
+    {
+      "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+      "slug": "floral-shadows-a-clear-face",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-small-festive-detail-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5836,
+        "recordId": "bd931419-bad7-5357-a6dd-94e46cbe9e7a"
+      }
+    },
+    {
+      "id": "cbeb0c3b-afd6-5cbd-a6dd-fc92e544e7b2",
+      "slug": "floral-shadows-a-clear-face-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-small-festive-detail-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 5910,
+        "recordId": "cbeb0c3b-afd6-5cbd-a6dd-fc92e544e7b2"
+      }
+    },
+    {
+      "id": "29e48c7e-bbbe-55e5-a148-ac4613862701",
+      "slug": "diwali-a-thousand-points-of-light-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-family-evening-lit-by-diyas-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6018,
+        "recordId": "29e48c7e-bbbe-55e5-a148-ac4613862701"
+      }
+    },
+    {
+      "id": "37ed3b86-b00c-5ce7-ab8e-9ecbf75099a5",
+      "slug": "holi-the-colour-before-it-falls-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-little-holi-happiness-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6127,
+        "recordId": "37ed3b86-b00c-5ce7-ab8e-9ecbf75099a5"
+      }
+    },
+    {
+      "id": "223f0df3-310f-5bf3-a007-8fe47e1dc58e",
+      "slug": "navratri-still-at-the-centre-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/garba-under-the-lights-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6235,
+        "recordId": "223f0df3-310f-5bf3-a007-8fe47e1dc58e"
+      }
+    },
+    {
+      "id": "cdf67dcd-9f39-5656-a0aa-a119518a1c89",
+      "slug": "first-birthday-cloud-world",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-floor-blanket-smile-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6549,
+        "recordId": "cdf67dcd-9f39-5656-a0aa-a119518a1c89"
+      }
+    },
+    {
+      "id": "b2cd54cb-7cb8-5cb2-a3e6-4f3924cbdc44",
+      "slug": "first-birthday-cloud-world-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-floor-blanket-smile-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6622,
+        "recordId": "b2cd54cb-7cb8-5cb2-a3e6-4f3924cbdc44"
+      }
+    },
+    {
+      "id": "97517e1d-15bb-5257-a202-1cafe3e00154",
+      "slug": "the-nursery-moon-mission",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/nursery-afternoon-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6729,
+        "recordId": "97517e1d-15bb-5257-a202-1cafe3e00154"
+      }
+    },
+    {
+      "id": "b6df8769-1adf-5e29-a712-45dd99b2b59f",
+      "slug": "the-nursery-moon-mission-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/nursery-afternoon-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6802,
+        "recordId": "b6df8769-1adf-5e29-a712-45dd99b2b59f"
+      }
+    },
+    {
+      "id": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59",
+      "slug": "the-family-s-little-storybook-reader",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/our-smallest-family-member-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6909,
+        "recordId": "a0ff3ec7-a6a1-57f4-a1b0-f562cd35cc59"
+      }
+    },
+    {
+      "id": "cfe7a269-b35b-5dcb-a1bb-a4b5b0b232e2",
+      "slug": "the-family-s-little-storybook-reader-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/our-smallest-family-member-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 6984,
+        "recordId": "cfe7a269-b35b-5dcb-a1bb-a4b5b0b232e2"
+      }
+    },
+    {
+      "id": "7ca4fc36-c0ef-56db-a132-2f1aba89c035",
+      "slug": "the-maharaja-of-the-window-seat",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-window-watcher-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7093,
+        "recordId": "7ca4fc36-c0ef-56db-a132-2f1aba89c035"
+      }
+    },
+    {
+      "id": "0eda1e7b-28e8-5574-a1f1-8a89711dd4cb",
+      "slug": "the-maharaja-of-the-window-seat-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-window-watcher-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7166,
+        "recordId": "0eda1e7b-28e8-5574-a1f1-8a89711dd4cb"
+      }
+    },
+    {
+      "id": "7de25f1d-f954-5703-a53d-ca79d3caa66e",
+      "slug": "the-dog-s-birthday-aftermath",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-good-day-in-the-garden-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7273,
+        "recordId": "7de25f1d-f954-5703-a53d-ca79d3caa66e"
+      }
+    },
+    {
+      "id": "f9d47ef7-f637-52b6-aec8-f39a9f91c783",
+      "slug": "the-dog-s-birthday-aftermath-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-good-day-in-the-garden-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7347,
+        "recordId": "f9d47ef7-f637-52b6-aec8-f39a9f91c783"
+      }
+    },
+    {
+      "id": "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c",
+      "slug": "tiny-pet-giant-space-mission",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/favourite-blanket-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7455,
+        "recordId": "8390a868-c7d1-5ecf-a7dd-2c7fc34ee96c"
+      }
+    },
+    {
+      "id": "a6c71e83-d96c-58e3-a20c-4fd6ab017304",
+      "slug": "tiny-pet-giant-space-mission-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/favourite-blanket-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7529,
+        "recordId": "a6c71e83-d96c-58e3-a20c-4fd6ab017304"
+      }
+    },
+    {
+      "id": "0e232110-97b4-510d-ad2f-c3ea4e928149",
+      "slug": "you-and-your-pet-the-adventure-poster",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/together-on-the-doorstep-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7637,
+        "recordId": "0e232110-97b4-510d-ad2f-c3ea4e928149"
+      }
+    },
+    {
+      "id": "932b44ee-ce8c-5c8f-a418-33727b3661ab",
+      "slug": "you-and-your-pet-the-adventure-poster-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/together-on-the-doorstep-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 7713,
+        "recordId": "932b44ee-ce8c-5c8f-a418-33727b3661ab"
+      }
+    },
+    {
+      "id": "9bc1fa0f-375a-5a4e-a6d7-7ab50dc718e3",
+      "slug": "perfume-the-water-sculpture-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/packaging-with-purpose-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8104,
+        "recordId": "9bc1fa0f-375a-5a4e-a6d7-7ab50dc718e3"
+      }
+    },
+    {
+      "id": "14335dd1-2c1a-5331-ae55-ff5f4753abb7",
+      "slug": "handbag-in-the-architecture-of-shadows",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-useful-everyday-scale-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8211,
+        "recordId": "14335dd1-2c1a-5331-ae55-ff5f4753abb7"
+      }
+    },
+    {
+      "id": "13aeecc7-5cfe-5d07-ae6f-96b72ca60d0e",
+      "slug": "handbag-in-the-architecture-of-shadows-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-useful-everyday-scale-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8286,
+        "recordId": "13aeecc7-5cfe-5d07-ae6f-96b72ca60d0e"
+      }
+    },
+    {
+      "id": "da21f9c2-6c33-529e-ac20-e080b97a8e7c",
+      "slug": "the-palace-saree-every-border-visible",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-saree-drape-catalogue-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8395,
+        "recordId": "da21f9c2-6c33-529e-ac20-e080b97a8e7c"
+      }
+    },
+    {
+      "id": "a3a450c5-f4e2-574e-aacf-563e25b24be8",
+      "slug": "the-palace-saree-every-border-visible-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-saree-drape-catalogue-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8469,
+        "recordId": "a3a450c5-f4e2-574e-aacf-563e25b24be8"
+      }
+    },
+    {
+      "id": "84889762-89de-5f19-a2c1-613c11d95865",
+      "slug": "the-kurta-in-the-jali-light",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/kurta-seam-to-silhouette-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8577,
+        "recordId": "84889762-89de-5f19-a2c1-613c11d95865"
+      }
+    },
+    {
+      "id": "b52cf64f-dc78-578f-a5b7-cf1216b34865",
+      "slug": "the-kurta-in-the-jali-light-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/kurta-seam-to-silhouette-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8650,
+        "recordId": "b52cf64f-dc78-578f-a5b7-cf1216b34865"
+      }
+    },
+    {
+      "id": "0afcad12-fef1-57bb-ad21-add3b5502dcd",
+      "slug": "resort-dress-the-wind-between-arches",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/a-dress-that-moves-naturally-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8757,
+        "recordId": "0afcad12-fef1-57bb-ad21-add3b5502dcd"
+      }
+    },
+    {
+      "id": "2ca4fd0e-9f4c-507e-ab5d-8d8cea49ef20",
+      "slug": "resort-dress-the-wind-between-arches-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/a-dress-that-moves-naturally-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8831,
+        "recordId": "2ca4fd0e-9f4c-507e-ab5d-8d8cea49ef20"
+      }
+    },
+    {
+      "id": "c14716dc-ff1e-5147-ace0-c4b9f6816114",
+      "slug": "jewellery-on-sculpted-sandstone",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/jewellery-honestly-close-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 8939,
+        "recordId": "c14716dc-ff1e-5147-ace0-c4b9f6816114"
+      }
+    },
+    {
+      "id": "54550bbd-76ac-598d-a53a-fdde9fb37f72",
+      "slug": "jewellery-on-sculpted-sandstone-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/jewellery-honestly-close-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9011,
+        "recordId": "54550bbd-76ac-598d-a53a-fdde9fb37f72"
+      }
+    },
+    {
+      "id": "729aa85a-7654-5745-a860-d558f0d1f7b1",
+      "slug": "the-everyday-shirt-catalogue",
+      "type": "photo",
+      "status": "generation-required",
+      "asset": "/previews/the-everyday-shirt-catalogue.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9117,
+        "recordId": "729aa85a-7654-5745-a860-d558f0d1f7b1"
+      }
+    },
+    {
+      "id": "e9e9c3ba-42cd-59cc-aeb8-b56723cb2afc",
+      "slug": "the-everyday-shirt-catalogue-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/the-everyday-shirt-catalogue.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9187,
+        "recordId": "e9e9c3ba-42cd-59cc-aeb8-b56723cb2afc"
+      }
+    },
+    {
+      "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+      "slug": "kurta-at-the-lantern-courtyard",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/the-festive-kurta-edit-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9291,
+        "recordId": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff"
+      }
+    },
+    {
+      "id": "e2d0dc08-ac8b-5609-a125-0bc013306263",
+      "slug": "kurta-at-the-lantern-courtyard-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/the-festive-kurta-edit-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9365,
+        "recordId": "e2d0dc08-ac8b-5609-a125-0bc013306263"
+      }
+    },
+    {
+      "id": "65a7ee09-8679-557e-a99a-8602e85c03fd",
+      "slug": "a-jacket-from-every-angle",
+      "type": "photo",
+      "status": "generation-required",
+      "asset": "/previews/a-jacket-from-every-angle.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9473,
+        "recordId": "65a7ee09-8679-557e-a99a-8602e85c03fd"
+      }
+    },
+    {
+      "id": "489103a5-ba55-5fb9-ac87-0d8b0141304f",
+      "slug": "a-jacket-from-every-angle-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/a-jacket-from-every-angle.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9545,
+        "recordId": "489103a5-ba55-5fb9-ac87-0d8b0141304f"
+      }
+    },
+    {
+      "id": "b8af0397-db3c-5810-a871-dce8b18f428a",
+      "slug": "footwear-the-city-in-one-step",
+      "type": "photo",
+      "status": "replacement-required",
+      "asset": "/previews/footwear-on-the-move-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9651,
+        "recordId": "b8af0397-db3c-5810-a871-dce8b18f428a"
+      }
+    },
+    {
+      "id": "de9408c5-6149-5ae0-a034-cf2b3e4df8e6",
+      "slug": "footwear-the-city-in-one-step-reel",
+      "type": "reel",
+      "status": "replacement-required",
+      "asset": "/previews/footwear-on-the-move-editorial-v1.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9725,
+        "recordId": "de9408c5-6149-5ae0-a034-cf2b3e4df8e6"
+      }
+    },
+    {
+      "id": "32113f5f-6e89-5cd6-a0f9-5736eaeaacff",
+      "slug": "the-honest-quarter-rotation-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/the-honest-quarter-rotation-reel.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9833,
+        "recordId": "32113f5f-6e89-5cd6-a0f9-5736eaeaacff"
+      }
+    },
+    {
+      "id": "e6603e1a-a123-5f0f-a415-bdc578ebd54f",
+      "slug": "fabric-up-close-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/fabric-up-close-reel.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 9936,
+        "recordId": "e6603e1a-a123-5f0f-a415-bdc578ebd54f"
+      }
+    },
+    {
+      "id": "bab694e7-714e-5829-a612-fe4ee2593891",
+      "slug": "front-back-the-real-product-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/front-back-the-real-product-reel.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 10038,
+        "recordId": "bab694e7-714e-5829-a612-fe4ee2593891"
+      }
+    },
+    {
+      "id": "e9119c64-40ef-55a3-a738-af1c8b21dbf0",
+      "slug": "from-detail-to-daily-use-reel",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/from-detail-to-daily-use-reel.webp",
+      "exists": false,
+      "posterRole": null,
+      "source": {
+        "file": "content/expansion/prompts.json",
+        "line": 10142,
+        "recordId": "e9119c64-40ef-55a3-a738-af1c8b21dbf0"
+      }
+    },
+    {
+      "id": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19",
+      "slug": "cinematic-ladakh-friends-trip",
+      "type": "reel",
+      "status": "generation-required",
+      "asset": "/previews/cinematic-ladakh-friends-trip-source-reference.webp",
+      "exists": true,
+      "posterRole": "source-reference",
+      "source": {
+        "file": "content/additions/friends-trip-prompts.json",
+        "line": 22,
+        "recordId": "f64b0a8b-6c59-4e0a-a3c8-457867f8dd19"
+      }
+    }
+  ]
+}

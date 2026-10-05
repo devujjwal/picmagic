@@ -2,6 +2,7 @@ import sharp from "sharp";
 import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { BrandMark, BrandWordmark } from "@/components/ui/brand-logo";
 export const alt = "PicMagic — Turn your photos into something magical";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -37,8 +38,17 @@ export default async function Image() {
           width: "62%",
         }}
       >
-        <div style={{ fontSize: 35, fontWeight: 700, color: "#c94839" }}>
-          PicMagic.
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 10,
+            fontSize: 35,
+            fontWeight: 700,
+          }}
+        >
+          <BrandMark size={44} />
+          <BrandWordmark height={35} />
         </div>
         <div
           style={{

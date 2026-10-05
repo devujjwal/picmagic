@@ -3,6 +3,7 @@ import categories from "../content/categories.json";
 import { overlappingPairs } from "./optimization/catalog";
 import { hubGuides, promptGuides } from "../content/seo-guides";
 import { promptWorkflows } from "../content/prompt-workflows";
+import { sitePages } from "../content/site-pages";
 import { promptPath } from "../types/content";
 import {
   promptSchema,
@@ -26,6 +27,7 @@ const eligible = prompts.filter(isPromptSeoEligible);
 const errors: string[] = [];
 const warnings: string[] = [];
 const paths = new Set([
+  ...sitePages.map((page) => page.path),
   "/",
   "/collections",
   "/ai-prompts",

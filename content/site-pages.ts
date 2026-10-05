@@ -8,7 +8,7 @@ export const sitePages = [
   { path: "/enhance-photo" },
   { path: "/create" },
   { path: "/reel-prompts" },
-  { path: "/about", updatedAt: "2026-09-25T04:00:00Z" },
+  { path: "/about", updatedAt: "2026-10-05T06:00:00Z" },
   { path: referenceGuidePath, updatedAt: "2026-09-25T04:00:00Z" },
   { path: promptTrialPath, updatedAt: "2026-09-25T04:00:00Z" },
 ];

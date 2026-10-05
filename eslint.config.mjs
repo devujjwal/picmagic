@@ -7,6 +7,7 @@ export default defineConfig([
   globalIgnores([
     ".next/**",
     ".next-release/**",
+    ".next-adsense-october/**",
     ".netlify/**",
     ".release-private/**",
     "next-env.d.ts",

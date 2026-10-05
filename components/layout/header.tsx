@@ -3,7 +3,6 @@ import {
   Bookmark,
   Search,
   Menu,
-  Sparkles,
   ArrowUpRight,
   House,
   Images,
@@ -11,6 +10,7 @@ import {
   SlidersHorizontal,
 } from "lucide-react";
 import { navigation } from "@/config/site";
+import { BrandLogo } from "@/components/ui/brand-logo";
 export function Header() {
   return (
     <>
@@ -20,10 +20,7 @@ export function Header() {
       <header className="site-header">
         <div className="header-inner">
           <Link href="/" className="wordmark" aria-label="PicMagic home">
-            <span className="brand-mark">
-              <Sparkles size={21} strokeWidth={1.7} />
-            </span>
-            PicMagic<span className="brand-dot">.</span>
+            <BrandLogo />
           </Link>
           <nav className="desktop-nav" aria-label="Main navigation">
             {navigation.map((n) => (

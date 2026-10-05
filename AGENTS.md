@@ -55,3 +55,29 @@ descriptions. Preserve 95 drafts, canonical URLs, private reference assets and
 unrelated draft-publication audit work. No paid upgrade or AdSense review request
 is authorized. Re-enabling advertising and submitting review remain separate
 decisions after live verification.
+
+## Standing private identity references - 5 October 2026
+
+For future project prompt-based photo generation, use the owner's first supplied
+portrait for men's prompts, the second portrait for women's prompts (explicitly
+confirmed by the owner), and the third supplied photograph for couple prompts
+(the two seated foreground subjects only). Originals are stored locally under
+gitignored `.release-private/identity-references/`; see
+`docs/IDENTITY-REFERENCES.md` and its private manifest before generation.
+
+Do not combine the two solo identities or substitute either for a person in the
+couple reference. Preserve the originals and existing guidance.
+Never commit, force-add, publish or deploy these private photographs. Provider
+upload permission, recognizable-output publication approval and production
+release approval remain separate. No paid generation is authorized. Public
+visitors' own references always take precedence over these editorial defaults.
+
+## Combined website release approval - 5 October 2026
+
+The owner requested committing and pushing all current website changes, including
+the other chat's AdSense editorial work. This authorizes one validated release
+of the branding, official social links, guidance, historical evidence disclosures
+and issue-reporting implementation. Keep ads disabled, all 95 drafts unpublished,
+and private identity references, recognizable test outputs and account screenshots
+out of Git and deployment. No Supabase migration/content sync, account-permission
+change, advertising activation or AdSense review submission is included.

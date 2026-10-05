@@ -22,12 +22,33 @@ export default function Contact() {
             Please include the page address for content-related requests. Avoid
             sending passwords or private photos.
           </p>
+          <h2>Report an unreliable prompt</h2>
+          <p>
+            Use the issue report on the prompt page, or email its address, the
+            tool and model you used, and the specific difference between the
+            instructions and your result. Text descriptions are enough; do not
+            attach personal reference photographs. We may need more information
+            before reproducing an issue.
+          </p>
         </>
       ) : (
         <p>
           The operator’s public contact details are being prepared for launch.
         </p>
       )}
+      <h2>Follow PicMagic</h2>
+      <p>
+        Find photo ideas and prompt walkthroughs on our official social pages.
+      </p>
+      <ul>
+        {site.social.map(({ label, href }) => (
+          <li key={label}>
+            <a href={href} rel="me">
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
     </article>
   );
 }

@@ -69,6 +69,14 @@ export default function About() {
         exact inputs, first outputs and crop checks. It does not verify
         real-person likeness or compatibility across models.
       </p>
+      <p>
+        Prompt pages distinguish illustrative previews from documented runs.
+        When a run is available, we show its date, tool, disclosed model
+        details, reference conditions, attempt count and export dimensions. If
+        the prompt changes, its earlier result remains labelled as historical
+        evidence. Guidance update dates describe writing changes, not a fresh
+        tool test.
+      </p>
       <h3>Corrections and responsible use</h3>
       <p>
         Check likeness, anatomy and important product or cultural details before
@@ -76,6 +84,12 @@ export default function About() {
         evidence. If a description, preview or instruction is misleading,
         <Link href="/contact"> contact PicMagic</Link> with the prompt URL and
         the specific issue; do not send private identity photographs.
+      </p>
+      <p>
+        The issue report on each prompt prepares an email containing that page
+        address, the tool you used and your description. It does not upload
+        images or submit a report automatically. Reports are requests for
+        review, not proof that an issue has already been corrected.
       </p>
       <p>
         Start with our{" "}

@@ -18,6 +18,9 @@ import { toPromptCard } from "@/lib/prompts/card-data";
 import { isPromptSeoEligible } from "@/lib/seo/eligibility";
 import { promptWorkflows } from "@/content/prompt-workflows";
 import { PromptWorkflow } from "./prompt-workflow";
+import { PromptEvidence } from "./prompt-evidence";
+import { PromptReport } from "./prompt-report";
+import { remainingGuidanceDate, remainingPromptFaqs } from "@/content/remaining-guidance";
 export function PromptDetail({
   prompt: p,
   catalog,
@@ -28,6 +31,7 @@ export function PromptDetail({
   preview?: boolean;
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
+  const faqs = remainingPromptFaqs[p.slug] ?? promptGuides[p.slug]?.faqs ?? p.faqs;
   const showAds =
     !preview &&
     isPromptSeoEligible(p) &&
@@ -45,6 +49,7 @@ export function PromptDetail({
     p.updated_at,
     promptGuides[p.slug]?.updatedAt || "",
     promptWorkflows[p.slug]?.updatedAt || "",
+    remainingPromptFaqs[p.slug] ? remainingGuidanceDate : "",
   ]
     .sort()
     .at(-1);
@@ -175,14 +180,22 @@ export function PromptDetail({
       ) : (
         <EditorialGuide guide={promptGuides[p.slug]} />
       )}
-      {["a-fold-around-you-profile", "borrowed-moon-closing-time"].includes(
-        p.slug,
-      ) && (
-        <p className="notice">
-          See this prompt in our{" "}
-          <Link href="/guides/prompt-trial">documented ChatGPT trial</Link>,
-          with exact inputs, first results and limitations.
-        </p>
+      {!preview && (
+        <>
+          <PromptEvidence
+            prompt={p}
+            guidanceUpdatedAt={
+              [
+                promptGuides[p.slug]?.updatedAt || "",
+              promptWorkflows[p.slug]?.updatedAt || "",
+              remainingPromptFaqs[p.slug] ? remainingGuidanceDate : "",
+              ]
+                .sort()
+                .at(-1) || undefined
+            }
+          />
+          <PromptReport email={site.contact} path={canonical} />
+        </>
       )}
       {!isReel &&
         p.persona_policy !== "product" &&
@@ -252,10 +265,10 @@ export function PromptDetail({
         </section>
       )}
       {showAds && <AdSlot placement="prompt-detail-inline" />}
-      {p.faqs.length > 0 && (
+      {faqs.length > 0 && (
         <section className="faq">
           <h2>A little help getting started</h2>
-          {p.faqs.map((f) => (
+          {faqs.map((f) => (
             <details key={f.question}>
               <summary>{f.question}</summary>
               <p>{f.answer}</p>
@@ -265,7 +278,7 @@ export function PromptDetail({
             data={{
               "@context": "https://schema.org",
               "@type": "FAQPage",
-              mainEntity: p.faqs.map((f) => ({
+              mainEntity: faqs.map((f) => ({
                 "@type": "Question",
                 name: f.question,
                 acceptedAnswer: { "@type": "Answer", text: f.answer },

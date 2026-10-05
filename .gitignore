@@ -13,5 +13,10 @@ supabase/.branches/
 output/originals/
 
 .next-release/
+.next-adsense-october/
 
 .release-private/
+
+# Local account-verification screenshots, not public brand assets.
+brand-assets/PicMagic-Social-Posts-2026-10-05/facebook-*.jpg
+brand-assets/PicMagic-Social-Posts-2026-10-05/instagram-*.jpg

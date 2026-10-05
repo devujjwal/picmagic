@@ -5,6 +5,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import { getCatalog } from "@/lib/content";
+import { BrandMark, BrandWordmark } from "@/components/ui/brand-logo";
 export const runtime = "nodejs";
 export async function GET(
   _: Request,
@@ -56,8 +57,17 @@ export async function GET(
           flex: 1,
         }}
       >
-        <div style={{ color: "#c94839", fontSize: 34, fontWeight: 700 }}>
-          PicMagic.
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 10,
+            fontSize: 34,
+            fontWeight: 700,
+          }}
+        >
+          <BrandMark size={44} />
+          <BrandWordmark height={34} />
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           <div

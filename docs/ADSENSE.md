@@ -2,6 +2,12 @@
 
 AdSense account: `devujjwal1989@gmail.com`, publisher `pub-4114304022167819`. Publisher and slot IDs are public identifiers, not credentials.
 
+## Current status - 5 October 2026
+
+The owner's 3 October rejection email and 5 October dashboard evidence show **Needs attention: Low value content**. The dashboard reports ads.txt **Authorized**, consistent with the public file checked on 5 October. Site approval is not Getting ready or Ready. The account activation/payment notice is separate from the stated content rejection.
+
+Production advertising was disabled for the September 25 combined release pending real regional consent and Auto ads verification. Keep it disabled. The October remediation is local on `codex/adsense-content-rereview`; release and another review submission require separate owner approval. See [the October audit](audits/adsense-rejection-2026-10-05/README.md). The dated setup and verification sections below are historical evidence, not a current approval or serving claim.
+
 On 10 September 2026, PicMagic was added to AdSense, Google verified ownership through the live `google-adsense-account` metadata, and the site review was requested. The latest observed site status is **Getting ready**, not Ready. Google must approve the site before ads can serve; integration being enabled does not mean approval, filled inventory or revenue is guaranteed.
 
 The authorized seller record is served at `https://picmagic.in/ads.txt`:

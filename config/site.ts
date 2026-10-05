@@ -1,6 +1,10 @@
 export const site = {
   name: "PicMagic",
   url: "https://picmagic.in",
+  social: [
+    { label: "Instagram", href: "https://www.instagram.com/picmagic.in/" },
+    { label: "Facebook", href: "https://www.facebook.com/picmagic.in/" },
+  ],
   title: "PicMagic. AI Photo Ideas, Editing Prompts & Reel Prompts",
   description:
     "Discover beautiful AI photo ideas, enhancement prompts and reel concepts for men, women, couples, kids, weddings, birthdays and more.",

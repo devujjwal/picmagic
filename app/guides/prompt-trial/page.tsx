@@ -51,7 +51,9 @@ export default function PromptTrial() {
           generations, face edits or selective replacement of failed attempts.
         </li>
       </ul>
-      <h2>1. Make a square portrait without a reference</h2>
+      <h2 id="a-fold-around-you-profile">
+        1. Make a square portrait without a reference
+      </h2>
       <p>
         First we submitted A Fold Around You without attaching an image. Its
         no-reference instructions ask for a fictional Indian/South Asian adult;
@@ -94,7 +96,9 @@ export default function PromptTrial() {
         </figcaption>
       </figure>
       <InputDetails index={0} />
-      <h2>2. Change the scene while retaining the fictional person</h2>
+      <h2 id="borrowed-moon-closing-time">
+        2. Change the scene while retaining the fictional person
+      </h2>
       <p>
         In the same conversation, we asked ChatGPT to use the person it had just
         generated as the identity reference. We explicitly excluded the paper

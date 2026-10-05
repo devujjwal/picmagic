@@ -1,3 +1,6 @@
+import { octoberHubGuides, octoberPromptGuides } from "./october-guidance";
+import { remainingPromptGuides } from "./remaining-guidance";
+
 /** Reviewed, versioned editorial modules. These are not generated from tags or keywords.
  * Keep references to real library routes; new hubs need an explicit editorial review.
  * The CMS still owns introductions, membership and prompt text.
@@ -6,6 +9,7 @@ export type EditorialGuide = {
   updatedAt: string;
   sections: { heading: string; body: string }[];
   links?: { label: string; path: string }[];
+  faqs?: { question: string; answer: string }[];
 };
 const reviewed = "2026-09-24T09:15:00Z";
 const guide = (sections: [string, string][], links?: EditorialGuide["links"]): EditorialGuide => ({
@@ -19,6 +23,7 @@ const reReviewedGuide = (sections: [string, string][], links?: EditorialGuide["l
   updatedAt: "2026-09-25T08:11:00Z",
 });
 export const hubGuides: Record<string, EditorialGuide> = {
+  ...octoberHubGuides,
   "/ai-prompts/men": guide([
     ["Choose the portrait's job", "For a readable profile image, start with a close crop and a quiet background. City Lights gives more space to the setting and clothing; a professional headshot instead needs even facial light. Choose the use first, then keep only the props that help tell that story."],
     ["Keep character, not a template face", "Supply a clear photograph with a visible hairline and jaw. Preserve beard density, natural complexion and body proportions. A serious cinematic scene does not need the smile from your reference, and formal clothing does not require an older face. Change wardrobe or background one element at a time."],
@@ -78,6 +83,8 @@ export const hubGuides: Record<string, EditorialGuide> = {
 };
 
 export const promptGuides: Record<string, EditorialGuide> = {
+  ...octoberPromptGuides,
+  ...remainingPromptGuides,
   "your-everyday-with-better-light": reReviewedGuide([
     ["Try an exposure adjustment before generation", "Start with the original image at its largest available size, not a screenshot of the preview. If the problem is only darkness or a colour cast, ordinary exposure and white-balance controls may solve it without redrawing the face. Use this prompt when you need a reference-aware editor, and ask for the original framing rather than forcing a 4:5 crop."],
     ["Compare the light, then the identity", "Keep the source beside the result at the same zoom. Check the shadow cheek, hairline and shirt texture: brighter should not mean paler skin, a smoother face or invented detail in a clipped highlight. If the jaw, eyes or background move, return to the original and restrict the edit to tonal adjustments. Do not use a polished reconstruction as evidence of what was in the source."],

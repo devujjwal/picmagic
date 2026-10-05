@@ -1,14 +1,15 @@
 import Link from "@/components/ui/site-link";
 import { PrivacyChoices } from "./privacy-choices";
-import { Sparkles, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { BrandLogo } from "@/components/ui/brand-logo";
+import { site } from "@/config/site";
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="footer-top">
         <div>
-          <Link href="/" className="wordmark">
-            <Sparkles size={23} />
-            PicMagic.
+          <Link href="/" className="wordmark" aria-label="PicMagic home">
+            <BrandLogo />
           </Link>
           <p>
             A little inspiration.
@@ -34,6 +35,11 @@ export function Footer() {
             </Link>
             <Link href="/saved">Your saved looks</Link>
             <Link href="/contact">Get in touch</Link>
+            {site.social.map(({ label, href }) => (
+              <a key={label} href={href} rel="me">
+                {label} <ArrowUpRight size={13} aria-hidden="true" />
+              </a>
+            ))}
           </div>
         </div>
       </div>
