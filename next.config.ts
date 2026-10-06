@@ -55,6 +55,20 @@ const config: NextConfig = {
   async headers() {
     return [
       {
+        source: "/blog-preview/:path*",
+        headers: [
+          { key: "Cache-Control", value: "private, no-store" },
+          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+        ],
+      },
+      {
+        source: "/admin/blog/:path*",
+        headers: [
+          { key: "Cache-Control", value: "private, no-store" },
+          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+        ],
+      },
+      {
         // Only content-addressed previews are immutable. Legacy names still revalidate.
         source: "/previews/:asset([a-z0-9-]+-[a-f0-9]{10}(?:-thumb)?)\\.webp",
         headers: [

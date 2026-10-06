@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "f5895b08-e904-582d-8ee5-ef12678369e7",
+    "version": 1,
+    "slug": "create-ai-photos-with-chatgpt",
+    "title": "How to Create AI Photos With ChatGPT Using Your Own Photo",
+    "excerpt": "Choose a clear reference, adapt a real PicMagic concept and make focused corrections in ChatGPT without confusing the preview person with your identity.",
+    "body": [
+      {
+        "type": "quick_answer",
+        "text": "Upload a clear photo in ChatGPT, explain that it supplies your identity, then paste a PicMagic scene prompt. Separate what must stay recognizable from what may change. Review the first result and correct one specific problem at a time; a reference photo does not guarantee an exact likeness."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "reference",
+        "text": "Start with a useful reference, not a perfect selfie"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Choose a recent, sharp photograph where the face is large enough to see the eyes, nose, jaw and hairline. Even light and a front or three-quarter view make comparison easier. Avoid sunglasses, heavy beauty filters, deep facial shadow or a tiny face inside a group picture. For an edit that must keep your clothes or pose, include those parts of your body too. Only upload photographs you have permission to edit; crop out unrelated people and private information."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "PicMagic is a visual discovery and prompt platform; the image is generated in ChatGPT. You choose a look here and upload your reference there. A PicMagic preview supplies the scene and styling, while your photograph supplies the person. Check the external provider’s privacy settings before uploading."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "workflow",
+        "text": "How do I turn my photo into a PicMagic look?"
+      },
+      {
+        "type": "steps",
+        "items": [
+          {
+            "title": "Upload your reference in ChatGPT",
+            "text": "Start a new chat. Use the + attachment control to add your photo; on the web you can also drag or paste it into the message box. If you supply more than one image, identify which is your face reference and which is a clothing or style reference."
+          },
+          {
+            "title": "Choose one scene",
+            "text": "Start with City Lights below. Its central idea is a still subject against blurred city movement, rather than a collection of unrelated cinematic effects."
+          },
+          {
+            "title": "Copy the complete prompt",
+            "text": "Open the City Lights prompt page and use Copy prompt. Paste it into the chat containing your photograph. Read the identity and scene instructions before sending; remove any age instruction that conflicts with the age you want retained."
+          },
+          {
+            "title": "State the reference role",
+            "text": "Say: “Use my uploaded photograph for my recognizable identity and natural complexion. The PicMagic example supplies the scene only. Keep my actual age; follow the scene for pose, clothing and expression.” This is a starting instruction, not a face-lock guarantee."
+          },
+          {
+            "title": "Ask ChatGPT to create the image",
+            "text": "Add “Create an image using my uploaded identity reference and the scene below,” followed by the adapted prompt, then send it. If the reply only describes the idea, clarify that you want an image generated. Keep the reference and instructions in the same conversation."
+          },
+          {
+            "title": "Inspect the result before saving it",
+            "text": "Check face shape, eye spacing, nose, jaw and complexion before judging the atmosphere. Then inspect hands, clothing edges and light direction."
+          },
+          {
+            "title": "Request a focused correction",
+            "text": "Name the mismatch and the features to retain. Avoid asking to make everything more beautiful; that gives the tool room to change features you wanted to keep."
+          }
+        ]
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+        "why": "A still portrait contrasts with blurred commuters at a wet Mumbai crossing. The motion belongs behind the person, so the face remains the visual anchor.",
+        "best_use": "A cinematic Instagram post or urban portrait.",
+        "guidance": "Keep the face readable in the low light. Change the overshirt colour if useful, but retain the still-person/moving-city contrast."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "corrections",
+        "text": "Make the second request smaller than the first"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "If the setting works but the face has drifted, try: “Keep this composition, clothing and background. Rework the face toward the uploaded reference, especially the eye spacing and jaw shape. Retain my natural complexion and age.” If a hand is wrong, describe the hand and its contact with the prop instead. Editing may affect nearby details too, so compare the whole result again."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Common mistakes and a clearer next request",
+        "columns": [
+          "Problem",
+          "Better instruction"
+        ],
+        "rows": [
+          [
+            "The preview person appears in the result",
+            "Identify your photo as the identity reference and the PicMagic preview as style only."
+          ],
+          [
+            "The result looks younger",
+            "Remove a conflicting age instruction and state the age you want retained."
+          ],
+          [
+            "Every correction changes the scene",
+            "Name the one thing to fix and explicitly retain the composition."
+          ],
+          [
+            "A good portrait becomes a poor DP",
+            "Check the circular crop before choosing it as a profile picture."
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "next-look",
+        "text": "Choose the next look by what you want to change"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "After a successful simple scene, try a more ambitious concept. For background-only editing, Change the Scene, Keep Yourself asks to retain the original pose and clothing. For double exposure, read the dedicated guide: two depictions should represent one identity, not two people. Do not treat a stylish output as proof that every prompt or tool has been tested."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Read the documented two-prompt walkthrough with a fictional person",
+            "href": "/guides/prompt-trial"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Can ChatGPT edit a photo I upload?",
+            "answer": "ChatGPT’s image workflow supports uploading an existing image and describing changes. Availability and controls can change; consult the linked official guide. Upload support does not guarantee likeness."
+          },
+          {
+            "question": "Should I paste the PicMagic preview into ChatGPT?",
+            "answer": "The scene prompt is usually the useful starting point. If you also supply a preview, label it as style only and your own photograph as identity."
+          },
+          {
+            "question": "What if repeated edits still change my face?",
+            "answer": "Use a less ambitious edit or a different supported workflow. Do not accept an inaccurate identity simply because the scene looks attractive."
+          }
+        ]
+      }
+    ],
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "guide",
+    "primary_topic": "Guides",
+    "related_prompts": [
+      "4b284e2b-f4c8-5a74-8222-3eec1dd73d84"
+    ],
+    "related_collections": [
+      "/ai-prompts/men"
+    ],
+    "related_articles": [
+      "keep-your-face-the-same-in-ai-photos",
+      "ai-photo-ideas-for-men"
+    ],
+    "seo_title": "How to Create AI Photos With ChatGPT Using Your Own Photo",
+    "meta_description": "Choose a clear reference, adapt a real PicMagic concept and make focused corrections in ChatGPT without confusing the preview person with your identity.",
+    "featured_image": {
+      "url": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af.webp",
+      "alt": "A thoughtful young Indian man stands still at a wet Mumbai crossing while commuters blur around him at dusk.",
+      "width": 960,
+      "height": 1200,
+      "caption": "Original PicMagic AI-generated concept preview; illustrative, not a guarantee of your result."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/men/city-lights-main-character-energy",
+      "label": "Try City Lights",
+      "type": "prompt"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": true,
+    "date_published": null,
+    "date_modified": "2026-10-06T08:07:15Z",
+    "created_at": "2026-10-06T00:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic reference-photo guide",
+        "url": "/guides/reference-photo-prompts",
+        "checked_at": "2026-10-06",
+        "note": "Existing methodology, reference roles and review limitations."
+      },
+      {
+        "title": "PicMagic editorial methodology",
+        "url": "/about#editorial-methodology",
+        "checked_at": "2026-10-06",
+        "note": "Previews illustrate concepts; tool suggestions are not compatibility tests."
+      },
+      {
+        "title": "OpenAI: Images in ChatGPT",
+        "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+        "checked_at": "2026-10-06",
+        "note": "Primary source for uploading images and requesting edits. Not evidence of exact identity preservation."
+      },
+      {
+        "title": "OpenAI: ChatGPT Image Inputs FAQ",
+        "url": "https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq",
+        "checked_at": "2026-10-06",
+        "note": "Attachment control and web drag/paste workflow. Account limits are not assumed."
+      }
+    ],
+    "evidence_note": "Written from PicMagic catalogue concepts and current prompt methodology. This article is not a new controlled experiment or a real-person likeness test."
+  },
+  {
+    "id": "ffb5e1ae-9371-5125-a016-6e3dd4459c28",
+    "version": 1,
+    "slug": "keep-your-face-the-same-in-ai-photos",
+    "title": "How to Keep Your Face the Same in AI-Generated Photos",
+    "excerpt": "Separate identity from styling, resolve conflicting age and face instructions, and check each person independently in an AI-generated portrait.",
+    "body": [
+      {
+        "type": "quick_answer",
+        "text": "Treat the uploaded photograph as the source for facial structure, natural complexion, ethnicity, age and distinguishing features. Describe permitted changes—such as clothing, pose or expression—separately. Remove any conflicting instructions elsewhere in the prompt, then compare the output with the reference. This can reduce ambiguity, but it cannot guarantee an exact likeness."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "why",
+        "text": "Why does AI change my face?"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A generated portrait is not automatically a faithful copy of the person in the reference. A scene can look right while facial proportions, age cues or complexion differ. One practical problem you can address is conflicting instructions: “preserve my face” competes with requests for a different jaw, younger age or the appearance of the preview model. Removing that conflict is useful even when it does not solve every model limitation."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "reference-present",
+        "text": "What does REFERENCE PRESENT mean in PicMagic?"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "PicMagic’s reference clauses separate the source of identity from the creative scene. Your uploaded photo supplies who the person is. The preview supplies composition, styling and visual treatment. Its person, ethnicity and complexion are not a target you need to match. A saree, kurta or location does not determine your ethnicity. REFERENCE PRESENT is a heading in PicMagic’s prompt text, not a special command that locks a face in an external model."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Age needs an explicit check",
+        "text": "Some current PicMagic clauses request an appearance of approximately 22–30 when no adult age is specified. If you want to retain your actual age, remove that default and any conflicting scene age, then explicitly ask to preserve the age shown in your reference. Adding “keep my age” at the end leaves the contradiction unresolved."
+      },
+      {
+        "type": "table",
+        "caption": "Keep identity separate from creative choices",
+        "columns": [
+          "Usually preserve",
+          "May adapt for the scene"
+        ],
+        "rows": [
+          [
+            "Facial proportions, eye spacing, nose, jaw and distinctive marks",
+            "Pose, gaze and expression"
+          ],
+          [
+            "Ethnicity and natural complexion",
+            "Wardrobe, background and lighting"
+          ],
+          [
+            "Hairline and recognizable features",
+            "Hair arrangement where the concept calls for it"
+          ],
+          [
+            "Actual age cues and natural body proportions",
+            "Framing and photographic or illustrated treatment"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "instruction",
+        "text": "Use a short instruction that does not contradict itself"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Try: “The attached photo is the identity reference. Preserve my recognizable face shape, proportions, natural complexion, ethnicity, distinguishing marks and actual age. Use the selected concept for clothing, environment, pose and expression. Do not substitute the example person’s identity.” Read the rest of the scene prompt for incompatible age, body or facial instructions before appending it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For example, “preserve my identity” conflicts with “give me the preview model’s jawline.” Remove the jawline instruction. Likewise, K-drama should control cinematography, wardrobe and mood, not ethnicity. Write “K-drama-inspired rainy lighting; retain my own facial structure, ethnicity and natural complexion,” rather than asking to look like the preview actor."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Expression can move cheeks, brows and the mouth without necessarily implying a different identity. Keeping a serious scene does not require copying a smile from the reference. Hair can be arranged for the concept while the hairline stays recognizable. For an ink or paper treatment, judge facial landmarks and relative complexion values within the stated palette rather than expecting literal photographic skin colour."
+          }
+        ]
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7",
+        "why": "A background replacement narrows the requested change: original subject, pose and clothing remain, while the surroundings become a simple studio wall.",
+        "best_use": "Learning a restrained identity-aware edit before a full scene transformation.",
+        "guidance": "Inspect hair, glasses and clothing edges. Match the new background to the existing light rather than relighting the face aggressively."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "couples",
+        "text": "Map each person before describing the scene"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For separate references, write “Photo 1 supplies Person A; Photo 2 supplies Person B.” For one group photograph, identify each intended subject by their position in that source image, then state their positions in the output separately. For example: “The left person in the reference becomes Person A beside the window; the right person becomes Person B holding the letter.” Keep each face, complexion and age attached to its own role."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For larger groups, add one role per person and state the total number of people. Do not let clothing, pose or screen position become a reason to swap or blend faces. Compare every output face with its own reference; one convincing face does not validate the group."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "review",
+        "text": "Review in an order that makes drift visible"
+      },
+      {
+        "type": "steps",
+        "items": [
+          {
+            "title": "Compare identity first",
+            "text": "Check face shape, eye spacing, nose, jaw, marks, age cues and complexion. Account for the effect of pose and expression without overlooking a different face."
+          },
+          {
+            "title": "Check the permitted changes",
+            "text": "Confirm that clothing, pose, hair arrangement and expression follow the scene, while forbidden changes are absent."
+          },
+          {
+            "title": "Inspect contact and crop",
+            "text": "Review fingers, jewellery, garment edges and the intended square or circular crop."
+          },
+          {
+            "title": "Correct one mismatch",
+            "text": "Name a visible mismatch: “Keep the pose, clothes and background. Restore the nose shape and jaw proportions from my reference; retain my actual age and natural complexion.” For a pair, name Person A or B and ask to retain the other person. Recheck the whole image: a focused request does not guarantee that everything else stays unchanged."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Use the reference-photo guide for upload roles and customization basics",
+            "href": "/guides/reference-photo-prompts"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Does “100% same face” guarantee the result?",
+            "answer": "No. It expresses intent but provides no measured guarantee. Review the actual output rather than relying on emphatic wording."
+          },
+          {
+            "question": "Can I change my hairstyle and keep my identity?",
+            "answer": "Describe the allowed arrangement separately from the hairline and facial identity. Large changes can still affect recognition, so inspect the output."
+          }
+        ]
+      }
+    ],
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "guide",
+    "primary_topic": "Identity & Editing",
+    "related_prompts": [
+      "a0e86d11-2529-5b8f-9a4e-f90331a2e0b7"
+    ],
+    "related_collections": [
+      "/ai-prompts/men"
+    ],
+    "related_articles": [
+      "create-ai-photos-with-chatgpt",
+      "ai-couple-photo-ideas-for-instagram"
+    ],
+    "seo_title": "How to Keep Your Face the Same in AI-Generated Photos",
+    "meta_description": "Separate identity from styling, resolve conflicting age and face instructions, and check each person independently in an AI-generated portrait.",
+    "featured_image": {
+      "url": "/previews/change-the-scene-keep-yourself-5908088f14.webp",
+      "alt": "A fictional Indian man in a black overshirt against a stone-grey studio wall with natural side lighting.",
+      "width": 960,
+      "height": 1200,
+      "caption": "Original PicMagic AI-generated concept preview; illustrative, not a guarantee of your result."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/men/change-the-scene-keep-yourself",
+      "label": "Try an identity-aware look",
+      "type": "prompt"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": false,
+    "date_published": null,
+    "date_modified": "2026-10-06T08:07:15Z",
+    "created_at": "2026-10-06T00:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic reference-photo guide",
+        "url": "/guides/reference-photo-prompts",
+        "checked_at": "2026-10-06",
+        "note": "Existing methodology, reference roles and review limitations."
+      },
+      {
+        "title": "PicMagic editorial methodology",
+        "url": "/about#editorial-methodology",
+        "checked_at": "2026-10-06",
+        "note": "Previews illustrate concepts; tool suggestions are not compatibility tests."
+      }
+    ],
+    "evidence_note": "Written from PicMagic catalogue concepts and current prompt methodology. This article is not a new controlled experiment or a real-person likeness test."
+  },
+  {
+    "id": "740a9e14-552d-5207-80e0-b20e16781315",
+    "version": 1,
+    "slug": "ai-photo-ideas-for-men",
+    "title": "AI Photo Ideas for Men That Are Actually Worth Trying",
+    "excerpt": "Compare cinematic street motion, a projected self-portrait, geometric studio light and a restrained editorial look, with original PicMagic previews and crop advice.",
+    "body": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Try City Lights for a still subject against moving streets, The Projectionist Is Me for one person at two scales, or Katana in the Square of Light for a graphic full-body composition. Quiet Confidence is the simpler portrait option. Choose one visual idea, then use the crop and identity checks below to decide whether it suits your post or profile."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "city",
+        "text": "A cinematic post with a clear visual anchor"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+        "why": "The person stays still while the city moves around them. Wet street light and commuter blur create atmosphere without requiring a complicated prop.",
+        "best_use": "A city-themed Instagram post.",
+        "guidance": "Keep the subject’s face clear. Do not add another unrelated lighting setup to the night scene."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "double-exposure",
+        "text": "One identity at two scales"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "98c53a88-ba35-5e03-b6fb-b033fddbcbb4",
+        "why": "A seated person adjusts a projector beside a large projection of their own face across a plaster-wall corner. One identity appears at two scales within a tangible scene.",
+        "best_use": "A creative editorial post.",
+        "guidance": "Keep the projected face consistent with the photographic person. Check the wall corner and projector placement; a tight crop would remove the scene’s mechanism."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "katana",
+        "text": "A fashion image built around light geometry"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "fc5e91e8-fa8f-5eb3-8fb5-28cb32093c11",
+        "why": "A bright square softbox frames an over-the-shoulder streetwear pose against dark concrete. The light shape is as important as the styling.",
+        "best_use": "A dramatic fashion post.",
+        "guidance": "Retain the downward prop orientation and natural build. The wider composition is usually more useful as a post than as a tight circular avatar."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "confidence",
+        "text": "An editorial portrait with fewer distractions"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+        "why": "A charcoal suit, oak desk and window light let you explore a formal editorial setting and wardrobe. This is the least transformative option here; choose it when a composed portrait matters more than a visual effect.",
+        "best_use": "A personal editorial portrait or polished social profile post.",
+        "guidance": "Preserve your natural build and intended age. Check whether a square crop leaves enough room around your face; this is not documentary evidence of a workplace."
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Explore a different two-scale composition in the double-exposure guide",
+            "href": "/guides/double-exposure-fashion"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The projector scene above uses a physical projection; double exposure blends separate views into one composition. Both need the two depictions to represent the same person."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "choose",
+        "text": "Choose by use, not by how elaborate it looks"
+      },
+      {
+        "type": "table",
+        "caption": "Selection guide",
+        "columns": [
+          "Look and use",
+          "What to inspect"
+        ],
+        "rows": [
+          [
+            "City Lights: atmospheric post",
+            "Readable face against motion and low light"
+          ],
+          [
+            "The Projectionist Is Me: creative editorial image",
+            "One identity in the person and projected face"
+          ],
+          [
+            "Katana in the Square of Light: fashion statement",
+            "Pose, prop contact and geometric framing"
+          ],
+          [
+            "Quiet Confidence: restrained portrait",
+            "Age, build and a clean crop"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "These catalogue previews use 4:5 compositions. For a DP, inspect a square and circular crop before changing the prompt. A head-and-shoulders image may survive that crop better than a full-body scene with a light frame. The profile-picture collection is a more relevant next stop when the avatar itself is your priority."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Explore compositions selected for profile pictures",
+            "href": "/collections/instagram-profile-picture"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "identity",
+        "text": "Keep the person separate from the preview styling"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Use your own reference in the external tool. The preview’s person is illustrative; copying the scene does not mean copying their face, ethnicity or age. Read the prompt for age defaults and state your intended age. Change the outfit or colour only where it does not destroy the selected mechanism. Review facial structure before deciding that better lighting means a better likeness."
+          }
+        ]
+      }
+    ],
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "ideas",
+    "primary_topic": "Men",
+    "related_prompts": [
+      "4b284e2b-f4c8-5a74-8222-3eec1dd73d84",
+      "b743459f-f833-51b4-b4a8-1ebfbda1b72a",
+      "fc5e91e8-fa8f-5eb3-8fb5-28cb32093c11",
+      "98c53a88-ba35-5e03-b6fb-b033fddbcbb4"
+    ],
+    "related_collections": [
+      "/ai-prompts/men"
+    ],
+    "related_articles": [
+      "create-ai-photos-with-chatgpt",
+      "keep-your-face-the-same-in-ai-photos"
+    ],
+    "seo_title": "AI Photo Ideas for Men That Are Actually Worth Trying",
+    "meta_description": "Compare cinematic street motion, a projected self-portrait, geometric studio light and a restrained editorial look, with original PicMagic previews and crop advice.",
+    "featured_image": {
+      "url": "/previews/city-lights-main-character-energy-identity-v2-bb1b8885af.webp",
+      "alt": "A thoughtful young Indian man stands still at a wet Mumbai crossing while commuters blur around him at dusk.",
+      "width": 960,
+      "height": 1200,
+      "caption": "Original PicMagic AI-generated concept preview; illustrative, not a guarantee of your result."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/men",
+      "label": "Explore men’s photo ideas",
+      "type": "category"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": false,
+    "date_published": null,
+    "date_modified": "2026-10-06T08:07:15Z",
+    "created_at": "2026-10-06T00:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic reference-photo guide",
+        "url": "/guides/reference-photo-prompts",
+        "checked_at": "2026-10-06",
+        "note": "Existing methodology, reference roles and review limitations."
+      },
+      {
+        "title": "PicMagic editorial methodology",
+        "url": "/about#editorial-methodology",
+        "checked_at": "2026-10-06",
+        "note": "Previews illustrate concepts; tool suggestions are not compatibility tests."
+      }
+    ],
+    "evidence_note": "Written from PicMagic catalogue concepts and current prompt methodology. This article is not a new controlled experiment or a real-person likeness test."
+  },
+  {
+    "id": "eea96bd2-029f-5fd0-bb69-b55e5fd0708d",
+    "version": 1,
+    "slug": "ai-photo-ideas-for-women",
+    "title": "AI Photo Ideas for Women That Are Actually Worth Trying",
+    "excerpt": "Explore an ink-and-photo interaction, an impossible ocean destination, two saree settings and an age-aware profile portrait using original PicMagic examples.",
+    "body": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For a playful post, try the drawn bird reaching into a photographic coffee scene. For something cinematic, try a lift that opens onto an underwater world. The saree settings offer two distinct clothing-and-place ideas; the quiet studio portrait is the profile-picture option. These previews show what each concept contributes, with practical checks before you copy a prompt."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "ink",
+        "text": "A photographic person interacting with ink"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+        "why": "A flat ink bird pulls a cup across a placemat while the photographic person reacts. The contact between media is the point of the scene.",
+        "best_use": "A playful mixed-media post.",
+        "guidance": "Keep the face photographic and the ink treatment on the declared elements. Inspect the cup, saucer and reaching hand rather than turning the whole image into a cartoon."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "ocean",
+        "text": "Travel imagination without pretending it happened"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "fa78d036-7b1a-5101-a360-2168d6d0170b",
+        "why": "A dry lift opens onto an underwater view behind glass. The contradiction is contained in the destination while the person remains grounded.",
+        "best_use": "A surreal travel-themed or cinematic post.",
+        "guidance": "Keep the lift dry and the underwater view behind the barrier. Label the result as a creative scene rather than a real travel memory."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "golden-hour",
+        "text": "Warm Indian fashion with space to breathe"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "ac229bca-b98d-59ff-bda2-977203e8e083",
+        "why": "An ivory saree and narrow gold border sit against sandstone arches. Evening sidelight gives the fabric and architecture a coherent warm setting.",
+        "best_use": "An Indian-fashion post or traditional personal portrait.",
+        "guidance": "Preserve your own complexion and ethnicity. Jasmine styling and a saree do not require adopting the preview person’s identity."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "red-saree",
+        "text": "A festive editorial setting"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "b5661669-70e7-5288-9018-cc8712655143",
+        "why": "A red-and-white cotton saree and Kolkata balcony give the scene a specific clothing-and-place relationship rather than a generic festival backdrop.",
+        "best_use": "A festive or saree-focused editorial post.",
+        "guidance": "Inspect the border, drape and jewellery. Treat it as a generated portrait, not evidence that an actual celebration or trip occurred."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "studio",
+        "text": "A quieter portrait for a profile crop"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+        "why": "A warm-grey background and black boat-neck top leave facial identity as the main subject. The concept explicitly retains actual age.",
+        "best_use": "A personal portrait or candidate for a DP.",
+        "guidance": "Check the square and circular crop and retain natural age cues. Do not equate a cleaner background with a need to smooth away skin texture."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "choose",
+        "text": "Choose the crop before adding more detail"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "All five source previews are 4:5. Keep that full composition for scenes whose props or architecture carry the idea. For a profile image, start with the simpler studio look and test a circular crop. If you supply a real garment reference, label it separately from identity and check colour, weave and borders against the garment; these creative previews are not a guarantee of product fidelity."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "For a layered composition, read the existing double-exposure guide. It explains how two depictions can share one identity without competing for attention.",
+            "href": "/guides/double-exposure-fashion"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Learn how to separate identity references from clothing and style references",
+            "href": "/guides/reference-photo-prompts"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Must I look like the woman in the example?",
+            "answer": "No. Your own permitted reference supplies identity. The example shows the treatment and composition."
+          },
+          {
+            "question": "Which look is easiest to assess for likeness?",
+            "answer": "A restrained portrait with a readable face gives you fewer moving parts to inspect. That is selection advice, not a measured tool-success ranking."
+          }
+        ]
+      }
+    ],
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "ideas",
+    "primary_topic": "Women",
+    "related_prompts": [
+      "ac229bca-b98d-59ff-bda2-977203e8e083",
+      "b5661669-70e7-5288-9018-cc8712655143",
+      "9d9e6c5c-9264-590c-8a63-1cb3bb4f3433",
+      "b7e4f72b-141c-5f2b-abfd-114b427c13ab",
+      "fa78d036-7b1a-5101-a360-2168d6d0170b"
+    ],
+    "related_collections": [
+      "/ai-prompts/women"
+    ],
+    "related_articles": [
+      "keep-your-face-the-same-in-ai-photos",
+      "create-ai-photos-with-chatgpt"
+    ],
+    "seo_title": "AI Photo Ideas for Women That Are Actually Worth Trying",
+    "meta_description": "Explore an ink-and-photo interaction, an impossible ocean destination, two saree settings and an age-aware profile portrait using original PicMagic examples.",
+    "featured_image": {
+      "url": "/previews/ink-took-my-coffee-impact.webp",
+      "alt": "A woman reaches toward a terracotta cup being pulled by a flat ink bird on a paper placemat.",
+      "width": 1080,
+      "height": 1350,
+      "caption": "Original PicMagic AI-generated concept preview; illustrative, not a guarantee of your result."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/women",
+      "label": "Explore women’s photo ideas",
+      "type": "category"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": false,
+    "date_published": null,
+    "date_modified": "2026-10-06T08:07:15Z",
+    "created_at": "2026-10-06T00:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic reference-photo guide",
+        "url": "/guides/reference-photo-prompts",
+        "checked_at": "2026-10-06",
+        "note": "Existing methodology, reference roles and review limitations."
+      },
+      {
+        "title": "PicMagic editorial methodology",
+        "url": "/about#editorial-methodology",
+        "checked_at": "2026-10-06",
+        "note": "Previews illustrate concepts; tool suggestions are not compatibility tests."
+      }
+    ],
+    "evidence_note": "Written from PicMagic catalogue concepts and current prompt methodology. This article is not a new controlled experiment or a real-person likeness test."
+  },
+  {
+    "id": "e12e73be-6f8f-5ad4-b424-7b7b6ca92b76",
+    "version": 1,
+    "slug": "ai-couple-photo-ideas-for-instagram",
+    "title": "AI Couple Photo Ideas for Instagram",
+    "excerpt": "Find romantic, retro, beach and cinematic couple concepts, then map both references clearly and choose a crop that keeps both people recognizable.",
+    "body": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Choose rain or a café for a close shared moment, blue-hour walking for a travel-inspired post, or the railway letter for a cinematic pre-wedding mood. The vintage-car scene suits an anniversary idea. A couple DP needs a tighter crop than most of these compositions: keep both faces readable, even when that means giving up the background. These are imagined scenes, not records of an event."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "rain",
+        "text": "Romance with a shared shelter"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "f8599583-8854-5732-93f1-a0ac27860372",
+        "why": "A transparent umbrella places the two people in one small shared space. Rain supports the mood while their interaction remains visible.",
+        "best_use": "A romantic Instagram post or anniversary-inspired scene.",
+        "guidance": "Keep the umbrella edge clear of both faces. Check each identity and the hands holding the umbrella separately. K-drama describes the rain, lighting and styling; retain each reference person’s ethnicity and natural complexion."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "retro",
+        "text": "Retro styling for an anniversary idea"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "0b9630f2-5115-535f-9402-35f1afc00c33",
+        "why": "A vintage maroon car and relaxed laughter give the portrait a period-inspired character without requiring a dramatic embrace.",
+        "best_use": "An anniversary post or retro editorial pair portrait.",
+        "guidance": "State both intended ages explicitly rather than inheriting the preview’s ages or a young-adult default. Inspect the saree and the contact with the car."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "beach",
+        "text": "A travel-inspired scene with room around the pair"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "33849ccd-f6de-543d-985f-268cd59302ef",
+        "why": "Off-white clothing and small waves support a quiet walking composition. The shared direction of movement matters more than elaborate props.",
+        "best_use": "A beach-inspired post or pre-wedding mood concept.",
+        "guidance": "Check joined hands, feet and water contact. Do not describe the generated destination as proof of a trip you did not take."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "chai",
+        "text": "Everyday warmth over chai"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+        "why": "A shared joke beside a rain-speckled window gives the scene a familiar emotional action. The title says coffee; the published scene specifies steaming chai.",
+        "best_use": "A casual couple post or a nostalgic campus-inspired concept.",
+        "guidance": "Keep both subjects adults. Customize the memory without changing who each reference represents, and inspect cup handles and fingers."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "letter",
+        "text": "A cinematic exchange with a beginning and an answer"
+      },
+      {
+        "type": "prompt_card",
+        "prompt_id": "eb41333c-e39f-5ce3-a1b5-e1500f8b6146",
+        "why": "One folded letter passes between two adults beside a stationary heritage carriage. Warm light draws attention to the hands; the recipient’s reaction provides the emotional answer.",
+        "best_use": "A cinematic editorial post or pre-wedding story idea.",
+        "guidance": "Keep steam behind the faces, retain a single letter and inspect the handover. Match each identity to its role rather than merging facial features."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "uses",
+        "text": "Post, DP or pre-wedding mood board?"
+      },
+      {
+        "type": "table",
+        "caption": "Choose the use before the crop",
+        "columns": [
+          "Use",
+          "Selection advice"
+        ],
+        "rows": [
+          [
+            "Instagram post",
+            "Retain the 4:5 source composition when the umbrella, car, train or landscape is part of the story."
+          ],
+          [
+            "Couple DP",
+            "Start by testing the closer umbrella or café scene. Preview a square and circular crop; both faces must remain recognizable. The full-body beach and car scenes lose much of their story when cropped tightly."
+          ],
+          [
+            "Anniversary",
+            "Choose a shared activity or memory-inspired scene and state the intended ages."
+          ],
+          [
+            "Pre-wedding mood",
+            "Use the beach or cinematic scene as inspiration, not a substitute for documentary photographs."
+          ],
+          [
+            "Travel memory",
+            "Distinguish an imagined destination from an edit of a real travel photograph."
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mapping",
+        "text": "Write two clear reference roles"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Use permitted references for both people. Separate photos can work as source references for an intended pair: label them “Photo 1: Person A” and “Photo 2: Person B,” then assign the output position and clothing to each role. With a single group photo, identify exactly which two source subjects you mean. Ask the tool to keep each person’s face, natural complexion and age separate; do not swap or blend them."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Compare each output face with its own reference before inspecting romance or atmosphere. Check eye spacing, nose, jaw, complexion and age cues, then hands, jewellery and body contact. A convincing Person A does not validate Person B. If one face drifts, request a focused correction that retains the other person and the scene; recheck both afterwards."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Prepare separate identity and style references with the reference-photo guide",
+            "href": "/guides/reference-photo-prompts"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Can these guarantee both faces stay the same?",
+            "answer": "No. Clear mapping reduces ambiguity but cannot guarantee likeness. Inspect both outputs independently."
+          },
+          {
+            "question": "Is there a single best couple DP prompt?",
+            "answer": "The final crop and face size matter. A wider scene may work better as a post than a profile picture."
+          }
+        ]
+      }
+    ],
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "ideas",
+    "primary_topic": "Couples",
+    "related_prompts": [
+      "f8599583-8854-5732-93f1-a0ac27860372",
+      "0b9630f2-5115-535f-9402-35f1afc00c33",
+      "33849ccd-f6de-543d-985f-268cd59302ef",
+      "628c9233-ebf9-58d0-bd39-e2dda6f07ce0",
+      "eb41333c-e39f-5ce3-a1b5-e1500f8b6146"
+    ],
+    "related_collections": [
+      "/ai-prompts/couple"
+    ],
+    "related_articles": [
+      "keep-your-face-the-same-in-ai-photos",
+      "create-ai-photos-with-chatgpt"
+    ],
+    "seo_title": "AI Couple Photo Ideas for Instagram",
+    "meta_description": "Find romantic, retro, beach and cinematic couple concepts, then map both references clearly and choose a crop that keeps both people recognizable.",
+    "featured_image": {
+      "url": "/previews/a-little-rain-a-lot-of-romance-identity-v2-3da22335be.webp",
+      "alt": "A young Indian couple share a transparent umbrella and affectionate smiles on a rainy city street.",
+      "width": 960,
+      "height": 1200,
+      "caption": "Original PicMagic AI-generated concept preview; illustrative, not a guarantee of your result."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/couple",
+      "label": "Explore couple photo ideas",
+      "type": "category"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": false,
+    "date_published": null,
+    "date_modified": "2026-10-06T08:07:15Z",
+    "created_at": "2026-10-06T00:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic reference-photo guide",
+        "url": "/guides/reference-photo-prompts",
+        "checked_at": "2026-10-06",
+        "note": "Existing methodology, reference roles and review limitations."
+      },
+      {
+        "title": "PicMagic editorial methodology",
+        "url": "/about#editorial-methodology",
+        "checked_at": "2026-10-06",
+        "note": "Previews illustrate concepts; tool suggestions are not compatibility tests."
+      }
+    ],
+    "evidence_note": "Written from PicMagic catalogue concepts and current prompt methodology. This article is not a new controlled experiment or a real-person likeness test."
+  }
+]

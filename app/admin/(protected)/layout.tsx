@@ -11,6 +11,7 @@ export default async function ProtectedLayout({
     <div className="admin-shell">
       <nav className="admin-nav" aria-label="Administration">
         <Link href="/admin">Overview</Link>
+        <Link href="/admin/blog">Blog & Lab</Link>
         <Link href="/admin/prompts">Prompts</Link>
         <Link href="/admin/categories">Categories</Link>
         <Link href="/admin/collections">Collections</Link>

@@ -25,6 +25,8 @@ export async function POST(request: Request) {
   if (error || !role)
     return Response.json({ error: "Forbidden" }, { status: 403 });
   revalidateTag("catalog", { expire: 0 });
+  revalidateTag("blog", { expire: 0 });
+  revalidatePath("/blog");
   revalidatePath("/", "layout");
   revalidatePath("/sitemap.xml");
   revalidatePath("/sitemap-pages.xml");

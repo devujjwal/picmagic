@@ -1,8 +1,15 @@
 "use client";
+import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { NoticeProvider } from "@/features/saved/store";
 import { Consent } from "@/components/layout/consent";
 import { WebVitals } from "@/components/analytics/web-vitals";
+import {
+  subscribeConsent,
+  analyticsConsentKey,
+  readConsent,
+} from "@/lib/privacy/consent";
+import { clearBlogAttribution } from "@/lib/analytics/blog-attribution";
 export function ClientShell({
   children,
   nonce,
@@ -10,6 +17,18 @@ export function ClientShell({
   children: React.ReactNode;
   nonce?: string;
 }) {
+  const pathname = usePathname();
+  useEffect(() => {
+    const clear = () => {
+      if (
+        readConsent(analyticsConsentKey) !== "yes" ||
+        /^\/(admin|blog-preview)(\/|$)/.test(pathname)
+      )
+        clearBlogAttribution();
+    };
+    clear();
+    return subscribeConsent(clear);
+  }, [pathname]);
   const [notice, setNotice] = useState("");
   const notify = useCallback((message: string) => setNotice(message), []);
   useEffect(() => {

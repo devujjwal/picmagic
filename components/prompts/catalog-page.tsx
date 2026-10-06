@@ -1,3 +1,7 @@
+import {
+  RelatedGuides,
+  type GuideLink,
+} from "@/components/blog/related-guides";
 import { CollectionDiscovery } from "./collection-discovery";
 import {
   doubleExposureGuidePath,
@@ -37,6 +41,7 @@ export function CatalogPage({
   availablePrompts = prompts,
   medium,
   discovery,
+  guides = [],
 }: {
   title: string;
   description: string;
@@ -48,6 +53,7 @@ export function CatalogPage({
   availablePrompts?: Prompt[];
   medium?: "photo" | "reel";
   discovery?: DiscoveryContext;
+  guides?: GuideLink[];
 }) {
   prompts = prompts.filter((p) => !isConsolidatedPrompt(p));
   prompts =
@@ -88,6 +94,7 @@ export function CatalogPage({
       : "/ai-prompts";
   return (
     <div className="container" data-ad-surface={showAds ? path : undefined}>
+      <RelatedGuides guides={guides} />
       <CategoryView category={path} />
       <Breadcrumbs
         items={[

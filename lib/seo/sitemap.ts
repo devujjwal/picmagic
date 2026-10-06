@@ -1,3 +1,5 @@
+import { articleSitemapEntries } from "@/lib/blog/seo";
+import type { Article } from "@/lib/blog/schema";
 import type { MetadataRoute } from "next";
 import type { Catalog } from "@/types/content";
 import { promptPath } from "@/types/content";
@@ -12,11 +14,10 @@ import {
   isCollectionSeoEligible,
   isPromptSeoEligible,
 } from "@/lib/seo/eligibility";
-export function sitemapEntries({
-  prompts,
-  categories,
-  collections,
-}: Catalog): MetadataRoute.Sitemap {
+export function sitemapEntries(
+  { prompts, categories, collections }: Catalog,
+  articles: Article[] = [],
+): MetadataRoute.Sitemap {
   if (!site.indexing) return [];
   const latestPromptUpdate = prompts
     .filter(isPromptSeoEligible)
@@ -24,6 +25,19 @@ export function sitemapEntries({
     .sort()
     .at(-1);
   return [
+    ...articleSitemapEntries(articles),
+    ...(articles.some((a) => articleSitemapEntries([a]).length)
+      ? [
+          {
+            url: site.url + "/blog",
+            lastModified: articles
+              .filter((a) => articleSitemapEntries([a]).length)
+              .map((a) => a.date_modified)
+              .sort()
+              .at(-1),
+          },
+        ]
+      : []),
     ...sitePages.map(({ path, updatedAt }) => ({
       url: site.url + path,
       ...(updatedAt ? { lastModified: updatedAt } : {}),

@@ -1,3 +1,4 @@
+import { getRelatedGuideLinks } from "@/lib/blog/repository";
 import { notFound, permanentRedirect } from "next/navigation";
 import { getCatalog, repository } from "@/lib/content";
 import { promptMetadata } from "@/lib/seo/metadata";
@@ -30,5 +31,11 @@ export async function generateMetadata(props: Props) {
   return promptMetadata((await resolve(props)).prompt);
 }
 export default async function Detail(props: Props) {
-  return <PromptDetail {...await resolve(props)} />;
+  const resolved = await resolve(props);
+  return (
+    <PromptDetail
+      {...resolved}
+      guides={await getRelatedGuideLinks({ promptId: resolved.prompt.id })}
+    />
+  );
 }

@@ -1,3 +1,7 @@
+import {
+  RelatedGuides,
+  type GuideLink,
+} from "@/components/blog/related-guides";
 import { deferredAdvertisingPrompts } from "@/config/ads";
 import { consolidatedPath } from "@/content/consolidations";
 import { promptCollections } from "@/lib/prompts/collections";
@@ -29,10 +33,12 @@ export function PromptDetail({
   prompt: p,
   catalog,
   preview = false,
+  guides = [],
 }: {
   prompt: Prompt;
   catalog: Catalog;
   preview?: boolean;
+  guides?: GuideLink[];
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
   const faqs =
@@ -72,6 +78,7 @@ export function PromptDetail({
       className="container"
       data-ad-surface={showAds ? promptPath(p) : undefined}
     >
+      {!preview && <RelatedGuides guides={guides} />}
       <Breadcrumbs
         items={[
           { name: "Home", path: "/" },

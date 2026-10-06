@@ -1,3 +1,4 @@
+import { getRelatedGuideLinks } from "@/lib/blog/repository";
 import { notFound } from "next/navigation";
 import { getCatalog } from "@/lib/content";
 import { CatalogPage } from "@/components/prompts/catalog-page";
@@ -35,6 +36,9 @@ export default async function Category({ params, searchParams }: Props) {
   if (!c) notFound();
   return (
     <CatalogPage
+      guides={await getRelatedGuideLinks({
+        hubPath: `/ai-prompts/${category}`,
+      })}
       availablePrompts={catalog.prompts}
       {...catalog}
       prompts={catalog.prompts.filter((p) => p.category_id === c.id)}

@@ -1,5 +1,18 @@
 import { analyticsConsentKey, readConsent } from "@/lib/privacy/consent";
+import {
+  blogEntrySource,
+  readBlogAttribution,
+  validBlogSlug,
+  validDestination,
+  validEntrySource,
+} from "./blog-attribution";
 export type AnalyticsEvent =
+  | "blog_view"
+  | "blog_prompt_click"
+  | "blog_collection_click"
+  | "blog_cta_click"
+  | "blog_share"
+  | "blog_scroll_depth"
   | "prompt_view"
   | "prompt_copy"
   | "prompt_share"
@@ -17,7 +30,14 @@ export type AnalyticsEvent =
   | "session_depth_3"
   | "session_depth_5"
   | "session_depth_10";
-type Properties = {
+export type Properties = {
+  article_slug?: string;
+  destination_path?: string;
+  destination_type?: "prompt" | "category" | "collection";
+  cta_role?: "primary" | "secondary";
+  cta_location?: "inline" | "primary" | "related";
+  entry_source?: "organic_search" | "referral" | "direct" | "internal";
+  scroll_percent?: number;
   prompt_id?: string;
   category?: string;
   method?: string;
@@ -55,7 +75,7 @@ export function safeAnalyticsPath(value: string): string | null {
     )
       return path;
     if (
-      !/^\/(?:$|ai-prompts(?:\/[a-z0-9-]+){0,2}$|collections(?:\/[a-z0-9-]+)?$|reel-prompts(?:\/[a-z0-9-]+)?$|create$|enhance-photo$|search$|saved$|about$|privacy$|terms$|contact$)/.test(
+      !/^\/(?:$|ai-prompts(?:\/[a-z0-9-]+){0,2}$|collections(?:\/[a-z0-9-]+)?$|reel-prompts(?:\/[a-z0-9-]+)?$|create$|enhance-photo$|search$|saved$|blog(?:\/[a-z0-9-]+)?$|about$|privacy$|terms$|contact$)/.test(
         path,
       )
     )
@@ -80,6 +100,22 @@ export function safeReferrer(value: string) {
 }
 export function cleanProperties(props: Properties): Properties {
   const result: Properties = {};
+  if (validBlogSlug(props.article_slug))
+    result.article_slug = props.article_slug;
+  if (validDestination(props.destination_path))
+    result.destination_path = props.destination_path;
+  if (
+    ["prompt", "category", "collection"].includes(props.destination_type || "")
+  )
+    result.destination_type = props.destination_type;
+  if (["primary", "secondary"].includes(props.cta_role || ""))
+    result.cta_role = props.cta_role;
+  if (["inline", "primary", "related"].includes(props.cta_location || ""))
+    result.cta_location = props.cta_location;
+  if (validEntrySource(props.entry_source))
+    result.entry_source = props.entry_source;
+  if ([25, 50, 75, 100].includes(props.scroll_percent || 0))
+    result.scroll_percent = props.scroll_percent;
   if (props.prompt_id && /^[a-f0-9-]{36}$/.test(props.prompt_id))
     result.prompt_id = props.prompt_id;
   if (props.category && /^[a-z0-9-]{1,80}$/.test(props.category))
@@ -149,6 +185,7 @@ export function trackPageView(pathname: string) {
     return;
   }
   if (!startAnalytics() || lastPath === path) return;
+  blogEntrySource();
   const context = {
     page_location: "https://picmagic.in" + path,
     page_referrer: lastPath
@@ -166,7 +203,12 @@ export function track(event: AnalyticsEvent, props: Properties = {}) {
   if (!startAnalytics()) return;
   trackPageView(window.location.pathname);
   window.gtag!("event", event, {
-    ...cleanProperties(props),
+    ...cleanProperties({
+      ...(event === "prompt_view" || event === "prompt_copy"
+        ? readBlogAttribution()
+        : {}),
+      ...props,
+    }),
     page_location:
       "https://picmagic.in" + safeAnalyticsPath(window.location.pathname),
     page_referrer: safeReferrer(document.referrer),

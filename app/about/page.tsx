@@ -98,6 +98,26 @@ export default function About() {
         </Link>{" "}
         to separate identity from styling.
       </p>
+      <h2 id="picmagic-editorial">PicMagic Editorial</h2>
+      <p>
+        PicMagic is a visual discovery and prompt platform for creating AI-photo
+        concepts using external image-generation tools. Our editorial guides
+        help readers choose a concept, understand reference roles and make
+        focused corrections.
+      </p>
+      <p>
+        We separate identity from styling: your reference supplies the person,
+        while a concept supplies its visual treatment. Read each prompt for age
+        and styling instructions, and check the output rather than assuming
+        exact likeness.
+      </p>
+      <p>
+        Our guides use original public PicMagic previews and identify them as
+        illustrative. Sources support external factual claims. PicMagic Lab
+        publishes experiment conclusions only with documented inputs, conditions
+        and reviewed outputs; planned tests stay private. We distinguish writing
+        updates from new tests and welcome corrections through our contact page.
+      </p>
       <Link href="/ai-prompts" className="button">
         Find your next idea
       </Link>

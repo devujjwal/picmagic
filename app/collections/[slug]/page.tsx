@@ -1,3 +1,4 @@
+import { getRelatedGuideLinks } from "@/lib/blog/repository";
 import { notFound, permanentRedirect } from "next/navigation";
 import { getCatalog, repository } from "@/lib/content";
 import { CatalogPage } from "@/components/prompts/catalog-page";
@@ -41,6 +42,7 @@ export default async function Collection({ params, searchParams }: Props) {
   }
   return (
     <CatalogPage
+      guides={await getRelatedGuideLinks({ hubPath: `/collections/${slug}` })}
       availablePrompts={catalog.prompts}
       {...catalog}
       prompts={catalog.prompts.filter((p) => c.prompt_ids.includes(p.id))}

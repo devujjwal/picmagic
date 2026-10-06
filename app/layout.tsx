@@ -1,3 +1,4 @@
+import { getDiscoverableArticles } from "@/lib/blog/repository";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
@@ -19,6 +20,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const hasBlog = (await getDiscoverableArticles().catch(() => [])).length > 0;
   const nonce = (await headers()).get("x-nonce") || undefined;
   return (
     <html lang="en" data-scroll-behavior="smooth">
@@ -26,7 +28,7 @@ export default async function RootLayout({
         <ClientShell nonce={nonce}>
           <Header />
           <main id="main">{children}</main>
-          <Footer />
+          <Footer hasBlog={hasBlog} />
           <StructuredData
             data={{
               "@context": "https://schema.org",

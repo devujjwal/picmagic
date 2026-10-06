@@ -9,6 +9,8 @@ export default defineConfig([
     ".next-release/**",
     ".next-adsense-october/**",
     ".next-targeted/**",
+    ".next-blog-qa/**",
+    ".next-blog-preview/**",
     ".netlify/**",
     ".release-private/**",
     "next-env.d.ts",

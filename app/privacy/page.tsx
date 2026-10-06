@@ -122,6 +122,17 @@ export default function Privacy() {
         </a>
         .
       </p>
+      <h2>Editorial conversion measurement</h2>
+      <p>
+        With optional analytics consent, PicMagic records guide views, links
+        into prompts or collections, prompt views and copies, sharing actions
+        and scroll milestones. A short-lived browser-session record carries the
+        originating article and CTA through browsing for up to 30 minutes. It
+        contains content identifiers and a coarse entry-source category, not
+        personal photographs, article text or search terms. We do not add a
+        visitor identifier for this funnel. Withdrawing analytics consent clears
+        this attribution; private editorial previews are excluded.
+      </p>
       <h2>Hosting and administration</h2>
       <p>
         Our hosting provider processes normal request information, such as IP

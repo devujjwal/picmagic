@@ -3,7 +3,7 @@ import { PrivacyChoices } from "./privacy-choices";
 import { ArrowUpRight } from "lucide-react";
 import { BrandLogo } from "@/components/ui/brand-logo";
 import { site } from "@/config/site";
-export function Footer() {
+export function Footer({ hasBlog = false }: { hasBlog?: boolean }) {
   return (
     <footer className="site-footer">
       <div className="footer-top">
@@ -29,6 +29,7 @@ export function Footer() {
           </div>
           <div>
             <h2>A little more</h2>
+            {hasBlog && <Link href="/blog">Blog & PicMagic Lab</Link>}
             <Link href="/about">About PicMagic</Link>
             <Link href="/guides/reference-photo-prompts">
               Reference-photo guide
