@@ -18,9 +18,44 @@ import {
   MAX_UPLOAD_BYTES,
 } from "@/features/poster-maker/uploads";
 import { posterMakerPath } from "@/features/poster-maker/links";
+import { posterLayout } from "@/features/poster-maker/layout";
 
 afterEach(() => vi.unstubAllGlobals());
 describe("poster editor", () => {
+  it("keeps premium text, photos and contact panels separate at every export size", () => {
+    for (const design of ["diwali", "durga-puja", "dussehra"] as const)
+      for (const format of Object.keys(formats) as (keyof typeof formats)[])
+        for (const layout of ["centered", "split"] as const) {
+          const state = {
+            ...initialPoster(design),
+            format,
+            layout,
+            website: "example.test",
+            email: "hello@example.test",
+            phone: "1234567890",
+            details: "Optional details",
+          };
+          const b = posterLayout(state, true);
+          const [w, h] = formats[format];
+          for (const box of [
+            b.artwork,
+            b.brand,
+            b.greeting,
+            b.message,
+            b.photo!,
+            b.footer,
+          ]) {
+            expect(box.x).toBeGreaterThanOrEqual(0);
+            expect(box.y).toBeGreaterThanOrEqual(0);
+            expect(box.x + box.w).toBeLessThanOrEqual(w);
+            expect(box.y + box.h).toBeLessThanOrEqual(h);
+          }
+          expect(b.brand.y + b.brand.h).toBeLessThan(b.greeting.y);
+          expect(b.greeting.y + b.greeting.h).toBeLessThan(b.message.y);
+          expect(b.message.y + b.message.h).toBeLessThan(b.photo!.y);
+          expect(b.photo!.y + b.photo!.h).toBeLessThan(b.footer.y);
+        }
+  });
   it("only allows approved design identifiers and produces no personal-data URL", () => {
     for (const value of [
       "../../private",

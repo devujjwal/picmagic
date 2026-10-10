@@ -21,7 +21,7 @@ describe("staged festival release", () => {
       expect(draft.id).toBe(original.id);
       expect(promptPath(draft)).toBe(promptPath(promptSchema.parse(original)));
     }
-    expect(allPrompts.filter((p) => p.is_published)).toHaveLength(103);
+    expect(allPrompts.filter((p) => p.is_published)).toHaveLength(104);
     expect(allPrompts.filter((p) => !p.is_published)).toHaveLength(89);
     for (const staged of festivalReleaseDrafts) {
       const approved = promptSchema.parse(

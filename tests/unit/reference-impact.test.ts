@@ -17,6 +17,7 @@ import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import postrelease from "../../docs/audits/postrelease-fixes-2026-10-05/database-patch.json";
 import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import festivalApproved from "../../content/releases/festival-approved-2026-10.json";
+import premiumApproved from "../../content/releases/premium-festival-approved-2026-10.json";
 import {
   socialPreviewEnabled,
   socialPreviewMemberships,
@@ -62,6 +63,7 @@ describe("Reference-inspired local expansion", () => {
         ...reelChanges.find((change) => change.id === p.id)?.after,
         ...postrelease.find((change) => change.id === p.id)?.after,
         ...festivalApproved.find((change) => change.id === p.id),
+        ...premiumApproved.find((change) => change.id === p.id),
       });
     }
     expect(candidates).toHaveLength(15);

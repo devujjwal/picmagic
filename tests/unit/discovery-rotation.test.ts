@@ -19,7 +19,7 @@ describe("server-selected discovery rotation", () => {
       .sort((a, b) => a.trending_rank - b.trending_rank);
     expect(selectHomepage(prompts).ids).toEqual(ids(baseline.slice(0, 12)));
     const photos = eligibleDiscoveryPhotos(prompts);
-    expect(photos).toHaveLength(84);
+    expect(photos).toHaveLength(85);
     expect(orderExplore(prompts)).toEqual(orderForDiscovery(photos));
     const rejected = [
       { ...photos[0], id: "draft", is_published: false },
@@ -62,7 +62,7 @@ describe("server-selected discovery rotation", () => {
     for (let counter = 0; counter < 24; counter++) {
       const current = orderExplore(prompts, counter),
         next = orderExplore(prompts, counter + 1);
-      expect(new Set(ids(next)).size).toBe(84);
+      expect(new Set(ids(next)).size).toBe(85);
       for (let start = 0; start < baseline.length; start += 24) {
         expect(ids(next.slice(start, start + 24)).sort()).toEqual(
           ids(baseline.slice(start, start + 24)).sort(),

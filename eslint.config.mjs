@@ -14,6 +14,8 @@ export default defineConfig([
     ".next-affiliate-qa/**",
     ".next-festival-qa/**",
     ".next-festival-final/**",
+    ".next-premium-qa/**",
+    ".next-premium-build/**",
     ".netlify/**",
     ".release-private/**",
     "next-env.d.ts",

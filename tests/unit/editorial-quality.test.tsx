@@ -12,6 +12,7 @@ import contentRereview from "../../docs/audits/content-rereview-2026-09-25/chang
 import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import festivalReview from "../../docs/audits/festival-release-2026-10-10/content-review.json";
+import premiumReview from "../../docs/audits/festival-premium-2026-10-10/content-review.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createHash } from "node:crypto";
@@ -45,7 +46,9 @@ describe("Why AI editorial release", () => {
       2,
     );
     for (const p of prompts) {
-      const festival = festivalReview.find((r) => r.id === p.id);
+      const festival = [...premiumReview, ...festivalReview].find(
+        (r) => r.id === p.id,
+      );
       if (festival) {
         expect(createHash("sha256").update(p.prompt_text).digest("hex")).toBe(
           festival.sha256,
@@ -140,7 +143,9 @@ describe("Why AI editorial release", () => {
       );
       // Keep historical collection order; append the scoped festival additions.
       const newIds = new Set(
-        festivalReview.filter((r) => r.kind === "addition").map((r) => r.id),
+        [...festivalReview, ...premiumReview]
+          .filter((r) => r.kind === "addition")
+          .map((r) => r.id),
       );
       expect(
         c.prompt_ids.filter((id) => !newIds.has(id)),

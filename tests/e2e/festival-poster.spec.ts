@@ -7,7 +7,7 @@ const sharp: typeof import("sharp").default = createRequire(import.meta.url)(
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
-const approved = JSON.parse(
+const priorApproved = JSON.parse(
   readFileSync("content/releases/festival-approved-2026-10.json", "utf8"),
 ) as {
   id: string;
@@ -17,6 +17,19 @@ const approved = JSON.parse(
   preview_image_url: string;
   thumbnail_url: string;
 }[];
+const premiumApproved = JSON.parse(
+  readFileSync(
+    "content/releases/premium-festival-approved-2026-10.json",
+    "utf8",
+  ),
+) as typeof priorApproved;
+const premiumById = new Map(premiumApproved.map((p) => [p.id, p]));
+const approved = [
+  ...priorApproved.map((p) => premiumById.get(p.id) ?? p),
+  ...premiumApproved.filter(
+    (p) => !priorApproved.some((old) => old.id === p.id),
+  ),
+];
 const approvedIds = new Set(approved.map((p) => p.id));
 const remainingDrafts = [
   ...readFileSync("content/catalog.ts", "utf8").matchAll(
@@ -46,7 +59,7 @@ async function open(page: Page) {
     page.getByRole("button", { name: "Download PNG" }),
   ).toBeEnabled();
 }
-test("all twelve released routes, assets and sitemap entries exclude other drafts", async ({
+test("all approved festival routes, assets and sitemap entries exclude other drafts", async ({
   page,
   request,
 }) => {
@@ -398,24 +411,27 @@ test("missing artwork fails closed with retry instead of a blank download", asyn
     page.getByRole("combobox", { name: "Festival", exact: true }),
   ).toHaveValue("diwali");
 });
-test("font failure prevents export and retry recovers", async ({ page }) => {
-  await fixtureArt(page);
-  await page.route("**/fonts/noto-sans-devanagari.ttf", (r) =>
-    r.fulfill({ status: 404, body: "missing font" }),
-  );
-  await page.goto("/festival-poster-maker");
-  await expect(
-    page.getByRole("button", { name: "Retry artwork" }),
-  ).toBeVisible();
-  await expect(
-    page.getByRole("button", { name: "Download PNG" }),
-  ).toBeDisabled();
-  await page.unroute("**/fonts/noto-sans-devanagari.ttf");
-  await page.getByRole("button", { name: "Retry artwork" }).click();
-  await expect(
-    page.getByRole("button", { name: "Download PNG" }),
-  ).toBeEnabled();
-});
+for (const font of ["noto-sans-devanagari", "cormorant-garamond"])
+  test(`${font} failure prevents export and retry recovers`, async ({
+    page,
+  }) => {
+    await fixtureArt(page);
+    await page.route(`**/fonts/${font}.ttf`, (r) =>
+      r.fulfill({ status: 404, body: "missing font" }),
+    );
+    await page.goto("/festival-poster-maker");
+    await expect(
+      page.getByRole("button", { name: "Retry artwork" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("button", { name: "Download PNG" }),
+    ).toBeDisabled();
+    await page.unroute(`**/fonts/${font}.ttf`);
+    await page.getByRole("button", { name: "Retry artwork" }).click();
+    await expect(
+      page.getByRole("button", { name: "Download PNG" }),
+    ).toBeEnabled();
+  });
 test("constrained text overflow is explicit and cannot be exported", async ({
   page,
 }) => {
@@ -439,7 +455,8 @@ test("constrained text overflow is explicit and cannot be exported", async ({
     .selectOption("split");
   await page
     .getByRole("textbox", { name: "Greeting", exact: true })
-    .fill("W".repeat(90));
+    // Explicit lines overflow regardless of the display font's glyph widths.
+    .fill(Array(45).fill("W").join("\n"));
   await expect(
     page.locator(".poster-workspace").getByRole("alert"),
   ).toContainText("Greeting does not fit");

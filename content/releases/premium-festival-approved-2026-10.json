@@ -1,0 +1,344 @@
+[
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811001",
+    "slug": "diwali-business-greeting",
+    "title": "Diwali Business Greeting",
+    "description": "Create premium Diwali artwork with rich festive detail and editable English/Hindi wishes. Add your own logo, name and optional contact details privately in the browser. The preview uses sample lettering, not a real advertiser.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create an exquisite cream sandstone Indian courtyard with a softly illuminated scalloped arch to the right, jasmine draping from the upper left, engraved brass diyas with realistic flames on a reflective stone ledge, warm lantern bokeh, restrained marigolds and deep green foliage. Place the largest diya in the lower right. Preserve a luminous uncluttered ivory wall in the middle for independently rendered text. Tactile brass, petals and stone, cinematic golden lighting and luxury editorial photographic depth; no flat clipart or paper-cut treatment. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Photorealistic festival artwork"
+    ],
+    "occasion": "Diwali Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
+    "thumbnail_url": "/previews/diwali-business-greeting-premium-8359e2f910-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Golden brass diyas and jasmine frame an ivory courtyard Diwali poster with sample editable greeting and brand text.",
+    "lighting": "Warm cinematic golden light",
+    "framing": "4:5 layered scene with clean editable text space",
+    "camera": "Photorealistic generated still-life; not a physical camera capture",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "diwali-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Diwali Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create a premium Diwali business greeting. Add your logo, name and contact details in a free private browser poster editor.",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T15:38:47.118Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK: Generate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create an exquisite cream sandstone Indian courtyard with a softly illuminated scalloped arch to the right, jasmine draping from the upper left, engraved brass diyas with realistic flames on a reflective stone ledge, warm lantern bokeh, restrained marigolds and deep green foliage. Place the largest diya in the lower right. Preserve a luminous uncluttered ivory wall in the middle for independently rendered text. Tactile brass, petals and stone, cinematic golden lighting and luxury editorial photographic depth; no flat clipart or paper-cut treatment. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811002",
+    "slug": "durga-puja-business-greeting",
+    "title": "Durga Puja Business Greeting",
+    "description": "Create premium Durga Puja artwork with rich festive detail and editable English/Hindi wishes. Add your own logo, name and optional contact details privately in the browser. The preview uses sample lettering, not a real advertiser.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create a dignified crafted-clay Bengali Maa Durga idol with a serene three-eyed face and intricate white shola crown in the right third. Respectful traditional iconography, red hibiscus and white flowers, glowing brass lamps, a dhaak and rich red-and-ivory textile at the lower right. Warm ivory heritage pandal architecture and soft golden haze recede on the left. Keep the left-middle ivory wall calm for independently rendered text, away from the idol face and crown. Realistic craft textures, photographic depth and warm cinematic illumination; no flat clipart or paper-cut treatment. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Photorealistic festival artwork"
+    ],
+    "occasion": "Durga Puja Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+    "thumbnail_url": "/previews/durga-puja-business-greeting-premium-93459004b1-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A crafted Durga idol, white shola crown, flowers, brass lamps and dhaak beside sample editable Durga Puja greeting text.",
+    "lighting": "Warm cinematic golden light",
+    "framing": "4:5 layered scene with clean editable text space",
+    "camera": "Photorealistic generated still-life; not a physical camera capture",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "durga-puja-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Durga Puja Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create a premium Durga Puja business greeting. Add your logo, name and contact details in a free private browser poster editor.",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T15:38:47.308Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK: Generate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create a dignified crafted-clay Bengali Maa Durga idol with a serene three-eyed face and intricate white shola crown in the right third. Respectful traditional iconography, red hibiscus and white flowers, glowing brass lamps, a dhaak and rich red-and-ivory textile at the lower right. Warm ivory heritage pandal architecture and soft golden haze recede on the left. Keep the left-middle ivory wall calm for independently rendered text, away from the idol face and crown. Realistic craft textures, photographic depth and warm cinematic illumination; no flat clipart or paper-cut treatment. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+    "slug": "garba-under-the-lights",
+    "title": "Garba under the lights",
+    "description": "Garba under the lights: The person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba courtyard. Reference photos determine identity; adapt the styling to make the idea your own.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion, age and hair, with ordinary natural proportions; do not repeat a stereotypical face. Match age and number only where essential to this concept.\n\nCREATIVE DIRECTION:\n\nCreate a photograph of the person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba courtyard.\n\nAppearance: For dance styling, secure longer hair in a pinned-up bun with soft tendrils, or pin shorter hair securely. Preserve hairline and colour. Include a small bindi, traditional earrings, a close-fitting necklace and stacked bangles. A joyful soft smile, eyes towards the moving skirt.\n\nPose and expression: Capture one controlled turn with the shoulders angled and both hands lightly lifting the skirt edges, elbows softly bent. Keep the face sharp while only the hem carries slight motion blur.\n\nEssential visible details: Turquoise chaniya choli, magenta dupatta and skirt borders, distinct mirror-work and embroidery, festive overhead strings of lights and distant dancers. Keep the bindi and jewellery visible and the skirt physically connected at the waist.\n\nLighting: warm festive overhead lights and gentle motion blur at the skirt hem. Camera and framing: 50mm lens, f/2.8, full-body dance portrait. Compose for a 4:5 image. Keep important hair, headwear, accessories and held objects inside the crop. Preserve realistic skin texture, individual hair strands, believable hands and natural proportions. Keep essential facial details unobscured. Avoid artificial HDR halos, excessive smoothing, watermarks and unwanted text. Prioritize the essential visible details over decorative background elements.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Navratri",
+      "Traditional",
+      "Movement"
+    ],
+    "occasion": "Navratri",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/garba-under-the-lights-premium-64bdcd6b27.webp",
+    "thumbnail_url": "/previews/garba-under-the-lights-premium-64bdcd6b27-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Reference-based woman turning in a turquoise and magenta mirror-work chaniya choli, holding the skirt edges under warm Garba courtyard lights.",
+    "lighting": "warm festive overhead lights and gentle motion blur at the skirt hem",
+    "framing": "full-body dance portrait",
+    "camera": "50mm lens, f/2.8, full-body dance portrait",
+    "suggested_tools": [
+      "ChatGPT Images",
+      "Gemini",
+      "Midjourney",
+      "Flux"
+    ],
+    "tags": [
+      "Navratri",
+      "Traditional",
+      "Movement",
+      "Woman"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 41,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Garba under the lights AI Photo Prompt | PicMagic",
+    "seo_description": "Garba under the lights: The person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba…",
+    "created_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-10-10T15:38:47.539Z",
+    "published_at": "2026-09-10T00:00:00Z",
+    "faqs": [
+      {
+        "answer": "Attach your own clear reference photo in a tool that supports image references, then paste the complete prompt. For a group, provide the intended people and keep their identities distinct. If you also attach the PicMagic preview, label your photo as the identity reference and the preview as the style reference. The preview face should not replace yours.",
+        "question": "How do I use this prompt with my own photo?"
+      },
+      {
+        "answer": "Turquoise chaniya choli, magenta dupatta and skirt borders, distinct mirror-work and embroidery, festive overhead strings of lights and distant dancers. Keep the bindi and jewellery visible and the skirt physically connected at the waist.",
+        "question": "Which details should I check in the result?"
+      },
+      {
+        "answer": "Edit the generated result rather than starting over: name the missing hairstyle, expression, forehead mark or accessory and where it belongs. Ask the tool to change only that feature while preserving the same person and all correct details. Use a masked edit if supported. Specific directions improve guidance, but exact identity or preview matching is not guaranteed.",
+        "question": "What if the tool leaves out a detail?"
+      }
+    ],
+    "reel": null,
+    "image_brief": "Approved identity-reference input; retain actual age, face, natural body proportions and distinguishing features. \n\nCreate a photograph of the person wearing a vibrant turquoise and magenta chaniya choli, captured mid-turn with fabric moving naturally in an outdoor garba courtyard.\n\nAppearance: For dance styling, secure longer hair in a pinned-up bun with soft tendrils, or pin shorter hair securely. Preserve hairline and colour. Include a small bindi, traditional earrings, a close-fitting necklace and stacked bangles. A joyful soft smile, eyes towards the moving skirt.\n\nPose and expression: Capture one controlled turn with the shoulders angled and both hands lightly lifting the skirt edges, elbows softly bent. Keep the face sharp while only the hem carries slight motion blur.\n\nEssential visible details: Turquoise chaniya choli, magenta dupatta and skirt borders, distinct mirror-work and embroidery, festive overhead strings of lights and distant dancers. Keep the bindi and jewellery visible and the skirt physically connected at the waist.\n\nLighting: warm festive overhead lights and gentle motion blur at the skirt hem. Camera and framing: 50mm lens, f/2.8, full-body dance portrait. Compose for a 4:5 image. Keep important hair, headwear, accessories and held objects inside the crop. Preserve realistic skin texture, individual hair strands, believable hands and natural proportions. Keep essential facial details unobscured. Avoid artificial HDR halos, excessive smoothing, watermarks and unwanted text. Prioritize the essential visible details over decorative background elements.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.",
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1",
+    "content_intent": "utility",
+    "distinctiveness_score": 3,
+    "why_ai": "A reference-based woman photoshoot helps recreate this specific wardrobe, setting and lighting without arranging the location and photographic equipment. Retained for its existing search intent; not featured creative discovery.",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811003",
+    "slug": "dussehra-business-greeting",
+    "title": "Dussehra Business Greeting",
+    "description": "Create premium Dussehra artwork with rich festive detail and editable English/Hindi wishes. Add your own logo, name and optional contact details privately in the browser. The preview uses sample lettering, not a real advertiser.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create a magnificent cream sandstone arch framing a golden sunset, hazy distant palace silhouettes and a calm luminous ivory-gold central sky. Place an ornate engraved ceremonial golden bow and one arrow decoratively along the lower right, resting on saffron silk and a stone ledge, with glowing brass diyas, lush marigolds and restrained green foliage. Keep the bow away from any person; no combat, burning effigy or violence. Leave the upper and central middle uncluttered for separately rendered lettering. Rich tactile stone, brass, petals and silk, realistic flame light and cinematic photographic depth; no flat clipart. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Photorealistic festival artwork"
+    ],
+    "occasion": "Dussehra Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+    "thumbnail_url": "/previews/dussehra-business-greeting-premium-1d2aded2e0-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Golden carved arches, a ceremonial bow, saffron silk, diyas and marigolds frame sample editable Dussehra greeting and brand text.",
+    "lighting": "Warm cinematic golden light",
+    "framing": "4:5 layered scene with clean editable text space",
+    "camera": "Photorealistic generated still-life; not a physical camera capture",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "dussehra-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Dussehra Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create a premium Dussehra business greeting. Add your logo, name and contact details in a free private browser poster editor.",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T15:38:47.709Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK: Generate one high-definition photorealistic festival poster background at the highest available included resolution, portrait 4:5. Create a magnificent cream sandstone arch framing a golden sunset, hazy distant palace silhouettes and a calm luminous ivory-gold central sky. Place an ornate engraved ceremonial golden bow and one arrow decoratively along the lower right, resting on saffron silk and a stone ledge, with glowing brass diyas, lush marigolds and restrained green foliage. Keep the bow away from any person; no combat, burning effigy or violence. Leave the upper and central middle uncluttered for separately rendered lettering. Rich tactile stone, brass, petals and silk, realistic flame light and cinematic photographic depth; no flat clipart. No human models, endorsements, text, letters, numbers, logos or watermarks. Generate the artwork only. Add an English or Hindi greeting, company/name, message, website, email, phone or other details separately in the PicMagic festival poster editor. Upload your original logo directly into the editor; never regenerate its artwork or lettering with AI. Optional photos are placed and cropped, not face-swapped or background-removed. The example preview shows sample editable text; do not copy placeholder branding into your own poster.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Stages a coordinated two-person mirror-work festival portrait with controlled four-stick poses and cinematic string-light depth without arranging a festival photoshoot.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811007",
+    "slug": "dandiya-night-together",
+    "title": "Dandiya Night Together",
+    "description": "A joyful couple portrait in coordinated black mirror-work outfits, holding four dandiya sticks beneath warm festival lights. Upload both people's references to personalize the identities; the preview supplies styling and composition only.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate one lively photographic portrait of exactly two adults enjoying a Navratri dandiya night together. Place them close, shoulders touching and bodies angled slightly outward, in a joyful pause between dance steps, both looking toward the camera with natural smiles. Frame from the head to around the knees, not full length. Dress them in coordinated black-base outfits with richly coloured embroidered mirror-work: a chaniya choli with a flowing red dupatta, and a black kurta with an embroidered sleeveless festive vest. Adapt which person wears each outfit to the supplied references and their requested styling; do not exchange faces or alter anyone's body to fit clothing. Each person holds exactly two decorated wooden dandiya sticks, one in each hand: four sticks total, angled outward and raised away from both faces. Show separate plausible hands and grips; no merged sticks, sticks passing through fingers, or extra arms. Festive cloth canopies, colourful hanging decorations and rows of warm string lights fill a softly blurred courtyard background, with an indistinct distant crowd rather than extra foreground subjects. Warm soft facial illumination, natural skin texture and luminous golden bokeh; crisp eyes, embroidery and reflective mirror details, without motion blur on faces. A 50mm-style three-quarter portrait with moderate depth of field, vertical 4:5. Keep both faces and the important hands comfortably inside the frame. No text, logos, watermark or beauty filtering. Preserve both supplied identities, actual ages, complexions, hairlines and distinguishing features. Do not make either person younger. If the references do not provide the intended adult couple, ask for suitable complete references rather than inventing or replacing a partner. This is a fictional festive scene, not proof of attendance at a real event.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "Festive couple portrait",
+      "Mirror-work celebration"
+    ],
+    "occasion": "Navratri dandiya night",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/dandiya-night-together-ba4e090f87.webp",
+    "thumbnail_url": "/previews/dandiya-night-together-ba4e090f87-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A smiling couple in colourful black mirror-work outfits with four dandiya sticks beneath golden string lights and festive canopies.",
+    "lighting": "Warm soft facial light with golden string-light bokeh",
+    "framing": "Three-quarter couple portrait; four sticks held away from faces",
+    "camera": "50mm-style photographic portrait with softly blurred background",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "couple",
+      "navratri",
+      "dandiya",
+      "festival",
+      "mirror-work",
+      "festive-portrait"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 200,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Dandiya Night Couple AI Photo Prompt | PicMagic",
+    "seo_description": "Create a festive dandiya couple portrait with mirror-work outfits and warm lights. Copy the prompt and use both people's photos to preserve their identities.",
+    "created_at": "2026-10-10T15:38:39.014Z",
+    "updated_at": "2026-10-10T15:38:39.014Z",
+    "published_at": "2026-10-10T15:38:39.014Z",
+    "faqs": [
+      {
+        "question": "Which reference photos do I need?",
+        "answer": "Use an authorized clear photo showing both adults, or separate clear portraits of both. State who should wear each outfit. The supplied identities and actual ages take priority; never use the preview faces as replacements."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, dupatta styling, expression, decorative canopies and background lights. Keep exactly two people and four sticks with faces unobscured. The portrait is a joyful pause between steps, not a full-length action photograph."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare both faces with your references. Check all four hands, fingers, stick grips, mirror-work, natural skin and frame edges. AI can duplicate props or mix identities; request a focused revision with the same references if this happens."
+      },
+      {
+        "question": "How does this differ from the other Navratri templates?",
+        "answer": "This is a close two-person composition in coordinated black mirror-work outfits. Garba Under the Lights is a solo skirt-turning portrait; Navratri Dandiya Portrait is a solo full-length pause in saffron and indigo."
+      },
+      {
+        "question": "How was this example preview made?",
+        "answer": "The owner supplied this finished example for the template. Its original generation provider and inputs were not independently verified. It illustrates the intended look, not a guarantee that any tool will reproduce the exact image."
+      }
+    ],
+    "reel": null,
+    "image_brief": "Owner-supplied finished preview, not newly generated by this workflow. Two adults close together, woman left and man right, black mirror-work outfits, red dupatta, four sticks and warm light canopies. Provider/model and original generation inputs were not independently verified. Do not use the preview faces as visitor identity references.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  }
+]

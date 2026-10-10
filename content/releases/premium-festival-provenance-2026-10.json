@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "diwali-business-greeting",
+    "tool": "ChatGPT web included image generation; underlying model not exposed",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T15:38:47.118Z",
+    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 232744,
+      "sha256": "7fb171e7066f76a092657b66f722fde5fd4cdfe46a585a14baf1f5757faed6cc"
+    },
+    "thumbnail": {
+      "path": "/previews/diwali-business-greeting-premium-8359e2f910-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 59478,
+      "sha256": "66bee2eb7e8f531c949c61c386e498f622b95c96d501fcaba596ab733bfec2f5"
+    },
+    "alt": "Golden brass diyas and jasmine frame an ivory courtyard Diwali poster with sample editable greeting and brand text."
+  },
+  {
+    "slug": "durga-puja-business-greeting",
+    "tool": "ChatGPT web included image generation; underlying model not exposed",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T15:38:47.308Z",
+    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 227434,
+      "sha256": "972d982f1f1df93644ca669a58c3f4fa9b757ae2b8208affae009d2751e4bb27"
+    },
+    "thumbnail": {
+      "path": "/previews/durga-puja-business-greeting-premium-93459004b1-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 60622,
+      "sha256": "5280995c64d2c82ebfbf02432e402f3f1ef16f9505a31eac2a26c417da8e2ca0"
+    },
+    "alt": "A crafted Durga idol, white shola crown, flowers, brass lamps and dhaak beside sample editable Durga Puja greeting text."
+  },
+  {
+    "slug": "garba-under-the-lights",
+    "tool": "ChatGPT web included image generation; underlying model not exposed",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T15:38:47.539Z",
+    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Outer moving skirt reaches the side edges; hands, face and feet remain visible. Identity similarity is qualitative.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/garba-under-the-lights-premium-64bdcd6b27.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 318578,
+      "sha256": "5706605b756883046f71811507a6a6d0b0629eb04954abbf85b982c29b15fe57"
+    },
+    "thumbnail": {
+      "path": "/previews/garba-under-the-lights-premium-64bdcd6b27-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 77918,
+      "sha256": "17411b229266953ce42931cdc109950f4c8dfa668884637481dbe3e6b0241bd2"
+    },
+    "alt": "Reference-based woman turning in a turquoise and magenta mirror-work chaniya choli, holding the skirt edges under warm Garba courtyard lights."
+  },
+  {
+    "slug": "dussehra-business-greeting",
+    "tool": "ChatGPT web included image generation; underlying model not exposed",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T15:38:47.709Z",
+    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 200324,
+      "sha256": "8e937e8c47fce2004ce246bc0e98cc73aedb11e0fd03533ef8454cf268aa0079"
+    },
+    "thumbnail": {
+      "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 49952,
+      "sha256": "30e763162c4845e8c30df7de0956f077f3b43b697ddbcafd6e83765ea376827d"
+    },
+    "alt": "Golden carved arches, a ceremonial bow, saffron silk, diyas and marigolds frame sample editable Dussehra greeting and brand text."
+  },
+  {
+    "slug": "dandiya-night-together",
+    "tool": "Owner-supplied finished image; provider and model unverified",
+    "status": "user-supplied",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T15:38:39.014Z",
+    "review_method": "Visual review of scene, two-person composition, four sticks, hands and crop; not an identity or provider certification.",
+    "limitations": "Three-quarter crop. The outer right raised hand reaches the edge. Original generation provider and identity inputs unverified; no claim of this workflow generating the preview.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/dandiya-night-together-ba4e090f87.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 337900,
+      "sha256": "0e129540b448670375158df02c6fcda2d7f0318db3b468c438f7fa08ade86cde"
+    },
+    "thumbnail": {
+      "path": "/previews/dandiya-night-together-ba4e090f87-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 84284,
+      "sha256": "0c90a9dcdf9f65fd41880203b14b403e7f34adbb131d4fea3deaf4616b130132"
+    },
+    "alt": "A smiling couple in colourful black mirror-work outfits with four dandiya sticks beneath golden string lights and festive canopies."
+  }
+]

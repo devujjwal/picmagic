@@ -15,6 +15,8 @@ import { promptPath, promptSchema } from "../types/content";
 import provenance from "../content/image-provenance.json";
 import festivalReview from "../docs/audits/festival-release-2026-10-10/content-review.json";
 import festivalProvenance from "../content/releases/festival-provenance-2026-10.json";
+import premiumReview from "../docs/audits/festival-premium-2026-10-10/content-review.json";
+import premiumProvenance from "../content/releases/premium-festival-provenance-2026-10.json";
 const failures: string[] = [];
 const paths = new Set<string>();
 const ids = new Set<string>();
@@ -29,6 +31,21 @@ for (const raw of allPrompts) {
   paths.add(promptPath(p));
   const review = scope.records.filter((r) => r.id === p.id);
   const festival = festivalReview.find((r) => r.id === p.id);
+  const premium = premiumReview.find((r) => r.id === p.id);
+  const currentHash = createHash("sha256").update(p.prompt_text).digest("hex");
+  const premiumValid =
+    premium &&
+    premium.sha256 === currentHash &&
+    (premium.kind === "addition"
+      ? premium.before_sha256 === null && !festival && review.length === 0
+      : premium.before_sha256 === (festival?.sha256 ?? review[0]?.sha256) &&
+        (festival
+          ? festival.kind === "addition"
+            ? review.length === 0 && festival.before_sha256 === null
+            : review.length === 1 && festival.before_sha256 === review[0].sha256
+          : review.length === 1));
+  if (premium && !premiumValid)
+    failures.push(`${p.slug}: stale premium review chain`);
   const festivalValid =
     festival &&
     festival.sha256 ===
@@ -80,6 +97,7 @@ for (const raw of allPrompts) {
       review[0].sha256 ||
       reviewedFollowup);
   if (
+    !premiumValid &&
     !festivalValid &&
     (review.length !== 1 ||
       (review[0].sha256 !== hash &&
@@ -106,7 +124,7 @@ for (const raw of allPrompts) {
       failures.push(`${p.slug}: incorrect dimensions`);
   }
   if (
-    ![...provenance, ...festivalProvenance].some(
+    ![...provenance, ...festivalProvenance, ...premiumProvenance].some(
       (r) => r.preview.path === p.preview_image_url,
     )
   )
@@ -140,6 +158,7 @@ for (const c of allCollections) {
 }
 if (
   scope.records.length +
+    premiumReview.filter((r) => r.kind === "addition").length +
     festivalReview.filter((r) => r.kind === "addition").length !==
   allPrompts.length
 )

@@ -198,7 +198,7 @@ describe("precise content corrections", () => {
     const members = c.prompt_ids.map((id) =>
       allPrompts.find((p) => p.id === id)!,
     );
-    expect(members).toHaveLength(10);
+    expect(members).toHaveLength(11);
     expect(
       members.every((p) => p.is_published && p.prompt_type === "photo"),
     ).toBe(true);

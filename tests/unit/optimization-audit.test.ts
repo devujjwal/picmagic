@@ -57,15 +57,15 @@ function searchInput(rows = [row]) {
 describe("read-only catalogue acceptance", () => {
   it("recalculates the complete inventory and contextual graph", () => {
     expect(baseline.inventory).toMatchObject({
-      total: 192,
-      published: 103,
+      total: 193,
+      published: 104,
       drafts: 89,
-      eligible: 101,
+      eligible: 102,
       categories: 17,
       collections: 40,
       eligibleCollections: 8,
-      uniqueImages: 92,
-      relatedEdges: 799,
+      uniqueImages: 93,
+      relatedEdges: 810,
       withoutCollection: 20,
       withoutEligibleCollection: 39,
       modeledUnreachablePrompts: 0,
@@ -75,7 +75,7 @@ describe("read-only catalogue acceptance", () => {
     ).toHaveLength(11);
     expect(
       baseline.findings.filter((f) => f.rule === "lexical-overlap"),
-    ).toHaveLength(38);
+    ).toHaveLength(36);
   });
   it("retains exact source locations and keeps drafts out of recommendations", () => {
     expect(catalog.sources["category:cinematic"].file).toBe(
@@ -130,7 +130,7 @@ describe("read-only catalogue acceptance", () => {
   });
   it("models every eligible canonical and every protected draft", () => {
     const paths = expectedSitemapPaths(catalog, new Date(asOf));
-    expect(paths).toHaveLength(126);
+    expect(paths).toHaveLength(127);
     expect(paths).toContain("/festival-poster-maker");
     expect(paths).toContain("/guides/prompt-trial");
     expect(new Set(paths).size).toBe(paths.length);

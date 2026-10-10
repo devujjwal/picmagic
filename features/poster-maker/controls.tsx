@@ -71,7 +71,7 @@ export function PosterControls({
             }
           >
             <option value="centered">Centered greeting</option>
-            <option value="split">Photo beside greeting</option>
+            <option value="split">Wide photo below greeting</option>
           </select>
         </label>
         <p className="poster-help">

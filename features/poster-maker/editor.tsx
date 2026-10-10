@@ -39,7 +39,10 @@ export function PosterEditor({ designId }: { designId: string }) {
     Promise.all([image.decode(), loadPosterFont()])
       .then(() => {
         if (!active) return;
-        if (!document.fonts.check('400 32px "PicMagic Devanagari"'))
+        if (
+          !document.fonts.check('400 32px "PicMagic Devanagari"') ||
+          !document.fonts.check('600 32px "PicMagic Display"')
+        )
           throw Error("Font unavailable");
         setArt({ id: design.id, image });
         setFontReady(true);

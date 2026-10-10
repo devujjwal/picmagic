@@ -25,7 +25,12 @@ export function loadAuditCatalog(root = process.cwd()): AuditCatalog {
     ),
   ];
   for (const file of files) {
-    if (file === "content/releases/festival-memberships-2026-10.json") continue;
+    if (
+      /^content\/releases\/(?:premium-)?festival-memberships-2026-10\.json$/.test(
+        file,
+      )
+    )
+      continue;
     if (
       !/^content\/(?:additions\/|expansion\/|releases\/)?[a-z0-9-]+\.json$/.test(
         file,

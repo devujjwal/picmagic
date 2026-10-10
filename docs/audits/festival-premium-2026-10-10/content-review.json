@@ -1,0 +1,51 @@
+[
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811001",
+    "slug": "diwali-business-greeting",
+    "kind": "refresh",
+    "before_sha256": "8ca2200d2b0094f1a0955bb05003f11608d48b5d391da8885b1ca67c56c1cf9c",
+    "sha256": "31dc6365efa27f59e6f7341b1f31eae368140bcc49f64e7b848e121b673c7e46",
+    "reviewed_at": "2026-10-10T15:38:47.118Z",
+    "review": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811002",
+    "slug": "durga-puja-business-greeting",
+    "kind": "refresh",
+    "before_sha256": "e693891d64bbbf55b71ba996095575684bcea16fedd64e3a46b73e021e0d4e8b",
+    "sha256": "72e2380fd6f67af563da234f0fe41bcd02c6dd5c348ce24dc7a441d301e1fa30",
+    "reviewed_at": "2026-10-10T15:38:47.308Z",
+    "review": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate."
+  },
+  {
+    "id": "1a4bea1f-edc4-518b-9f13-2bc4f5dad291",
+    "slug": "garba-under-the-lights",
+    "kind": "refresh",
+    "before_sha256": "2ce5d76d262c5ed19ee39e44b388d2a55992c32e3e951eccb5bc368fe7c48781",
+    "sha256": "2ce5d76d262c5ed19ee39e44b388d2a55992c32e3e951eccb5bc368fe7c48781",
+    "reviewed_at": "2026-10-10T15:38:47.539Z",
+    "review": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Outer moving skirt reaches the side edges; hands, face and feet remain visible. Identity similarity is qualitative."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811003",
+    "slug": "dussehra-business-greeting",
+    "kind": "refresh",
+    "before_sha256": "b2b975938eb0ee01e88abad073acd419f036f1963d2eda44fc8ecfd10071a50b",
+    "sha256": "eb51f79901926cd781fe6c64aca72faec6d827b59bfb3f3d1084ab87d51fd007",
+    "reviewed_at": "2026-10-10T15:38:47.709Z",
+    "review": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811007",
+    "slug": "dandiya-night-together",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "26661477e71adf38bafc855973c91116de2c20dd5279cb0c359d482baf4dfffb",
+    "reviewed_at": "2026-10-10T15:38:39.014Z",
+    "review": "Owner-designated finished preview visually reviewed. Two-person three-quarter dandiya pause, four sticks, black mirror-work. Distinct from both published solo Navratri concepts. Provider/inputs unverified; explicit public disclosure."
+  }
+]

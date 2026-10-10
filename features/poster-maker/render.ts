@@ -1,5 +1,5 @@
 import { formats, getDesign, type PosterState } from "./designs";
-type Box = { x: number; y: number; w: number; h: number };
+import { posterLayout, type Box } from "./layout";
 export function coverCrop(
   iw: number,
   ih: number,
@@ -81,14 +81,20 @@ function textInBox(
   color: string,
   weight: number,
   centered: boolean,
+  display = false,
 ): boolean {
   if (!text.trim()) return true;
   let lines: string[] = [];
+  const useDisplay = display && !/[\u0900-\u097f]/.test(text);
+  const leading = useDisplay ? 1.05 : 1.45;
   for (; size >= min; size -= 2) {
-    ctx.font = `${weight} ${size}px "PicMagic Devanagari", Arial, sans-serif`;
+    const family = useDisplay
+      ? '"PicMagic Display", serif'
+      : '"PicMagic Devanagari", Arial, sans-serif';
+    ctx.font = `${weight} ${size}px ${family}`;
     lines = wrapText(text, box.w, (value) => ctx.measureText(value).width);
     if (
-      lines.length * size * 1.5 <= box.h &&
+      lines.length * size * leading <= box.h &&
       lines.every((l) => ctx.measureText(l).width <= box.w)
     )
       break;
@@ -97,12 +103,12 @@ function textInBox(
   ctx.fillStyle = color;
   ctx.textAlign = centered ? "center" : "left";
   ctx.textBaseline = "middle";
-  const top = box.y + (box.h - lines.length * size * 1.5) / 2;
+  const top = box.y + (box.h - lines.length * size * leading) / 2;
   lines.forEach((line, i) =>
     ctx.fillText(
       line,
       box.x + (centered ? box.w / 2 : 0),
-      top + size * 1.5 * (i + 0.5),
+      top + size * leading * (i + 0.5),
     ),
   );
   return true;
@@ -122,96 +128,101 @@ export function renderPoster(
   const d = getDesign(state.design);
   ctx.fillStyle = d.background;
   ctx.fillRect(0, 0, w, h);
-  // Fit the whole illustration; no crop can cut off its festival motifs.
-  imageInBox(ctx, artwork, { x: 0, y: 0, w, h }, "contain");
-  ctx.fillStyle = "rgba(0,0,0,0.22)";
-  ctx.fillRect(48, h * 0.15, w - 96, h * 0.69);
-  if (logo) {
-    ctx.fillStyle = "#fff";
-    ctx.fillRect(444, h * 0.055, 192, 100);
-    imageInBox(
-      ctx,
-      logo,
-      { x: 456, y: h * 0.055 + 12, w: 168, h: 76 },
-      "contain",
-    );
+  const boxes = posterLayout(state, !!photo);
+  imageInBox(ctx, artwork, boxes.artwork, "contain");
+  if (state.format === "story") {
+    ctx.fillStyle = "#213c2b";
+    ctx.fillRect(0, boxes.artwork.h, w, h - boxes.artwork.h);
   }
-  const split = state.layout === "split" && !!photo;
-  const textX = split ? 80 : 100,
-    textW = split ? 470 : 880;
-  const textTop = photo && !split ? h * 0.405 : h * 0.25;
+  const errors: string[] = [];
+  const s = boxes.scale;
+  const brand = { ...boxes.brand };
+  if (logo) {
+    const size = brand.h;
+    const logoBox = {
+      x: brand.x + (brand.w - size) / 2,
+      y: brand.y - 72 * s,
+      w: size,
+      h: size,
+    };
+    // A neutral backing preserves the original logo colours, never AI lettering.
+    ctx.fillStyle = "#fffdf7";
+    ctx.fillRect(logoBox.x - 8, logoBox.y - 8, size + 16, size + 16);
+    imageInBox(ctx, logo, logoBox, "contain");
+    brand.y += 45 * s;
+    brand.h = 65 * s;
+  }
+  const draw = (
+    label: string,
+    text: string,
+    box: Box,
+    size: number,
+    min: number,
+    color: string,
+    weight: number,
+    display = false,
+  ) => {
+    if (!textInBox(ctx, text, box, size, min, color, weight, true, display))
+      errors.push(
+        `${label} does not fit. Shorten it or choose another format/layout.`,
+      );
+  };
+  draw("Company / name", state.name, brand, 35 * s, 20 * s, "#253c2a", 600);
+  draw(
+    "Greeting",
+    state.greeting,
+    boxes.greeting,
+    122 * s,
+    38 * s,
+    state.accent,
+    600,
+    true,
+  );
+  draw(
+    "Message",
+    state.message,
+    boxes.message,
+    35 * s,
+    22 * s,
+    state.format === "story" ? "#fff5df" : "#253c2a",
+    400,
+    true,
+  );
+  // A small editorial rule, not an opaque card, separates typography from scene.
+  const ruleY = boxes.message.y + boxes.message.h + 15 * s;
+  ctx.strokeStyle = state.format === "story" ? "#d9b879" : state.accent;
+  ctx.lineWidth = s;
+  ctx.beginPath();
+  ctx.moveTo(boxes.message.x + boxes.message.w / 2 - 70 * s, ruleY);
+  ctx.lineTo(boxes.message.x + boxes.message.w / 2 + 70 * s, ruleY);
+  ctx.stroke();
+  if (photo && boxes.photo) {
+    const b = boxes.photo;
+    ctx.fillStyle = "#fffdf7";
+    ctx.fillRect(b.x - 10, b.y - 10, b.w + 20, b.h + 20);
+    ctx.strokeStyle = state.accent;
+    ctx.strokeRect(b.x - 10, b.y - 10, b.w + 20, b.h + 20);
+    imageInBox(ctx, photo, b, "cover", state);
+  }
   const contact = [state.website, state.email, state.phone, state.details]
     .map((value) => value.trim())
     .filter(Boolean)
     .join("\n");
-  const textBottom = h * 0.82;
-  if (photo) {
-    const b = split
-      ? { x: 592, y: h * 0.25, w: 380, h: h * 0.48 }
-      : { x: 390, y: h * 0.17, w: 300, h: h * 0.22 };
-    ctx.fillStyle = state.accent;
-    ctx.fillRect(b.x - 6, b.y - 6, b.w + 12, b.h + 12);
-    imageInBox(ctx, photo, b, "cover", state);
-  }
-  const space = textBottom - textTop;
-  const entries = [
-    {
-      label: "Greeting",
-      text: state.greeting,
-      fraction: contact ? 0.3 : 0.45,
-      size: split ? 60 : 80,
-      min: 34,
-      color: state.accent,
-      weight: 700,
-    },
-    {
-      label: "Message",
-      text: state.message,
-      fraction: contact ? 0.25 : 0.35,
-      size: 36,
-      min: 24,
-      color: "#ffffff",
-      weight: 400,
-    },
-    {
-      label: "Company / name",
-      text: state.name,
-      fraction: contact ? 0.15 : 0.2,
-      size: 36,
-      min: 22,
-      color: "#ffffff",
-      weight: 700,
-    },
-    {
-      label: "Contact / other details",
-      text: contact,
-      fraction: contact ? 0.3 : 0,
-      size: 24,
-      min: 18,
-      color: "#ffffff",
-      weight: 400,
-    },
-  ];
-  const errors: string[] = [];
-  let y = textTop;
-  for (const e of entries) {
-    const height = space * e.fraction;
-    if (
-      !textInBox(
-        ctx,
-        e.text,
-        { x: textX, y, w: textW, h: height },
-        e.size,
-        e.min,
-        e.color,
-        e.weight,
-        !split,
-      )
-    )
-      errors.push(
-        `${e.label} does not fit. Shorten it or choose another format/layout.`,
-      );
-    y += height;
+  if (contact) {
+    const b = boxes.footer;
+    ctx.fillStyle = "#213c2b";
+    ctx.fillRect(b.x, b.y, b.w, b.h);
+    ctx.fillStyle = "#d9b879";
+    ctx.fillRect(0, b.y, w, 3);
+    draw(
+      "Contact / other details",
+      contact,
+      { x: 60, y: b.y + 16, w: w - 120, h: b.h - 32 },
+      28,
+      22,
+      "#fff5df",
+      400,
+    );
   }
   canvas.dataset.posterLayout = `${state.design}:${state.format}:${state.layout}`;
   return errors;
