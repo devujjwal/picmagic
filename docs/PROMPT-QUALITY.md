@@ -1,5 +1,29 @@
 # Preview-aligned prompt review — 10 September 2026
 
+## Current new-authoring direction — 10 October 2026
+
+New editorial concepts target the owner's 15–35 audience. Keep that numeric
+range in internal editorial guidance, not public copyable prompts. The festival
+batch uses adult solo and adult-couple references only. Preserve every reference
+person's actual age, face and distinguishing features; never de-age them to fit
+the audience. Ask if reference suitability is uncertain. Select from the matching
+private non-repeating men/women/couple pool and keep the selection for revisions.
+
+New authoring reuses the existing `reference-first-india-default-v1` contract,
+which already preserves age. The v2 age-changing text and its validator remain
+frozen solely for historical records; do not rewrite already-published templates.
+Do not rerun bulk historical content builders as part of this batch.
+The internal preview composer rejects explicit age overrides when a reference
+identity is used. Public visitors' own authorized references take precedence.
+
+Use signed-in ChatGPT included image generation for this batch. Stop generation
+if unavailable; never substitute a paid API, another provider or a Codex image
+tool. Record provider, prompt, selected reference ID/hash, output and visual
+review privately. Original reference photographs never enter public assets.
+
+The historical review below describes its own date and evidence, not fresh
+generation or approval of the October batch.
+
 All 50 published prompts were compared with the actual preview library and revised. The review covers 39 photo prompts, five photo edits and six reels. The preview images, original generation briefs and provenance remain unchanged; the new prompt text is an editorial improvement, not a claim that these revised prompts generated the original assets.
 
 The Krishna example exposed missing directions for the visible white U-shaped tilak, soft curls, playful smile, head tilt, jewellery and flute grip. Its framing now leaves room for the feather, hands and flute. The rest of the library received individual appearance, pose/expression and essential-detail directions rather than a universal styling paragraph. Product prompts specify cap/handle, shape, materials, label and reflections without human anatomy boilerplate. Reel scene actions now match their written prompts, and the final hold is explicitly inside the 15-second runtime.

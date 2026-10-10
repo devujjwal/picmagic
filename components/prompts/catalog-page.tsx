@@ -30,6 +30,7 @@ import { orderExplore } from "@/lib/prompts/discovery-rotation";
 import type { DiscoveryContext } from "@/lib/prompts/discovery-request";
 import { DiscoveryPreference } from "./discovery-preference";
 import { createHash } from "node:crypto";
+import { isFestivalCollection } from "@/features/poster-maker/links";
 export function CatalogPage({
   title,
   description,
@@ -115,6 +116,13 @@ export function CatalogPage({
         <div className="eyebrow">Choose a look. Make it yours.</div>
         <h1>{title}</h1>
         <p>{description}</p>
+        {isFestivalCollection(path) && (
+          <p>
+            <Link href="/festival-poster-maker">
+              Make an English or Hindi festival greeting with your logo →
+            </Link>
+          </p>
+        )}
       </header>
       {path === "/ai-prompts" && (
         <DiscoveryPreference

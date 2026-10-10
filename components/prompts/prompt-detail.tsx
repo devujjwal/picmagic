@@ -34,6 +34,7 @@ import {
   PromptCopyChooser,
 } from "@/components/affiliate/copy-journey";
 import { RecommendedTools } from "@/components/affiliate/recommended-tools";
+import { posterMakerPath } from "@/features/poster-maker/links";
 import type {
   ToolRecommendation,
   RecommendationContext,
@@ -52,6 +53,7 @@ export function PromptDetail({
   tools?: ToolRecommendation[];
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
+  const posterPath = posterMakerPath(p.id, p.slug);
   const faqs =
     remainingPromptFaqs[p.slug] ?? promptGuides[p.slug]?.faqs ?? p.faqs;
   const showAds =
@@ -156,6 +158,19 @@ export function PromptDetail({
               />
             )}
             {!preview && <PromptCopyChooser at="lower" />}
+            {posterPath && (
+              <aside className="notice">
+                <h2>Make it your greeting</h2>
+                <p>
+                  Add editable English or Hindi text, your logo and an optional
+                  photo. Export a free PNG without sending your uploads to a
+                  server.
+                </p>
+                <Link className="button secondary" href={posterPath}>
+                  Open festival poster maker
+                </Link>
+              </aside>
+            )}
             <dl className="detail-facts">
               {[
                 ["Preview aspect ratio", p.aspect_ratio],

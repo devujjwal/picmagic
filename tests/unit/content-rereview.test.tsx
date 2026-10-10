@@ -30,8 +30,8 @@ describe("scoped content re-review", () => {
   it("keeps the publication, identity, asset and URL boundaries unchanged", () => {
     expect(changes).toHaveLength(9);
     expect(new Set(changes.map((c) => c.id)).size).toBe(9);
-    expect(allPrompts.filter((p) => p.is_published)).toHaveLength(91);
-    expect(allPrompts.filter((p) => !p.is_published)).toHaveLength(95);
+    expect(allPrompts.filter((p) => p.is_published)).toHaveLength(103);
+    expect(allPrompts.filter((p) => !p.is_published)).toHaveLength(89);
     for (const c of changes) {
       expect(
         Object.keys(c.after).every((k) =>

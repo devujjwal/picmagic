@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { allPrompts, allCollections } from "@/content/catalog";
 import {
   PERSONA_POLICY_VERSION,
+  AUTHORING_PERSONA_POLICY_VERSION,
   personaIssues,
   personaPreamble,
 } from "@/lib/prompts/persona";
@@ -142,13 +143,23 @@ describe("reference and preview persona separation", () => {
     expect(result.text).toContain("NO REFERENCE PRESENT:");
     expect(result.text).not.toContain("lips, hairstyle, skin tone");
   });
-  it("separates identity from prompt-led age and expression for future generation", () => {
+  it("preserves actual reference age for new authoring while retaining historical v2", () => {
     const preamble = personaPreamble("person", "adult woman");
     expect(PERSONA_POLICY_VERSION).toBe("identity-expression-age-v2");
-    expect(preamble).toContain("authoritative for identity only");
-    expect(preamble).toContain("approximately 22–30");
+    expect(AUTHORING_PERSONA_POLICY_VERSION).toBe(
+      "reference-first-india-default-v1",
+    );
+    expect(preamble).toContain("actual age");
+    expect(preamble).not.toContain("22–30");
     expect(preamble).toContain("creative direction controls emotion");
-    expect(preamble).toContain("Do not copy the reference smile");
+    expect(
+      personaIssues({
+        persona_policy: "person",
+        persona_version: AUTHORING_PERSONA_POLICY_VERSION,
+        prompt_text: preamble + "A cobalt studio fashion portrait.",
+        image_brief: "Private adult reference pool.",
+      }),
+    ).toEqual([]);
 
     const composed = composePreviewGenerationPrompt({
       identityRole: "female",
@@ -160,11 +171,27 @@ describe("reference and preview persona separation", () => {
       outputRequirements: "One 4:5 image.",
     });
     expect(PREVIEW_GENERATION_POLICY_VERSION).toBe(
-      "preview-identity-expression-age-v1",
+      "preview-reference-age-preserved-v2",
     );
-    expect(composed).toContain("identity only");
-    expect(composed).toContain("use approximately 22–30");
+    expect(composed).toContain("identity and actual age");
+    expect(composed).not.toContain("22–30");
     expect(composed).toContain("neutral, composed gaze with closed lips");
     expect(composed).not.toContain("smiling reference");
+  });
+  it("rejects age overrides for references and supports intact couple identities", () => {
+    const input = {
+      identityRole: "couple" as const,
+      referenceAssetId: "private-couple",
+      mood: "warm",
+      expression: "relaxed",
+      scenePrompt: "Courtyard celebration",
+      outputRequirements: "4:5",
+    };
+    expect(() =>
+      composePreviewGenerationPrompt({ ...input, explicitAge: "25" }),
+    ).toThrow("Age overrides");
+    expect(composePreviewGenerationPrompt(input)).toContain(
+      "never combine solo identities",
+    );
   });
 });

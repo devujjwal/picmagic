@@ -57,17 +57,17 @@ function searchInput(rows = [row]) {
 describe("read-only catalogue acceptance", () => {
   it("recalculates the complete inventory and contextual graph", () => {
     expect(baseline.inventory).toMatchObject({
-      total: 186,
-      published: 91,
-      drafts: 95,
-      eligible: 89,
+      total: 192,
+      published: 103,
+      drafts: 89,
+      eligible: 101,
       categories: 17,
       collections: 40,
       eligibleCollections: 8,
-      uniqueImages: 80,
-      relatedEdges: 705,
+      uniqueImages: 92,
+      relatedEdges: 799,
       withoutCollection: 20,
-      withoutEligibleCollection: 34,
+      withoutEligibleCollection: 39,
       modeledUnreachablePrompts: 0,
     });
     expect(
@@ -75,7 +75,7 @@ describe("read-only catalogue acceptance", () => {
     ).toHaveLength(11);
     expect(
       baseline.findings.filter((f) => f.rule === "lexical-overlap"),
-    ).toHaveLength(30);
+    ).toHaveLength(38);
   });
   it("retains exact source locations and keeps drafts out of recommendations", () => {
     expect(catalog.sources["category:cinematic"].file).toBe(
@@ -130,13 +130,16 @@ describe("read-only catalogue acceptance", () => {
   });
   it("models every eligible canonical and every protected draft", () => {
     const paths = expectedSitemapPaths(catalog, new Date(asOf));
-    expect(paths).toHaveLength(113);
+    expect(paths).toHaveLength(126);
+    expect(paths).toContain("/festival-poster-maker");
     expect(paths).toContain("/guides/prompt-trial");
     expect(new Set(paths).size).toBe(paths.length);
     expect(
       expectedPages(catalog, new Date(asOf)).filter((p) => p.status === 404),
-    ).toHaveLength(97);
-    for (const p of catalog.prompts.filter((p) => p.is_published && !isConsolidatedPrompt(p)))
+    ).toHaveLength(91);
+    for (const p of catalog.prompts.filter(
+      (p) => p.is_published && !isConsolidatedPrompt(p),
+    ))
       expect(paths).toContain(promptPath(p));
   });
   it("inspects source and thumbnail metadata without rewriting assets", async () => {

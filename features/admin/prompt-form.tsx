@@ -7,10 +7,14 @@ import {
   generateFriendsTrip,
   friendsTripInputSchema,
 } from "@/features/generator/friends-trip";
-import { referencePersona, referenceRequired } from "@/lib/prompts/persona";
 import {
-  artReferencePersona,
-  reviewedReferencePersona,
+  legacyReferencePersona as referencePersona,
+  referenceRequired,
+  AUTHORING_PERSONA_POLICY_VERSION,
+} from "@/lib/prompts/persona";
+import {
+  legacyArtReferencePersona as artReferencePersona,
+  legacyReviewedReferencePersona as reviewedReferencePersona,
   reviewedProductPersona,
 } from "@/lib/prompts/identity-contract";
 import { EDITORIAL_VERSION } from "@/lib/prompts/editorial";
@@ -269,7 +273,7 @@ export function PromptForm({
               setP((prev) => ({
                 ...prev,
                 persona_policy: policy,
-                persona_version: PERSONA_POLICY_VERSION,
+                persona_version: AUTHORING_PERSONA_POLICY_VERSION,
                 prompt_text:
                   (p.generation_mode === "reference-required"
                     ? referencePersona +

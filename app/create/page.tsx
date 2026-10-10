@@ -19,6 +19,16 @@ export default function Create() {
         </p>
       </header>
       <Wizard />
+      <section className="section notice">
+        <h2>A greeting ready to share</h2>
+        <p>
+          Add English or Hindi wishes, your logo and an optional photo to a
+          festival poster. Download a free PNG—everything stays in your browser.
+        </p>
+        <Link className="button secondary" href="/festival-poster-maker">
+          Make a festival poster
+        </Link>
+      </section>
       <noscript>
         <p className="section">
           The prompt creator needs JavaScript. You can still{" "}

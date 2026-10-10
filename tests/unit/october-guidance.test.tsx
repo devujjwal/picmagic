@@ -130,7 +130,7 @@ describe("October content guidance", () => {
   });
   it("preserves publication and indexes only existing eligible routes while dating changed guidance", () => {
     const entries = sitemapEntries(catalog);
-    expect(catalog.prompts.filter((p) => p.is_published)).toHaveLength(91);
+    expect(catalog.prompts.filter((p) => p.is_published)).toHaveLength(103);
     expect(Object.keys(octoberPromptGuides)).toHaveLength(16);
     expect(Object.keys(octoberHubGuides)).toHaveLength(12);
     for (const [slug, guide] of Object.entries(octoberPromptGuides)) {

@@ -11,6 +11,7 @@ import releaseReview from "../../docs/releases/2026-09-11/content-review.json";
 import contentRereview from "../../docs/audits/content-rereview-2026-09-25/changes.json";
 import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
+import festivalReview from "../../docs/audits/festival-release-2026-10-10/content-review.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createHash } from "node:crypto";
@@ -44,6 +45,14 @@ describe("Why AI editorial release", () => {
       2,
     );
     for (const p of prompts) {
+      const festival = festivalReview.find((r) => r.id === p.id);
+      if (festival) {
+        expect(createHash("sha256").update(p.prompt_text).digest("hex")).toBe(
+          festival.sha256,
+        );
+        expect(editorialIssues(p), p.slug).toEqual([]);
+        continue; // Historical hash linkage is independently enforced by check:release-content.
+      }
       const review = [
         ...releaseReview.records,
         ...socialReview.records,
@@ -129,7 +138,14 @@ describe("Why AI editorial release", () => {
       const ordered = orderForDiscovery(
         prompts.filter((p) => c.prompt_ids.includes(p.id)),
       );
-      expect(c.prompt_ids, c.slug).toEqual(ordered.map((p) => p.id));
+      // Keep historical collection order; append the scoped festival additions.
+      const newIds = new Set(
+        festivalReview.filter((r) => r.kind === "addition").map((r) => r.id),
+      );
+      expect(
+        c.prompt_ids.filter((id) => !newIds.has(id)),
+        c.slug,
+      ).toEqual(ordered.filter((p) => !newIds.has(p.id)).map((p) => p.id));
     }
     const mixed = orderForDiscovery(prompts);
     const firstUtility = mixed.findIndex((p) => p.content_intent === "utility");

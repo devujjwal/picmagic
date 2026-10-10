@@ -193,12 +193,12 @@ describe("precise content corrections", () => {
     expect(text).toContain("preserve the source aspect ratio and framing");
     expect(text).toContain("Preserve identity, age, skin tone");
   });
-  it("festival promises correspond to four unchanged photo entries including one child concept", () => {
+  it("festival promises cover the expanded photo collection including the unchanged child concept", () => {
     const c = allCollections.find((c) => c.slug === "indian-festivals")!;
     const members = c.prompt_ids.map((id) =>
       allPrompts.find((p) => p.id === id)!,
     );
-    expect(members).toHaveLength(4);
+    expect(members).toHaveLength(10);
     expect(
       members.every((p) => p.is_published && p.prompt_type === "photo"),
     ).toBe(true);
@@ -206,7 +206,9 @@ describe("precise content corrections", () => {
     const body = hubGuides["/collections/indian-festivals"].sections
       .map((s) => s.body)
       .join(" ");
-    expect(body).toContain("four photo ideas");
+    expect(body).toContain(
+      "festival portraits and decorative business greetings",
+    );
     expect(body).not.toMatch(/includes child and reel|still or motion/);
     expect(c.description).not.toMatch(/reel|motion/);
   });

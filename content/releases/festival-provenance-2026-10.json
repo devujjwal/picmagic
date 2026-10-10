@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "kurta-at-the-lantern-courtyard",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted full-length ivory kurta and lantern courtyard. Hands loosely clasped at waist; public pose wording aligned. Fictional garment, not a verified product reproduction.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/kurta-at-the-lantern-courtyard-20261010-9d707ebad1.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 205344,
+      "sha256": "a1c573440c99443b96cc98b3ba0c9e13c2ae336be568fa321805e21949070098"
+    },
+    "thumbnail": {
+      "path": "/previews/kurta-at-the-lantern-courtyard-20261010-9d707ebad1-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 49910,
+      "sha256": "2e6ae60529fea129db1fd4b3509e2825e4e7fec5058bd9b1b4c75bf8c702e584"
+    },
+    "alt": "Kurta at the Lantern Courtyard: A lantern-lit heritage courtyard portrait with an ivory kurta, hands held at waist height and full-length framing. A separate garment reference is optional; without one, the outfit is fictional rather than a verified product photograph."
+  },
+  {
+    "slug": "midnight-fuel-stop",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted unobscured face, parked unbranded bike, helmet on seat and canopy mist. Front wheel is partly cropped; no exact model or engine state can be established from a still image.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/midnight-fuel-stop-20261010-01cbdc175d.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 236736,
+      "sha256": "d144e21b48a68dfaf48c794f6cea183fcfc3b4af8b02901745c765da3f1228c5"
+    },
+    "thumbnail": {
+      "path": "/previews/midnight-fuel-stop-20261010-01cbdc175d-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 53298,
+      "sha256": "502e29667a5833f7a621edbe79c6f4271daf6bbf6e60ec621904dcd78c043819"
+    },
+    "alt": "Midnight Fuel Stop: A moody portrait beside a parked motorcycle under a petrol-station canopy. An optional bike reference can guide visible details; without one, the unbranded motorcycle is fictional, not a verified make or model."
+  },
+  {
+    "slug": "floral-shadows-a-clear-face",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted clear central face, floral shadows primarily background/shoulder. Existing reference bindi/sindoor retained, not newly assigned.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/floral-shadows-a-clear-face-20261010-7ee2776814.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 181380,
+      "sha256": "d6c25b3e49ed1359e3897b6d50a8349f94d0ad0e4eb0a1ebd474d81361f403f4"
+    },
+    "thumbnail": {
+      "path": "/previews/floral-shadows-a-clear-face-20261010-7ee2776814-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 42266,
+      "sha256": "daf5cef57409af944e55843e7007d5f78406ecb7990f25adb649b99076b1bf24"
+    },
+    "alt": "Floral Shadows, a Clear Face: The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting."
+  },
+  {
+    "slug": "founder-after-hours",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted recognizable face, seated thoughtful founder, closed notebook, cup, jacket and city reflections. Fictional office; not evidence of employment or endorsement.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/founder-after-hours-20261010-5bbdf0f5cb.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 118628,
+      "sha256": "b46edd0a6cf76ae0bfa8f5698eadc3ba6aae4defaf72e68dd83f95d10648ef68"
+    },
+    "thumbnail": {
+      "path": "/previews/founder-after-hours-20261010-5bbdf0f5cb-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 28938,
+      "sha256": "b3dda615f1c8c5b6ff495b5ef98fe7b1e58fa75774163bbc7ba2858e1a634ce2"
+    },
+    "alt": "Founder After Hours: The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims. The identity reference determines the people; the example provides the styling and setting."
+  },
+  {
+    "slug": "monsoon-love-story",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted two distinct foreground identities, readable faces, clear umbrella, two chai glasses and wet street. Three-quarter composition crops footwear; no bystander from reference reused.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/monsoon-love-story-20261010-35ebad0b2d.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 301530,
+      "sha256": "e6a4072eab4d6678f9310470c460604defd2f5a9f07aab4f4795ffeb078ea5b5"
+    },
+    "thumbnail": {
+      "path": "/previews/monsoon-love-story-20261010-35ebad0b2d-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 65544,
+      "sha256": "312da1cc2e871f72b1ae7dab7ffcd09d92e9e24811e29c92de019cceead0ef3e"
+    },
+    "alt": "Monsoon Love Story: The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded. The identity reference determines the people; the example provides the styling and setting."
+  },
+  {
+    "slug": "desert-moonlight-promises",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted distinct foreground identities, rose/ivory outfits, moonlit dunes and separate safe lantern. Natural gaze variation: woman toward camera, man past camera; footwear partly concealed by skirt.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/desert-moonlight-promises-20261010-cc8513deb6.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 177344,
+      "sha256": "fe797e8b8e437b36eb1423b6e47492b9d308ac62be14e7123f396da4261c1478"
+    },
+    "thumbnail": {
+      "path": "/previews/desert-moonlight-promises-20261010-cc8513deb6-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 37406,
+      "sha256": "1c71bd368c994f0e17808dd7a0de25a1f54e8e1422179ef9d57814ed35f3f309"
+    },
+    "alt": "Desert Moonlight Promises: The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes. The identity reference determines the people; the example provides the styling and setting."
+  },
+  {
+    "slug": "durga-puja-pandal-portrait",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted unobscured face, cream/red craft architecture, alpana and visible relaxed hands. Existing reference religious marks retained; background figures indistinct. Fictional pandal.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/durga-puja-pandal-portrait-20261010-32199d073d.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 190292,
+      "sha256": "4cd68339deaef3f44367c47eff8fe495b26e84e45d5c23f74846ff87fb41d56d"
+    },
+    "thumbnail": {
+      "path": "/previews/durga-puja-pandal-portrait-20261010-32199d073d-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 51508,
+      "sha256": "ec3fe3b7869d2972179ea9071339f14d93e147f36076778bb217cea7db658299"
+    },
+    "alt": "A woman beneath cream decorative pandal arches and red fabric, with warm light and an alpana floor pattern."
+  },
+  {
+    "slug": "navratri-dandiya-portrait",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted full-length pause, exactly two sticks with visible tips, readable face, saffron/indigo outfit and grounded feet; distinct from spinning Garba.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/navratri-dandiya-portrait-20261010-d8b5f3f9e2.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 234306,
+      "sha256": "40b833e9e11092a42f0c367d7eac45229cf73bd3acfde4cc352b80e5463a98d5"
+    },
+    "thumbnail": {
+      "path": "/previews/navratri-dandiya-portrait-20261010-d8b5f3f9e2-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 57502,
+      "sha256": "38308bbdb569d6bbdd92eb2d3093cd9d3254d09dc02d64a26d71609ea2d3a037"
+    },
+    "alt": "A man in a saffron kurta and indigo waistcoat holding two dandiya sticks beneath festive courtyard lights."
+  },
+  {
+    "slug": "diwali-courtyard-celebration",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted two distinct identities, loose handhold, teal/ivory outfits, broad arch, rangoli and diyas. Woman footwear covered by saree; flames separate from fabric. No extra relative.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/diwali-courtyard-celebration-20261010-39db72d949.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 308138,
+      "sha256": "a231d530f3a893108f08d4ed7f2961cea833158565396597e68fd002724447eb"
+    },
+    "thumbnail": {
+      "path": "/previews/diwali-courtyard-celebration-20261010-39db72d949-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 67522,
+      "sha256": "399fa495749f7d0273fcf1c92b8a5b2d78e31ada0adec5440183f9d71e01bbde"
+    },
+    "alt": "An adult couple in teal and ivory stands beneath a courtyard arch framed by rangoli and safely spaced diyas."
+  },
+  {
+    "slug": "diwali-business-greeting",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted original decorative indigo diya/rangoli artwork with open centre, no text/person/logo.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/diwali-business-greeting-20261010-efd2a5b0e4.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 257340,
+      "sha256": "c275dcca9e3dc678600481bd29b31190de8c35e8a9ce4faf025b7e6448852e6e"
+    },
+    "thumbnail": {
+      "path": "/previews/diwali-business-greeting-20261010-efd2a5b0e4-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 51006,
+      "sha256": "530beedb0c784812e5a9cce0ecaa1ff9cee9c89ae36731c972e66c0bb0022d70"
+    },
+    "alt": "Gold and terracotta diyas and rangoli on an indigo decorative background with empty central space."
+  },
+  {
+    "slug": "durga-puja-business-greeting",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted original crimson shola-inspired arches/alpana artwork, no deity likeness/person/text/logo.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/durga-puja-business-greeting-20261010-0365f18064.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 268252,
+      "sha256": "117db9a24b144697979bcc25d9c9aa7313a1ebf2f24aba8626c6567fb960a86a"
+    },
+    "thumbnail": {
+      "path": "/previews/durga-puja-business-greeting-20261010-0365f18064-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 57454,
+      "sha256": "c4d80c3403d7fe9d2253973188d2178cdefc02ae05feac3ea39df5b7de174d4a"
+    },
+    "alt": "Cream shola-inspired arches and white alpana motifs on a crimson decorative background."
+  },
+  {
+    "slug": "dussehra-business-greeting",
+    "tool": "ChatGPT web signed-in included image generation",
+    "status": "generated",
+    "review_status": "accepted",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review_method": "Individual full-resolution visual review of likeness, actual-age preservation, anatomy, scene, cultural details and crop. Qualitative, not biometric or cultural certification.",
+    "limitations": "Accepted original green/gold decorative bow/arrow artwork, no battle/effigy/person/text/logo.",
+    "source_width": 1122,
+    "source_height": 1402,
+    "preview": {
+      "path": "/previews/dussehra-business-greeting-20261010-abd7842165.webp",
+      "width": 1080,
+      "height": 1350,
+      "bytes": 253436,
+      "sha256": "dc8eb398d0ebf4b545dc026f095af67eba83c69e4c295dc478fe61668cd4c31a"
+    },
+    "thumbnail": {
+      "path": "/previews/dussehra-business-greeting-20261010-abd7842165-thumb.webp",
+      "width": 480,
+      "height": 600,
+      "bytes": 42348,
+      "sha256": "2af0a827c48b1cfd636d5f9c9e61dc449b04bb281f69954db0cdb51e200d0ea1"
+    },
+    "alt": "Decorative gold bow and arrow motifs with marigold accents on a forest-green background."
+  }
+]

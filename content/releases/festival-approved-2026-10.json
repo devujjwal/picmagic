@@ -1,0 +1,803 @@
+[
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates a festive campaign location for sellers without corrupting the actual garment colours or embroidery.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+    "slug": "kurta-at-the-lantern-courtyard",
+    "title": "Kurta at the Lantern Courtyard",
+    "description": "A lantern-lit heritage courtyard portrait with an ivory kurta, hands held at waist height and full-length framing. A separate garment reference is optional; without one, the outfit is fictional rather than a verified product photograph.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate one full-body photograph of the person in an ivory cotton festive kurta with a simple band collar, standing at a heritage courtyard with warm lanterns receding into the background. Use a relaxed half-turn, hands loosely held at waist height, and a composed expression. Neutral soft light reveals fabric texture while the background stays warmly lit. Show the kurta hem and footwear completely, with breathing room around the body. If an additional garment reference is supplied, use only its visible supported details instead of inventing embroidery, collars or a stole. Without a garment reference the kurta is fictional, not an exact product reproduction. 70mm fashion photograph, 4:5 portrait.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "Kurta at the Lantern Courtyard",
+      "Creative campaign"
+    ],
+    "occasion": "mens fashion ecommerce",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/kurta-at-the-lantern-courtyard-20261010-9d707ebad1.webp",
+    "thumbnail_url": "/previews/kurta-at-the-lantern-courtyard-20261010-9d707ebad1-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Kurta at the Lantern Courtyard: A lantern-lit heritage courtyard portrait with an ivory kurta, hands held at waist height and full-length framing. A separate garment reference is optional; without one, the outfit is fictional rather than a verified product photograph.",
+    "lighting": "Warm background lanterns and neutral fabric key",
+    "framing": "70mm full-body with exact hem and footwear visible.",
+    "camera": "70mm full-body with exact hem and footwear visible.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "mens-fashion-ecommerce",
+      "festive",
+      "kurta",
+      "at",
+      "the",
+      "lantern",
+      "courtyard"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Kurta at the Lantern Courtyard AI Photo Prompt",
+    "seo_description": "Creates a festive campaign location for sellers without corrupting the actual garment colours or embroidery. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use a clear authorized portrait of the intended adult with the face visible. Preserve their actual age and distinguishing features. The example supplies composition and styling, not identity."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. For exact garment details, supply a separate clear garment photograph and verify every visible feature."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult men reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create one full-body photograph of the person in an ivory cotton festive kurta with a simple band collar, standing at a heritage courtyard with warm lanterns receding into the background. Use a relaxed half-turn, hands loosely held at waist height, and a composed expression. Neutral soft light reveals fabric texture while the background stays warmly lit. Show the kurta hem and footwear completely, with breathing room around the body. If an additional garment reference is supplied, use only its visible supported details instead of inventing embroidery, collars or a stole. Without a garment reference the kurta is fictional, not an exact product reproduction. 70mm fashion photograph, 4:5 portrait. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 5,
+    "why_ai": "Creates a remote road-trip film scene with controlled mist, practical lighting and exclusive station staging.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+    "slug": "midnight-fuel-stop",
+    "title": "Midnight Fuel Stop",
+    "description": "A moody portrait beside a parked motorcycle under a petrol-station canopy. An optional bike reference can guide visible details; without one, the unbranded motorcycle is fictional, not a verified make or model.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate one environmental photograph of the person resting beside a stationary unbranded classic-style motorcycle at a quiet small petrol station after midnight. Place the person and bike in the parking area away from the pumps, engine off, no refuelling, smoking or fire. A helmet rests securely on the seat. Green-white canopy lights reveal light mist against a dark blue night and a closed kiosk, with no readable signs. Keep the person's face unobscured, expression calmly contemplative, footwear grounded and the motorcycle mechanically plausible. If a separate motorcycle reference is supplied, preserve its supported visible details; otherwise the bike is fictional and must not imply exact make or model fidelity. 35mm full-body environmental portrait, 4:5.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "Midnight Fuel Stop",
+      "Creative campaign"
+    ],
+    "occasion": "bikes",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/midnight-fuel-stop-20261010-01cbdc175d.webp",
+    "thumbnail_url": "/previews/midnight-fuel-stop-20261010-01cbdc175d-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Midnight Fuel Stop: A moody portrait beside a parked motorcycle under a petrol-station canopy. An optional bike reference can guide visible details; without one, the unbranded motorcycle is fictional, not a verified make or model.",
+    "lighting": "Green-white fluorescent canopy and dark blue mist",
+    "framing": "35mm full-body environmental portrait.",
+    "camera": "35mm full-body environmental portrait.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "bikes",
+      "garage",
+      "midnight",
+      "fuel",
+      "stop"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 26,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Midnight Fuel Stop AI Photo Prompt",
+    "seo_description": "Creates a remote road-trip film scene with controlled mist, practical lighting and exclusive station staging. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use a clear authorized portrait of the intended adult with the face visible. Preserve their actual age and distinguishing features. The example supplies composition and styling, not identity."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. For a specific motorcycle, add a clear bike photograph; invisible parts cannot be verified."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult men reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create one environmental photograph of the person resting beside a stationary unbranded classic-style motorcycle at a quiet small petrol station after midnight. Place the person and bike in the parking area away from the pumps, engine off, no refuelling, smoking or fire. A helmet rests securely on the seat. Green-white canopy lights reveal light mist against a dark blue night and a closed kiosk, with no readable signs. Keep the person's face unobscured, expression calmly contemplative, footwear grounded and the motorcycle mechanically plausible. If a separate motorcycle reference is supplied, preserve its supported visible details; otherwise the bike is fictional and must not imply exact make or model fidelity. 35mm full-body environmental portrait, 4:5. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Builds a precise botanical-shadow profile portrait with recognizability protected at small display size.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+    "slug": "floral-shadows-a-clear-face",
+    "title": "Floral Shadows, a Clear Face",
+    "description": "The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop.\n\nLighting and composition: Warm window key and controlled foliage shadow; 85mm close-up, all facial features inside central circular safe area. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Floral Shadows",
+      "Visual story"
+    ],
+    "occasion": "instagram profile picture",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/floral-shadows-a-clear-face-20261010-7ee2776814.webp",
+    "thumbnail_url": "/previews/floral-shadows-a-clear-face-20261010-7ee2776814-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Floral Shadows, a Clear Face: The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop. The identity reference determines the people; the example provides the styling and setting.",
+    "lighting": "Warm window key and controlled foliage shadow",
+    "framing": "85mm close-up, all facial features inside central circular safe area.",
+    "camera": "85mm close-up, all facial features inside central circular safe area.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "instagram-profile-picture",
+      "small",
+      "floral",
+      "shadows",
+      "a",
+      "clear",
+      "face"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 108,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Floral Shadows, a Clear Face AI Photo Prompt",
+    "seo_description": "Builds a precise botanical-shadow profile portrait with recognizability protected at small display size. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use a clear authorized portrait of the intended adult with the face visible. Preserve their actual age and distinguishing features. The example supplies composition and styling, not identity."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. Keep essential props and lighting from the prompt, and preserve the intended people count."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult women reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create a photograph. The person's face is framed by a few soft marigold-leaf shadows cast across the background and shoulder, leaving eyes, nose and mouth in clean light. A small supplied earring or subtle festive accessory adds context, but no automatic religious mark or ethnicity change. Hair is gently arranged around the actual hairline; centre the face for a circular crop.\n\nLighting and composition: Warm window key and controlled foliage shadow; 85mm close-up, all facial features inside central circular safe area. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Builds a reflective founder story using controlled night reflections and a private office set rather than a generic desk headshot.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+    "slug": "founder-after-hours",
+    "title": "Founder After Hours",
+    "description": "The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims.\n\nLighting and composition: Warm desk lamp against cool city reflections; 50mm seated three-quarter portrait through glass. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Founder After Hours",
+      "Visual story"
+    ],
+    "occasion": "office corporate",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/founder-after-hours-20261010-5bbdf0f5cb.webp",
+    "thumbnail_url": "/previews/founder-after-hours-20261010-5bbdf0f5cb-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Founder After Hours: The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims. The identity reference determines the people; the example provides the styling and setting.",
+    "lighting": "Warm desk lamp against cool city reflections",
+    "framing": "50mm seated three-quarter portrait through glass.",
+    "camera": "50mm seated three-quarter portrait through glass.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "office-corporate",
+      "founder",
+      "after",
+      "hours"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 94,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Founder After Hours AI Photo Prompt",
+    "seo_description": "Builds a reflective founder story using controlled night reflections and a private office set rather than a generic desk headshot. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use a clear authorized portrait of the intended adult with the face visible. Preserve their actual age and distinguishing features. The example supplies composition and styling, not identity."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. Keep essential props and lighting from the prompt, and preserve the intended people count."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult women reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create a photograph. The founder sits alone in a glass-walled office late at night, jacket over the chair, one closed notebook and a cooling cup on the desk. Abstract whiteboard sketches and distant city lights overlap in the glass; a thoughtful face is lit by one desk lamp, without invented company logos or success claims.\n\nLighting and composition: Warm desk lamp against cool city reflections; 50mm seated three-quarter portrait through glass. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 5,
+    "why_ai": "Recreates a coordinated rain shoot with street lighting, controlled droplets and intimate readable faces.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+    "slug": "monsoon-love-story",
+    "title": "Monsoon Love Story",
+    "description": "The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded.\n\nLighting and composition: Backlit rain and warm shop reflections; 50mm three-quarter two-shot with umbrella completely inside crop. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "couple",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "Monsoon Love Story",
+      "Visual story"
+    ],
+    "occasion": "pre wedding",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/monsoon-love-story-20261010-35ebad0b2d.webp",
+    "thumbnail_url": "/previews/monsoon-love-story-20261010-35ebad0b2d-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Monsoon Love Story: The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded. The identity reference determines the people; the example provides the styling and setting.",
+    "lighting": "Backlit rain and warm shop reflections",
+    "framing": "50mm three-quarter two-shot with umbrella completely inside crop.",
+    "camera": "50mm three-quarter two-shot with umbrella completely inside crop.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "pre-wedding",
+      "cups",
+      "monsoon",
+      "love",
+      "story"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 17,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Monsoon Love Story AI Photo Prompt",
+    "seo_description": "Recreates a coordinated rain shoot with street lighting, controlled droplets and intimate readable faces. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use one clear photo of the intended adult couple, or clearly label separate references for both people. Preserve both distinct identities and actual ages. Exclude background bystanders; never substitute the example couple's faces."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. Keep essential props and lighting from the prompt, and preserve the intended people count."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult couple reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create a photograph. The supplied couple shares one transparent umbrella on an old Indian street during heavy monsoon rain. Two untouched chai glasses sit on a sheltered stone ledge nearby; they lean towards each other with intimate eye contact while headlights and small shop lamps reflect across wet pavement. Keep both faces clear through the umbrella edge and footwear grounded.\n\nLighting and composition: Backlit rain and warm shop reflections; 50mm three-quarter two-shot with umbrella completely inside crop. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 5,
+    "why_ai": "Builds a remote night-desert engagement shoot with practical light and controlled fabric motion.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+    "slug": "desert-moonlight-promises",
+    "title": "Desert Moonlight Promises",
+    "description": "The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes. The identity reference determines the people; the example provides the styling and setting.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a photograph. The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes.\n\nLighting and composition: Cool moonlit environment with restrained lantern fill; 35mm full-body two-shot and broad night sky. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone.\n\nKeep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "couple",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "Desert Moonlight Promises",
+      "Visual story"
+    ],
+    "occasion": "pre wedding",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/desert-moonlight-promises-20261010-cc8513deb6.webp",
+    "thumbnail_url": "/previews/desert-moonlight-promises-20261010-cc8513deb6-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Desert Moonlight Promises: The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes. The identity reference determines the people; the example provides the styling and setting.",
+    "lighting": "Cool moonlit environment with restrained lantern fill",
+    "framing": "35mm full-body two-shot and broad night sky.",
+    "camera": "35mm full-body two-shot and broad night sky.",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "pre-wedding",
+      "riverside",
+      "desert",
+      "moonlight",
+      "promises"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 19,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Desert Moonlight Promises AI Photo Prompt",
+    "seo_description": "Builds a remote night-desert engagement shoot with practical light and controlled fabric motion. Reference-first prompting.",
+    "created_at": "2026-09-10T14:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Which reference should I upload?",
+        "answer": "Use one clear photo of the intended adult couple, or clearly label separate references for both people. Preserve both distinct identities and actual ages. Exclude background bystanders; never substitute the example couple's faces."
+      },
+      {
+        "question": "What can I customize?",
+        "answer": "Change outfit colours, setting details and expression while retaining the scene's main composition. Keep essential props and lighting from the prompt, and preserve the intended people count."
+      },
+      {
+        "question": "What should I check before sharing?",
+        "answer": "Compare each face and actual age to your references, then review hands, crop, clothing, lighting and the main scene details. AI results vary. Ask for a focused revision using the same references; do not treat generated scenes as evidence of a real event or endorsement."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Select one approved adult couple reference using the private non-repeating rotation. Preserve actual age, face and distinguishing features; no de-aging. Keep this selection through revisions. Create a photograph. The couple stands on the sheltered side of a Rajasthan dune after sunset, one lantern on firm sand at a safe distance from flowing fabric. Rose and ivory outfits move softly in the wind; they hold nearest hands and look towards a low moon above immense dunes. Keep both faces gently visible rather than black silhouettes.\n\nLighting and composition: Cool moonlit environment with restrained lantern fill; 35mm full-body two-shot and broad night sky. Compose for 4:5.\n\nStyling must follow the scene without altering reference identity. Adapt hair only when styling requires it; retain the actual hairline and recognizable face. Keep natural expressions, believable hands, grounded feet, plausible shadows and realistic material texture. No beauty-filter skin, anatomical distortion, watermark or invented text.\n\nREFERENCE COMPATIBILITY: Preserve the reference age and all intended group identities. If a child, infant, maternity or group-specific concept conflicts with the supplied people, ask for suitable complete references rather than changing age, inventing pregnancy or replacing anyone. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Combines elaborate layered pandal architecture with controlled portrait lighting without requiring a crowded on-location shoot.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811004",
+    "slug": "durga-puja-pandal-portrait",
+    "title": "Durga Puja Pandal Portrait",
+    "description": "A composed portrait beneath a decorative Durga Puja pandal entrance, with shola-inspired craftwork, alpana floor patterns and warm festive light. Architectural details frame an unobscured face without assigning religious marks or marital status.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult woman. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a respectful adult solo portrait at a fictional Durga Puja pandal entrance. Frame the person beneath layered cream shola-inspired decorative arches and red textile accents, with an alpana pattern visible on the ground. Use an ivory saree with a restrained red border or a user-chosen festive outfit, a gently arranged hairstyle and a calm expression looking slightly past the camera. Do not automatically add sindoor, religious marks or marital symbols. Keep the setting architectural, not a deity impersonation or a claim of access to a named pandal. No idol needs to appear. Warm evening light and soft neutral face fill, 50mm three-quarter portrait, 4:5. The arch surrounds rather than cuts through the head; hands relaxed and visible. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "women",
+    "prompt_type": "photo",
+    "subject": "Woman",
+    "style": [
+      "Festival portrait"
+    ],
+    "occasion": "Durga Puja Pandal Portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/durga-puja-pandal-portrait-20261010-32199d073d.webp",
+    "thumbnail_url": "/previews/durga-puja-pandal-portrait-20261010-32199d073d-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A woman beneath cream decorative pandal arches and red fabric, with warm light and an alpana floor pattern.",
+    "lighting": "Warm evening practicals and soft neutral face fill",
+    "framing": "50mm three-quarter portrait within decorative arches",
+    "camera": "50mm three-quarter portrait within decorative arches",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "durga-puja-pandal-portrait",
+      "portrait"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Durga Puja Pandal Portrait AI Prompt | PicMagic",
+    "seo_description": "A composed portrait beneath a decorative Durga Puja pandal entrance, with shola-inspired craftwork, alpana floor patterns and warm festive light. Architect",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "Use a clear authorized adult portrait for a recognizable result. Preserve actual age, complexion, facial features and hairline. Without a reference the subject is fictional; never copy the preview model's identity."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Adjust outfit colours, expression and modest setting details while keeping the named festival and its essential props coherent. Do not add religious marks or marital symbols unless you specifically want them. Review cultural details before sharing."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "Generated scenes are not evidence of attending an actual festival. Compare likeness, age cues, hands, clothing, cultural details and mobile crop with your references. Lighting and faces may need a revision; results vary by generator."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Use the approved adult women pool and keep the same selected reference through revisions. Preserve all actual ages and identities. Create a respectful adult solo portrait at a fictional Durga Puja pandal entrance. Frame the person beneath layered cream shola-inspired decorative arches and red textile accents, with an alpana pattern visible on the ground. Use an ivory saree with a restrained red border or a user-chosen festive outfit, a gently arranged hairstyle and a calm expression looking slightly past the camera. Do not automatically add sindoor, religious marks or marital symbols. Keep the setting architectural, not a deity impersonation or a claim of access to a named pandal. No idol needs to appear. Warm evening light and soft neutral face fill, 50mm three-quarter portrait, 4:5. The arch surrounds rather than cuts through the head; hands relaxed and visible. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Builds a carefully staged festive dance setting while keeping hands, stick geometry and the reference face readable.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811005",
+    "slug": "navratri-dandiya-portrait",
+    "title": "Navratri Dandiya Portrait",
+    "description": "A poised full-length dandiya portrait with two visible wooden sticks, a saffron kurta and an indigo waistcoat. The subject pauses between steps against festive lights; this is not a spinning Garba skirt composition.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult man. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate an adult solo Navratri dandiya portrait during a pause between dance steps. Dress the person in a saffron kurta, indigo embroidered waistcoat and simple trousers. Hold exactly two slim decorated wooden dandiya sticks, one in each hand, angled outward below shoulder level and clear of the face. Keep fingers wrapped naturally around each stick, feet on a flat courtyard floor, shoulders relaxed and expression quietly joyful. Use a layered canopy of warm festive lights and distant abstract silhouettes without recognizable additional faces. No spinning skirt, circular light trails, weapon-like pose, raised sticks near eyes or excessive motion blur. 50mm full-body photograph with every stick tip and both feet inside the 4:5 frame. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "men",
+    "prompt_type": "photo",
+    "subject": "Man",
+    "style": [
+      "Festival portrait"
+    ],
+    "occasion": "Navratri Dandiya Portrait",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/navratri-dandiya-portrait-20261010-d8b5f3f9e2.webp",
+    "thumbnail_url": "/previews/navratri-dandiya-portrait-20261010-d8b5f3f9e2-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "A man in a saffron kurta and indigo waistcoat holding two dandiya sticks beneath festive courtyard lights.",
+    "lighting": "Warm courtyard lights with balanced face fill",
+    "framing": "50mm full-body still pose with both sticks visible",
+    "camera": "50mm full-body still pose with both sticks visible",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "navratri-dandiya-portrait",
+      "portrait"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Navratri Dandiya Portrait AI Prompt | PicMagic",
+    "seo_description": "A poised full-length dandiya portrait with two visible wooden sticks, a saffron kurta and an indigo waistcoat. The subject pauses between steps against fes",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "Use a clear authorized adult portrait for a recognizable result. Preserve actual age, complexion, facial features and hairline. Without a reference the subject is fictional; never copy the preview model's identity."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Adjust outfit colours, expression and modest setting details while keeping the named festival and its essential props coherent. Do not add religious marks or marital symbols unless you specifically want them. Review cultural details before sharing."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "Generated scenes are not evidence of attending an actual festival. Compare likeness, age cues, hands, clothing, cultural details and mobile crop with your references. Lighting and faces may need a revision; results vary by generator."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Use the approved adult men pool and keep the same selected reference through revisions. Preserve all actual ages and identities. Create an adult solo Navratri dandiya portrait during a pause between dance steps. Dress the person in a saffron kurta, indigo embroidered waistcoat and simple trousers. Hold exactly two slim decorated wooden dandiya sticks, one in each hand, angled outward below shoulder level and clear of the face. Keep fingers wrapped naturally around each stick, feet on a flat courtyard floor, shoulders relaxed and expression quietly joyful. Use a layered canopy of warm festive lights and distant abstract silhouettes without recognizable additional faces. No spinning skirt, circular light trails, weapon-like pose, raised sticks near eyes or excessive motion blur. 50mm full-body photograph with every stick tip and both feet inside the 4:5 frame. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Combines large-scale rangoli, architectural depth and layered festive lighting with a readable two-person portrait.",
+    "content_intent": "creative",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811006",
+    "slug": "diwali-courtyard-celebration",
+    "title": "Diwali Courtyard Celebration",
+    "description": "An adult couple stands together at the centre of an open Diwali courtyard, with a sweeping rangoli and rows of diyas around a clear walkway. A wide architectural composition, distinct from the seated family-and-flower-tray scene.",
+    "prompt_text": "REFERENCE PRESENT: The attached person/persons are authoritative. Preserve every person's recognizable facial identity, age, facial structure, distinguishing facial characteristics, skin tone, ethnicity, natural body proportions and hairline. Preserve the number and identity of people in couple/group references. Never copy the preview model's face, complexion or identity. The preview supplies styling, pose, expression, wardrobe, composition, lighting and environment only. Cultural settings and styles, including K-drama, European editorial and retro Bollywood, do not determine ethnicity. Hair may be adapted when essential to the requested transformation; preserve the hairline and recognizable identity. Otherwise preserve or gently arrange the existing hair colour, length and texture.\n\nPreserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.\n\nNO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian adult couple. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.\n\nCREATIVE DIRECTION:\n\nCreate a festive photograph of exactly the two intended adults from the supplied couple reference, standing together beneath a broad courtyard arch at blue hour. Style coordinated deep teal and warm ivory festive outfits without changing their actual ages or body proportions. They hold nearest hands loosely at waist height and exchange a natural relaxed glance; keep both faces readable in three-quarter view. A sweeping rangoli and rows of small diyas frame a clear walkway; place flames safely away from fabric and hands. Use no child, extra relative, flower-tray gesture, seated family arrangement or fireworks. Keep architecture spacious, the pair central and both feet visible. Warm diyas balanced by neutral soft face fill against a blue evening sky, 35mm full-body two-shot, 4:5. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "category_id": "couple",
+    "prompt_type": "photo",
+    "subject": "Couple",
+    "style": [
+      "Festival portrait"
+    ],
+    "occasion": "Diwali Courtyard Celebration",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/diwali-courtyard-celebration-20261010-39db72d949.webp",
+    "thumbnail_url": "/previews/diwali-courtyard-celebration-20261010-39db72d949-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "An adult couple in teal and ivory stands beneath a courtyard arch framed by rangoli and safely spaced diyas.",
+    "lighting": "Blue-hour ambience, warm diyas and neutral face fill",
+    "framing": "35mm full-body two-shot within a broad courtyard arch",
+    "camera": "35mm full-body two-shot within a broad courtyard arch",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "diwali-courtyard-celebration",
+      "portrait"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Diwali Courtyard Celebration AI Prompt | PicMagic",
+    "seo_description": "An adult couple stands together at the centre of an open Diwali courtyard, with a sweeping rangoli and rows of diyas around a clear walkway. A wide archite",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "Use a clear authorized photo of the intended adult couple. Preserve both faces, actual ages and distinguishing features; exclude background bystanders. Without references the people are fictional."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Adjust outfit colours, expression and modest setting details while keeping the named festival and its essential props coherent. Do not add religious marks or marital symbols unless you specifically want them. Review cultural details before sharing."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "Generated scenes are not evidence of attending an actual festival. Compare likeness, age cues, hands, clothing, cultural details and mobile crop with your references. Lighting and faces may need a revision; results vary by generator."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL PREVIEW ONLY: Use the approved adult couple pool and keep the same selected reference through revisions. Preserve all actual ages and identities. Create a festive photograph of exactly the two intended adults from the supplied couple reference, standing together beneath a broad courtyard arch at blue hour. Style coordinated deep teal and warm ivory festive outfits without changing their actual ages or body proportions. They hold nearest hands loosely at waist height and exchange a natural relaxed glance; keep both faces readable in three-quarter view. A sweeping rangoli and rows of small diyas frame a clear walkway; place flames safely away from fabric and hands. Use no child, extra relative, flower-tray gesture, seated family arrangement or fireworks. Keep architecture spacious, the pair central and both feet visible. Warm diyas balanced by neutral soft face fill against a blue evening sky, 35mm full-body two-shot, 4:5. Keep natural skin texture, distinct facial identities, plausible hands and anatomy, grounded feet, and coherent lighting. Keep faces and essential props within the central safe area for mobile cropping. No beauty filtering, skin whitening, invented branding, lettering or watermark. Preserve actual reference ages; never change age to fit a look. Ask for suitable references if the supplied people do not match the intended adult solo or adult couple composition.",
+    "preview_video": null,
+    "persona_policy": "person",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811001",
+    "slug": "diwali-business-greeting",
+    "title": "Diwali Business Greeting",
+    "description": "Create decorative diwali artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endorsements. Add accurate text and logos in the free browser poster editor after generation.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition festival poster background at the highest available included resolution. Create a luxurious handcrafted paper-cut Diwali illustration, portrait 4:5. Rich midnight indigo background, layered warm gold and terracotta diyas with an intricate rangoli concentrated in the lower quarter; restrained hanging marigold strings at the upper outer corners. Dimensional paper texture and warm pools of light. Keep the central 60 percent dark, calm and uncluttered for separately added editable greetings and branding. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Paper-cut illustration"
+    ],
+    "occasion": "Diwali Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/diwali-business-greeting-20261010-efd2a5b0e4.webp",
+    "thumbnail_url": "/previews/diwali-business-greeting-20261010-efd2a5b0e4-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Gold and terracotta diyas and rangoli on an indigo decorative background with empty central space.",
+    "lighting": "Soft dimensional paper-cut lighting",
+    "framing": "4:5 decorative border composition with a clear central text area",
+    "camera": "Illustration; no physical camera",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "diwali-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Diwali Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create decorative diwali artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endorseme",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK ONLY: Original decorative illustration; no identity reference or brand upload. Generate one high-definition festival poster background at the highest available included resolution. Create a luxurious handcrafted paper-cut Diwali illustration, portrait 4:5. Rich midnight indigo background, layered warm gold and terracotta diyas with an intricate rangoli concentrated in the lower quarter; restrained hanging marigold strings at the upper outer corners. Dimensional paper texture and warm pools of light. Keep the central 60 percent dark, calm and uncluttered for separately added editable greetings and branding. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811002",
+    "slug": "durga-puja-business-greeting",
+    "title": "Durga Puja Business Greeting",
+    "description": "Create decorative durga puja artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endorsements. Add accurate text and logos in the free browser poster editor after generation.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition festival poster background at the highest available included resolution. Create an elegant decorative Durga Puja greeting background, portrait 4:5. Deep crimson paper texture, layered cream shola-inspired arch motifs around the outer edges, a restrained white alpana pattern at the lower edge and small marigold accents. Subtle handcrafted relief and soft warm side lighting. Keep the central 60 percent calm and uncluttered for separately added editable greetings and branding. Use decorative architectural craft motifs, no deity face or likeness, no invented religious inscription. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Paper-cut illustration"
+    ],
+    "occasion": "Durga Puja Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/durga-puja-business-greeting-20261010-0365f18064.webp",
+    "thumbnail_url": "/previews/durga-puja-business-greeting-20261010-0365f18064-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Cream shola-inspired arches and white alpana motifs on a crimson decorative background.",
+    "lighting": "Soft dimensional paper-cut lighting",
+    "framing": "4:5 decorative border composition with a clear central text area",
+    "camera": "Illustration; no physical camera",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "durga-puja-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Durga Puja Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create decorative durga puja artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endor",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK ONLY: Original decorative illustration; no identity reference or brand upload. Generate one high-definition festival poster background at the highest available included resolution. Create an elegant decorative Durga Puja greeting background, portrait 4:5. Deep crimson paper texture, layered cream shola-inspired arch motifs around the outer edges, a restrained white alpana pattern at the lower edge and small marigold accents. Subtle handcrafted relief and soft warm side lighting. Keep the central 60 percent calm and uncluttered for separately added editable greetings and branding. Use decorative architectural craft motifs, no deity face or likeness, no invented religious inscription. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  },
+  {
+    "distinctiveness_score": 4,
+    "why_ai": "Creates layered original festive artwork while the browser editor preserves actual logo artwork and renders editable lettering deterministically.",
+    "content_intent": "utility",
+    "editorial_review_version": "why-ai-2026-09-v1",
+    "preview_review_status": "approved",
+    "id": "70731da7-b45d-44db-a462-7c360c811003",
+    "slug": "dussehra-business-greeting",
+    "title": "Dussehra Business Greeting",
+    "description": "Create decorative dussehra artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endorsements. Add accurate text and logos in the free browser poster editor after generation.",
+    "prompt_text": "PRODUCT REFERENCE: Product fidelity takes priority. Preserve its exact shape, proportions, design, colour, pattern, fabric/material appearance, stitching, silhouette, existing logos, label text and accessories actually supplied. Do not redesign a supplied product to match the example. Model styling may change only without hiding or altering the advertised product. Keep model/person identity separate from product identity.\n\nCREATIVE DIRECTION:\n\nGenerate one high-definition festival poster background at the highest available included resolution. Create a refined Dussehra greeting background, portrait 4:5. Deep forest-green textured paper, a stylized gold ceremonial bow and a separate decorative arrow arranged along the outer lower corners, marigold accents and a gentle amber sunrise glow at the lower edge. Dimensional paper-cut illustration with no battle, burning effigy or human figures. Keep the central 60 percent calm and uncluttered for separately added editable greetings and branding. Treat the bow and arrow as decorative festive symbols, not a depiction of violence. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "category_id": "festival",
+    "prompt_type": "photo",
+    "subject": "Decorative artwork",
+    "style": [
+      "Paper-cut illustration"
+    ],
+    "occasion": "Dussehra Business Greeting",
+    "aspect_ratio": "4:5",
+    "preview_image_url": "/previews/dussehra-business-greeting-20261010-abd7842165.webp",
+    "thumbnail_url": "/previews/dussehra-business-greeting-20261010-abd7842165-thumb.webp",
+    "image_width": 1080,
+    "image_height": 1350,
+    "image_alt": "Decorative gold bow and arrow motifs with marigold accents on a forest-green background.",
+    "lighting": "Soft dimensional paper-cut lighting",
+    "framing": "4:5 decorative border composition with a clear central text area",
+    "camera": "Illustration; no physical camera",
+    "suggested_tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "festival",
+      "dussehra-business-greeting",
+      "business-greeting"
+    ],
+    "is_featured": false,
+    "is_trending": false,
+    "trending_rank": 124,
+    "is_published": true,
+    "is_indexable": true,
+    "seo_title": "Dussehra Business Greeting AI Prompt | PicMagic",
+    "seo_description": "Create decorative dussehra artwork with a calm centre for editable English or Hindi wishes and your own branding. No recognizable people or implied endorse",
+    "created_at": "2026-10-10T13:00:00.000Z",
+    "updated_at": "2026-10-10T14:42:36.023Z",
+    "published_at": "2026-10-10T14:42:36.023Z",
+    "faqs": [
+      {
+        "question": "Do I need a reference photo?",
+        "answer": "No reference is needed for the decorative artwork. Do not send your logo to an image generator: upload the original logo directly into the browser editor. A personal photo is optional and placed or cropped, not face-swapped."
+      },
+      {
+        "question": "How can I personalize the result?",
+        "answer": "Open the festival poster maker, choose English or Hindi, edit the greeting, company/name, short message and optional website, email, phone or other details, then upload an optional original logo or photo. Blank fields stay hidden. Include only information you want people to see when you share the exported poster. Choose a colour and layout and export a square, portrait or story PNG."
+      },
+      {
+        "question": "What are the limitations?",
+        "answer": "AI artwork can contain imperfect motifs; review it before use. The editor does not generate faces, remove photo backgrounds, rewrite logos or publish socially. Check spelling, Hindi shaping, contrast and cropping. Uploads and text stay in browser memory and are lost on refresh."
+      }
+    ],
+    "reel": null,
+    "image_brief": "EDITORIAL ARTWORK ONLY: Original decorative illustration; no identity reference or brand upload. Generate one high-definition festival poster background at the highest available included resolution. Create a refined Dussehra greeting background, portrait 4:5. Deep forest-green textured paper, a stylized gold ceremonial bow and a separate decorative arrow arranged along the outer lower corners, marigold accents and a gentle amber sunrise glow at the lower edge. Dimensional paper-cut illustration with no battle, burning effigy or human figures. Keep the central 60 percent calm and uncluttered for separately added editable greetings and branding. Treat the bow and arrow as decorative festive symbols, not a depiction of violence. No people, faces, text, letters, numbers, logos or watermark. Generate the decorative artwork only. Add your own greeting, company or personal name, message, website, email, phone and other optional details later in the PicMagic poster editor. Upload your original logo or optional photo there; never regenerate supplied logos or lettering with AI. Leave generous central space for this editable information.",
+    "preview_video": null,
+    "persona_policy": "product",
+    "persona_version": "reference-first-india-default-v1"
+  }
+]

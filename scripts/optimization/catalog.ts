@@ -25,7 +25,12 @@ export function loadAuditCatalog(root = process.cwd()): AuditCatalog {
     ),
   ];
   for (const file of files) {
-    if (!/^content\/(?:additions\/|expansion\/)?[a-z0-9-]+\.json$/.test(file))
+    if (file === "content/releases/festival-memberships-2026-10.json") continue;
+    if (
+      !/^content\/(?:additions\/|expansion\/|releases\/)?[a-z0-9-]+\.json$/.test(
+        file,
+      )
+    )
       throw new Error("Unexpected catalogue source");
     const text = readFileSync(resolve(root, file), "utf8");
     const records = JSON.parse(text) as { id: string; slug: string }[];

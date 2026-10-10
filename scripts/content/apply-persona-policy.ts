@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
-import { personaPreamble, PERSONA_POLICY_VERSION, type PersonaPolicy } from "../../lib/prompts/persona";
+import { personaPreamble, AUTHORING_PERSONA_POLICY_VERSION as PERSONA_POLICY_VERSION, type PersonaPolicy } from "../../lib/prompts/persona";
 const path="content/prompts.json";
 const prompts=JSON.parse(fs.readFileSync(path,"utf8"));
 const provenance=JSON.parse(fs.readFileSync("content/image-provenance.json","utf8"));

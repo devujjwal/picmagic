@@ -1,0 +1,241 @@
+.poster-intro {
+  max-width: 820px;
+  padding-bottom: 40px;
+}
+.poster-intro h1 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 5vw, 68px);
+  font-weight: 400;
+  margin: 18px 0 24px;
+  letter-spacing: -2px;
+}
+.poster-intro h1 em {
+  color: var(--brand);
+  font-weight: 400;
+}
+.poster-intro > p {
+  max-width: 650px;
+  font-size: 18px;
+}
+.poster-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poster-badges span {
+  font-size: 13px;
+  padding: 6px 12px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.poster-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 440px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+.poster-controls {
+  display: grid;
+  gap: 24px;
+}
+.poster-controls fieldset {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin: 0;
+  min-width: 0;
+  display: grid;
+  gap: 16px;
+}
+.poster-controls legend {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0 8px;
+  color: var(--brand-dark);
+}
+.poster-controls label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 0;
+}
+.poster-controls input:not([type="range"]):not([type="color"]),
+.poster-controls select,
+.poster-controls textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: var(--ink);
+}
+.poster-controls textarea {
+  resize: vertical;
+  font-family: "PicMagic Devanagari", Arial, sans-serif;
+}
+.poster-controls input[type="file"] {
+  font-size: 12px;
+  padding: 8px !important;
+}
+.poster-controls input[type="range"] {
+  width: 100%;
+  accent-color: var(--brand);
+}
+.poster-field-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.poster-colour {
+  grid-template-columns: 1fr auto !important;
+  align-items: center;
+}
+.poster-colour input {
+  width: 56px;
+  height: 40px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.poster-help {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.poster-crop,
+.poster-upload {
+  display: grid;
+  gap: 12px;
+}
+.poster-upload .button {
+  justify-self: start;
+}
+.poster-preview-panel {
+  position: sticky;
+  top: 96px;
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.poster-preview-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.poster-preview-heading .eyebrow {
+  color: var(--brand-dark);
+}
+.poster-canvas-wrap {
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.poster-canvas-wrap canvas {
+  display: block;
+  max-width: 100%;
+  max-height: 660px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 8px 28px #0002;
+}
+.poster-canvas-wrap canvas[hidden] {
+  display: none;
+}
+.poster-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 12px;
+}
+.poster-private {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: 16px;
+  font-size: 12px;
+}
+.poster-private svg {
+  flex-shrink: 0;
+}
+.poster-error {
+  color: #a32622;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.poster-guide {
+  margin-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.poster-guide h2 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 400;
+}
+.poster-guide > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 32px 0;
+}
+.poster-guide h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.poster-guide p {
+  font-size: 14px;
+}
+.poster-guide a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--brand-dark);
+}
+@media (max-width: 900px) {
+  .poster-workspace {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .poster-preview-panel {
+    position: static;
+    order: -1;
+  }
+  .poster-canvas-wrap canvas {
+    max-height: 480px;
+  }
+  .poster-guide > div {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+@media (max-width: 420px) {
+  .poster-field-pair {
+    grid-template-columns: 1fr;
+  }
+  .poster-preview-panel,
+  .poster-controls fieldset {
+    padding: 16px;
+  }
+  .poster-preview-heading {
+    flex-direction: column;
+  }
+  .poster-intro h1 {
+    letter-spacing: -1px;
+  }
+  .poster-actions .button {
+    flex: 1;
+    padding: 12px;
+  }
+  .poster-badges {
+    gap: 8px;
+  }
+}

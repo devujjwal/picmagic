@@ -1,0 +1,110 @@
+[
+  {
+    "id": "0bdb56de-d615-5b3b-a1a3-31bf41ec73ff",
+    "slug": "kurta-at-the-lantern-courtyard",
+    "kind": "refresh",
+    "before_sha256": "4ace7472ec5b8de200dc3c718793ca5960724bb4a5db629566bc36375d326119",
+    "sha256": "2ede2b2e4e42754290dcb76e392d1411c21fc2d2dc2f9c6ee74c6e527cf4b3dc",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted full-length ivory kurta and lantern courtyard. Hands loosely clasped at waist; public pose wording aligned. Fictional garment, not a verified product reproduction."
+  },
+  {
+    "id": "5ba878c1-b65c-5192-afe5-9e684461852c",
+    "slug": "midnight-fuel-stop",
+    "kind": "refresh",
+    "before_sha256": "7b1955e8b4e22562c69239d728e5b9e0ad06d2143ed3c0ee1437f878b12eb7a5",
+    "sha256": "4eedd32384a5307e51b4ea866b3e9105ef1df6d7102ada6ce2977c5230ed092d",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted unobscured face, parked unbranded bike, helmet on seat and canopy mist. Front wheel is partly cropped; no exact model or engine state can be established from a still image."
+  },
+  {
+    "id": "bd931419-bad7-5357-a6dd-94e46cbe9e7a",
+    "slug": "floral-shadows-a-clear-face",
+    "kind": "refresh",
+    "before_sha256": "8de1eb8dd039746a52f9e59f347a47d20cc9e42351cdeac8af1ce41589ac873a",
+    "sha256": "0ef3af01e7c212de782c8ec90bf4ab719960b9d27ded6d635113da04f62dbc93",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted clear central face, floral shadows primarily background/shoulder. Existing reference bindi/sindoor retained, not newly assigned."
+  },
+  {
+    "id": "337778bf-4aa2-5442-a67a-0d2e2c9a789b",
+    "slug": "founder-after-hours",
+    "kind": "refresh",
+    "before_sha256": "c6f0805a41b4e6b0ebd5950cee1b2d9666aa0ed6cd50876fcff50ec0ebcd1a8a",
+    "sha256": "b9e176b7a5e65b7b3593d24b1c35c8b3fbc24a8f3cd328b4cbf3c7c42e44b18a",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted recognizable face, seated thoughtful founder, closed notebook, cup, jacket and city reflections. Fictional office; not evidence of employment or endorsement."
+  },
+  {
+    "id": "eba54b03-680c-5638-aa10-25ce82ff7108",
+    "slug": "monsoon-love-story",
+    "kind": "refresh",
+    "before_sha256": "1c1143d7803c5aa66e77bdba218d895aa4bbf13579ebee2a381ce3ac3be5d55f",
+    "sha256": "906ff5154036e30ad1ef969f7a9c448b287ffdbcf1529d58ee0c772919d68bb8",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted two distinct foreground identities, readable faces, clear umbrella, two chai glasses and wet street. Three-quarter composition crops footwear; no bystander from reference reused."
+  },
+  {
+    "id": "cda4be03-0ad8-5764-a0d0-aec1454776ce",
+    "slug": "desert-moonlight-promises",
+    "kind": "refresh",
+    "before_sha256": "23d097d683a54704d51a848573b9ba86cbd1c5120a5a98f1fd27fc7eb97f99ca",
+    "sha256": "82a9302facb08399a65b5af708d25419b5af9fa5a5eea2b299a9b4b1014e88eb",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted distinct foreground identities, rose/ivory outfits, moonlit dunes and separate safe lantern. Natural gaze variation: woman toward camera, man past camera; footwear partly concealed by skirt."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811004",
+    "slug": "durga-puja-pandal-portrait",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "8f569b29740dabcbc6d054eaa7433904290a6f2983c3cc50e9c4d158d94448de",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted unobscured face, cream/red craft architecture, alpana and visible relaxed hands. Existing reference religious marks retained; background figures indistinct. Fictional pandal."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811005",
+    "slug": "navratri-dandiya-portrait",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "42f543c5664021776eb568bb4b2550a0353684766eb1d836c507f35a7287d8de",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted full-length pause, exactly two sticks with visible tips, readable face, saffron/indigo outfit and grounded feet; distinct from spinning Garba."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811006",
+    "slug": "diwali-courtyard-celebration",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "5f422302cb5ac1d79d648d186da0838ef5b6bb631d5dcdbf2cdb417980e4cce0",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted two distinct identities, loose handhold, teal/ivory outfits, broad arch, rangoli and diyas. Woman footwear covered by saree; flames separate from fabric. No extra relative."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811001",
+    "slug": "diwali-business-greeting",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "8ca2200d2b0094f1a0955bb05003f11608d48b5d391da8885b1ca67c56c1cf9c",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted original decorative indigo diya/rangoli artwork with open centre, no text/person/logo."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811002",
+    "slug": "durga-puja-business-greeting",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "e693891d64bbbf55b71ba996095575684bcea16fedd64e3a46b73e021e0d4e8b",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted original crimson shola-inspired arches/alpana artwork, no deity likeness/person/text/logo."
+  },
+  {
+    "id": "70731da7-b45d-44db-a462-7c360c811003",
+    "slug": "dussehra-business-greeting",
+    "kind": "addition",
+    "before_sha256": null,
+    "sha256": "b2b975938eb0ee01e88abad073acd419f036f1963d2eda44fc8ecfd10071a50b",
+    "reviewed_at": "2026-10-10T14:42:36.023Z",
+    "review": "Accepted original green/gold decorative bow/arrow artwork, no battle/effigy/person/text/logo."
+  }
+]

@@ -13,6 +13,8 @@ import { editorialIssues } from "../lib/prompts/editorial";
 import { personaIssues } from "../lib/prompts/persona";
 import { promptPath, promptSchema } from "../types/content";
 import provenance from "../content/image-provenance.json";
+import festivalReview from "../docs/audits/festival-release-2026-10-10/content-review.json";
+import festivalProvenance from "../content/releases/festival-provenance-2026-10.json";
 const failures: string[] = [];
 const paths = new Set<string>();
 const ids = new Set<string>();
@@ -26,6 +28,14 @@ for (const raw of allPrompts) {
   ids.add(p.id);
   paths.add(promptPath(p));
   const review = scope.records.filter((r) => r.id === p.id);
+  const festival = festivalReview.find((r) => r.id === p.id);
+  const festivalValid =
+    festival &&
+    festival.sha256 ===
+      createHash("sha256").update(p.prompt_text).digest("hex") &&
+    (festival.kind === "addition"
+      ? review.length === 0 && festival.before_sha256 === null
+      : review.length === 1 && festival.before_sha256 === review[0].sha256);
   const latest = postrelease.find((revision) => revision.id === p.id);
   const releaseText = latest?.before.prompt_text ?? p.prompt_text;
   if (latest?.after.prompt_text && p.prompt_text !== latest.after.prompt_text)
@@ -70,10 +80,11 @@ for (const raw of allPrompts) {
       review[0].sha256 ||
       reviewedFollowup);
   if (
-    review.length !== 1 ||
-    (review[0].sha256 !== hash &&
-      !(reviewedFollowup && !dotBefore) &&
-      !reviewedDotRevision)
+    !festivalValid &&
+    (review.length !== 1 ||
+      (review[0].sha256 !== hash &&
+        !(reviewedFollowup && !dotBefore) &&
+        !reviewedDotRevision))
   )
     failures.push(`${p.slug}: missing or stale release review`);
   for (const issue of [...personaIssues(p), ...editorialIssues(p)])
@@ -94,7 +105,11 @@ for (const raw of allPrompts) {
     )
       failures.push(`${p.slug}: incorrect dimensions`);
   }
-  if (!provenance.some((r) => r.preview.path === p.preview_image_url))
+  if (
+    ![...provenance, ...festivalProvenance].some(
+      (r) => r.preview.path === p.preview_image_url,
+    )
+  )
     failures.push(`${p.slug}: missing exact asset provenance`);
   if (
     p.preview_video &&
@@ -123,7 +138,11 @@ for (const c of allCollections) {
   )
     failures.push(`${c.slug}: thin indexable collection`);
 }
-if (scope.records.length !== allPrompts.length)
+if (
+  scope.records.length +
+    festivalReview.filter((r) => r.kind === "addition").length !==
+  allPrompts.length
+)
   failures.push("Release audit count mismatch");
 if (new Set(allCollections.map((c) => c.slug)).size !== allCollections.length)
   failures.push("Duplicate collection namespace");

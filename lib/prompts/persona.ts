@@ -9,6 +9,10 @@ import {
 /** The preview brief is editorial asset data, never a copyable identity source. */
 export const LEGACY_PERSONA_POLICY_VERSION = "reference-first-india-default-v1";
 export const PERSONA_POLICY_VERSION = "identity-expression-age-v2";
+/** New authoring reuses the existing age-preserving contract; no DB migration.
+ * V2 remains frozen so historical records validate without rewriting their text.
+ */
+export const AUTHORING_PERSONA_POLICY_VERSION = LEGACY_PERSONA_POLICY_VERSION;
 export const SUPPORTED_PERSONA_POLICY_VERSIONS = [
   LEGACY_PERSONA_POLICY_VERSION,
   PERSONA_POLICY_VERSION,
@@ -30,9 +34,11 @@ export function personaPreamble(
 ) {
   const person = policy === "person" || policy === "person-and-product";
   const product = policy === "product" || policy === "person-and-product";
-  const fallback = `NO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian ${subject.toLowerCase()}. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Follow an explicitly stated age. If an adult age is not explicit, use approximately 22–30; never age a child or teenager into an adult. Derive expression from the creative direction rather than defaulting to a smile.${editing ? " Without a source photo, this is a newly generated illustrative example, not an edit or authentic restoration of someone's photograph. A faithful edit requires the original image." : ""}`;
+  const fallback = `NO REFERENCE PRESENT: Default to an appropriate fictional Indian/South Asian ${subject.toLowerCase()}. Use believable diversity in Indian appearance, complexion and hair, with ordinary natural proportions; do not repeat a stereotypical face. Derive expression from the creative direction rather than defaulting to a smile.${editing ? " Without a source photo, this is a newly generated illustrative example, not an edit or authentic restoration of someone's photograph. A faithful edit requires the original image." : ""}`;
   return [
-    person && referencePersona,
+    person && legacyReferencePersona,
+    person &&
+      "Preserve the reference person's actual age and age cues; do not de-age or age them to fit a style or audience. The creative direction controls emotion and expression without changing identity.",
     person && fallback,
     product && productPersona,
     policy === "animal" &&

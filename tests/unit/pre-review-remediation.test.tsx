@@ -24,7 +24,7 @@ it("consolidates without changing publication or indexability flags", () => {
     expect(p.is_indexable).toBe(true);
     expect(isPromptSeoEligible(promptSchema.parse(p))).toBe(false);
   }
-  expect(allPrompts.filter((p) => !p.is_published)).toHaveLength(95);
+  expect(allPrompts.filter((p) => !p.is_published)).toHaveLength(89);
   for (const r of editorialRedirects) {
     expect(r.permanent).toBe(true);
     expect(consolidatedPath(r.source + "?from=save#example")).toBe(

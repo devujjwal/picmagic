@@ -9,7 +9,7 @@
     "start": "next start --hostname 0.0.0.0",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
-    "build:deploy": "node scripts/check-launch.mjs && pnpm lint && pnpm typecheck && pnpm test && pnpm check:content && pnpm check:seo-content && pnpm check:release-content && pnpm check:blog && pnpm build",
+    "build:deploy": "node scripts/check-launch.mjs && pnpm lint && pnpm typecheck && pnpm test && pnpm check:content && pnpm check:seo-content && pnpm check:release-content && pnpm check:festival-release && pnpm check:blog && pnpm build",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
@@ -20,6 +20,7 @@
     "format:check": "prettier --check .",
     "check:launch": "node scripts/check-launch.mjs --production",
     "check:release-content": "tsx scripts/check-release-content.ts",
+    "check:festival-release": "node --import tsx scripts/check-festival-release.ts",
     "check:blog": "node --import tsx scripts/check-blog.ts",
     "check:blog-release": "node --import tsx scripts/check-blog-release.ts"
   },

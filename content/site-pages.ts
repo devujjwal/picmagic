@@ -8,6 +8,7 @@ export const sitePages = [
   { path: "/collections" },
   { path: "/enhance-photo" },
   { path: "/create" },
+  { path: "/festival-poster-maker", updatedAt: "2026-10-10T13:00:00Z" },
   { path: "/reel-prompts" },
   { path: "/about", updatedAt: "2026-10-05T06:00:00Z" },
   { path: referenceGuidePath, updatedAt: "2026-09-25T04:00:00Z" },

@@ -6,7 +6,7 @@ if (fs.existsSync("content/expansion/prompts.json")) {
 import { createHash } from "node:crypto";
 import {
   personaPreamble,
-  PERSONA_POLICY_VERSION,
+  AUTHORING_PERSONA_POLICY_VERSION as PERSONA_POLICY_VERSION,
   type PersonaPolicy,
 } from "../../lib/prompts/persona";
 import { promptSchema, collectionSchema } from "../../types/content";
