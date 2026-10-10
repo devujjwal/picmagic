@@ -30,9 +30,9 @@ const catalog = {
 };
 const now = new Date("2026-10-06T12:00:00Z");
 describe("editorial publication and content", () => {
-  it("validates five private, substantive drafts and eligible destinations", () => {
-    expect(rows).toHaveLength(5);
-    expect(new Set(rows.map((a) => a.slug)).size).toBe(5);
+  it("validates seven private source drafts and eligible destinations", () => {
+    expect(rows).toHaveLength(7);
+    expect(new Set(rows.map((a) => a.slug)).size).toBe(7);
     for (const a of rows) {
       expect(a.status).toBe("draft");
       expect(a.date_published).toBeNull();

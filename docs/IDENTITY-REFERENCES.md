@@ -5,29 +5,73 @@ locally for future prompt-based generation and use them as standing identity
 references. This applies to project/editorial generation, not public visitors'
 personalized prompts. A visitor's own authorized reference remains authoritative.
 
-## Reference mapping
+## Current reference pools — 10 October 2026
 
-| Attachment | Local original | Intended use |
+The owner added photographs and requested random selection within the matching
+men, women or couple group. This supersedes the single-default selection rule
+from 5 October. Group assignments follow the owner's filenames and confirmed
+mapping, not an inference about a person's gender from appearance.
+
+All paths below are relative to `.release-private/identity-references/`.
+
+| Pool | Files | Count |
 | --- | --- | --- |
-| First | `.release-private/identity-references/reference-01.png` | Default identity reference for men's photo prompts. |
-| Second | `.release-private/identity-references/reference-02.jpg` | Default identity reference for women's photo prompts, explicitly confirmed by the owner on 5 October 2026. |
-| Third | `.release-private/identity-references/reference-03-couple.jpg` | Default reference for couple photo prompts. Use exactly the two seated foreground subjects, not the background bystander. |
+| Men | `reference-01.png`, `men-1.jpg`, `men-2.jpg` | 3 |
+| Women | `reference-02.jpg`, `women-1.jpg` | 2 |
+| Couple | `reference-03-couple.jpg`, `couple-1.jpg`, `couple-3.jpg` | 3 |
 
-Original names and SHA-256 hashes are retained in the private manifest beside the
-files. Copies preserve the original bytes; no crop, retouch or metadata removal
-has been applied to these archival originals.
+The private manifest records stable IDs, current SHA-256 hashes and byte sizes.
+Existing filenames are retained to avoid breaking historical evidence links.
+No image bytes were changed by this plan update.
+
+### Random selection procedure
+
+1. Use an explicit owner-selected photo when supplied; a visitor's own reference
+   always overrides these editorial pools. Otherwise match the prompt's intended
+   use to exactly one pool. Ask when the intended group is ambiguous.
+2. Read the private manifest and verify candidate files against their recorded
+   hashes. Do not silently accept replacements or newly added, unregistered files.
+   Confirm their group and register their current version first.
+3. Shuffle the eligible IDs in that pool and select without replacement. Maintain
+   independent cycles per pool. Once a cycle is exhausted, reshuffle; avoid the
+   immediately previous photo at the cycle boundary when more than one is eligible.
+4. At generation time, persist the remaining pool order, last selected ID and
+   selection events in gitignored `selection-state.json` beside the manifest.
+   Record reference ID/hash, prompt or run ID and selection time before upload so
+   a resumed run reuses the same choice. Serialize updates to avoid concurrent
+   runs selecting the same cycle entry. No generation or selection event has been
+   performed merely by updating this plan.
+5. Keep the selected photo fixed for retries, revisions and variations of the
+   same concept. Choose again only for a new independent concept. Log explicit
+   overrides separately; they do not advance the random cycle.
+6. Check that the selected photo supports the requested composition and identity
+   fidelity. Record exclusions or limitations (for example, obscured eyes), rather
+   than silently substituting another pool or claiming invisible details match.
+   If none is suitable, ask for a suitable reference. Never mix pools to compensate.
+
+This is a generation workflow instruction, not a newly enabled background job or
+website feature. Future generators must read this plan and its private state.
+
+### File-version history
+
+On 10 October, `reference-02.jpg` and `reference-03-couple.jpg` differed from their
+5 October recorded hashes and sizes. Their current versions have new manifest
+IDs; the former records are retained as historical provenance, not current files.
+The old bytes have not been restored or verified at another location. In
+particular, the current couple photo is a foreground pair in snow, not the old
+seated pair. Historical test evidence must continue to reference its original
+hashes and must not be relabeled as a test of these replacements.
 
 ## Generation rules
 
-- For a project men's generation, attach reference 01 unless the owner explicitly
-  chooses another reference. Do not substitute a fictional face because the
-  reference is inconvenient or unavailable.
-- For a project couple generation, attach reference 03 and keep both foreground
-  identities distinct. Do not borrow the solo portrait's face to replace either
-  person in the couple photograph.
-- For a project women's generation, attach reference 02 unless the owner
-  explicitly chooses another reference. Keep its identity separate from the
-  men's and couple references; do not combine solo portraits automatically.
+- Attach exactly the selected reference from the matching pool. Do not substitute
+  a fictional face because the reference is inconvenient or unavailable.
+- For couple prompts, use both intended foreground subjects from one couple
+  photo, keeping their identities distinct. Never construct the couple by
+  combining solo references or replace either person with a solo identity.
+- Exclude background bystanders. In `couple-3.jpg`, exclude the person between
+  the two prominent foreground subjects. `couple-1.jpg` includes sunglasses;
+  record the resulting eye-detail limitation. Follow each manifest subject note.
 - Preserve recognizable facial geometry, natural complexion, distinguishing
   features, hairline, actual age and body proportions. The scene prompt controls
   styling and composition, never substitution of the preview model's identity.
@@ -58,9 +102,13 @@ explicit approval. Keep unpublished outputs private until reviewed.
 
 On 5 October 2026 the owner explicitly approved men/women reference uploads to
 ChatGPT web and local recognizable-output review, then directed use of signed-in
-Chrome. Both solo references were uploaded for the eight-prompt editorial trial.
+Chrome. Both then-current solo references were uploaded for the eight-prompt trial.
 The couple original was not uploaded. Eighteen generated results, exact inputs,
 original hashes and qualitative limitations are retained under gitignored
 `.release-private/adsense-evidence-2026-10-05/`; `review.html` is the private
 comparison sheet. Public identifiable-output publication and production release
 remain separate approvals. See the audit `REAL-TEST-REVIEW.md` for findings.
+
+That historical authorization does not automatically authorize uploads of newly
+added photographs or replacement versions. Confirm provider and purpose before
+their first external transfer; no new upload was performed on 10 October.

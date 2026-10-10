@@ -288,10 +288,19 @@ test("pagination works without JavaScript", async ({ browser }) => {
     baseURL: process.env.E2E_BASE_URL || "http://localhost:3002",
   });
   const page = await context.newPage();
-  await page.goto("/ai-prompts");
+  // A no-JS reader only needs the server-rendered document, not image completion.
+  await page.goto("/ai-prompts", { waitUntil: "domcontentloaded" });
   await expect(page.locator(".prompt-card")).toHaveCount(24);
-  await page.getByRole("link", { name: "Load more looks" }).click();
+  const firstCard = await page.locator(".prompt-card").first().textContent();
+  await Promise.all([
+    page.waitForURL(/\?page=2$/, { waitUntil: "domcontentloaded" }),
+    page
+      .getByRole("link", { name: "Load more looks" })
+      .click({ noWaitAfter: true }),
+  ]);
   await expect(page).toHaveURL(/\?page=2$/);
+  await expect(page.locator(".prompt-card")).toHaveCount(24);
   await expect(page.locator(".prompt-card").first()).toBeVisible();
+  await expect(page.locator(".prompt-card").first()).not.toHaveText(firstCard!);
   await context.close();
 });

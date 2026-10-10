@@ -2,9 +2,25 @@
 
 AdSense account: `devujjwal1989@gmail.com`, publisher `pub-4114304022167819`. Publisher and slot IDs are public identifiers, not credentials.
 
-## Current status - 5 October 2026
+## Current status 10 October 2026
 
-The owner's 3 October rejection email and 5 October dashboard evidence show **Needs attention: Low value content**. The dashboard reports ads.txt **Authorized**, consistent with the public file checked on 5 October. Site approval is not Getting ready or Ready. The account activation/payment notice is separate from the stated content rejection.
+The signed-in AdSense dashboard for PicMagic now shows **Getting ready**, with
+**Verify site ownership** and **Review requested** completed. The Sites table
+shows ads.txt **Authorized**, last updated 5 October 2026 at 7:44 AM PDT. This
+observation supersedes the rejection state recorded earlier on 5 October; the
+dashboard does not establish who submitted the later request. No duplicate review
+request or advertising activation was made during the 10 October release review.
+Google has not yet marked the site Ready, and approval or traffic is not guaranteed.
+
+Production advertising remains disabled pending real regional consent and Auto
+ads verification. The two new festival guides are part of the owner's approved
+pending-work release; release completion is recorded separately after deployment
+and exact database activation are verified. Historical observations below retain
+their original dates and must not be treated as current serving or approval claims.
+
+## Historical rejection 5 October 2026
+
+The owner's 3 October rejection email and the earlier 5 October dashboard evidence showed **Needs attention: Low value content**. At that observation the dashboard reported ads.txt **Authorized**, consistent with the public file checked on 5 October. The account activation/payment notice was separate from the stated content rejection.
 
 Production advertising was disabled for the September 25 combined release pending real regional consent and Auto ads verification. Keep it disabled. The October remediation is local on `codex/adsense-content-rereview`; release and another review submission require separate owner approval. See [the October audit](audits/adsense-rejection-2026-10-05/README.md). The dated setup and verification sections below are historical evidence, not a current approval or serving claim.
 

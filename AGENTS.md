@@ -75,6 +75,20 @@ upload permission, recognizable-output publication approval and production
 release approval remain separate. No paid generation is authorized. Public
 visitors' own references always take precedence over these editorial defaults.
 
+## Random private reference pools — 10 October 2026
+
+The owner expanded the private references and authorized random selection within
+the matching men, women or couple pool. This supersedes the single-default
+selection rule above, not its privacy, upload, budget or publication safeguards.
+Read `docs/IDENTITY-REFERENCES.md` and the private manifest before generation.
+Use a shuffled, non-repeating cycle per pool and keep one selected photo for all
+revisions of a concept. Explicit user references take precedence. Never mix solo
+identities into a couple or include background bystanders. Record selections and
+hashes privately. Two legacy paths now contain replacement versions; historical
+tests and permissions must remain tied to their original hashes. No new provider
+upload, generation, recognizable-output publication or release is authorized by
+this plan update. Preserve all current image bytes and historical evidence.
+
 ## Combined website release approval - 5 October 2026
 
 The owner requested committing and pushing all current website changes, including
@@ -106,3 +120,39 @@ authorized. Check deployment controls and hosting allowance, rehearse the exact
 database transaction, validate locally, push the complete batch once and perform
 minimal live verification. Future monetization activation requires separate
 approval and verified provider acceptance, payout and issued URLs.
+
+## Festival batch approval — 10 October 2026
+
+The owner approved one consolidated release of the six named refreshed drafts,
+six festival templates and `/festival-poster-maker` under the implementation plan.
+Only the selected six draft IDs may be activated; all other drafts stay private.
+Use signed-in ChatGPT's included image generation and the matching private
+non-repeating reference pools. Publish only reviewed generated results, never
+original references. No paid generation or alternate-provider fallback; stop
+generation if included access fails. Do not release until all 12 previews are
+approved, the editor passes local checks, hosting allowance/controls are checked,
+and the exact backed-up production transaction and rollback are rehearsed.
+Deploy code/assets once, verify assets, activate exactly the approved content,
+then invalidate caches. No migration or backend upload endpoint is authorized.
+Keep advertising and affiliate monetization disabled.
+
+Future new editorial concepts target the owner's 15–35 audience internally; keep
+numeric ages out of public copyable prompts. This batch uses adult solo/couple
+references. Preserve actual ages and identities, never de-age; ask if suitability
+is uncertain. Historical published prompt text and historical evidence remain
+unchanged. See `docs/PROMPT-QUALITY.md` and the staged batch under
+`content/releases/festival-2026-10.ts`; it is not active catalogue content.
+
+## Reviewed pending-work release approval — 10 October 2026
+
+The owner explicitly requested reviewing implemented work and making it live.
+This authorizes one validated code/documentation/cleanup batch and publication of
+the two reviewed festival guides, preserving the five existing published guides,
+104 published templates and 89 unfinished drafts. Back up and rehearse the exact
+two-article transaction and conflict-checked rollback before activation. Verify
+hosting allowance and deployment controls, then deploy once. Keep private files
+out of Git and deployment. No paid services, upgrades or blanket draft activation.
+Review current AdSense readiness and request review only when eligible and the
+required statements are supported; do not promise approval, traffic or indexing.
+Advertising and affiliate monetization remain disabled pending their separate
+verification requirements.

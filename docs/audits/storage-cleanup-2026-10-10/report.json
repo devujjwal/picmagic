@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-10",
+  "scope": "Local storage cleanup only. No commit, push, deployment, database write, dependency change or Git history rewrite.",
+  "measurement": {
+    "method": "du -sk allocated project storage, including ignored files and Git; not a claim about APFS container free space or remote repository size.",
+    "beforeKiB": 13865684,
+    "afterKiB": 3920260,
+    "recoveredKiB": 9945424,
+    "note": "The initial snapshot precedes stopping the local preview server; the detailed inventory was 312 KiB smaller after shutdown. Measurement includes the retained compressed audit inventory."
+  },
+  "classification": {
+    "SAFE TO DELETE": "29 verified Next.js build directories, the current generated Playwright report/results, TypeScript incremental cache and root Finder metadata. All were untracked. References point to regenerating commands, build-output configuration or historical build paths, not source inputs.",
+    "LIKELY STALE": "74 duplicate-content groups (about 21 MiB redundant bytes), historical screenshots/reports, private baseline source copies and old test traces. Kept because byte equality or age alone does not prove that an evidence or recovery path can be removed.",
+    "KEEP": "Application source, all tests, package manifest/lockfile, multi-platform deployment dependencies, production/public media, current blog drafts, branding, migrations, legal/SEO files, configuration and current documentation. The existing dirty working tree was preserved.",
+    "REQUIRES MY APPROVAL": "Private reference photos and generated identity outputs, database snapshots/rollback SQL, original downloads, historical source baselines and any release-evidence retirement. No such material was deleted."
+  },
+  "removed": {
+    "initialFileCount": 22384,
+    "initialAllocatedKiB": 9947408,
+    "paths": [
+      ".next",
+      ".next-adsense-october",
+      ".next-affiliate-qa",
+      ".next-blog-preview",
+      ".next-blog-qa",
+      ".next-festival-final",
+      ".next-festival-qa",
+      ".next-premium-build",
+      ".next-premium-qa",
+      ".next-release",
+      ".next-targeted",
+      ".release-private/adsense-build",
+      ".release-private/adsense-implementation-build",
+      ".release-private/affiliate-baseline/.next-affiliate-qa",
+      ".release-private/blog-release-20261006/baseline/.next",
+      ".release-private/commit-review-build",
+      ".release-private/discovery-approved-release",
+      ".release-private/discovery-baseline",
+      ".release-private/discovery-candidate",
+      ".release-private/discovery-combined-release",
+      ".release-private/discovery-final",
+      ".release-private/discovery-integrations",
+      ".release-private/discovery-preload",
+      ".release-private/dot-build-20261005",
+      ".release-private/logo-review-20261005/manrope-production-build",
+      ".release-private/logo-review-20261005/production-build",
+      ".release-private/social-links-webpack",
+      ".release-private/pre-implementation-failed-build-20260925",
+      ".release-private/social-links-build",
+      "playwright-report",
+      "test-results",
+      "tsconfig.tsbuildinfo",
+      ".DS_Store"
+    ],
+    "recovery": "Disposable generated output was permanently removed, not moved to Trash. Rebuild/retest using retained source and lockfile. Historical source snapshots, release reports and database rollback records remain available."
+  },
+  "dependencies": {
+    "declaredCount": 28,
+    "removed": [],
+    "reason": "Every declared dependency has a source, tooling, configuration, script or test role. Type packages are consumed implicitly by TypeScript; Prettier is invoked by package scripts. Lighthouse and Sharp have active scripts. pnpm-workspace.yaml intentionally includes Linux runtime binaries for Netlify alongside macOS binaries.",
+    "validation": "pnpm list --depth 0 and offline frozen-lockfile lockfile-only install passed; package.json and pnpm-lock.yaml are unchanged.",
+    "caveat": "The initial ordinary offline install requested replacing node_modules and aborted because no TTY was available. It was not forced. Existing dependencies were retained and validated by compilation, unit tests and browser tests."
+  },
+  "ignoreChanges": {
+    ".gitignore": "Replace enumerated alternate Next build directories with /.next-*/. Add root-local tooling caches, coverage intermediates, Playwright blob/cache output and package-manager debug logs. Do not blanket-ignore documentation, reports, assets, .bak files or original downloads.",
+    ".prettierignore": "Exclude alternate Next builds, private working material, local cache and blob reports from formatting.",
+    "eslint.config.mjs": "Exclude alternate Next builds consistently, plus local cache and blob reports."
+  },
+  "trackedArtifactAudit": {
+    "trackedFilesAtStart": 1434,
+    "trackedIgnoredFiles": 0,
+    "trackedBuildCoverageTestDirectories": 0,
+    "trackedBakOldTmpZipWebmFiles": 0,
+    "untrackedFromGit": [],
+    "retainedEvidenceFiles": 597,
+    "note": "Tracked documentation media, logs and JSON reports were reviewed as historical editorial/release evidence rather than automatically removed. Git reported two temporary objects totaling 16.93 MiB; all Git internals were left untouched."
+  },
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unitTests": "322 passed across 51 files",
+    "content": "193 records validated, 104 published and 89 deferred drafts, no missing images",
+    "seo": "passed with 0 errors and 47 existing editorial review notices; no editorial changes made",
+    "releaseFestivalBlogChecks": "passed; all 7 local blog source envelopes remain drafts",
+    "defaultBuild": "Blocked twice by local Turbopack worker process/port EPERM, including elevated retry. No application compilation error was established.",
+    "webpackProductionBuild": "passed: next build --webpack plus preview-cache-headers, 159 pages generated, seed data only and advertising/analytics disabled",
+    "browserTests": "61 of 62 desktop/mobile tests passed. Mobile no-JavaScript pagination timed out waiting for the full page load on the initial run and isolated retry. A separate mobile no-JavaScript DOMContentLoaded check passed: 24 cards on page one, Load more navigation to page two, 24 cards there. Local page and pending image each returned HTTP 200. Full-load timeout remains unresolved; no test or product code was changed to mask it. Failure trace retained privately.",
+    "productionDatabaseIntegration": "Not run; this cleanup made no runtime, database, migration or production changes.",
+    "productionRequests": 0,
+    "formatting": "ESLint configuration Prettier check and git diff --check passed. Ignore files have no Prettier parser and were checked as patterns instead."
+  },
+  "approvalOnlyFollowups": [
+    {
+      "paths": [".release-private/affiliate-baseline", ".release-private/blog-release-20261006/baseline"],
+      "allocatedKiBAfterBuildRemoval": 495604,
+      "reason": "Historical source/asset baselines may be needed for recovery or comparison; retained."
+    },
+    {
+      "category": "Private historical browser traces/videos",
+      "fileCount": 13,
+      "allocatedMiB": 64.53125,
+      "reason": "May contain account/user data and investigation evidence; explicit retirement approval required."
+    },
+    {
+      "category": "Historical documentation media and raw reports",
+      "allocatedKiBUpperBound": 214468,
+      "reason": "Includes source evidence, release records and maintained documentation, not all disposable. Any further archival needs a reference-preserving plan and approval."
+    }
+  ],
+  "largestRemainingConsumersKiB": {
+    "node_modules": 2029520,
+    ".release-private": 1036212,
+    ".git": 595784,
+    "docs": 214484,
+    "public": 33260,
+    "brand-assets": 5828
+  },
+  "integrity": "All 1434 originally tracked files remain. SHA-256 comparison against the start-of-cleanup working contents shows only .gitignore, .prettierignore and eslint.config.mjs changed. Existing uncommitted content/documentation/test work was preserved. No files were removed from Git tracking. Validation build and transient outputs were removed again after stopping the local server; the unresolved browser failure trace was retained.",
+  "privateEvidence": ".release-private/storage-cleanup-20261010/before.json.gz contains the complete filename/size inventory, reference-search results, dependency evidence, duplicate groups and original tracked-file hashes. deleted.json lists guarded deletion targets. nojs-diagnostic.json and nojs-full-load-timeout/ preserve browser diagnostic evidence. No secret values were exported.",
+  "localPreview": "Both local servers used during this task were stopped. The previous localhost:4312 blog preview can be restarted with node scripts/blog-seed-preview.mjs; source drafts remain unchanged. pnpm build (or next build --webpack when the local Turbopack permission limitation applies) regenerates the production build before pnpm start."
+}

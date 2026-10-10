@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-10",
+  "status": "two-local-drafts-ready-for-owner-review",
+  "publication": "Not authorized by this authoring request. No commit, push, deployment, production content mutation, indexing request or social posting performed.",
+  "source": "content/blog/articles.json",
+  "source_sha256": "5498ef1f8de75b51a23ed99fc8ab770eeacef069db0e283bc1a8e2aed817ff20",
+  "articles": [
+    {
+      "slug": "diwali-durga-puja-dussehra-business-posters",
+      "intent": "Choose and personalize a business/personal festival greeting, including logo, optional contact text and exact PNG formats.",
+      "original_value": "Three actual approved compositions with protected text-space guidance, English/Hindi examples, exact editor limitations and a private-editing versus public-sharing distinction.",
+      "conversion": "Direct inline links to each poster design and the editor. Existing schema allows prompt/category/collection primary CTAs only, so the final primary CTA explicitly offers the optional Diwali artwork prompt; no tool event or schema extension was fabricated.",
+      "caveats": "Not a generator comparison, native-4K claim, print-size guarantee or business-results study. No festival dates or unsupported regional-language presets.",
+      "verdict": "Ready for editorial approval and a separate scoped release."
+    },
+    {
+      "slug": "garba-dandiya-ai-photo-ideas",
+      "intent": "Choose among solo Garba, solo dandiya and couple dandiya still portraits, then adapt references and inspect the result.",
+      "original_value": "Composition-specific hand/prop/crop checks, reference mapping and explicit acknowledgement of the tight outer crop in the supplied couple preview.",
+      "conversion": "Dandiya Night Together is the primary prompt destination; both solo templates and existing identity/couple guides provide secondary routes.",
+      "caveats": "Owner-supplied couple provenance is disclosed directly in the visible caption. Ordinary image blocks avoid the existing prompt-card caption that would falsely label it a documented PicMagic-generated output. No controlled likeness test, video evidence or cultural certification claimed.",
+      "verdict": "Ready for editorial approval and a separate scoped release."
+    }
+  ],
+  "seo_aeo_geo": {
+    "intent_ownership": "Poster article owns selection/edit/export guidance, editor owns customization, template pages own full copyable prompts. Navratri article owns these three festive compositions; the earlier couple ideas and identity guides retain their general intents. No separate thin page for each festival or duplicate full prompts.",
+    "content": "Quick answer, logical H2/H3 structure, comparison/decision tables, concrete steps, limited relevant visible FAQs and descriptive links. Honest PicMagic Editorial attribution; no invented reviewer credentials or publication dates.",
+    "technical": "Existing self-canonical, article OpenGraph, X cards, BlogPosting and breadcrumb functions verified for both records. No FAQPage markup, new archive routes, special AI files or ranking/citation guarantees.",
+    "publication_gates": "Both records are draft, non-indexable and date_published=null. Normal routes return 404; no sitemap membership or preview analytics. Relationships become discoverable only after approved publication.",
+    "source_checks": [
+      "https://developers.google.com/search/docs/appearance/ai-features",
+      "https://developers.google.com/search/docs/appearance/structured-data/article",
+      "https://ich.unesco.org/en/RL/garba-of-gujarat-01962"
+    ],
+    "source_scope": "Google sources inform the technical audit, not the consumer article copy. UNESCO supports only the brief Garba/Navratri devotional context. PicMagic capabilities were checked against released source and prior release evidence. No Search Console/GA performance claim or live crawl."
+  },
+  "verification": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit": "322 tests in 51 files passed",
+    "browser": "6 final tests passed: desktop and mobile, each article at 320/390/768/1440, axe, overflow, image decode/alt text, keyboard TOC, draft privacy and editor deep links",
+    "build": "Local production webpack build passed, 159 pages; seed content with advertising/analytics disabled",
+    "content": "Blog, catalogue, SEO, release-content and festival gates passed. Existing catalogue overlap/shared-image advisory notices unchanged.",
+    "test_repairs": "Corrected JSON import and TypeScript test typing; replaced a label matcher with the actual combobox accessible name. One mobile navigation was interrupted during the simultaneous build; the complete suite passed after the build finished. No application fix was needed.",
+    "limits": "This content-only batch reused existing publication infrastructure. No new production-equivalent database publication, external analytics, search rankings, AI citations or regional consent behavior was tested."
+  },
+  "preservation": "First five source article objects are byte-equivalent after JSON serialization to HEAD. Existing published articles and all 104 published / 89 draft template records untouched. No private references or new generated media used. Unrelated dirty files preserved; generated Next configuration changes restored.",
+  "assets": [
+    {"url":"/previews/diwali-business-greeting-premium-8359e2f910.webp","sha256":"7fb171e7066f76a092657b66f722fde5fd4cdfe46a585a14baf1f5757faed6cc"},
+    {"url":"/previews/durga-puja-business-greeting-premium-93459004b1.webp","sha256":"972d982f1f1df93644ca669a58c3f4fa9b757ae2b8208affae009d2751e4bb27"},
+    {"url":"/previews/dussehra-business-greeting-premium-1d2aded2e0.webp","sha256":"8e937e8c47fce2004ce246bc0e98cc73aedb11e0fd03533ef8454cf268aa0079"},
+    {"url":"/previews/garba-under-the-lights-premium-64bdcd6b27.webp","sha256":"5706605b756883046f71811507a6a6d0b0629eb04954abbf85b982c29b15fe57"},
+    {"url":"/previews/navratri-dandiya-portrait-20261010-d8b5f3f9e2.webp","sha256":"40b833e9e11092a42f0c367d7eac45229cf73bd3acfde4cc352b80e5463a98d5"},
+    {"url":"/previews/dandiya-night-together-ba4e090f87.webp","sha256":"0e129540b448670375158df02c6fcda2d7f0318db3b468c438f7fa08ade86cde"}
+  ],
+  "next_step": "Obtain approval for these two exact articles. Then recheck deployment controls/allowance, production slug ownership and full before-state; back up/rehearse the two-record insertion without rewriting the five historical articles; validate, release only the required batch, invalidate caches and minimally verify live. No migration is needed."
+}

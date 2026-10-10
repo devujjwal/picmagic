@@ -24,3 +24,7 @@ The two UI files and this report remain local on codex/postrelease-audit-oct5. N
 The owner subsequently instructed “yes commitn and push the same”. This authorizes one production release of the two reviewed presentation files and this record. Existing local post-release report additions remain separate and unstaged. Netlify production is main, branch builds restricted to main, PR previews disabled, no build hooks, no open PRs or workflows; advertising stays false in every deployment context and auto recharge stays disabled. Local checks were completed before this approval; no application code changed afterward.
 
 Netlify allowance immediately before this release: 831.3 of 1,000 plan credits remaining, expiring 15 October; auto recharge disabled. No payment, plan or recharge setting changed.
+
+## Published outcome
+
+Commit `45a5c63bc1d07a1caaa05a3c2b125cd9d4b47a69` was pushed once to main. Netlify production deployment `6ac3d0aef731d7000895844e` published successfully at 2026-10-05 16:32:23.746 UTC (22:02 IST). Home and Explore both return 200 with the new card, title, browser-memory explanation and grouped actions in live HTML. Neither sampled document includes an advertising script; this is only an HTML observation, not regional runtime consent proof. The Zscaler block is not treated as fixed by this presentation release. This post-release note remains local to avoid another deployment.

@@ -12,16 +12,19 @@ supabase/.temp/
 supabase/.branches/
 output/originals/
 
-.next-release/
-.next-adsense-october/
-.next-targeted/
-.next-blog-qa/
-.next-blog-preview/
-.next-affiliate-qa/
-.next-festival-qa/
-.next-festival-final/
-.next-premium-qa/
-.next-premium-build/
+# Alternate local Next.js build/QA directories (PICMAGIC_DIST_DIR).
+/.next-*/
+
+# Regenerable local tooling output; historical docs/release evidence stays tracked.
+/.cache/
+/.eslintcache
+/.nyc_output/
+/blob-report/
+/playwright/.cache/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
 
 .release-private/
 

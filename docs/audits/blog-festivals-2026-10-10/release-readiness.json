@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "authorization": "Owner requested review and production release of implemented work. Only two reviewed new articles are activated; unfinished prompt drafts are excluded.",
+  "baselineRevision": "b3504274b8b9557645e1dd5b5702c8a3b91a3b47",
+  "scope": ["two festival guides", "cleanup ignore safeguards", "existing historical release reports", "private-reference rotation documentation", "current AdSense status documentation", "browser test reliability correction"],
+  "articles": ["diwali-durga-puja-dussehra-business-posters", "garba-dandiya-ai-photo-ideas"],
+  "database": {
+    "before": {"publishedTemplates":104,"draftTemplates":89,"publishedGuides":5},
+    "expectedAfter": {"publishedTemplates":104,"draftTemplates":89,"publishedGuides":7},
+    "rehearsal": "Forward publication and exact rollback passed inside a rolled-back transaction. All unrelated catalogue, author, redirect, affiliate and administrator rows compared exactly.",
+    "migration": false,
+    "privateEvidence": ".release-private/blog-final-release-20261010/"
+  },
+  "hosting": {"plan":"existing Personal","creditsRemainingBefore":742,"autoRecharge":"disabled","productionBranch":"main","branchDeploys":"production only","deployPreviews":"disabled","buildHooks":0,"openPullRequests":0,"githubActionsWorkflows":0},
+  "validation": {
+    "lint":"passed",
+    "typecheck":"passed",
+    "unitTests":"322 passed across 51 files",
+    "content":"193 templates, 104 published, 89 deferred; no missing images",
+    "seo":"0 errors; 47 pre-existing overlap/shared-preview editorial notices retained for separately scoped review",
+    "releaseFestivalBlog":"passed",
+    "dependencyLockfile":"offline frozen lockfile validation passed; no dependency changes",
+    "build":"Webpack production build passed, 159 pages. Local Turbopack worker-port restriction previously established; no production bundler configuration changed.",
+    "browser":"70 passed: 6 festival-guide responsive/accessibility tests, 60 public/editor/social tests, 4 branding/CSP tests. Four advertising-enabled checks skipped because this release intentionally keeps advertising disabled.",
+    "noJavaScriptPagination":"Now waits for DOMContentLoaded and actual navigation/card assertions rather than unrelated image completion. Confirms 24 cards on both pages and different first-card content. Desktop/mobile passed. No product behavior changed.",
+    "vendors":"Local browser tests stub Google services; not proof of real geographic CMP delivery."
+  },
+  "adsense":{"status":"Getting ready","review":"Review requested","ownership":"verified","adsTxt":"Authorized","observedTableLastUpdated":"2026-10-05 07:44 PDT","newReviewRequest":false,"productionAdsEnabled":false,"note":"Current dashboard supersedes the earlier rejection observation; approval remains Google's decision."},
+  "search":{"sitemapStatus":"Success","lastRead":"2026-10-06","discoveredPages":213,"fieldCoreWebVitals":"No data for mobile or desktop","note":"Sitemap discovery is not indexing. New article indexing will be checked only after verified publication; no traffic increase or AI citation claimed."},
+  "releaseGate":"Code deployment and exact article activation must both be verified before this batch is reported live."
+}

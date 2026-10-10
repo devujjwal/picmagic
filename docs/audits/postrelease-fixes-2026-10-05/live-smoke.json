@@ -1,0 +1,160 @@
+{
+  "observedAt": "2026-10-05T14:15:43.181Z",
+  "commit": "9952a32f493e037c441e271f081711724f3ba7c1",
+  "rows": [
+    {
+      "path": "/create",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "Age intent",
+      "phrasePresent": false,
+      "canonical": "https://picmagic.in/create",
+      "adScript": false
+    },
+    {
+      "path": "/enhance-photo",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "age",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/enhance-photo",
+      "adScript": false
+    },
+    {
+      "path": "/reel-prompts",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "friends-trip-creator",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/reel-prompts",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "Showing looks",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts?page=2",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "Server page",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts?page=2",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts?page=3",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "Server page",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts?page=3",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts?page=4",
+      "status": 404,
+      "expectedStatus": 404,
+      "phrase": null,
+      "phrasePresent": true,
+      "canonical": null,
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/professional",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "A Headshot That Feels Like You",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts/professional",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/fashion/one-saree-three-campaign-worlds",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "courtyard",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts/fashion/one-saree-three-campaign-worlds",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/social-media/one-day-four-possible-worlds",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "curved",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts/social-media/one-day-four-possible-worlds",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/women/golden-hour-draped-in-tradition",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "leave space around the selected hairstyle and jasmine",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts/women/golden-hour-draped-in-tradition",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/women/an-outfit-with-a-new-perspective",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "For a waist-up source",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/ai-prompts/women/an-outfit-with-a-new-perspective",
+      "adScript": false
+    },
+    {
+      "path": "/collections/indian-festivals",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "four photo ideas",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/collections/indian-festivals",
+      "adScript": false
+    },
+    {
+      "path": "/guides/double-exposure-fashion",
+      "status": 200,
+      "expectedStatus": 200,
+      "phrase": "identity",
+      "phrasePresent": true,
+      "canonical": "https://picmagic.in/guides/double-exposure-fashion",
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/men/double-exposure-fashion-men",
+      "status": 308,
+      "expectedStatus": 308,
+      "phrase": "/guides/double-exposure-fashion",
+      "phrasePresent": true,
+      "canonical": null,
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/women/double-exposure-fashion-women",
+      "status": 308,
+      "expectedStatus": 308,
+      "phrase": "/guides/double-exposure-fashion",
+      "phrasePresent": true,
+      "canonical": null,
+      "adScript": false
+    },
+    {
+      "path": "/ai-prompts/cinematic",
+      "status": 308,
+      "expectedStatus": 308,
+      "phrase": "/collections/cinematic",
+      "phrasePresent": true,
+      "canonical": null,
+      "adScript": false
+    }
+  ],
+  "interpretation": "All 17 expected HTTP statuses, observed canonicals, content phrases on content routes and three redirect destinations passed. The initial /create SSR document does not render the Age intent control, which appears at the final wizard step; its absence in initial HTML is not a defect and requires a browser interaction check. HTML ad-script absence is only a smoke observation, not runtime regional compliance."
+}

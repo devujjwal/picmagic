@@ -1,6 +1,9 @@
 node_modules
 .next
-.next-affiliate-qa
+.next-*
+.release-private
+.cache
+blob-report
 .netlify
 pnpm-lock.yaml
 public
