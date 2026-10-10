@@ -1,0 +1,13 @@
+{
+  "scope": "Owner-authorized Bing ownership, sitemap submission and free IndexNow setup",
+  "previousProductionRevision": "bad69cdca03204d5f6248a7aafc78cc86dfe4dde",
+  "hosting": {"plan": "existing Personal", "remainingCreditsBeforeRelease": 726.4, "autoRecharge": false, "productionBranch": "main", "branchDeploys": false, "deployPreviews": false, "buildHooks": 0, "openPullRequests": 0, "githubWorkflows": 0},
+  "validation": {"lint": "passed", "typecheck": "passed", "unitTests": 322, "indexNowTests": 9, "contentChecks": "passed; existing 47 editorial notices remain", "productionBuild": "passed webpack; 159 generated pages; seed content, ads/analytics disabled", "localSmoke": "Bing XML, IndexNow key, poster maker, sitemap all HTTP 200; ownership file contents exact"},
+  "behavior": "Explicit post-release operator submission command; not a scheduled crawler or per-save automatic publisher",
+  "guards": ["offline dry-run default", "canonical host and path allowlist", "live ownership and sitemap membership checks", "one POST per release batch id", "private receipts and no automatic retry", "never submit from CI or Netlify build"],
+  "databaseChanges": false,
+  "unrelatedChangesPreserved": ["docs/audits/storage-cleanup-2026-10-10/report.json"],
+  "liveOutcome": "Recorded after deployment in .release-private/indexnow/; build validation alone is not proof of Bing verification or indexing",
+  "rollback": "Previous production deploy 6aca684777979b00087763f2; no database rollback required. Reverting proof files can invalidate ownership. External submissions cannot be recalled by Git rollback.",
+  "sources": ["https://www.indexnow.org/documentation", "https://www.indexnow.org/faq", "https://www.bing.com/indexnow/getstarted"]
+}

@@ -94,6 +94,23 @@ For a documentation-only commit that deliberately needs no deployment, Netlify a
 6. After Google crawls, compare the Google-selected canonical with the declared one. Review Page Indexing and Sitemaps reports for blocked pages, redirect errors, soft 404s and unexpected duplicates. Recheck after meaningful content or route changes.
 7. Technical readiness and sitemap acceptance do not guarantee indexing, ranking or the timing of either. Record the real outcomes separately.
 
+## Bing and free IndexNow
+
+Keep `public/BingSiteAuth.xml` deployed: it is the owner's Bing Webmaster Tools ownership proof, not a private credential. Submit `https://picmagic.in/sitemap.xml` in the verified PicMagic property. The index contains both page and image sitemaps. Sitemap acceptance and URL submission do not prove indexing or rankings.
+
+IndexNow uses the free direct `https://api.indexnow.org/IndexNow` endpoint, without a paid plugin, additional dependency, or account API secret. The public root `.txt` ownership file must remain deployed. Participating engines share notifications; do not submit the same release separately to every engine.
+
+After each authorized production release **and** content activation are verified, prepare a small JSON batch `{ "id": "unique-release-id", "urls": ["https://picmagic.in/changed-page"] }` containing only that release's new or meaningfully updated public pages. Run:
+
+```sh
+pnpm search:indexnow scripts/search/festival-release-20261010.json
+pnpm search:indexnow scripts/search/festival-release-20261010.json --apply
+```
+
+The first command is offline review only. The second verifies the live ownership file and live page-sitemap membership before one POST. It excludes private, query-bearing, foreign and unpublished URLs. This is a guarded **post-release operator command**, not automatic per-save publishing or a scheduled crawler; never run it as part of the build before the new pages are live. Removed URLs require separately reviewed handling because this command intentionally requires current sitemap membership.
+
+Private receipts in `.release-private/indexnow/` prevent repeat or concurrent use of a batch id. Preserve receipts; do not bypass the guard by changing ids after an uncertain response. HTTP 200 means received, 202 means ownership validation pending, and neither means indexed. Review failures manually; no automatic retries, credit purchases, or hosting upgrades. Rollback of the code release must retain the proof files when possible; reverting them can invalidate ownership. Search-engine submissions cannot be rolled back by reverting Git.
+
 ## Ads and analytics activation
 
 PicMagic’s production AdSense configuration is now deployed and site review is pending. The current account, units, consent setup, remaining checks and disable switch are documented in [ADSENSE.md](ADSENSE.md). GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](GA4.md).
