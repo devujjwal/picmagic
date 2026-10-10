@@ -57,10 +57,48 @@ restored to their exact original rows after review.
 
 ## Publication and live verification
 
-Production application/deployment results will be recorded here after the single
-authorized release. No referral URL can earn commission during this release.
-Only approved, freshly verified merchant records plus a separate activation
-approval may enable monetization later.
+**Published successfully.** One fast-forward push advanced remote `main` to
+`f0bc8bb9ea2dfa464e064125422c51eb504aaa5b`. Netlify published production deploy
+[`6ac99a054698390008f5866f`](https://app.netlify.com/projects/picmagic-in/deploys/6ac99a054698390008f5866f)
+on 10 October 2026 at 07:22:59 IST; build and total deployment time were 1 minute
+57 seconds. Its production validation included all 300 unit tests. No PR,
+feature-branch push, release tag, additional build trigger or second deployment
+was created.
+
+The approved migration and eight exact provider records committed atomically at
+01:50:28 UTC. Post-application and post-deployment verification both passed:
+**186 prompts, 95 drafts, five published articles, eight providers, zero approved
+programs and zero referral URLs**. Existing catalogue/blog/admin-user rows,
+authorization function and unrelated migrations are unchanged. The public RPC
+returns eight ordinary records and zero monetization-ready records, with private
+approval evidence excluded.
+
+Minimal live HTTP checks passed on the photo prompt, reel prompt, ChatGPT blog,
+Privacy and Terms. Provider destinations and new-tab attributes are ordinary;
+photo/blog cards are ChatGPT, Gemini and Fotor, while reel cards are Runway and
+InVideo. Canonical URLs, blog author/BlogPosting schema, both prompt copy controls
+and visible ordinary-link disclosures passed. No advertising script appears.
+Unauthenticated `/admin/affiliate-tools` returns a 307 redirect to `/admin/login`;
+signed-in management and mutation controls were tested locally, not by changing
+live provider settings.
+
+The actual live Chrome photo page hydrated successfully. **Both copy buttons
+copied text exactly equal to the rendered prompt**, revealed the appropriate
+optional chooser, and dismissal worked. Analytics was declined for this smoke
+check, and no external tool link was clicked. No browser console errors were
+reported in this sample. This route did not encounter the earlier work-network
+JavaScript resource block. Local responsive/E2E validation remains the evidence
+for the wider UI matrix; no field performance or live GA event receipt is claimed.
+
+The local review server/browser was closed and the temporary local blog fixture
+rows were restored exactly. The existing four unrelated audit changes remain
+untouched. Final verification notes are retained locally without another push
+or production build.
+
+No referral URL can earn commission during this release. Only approved, freshly
+verified merchant records plus separate activation approval may enable
+monetization later. Applications remain owner-submitted and none were submitted
+by this work.
 
 Private release evidence is under
 `.release-private/affiliate-release-20261010/`. The pre-release published
