@@ -2,6 +2,8 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getCatalog, repository } from "@/lib/content";
 import { promptMetadata } from "@/lib/seo/metadata";
 import { PromptDetail } from "@/components/prompts/prompt-detail";
+import { getRecommendedTools } from "@/lib/affiliate/registry";
+import { promptToolIntent } from "@/lib/affiliate/recommendations";
 type Props = { params: Promise<{ slug: string }> };
 async function resolve({ params }: Props) {
   const { slug } = await params;
@@ -27,5 +29,15 @@ export async function generateMetadata(props: Props) {
   return promptMetadata((await resolve(props)).prompt);
 }
 export default async function Detail(props: Props) {
-  return <PromptDetail {...await resolve(props)} />;
+  const resolved = await resolve(props);
+  return (
+    <PromptDetail
+      {...resolved}
+      tools={
+        resolved.prompt.is_published
+          ? await getRecommendedTools(promptToolIntent(resolved.prompt))
+          : []
+      }
+    />
+  );
 }

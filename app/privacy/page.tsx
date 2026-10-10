@@ -12,7 +12,7 @@ export default function Privacy() {
     <article className="container prose">
       <h1>Your privacy matters.</h1>
       <p>
-        Updated 5 October 2026. This page describes PicMagic’s implemented data
+        Updated 10 October 2026. This page describes PicMagic’s implemented data
         practices.
       </p>
       <h2>Photos and prompt creation</h2>
@@ -132,6 +132,24 @@ export default function Privacy() {
         personal photographs, article text or search terms. We do not add a
         visitor identifier for this funnel. Withdrawing analytics consent clears
         this attribution; private editorial previews are excluded.
+      </p>
+      <h2>External tool recommendations and affiliate links</h2>
+      <p>
+        Tool recommendations are optional. PicMagic does not send your prompt or
+        photographs to a tool; paste the prompt and upload your own reference
+        there. Ordinary links are not monetized. If an approved affiliate link
+        is enabled, it is labelled and the provider or affiliate network may use
+        its own attribution cookies after you follow it. Their privacy and
+        pricing terms apply. PicMagic does not load an affiliate tracking script
+        or add a visitor identifier to these links.
+      </p>
+      <p>
+        With optional analytics consent, we measure recommendation visibility
+        and outbound click intent using the provider name, public content slug,
+        prompt type, placement and whether the link is monetized. We do not
+        include full destination URLs or referral query strings. Clicks are not
+        purchases or confirmed earnings. Declining analytics does not prevent
+        copying prompts or opening tools.
       </p>
       <h2>Hosting and administration</h2>
       <p>

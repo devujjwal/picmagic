@@ -7,6 +7,9 @@ import {
   validEntrySource,
 } from "./blog-attribution";
 export type AnalyticsEvent =
+  | "affiliate_tool_impression"
+  | "affiliate_tool_click"
+  | "affiliate_outbound_click"
   | "blog_view"
   | "blog_prompt_click"
   | "blog_collection_click"
@@ -33,7 +36,18 @@ export type AnalyticsEvent =
 export type Properties = {
   article_slug?: string;
   destination_path?: string;
-  destination_type?: "prompt" | "category" | "collection";
+  destination_type?:
+    "prompt" | "category" | "collection" | "official" | "affiliate";
+  provider?: string;
+  prompt_type?: "photo" | "photo_edit" | "reel" | "video" | "article";
+  placement?:
+    | "photo_detail"
+    | "reel_detail"
+    | "blog_article"
+    | "photo_copy"
+    | "reel_copy";
+  content_slug?: string;
+  affiliate_enabled?: boolean;
   cta_role?: "primary" | "secondary";
   cta_location?: "inline" | "primary" | "related";
   entry_source?: "organic_search" | "referral" | "direct" | "internal";
@@ -105,9 +119,41 @@ export function cleanProperties(props: Properties): Properties {
   if (validDestination(props.destination_path))
     result.destination_path = props.destination_path;
   if (
-    ["prompt", "category", "collection"].includes(props.destination_type || "")
+    ["prompt", "category", "collection", "official", "affiliate"].includes(
+      props.destination_type || "",
+    )
   )
     result.destination_type = props.destination_type;
+  if (
+    props.provider &&
+    /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(props.provider) &&
+    props.provider.length <= 80
+  )
+    result.provider = props.provider;
+  if (
+    ["photo", "photo_edit", "reel", "video", "article"].includes(
+      props.prompt_type || "",
+    )
+  )
+    result.prompt_type = props.prompt_type;
+  if (
+    [
+      "photo_detail",
+      "reel_detail",
+      "blog_article",
+      "photo_copy",
+      "reel_copy",
+    ].includes(props.placement || "")
+  )
+    result.placement = props.placement;
+  if (
+    props.content_slug &&
+    /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(props.content_slug) &&
+    props.content_slug.length <= 140
+  )
+    result.content_slug = props.content_slug;
+  if (typeof props.affiliate_enabled === "boolean")
+    result.affiliate_enabled = props.affiliate_enabled;
   if (["primary", "secondary"].includes(props.cta_role || ""))
     result.cta_role = props.cta_role;
   if (["inline", "primary", "related"].includes(props.cta_location || ""))

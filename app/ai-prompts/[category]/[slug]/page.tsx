@@ -3,6 +3,8 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getCatalog, repository } from "@/lib/content";
 import { promptMetadata } from "@/lib/seo/metadata";
 import { PromptDetail } from "@/components/prompts/prompt-detail";
+import { getRecommendedTools } from "@/lib/affiliate/registry";
+import { promptToolIntent } from "@/lib/affiliate/recommendations";
 type Props = { params: Promise<{ category: string; slug: string }> };
 async function resolve({ params }: Props) {
   const { category, slug } = await params;
@@ -35,6 +37,11 @@ export default async function Detail(props: Props) {
   return (
     <PromptDetail
       {...resolved}
+      tools={
+        resolved.prompt.is_published
+          ? await getRecommendedTools(promptToolIntent(resolved.prompt))
+          : []
+      }
       guides={await getRelatedGuideLinks({ promptId: resolved.prompt.id })}
     />
   );

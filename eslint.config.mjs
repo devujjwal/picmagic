@@ -11,6 +11,7 @@ export default defineConfig([
     ".next-targeted/**",
     ".next-blog-qa/**",
     ".next-blog-preview/**",
+    ".next-affiliate-qa/**",
     ".netlify/**",
     ".release-private/**",
     "next-env.d.ts",

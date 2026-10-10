@@ -5,15 +5,19 @@ import { SaveButton } from "@/components/prompts/save-button";
 import { useNotice, recordRecent } from "@/features/saved/store";
 import { track } from "@/lib/analytics";
 import { site } from "@/config/site";
+import { useCopiedToolChooser } from "@/components/affiliate/copy-journey";
 export function CopyButton({
   text,
   id,
   label = "Copy prompt",
+  copyLocation = "lower",
 }: {
   text: string;
   id?: string;
   label?: string;
+  copyLocation?: "upper" | "lower";
 }) {
+  const reveal = useCopiedToolChooser();
   const [copied, setCopied] = useState(false);
   const notify = useNotice();
   useEffect(() => {
@@ -29,6 +33,7 @@ export function CopyButton({
         try {
           await navigator.clipboard.writeText(text);
           setCopied(true);
+          reveal?.(copyLocation);
           notify("Prompt copied. Love this look? Share it.");
           track("prompt_copy", { prompt_id: id });
         } catch {

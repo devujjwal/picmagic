@@ -29,16 +29,27 @@ import {
   remainingGuidanceDate,
   remainingPromptFaqs,
 } from "@/content/remaining-guidance";
+import {
+  CopyJourney,
+  PromptCopyChooser,
+} from "@/components/affiliate/copy-journey";
+import { RecommendedTools } from "@/components/affiliate/recommended-tools";
+import type {
+  ToolRecommendation,
+  RecommendationContext,
+} from "@/lib/affiliate/schema";
 export function PromptDetail({
   prompt: p,
   catalog,
   preview = false,
   guides = [],
+  tools = [],
 }: {
   prompt: Prompt;
   catalog: Catalog;
   preview?: boolean;
   guides?: GuideLink[];
+  tools?: ToolRecommendation[];
 }) {
   const category = catalog.categories.find((c) => c.id === p.category_id);
   const faqs =
@@ -48,6 +59,11 @@ export function PromptDetail({
     isPromptSeoEligible(p) &&
     !deferredAdvertisingPrompts.has(p.slug);
   const isReel = p.prompt_type === "reel" || p.prompt_type === "video";
+  const toolContext: RecommendationContext = {
+    prompt_type: p.prompt_type,
+    content_slug: p.slug,
+    placement: isReel ? "reel_detail" : "photo_detail",
+  };
   const parent = isReel
     ? "/reel-prompts"
     : consolidatedPath(`/ai-prompts/${p.category_id}`);
@@ -91,110 +107,124 @@ export function PromptDetail({
           Private draft preview. This page is not published or indexable.
         </p>
       )}
-      <div className="detail-grid">
-        <div>
-          <div
-            className="detail-visual"
-            style={{ aspectRatio: `${p.image_width} / ${p.image_height}` }}
-          >
-            <PreviewMedia prompt={toPromptCard(p)} priority detail />
-          </div>
-          <p className="detail-visual-note">
-            {p.poster_role === "source-reference"
-              ? `Original reference photograph of ${p.people_count ?? "the supplied"} friends. A ${p.place_name || "travel"} concept poster and video are awaiting generation and review. `
-              : isReel && !p.preview_video
-                ? "Still concept image, not a video preview. "
-                : p.preview_video
-                  ? `${Math.round(p.preview_video.duration)}-second AI-generated preview excerpt. `
-                  : "AI-generated inspiration. "}
-            Your results may look different.
-          </p>
-        </div>
-        <div className="detail-copy">
-          <div className="eyebrow">{p.style.slice(0, 3).join(" · ")}</div>
-          <h1>{p.title}</h1>
-          <p className="description">{p.description}</p>
-          {!preview && (
-            <CopyButton
-              text={p.prompt_text}
-              id={p.id}
-              label="Copy complete prompt"
-            />
-          )}
-          <div className="prompt-box">
-            <h2>
-              <Sparkles size={16} />{" "}
-              {isReel ? "Your video prompt" : "The magic prompt"}
-            </h2>
-            <p className="prompt-text">{p.prompt_text}</p>
-          </div>
-          {!preview && (
-            <DetailActions
-              id={p.id}
-              title={p.title}
-              text={p.prompt_text}
-              path={promptPath(p)}
-            />
-          )}
-          <dl className="detail-facts">
-            {[
-              ["Preview aspect ratio", p.aspect_ratio],
-              ["Subject", p.subject],
-              [
-                p.prompt_type === "photo_edit" ? "Example framing" : "Framing",
-                p.framing,
-              ],
-              [
-                p.prompt_type === "photo_edit"
-                  ? "Example lighting"
-                  : "Lighting",
-                p.lighting,
-              ],
-              [
-                p.prompt_type === "photo_edit"
-                  ? "Example camera direction"
-                  : "Camera direction",
-                p.camera,
-              ],
-              ["Occasion", p.occasion],
-            ].map(([label, value]) => (
-              <div key={label}>
-                <dt>{label}</dt>
-                <dd>{value}</dd>
-              </div>
-            ))}
-          </dl>
-          <h2 className="text-sm font-semibold">Suggested for</h2>
-          <div className="tool-list">
-            {p.suggested_tools.map((t) => (
-              <span key={t}>{t}</span>
-            ))}
-          </div>
-          <p className="fine-print">
-            Tool support and results vary. A suggestion is not a compatibility
-            guarantee.{" "}
-            <Link href="/about#editorial-methodology">
-              How we review examples
-            </Link>
-            .
-          </p>
-          {p.prompt_type === "photo_edit" && (
-            <p className="notice">
-              Use a photo you have permission to edit. These instructions ask
-              the AI tool to retain your appearance; exact identity preservation
-              cannot be guaranteed.
+      <CopyJourney tools={preview ? [] : tools} context={toolContext}>
+        <div className="detail-grid">
+          <div>
+            <div
+              className="detail-visual"
+              style={{ aspectRatio: `${p.image_width} / ${p.image_height}` }}
+            >
+              <PreviewMedia prompt={toPromptCard(p)} priority detail />
+            </div>
+            <p className="detail-visual-note">
+              {p.poster_role === "source-reference"
+                ? `Original reference photograph of ${p.people_count ?? "the supplied"} friends. A ${p.place_name || "travel"} concept poster and video are awaiting generation and review. `
+                : isReel && !p.preview_video
+                  ? "Still concept image, not a video preview. "
+                  : p.preview_video
+                    ? `${Math.round(p.preview_video.duration)}-second AI-generated preview excerpt. `
+                    : "AI-generated inspiration. "}
+              Your results may look different.
             </p>
-          )}
-          <div className="collection-links mt-5">
-            {collections.map((c) => (
-              <Link key={c.id} href={`/collections/${c.slug}`} className="chip">
-                {c.name}
-                <ArrowUpRight size={12} />
+          </div>
+          <div className="detail-copy">
+            <div className="eyebrow">{p.style.slice(0, 3).join(" · ")}</div>
+            <h1>{p.title}</h1>
+            <p className="description">{p.description}</p>
+            {!preview && (
+              <CopyButton
+                text={p.prompt_text}
+                id={p.id}
+                label="Copy complete prompt"
+                copyLocation="upper"
+              />
+            )}
+            {!preview && <PromptCopyChooser at="upper" />}
+            <div className="prompt-box">
+              <h2>
+                <Sparkles size={16} />{" "}
+                {isReel ? "Your video prompt" : "The magic prompt"}
+              </h2>
+              <p className="prompt-text">{p.prompt_text}</p>
+            </div>
+            {!preview && (
+              <DetailActions
+                id={p.id}
+                title={p.title}
+                text={p.prompt_text}
+                path={promptPath(p)}
+              />
+            )}
+            {!preview && <PromptCopyChooser at="lower" />}
+            <dl className="detail-facts">
+              {[
+                ["Preview aspect ratio", p.aspect_ratio],
+                ["Subject", p.subject],
+                [
+                  p.prompt_type === "photo_edit"
+                    ? "Example framing"
+                    : "Framing",
+                  p.framing,
+                ],
+                [
+                  p.prompt_type === "photo_edit"
+                    ? "Example lighting"
+                    : "Lighting",
+                  p.lighting,
+                ],
+                [
+                  p.prompt_type === "photo_edit"
+                    ? "Example camera direction"
+                    : "Camera direction",
+                  p.camera,
+                ],
+                ["Occasion", p.occasion],
+              ].map(([label, value]) => (
+                <div key={label}>
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+            <h2 className="text-sm font-semibold">Suggested for</h2>
+            <div className="tool-list">
+              {p.suggested_tools.map((t) => (
+                <span key={t}>{t}</span>
+              ))}
+            </div>
+            <p className="fine-print">
+              Tool support and results vary. A suggestion is not a compatibility
+              guarantee.{" "}
+              <Link href="/about#editorial-methodology">
+                How we review examples
               </Link>
-            ))}
+              .
+            </p>
+            {!preview && (
+              <RecommendedTools tools={tools} context={toolContext} />
+            )}
+            {p.prompt_type === "photo_edit" && (
+              <p className="notice">
+                Use a photo you have permission to edit. These instructions ask
+                the AI tool to retain your appearance; exact identity
+                preservation cannot be guaranteed.
+              </p>
+            )}
+            <div className="collection-links mt-5">
+              {collections.map((c) => (
+                <Link
+                  key={c.id}
+                  href={`/collections/${c.slug}`}
+                  className="chip"
+                >
+                  {c.name}
+                  <ArrowUpRight size={12} />
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </CopyJourney>
       {p.why_ai && !p.why_ai.startsWith("A reference-based") && (
         <section className="detail-insight" aria-labelledby="concept-heading">
           <div className="eyebrow">Why this concept works</div>

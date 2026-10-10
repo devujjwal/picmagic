@@ -8,7 +8,7 @@ export default function Terms() {
   return (
     <article className="container prose">
       <h1>A few things to know.</h1>
-      <p>Updated 10 September 2026.</p>
+      <p>Updated 10 October 2026.</p>
       <h2>Using the ideas</h2>
       <p>
         PicMagic provides creative prompts and illustrative AI-generated
@@ -22,6 +22,15 @@ export default function Terms() {
         tools are independent services with their own availability, pricing,
         terms and privacy practices. Listing a tool does not imply endorsement,
         affiliation or guaranteed compatibility.
+      </p>
+      <h2>Affiliate disclosure</h2>
+      <p>
+        PicMagic remains free to use. Some clearly labelled external links may
+        be affiliate links when a program is approved and its URL verified.
+        PicMagic may earn a commission on a qualifying purchase through those
+        links, at no additional cost to you. External tools set their own
+        prices; a free plan does not include every feature. You can use PicMagic
+        without following any referral link.
       </p>
       <h2>Results and representations</h2>
       <p>

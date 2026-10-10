@@ -1,5 +1,6 @@
 node_modules
 .next
+.next-affiliate-qa
 .netlify
 pnpm-lock.yaml
 public

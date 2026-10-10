@@ -8,6 +8,8 @@ import { isArticlePublic, isArticleDiscoverable } from "@/lib/blog/schema";
 import { articleMetadata } from "@/lib/blog/seo";
 import { ArticleView } from "@/components/blog/article";
 import { getCatalog } from "@/lib/content";
+import { getRecommendedTools } from "@/lib/affiliate/registry";
+import { articleToolIntents } from "@/lib/affiliate/recommendations";
 type Props = { params: Promise<{ slug: string }> };
 async function find(slug: string) {
   return (await getPublicArticles()).find(
@@ -44,6 +46,11 @@ export default async function BlogArticle({ params }: Props) {
       author={author}
       catalog={await getCatalog()}
       related={related}
+      tools={
+        articleToolIntents[a.slug]
+          ? await getRecommendedTools(articleToolIntents[a.slug])
+          : []
+      }
     />
   );
 }

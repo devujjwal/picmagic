@@ -92,3 +92,17 @@ The owner explicitly requested making the reviewed post-release audit fixes live
 ## Fresh mix presentation release approval — 5 October 2026
 
 The owner explicitly approved committing and pushing the reviewed Fresh mix preference card after desktop, 390px and 320px checks. Release the two presentation files and their audit record once. Preserve the existing discovery preference behavior, cookies, catalogue ordering, database content, ads-disabled settings and social publishing. The Zscaler JavaScript resource block remains a network-administrator review item; do not bypass security controls.
+
+## Ordinary AI tool recommendation release approval — 10 October 2026
+
+After reviewing the local affiliate implementation, the owner explicitly approved
+one production code release plus the reviewed affiliate-provider migration and
+eight ordinary provider records. Keep affiliate monetization and advertising
+disabled, with no approved programs or referral URLs. Preserve all existing
+catalogue/blog rows, canonical URLs, 95 unpublished prompt drafts, private assets
+and unrelated working changes. No provider application, agreement, paid
+generation, purchase, upgrade, advertising activation or affiliate activation is
+authorized. Check deployment controls and hosting allowance, rehearse the exact
+database transaction, validate locally, push the complete batch once and perform
+minimal live verification. Future monetization activation requires separate
+approval and verified provider acceptance, payout and issued URLs.

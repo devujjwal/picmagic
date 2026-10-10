@@ -13,6 +13,8 @@ import { promptPath } from "@/lib/routes";
 import type { Catalog } from "@/types/content";
 import { isPromptSeoEligible } from "@/lib/seo/eligibility";
 import { BlogLink, BlogTracking, BlogShare } from "./tracking";
+import { RecommendedTools } from "@/components/affiliate/recommended-tools";
+import type { ToolRecommendation } from "@/lib/affiliate/schema";
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-IN", {
     dateStyle: "medium",
@@ -24,12 +26,14 @@ export function ArticleView({
   catalog,
   related = [],
   preview = false,
+  tools = [],
 }: {
   article: Article;
   author: BlogAuthor;
   catalog: Catalog;
   related?: Article[];
   preview?: boolean;
+  tools?: ToolRecommendation[];
 }) {
   const headings = a.body.filter((b) => b.type === "heading");
   function destinationLink(
@@ -307,6 +311,16 @@ export function ArticleView({
             </p>
             {destinationLink(a.primary_conversion, "primary")}
           </section>
+          {!preview && (
+            <RecommendedTools
+              tools={tools}
+              context={{
+                prompt_type: "article",
+                content_slug: a.slug,
+                placement: "blog_article",
+              }}
+            />
+          )}
           <section className="blog-provenance">
             <h2>Editorial context and sources</h2>
             <p>{a.evidence_note}</p>
