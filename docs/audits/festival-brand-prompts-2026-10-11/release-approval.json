@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-11",
+  "authorization": "Owner: proceed with go LIVE whatever we fixed",
+  "reviewedRevision": "39e022d",
+  "previousProductionRevision": "464ec6c10af0495437ceffa33b199082c2c82145",
+  "previousNetlifyDeploy": "6acb3b22cd8e360008362dc2",
+  "scope": "One production code/assets deployment, then four existing prompt updates and one existing festival guide update from changes.json and article-review.json.",
+  "hosting": {"plan": "Existing Personal", "includedCreditsRemaining": 693.5, "autoRecharge": false, "productionBranch": "main", "branchDeploys": false, "pullRequestPreviews": false, "buildHooks": 0},
+  "validation": {"lint": "passed", "typecheck": "passed", "unitTests": 333, "mockedIndexNowTests": 9, "focusedBrowserTests": 2, "responsiveWidths": [320,390,768,1440], "productionBuild": "passed", "contentErrors": 0, "seoErrors": 0, "existingEditorialNotices": 50},
+  "database": {"privateBackup": true, "forwardAndRollbackRehearsal": "passed and rolled back", "publishedPrompts": 104, "unpublishedPrompts": 89, "publishedGuides": 7, "articleModificationTimestamp": "Database trigger records actual content activation/rollback time."},
+  "preserved": ["All other catalogue and blog records", "89 private drafts", "Original identity references", "Advertising disabled", "Affiliate monetization disabled", "Poster editor functionality and text-free backgrounds", "Unrelated storage cleanup report edit and previous-release evidence"],
+  "limitations": ["GitHub CLI cannot read this private repository with its current account; remote Git main and Netlify repository/configuration were verified directly. No PR or feature-branch push is used.", "No indexing requests or AdSense review submission.", "This is pre-release approval evidence, not a claim of completed deployment. Completion evidence is recorded after live verification."]
+}
