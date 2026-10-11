@@ -88,7 +88,7 @@ export default async function Home() {
               <PreviewImage
                 src={hero.preview_image_url}
                 alt={hero.image_alt}
-                preload
+                priority
                 sizes="(max-width:760px) 90vw, 480px"
               />
             </Link>

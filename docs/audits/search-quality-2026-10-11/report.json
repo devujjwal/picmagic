@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-11",
+  "project": "PicMagic — https://picmagic.in, not AgentGrid",
+  "branch": "codex/search-quality-20261011",
+  "baseRevision": "0ade1108e0e9c7e68a185f4c0ed1ac4071cbd2df",
+  "releaseStatus": "Local feature-branch work only. Deployment, push, merge, indexing submissions and production database changes are NOT authorized by this task and were not performed.",
+  "architecture": {
+    "framework": "Next.js 16.3.4 App Router, React 19.3, TypeScript 6, Tailwind 4",
+    "hosting": "Netlify; dynamic server-rendered HTML, cached public Supabase content, Next Image optimization",
+    "security": "Per-response nonce CSP and private/no-store HTML preserved; no security relaxation for audit scores.",
+    "preserved": [
+      "Established URLs and redirects",
+      "104 published templates / 89 unpublished drafts",
+      "Production article records",
+      "Private references and assets",
+      "Ads and affiliate monetization disabled",
+      "Consent controls and existing analytics",
+      "Unrelated dirty storage-cleanup report"
+    ],
+    "dependencies": "No dependencies added, removed or upgraded; pnpm list --depth 0 resolves existing dependencies."
+  },
+  "officialSources": [
+    {
+      "url": "https://developers.google.com/search/blog/2026/10/seo-learning-paths",
+      "application": "Fundamentals and technical SEO learning paths inform the crawl, rendering and measurement audit; not a promise of rankings."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "application": "Useful visible content, descriptive links, canonical consistency and discoverable public pages."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "application": "Inspect initial HTML as well as rendered output, crawlable href links, metadata and meaningful 404 responses."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "application": "Ordinary SEO foundations also apply to AI search. No special AI schema or llms.txt indexing requirement was added. Indexing and inclusion are not guaranteed."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "application": "LCP <= 2500 ms, INP <= 200 ms and CLS <= 0.1 are targets. Local Lighthouse TBT is not field INP."
+    }
+  ],
+  "fixes": [
+    {
+      "priority": "P1",
+      "issue": "The poster maker was absent from the analytics-safe path list and successful exports had no measurement.",
+      "change": "Add consent-gated poster_export with allowlisted design, format and language only; allow the poster-maker and existing double-exposure guide paths; extend the privacy disclosure. Names, contact fields, greeting text, filenames, uploads and export bytes are excluded.",
+      "files": [
+        "lib/analytics/index.ts",
+        "features/poster-maker/editor.tsx",
+        "app/privacy/page.tsx",
+        "tests/unit/analytics.test.ts",
+        "tests/e2e/analytics.spec.ts"
+      ]
+    },
+    {
+      "priority": "P2",
+      "issue": "Sitemap lastmod omitted maintained public FAQ revisions included in prompt page schema; string sorting was unsafe for mixed timestamp offsets.",
+      "change": "Share an instant-aware modification-date helper between prompt structured data and sitemap generation. Preserve newer static-page dates. Update the poster-maker revision for this substantive page edit.",
+      "files": [
+        "lib/seo/modified.ts",
+        "lib/seo/sitemap.ts",
+        "components/prompts/prompt-detail.tsx",
+        "content/site-pages.ts",
+        "tests/unit/search-quality.test.ts"
+      ]
+    },
+    {
+      "priority": "P2",
+      "issue": "The poster maker's heading did not name the tool, and visitors lacked direct routes back to its three artwork prompts and published festival guide.",
+      "change": "Add a descriptive H1, breadcrumbs and relevant server-rendered links to eligible published templates, the collection and related guide. Optional recommendation-data failure does not disable the browser editor.",
+      "files": ["app/festival-poster-maker/page.tsx"]
+    },
+    {
+      "priority": "P2",
+      "issue": "The homepage LCP image had no high fetch priority; detail image sizes overstated its actual CSS width.",
+      "change": "Use the wrapper's eager/high-priority image mode instead of preload alone. Match detail sizes to the existing responsive grid without changing original image quality or bytes.",
+      "files": ["app/page.tsx", "components/prompts/preview-media.tsx"]
+    },
+    {
+      "priority": "P2",
+      "issue": "Provider links displayed Open Tool while accessible labels named the provider, causing a Lighthouse label/content mismatch.",
+      "change": "Make the visible link name include its provider, retaining the existing target, rel, ordinary-link disclosure and consent-gated tracking.",
+      "files": [
+        "components/affiliate/tool-list.tsx",
+        "tests/unit/affiliate-ui.test.tsx"
+      ]
+    },
+    {
+      "priority": "P3",
+      "issue": "Missing pages returned real 404s but contained both index and noindex metadata.",
+      "change": "Give the shared not-found page explicit noindex metadata and a distinctive title. Regression tests verify exhausted pagination and missing resources remain 404 with no conflicting index directive.",
+      "files": ["app/not-found.tsx"]
+    }
+  ],
+  "coverage": {
+    "sharedTemplates": [
+      "Homepage",
+      "All prompts and category listings",
+      "Photo prompt detail",
+      "Reel listing/detail implementation and existing metadata tests",
+      "Collection hub and collection detail",
+      "Blog listing and article detail",
+      "Creation and enhancement tools",
+      "Festival poster maker",
+      "Reference guides",
+      "404",
+      "Search and saved pages",
+      "Protected admin and private blog preview boundaries"
+    ],
+    "verifiedFoundations": [
+      "Important public text, headings, href links, canonicals and metadata are in server-rendered HTML; no framework migration needed.",
+      "All 135 current public page-sitemap URLs resolve locally to 200, self-canonical, indexable pages using read-only public Supabase content.",
+      "Pagination retains crawlable links and distinct self-canonicals without JavaScript; tracking parameters do not enter canonical URLs.",
+      "Host aliases and trailing slashes redirect to established canonical destinations in the local production server.",
+      "Search/saved/admin/preview routes are noindex or unavailable; 89 drafts remain outside discovery and sitemaps. Deploy-preview/branch-deploy indexing guards remain intact.",
+      "Existing CreativeWork, Article, FAQ and breadcrumb data is retained with visible supporting content; no fabricated reviews, ratings or AI-specific schema.",
+      "Public prompt identity guidance, tool limitations and historical evidence disclosures remain intact. No template or article was auto-published."
+    ],
+    "liveSmoke": [
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "result": "Public crawling allowed; /api/ disallowed; canonical sitemap advertised."
+      },
+      {
+        "path": "/sitemap-pages.xml",
+        "status": 200,
+        "result": "135 URLs; parses as XML."
+      },
+      {
+        "path": "/ai-prompts/women/durga-puja-pandal-portrait",
+        "status": 200,
+        "result": "Server content, self-canonical, index/follow."
+      },
+      {
+        "path": "/collections/indian-festivals",
+        "status": 200,
+        "result": "Server content, self-canonical, index/follow."
+      },
+      {
+        "path": "/blog/diwali-durga-puja-dussehra-business-posters",
+        "status": 200,
+        "result": "Server content, self-canonical, index/follow."
+      },
+      {
+        "path": "/festival-poster-maker",
+        "status": 200,
+        "result": "Server explanatory content, self-canonical, index/follow."
+      }
+    ],
+    "liveRequestBoundary": "Six representative GETs, not a production crawl. No adverse X-Robots-Tag on sampled public HTML. Local checks are not proof of deployed fixes."
+  },
+  "searchConsole": {
+    "access": "Read-only signed-in owner Chrome session for sc-domain:picmagic.in. The separate API connector does not expose this property; unrelated properties were not queried.",
+    "sitemap": "Success; submitted and last read 6 October 2026; UI reports 228 discovered pages. This historical discovery count is not an indexing count or the current page-sitemap count.",
+    "overview": "31 indexed and 92 not indexed in the available historical report; reasons and freshness differ, so this is not a claim of 92 technical defects.",
+    "inspection": [
+      {
+        "path": "/festival-poster-maker",
+        "status": "Indexed",
+        "details": "Googlebot smartphone crawl 10 October 2026 22:19:14; successful fetch, crawl/indexing allowed, inspected URL selected as canonical. Inspection displayed a temporary sitemap-processing association error despite indexed status and successful sitemap report."
+      },
+      {
+        "path": "/blog/diwali-durga-puja-dussehra-business-posters",
+        "status": "Indexed",
+        "details": "URL is on Google; HTTPS; two valid breadcrumb items detected."
+      },
+      {
+        "path": "/ai-prompts/women/durga-puja-pandal-portrait",
+        "status": "Discovered — currently not indexed",
+        "details": "Discovered through sitemap.xml; no crawl recorded. This is not evidence of a fetch failure or a need to change its established URL."
+      }
+    ],
+    "fieldCoreWebVitals": "No data for either mobile or desktop. Real-user INP and field improvements are unknown.",
+    "noWrites": "No Request indexing, sitemap resubmission, live inspection test or account-setting change. No inferred traffic trend or AI citation claim."
+  },
+  "validation": {
+    "lint": "Passed",
+    "typecheck": "Passed",
+    "unit": "326 Vitest tests across 52 files plus 9 mocked IndexNow tests passed; no IndexNow submission performed.",
+    "content": "193 local records, 17 categories, 40 collections; zero missing images. 104 published / 89 drafts preserved. SEO check: 102 eligible prompts, zero errors, 47 editorial review notices.",
+    "releaseContent": "Existing release, festival and blog validation scripts passed. Seven seed articles deliberately remain drafts; local browser QA reads the seven already-published production articles without writes.",
+    "build": "Next production webpack build passed (159 generated build entries). Separate local builds used analytics disabled for lab comparison and synthetic G-TEST12345 with Google stubs for consent tests. No real analytics test visits sent.",
+    "browser": "92 distinct read-only desktop/mobile scenarios passed across final runs, including final 30/30 search/analytics/privacy checks. The new suite also passed 9/9 against unchanged local seed data. Twelve existing isolated affiliate-suite scenarios were skipped by their safety guard; no admin database-write journey was run.",
+    "viewports": [320, 390, 768, 1440],
+    "browserDetails": "No hydration/page errors or horizontal overflow in sampled templates; axe checks passed. Copy, search, save, keyboard controls, image failure, all poster formats/designs, Hindi, uploads, overflow, reset, export failures, privacy and consent withdrawal checked.",
+    "testCorrections": "Corrected audit-test expectations for root canonical normalization, JavaScript-disabled DOM readiness and queue clearing on consent-revocation reload. A Playwright trace-close transport error did not reproduce in the final rerun.",
+    "privateEvidence": ".release-private/search-quality-20261011/ and ignored Playwright output; no raw browser evidence or private exports staged."
+  },
+  "performance": {
+    "method": "Installed Lighthouse, six representative routes, mobile and desktop, local production build, Google services blocked. Single-run diagnostics are noisy; not field data or a causal ranking claim. No INP claim from TBT.",
+    "comparison": "See lab-summary.json generated from the private baseline and candidate diagnostics.",
+    "candidate": "Desktop performance 100 on all six routes; mobile 95–98. SEO/accessibility 100 and CLS 0 on all samples. Mobile LCP: home 2984 ms, men 2950 ms, portrait 2410 ms, collection 2408 ms, article 2571 ms, editor 2206 ms. Home/category/article still exceed the 2500 ms target in this run.",
+    "interpretation": "The missing homepage high-priority hint and detail oversized-image diagnostic are resolved. Detail desktop transfer falls from 332680 to 324793 bytes. Single-run LCP varies in both directions (including a slower article sample); this is not sufficient evidence of causal speed improvement or regression. Repeated local/field measurements remain necessary."
+  },
+  "remainingActions": [
+    {
+      "priority": "P1",
+      "impact": "High",
+      "effort": "Low after approval",
+      "action": "Owner release approval remains necessary. Verify current Netlify allowance and remote deployment controls, then release one validated batch. No push or deploy was done."
+    },
+    {
+      "priority": "P1",
+      "impact": "Medium-high",
+      "effort": "Low ongoing",
+      "action": "Monitor the discovered festival portrait after Google crawls it; retain canonical/sitemap/internal links. No manual indexing request without authorization, and no guarantee that Google will index it."
+    },
+    {
+      "priority": "P2",
+      "impact": "Medium",
+      "effort": "Medium",
+      "action": "Review the 47 similarity/shared-preview notices by intent, not text percentage. Shared identity instructions and photo-versus-reel pairs inflate lexical overlap. Obtain real, permitted tool-test evidence before claiming verified results; do not mass-rewrite, delete or publish drafts."
+    },
+    {
+      "priority": "P2",
+      "impact": "Medium",
+      "effort": "Medium",
+      "action": "Continue measured mobile image/network optimization where local LCP exceeds 2.5 seconds. Preserve quality and CSP. Search Console has no field data yet; collect consented measurements before asserting field gains."
+    },
+    {
+      "priority": "P2",
+      "impact": "Measurement",
+      "effort": "Low",
+      "action": "After an approved release, verify poster_export in authorized GA4 reports and decide whether to mark it as a key event. GA4 account/report configuration was not accessed or changed."
+    },
+    {
+      "priority": "P3",
+      "impact": "Unconfirmed",
+      "effort": "Medium",
+      "action": "A Lighthouse-only CSP inspector notice occurred on the portrait sample. Normal browser inspection showed no console errors and interaction tests passed. Do not weaken the nonce policy to improve a diagnostic score."
+    }
+  ],
+  "unverified": [
+    "Current Netlify quota, remote branch controls and CDN regional behavior",
+    "HTTP-to-HTTPS redirect at the hosting edge (HTTPS samples passed; aliases tested locally)",
+    "Real-user Core Web Vitals/INP",
+    "GA4 production receipt of new events",
+    "Actual Google rich-result eligibility beyond available GSC reports",
+    "AI citations, ranking or traffic gains",
+    "Regional advertising consent and AdSense approval; advertising remains disabled"
+  ],
+  "skillsApplied": "Web-quality guidance shaped representative template checks; performance guidance required baseline/candidate measurement; frontend guidance preserved responsive layout, accessibility and private editor failure boundaries."
+}

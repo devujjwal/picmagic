@@ -94,7 +94,7 @@ export function AffiliateToolCard({
           if (event.button === 1) clicked();
         }}
       >
-        Open Tool <ArrowUpRight size={15} />
+        Open {tool.name} <ArrowUpRight size={15} />
         <span className="fine-print">new tab</span>
       </a>
     </li>

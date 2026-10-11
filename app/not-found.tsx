@@ -1,4 +1,9 @@
 import Link from "@/components/ui/site-link";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Page not found | PicMagic",
+  robots: { index: false, follow: true },
+};
 export default function NotFound() {
   return (
     <div className="container section">

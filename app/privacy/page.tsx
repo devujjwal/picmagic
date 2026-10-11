@@ -98,6 +98,12 @@ export default function Privacy() {
         Rejecting optional cookies leaves the core application functional.
       </p>
       <p>
+        With optional analytics consent, a successful festival poster download
+        records only the preset design, export format and greeting language. We
+        do not send your greeting, company name, contact fields, filenames,
+        uploaded images or exported poster to Analytics.
+      </p>
+      <p>
         Cookie preferences requires JavaScript for interactive choices. If
         scripts are blocked or cannot load, optional analytics stays off unless
         previously allowed. You can remove a previous permission by clearing

@@ -7,6 +7,7 @@ import {
   validEntrySource,
 } from "./blog-attribution";
 export type AnalyticsEvent =
+  | "poster_export"
   | "affiliate_tool_impression"
   | "affiliate_tool_click"
   | "affiliate_outbound_click"
@@ -34,6 +35,9 @@ export type AnalyticsEvent =
   | "session_depth_5"
   | "session_depth_10";
 export type Properties = {
+  poster_design?: "diwali" | "durga-puja" | "dussehra";
+  poster_format?: "square" | "portrait" | "story";
+  poster_language?: "en" | "hi";
   article_slug?: string;
   destination_path?: string;
   destination_type?:
@@ -85,7 +89,12 @@ export function safeAnalyticsPath(value: string): string | null {
   try {
     const path = new URL(value, "https://picmagic.in").pathname;
     if (
-      ["/guides/reference-photo-prompts", "/guides/prompt-trial"].includes(path)
+      [
+        "/guides/reference-photo-prompts",
+        "/guides/prompt-trial",
+        "/guides/double-exposure-fashion",
+        "/festival-poster-maker",
+      ].includes(path)
     )
       return path;
     if (
@@ -114,6 +123,12 @@ export function safeReferrer(value: string) {
 }
 export function cleanProperties(props: Properties): Properties {
   const result: Properties = {};
+  if (["diwali", "durga-puja", "dussehra"].includes(props.poster_design || ""))
+    result.poster_design = props.poster_design;
+  if (["square", "portrait", "story"].includes(props.poster_format || ""))
+    result.poster_format = props.poster_format;
+  if (["en", "hi"].includes(props.poster_language || ""))
+    result.poster_language = props.poster_language;
   if (validBlogSlug(props.article_slug))
     result.article_slug = props.article_slug;
   if (validDestination(props.destination_path))

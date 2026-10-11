@@ -1,7 +1,13 @@
 import Link from "@/components/ui/site-link";
 import { metadata as makeMetadata } from "@/lib/seo/metadata";
 import { PosterEditor } from "@/features/poster-maker/editor";
-import { getDesign } from "@/features/poster-maker/designs";
+import { getDesign, posterDesigns } from "@/features/poster-maker/designs";
+import { getCatalog } from "@/lib/content";
+import { getRelatedGuideLinks } from "@/lib/blog/repository";
+import { RelatedGuides } from "@/components/blog/related-guides";
+import { isPromptSeoEligible } from "@/lib/seo/eligibility";
+import { promptPath } from "@/types/content";
+import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import "./poster.css";
 export const metadata = makeMetadata(
   "Free Festival Poster Maker — Diwali, Durga Puja & Dussehra | PicMagic",
@@ -14,12 +20,38 @@ export default async function FestivalPosterPage({
   searchParams: Promise<{ design?: string }>;
 }) {
   const design = getDesign((await searchParams).design);
+  // Optional discovery links must not take the on-device editor offline.
+  const catalog = await getCatalog().catch(() => null);
+  const templates = (catalog?.prompts ?? []).filter(
+    (p) =>
+      isPromptSeoEligible(p) &&
+      posterDesigns.some((d) => d.templateId === p.id),
+  );
+  const guides = [
+    ...new Map(
+      (
+        await Promise.all(
+          templates.map((p) =>
+            getRelatedGuideLinks({ promptId: p.id }).catch(() => []),
+          ),
+        )
+      )
+        .flat()
+        .map((g) => [g.id, g]),
+    ).values(),
+  ].slice(0, 3);
   return (
     <div className="container poster-page">
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Festival poster maker", path: "/festival-poster-maker" },
+        ]}
+      />
       <header className="section poster-intro">
         <div className="eyebrow">A little celebration. A lot of you.</div>
         <h1>
-          Your wishes.
+          Free festival poster maker.
           <br />
           <em>Beautifully framed.</em>
         </h1>
@@ -34,6 +66,7 @@ export default async function FestivalPosterPage({
         </div>
       </header>
       <PosterEditor designId={design.id} />
+      <RelatedGuides guides={guides} />
       <section className="section poster-guide">
         <h2>From a thought to a thoughtful greeting.</h2>
         <div>
@@ -71,6 +104,27 @@ export default async function FestivalPosterPage({
           <Link href="/ai-prompts">browse photo ideas</Link>, generate it in
           your chosen image tool, then bring the result here.
         </p>
+        {templates.length > 0 && (
+          <nav aria-label="Festival artwork prompts">
+            <h2>Explore the artwork and complete prompts</h2>
+            <p>
+              Review each festival’s example, customization guidance and
+              limitations before creating your own artwork.
+            </p>
+            <ul>
+              {templates.map((p) => (
+                <li key={p.id}>
+                  <Link href={promptPath(p)}>{p.title}</Link>
+                </li>
+              ))}
+            </ul>
+            <p>
+              <Link href="/collections/indian-festivals">
+                Explore festival portraits and celebrations →
+              </Link>
+            </p>
+          </nav>
+        )}
       </section>
       <noscript>
         <p>

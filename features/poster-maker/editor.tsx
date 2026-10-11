@@ -11,6 +11,7 @@ import { decodeUpload, type LocalImage } from "./uploads";
 import { renderPoster } from "./render";
 import { PosterControls } from "./controls";
 import { loadPosterFont } from "./font";
+import { track } from "@/lib/analytics";
 export function PosterEditor({ designId }: { designId: string }) {
   const [state, setState] = useState(() => initialPoster(designId));
   const [art, setArt] = useState<{
@@ -182,6 +183,13 @@ export function PosterEditor({ designId }: { designId: string }) {
       a.href = url;
       a.download = `picmagic-${state.design}-${state.format}.png`;
       a.click();
+      // Only fixed design choices, after a successful export. Never send text,
+      // filenames, contact details, uploaded images or the generated PNG.
+      track("poster_export", {
+        poster_design: state.design,
+        poster_format: state.format,
+        poster_language: state.language,
+      });
       setTimeout(() => URL.revokeObjectURL(url), 30000);
       setNotice(
         "PNG download started. Your design has not been uploaded or saved online.",

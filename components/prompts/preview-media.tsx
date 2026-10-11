@@ -122,7 +122,11 @@ export function PreviewMedia({
         src={detail ? prompt.preview_image_url : prompt.thumbnail_url}
         alt={prompt.image_alt}
         priority={priority}
-        sizes={detail ? "(max-width:550px) 100vw, 48vw" : undefined}
+        sizes={
+          detail
+            ? "(max-width:550px) calc(100vw - 40px), (max-width:760px) calc(50vw - 32.5px), (max-width:1100px) calc(48.78vw - 44px), (max-width:1280px) calc(48.78vw - 66px), 559px"
+            : undefined
+        }
       />
       {asset && !failed && (
         <video

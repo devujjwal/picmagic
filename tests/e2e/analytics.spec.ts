@@ -3,6 +3,59 @@ test.skip(
   process.env.E2E_GA_ENABLED !== "true",
   "Requires a build configured with a GA4 measurement ID",
 );
+test("poster exports are consent-gated and never include personal fields", async ({
+  page,
+}) => {
+  await page.goto(
+    "/festival-poster-maker?design=diwali&email=private@example.test",
+  );
+  await page
+    .getByRole("textbox", { name: "Company / name", exact: true })
+    .fill("PRIVATE COMPANY");
+  await page
+    .getByRole("textbox", { name: "Email (optional)", exact: true })
+    .fill("private@example.test");
+  const download = async () => {
+    const ready = page.waitForEvent("download");
+    await page
+      .getByRole("button", { name: "Download PNG", exact: true })
+      .click();
+    await ready;
+  };
+  const events = () =>
+    page.evaluate(() =>
+      (window.dataLayer || []).map((x) => Array.from(x as ArrayLike<unknown>)),
+    );
+  await download();
+  expect((await events()).some((x) => x[1] === "poster_export")).toBe(false);
+  await page
+    .getByRole("button", { name: "Allow analytics", exact: true })
+    .click();
+  await download();
+  const queue = await events();
+  const exports = queue.filter((x) => x[1] === "poster_export");
+  expect(exports).toHaveLength(1);
+  expect(exports[0][2]).toMatchObject({
+    poster_design: "diwali",
+    poster_format: "portrait",
+    poster_language: "en",
+  });
+  expect(JSON.stringify(queue)).not.toMatch(
+    /PRIVATE COMPANY|private@example|email=/,
+  );
+  await page
+    .getByRole("button", { name: "Cookie preferences", exact: true })
+    .click();
+  // Revocation deliberately reloads to unload the vendor and clear its queue.
+  await Promise.all([
+    page.waitForEvent("load"),
+    page.getByRole("button", { name: "Reject analytics", exact: true }).click(),
+  ]);
+  await download();
+  expect((await events()).filter((x) => x[1] === "poster_export")).toHaveLength(
+    0,
+  );
+});
 test("analytics consent, sanitized pageviews across navigation, events and revocation", async ({
   page,
   context,

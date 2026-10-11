@@ -94,6 +94,9 @@ describe("optional tool chooser", () => {
     for (const link of screen.getAllByRole("link")) {
       expect(link).toHaveAttribute("target", "_blank");
       expect(link).toHaveAttribute("rel", "noopener noreferrer");
+      expect(link.textContent).toContain(
+        link.getAttribute("aria-label")!.replace(" (new tab)", ""),
+      );
     }
     expect(screen.getByText(/ordinary links/)).toBeVisible();
     expect(screen.queryByText("Affiliate link")).toBeNull();

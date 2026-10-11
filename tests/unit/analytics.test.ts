@@ -53,6 +53,38 @@ describe("analytics consent and SPA measurement", () => {
     vi.unstubAllEnvs();
     vi.restoreAllMocks();
   });
+  it("measures successful poster exports only with consent and fixed properties", async () => {
+    const m = await import("@/lib/analytics");
+    window.history.replaceState(
+      {},
+      "",
+      "/festival-poster-maker?email=private@example.test",
+    );
+    m.track("poster_export", {
+      poster_design: "diwali",
+      poster_format: "square",
+      poster_language: "en",
+    });
+    expect(window.dataLayer).toEqual([]);
+    localStorage.setItem("picmagic:analytics-consent", "yes");
+    m.track("poster_export", {
+      poster_design: "diwali",
+      poster_format: "square",
+      poster_language: "en",
+    });
+    const commands = window.dataLayer!.map((x) =>
+      Array.from(x as ArrayLike<unknown>),
+    );
+    expect(commands.filter((x) => x[1] === "poster_export")).toHaveLength(1);
+    expect(JSON.stringify(commands)).not.toContain("private@example.test");
+    localStorage.setItem("picmagic:analytics-consent", "no");
+    m.track("poster_export");
+    expect(
+      window
+        .dataLayer!.map((x) => Array.from(x as ArrayLike<unknown>))
+        .filter((x) => x[1] === "poster_export"),
+    ).toHaveLength(1);
+  });
   it("queues nothing before consent and once per route after consent", async () => {
     const m = await import("@/lib/analytics");
     m.track("prompt_copy");

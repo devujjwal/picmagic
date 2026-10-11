@@ -35,6 +35,7 @@ import {
 } from "@/components/affiliate/copy-journey";
 import { RecommendedTools } from "@/components/affiliate/recommended-tools";
 import { posterMakerPath } from "@/features/poster-maker/links";
+import { promptModified } from "@/lib/seo/modified";
 import type {
   ToolRecommendation,
   RecommendationContext,
@@ -76,14 +77,7 @@ export function PromptDetail({
   );
   const canonical = site.url + promptPath(p);
   const imageUrl = new URL(p.preview_image_url, site.url).href;
-  const modified = [
-    p.updated_at,
-    promptGuides[p.slug]?.updatedAt || "",
-    promptWorkflows[p.slug]?.updatedAt || "",
-    remainingPromptFaqs[p.slug] ? remainingGuidanceDate : "",
-  ]
-    .sort()
-    .at(-1);
+  const modified = promptModified(p);
   const otherMedium = catalog.prompts.find(
     (other) =>
       other.id !== p.id &&
