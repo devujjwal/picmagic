@@ -1,0 +1,17 @@
+{
+  "id": "fa710010-b106-4dc6-a061-202610100001",
+  "slug": "diwali-durga-puja-dussehra-business-posters",
+  "baselineRevision": "464ec6c10af0495437ceffa33b199082c2c82145",
+  "fields": [
+    "title",
+    "excerpt",
+    "body",
+    "seo_title",
+    "meta_description",
+    "date_modified",
+    "evidence_note"
+  ],
+  "beforeSha256": "62924e1b66c26be7d32ca7236929778184670893cc138043d17bb97b37dc4729",
+  "afterSha256": "b467c4e81744752a1d78afd67614d6f6c180488bd382c15191e56ed54c340d23",
+  "publication": "No publication or indexability fields changed; back up the live row and compare these fields before any separately approved activation."
+}

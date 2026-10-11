@@ -13,6 +13,7 @@ import dotChanges from "../../docs/audits/dot-public-2026-10-05/changes.json";
 import reelChanges from "../../docs/audits/dot-public-2026-10-05/reel-changes.json";
 import festivalReview from "../../docs/audits/festival-release-2026-10-10/content-review.json";
 import premiumReview from "../../docs/audits/festival-premium-2026-10-10/content-review.json";
+import brandRevisions from "../../docs/audits/festival-brand-prompts-2026-10-11/changes.json";
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { createHash } from "node:crypto";
@@ -50,9 +51,14 @@ describe("Why AI editorial release", () => {
         (r) => r.id === p.id,
       );
       if (festival) {
-        expect(createHash("sha256").update(p.prompt_text).digest("hex")).toBe(
-          festival.sha256,
-        );
+        const revision = brandRevisions.find((r) => r.id === p.id);
+        if (revision?.after.prompt_text)
+          expect(p.prompt_text).toBe(revision.after.prompt_text);
+        expect(
+          createHash("sha256")
+            .update(revision?.before.prompt_text ?? p.prompt_text)
+            .digest("hex"),
+        ).toBe(festival.sha256);
         expect(editorialIssues(p), p.slug).toEqual([]);
         continue; // Historical hash linkage is independently enforced by check:release-content.
       }

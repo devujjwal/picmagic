@@ -1060,55 +1060,524 @@
     "id": "fa710010-b106-4dc6-a061-202610100001",
     "version": 1,
     "slug": "diwali-durga-puja-dussehra-business-posters",
-    "title": "Create Diwali, Durga Puja and Dussehra Posters With Your Logo",
-    "excerpt": "Choose a richly detailed festival background, add accurate branding and export a readable greeting. A practical guide to three designs, English/Hindi text and private browser editing.",
+    "title": "Festival Posters With Your Website Theme, Logo and Service Icons",
+    "excerpt": "Make Diwali, Durga Puja and Dussehra greetings with accurate branding. Choose quick private browser editing or a website-informed custom poster with verified service icons.",
     "body": [
-      {"type":"quick_answer","text":"To make a festival greeting with your business logo, choose a Diwali, Durga Puja or Dussehra design in PicMagic’s festival poster maker. Add your original logo, name and short greeting, then export a PNG. The backgrounds are AI-generated, but your lettering and logo are separate editable layers; you do not need an image-generation account to personalize these three designs."},
-      {"type":"paragraph","content":[{"text":"A beautiful background is only half a useful greeting. Customers still need to read the festival wish, recognize your business and find the right contact detail. This guide combines three PicMagic designs around one workflow: choose an appropriate scene, keep the branding clear and inspect the finished export."}]},
-      {"type":"paragraph","content":[{"text":"Open the free festival poster maker","href":"/festival-poster-maker"},{"text":" to use the prepared artwork. The individual template links below are for readers who also want the complete artwork prompt—not a requirement for editing a greeting."}]},
-      {"type":"heading","level":2,"id":"choose-a-design","text":"Which festival design fits your greeting?"},
-      {"type":"table","caption":"Three compositions and the space to protect","columns":["Design","What to keep clear"],"rows":[["Diwali: brass lamps, jasmine and an ivory courtyard","Use the calm central wall for a short wish. Let the lamps and flowers frame it."],["Durga Puja: a crafted idol, white crown and warm pandal architecture","Keep text in the open left area, away from the idol’s face, crown and lamps."],["Dussehra: carved arches, a ceremonial bow and golden sunset","Let the central sky carry the greeting. Avoid covering the bow or filling the sunset with contact details."]]},
-      {"type":"heading","level":3,"id":"diwali","text":"Diwali: warm light with room for your brand"},
-      {"type":"image","image":{"url":"/previews/diwali-business-greeting-premium-8359e2f910.webp","alt":"Diwali greeting with brass diyas, hanging jasmine, an ivory arch and sample brand text on a clear central wall.","width":1080,"height":1350,"caption":"PicMagic’s Diwali artwork with separately rendered sample lettering. YOUR BRAND and www.example.com are placeholders, not an advertiser."}},
-      {"type":"paragraph","content":[{"text":"This design gets its depth from a large foreground diya, smaller lamps receding through the courtyard and flowers at the edges. The empty wall is intentional: it gives the greeting a quiet place to sit. A short company name and one sentence work better here than a catalogue of services. Use dark green or a sufficiently dark gold for text, then check its contrast against the light wall."}]},
-      {"type":"paragraph","content":[{"text":"Personalize the Diwali design","href":"/festival-poster-maker?design=diwali"},{"text":" or view the "},{"text":"Diwali business greeting artwork prompt","href":"/ai-prompts/festival/diwali-business-greeting"},{"text":"."}]},
-      {"type":"heading","level":3,"id":"durga-puja","text":"Durga Puja: give the iconography its own space"},
-      {"type":"image","image":{"url":"/previews/durga-puja-business-greeting-premium-93459004b1.webp","alt":"Durga Puja poster with the crafted idol and white crown on the right, red flowers and a dhaak below, and sample wishes on the left.","width":1080,"height":1350,"caption":"AI-generated decorative Durga Puja composition with editable sample text. Review religious details and spelling before sharing."}},
-      {"type":"paragraph","content":[{"text":"The idol and detailed crown occupy the right side, while the greeting sits on the lighter left side. Preserve that separation. A large logo over the face or a phone number across the crown would compete with the central subject. The red flowers, textile and brass lamps already provide visual detail; they do not need extra decorative words. Choose a greeting appropriate to your audience and have unfamiliar language reviewed by someone who reads it."}]},
-      {"type":"paragraph","content":[{"text":"Personalize the Durga Puja design","href":"/festival-poster-maker?design=durga-puja"},{"text":" or open the "},{"text":"Durga Puja business greeting artwork prompt","href":"/ai-prompts/festival/durga-puja-business-greeting"},{"text":"."}]},
-      {"type":"heading","level":3,"id":"dussehra","text":"Dussehra: let the bow and sunset set the mood"},
-      {"type":"image","image":{"url":"/previews/dussehra-business-greeting-premium-1d2aded2e0.webp","alt":"Dussehra greeting framed by carved sandstone arches, marigolds, lamps and a ceremonial golden bow resting on saffron fabric.","width":1080,"height":1350,"caption":"The premium Dussehra background contains no embedded branding. This preview adds sample greeting, brand and website layers in the editor."}},
-      {"type":"paragraph","content":[{"text":"A ceremonial bow rests along the lower-right edge rather than being held by a person. The sunset and distant architecture leave a broad central area for the wish. This is a calm celebratory composition, not an action scene. Keep the message equally focused: one wish about courage or new beginnings, your name and a useful contact destination. Do not add unrelated festival symbols simply to fill the remaining space."}]},
-      {"type":"paragraph","content":[{"text":"Personalize the Dussehra design","href":"/festival-poster-maker?design=dussehra"},{"text":" or open the "},{"text":"Dussehra business greeting artwork prompt","href":"/ai-prompts/festival/dussehra-business-greeting"},{"text":"."}]},
-      {"type":"heading","level":2,"id":"branding-workflow","text":"How to add your logo, name and contact details"},
-      {"type":"steps","items":[{"title":"Choose the festival and output format first","text":"Select the design and a square, portrait or story canvas. Pick English or Hindi before refining your message: changing the festival or language replaces the greeting and message presets."},{"title":"Keep the greeting shorter than the decoration","text":"Use the greeting field for the main wish and the short-message field for one supporting thought. Put your business or personal name in Company / name. Remove sample wording rather than placing a second greeting over it."},{"title":"Upload the actual logo","text":"Use a PNG, JPEG or WebP up to 10 MB; the editor also checks decoded dimensions and rejects files over 24 megapixels. SVG is not accepted. For a transparent background, use a suitable transparent PNG or WebP. The editor places the supplied artwork; it does not redraw or repair a logo."},{"title":"Add only details you want public","text":"Website, email, phone and other details are optional. A greeting rarely needs all four. Blank fields remain hidden. A phone number entered here becomes visible in the downloaded poster if you share it; it is not a private contact setting."},{"title":"Add a photograph only when it earns the space","text":"An optional photo is placed and cropped with positioning controls. It is not face-swapped into the scene or automatically cut out. Use a photo you have permission to publish, and inspect the chosen layout for awkward edges or overlap."},{"title":"Preview, correct and download","text":"Check the full poster and a small on-screen view. Shorten text when an overflow warning appears, confirm names and contact details, then use Download PNG. Open the saved image before sharing. Download each finished version before refreshing or closing the tab."}]},
-      {"type":"heading","level":2,"id":"greeting-copy","text":"Short English and Hindi wishes you can adapt"},
-      {"type":"paragraph","content":[{"text":"These are suggested greetings, not claims about your business or fixed text baked into the artwork. Use one headline and one short supporting sentence. Personalize the name separately."}]},
-      {"type":"table","caption":"Compact greeting examples","columns":["Occasion","Suggested copy"],"rows":[["Diwali","Happy Diwali — Wishing you light, joy and new beginnings. / शुभ दीपावली — आपके जीवन में खुशियाँ और नई आशाएँ आएँ।"],["Durga Puja","Happy Durga Puja — Wishing you strength, hope and togetherness. / दुर्गा पूजा की शुभकामनाएँ — आपके जीवन में शक्ति, आशा और खुशियाँ आएँ।"],["Dussehra","Happy Dussehra — Here’s to courage and brighter beginnings. / दशहरा की शुभकामनाएँ — हर नई शुरुआत शुभ और मंगलमय हो।"]]},
-      {"type":"paragraph","content":[{"text":"The editor provides English and Hindi presets, not automatic translation or a Bengali preset. A Hindi message is not a substitute for every reader’s preferred language. If you enter custom wording, review the exported lettering, line breaks and meaning. Avoid using extra spaces to force alignment; choose a layout and shorten the sentence instead."}]},
-      {"type":"heading","level":2,"id":"export-sizes","text":"Choose the canvas by the composition, not just the platform"},
-      {"type":"table","caption":"Available PNG exports","columns":["Canvas","Practical use"],"rows":[["Square · 1080 × 1080","A compact greeting. Use the shortest message and inspect crowded areas."],["Portrait · 1080 × 1350","A taller post that gives the artwork and greeting more vertical room."],["Story · 1080 × 1920","A vertical greeting with a separate lower message/photo area. Check it in the destination app before posting."]]},
-      {"type":"paragraph","content":[{"text":"These are PicMagic’s export sizes, not a promise that every app will display every pixel. Cropping, interface overlays and compression vary. The editor does not stretch a square poster into a story; preview the new layout after changing the format. The supplied backgrounds are not native 4K files, and these exports should not be described as print-ready at every physical size."}]},
-      {"type":"heading","level":2,"id":"quality-check","text":"The final check: a greeting someone can actually read"},
-      {"type":"paragraph","content":[{"text":"Read the saved poster in this order: festival name, business/name, message, contact detail. If the wish is hard to find, remove a line rather than adding more decoration. Compare the logo with the original, check Hindi vowel marks and punctuation, and look for clipped letters. Review the artwork’s cultural details yourself; an attractive generated image is not a guarantee of accurate iconography."}]},
-      {"type":"callout","title":"Local editing is not the same as private sharing","text":"The editor keeps your uploads and entered text in browser memory, without an account or backend upload. Refreshing or closing the tab clears the work. The downloaded PNG still contains everything you chose to show. Check it before uploading it to any social network or sending it to customers."},
-      {"type":"faq","items":[{"question":"Do I need to generate an image before making a poster?","answer":"No. The three prepared backgrounds are already available in the free browser editor. The template prompts are optional if you want different artwork in an external generator; the editor does not replace its built-in backgrounds with a newly generated custom scene."},{"question":"Can I change the words in the sample image?","answer":"Use the editor’s text fields, not an image-edit request on the flattened sample. The editor renders fresh lettering above the text-free artwork. Your downloaded PNG is flattened, so keep editing in the open tab and download again if you need a correction."},{"question":"Will PicMagic automatically post my greeting?","answer":"No. Download the PNG and publish it yourself. Adding a website or phone number puts visible text into the image; it does not make that text a clickable link or change your social profile."}]},
-      {"type":"paragraph","content":[{"text":"Ready to make your greeting? Open the festival poster maker","href":"/festival-poster-maker"},{"text":". If you want to generate your own scene instead, start with the Diwali artwork prompt below. For reference-based festive portraits, browse the "},{"text":"Indian festivals collection","href":"/collections/indian-festivals"},{"text":"."}]}
+      {
+        "type": "quick_answer",
+        "text": "For a website-matched festival poster, give a browsing-capable external tool your official URL, confirm its sourced brand brief and real service labels, then request a themed greeting with relevant icons and the original logo placed unchanged. If browsing or logo retrieval is unavailable, supply screenshots, approved copy and your logo file. For a quick alternative without an AI account, PicMagic’s browser editor personalizes three prepared backgrounds; it does not scan websites or build a custom service-icon row."
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A polished festival poster needs more than decorative lamps and a greeting. It should look like your business, communicate a few real services with useful icons and make the next step clear. This guide offers two distinct routes: website-informed art direction in an external tool, or quick editing of PicMagic’s prepared backgrounds."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Open the free festival poster maker",
+            "href": "/festival-poster-maker"
+          },
+          {
+            "text": " to use the prepared artwork. The individual template links below are for readers who also want the complete artwork prompt—not a requirement for editing a greeting."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "choose-a-design",
+        "text": "Which festival design fits your greeting?"
+      },
+      {
+        "type": "table",
+        "caption": "Three compositions and the space to protect",
+        "columns": [
+          "Design",
+          "What to keep clear"
+        ],
+        "rows": [
+          [
+            "Diwali: brass lamps, jasmine and an ivory courtyard",
+            "Use the calm central wall for a short wish. Let the lamps and flowers frame it."
+          ],
+          [
+            "Durga Puja: a crafted idol, white crown and warm pandal architecture",
+            "Keep text in the open left area, away from the idol’s face, crown and lamps."
+          ],
+          [
+            "Dussehra: carved arches, a ceremonial bow and golden sunset",
+            "Let the central sky carry the greeting. Avoid covering the bow or filling the sunset with contact details."
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "diwali",
+        "text": "Diwali: warm light with room for your brand"
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
+          "alt": "Diwali greeting with brass diyas, hanging jasmine, an ivory arch and sample brand text on a clear central wall.",
+          "width": 1080,
+          "height": 1350,
+          "caption": "PicMagic’s Diwali artwork with separately rendered sample lettering. YOUR BRAND and www.example.com are placeholders, not an advertiser."
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "This design gets its depth from a large foreground diya, smaller lamps receding through the courtyard and flowers at the edges. The empty wall is intentional: it gives the greeting a quiet place to sit. A short company name and one sentence work better here than a catalogue of services. Use dark green or a sufficiently dark gold for text, then check its contrast against the light wall."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Personalize the Diwali design",
+            "href": "/festival-poster-maker?design=diwali"
+          },
+          {
+            "text": " or view the "
+          },
+          {
+            "text": "Diwali business greeting artwork prompt",
+            "href": "/ai-prompts/festival/diwali-business-greeting"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "durga-puja",
+        "text": "Durga Puja: give the iconography its own space"
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+          "alt": "Durga Puja poster with the crafted idol and white crown on the right, red flowers and a dhaak below, and sample wishes on the left.",
+          "width": 1080,
+          "height": 1350,
+          "caption": "AI-generated decorative Durga Puja composition with editable sample text. Review religious details and spelling before sharing."
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The idol and detailed crown occupy the right side, while the greeting sits on the lighter left side. Preserve that separation. A large logo over the face or a phone number across the crown would compete with the central subject. The red flowers, textile and brass lamps already provide visual detail; they do not need extra decorative words. Choose a greeting appropriate to your audience and have unfamiliar language reviewed by someone who reads it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Personalize the Durga Puja design",
+            "href": "/festival-poster-maker?design=durga-puja"
+          },
+          {
+            "text": " or open the "
+          },
+          {
+            "text": "Durga Puja business greeting artwork prompt",
+            "href": "/ai-prompts/festival/durga-puja-business-greeting"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "dussehra",
+        "text": "Dussehra: let the bow and sunset set the mood"
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+          "alt": "Dussehra greeting framed by carved sandstone arches, marigolds, lamps and a ceremonial golden bow resting on saffron fabric.",
+          "width": 1080,
+          "height": 1350,
+          "caption": "The premium Dussehra background contains no embedded branding. This preview adds sample greeting, brand and website layers in the editor."
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "A ceremonial bow rests along the lower-right edge rather than being held by a person. The sunset and distant architecture leave a broad central area for the wish. This is a calm celebratory composition, not an action scene. Keep the message equally focused: one wish about courage or new beginnings, your name and a useful contact destination. Do not add unrelated festival symbols simply to fill the remaining space."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Personalize the Dussehra design",
+            "href": "/festival-poster-maker?design=dussehra"
+          },
+          {
+            "text": " or open the "
+          },
+          {
+            "text": "Dussehra business greeting artwork prompt",
+            "href": "/ai-prompts/festival/dussehra-business-greeting"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "branding-workflow",
+        "text": "How to add your logo, name and contact details"
+      },
+      {
+        "type": "steps",
+        "items": [
+          {
+            "title": "Choose the festival and output format first",
+            "text": "Select the design and a square, portrait or story canvas. Pick English or Hindi before refining your message: changing the festival or language replaces the greeting and message presets."
+          },
+          {
+            "title": "Keep the greeting shorter than the decoration",
+            "text": "Use the greeting field for the main wish and the short-message field for one supporting thought. Put your business or personal name in Company / name. Remove sample wording rather than placing a second greeting over it."
+          },
+          {
+            "title": "Upload the actual logo",
+            "text": "Use a PNG, JPEG or WebP up to 10 MB; the editor also checks decoded dimensions and rejects files over 24 megapixels. SVG is not accepted. For a transparent background, use a suitable transparent PNG or WebP. The editor places the supplied artwork; it does not redraw or repair a logo."
+          },
+          {
+            "title": "Add only details you want public",
+            "text": "Website, email, phone and other details are optional. A greeting rarely needs all four. Blank fields remain hidden. A phone number entered here becomes visible in the downloaded poster if you share it; it is not a private contact setting."
+          },
+          {
+            "title": "Add a photograph only when it earns the space",
+            "text": "An optional photo is placed and cropped with positioning controls. It is not face-swapped into the scene or automatically cut out. Use a photo you have permission to publish, and inspect the chosen layout for awkward edges or overlap."
+          },
+          {
+            "title": "Preview, correct and download",
+            "text": "Check the full poster and a small on-screen view. Shorten text when an overflow warning appears, confirm names and contact details, then use Download PNG. Open the saved image before sharing. Download each finished version before refreshing or closing the tab."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "match-your-website",
+        "text": "For a custom branded poster, research the website first"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Choose this external-tool workflow when you want the poster to reflect your website’s colours, typography, services and visual tone, with a feature-icon row and a stronger brand footer. A URL alone does not mean the tool can browse it. Use a tool with browsing and image creation or compositing, or provide screenshots and approved brand information when those capabilities are unavailable."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "items": [
+          {
+            "title": "Supply the official website and a short brief",
+            "text": "Copy one of the three business-greeting prompts and replace its website placeholder with your official URL. Specify the festival, greeting language, exact business name and the public contact details you actually want in the image. Use only a brand and assets you own or are authorized to use."
+          },
+          {
+            "title": "Review the sourced brand brief before generating",
+            "text": "Ask the tool to inspect the homepage and relevant About, Services or Products pages, then list source URLs alongside the observed colours, typography style and three or four real services. Confirm its findings. If browsing fails, provide website screenshots and service copy; never accept a claim that an inaccessible page was scanned. Do not invent benefits, awards, prices, offers or medical outcomes."
+          },
+          {
+            "title": "Keep the original logo, not an AI imitation",
+            "text": "Where the website exposes a usable original logo and the external tool can retrieve and place it unchanged, use that asset. Otherwise upload your permitted original logo or leave space to place it manually. Preserve proportions, colours and lettering; do not redraw the logo with an image model. A screenshot may guide the design but is not a clean logo replacement."
+          },
+          {
+            "title": "Request a designed hierarchy with service icons",
+            "text": "Arrange the brand at the top, a dominant festival greeting, a short supporting wish, a consistent line-icon row with up to four verified service labels, one CTA and a restrained contact footer. Match the website’s palette and visual tone instead of forcing every business into the same green-and-gold scheme. Use fewer icons when fewer services are verified."
+          },
+          {
+            "title": "Finish exact text and logo layers, then inspect",
+            "text": "Ask for high-definition artwork at the highest included resolution; do not assume a native 4K or print-ready output. Use separate editable/composited layers for the logo and words where supported. If the tool only generates flattened images, request artwork plus a precise layout/text brief for manual finishing. Check spelling, icon meaning, logo fidelity and mobile legibility before publishing."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "choose-relevant-icons",
+        "text": "Use icons that explain real services"
+      },
+      {
+        "type": "table",
+        "caption": "Illustrative pairings—use only if your business actually offers the service",
+        "columns": [
+          "Verified service or feature",
+          "Possible icon",
+          "Short label"
+        ],
+        "rows": [
+          [
+            "A gift-wrapping or gifting service",
+            "Gift box",
+            "Thoughtful gifts"
+          ],
+          [
+            "A delivery service",
+            "Delivery vehicle",
+            "Delivery"
+          ],
+          [
+            "A hair-care service",
+            "Hair strand or comb",
+            "Hair care"
+          ],
+          [
+            "A bookable consultation",
+            "Calendar",
+            "Book a consultation"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "These are layout examples, not claims about the brands in any reference poster. Ask for consistent stroke weight, similar icon size, evenly spaced labels and adequate contrast. Do not add a medical cross, certification seal, rating stars or an endorsement symbol unless it is accurate and explicitly authorized. Keep religious imagery separate from service icons and sales claims."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Custom AI workflow versus the PicMagic editor",
+        "text": "The external-tool prompt can request website research, website-matched art direction and a service-icon row; success depends on that tool’s actual capabilities and your reviewed inputs. PicMagic’s browser editor does not scan websites, fetch logos, add a service-icon row or import newly generated backgrounds. It personalizes the three prepared designs with the existing text, colour, layout and upload controls. External-provider uploads are not covered by the editor’s local-only privacy behaviour."
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The examples in this guide are the earlier prepared backgrounds with sample text. They are not new tests of website scanning or logo extraction and do not demonstrate the custom feature-icon layout. Your custom result may differ; keep the original business details and logo available for manual correction. Website text printed into a PNG is not clickable—include a real website link in the post caption or profile as appropriate."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "greeting-copy",
+        "text": "Short English and Hindi wishes you can adapt"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "These are suggested greetings, not claims about your business or fixed text baked into the artwork. Use one headline and one short supporting sentence. Personalize the name separately."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Compact greeting examples",
+        "columns": [
+          "Occasion",
+          "Suggested copy"
+        ],
+        "rows": [
+          [
+            "Diwali",
+            "Happy Diwali — Wishing you light, joy and new beginnings. / शुभ दीपावली — आपके जीवन में खुशियाँ और नई आशाएँ आएँ।"
+          ],
+          [
+            "Durga Puja",
+            "Happy Durga Puja — Wishing you strength, hope and togetherness. / दुर्गा पूजा की शुभकामनाएँ — आपके जीवन में शक्ति, आशा और खुशियाँ आएँ।"
+          ],
+          [
+            "Dussehra",
+            "Happy Dussehra — Here’s to courage and brighter beginnings. / दशहरा की शुभकामनाएँ — हर नई शुरुआत शुभ और मंगलमय हो।"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "The editor provides English and Hindi presets, not automatic translation or a Bengali preset. A Hindi message is not a substitute for every reader’s preferred language. If you enter custom wording, review the exported lettering, line breaks and meaning. Avoid using extra spaces to force alignment; choose a layout and shorten the sentence instead."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "export-sizes",
+        "text": "Choose the canvas by the composition, not just the platform"
+      },
+      {
+        "type": "table",
+        "caption": "Available PNG exports",
+        "columns": [
+          "Canvas",
+          "Practical use"
+        ],
+        "rows": [
+          [
+            "Square · 1080 × 1080",
+            "A compact greeting. Use the shortest message and inspect crowded areas."
+          ],
+          [
+            "Portrait · 1080 × 1350",
+            "A taller post that gives the artwork and greeting more vertical room."
+          ],
+          [
+            "Story · 1080 × 1920",
+            "A vertical greeting with a separate lower message/photo area. Check it in the destination app before posting."
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "These are PicMagic’s export sizes, not a promise that every app will display every pixel. Cropping, interface overlays and compression vary. The editor does not stretch a square poster into a story; preview the new layout after changing the format. The supplied backgrounds are not native 4K files, and these exports should not be described as print-ready at every physical size."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quality-check",
+        "text": "The final check: a greeting someone can actually read"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Read the saved poster in this order: festival name, business/name, message, contact detail. If the wish is hard to find, remove a line rather than adding more decoration. Compare the logo with the original, check Hindi vowel marks and punctuation, and look for clipped letters. Review the artwork’s cultural details yourself; an attractive generated image is not a guarantee of accurate iconography."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Local editing is not the same as private sharing",
+        "text": "The editor keeps your uploads and entered text in browser memory, without an account or backend upload. Refreshing or closing the tab clears the work. The downloaded PNG still contains everything you chose to show. Check it before uploading it to any social network or sending it to customers."
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Do I need to generate an image before making a poster?",
+            "answer": "No. The three prepared backgrounds are already available in the free browser editor. The template prompts are optional if you want different artwork in an external generator; the editor does not replace its built-in backgrounds with a newly generated custom scene."
+          },
+          {
+            "question": "Can I change the words in the sample image?",
+            "answer": "Use the editor’s text fields, not an image-edit request on the flattened sample. The editor renders fresh lettering above the text-free artwork. Your downloaded PNG is flattened, so keep editing in the open tab and download again if you need a correction."
+          },
+          {
+            "question": "Will PicMagic automatically post my greeting?",
+            "answer": "No. Download the PNG and publish it yourself. Adding a website or phone number puts visible text into the image; it does not make that text a clickable link or change your social profile."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "text": "Ready to make your greeting? Open the festival poster maker",
+            "href": "/festival-poster-maker"
+          },
+          {
+            "text": ". If you want to generate your own scene instead, start with the Diwali artwork prompt below. For reference-based festive portraits, browse the "
+          },
+          {
+            "text": "Indian festivals collection",
+            "href": "/collections/indian-festivals"
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
     ],
-    "author_id":"picmagic-editorial",
-    "reviewed_by":null,
-    "article_type":"guide",
-    "primary_topic":"Festival posters",
-    "related_prompts":["70731da7-b45d-44db-a462-7c360c811001","70731da7-b45d-44db-a462-7c360c811002","70731da7-b45d-44db-a462-7c360c811003"],
-    "related_collections":["/collections/indian-festivals","/ai-prompts/festival"],
-    "related_articles":["garba-dandiya-ai-photo-ideas","create-ai-photos-with-chatgpt"],
-    "seo_title":"Diwali, Durga Puja & Dussehra Posters With Your Logo",
-    "meta_description":"Make festival greetings with your logo, name and English or Hindi wishes. Compare three designs, choose a PNG size and personalize privately in your browser.",
-    "featured_image":{"url":"/previews/dussehra-business-greeting-premium-1d2aded2e0.webp","alt":"Golden Dussehra poster with carved arches, a ceremonial bow and editable sample greeting and branding.","width":1080,"height":1350,"caption":"AI-generated background with editable sample lettering; not a real business endorsement."},
-    "primary_conversion":{"path":"/ai-prompts/festival/diwali-business-greeting","label":"Get the Diwali artwork prompt","type":"prompt"},
-    "status":"draft","is_indexable":false,"is_featured":false,"date_published":null,"date_modified":"2026-10-10T16:00:00.000Z","created_at":"2026-10-10T16:00:00.000Z","noindex_reason":null,"noindex_review_at":null,
-    "sources":[{"title":"PicMagic festival poster maker","url":"/festival-poster-maker","checked_at":"2026-10-10","note":"Editor controls, local upload handling, optional contact fields, supported languages and exact PNG dimensions were checked against the released implementation and local browser tests."},{"title":"Diwali business greeting","url":"/ai-prompts/festival/diwali-business-greeting","checked_at":"2026-10-10","note":"Approved public artwork, sample lettering and complete generation prompt."},{"title":"Durga Puja business greeting","url":"/ai-prompts/festival/durga-puja-business-greeting","checked_at":"2026-10-10","note":"Approved composition and limitations; text is separate from the decorative background."},{"title":"Dussehra business greeting","url":"/ai-prompts/festival/dussehra-business-greeting","checked_at":"2026-10-10","note":"Approved premium bow-and-arch composition with editable branding."}],
-    "evidence_note":"A practical guide to PicMagic’s released editor and three reviewed public designs, not a comparison of image generators or a study of customer engagement. Backgrounds were generated/edited through signed-in ChatGPT; the poster previews add sample text through the browser editor. Logo and contact placeholders are fictional. Local release tests covered exports, uploads, language shaping and privacy boundaries; they do not establish rankings, business outcomes or universal cultural accuracy. No private reference photographs are included."
+    "author_id": "picmagic-editorial",
+    "reviewed_by": null,
+    "article_type": "guide",
+    "primary_topic": "Festival posters",
+    "related_prompts": [
+      "70731da7-b45d-44db-a462-7c360c811001",
+      "70731da7-b45d-44db-a462-7c360c811002",
+      "70731da7-b45d-44db-a462-7c360c811003"
+    ],
+    "related_collections": [
+      "/collections/indian-festivals",
+      "/ai-prompts/festival"
+    ],
+    "related_articles": [
+      "garba-dandiya-ai-photo-ideas",
+      "create-ai-photos-with-chatgpt"
+    ],
+    "seo_title": "Diwali, Durga Puja & Dussehra: Branded Posters With Icons",
+    "meta_description": "Create Diwali, Durga Puja and Dussehra posters with your website theme, original logo and verified service icons, or use the free PicMagic editor.",
+    "featured_image": {
+      "url": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+      "alt": "Golden Dussehra poster with carved arches, a ceremonial bow and editable sample greeting and branding.",
+      "width": 1080,
+      "height": 1350,
+      "caption": "AI-generated background with editable sample lettering; not a real business endorsement."
+    },
+    "primary_conversion": {
+      "path": "/ai-prompts/festival/diwali-business-greeting",
+      "label": "Get the Diwali artwork prompt",
+      "type": "prompt"
+    },
+    "status": "draft",
+    "is_indexable": false,
+    "is_featured": false,
+    "date_published": null,
+    "date_modified": "2026-10-11T07:48:53.000Z",
+    "created_at": "2026-10-10T16:00:00.000Z",
+    "noindex_reason": null,
+    "noindex_review_at": null,
+    "sources": [
+      {
+        "title": "PicMagic festival poster maker",
+        "url": "/festival-poster-maker",
+        "checked_at": "2026-10-10",
+        "note": "Editor controls, local upload handling, optional contact fields, supported languages and exact PNG dimensions were checked against the released implementation and local browser tests."
+      },
+      {
+        "title": "Diwali business greeting",
+        "url": "/ai-prompts/festival/diwali-business-greeting",
+        "checked_at": "2026-10-10",
+        "note": "Approved public artwork, sample lettering and complete generation prompt."
+      },
+      {
+        "title": "Durga Puja business greeting",
+        "url": "/ai-prompts/festival/durga-puja-business-greeting",
+        "checked_at": "2026-10-10",
+        "note": "Approved composition and limitations; text is separate from the decorative background."
+      },
+      {
+        "title": "Dussehra business greeting",
+        "url": "/ai-prompts/festival/dussehra-business-greeting",
+        "checked_at": "2026-10-10",
+        "note": "Approved premium bow-and-arch composition with editable branding."
+      }
+    ],
+    "evidence_note": "A practical guide to PicMagic’s released editor and three reviewed public designs, not a comparison of image generators or a study of customer engagement. Backgrounds were generated/edited through signed-in ChatGPT; the poster previews add sample text through the browser editor. Logo and contact placeholders are fictional. Local release tests covered exports, uploads, language shaping and privacy boundaries; they do not establish rankings, business outcomes or universal cultural accuracy. No private reference photographs are included. The website-research and service-icon workflow is editorial guidance, not a new provider capability test or generated-preview approval."
   },
   {
     "id":"fa710010-b106-4dc6-a061-202610100002",

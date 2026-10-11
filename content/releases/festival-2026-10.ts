@@ -199,7 +199,12 @@ const additions = concepts.map((c) => {
     framing: c.framing,
     camera: decorative ? "Illustration; no physical camera" : c.framing,
     seo_title: `${c.title} AI Prompt | PicMagic`,
-    seo_description: c.description.slice(0, 155),
+    seo_description:
+      c.slug === "durga-puja-pandal-portrait"
+        ? "Create a Durga Puja pandal portrait with warm festive light and detailed craftwork. Copy a reference-first prompt that preserves your face and actual age."
+        : c.description.length <= 155
+          ? c.description
+          : c.description.slice(0, 154).replace(/\s+\S*$/, "").trimEnd() + "…",
     why_ai: c.why,
     distinctiveness_score: 4,
     created_at: timestamp,

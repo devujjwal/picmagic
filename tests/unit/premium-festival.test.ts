@@ -5,6 +5,7 @@ import { allPrompts, allCollections } from "@/content/catalog";
 import records from "@/content/releases/premium-festival-approved-2026-10.json";
 import provenance from "@/content/releases/premium-festival-provenance-2026-10.json";
 import review from "../../docs/audits/festival-premium-2026-10-10/content-review.json";
+import brandRevisions from "../../docs/audits/festival-brand-prompts-2026-10-11/changes.json";
 import { promptSchema, promptPath } from "@/types/content";
 import { personaIssues } from "@/lib/prompts/persona";
 import { editorialIssues } from "@/lib/prompts/editorial";
@@ -24,8 +25,11 @@ describe("premium festival follow-up", () => {
       expect(allPrompts.find((x) => x.id === p.id)).toEqual(raw);
       expect(personaIssues(p)).toEqual([]);
       expect(editorialIssues(p)).toEqual([]);
+      const revision = brandRevisions.find((r) => r.id === p.id);
+      if (revision?.after.prompt_text)
+        expect(p.prompt_text).toBe(revision.after.prompt_text);
       expect(review.find((r) => r.id === p.id)?.sha256).toBe(
-        hash(p.prompt_text),
+        hash(revision?.before.prompt_text ?? p.prompt_text),
       );
       const evidence = provenance.find((r) => r.slug === p.slug)!;
       for (const asset of [evidence.preview, evidence.thumbnail])
@@ -55,9 +59,12 @@ describe("premium festival follow-up", () => {
       expect(d.artwork).toContain("-premium-art.webp");
       expect(fs.existsSync(`public${d.artwork}`)).toBe(true);
       const p = records.find((p) => p.id === d.templateId)!;
-      expect(p.prompt_text).toContain("Generate the artwork only");
-      expect(p.prompt_text).toContain(
+      expect(p.image_brief).toContain("Generate the artwork only");
+      expect(p.image_brief).toContain(
         "never regenerate its artwork or lettering",
+      );
+      expect(p.prompt_text).toContain(
+        "Do not redraw, imitate or regenerate it with AI",
       );
       expect(p.preview_image_url).not.toBe(d.artwork);
     }

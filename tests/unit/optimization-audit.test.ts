@@ -75,7 +75,9 @@ describe("read-only catalogue acceptance", () => {
     ).toHaveLength(11);
     expect(
       baseline.findings.filter((f) => f.rule === "lexical-overlap"),
-    ).toHaveLength(36);
+      // Three additional pairs share the website-branding workflow; keep these
+      // visible as editorial notices, not suppressed or automatically merged.
+    ).toHaveLength(39);
   });
   it("retains exact source locations and keeps drafts out of recommendations", () => {
     expect(catalog.sources["category:cinematic"].file).toBe(

@@ -17,6 +17,7 @@ import festivalReview from "../docs/audits/festival-release-2026-10-10/content-r
 import festivalProvenance from "../content/releases/festival-provenance-2026-10.json";
 import premiumReview from "../docs/audits/festival-premium-2026-10-10/content-review.json";
 import premiumProvenance from "../content/releases/premium-festival-provenance-2026-10.json";
+import brandRevisions from "../docs/audits/festival-brand-prompts-2026-10-11/changes.json";
 const failures: string[] = [];
 const paths = new Set<string>();
 const ids = new Set<string>();
@@ -33,9 +34,26 @@ for (const raw of allPrompts) {
   const festival = festivalReview.find((r) => r.id === p.id);
   const premium = premiumReview.find((r) => r.id === p.id);
   const currentHash = createHash("sha256").update(p.prompt_text).digest("hex");
+  // Preserve the original generation/review evidence. This copy-only revision
+  // connects the exact prior prompt to the new public workflow, not a new preview.
+  const brandRevision = brandRevisions.find((r) => r.id === p.id);
+  const brandValid =
+    !brandRevision ||
+    (brandRevision.slug === p.slug &&
+      Object.entries(brandRevision.after).every(
+        ([key, value]) =>
+          JSON.stringify(p[key as keyof typeof p]) === JSON.stringify(value),
+      ));
+  if (!brandValid) failures.push(`${p.slug}: stale brand-workflow revision`);
+  const priorBrandText = brandRevision?.before.prompt_text;
+  const premiumHash =
+    typeof priorBrandText === "string"
+      ? createHash("sha256").update(priorBrandText).digest("hex")
+      : currentHash;
   const premiumValid =
     premium &&
-    premium.sha256 === currentHash &&
+    brandValid &&
+    premium.sha256 === premiumHash &&
     (premium.kind === "addition"
       ? premium.before_sha256 === null && !festival && review.length === 0
       : premium.before_sha256 === (festival?.sha256 ?? review[0]?.sha256) &&
