@@ -1124,18 +1124,18 @@
       {
         "type": "image",
         "image": {
-          "url": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
-          "alt": "Diwali greeting with brass diyas, hanging jasmine, an ivory arch and sample brand text on a clear central wall.",
+          "url": "/previews/diwali-business-greeting-brand-2621755446.webp",
+          "alt": "Brass diyas and jasmine surround a PicMagic Diwali greeting, three service icons, a terracotta call to action and picmagic.in.",
           "width": 1080,
           "height": 1350,
-          "caption": "PicMagic’s Diwali artwork with separately rendered sample lettering. YOUR BRAND and www.example.com are placeholders, not an advertiser."
+          "caption": "Diwali PicMagic-branded AI showcase with visually reviewed generated type/icons and the original source logo composited afterward. Not an export from the fixed-layout editor."
         }
       },
       {
         "type": "paragraph",
         "content": [
           {
-            "text": "This design gets its depth from a large foreground diya, smaller lamps receding through the courtyard and flowers at the edges. The empty wall is intentional: it gives the greeting a quiet place to sit. A short company name and one sentence work better here than a catalogue of services. Use dark green or a sufficiently dark gold for text, then check its contrast against the light wall."
+            "text": "This example uses a large foreground diya, smaller courtyard lamps and hanging jasmine to frame the greeting. PicMagic’s terracotta and charcoal colours carry the typography and three short verified feature labels. Keep the same hierarchy for your business rather than copying these particular services. The free editor link below opens a simpler prepared design, not this custom icon-row layout."
           }
         ]
       },
@@ -1143,7 +1143,7 @@
         "type": "paragraph",
         "content": [
           {
-            "text": "Personalize the Diwali design",
+            "text": "Open the simpler editable Diwali design",
             "href": "/festival-poster-maker?design=diwali"
           },
           {
@@ -1167,11 +1167,11 @@
       {
         "type": "image",
         "image": {
-          "url": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
-          "alt": "Durga Puja poster with the crafted idol and white crown on the right, red flowers and a dhaak below, and sample wishes on the left.",
+          "url": "/previews/durga-puja-business-greeting-brand-534402f3bf.webp",
+          "alt": "Crafted Durga idol and shola crown beside a PicMagic greeting, custom-greeting, language and download icons, and website link text.",
           "width": 1080,
           "height": 1350,
-          "caption": "AI-generated decorative Durga Puja composition with editable sample text. Review religious details and spelling before sharing."
+          "caption": "Durga Puja PicMagic-branded AI showcase with visually reviewed generated type/icons and the original source logo composited afterward. Not an export from the fixed-layout editor."
         }
       },
       {
@@ -1186,7 +1186,7 @@
         "type": "paragraph",
         "content": [
           {
-            "text": "Personalize the Durga Puja design",
+            "text": "Open the simpler editable Durga Puja design",
             "href": "/festival-poster-maker?design=durga-puja"
           },
           {
@@ -1210,11 +1210,11 @@
       {
         "type": "image",
         "image": {
-          "url": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
-          "alt": "Dussehra greeting framed by carved sandstone arches, marigolds, lamps and a ceremonial golden bow resting on saffron fabric.",
+          "url": "/previews/dussehra-business-greeting-brand-d7b8c4397d.webp",
+          "alt": "PicMagic Dussehra greeting with three service icons and website text above a ceremonial bow, straight arrow, lamps and marigolds.",
           "width": 1080,
           "height": 1350,
-          "caption": "The premium Dussehra background contains no embedded branding. This preview adds sample greeting, brand and website layers in the editor."
+          "caption": "Dussehra PicMagic-branded AI showcase with visually reviewed generated type/icons and the original source logo composited afterward. Not an export from the fixed-layout editor."
         }
       },
       {
@@ -1229,7 +1229,7 @@
         "type": "paragraph",
         "content": [
           {
-            "text": "Personalize the Dussehra design",
+            "text": "Open the simpler editable Dussehra design",
             "href": "/festival-poster-maker?design=dussehra"
           },
           {
@@ -1372,7 +1372,7 @@
         "type": "paragraph",
         "content": [
           {
-            "text": "The examples in this guide are the earlier prepared backgrounds with sample text. They are not new tests of website scanning or logo extraction and do not demonstrate the custom feature-icon layout. Your custom result may differ; keep the original business details and logo available for manual correction. Website text printed into a PNG is not clickable—include a real website link in the post caption or profile as appropriate."
+            "text": "The preview is a PicMagic-branded example made with signed-in ChatGPT image generation and the original website logo composited from source vectors. The editor page supplied feature information; the homepage request timed out, so repository brand colours and logo assets completed the brief. Generated artwork, lettering and service icons were visually reviewed. This flattened showcase is not an export from the fixed-layout poster maker, and its text is not separately editable. Your result will vary; check wording, logo fidelity and mobile legibility. Website text printed into a PNG is not clickable—include a real website link in the post caption or profile as appropriate."
           }
         ]
       },
@@ -1532,11 +1532,11 @@
     "seo_title": "Diwali, Durga Puja & Dussehra: Branded Posters With Icons",
     "meta_description": "Create Diwali, Durga Puja and Dussehra posters with your website theme, original logo and verified service icons, or use the free PicMagic editor.",
     "featured_image": {
-      "url": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
-      "alt": "Golden Dussehra poster with carved arches, a ceremonial bow and editable sample greeting and branding.",
+      "url": "/previews/dussehra-business-greeting-brand-d7b8c4397d.webp",
+      "alt": "PicMagic Dussehra greeting with three service icons and website text above a ceremonial bow, straight arrow, lamps and marigolds.",
       "width": 1080,
       "height": 1350,
-      "caption": "AI-generated background with editable sample lettering; not a real business endorsement."
+      "caption": "PicMagic-branded AI showcase with the exact original logo composited afterward; not an editable poster-maker export."
     },
     "primary_conversion": {
       "path": "/ai-prompts/festival/diwali-business-greeting",
@@ -1547,7 +1547,7 @@
     "is_indexable": false,
     "is_featured": false,
     "date_published": null,
-    "date_modified": "2026-10-11T07:48:53.000Z",
+    "date_modified": "2026-10-11T08:15:46.382Z",
     "created_at": "2026-10-10T16:00:00.000Z",
     "noindex_reason": null,
     "noindex_review_at": null,
@@ -1561,23 +1561,23 @@
       {
         "title": "Diwali business greeting",
         "url": "/ai-prompts/festival/diwali-business-greeting",
-        "checked_at": "2026-10-10",
-        "note": "Approved public artwork, sample lettering and complete generation prompt."
+        "checked_at": "2026-10-11",
+        "note": "Local revised prompt and branded preview reviewed; production activation remains separate."
       },
       {
         "title": "Durga Puja business greeting",
         "url": "/ai-prompts/festival/durga-puja-business-greeting",
-        "checked_at": "2026-10-10",
-        "note": "Approved composition and limitations; text is separate from the decorative background."
+        "checked_at": "2026-10-11",
+        "note": "Local revised prompt and branded preview reviewed; production activation remains separate."
       },
       {
         "title": "Dussehra business greeting",
         "url": "/ai-prompts/festival/dussehra-business-greeting",
-        "checked_at": "2026-10-10",
-        "note": "Approved premium bow-and-arch composition with editable branding."
+        "checked_at": "2026-10-11",
+        "note": "Local revised prompt and branded preview reviewed; production activation remains separate."
       }
     ],
-    "evidence_note": "A practical guide to PicMagic’s released editor and three reviewed public designs, not a comparison of image generators or a study of customer engagement. Backgrounds were generated/edited through signed-in ChatGPT; the poster previews add sample text through the browser editor. Logo and contact placeholders are fictional. Local release tests covered exports, uploads, language shaping and privacy boundaries; they do not establish rankings, business outcomes or universal cultural accuracy. No private reference photographs are included. The website-research and service-icon workflow is editorial guidance, not a new provider capability test or generated-preview approval."
+    "evidence_note": "The preview is a PicMagic-branded example made with signed-in ChatGPT image generation and the original website logo composited from source vectors. The editor page supplied feature information; the homepage request timed out, so repository brand colours and logo assets completed the brief. Generated artwork, lettering and service icons were visually reviewed. This flattened showcase is not an export from the fixed-layout poster maker, and its text is not separately editable. Your result will vary; check wording, logo fidelity and mobile legibility. These are three qualitative examples, not a controlled comparison, ranking, engagement study or universal claim about tool capabilities. No private identity references or third-party sample branding were uploaded. Durga Puja and Dussehra were revised from PicMagic’s existing public previews; Diwali was newly generated. The separate browser editor retains its prepared backgrounds and local-only upload behaviour."
   },
   {
     "id":"fa710010-b106-4dc6-a061-202610100002",

@@ -59,10 +59,13 @@ describe("premium festival follow-up", () => {
       expect(d.artwork).toContain("-premium-art.webp");
       expect(fs.existsSync(`public${d.artwork}`)).toBe(true);
       const p = records.find((p) => p.id === d.templateId)!;
-      expect(p.image_brief).toContain("Generate the artwork only");
       expect(p.image_brief).toContain(
-        "never regenerate its artwork or lettering",
+        "original logo composited from source vectors",
       );
+      const historical = brandRevisions.find((r) => r.id === p.id)?.before;
+      expect(
+        historical && "image_brief" in historical ? historical.image_brief : "",
+      ).toContain("Generate the artwork only");
       expect(p.prompt_text).toContain(
         "Do not redraw, imitate or regenerate it with AI",
       );

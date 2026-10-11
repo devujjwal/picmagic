@@ -4,52 +4,110 @@
     "tool": "ChatGPT web included image generation; underlying model not exposed",
     "status": "generated",
     "review_status": "accepted",
-    "reviewed_at": "2026-10-10T15:38:47.118Z",
-    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
-    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "reviewed_at": "2026-10-11T08:15:46.382Z",
+    "review_method": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification.",
+    "limitations": "The preview is a PicMagic-branded example made with signed-in ChatGPT image generation and the original website logo composited from source vectors. The editor page supplied feature information; the homepage request timed out, so repository brand colours and logo assets completed the brief. Generated artwork, lettering and service icons were visually reviewed. This flattened showcase is not an export from the fixed-layout poster maker, and its text is not separately editable. Your result will vary; check wording, logo fidelity and mobile legibility. Source 1122×1402; web preview 1080×1350, not native 4K. No cross-provider equivalence or automatic logo extraction was tested.",
     "source_width": 1122,
     "source_height": 1402,
+    "source_sha256": "5c6ac211fd84cff720196a00ec3d9603e597135aa2fdd5a286e402eb0dcb39e5",
+    "finished_sha256": "26217554461b2d8455833762336ede3a68535bd24ef1362d4599447acbb9f99f",
+    "source_conversation": "https://chatgpt.com/c/6acb42e3-de18-83ee-989c-5ce2e4a04988",
     "preview": {
-      "path": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
+      "path": "/previews/diwali-business-greeting-brand-2621755446.webp",
       "width": 1080,
       "height": 1350,
-      "bytes": 232744,
-      "sha256": "7fb171e7066f76a092657b66f722fde5fd4cdfe46a585a14baf1f5757faed6cc"
+      "bytes": 236838,
+      "sha256": "962d23e8b4480183012424b82dfb8b5d0cb562408b11f90ce429a29e751c2e86"
     },
     "thumbnail": {
-      "path": "/previews/diwali-business-greeting-premium-8359e2f910-thumb.webp",
+      "path": "/previews/diwali-business-greeting-brand-2621755446-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 59478,
-      "sha256": "66bee2eb7e8f531c949c61c386e498f622b95c96d501fcaba596ab733bfec2f5"
+      "bytes": 67448,
+      "sha256": "9bb04a7b1f5a1e207825f59e93b0f26cc153312adf5bd4714fdf866bc863efd8"
     },
-    "alt": "Golden brass diyas and jasmine frame an ivory courtyard Diwali poster with sample editable greeting and brand text."
+    "alt": "Brass diyas and jasmine surround a PicMagic Diwali greeting, three service icons, a terracotta call to action and picmagic.in.",
+    "previous_asset": {
+      "slug": "diwali-business-greeting",
+      "tool": "ChatGPT web included image generation; underlying model not exposed",
+      "status": "generated",
+      "review_status": "accepted",
+      "reviewed_at": "2026-10-10T15:38:47.118Z",
+      "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+      "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+      "source_width": 1122,
+      "source_height": 1402,
+      "preview": {
+        "path": "/previews/diwali-business-greeting-premium-8359e2f910.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 232744,
+        "sha256": "7fb171e7066f76a092657b66f722fde5fd4cdfe46a585a14baf1f5757faed6cc"
+      },
+      "thumbnail": {
+        "path": "/previews/diwali-business-greeting-premium-8359e2f910-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 59478,
+        "sha256": "66bee2eb7e8f531c949c61c386e498f622b95c96d501fcaba596ab733bfec2f5"
+      },
+      "alt": "Golden brass diyas and jasmine frame an ivory courtyard Diwali poster with sample editable greeting and brand text."
+    }
   },
   {
     "slug": "durga-puja-business-greeting",
     "tool": "ChatGPT web included image generation; underlying model not exposed",
     "status": "generated",
     "review_status": "accepted",
-    "reviewed_at": "2026-10-10T15:38:47.308Z",
-    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
-    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "reviewed_at": "2026-10-11T08:15:46.382Z",
+    "review_method": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification.",
+    "limitations": "The preview is a PicMagic-branded example made with signed-in ChatGPT image generation and the original website logo composited from source vectors. The editor page supplied feature information; the homepage request timed out, so repository brand colours and logo assets completed the brief. Generated artwork, lettering and service icons were visually reviewed. This flattened showcase is not an export from the fixed-layout poster maker, and its text is not separately editable. Your result will vary; check wording, logo fidelity and mobile legibility. Source 1122×1402; web preview 1080×1350, not native 4K. No cross-provider equivalence or automatic logo extraction was tested.",
     "source_width": 1122,
     "source_height": 1402,
+    "source_sha256": "618f89dc9ab33e8d78c0389f5ee5ddfa947ac42f1137d3d108f3d6db9720fa8a",
+    "finished_sha256": "534402f3bfae906194deb3a1d0ba8cb72628072d031480f0a8a3356d145e4700",
+    "source_conversation": "https://chatgpt.com/c/6acb43e4-c5b4-83e8-b18c-d58d5dc2e918",
     "preview": {
-      "path": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+      "path": "/previews/durga-puja-business-greeting-brand-534402f3bf.webp",
       "width": 1080,
       "height": 1350,
-      "bytes": 227434,
-      "sha256": "972d982f1f1df93644ca669a58c3f4fa9b757ae2b8208affae009d2751e4bb27"
+      "bytes": 246614,
+      "sha256": "ab8dc3c973265b59021dd1a6a5978e4e732214d21de8ecb0111d19f47771c95e"
     },
     "thumbnail": {
-      "path": "/previews/durga-puja-business-greeting-premium-93459004b1-thumb.webp",
+      "path": "/previews/durga-puja-business-greeting-brand-534402f3bf-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 60622,
-      "sha256": "5280995c64d2c82ebfbf02432e402f3f1ef16f9505a31eac2a26c417da8e2ca0"
+      "bytes": 73946,
+      "sha256": "0ebb7ddea28b8c7340d542fe6338c61ec69efcc2e5710581e2497095d39f2e55"
     },
-    "alt": "A crafted Durga idol, white shola crown, flowers, brass lamps and dhaak beside sample editable Durga Puja greeting text."
+    "alt": "Crafted Durga idol and shola crown beside a PicMagic greeting, custom-greeting, language and download icons, and website link text.",
+    "previous_asset": {
+      "slug": "durga-puja-business-greeting",
+      "tool": "ChatGPT web included image generation; underlying model not exposed",
+      "status": "generated",
+      "review_status": "accepted",
+      "reviewed_at": "2026-10-10T15:38:47.308Z",
+      "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+      "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+      "source_width": 1122,
+      "source_height": 1402,
+      "preview": {
+        "path": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 227434,
+        "sha256": "972d982f1f1df93644ca669a58c3f4fa9b757ae2b8208affae009d2751e4bb27"
+      },
+      "thumbnail": {
+        "path": "/previews/durga-puja-business-greeting-premium-93459004b1-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 60622,
+        "sha256": "5280995c64d2c82ebfbf02432e402f3f1ef16f9505a31eac2a26c417da8e2ca0"
+      },
+      "alt": "A crafted Durga idol, white shola crown, flowers, brass lamps and dhaak beside sample editable Durga Puja greeting text."
+    }
   },
   {
     "slug": "garba-under-the-lights",
@@ -82,26 +140,55 @@
     "tool": "ChatGPT web included image generation; underlying model not exposed",
     "status": "generated",
     "review_status": "accepted",
-    "reviewed_at": "2026-10-10T15:38:47.709Z",
-    "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
-    "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+    "reviewed_at": "2026-10-11T08:15:46.382Z",
+    "review_method": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification.",
+    "limitations": "The preview is a PicMagic-branded example made with signed-in ChatGPT image generation and the original website logo composited from source vectors. The editor page supplied feature information; the homepage request timed out, so repository brand colours and logo assets completed the brief. Generated artwork, lettering and service icons were visually reviewed. This flattened showcase is not an export from the fixed-layout poster maker, and its text is not separately editable. Your result will vary; check wording, logo fidelity and mobile legibility. Source 1122×1402; web preview 1080×1350, not native 4K. No cross-provider equivalence or automatic logo extraction was tested.",
     "source_width": 1122,
     "source_height": 1402,
+    "source_sha256": "221a583465cf269932f81d06177fd4575e0b694cc15dda5107ab96ed6f4b5931",
+    "finished_sha256": "d7b8c4397dfa59bf52dd4159c8867f4ced46401a14ee3e67cb5d4a15e4a5e869",
+    "source_conversation": "https://chatgpt.com/c/6acb4436-66c8-83ec-ac26-734b51dc8e4a",
     "preview": {
-      "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+      "path": "/previews/dussehra-business-greeting-brand-d7b8c4397d.webp",
       "width": 1080,
       "height": 1350,
-      "bytes": 200324,
-      "sha256": "8e937e8c47fce2004ce246bc0e98cc73aedb11e0fd03533ef8454cf268aa0079"
+      "bytes": 256476,
+      "sha256": "6d62118f3c44a0973ae6a8144075e927908c2088fb2124a3bc056537a42f4061"
     },
     "thumbnail": {
-      "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0-thumb.webp",
+      "path": "/previews/dussehra-business-greeting-brand-d7b8c4397d-thumb.webp",
       "width": 480,
       "height": 600,
-      "bytes": 49952,
-      "sha256": "30e763162c4845e8c30df7de0956f077f3b43b697ddbcafd6e83765ea376827d"
+      "bytes": 68074,
+      "sha256": "9e0d0039c9b743191ec9943f1c0c12b051162822eeb3ee280b2c6880f583da38"
     },
-    "alt": "Golden carved arches, a ceremonial bow, saffron silk, diyas and marigolds frame sample editable Dussehra greeting and brand text."
+    "alt": "PicMagic Dussehra greeting with three service icons and website text above a ceremonial bow, straight arrow, lamps and marigolds.",
+    "previous_asset": {
+      "slug": "dussehra-business-greeting",
+      "tool": "ChatGPT web included image generation; underlying model not exposed",
+      "status": "generated",
+      "review_status": "accepted",
+      "reviewed_at": "2026-10-10T15:38:47.709Z",
+      "review_method": "Qualitative full-resolution review: accepted scene, likeness where applicable, anatomy, religious craft, text absence in source artwork and framing. Not a biometric or cultural certification.",
+      "limitations": "Generated source is 1122×1402, not native 4K. Preview lettering is deterministic browser Canvas using licensed local fonts. Original source artwork stays separate.",
+      "source_width": 1122,
+      "source_height": 1402,
+      "preview": {
+        "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 200324,
+        "sha256": "8e937e8c47fce2004ce246bc0e98cc73aedb11e0fd03533ef8454cf268aa0079"
+      },
+      "thumbnail": {
+        "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 49952,
+        "sha256": "30e763162c4845e8c30df7de0956f077f3b43b697ddbcafd6e83765ea376827d"
+      },
+      "alt": "Golden carved arches, a ceremonial bow, saffron silk, diyas and marigolds frame sample editable Dussehra greeting and brand text."
+    }
   },
   {
     "slug": "dandiya-night-together",

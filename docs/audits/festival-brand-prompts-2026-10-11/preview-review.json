@@ -1,0 +1,100 @@
+{
+  "status": "local-reviewed-not-released",
+  "provider": "Signed-in ChatGPT included image generation",
+  "reviewedAt": "2026-10-11T08:15:46.382Z",
+  "brandResearch": "ChatGPT read the live poster editor. Homepage timed out; source CSS and original vector logo supplied the missing brand information. No automatic logo extraction claimed.",
+  "logoSourceSha256": "589b79a7a01e686d1ca1bb876fa82280dd6286434de1068cd366884b8dfab0cb",
+  "wordmarkSourceSha256": "7516b73efc41c3b0e4b989711eb0ca740f0dd61e0595f4801e8287eea6c74802",
+  "records": [
+    {
+      "slug": "diwali-business-greeting",
+      "sourceConversation": "https://chatgpt.com/c/6acb42e3-de18-83ee-989c-5ce2e4a04988",
+      "sourceSha256": "5c6ac211fd84cff720196a00ec3d9603e597135aa2fdd5a286e402eb0dcb39e5",
+      "finishedSha256": "26217554461b2d8455833762336ede3a68535bd24ef1362d4599447acbb9f99f",
+      "logo": {
+        "left": 380,
+        "top": 80,
+        "width": 360,
+        "source": "components/ui/brand-logo.tsx and config/brand-wordmark.json"
+      },
+      "inputPreview": null,
+      "preview": {
+        "path": "/previews/diwali-business-greeting-brand-2621755446.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 236838,
+        "sha256": "962d23e8b4480183012424b82dfb8b5d0cb562408b11f90ce429a29e751c2e86"
+      },
+      "thumbnail": {
+        "path": "/previews/diwali-business-greeting-brand-2621755446-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 67448,
+        "sha256": "9bb04a7b1f5a1e207825f59e93b0f26cc153312adf5bd4714fdf866bc863efd8"
+      },
+      "review": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification."
+    },
+    {
+      "slug": "durga-puja-business-greeting",
+      "sourceConversation": "https://chatgpt.com/c/6acb43e4-c5b4-83e8-b18c-d58d5dc2e918",
+      "sourceSha256": "618f89dc9ab33e8d78c0389f5ee5ddfa947ac42f1137d3d108f3d6db9720fa8a",
+      "finishedSha256": "534402f3bfae906194deb3a1d0ba8cb72628072d031480f0a8a3356d145e4700",
+      "logo": {
+        "left": 170,
+        "top": 95,
+        "width": 360,
+        "source": "components/ui/brand-logo.tsx and config/brand-wordmark.json"
+      },
+      "inputPreview": {
+        "path": "/previews/durga-puja-business-greeting-premium-93459004b1.webp",
+        "sha256": "972d982f1f1df93644ca669a58c3f4fa9b757ae2b8208affae009d2751e4bb27"
+      },
+      "preview": {
+        "path": "/previews/durga-puja-business-greeting-brand-534402f3bf.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 246614,
+        "sha256": "ab8dc3c973265b59021dd1a6a5978e4e732214d21de8ecb0111d19f47771c95e"
+      },
+      "thumbnail": {
+        "path": "/previews/durga-puja-business-greeting-brand-534402f3bf-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 73946,
+        "sha256": "0ebb7ddea28b8c7340d542fe6338c61ec69efcc2e5710581e2497095d39f2e55"
+      },
+      "review": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification."
+    },
+    {
+      "slug": "dussehra-business-greeting",
+      "sourceConversation": "https://chatgpt.com/c/6acb4436-66c8-83ec-ac26-734b51dc8e4a",
+      "sourceSha256": "221a583465cf269932f81d06177fd4575e0b694cc15dda5107ab96ed6f4b5931",
+      "finishedSha256": "d7b8c4397dfa59bf52dd4159c8867f4ced46401a14ee3e67cb5d4a15e4a5e869",
+      "logo": {
+        "left": 380,
+        "top": 90,
+        "width": 360,
+        "source": "components/ui/brand-logo.tsx and config/brand-wordmark.json"
+      },
+      "inputPreview": {
+        "path": "/previews/dussehra-business-greeting-premium-1d2aded2e0.webp",
+        "sha256": "8e937e8c47fce2004ce246bc0e98cc73aedb11e0fd03533ef8454cf268aa0079"
+      },
+      "preview": {
+        "path": "/previews/dussehra-business-greeting-brand-d7b8c4397d.webp",
+        "width": 1080,
+        "height": 1350,
+        "bytes": 256476,
+        "sha256": "6d62118f3c44a0973ae6a8144075e927908c2088fb2124a3bc056537a42f4061"
+      },
+      "thumbnail": {
+        "path": "/previews/dussehra-business-greeting-brand-d7b8c4397d-thumb.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 68074,
+        "sha256": "9e0d0039c9b743191ec9943f1c0c12b051162822eeb3ee280b2c6880f583da38"
+      },
+      "review": "Visual full-resolution and mobile-size review of actual generated artwork, lettering, icon meanings, religious composition and exact source-logo placement. No biometric or cultural certification."
+    }
+  ]
+}

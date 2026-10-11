@@ -1,6 +1,47 @@
 # Website-informed festival prompt revision — 11 October 2026
 
-Status: implemented and validated locally; no production release or database writes.
+Status: copy and three regenerated previews implemented and validated locally; no production release or database writes.
+
+## Follow-up: regenerated branded previews
+
+The owner subsequently requested regenerating the existing previews with the new
+prompt. Diwali, Durga Puja and Dussehra now demonstrate PicMagic's own brand,
+three verified editor features with matching icons, a call to action and public
+website. This supersedes the copy-only preview statements below.
+
+- Used signed-in ChatGPT's included image workflow, not a paid API or alternate
+  provider. Actual underlying image-model name was not exposed.
+- ChatGPT could read the live poster-maker page; the homepage request timed out.
+  Repository CSS and the original logo vectors supplied the missing palette and
+  brand assets. Automatic website logo extraction was not tested or claimed.
+- Generated artwork, lettering and icons were reviewed. The exact original mark
+  and outlined wordmark were composited afterward using the source paths and
+  colours, not redrawn with AI. The reusable finishing script reads these paths
+  directly and never overwrites its source image.
+- Durga Puja and Dussehra used the existing public PicMagic previews as edit
+  inputs. No private photographs or third-party example brands were uploaded.
+  The Dussehra second variant was selected for stronger small-text legibility.
+- Sources are 1122×1402; optimized previews are 1080×1350, thumbnails 480×600.
+  These are flattened examples, not native 4K or editable poster-maker exports.
+  Existing text-free editor artwork and editor functionality remain unchanged.
+- Source files and unused variants stay private. Public source/output hashes,
+  conversation references, exact logo placement and review evidence are recorded
+  in `preview-review.json`. Prior asset provenance is nested as `previous_asset`;
+  original image briefs are preserved in the before-fields of `changes.json`.
+- Template FAQs and the guide now describe the actual generation/compositing
+  workflow and its limits. The guide uses the three new images; the other six
+  articles and all publication flags remain unchanged.
+
+Validation: lint/typecheck, 333 unit tests, 9 mocked IndexNow tests, content/SEO/
+release/festival/blog checks, the 159-entry production build (ads/analytics off)
+and two local desktop/mobile browser tests passed.
+The browser checks verify all three loaded previews and copied prompts, portrait
+metadata, guide images/disclosures and overflow at 320/390/768/1440 pixels.
+The catalogue remains 104 published / 89 drafts; SEO has zero errors and the same
+50 review notices. Production activation and a fresh guarded backup/rehearsal
+remain pending explicit release authorization.
+
+## Earlier copy-only implementation record
 
 ## Scope
 
@@ -29,6 +70,6 @@ The exact four prompt before/after field sets are in `changes.json`. The release
 
 ## Pending release
 
-Production uses Supabase; editing these seed/review records alone does not change live content. A separate authorized release must back up the exact four prompt rows and one published blog row, compare the affected old fields with the baseline, rehearse one guarded transaction and rollback, and apply only the allowed editorial fields. Preserve all publication flags, existing URLs, dates of original publication, image assets, unrelated rows and drafts. Do not import the seed article's draft/indexability flags into its published production row.
+Production uses Supabase; editing these seed/review records alone does not change live content. A separate authorized release must back up the exact four prompt rows and one published blog row, compare the affected old fields with the baseline, rehearse one guarded transaction and rollback, and apply only the allowed editorial and three-preview fields in the current `changes.json`. Preserve all publication flags, existing URLs, dates of original publication, historical assets, unrelated rows and drafts. Do not import the seed article's draft/indexability flags into its published production row. Deploy and verify the six new optimized image assets before activating their content URLs.
 
 Check hosting credits and deployment controls, deploy the validated code once if needed, apply the reviewed content transaction and invalidate catalogue/blog caches, then verify live metadata, prompt text, article and sitemap dates. Advertising and affiliate monetization remain disabled. The unrelated cleanup report and earlier search-release evidence were excluded from this change.

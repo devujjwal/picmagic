@@ -9,9 +9,11 @@
     "seo_title",
     "meta_description",
     "date_modified",
-    "evidence_note"
+    "evidence_note",
+    "featured_image",
+    "sources"
   ],
-  "beforeSha256": "62924e1b66c26be7d32ca7236929778184670893cc138043d17bb97b37dc4729",
-  "afterSha256": "b467c4e81744752a1d78afd67614d6f6c180488bd382c15191e56ed54c340d23",
+  "beforeSha256": "792224a49675a0dd902ca63e8f4cb917fd265fbb0135a26b085ec13421acfc26",
+  "afterSha256": "4a551070f71f1455df336d04835c7c45e0004e372300bc775ce8b5e7ec463f17",
   "publication": "No publication or indexability fields changed; back up the live row and compare these fields before any separately approved activation."
 }
