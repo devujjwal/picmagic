@@ -1,5 +1,39 @@
 # Free hosting budget and release policy
 
+## Vercel hosting and pending Netlify retirement — October 18, 2026
+
+The owner authorized moving PicMagic to the existing Vercel **Hobby** scope
+`devujjwals-projects` and retiring Netlify only after live verification. Current
+migration evidence and DNS rollback values are in
+`docs/audits/vercel-migration-2026-10-18.md`. The September account snapshots below
+are historical, not the current subscription state.
+
+- Zero new hosting spend remains mandatory: no Pro trial, paid upgrade, payment
+  details, purchased credits or paid add-ons.
+- Hobby is limited to personal, non-commercial use. The owner currently states
+  no ads/non-profit use; reassess eligibility before ads, affiliate links or other
+  commercial use. No advertising or affiliate activation is part of migration.
+- Hobby resources are shared with the owner's other projects. Verified dashboard
+  before migration: 56m59s/4 CPU-hours, 3.1/100 GB transfer, 81K/1M function
+  invocations, 99K/1M CDN requests. These are a snapshot, not a traffic guarantee.
+- Netlify automatic builds have been **stopped**; the existing published site is
+  retained while old DNS caches expire and pending permanent-deletion confirmation.
+  Vercel deployment `3fef809` is ready, both custom domains have valid HTTPS and
+  the website DNS points to Vercel. See the audit for propagation limitations.
+  Branch deploys and Deploy
+  Previews were already disabled, with no build hooks. GitHub has no workflows or
+  open PRs for this repository.
+- Vercel Git-triggered builds are disabled in `vercel.json` during migration.
+  Deploy only a clean, validated tracked snapshot; never deploy the dirty working
+  directory, local environment files or `.release-private`.
+- Netlify still shows a Personal subscription and an overdue **$9 invoice**.
+  Moving/deleting the project does not settle the invoice or prove cancellation
+  of its team subscription. No payment is authorized.
+
+Official sources checked October 18: [Hobby allowance and limits](https://vercel.com/docs/plans/hobby)
+and [personal/non-commercial fair use](https://vercel.com/docs/limits/fair-use-guidelines).
+Exceeding free allowances may interrupt service; never upgrade automatically.
+
 ## Verified account state — September 10, 2026
 
 Netlify team `devujjwal`, project `picmagic-in`:

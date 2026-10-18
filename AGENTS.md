@@ -156,3 +156,18 @@ Review current AdSense readiness and request review only when eligible and the
 required statements are supported; do not promise approval, traffic or indexing.
 Advertising and affiliate monetization remain disabled pending their separate
 verification requirements.
+
+## Vercel migration authorization — 18 October 2026
+
+The owner authorized migrating PicMagic to the existing Vercel Hobby account and
+retiring Netlify after successful live verification. This supersedes the old
+Netlify hosting/deployment assumptions above for this migration only. Zero new
+hosting spend remains mandatory; no Pro trial, paid add-on, upgrade or payment.
+Read `docs/FREE-HOSTING.md` and `docs/audits/vercel-migration-2026-10-18.md` for the
+current cutover, DNS rollback and pending retirement state. Netlify automatic
+builds are stopped and Vercel Git-triggered builds are disabled. Future releases
+require explicit authorization, local validation and a clean tracked snapshot;
+do not assume a push to main publishes the site. Keep Supabase/content, private
+references, Zoho mail, canonical URLs, consent and disabled monetization intact.
+Permanent Netlify deletion must wait for DNS propagation and required action-time
+confirmation. Its overdue invoice/subscription is separate from project removal.
