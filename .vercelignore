@@ -8,6 +8,9 @@ node_modules
 test-results
 playwright-report
 coverage
-brand-assets
+brand-assets/*
+!brand-assets/PicMagic-Final-Social-Logo
+brand-assets/PicMagic-Final-Social-Logo/*
+!brand-assets/PicMagic-Final-Social-Logo/picmagic-magic-frame-master.svg
 output
 docs/audits/storage-cleanup-2026-10-10/report.json

@@ -30,6 +30,7 @@ Preserve MX `mx.zoho.in` / `mx2.zoho.in` / `mx3.zoho.in` with priorities 10 / 20
 - Content, SEO, release, festival and blog checks passed (existing editorial notices retained).
 - 20 desktop/mobile browser checks passed against the local production build with Google services stubbed: CSP nonce isolation, navigation/copy, protected admin, responsive poster controls, English/Hindi exports in three sizes, pixel-identical preview/export and upload/text privacy.
 - Initial Vercel build stopped safely during tests because its inherited `NODE_ENV=production` selected React's production-only test runtime. The test command now explicitly uses `NODE_ENV=test` only for Vitest; the application build retains production mode. Reproduced the hosted environment locally: all 335 unit tests and 9 IndexNow tests passed.
+- Hosted retry passed 334/335 tests; the branding test correctly detected that the upload exclusions omitted its public master-logo SVG fixture. Allowlisted that single tracked SVG, keeping all other social exports and private assets excluded.
 
 ## Release status
 
