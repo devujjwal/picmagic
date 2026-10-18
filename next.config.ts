@@ -16,6 +16,7 @@ const config: NextConfig = {
     // Hosted builds retain Next.js private-network protection.
     dangerouslyAllowLocalIP:
       process.env.CONTEXT !== "production" &&
+      !process.env.VERCEL &&
       supabase === "http://127.0.0.1:54421",
     remotePatterns: supabase
       ? [
@@ -54,6 +55,12 @@ const config: NextConfig = {
   },
   async headers() {
     return [
+      {
+        // Keep hosting aliases out of search; picmagic.in remains canonical.
+        source: "/:path*",
+        has: [{ type: "host", value: ".*\\.vercel\\.app" }],
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
       {
         source: "/blog-preview/:path*",
         headers: [

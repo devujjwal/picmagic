@@ -14,6 +14,9 @@ describe("local social image review", () => {
     for (const blocked of [
       { CONTENT_SOURCE: "supabase" },
       { NETLIFY: "true" },
+      { VERCEL: "1" },
+      { VERCEL_ENV: "preview" },
+      { VERCEL_ENV: "production" },
       { CONTEXT: "production" },
       { CONTEXT: "deploy-preview" },
       { CI: "true" },

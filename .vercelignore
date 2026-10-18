@@ -1,0 +1,13 @@
+# Deployment contains application files only, never local credentials or evidence.
+.git
+.env*
+.release-private
+.netlify
+.next*
+node_modules
+test-results
+playwright-report
+coverage
+brand-assets
+output
+docs/audits/storage-cleanup-2026-10-10/report.json

@@ -15,6 +15,8 @@ export function socialPreviewEnabled(
     env.PICMAGIC_SOCIAL_PREVIEW === "true" &&
     env.NEXT_PUBLIC_INDEXING_ENABLED === "false" &&
     !env.NETLIFY &&
+    !env.VERCEL &&
+    !env.VERCEL_ENV &&
     !env.CONTEXT &&
     !env.CI
   );

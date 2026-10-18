@@ -13,7 +13,8 @@ export const site = {
   indexing:
     process.env.NEXT_PUBLIC_INDEXING_ENABLED === "true" &&
     process.env.CONTEXT !== "deploy-preview" &&
-    process.env.CONTEXT !== "branch-deploy",
+    process.env.CONTEXT !== "branch-deploy" &&
+    (!process.env.VERCEL_ENV || process.env.VERCEL_ENV === "production"),
 };
 export const navigation = [
   { href: "/ai-prompts", label: "Explore" },

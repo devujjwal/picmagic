@@ -1,6 +1,8 @@
 // Build previews freely; fail a production deployment with incomplete launch configuration.
 if (
   process.env.CONTEXT !== "production" &&
+  process.env.VERCEL_ENV !== "production" &&
+  process.env.VERCEL_TARGET_ENV !== "production" &&
   !process.argv.includes("--production")
 )
   process.exit(0);
