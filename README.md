@@ -6,7 +6,7 @@ A mobile-first photo inspiration library, guided enhancement/photo/reel prompt c
 
 Live site: [picmagic.in](https://picmagic.in). Editorial login: [PicMagic Admin](https://picmagic.in/admin/login). See the [launch record](docs/LAUNCH.md) for verified hosting, DNS and Search Console outcomes.
 
-Source: [private GitHub repository](https://github.com/devujjwal/picmagic). Pushes to `main` trigger Netlify's validation, build and production deployment. See [automatic deployment](docs/DEPLOYMENT.md#automatic-deployment-from-github) for the workflow and recovery steps.
+Source: [public GitHub repository](https://github.com/devujjwal/picmagic). The application source is open source under the [MIT License](LICENSE). See [deployment documentation](docs/DEPLOYMENT.md) for hosting details.
 
 ## Run locally
 
@@ -35,3 +35,9 @@ Browser tests use `http://localhost:3002` by default; override `E2E_BASE_URL` fo
 See [deployment and Search Console setup](docs/DEPLOYMENT.md), [architecture](docs/ARCHITECTURE.md), and [implementation/verification report](docs/IMPLEMENTATION.md).
 
 The production origin is `https://picmagic.in`. AdSense is configured with CMP-controlled manual placements; Google site review is pending. GA4 is configured for PicMagic with explicit analytics consent; see [GA4 operations](docs/GA4.md). See [AdSense operations](docs/ADSENSE.md) for status and activation checks.
+
+## License
+
+The application source code is licensed under the [MIT License](LICENSE), copyright (c) 2026 Ujjwal Paul.
+
+Third-party dependencies, photographs, branding, and other media retain their respective licenses and rights. The application source license does not grant rights to third-party material.
